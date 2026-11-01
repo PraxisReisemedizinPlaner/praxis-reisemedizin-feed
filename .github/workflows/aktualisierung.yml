@@ -1,0 +1,60 @@
+name: Reisemedizin – CDC-Meldungen taeglich aktualisieren
+
+on:
+  workflow_dispatch:
+
+  push:
+    branches: [main]
+    paths:
+      - 'refresh_international_alerts.py'
+      - 'index.html'
+      - '.github/workflows/aktualisierung.yml'
+
+  schedule:
+    - cron: '17 5 * * *'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: reisemedizin-pages
+  cancel-in-progress: false
+
+jobs:
+  aktualisieren-und-veroeffentlichen:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Dateien aus dem Repository laden
+        uses: actions/checkout@v4
+
+      - name: Python bereitstellen
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Offizielle CDC-Meldungen abrufen
+        run: python refresh_international_alerts.py
+
+      - name: Webseite und aktuelle Daten vorbereiten
+        run: |
+          mkdir -p _site
+          cp index.html public_international_alerts.json _site/
+
+      - name: GitHub Pages konfigurieren
+        uses: actions/configure-pages@v5
+
+      - name: Aktuelle Dateien bereitstellen
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./_site
+
+      - name: Im Internet veroeffentlichen
+        id: deployment
+        uses: actions/deploy-pages@v4
