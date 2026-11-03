@@ -1,0 +1,117 @@
+
+{
+  "schemaVersion": 1,
+  "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
+  "edition": "pilot-AT-MA-2026-11-03",
+  "createdAt": "2026-11-03",
+  "publicationStatus": "DRAFT_NOT_MEDICALLY_APPROVED",
+  "medicalApproval": {
+    "status": "pending",
+    "approvedBy": null,
+    "approvedAt": null
+  },
+  "dataPolicy": {
+    "countryCount": 2,
+    "sourceCheckIsNotClinicalApproval": true,
+    "dailyRetrievalDoesNotEqualDailyMedicalReview": true
+  },
+  "countries": {
+    "MA": {
+      "checked": "2026-11-03",
+      "vaxEdition": "2026",
+      "reviewStatus": "editorial_draft",
+      "source": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/marokkosicherheit-224080",
+      "officialSources": [
+        {
+          "name": "RKI/STIKO-DTG Ländertabelle 2026 – Marokko",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "page": 73
+        },
+        {
+          "name": "Auswärtiges Amt – Gesundheit / Marokko",
+          "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/marokkosicherheit-224080"
+        },
+        {
+          "name": "Deutsche Auslandsvertretungen – Marokko",
+          "url": "https://www.auswaertiges-amt.de/de/service/laender/marokko-node/marokko-224062"
+        }
+      ],
+      "base": [
+        "Hepatitis A"
+      ],
+      "extra": [
+        "Hepatitis B",
+        "Tollwut",
+        "Typhus"
+      ],
+      "duty": "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen genannt. Bei Einreise aus poliobetroffenen Ländern kann ein Poliomyelitis-Impfnachweis erforderlich sein. Maßgeblich sind die aktuelle Route und die Einreisevorgaben.",
+      "malariaDefault": "none",
+      "malaria": "Laut STIKO/DTG-Ländertabelle 2026 ist für Marokko kein Malariarisiko bekannt oder gemeldet. Eine routinemäßige Malaria-Chemoprophylaxe wird für dieses Reiseziel daher nicht abgeleitet. Mücken- und Sandmückenschutz bleibt wegen anderer Infektionen sinnvoll.",
+      "rules": [],
+      "travelTips": "Insbesondere Sandmückenschutz (Leishmaniose), Hygiene beim Essen und Trinken sowie Schutz vor starker Sonneneinstrahlung beachten.",
+      "missions": [
+        {
+          "title": "Deutsche Botschaft Rabat",
+          "address": "7, Zankat Madnine, Rabat, Marokko",
+          "scope": "Marokko",
+          "phone": "+212 537 21 86 00",
+          "url": "https://www.auswaertiges-amt.de/de/service/laender/marokko-node/marokko-224062"
+        },
+        {
+          "title": "Rechts- und Konsularabteilung der Deutschen Botschaft Rabat",
+          "address": "Rue Sanhaja, Souissi, Rabat, Marokko",
+          "scope": "Konsularangelegenheiten, vorherige Terminprüfung",
+          "phone": "+212 537 63 54 00",
+          "url": "https://www.auswaertiges-amt.de/de/service/laender/marokko-node/marokko-224062"
+        }
+      ]
+    },
+    "AT": {
+      "checked": "2026-11-03",
+      "vaxEdition": "2026",
+      "reviewStatus": "editorial_draft",
+      "source": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/oesterreichsicherheit-210962",
+      "officialSources": [
+        {
+          "name": "RKI/STIKO-DTG Ländertabelle 2026 – Österreich",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "page": 89
+        },
+        {
+          "name": "Auswärtiges Amt – Gesundheit / Österreich",
+          "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/oesterreichsicherheit-210962"
+        },
+        {
+          "name": "Deutsche Auslandsvertretungen – Österreich",
+          "url": "https://www.auswaertiges-amt.de/de/service/laender/oesterreich-node/oesterreich-210956"
+        }
+      ],
+      "base": [],
+      "extra": [
+        "FSME",
+        "Hepatitis B"
+      ],
+      "duty": "Für die Einreise nach Österreich sind keine Pflichtimpfungen vorgeschrieben. Standard- und altersbezogene Indikationsimpfungen nach STIKO prüfen.",
+      "malariaDefault": "none",
+      "malaria": "Laut STIKO/DTG-Ländertabelle 2026 ist für Österreich kein Malariarisiko bekannt oder gemeldet. Keine Malaria-Chemoprophylaxe aus diesem Länderprofil ableitbar. Zecken- und Mückenschutz bleibt wegen FSME, West-Nil-Fieber und anderer Infektionen relevant.",
+      "rules": [],
+      "travelTips": "FSME-Impfung insbesondere bei Aufenthalten in Zeckenhabitaten prüfen; Expositionsschutz vor Zecken und tagaktiven Mücken. Keine pauschale FSME-Impfpflicht.",
+      "missions": [
+        {
+          "title": "Deutsche Botschaft Wien",
+          "address": "Metternichgasse 3, 1030 Wien, Österreich",
+          "scope": "Österreich; konsularische Anliegen je nach Bezirk prüfen",
+          "phone": "+43 1 711 54 0",
+          "url": "https://www.auswaertiges-amt.de/de/service/laender/oesterreich-node/oesterreich-210956"
+        },
+        {
+          "title": "Konsularreferat (Pass- und Visastelle), Deutsche Botschaft Wien",
+          "address": "Strohgasse 14c, 1030 Wien, Österreich",
+          "scope": "Pass-, Ausweis- und konsularische Dienstleistungen nach Termin",
+          "phone": "+43 1 711 54 0",
+          "url": "https://www.auswaertiges-amt.de/de/service/laender/oesterreich-node/oesterreich-210956"
+        }
+      ]
+    }
+  }
+}
