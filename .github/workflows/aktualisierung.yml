@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - 'refresh_international_alerts.py'
+      - 'country_profiles_v1.json'
       - 'index.html'
       - '.github/workflows/aktualisierung.yml'
 
@@ -45,7 +46,7 @@ jobs:
       - name: Webseite und aktuelle Daten vorbereiten
         run: |
           mkdir -p _site
-          cp index.html public_international_alerts.json _site/
+          cp index.html public_international_alerts.json country_profiles_v1.json _site/
 
       - name: GitHub Pages konfigurieren
         uses: actions/configure-pages@v5
