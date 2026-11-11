@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ReiseCheck V16 – sicherer Länder-Datenbanktest</title>
+<style>
+:root{color-scheme:light;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+*{box-sizing:border-box}body{background:#f4f8fa;color:#203a47;margin:0;padding:24px 12px}
+main{max-width:850px;margin:auto;background:white;border:1px solid #d9e5ea;border-radius:16px;padding:clamp(18px,4vw,32px)}
+h1{font-size:clamp(1.45rem,3vw,2rem);margin:0 0 .5rem}h2{font-size:1.05rem;margin:1.25rem 0 .35rem}
+p{line-height:1.55}.small{color:#526b78;font-size:.9rem}
+.notice{background:#edf5f8;border-left:4px solid #6592a7;padding:12px 14px;border-radius:6px}
+select{width:100%;background:white;border:1.5px solid #7797a7;border-radius:10px;padding:13px;font:inherit;color:inherit}
+select:focus{outline:3px solid #b9d3df}section{border-top:1px solid #dbe5ea;margin-top:17px;padding-top:12px}
+.status{font-weight:650}.muted{color:#56717f}
+.item{padding:.35rem 0}.footer{font-size:.83rem;color:#58717d}
+</style>
+</head>
+<body>
+<main>
+<h1>ReiseCheck – Länderdatenbank V16</h1>
+<p class="small">Technische Vorschau · Praxis Dr. Münster | Dein Hausarzt</p>
+<p class="notice">Nur ärztlich freigegebene Länderprofile enthalten medizinische Empfehlungen. Fehlen geprüfte Angaben, bedeutet das <strong>nicht</strong>, dass kein gesundheitliches Risiko besteht.</p>
+<label for="country"><strong>Reiseland auswählen</strong></label>
+<select id="country" aria-describedby="status"><option value="">Länderdaten werden geladen …</option></select>
+<p id="status" class="small" aria-live="polite">Datenquelle wird geprüft …</p>
+<div id="result" aria-live="polite"></div>
+<section class="footer">
+Diese Seite dient dem technischen Test der freigabegeschützten V16-Datenbank. Sie ersetzt keine individuelle ärztliche Reiseberatung. Die bestehende ReiseCheck-Seite auf Jimdo wird nicht verändert.
+</section>
+</main>
+<script>
+(async function(){
+  "use strict";
+  const picker=document.getElementById("country");
+  const status=document.getElementById("status");
+  const result=document.getElementById("result");
+  let feed=null;
+  function paragraph(parent,value,cls){
+    const p=document.createElement("p");
+    if(cls)p.className=cls;
+    p.textContent=String(value??"");
+    parent.append(p);
+  }
+  function section(title,items){
+    const el=document.createElement("section");
+    const heading=document.createElement("h2");
+    heading.textContent=title;
+    el.append(heading);
+    const texts=Array.isArray(items)?items:[items];
+    if(!texts.length)paragraph(el,"Keine Angaben hinterlegt.","small");
+    else texts.forEach(t=>paragraph(el,t,"item"));
+    result.append(el);
+  }
+  function show(code){
+    result.replaceChildren();
+    if(!code||!feed)return;
+    const verified=feed.countries?.[code];
+    if(!verified){
+      paragraph(result,"Für dieses Land liegt noch kein ärztlich freigegebenes Länderprofil vor. Bitte lass dich vor der Reise individuell beraten.","notice");
+      return;
+    }
+    section("Impfungen – für alle Reisenden",verified.vaccinations?.forAll??[]);
+    section("Impfungen – abhängig von Reise und Exposition",verified.vaccinations?.riskBased??[]);
+    section("Einreisevorgaben / Reiseroute",[
+      ...(verified.vaccinations?.entryRequirements??[]),
+      ...(verified.vaccinations?.routeDependent??[])
+    ]);
+    section("Malaria",verified.malaria?.clinicalRecommendation||"Ärztliche Prüfung erforderlich");
+    paragraph(result,"Ärztlich geprüft: "+verified.medicalReviewDate+
+      " · Nächste Prüfung: "+verified.nextReviewDate,"small");
+  }
+  try{
+    const response=await fetch("./country_profiles_public_v16.json",{cache:"no-store"});
+    if(!response.ok)throw Error("HTTP "+response.status);
+    feed=await response.json();
+    if(feed.schemaVersion!==2||!feed.coverage||!feed.countries)throw Error("Datenformat unbekannt");
+    picker.replaceChildren(new Option("Bitte Reiseziel auswählen",""));
+    Object.entries(feed.coverage)
+      .sort((a,b)=>a[1].name.localeCompare(b[1].name,"de"))
+      .forEach(([code,item])=>picker.add(new Option(item.name,code)));
+    picker.addEventListener("change",()=>show(picker.value));
+    status.textContent="Länder im Verzeichnis: "+feed.coverageCount+
+      " · Medizinisch freigegeben: "+feed.approvedCount+
+      " · Datenstand: "+feed.generatedAt.slice(0,10);
+  }catch(error){
+    picker.replaceChildren(new Option("Daten derzeit nicht verfügbar",""));
+    picker.disabled=true;
+    status.textContent="Die Länderinformationen konnten nicht geladen werden. Bitte versuche es später erneut.";
+  }
+})();
+</script>
+</body>
+</html>
