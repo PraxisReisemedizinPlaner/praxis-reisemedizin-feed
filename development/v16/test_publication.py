@@ -78,6 +78,7 @@ class PublishingSafetyTests(unittest.TestCase):
 
     def test_expired_approval_not_exposed(self):
         data = self.synthetic_approved()
+        data["countries"]["MA"]["medicalReview"]["reviewedAt"] = "2026-10-11"
         data["countries"]["MA"]["medicalReview"]["nextReviewDate"] = "2026-11-10"
         out = build_public(data, TODAY)
         self.assertEqual(out["approvedCount"], 0)
