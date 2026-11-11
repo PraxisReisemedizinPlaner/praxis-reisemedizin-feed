@@ -21,7 +21,7 @@ def main():
     require(data["countryCount"] == len(countries), "Country count mismatch")
     require(data["mode"] == "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
             "This file is a development-only draft")
-    require(len(countries) == 9, "Unexpected number of draft countries")
+    require(len(countries) >= 9, "Unexpected loss of the original nine draft countries")
     require(data["policy"]["noDTGStructuredReuse"] is True,
             "DTG restriction missing")
     for code, profile in countries.items():
