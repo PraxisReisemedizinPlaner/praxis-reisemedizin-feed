@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "edition": "v16-dev-2026-11-11",
+  "publicationStatus": "REFERENCE_ONLY",
+  "policies": {
+    "dtg": {
+      "allowed": "direct hyperlinks",
+      "forbidden": [
+        "maps reproduction",
+        "structured DTG country data integration",
+        "automatic scraping and extraction"
+      ],
+      "basis": "Written DTG response supplied by practice"
+    },
+    "researchSources": "No automated medical decisions derived from resistance and surveillance reports",
+    "licenses": "Check source-specific terms before any reuse or machine ingestion",
+    "externalLinks": "Links must be checked during editorial review"
+  },
+  "sources": [
+    {
+      "id": "WHO-GMP",
+      "name": "WHO Global Malaria Programme",
+      "url": "https://www.who.int/teams/global-malaria-programme",
+      "region": "global",
+      "role": "surveillance",
+      "ingestionEnabled": false,
+      "licenseReview": "pending",
+      "medicalUse": "research/reference only; no automated prescription or prophylaxis recommendation"
+    },
+    {
+      "id": "WHO-THREATS",
+      "name": "WHO Malaria Threats Map",
+      "url": "https://www.who.int/teams/global-malaria-programme/surveillance/malaria-threats-map",
+      "region": "global",
+      "role": "resistance_and_vectors",
+      "ingestionEnabled": false,
+      "licenseReview": "pending",
+      "medicalUse": "research/reference only; no automated prescription or prophylaxis recommendation"
+    },
+    {
+      "id": "WHO-RESISTANCE",
+      "name": "WHO Antimalarial drug efficacy and resistance",
+      "url": "https://www.who.int/teams/global-malaria-programme/case-management/drug-efficacy-and-resistance",
+      "region": "global",
+      "role": "resistance",
+      "ingestionEnabled": false,
+      "licenseReview": "pending",
+      "medicalUse": "research/reference only; no automated prescription or prophylaxis recommendation"
+    },
+    {
+      "id": "CDC-TRAVEL",
+      "name": "CDC country-specific malaria information",
+      "url": "https://www.cdc.gov/malaria/travelers/country_table/a.html",
+      "region": "global",
+      "role": "travel_risk",
+      "ingestionEnabled": false,
+      "licenseReview": "pending",
+      "medicalUse": "research/reference only; no automated prescription or prophylaxis recommendation"
+    },
+    {
+      "id": "ECDC",
+      "name": "ECDC malaria information",
+      "url": "https://www.ecdc.europa.eu/en/malaria",
+      "region": "eu_and_global",
+      "role": "surveillance",
+      "ingestionEnabled": false,
+      "licenseReview": "pending",
+      "medicalUse": "research/reference only; no automated prescription or prophylaxis recommendation"
+    },
+    {
+      "id": "PAHO",
+      "name": "PAHO malaria",
+      "url": "https://www.paho.org/en/topics/malaria",
+      "region": "americas",
+      "role": "surveillance",
+      "ingestionEnabled": false,
+      "licenseReview": "pending",
+      "medicalUse": "research/reference only; no automated prescription or prophylaxis recommendation"
+    },
+    {
+      "id": "MARC-SE",
+      "name": "MARC SE-Africa",
+      "url": "https://www.marcse-africa.org/",
+      "region": "east_southern_africa",
+      "role": "resistance",
+      "ingestionEnabled": false,
+      "licenseReview": "pending",
+      "medicalUse": "research/reference only; no automated prescription or prophylaxis recommendation"
+    },
+    {
+      "id": "MORU",
+      "name": "Mahidol Oxford Tropical Medicine Research Unit",
+      "url": "https://www.tropmed.ac/",
+      "region": "asia",
+      "role": "research",
+      "ingestionEnabled": false,
+      "licenseReview": "pending",
+      "medicalUse": "research/reference only; no automated prescription or prophylaxis recommendation"
+    },
+    {
+      "id": "OUCRU",
+      "name": "Oxford University Clinical Research Unit",
+      "url": "https://www.oucru.org/",
+      "region": "asia",
+      "role": "research",
+      "ingestionEnabled": false,
+      "licenseReview": "pending",
+      "medicalUse": "research/reference only; no automated prescription or prophylaxis recommendation"
+    },
+    {
+      "id": "WWARN",
+      "name": "WorldWide Antimalarial Research Network",
+      "url": "https://health.uct.ac.za/ccoat/worldwide-antimalarial-resistance-network",
+      "region": "global",
+      "role": "resistance",
+      "ingestionEnabled": false,
+      "licenseReview": "pending",
+      "medicalUse": "research/reference only; no automated prescription or prophylaxis recommendation"
+    },
+    {
+      "id": "RAI",
+      "name": "Regional Artemisinin-resistance Initiative",
+      "url": "https://rai-rsc.org/",
+      "region": "greater_mekong",
+      "role": "regional_programme",
+      "ingestionEnabled": false,
+      "licenseReview": "pending",
+      "medicalUse": "research/reference only; no automated prescription or prophylaxis recommendation"
+    },
+    {
+      "id": "MMS",
+      "name": "MMS Americas",
+      "url": "https://mmsamericas.org/",
+      "region": "americas",
+      "role": "molecular_surveillance",
+      "ingestionEnabled": false,
+      "licenseReview": "pending",
+      "medicalUse": "research/reference only; no automated prescription or prophylaxis recommendation"
+    },
+    {
+      "id": "MESA",
+      "name": "Malaria Eradication Scientific Alliance",
+      "url": "https://mesamalaria.org/",
+      "region": "global",
+      "role": "research_index",
+      "ingestionEnabled": false,
+      "licenseReview": "pending",
+      "medicalUse": "research/reference only; no automated prescription or prophylaxis recommendation"
+    },
+    {
+      "id": "TARGET",
+      "name": "Target Malaria",
+      "url": "https://targetmalaria.org/",
+      "region": "africa",
+      "role": "vector_research",
+      "ingestionEnabled": false,
+      "licenseReview": "pending",
+      "medicalUse": "research/reference only; no automated prescription or prophylaxis recommendation"
+    },
+    {
+      "id": "PARMA",
+      "name": "Partnership for Antimalarial Resistance Monitoring in Africa",
+      "url": "https://www.cdcfoundation.org/programs/antimalarial-resistance-monitoring-africa",
+      "region": "africa",
+      "role": "resistance",
+      "ingestionEnabled": false,
+      "licenseReview": "pending",
+      "medicalUse": "research/reference only; no automated prescription or prophylaxis recommendation"
+    },
+    {
+      "id": "AMI",
+      "name": "Amazon Malaria Initiative (historical)",
+      "url": "https://linksglobal.org/AMI/about.shtml",
+      "region": "americas",
+      "role": "historical_programme",
+      "ingestionEnabled": false,
+      "licenseReview": "pending",
+      "medicalUse": "research/reference only; no automated prescription or prophylaxis recommendation"
+    },
+    {
+      "id": "DTG",
+      "name": "DTG Malariakarten – ausschließlich Direktlink",
+      "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
+      "region": "global",
+      "role": "external_link_only",
+      "ingestionEnabled": false,
+      "licenseReview": "pending",
+      "medicalUse": "research/reference only; no automated prescription or prophylaxis recommendation"
+    }
+  ]
+}
