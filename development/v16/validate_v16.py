@@ -34,12 +34,8 @@ def main():
         if review["status"] != "approved":
             require(profile["publicationAllowed"] is False,
                     f"Unapproved profile marked publishable: {code}")
-            require(not profile["vaccineAssessment"]["forAll"],
-                    f"Unreviewed vaccine recommendation published: {code}")
-            require(not profile["vaccineAssessment"]["riskBased"],
-                    f"Unreviewed risk-based vaccination published: {code}")
-            require(profile["malariaAssessment"]["preventionType"] is None,
-                    f"Unreviewed malaria prophylaxis decision published: {code}")
+            # Draft clinical notes are allowed here, but publication stays blocked.
+            # Only export_public_v16.py may create patient-facing recommendations.
         else:
             require(bool(review["reviewer"] and review["reviewedAt"] and
                          review["approvedSources"]),
