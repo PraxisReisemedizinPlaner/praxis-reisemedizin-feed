@@ -430,11 +430,42 @@
     "MA": {
       "name": "Marokko",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "approvedSources": [],
-        "nextReviewDate": null
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-11",
+        "nextReviewDate": "2027-01-11",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/marokkosicherheit-224080",
+            "checkedAt": "2026-11-11",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/m.html",
+            "checkedAt": "2026-11-11",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Empfehlungen-der-STIKO/Empfehlungen/empfehlungen-node.html",
+            "checkedAt": "2026-11-11",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://rabat.diplo.de/ma-de/ueber-uns/1788346-1788346",
+            "checkedAt": "2026-11-11",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://rabat.diplo.de/ma-de/ueber-uns/2122242-2122242",
+            "checkedAt": "2026-11-11",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "ReiseCheck_Jimdo_V15.html / STARTER (unverified previous draft)",
@@ -451,46 +482,112 @@
         "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
       },
       "vaccineAssessment": {
-        "status": "not_reviewed",
-        "forAll": [],
-        "riskBased": [],
-        "entryRequirements": [],
-        "routeDependent": []
+        "status": "approved",
+        "forAll": [
+          "Hepatitis A; Standardimpfungen nach aktuellem STIKO-Impfkalender prüfen, insbesondere Masern- und Diphtherieschutz."
+        ],
+        "riskBased": [
+          "Hepatitis B bei individueller Indikation und Expositionsrisiko.",
+          "Tollwut bei entsprechendem Tierkontakt- und Versorgungsrisiko.",
+          "Typhus bei entsprechender Reiseform, Hygiene- und Expositionssituation."
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind aktuell keine Pflichtimpfungen vorgeschrieben."
+        ],
+        "routeDependent": [
+          "Bei Einreise aus Ländern mit lokaler Poliovirus-Übertragung kann ein Poliomyelitis-Impfnachweis erforderlich sein; Reiseroute und aktuelle Einreisebestimmungen prüfen."
+        ]
       },
       "malariaAssessment": {
-        "status": "not_reviewed",
-        "riskLevel": null,
-        "preventionType": null,
+        "status": "approved",
+        "riskLevel": "none",
+        "preventionType": "none",
         "regions": [],
         "medicationName": null,
-        "clinicalRecommendation": null,
+        "clinicalRecommendation": "Für Marokko weist die herangezogene CDC-Länderübersicht derzeit kein Malariavorkommen aus. Eine routinemäßige Malaria-Chemoprophylaxe ist deshalb für übliche Reisen nicht angezeigt. Schutz vor Mücken und Sandmücken bleibt zum Schutz vor anderen Infektionen sinnvoll; bei besonderen Reiserouten individuelle ärztliche Prüfung.",
         "sourceLinks": [
           {
-            "label": "DTG Malariakarten – Verlinkung ausschließlich",
+            "label": "CDC: Malariastatus Marokko",
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/m.html",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt: Marokko",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/marokkosicherheit-224080",
+            "use": "external_link_only"
+          },
+          {
+            "label": "DTG-Malariakarten (externer Link, keine Datenübernahme)",
             "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
             "use": "external_link_only"
           }
         ]
       },
       "missions": {
-        "status": "needs_verification",
-        "verifiedEntries": []
+        "status": "approved",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Rabat",
+            "address": "7, Zankat Madnine, Rabat, Marokko",
+            "scope": "Marokko",
+            "phone": "+212 537 21 86 00",
+            "url": "https://rabat.diplo.de/ma-de/ueber-uns/1788346-1788346"
+          },
+          {
+            "title": "Rechts- und Konsularabteilung der Deutschen Botschaft Rabat",
+            "address": "Rue Sanhaja, Souissi, Rabat, Marokko",
+            "scope": "Konsularische Angelegenheiten; Terminvereinbarung erforderlich",
+            "phone": "+212 537 63 54 00",
+            "url": "https://rabat.diplo.de/ma-de/ueber-uns/2122242-2122242"
+          }
+        ]
       },
       "sourceReview": {
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/marokkosicherheit-224080",
-        "reviewedAt": null
+        "reviewedAt": "2026-11-11"
       },
-      "publicationAllowed": false
+      "publicationAllowed": true
     },
     "AT": {
       "name": "Österreich",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "approvedSources": [],
-        "nextReviewDate": null
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-11",
+        "nextReviewDate": "2027-01-11",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/oesterreichsicherheit-210962",
+            "checkedAt": "2026-11-11",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/a.html",
+            "checkedAt": "2026-11-11",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Empfehlungen-der-STIKO/Empfehlungen/empfehlungen-node.html",
+            "checkedAt": "2026-11-11",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/HepatitisB/Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-11",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wien.diplo.de/at-de/botschaft/1359932-1359932",
+            "checkedAt": "2026-11-11",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "ReiseCheck_Jimdo_V15.html / STARTER (unverified previous draft)",
@@ -501,40 +598,64 @@
           "Hepatitis B"
         ],
         "previousSourceLink": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/oesterreichsicherheit-210962",
-        "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
+        "important": "Ungeprüfter historischer V15-Entwurf, ausschließlich zur Nachverfolgung; die frühere Hepatitis-B-Reiseimpfung für Österreich wurde vom ärztlichen Prüfer verworfen und ist NICHT Bestandteil des freigegebenen Profils."
       },
       "vaccineAssessment": {
-        "status": "not_reviewed",
-        "forAll": [],
-        "riskBased": [],
-        "entryRequirements": [],
+        "status": "approved",
+        "forAll": [
+          "Alters- und indikationsgerechte Standardimpfungen entsprechend den aktuellen STIKO-Empfehlungen überprüfen; insbesondere ausreichenden Masernschutz sicherstellen."
+        ],
+        "riskBased": [
+          "FSME-Impfung bei entsprechender Zeckenexposition und individueller Risikokonstellation gemäß STIKO prüfen."
+        ],
+        "entryRequirements": [
+          "Für die Einreise nach Österreich sind keine Pflichtimpfungen vorgeschrieben."
+        ],
         "routeDependent": []
       },
       "malariaAssessment": {
-        "status": "not_reviewed",
-        "riskLevel": null,
-        "preventionType": null,
+        "status": "approved",
+        "riskLevel": "none",
+        "preventionType": "none",
         "regions": [],
         "medicationName": null,
-        "clinicalRecommendation": null,
+        "clinicalRecommendation": "Für Österreich weist die herangezogene CDC-Länderübersicht kein Malariavorkommen aus. Eine Malaria-Chemoprophylaxe ist für Reisen nach Österreich nicht angezeigt. Abhängig von Region und Jahreszeit Zecken- und Mückenschutz beachten, unter anderem wegen FSME und West-Nil-Fieber.",
         "sourceLinks": [
           {
-            "label": "DTG Malariakarten – Verlinkung ausschließlich",
+            "label": "CDC: Malariastatus Österreich",
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/a.html",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt: Österreich",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/oesterreichsicherheit-210962",
+            "use": "external_link_only"
+          },
+          {
+            "label": "DTG-Malariakarten (externer Link, keine Datenübernahme)",
             "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
             "use": "external_link_only"
           }
         ]
       },
       "missions": {
-        "status": "needs_verification",
-        "verifiedEntries": []
+        "status": "approved",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Wien",
+            "address": "Metternichgasse 3, 1030 Wien, Österreich",
+            "scope": "Österreich; Konsulatsbesuche nur nach Terminvereinbarung; Besucheradresse auf offizieller Seite vor Termin prüfen",
+            "phone": "+43 1 711 54 0",
+            "url": "https://wien.diplo.de/at-de/botschaft/1359932-1359932"
+          }
+        ]
       },
       "sourceReview": {
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/oesterreichsicherheit-210962",
-        "reviewedAt": null
+        "reviewedAt": "2026-11-11"
       },
-      "publicationAllowed": false
+      "publicationAllowed": true
     }
   }
 }
