@@ -1,11 +1,11 @@
 # Ärztliche Reviewvorlage – Marokko (MA) und Österreich (AT)
 
-**Recherchestand: 11.11.2026 · Status: nur zur ärztlichen und rechtlichen Prüfung.**
-Dieser Text und die V16-Entwurfsdaten **sind nicht zur Veröffentlichung freigegeben**. Inhalte sind kurze eigenständige Stichpunkte, keine Übernahme von DTG-Datensammlungen. Die V16-Ausgabe gibt weiterhin nur bereits ausdrücklich freigegebene Länder aus.
+**Recherchestand: 11.11.2026 · Ärztliche Freigabe am 11.11.2026 durch Dr. med. Sebastian Münster für MA und AT mit untenstehender Korrektur.**
+Die Freigabe gilt für die explizit im V16-Profil übernommenen, unabhängigen ärztlich geprüften Informationen, nicht für unüberprüfte Alttexte. DTG-Karten und -Datensammlungen werden ausschließlich verlinkt. Wiederholungsprüfung vorgesehen bis 11.01.2027.
 
 ## Marokko (MA)
 
-### Impfungen – Prüfentwurf
+### Impfungen – ärztlich geprüfte Kernaussagen
 - Aktuelle Standardimpfungen nach deutscher STIKO prüfen.
 - Hepatitis A: laut Auswärtigem Amt empfohlene Reiseimpfung.
 - Hepatitis B, Tollwut, Typhus: abhängig von Expositionsrisiko und Reiseform.
@@ -33,7 +33,7 @@ Dieser Text und die V16-Entwurfsdaten **sind nicht zur Veröffentlichung freigeg
 ### Impfungen – Prüfentwurf
 - Alters- und indikationsgerechte STIKO-Standardimpfungen einschließlich Masern überprüfen.
 - FSME: angesichts der Zeckenexposition und Reiseplanung prüfen; Auswärtiges Amt verweist auf öffentlich empfohlenen FSME-Schutz.
-- **Hepatitis B ist gesondert zu bewerten:** Die US-CDC führen eine altersspezifische Impfempfehlung für nicht geimpfte Reisende auf; diese darf nicht ungeprüft als allgemeine deutsche Reiseimpfempfehlung übernommen werden.
+- **Korrektur durch den ärztlichen Prüfer:** Hepatitis B ist **keine pauschale Reiseimpfempfehlung für Österreich**. Maßgeblich sind die allgemeinen Standard- und Indikationsimpfempfehlungen der STIKO; Hepatitis B wird daher **nicht** als österreichische Reiseimpfung in V16 ausgegeben.
 - Keine Pflichtimpfungen für die Einreise laut Auswärtigem Amt.
 
 ### Malaria & andere Insektenkrankheiten – Prüfentwurf
@@ -68,3 +68,18 @@ Dieser Text und die V16-Entwurfsdaten **sind nicht zur Veröffentlichung freigeg
 ## Technischer nächster Schritt nach Freigabe
 
 Ein medizinisch freigegebenes Land wird erst dann vom V16-Exporter veröffentlicht, wenn die Länderakte eine vollständige dokumentierte Review, alle drei Freigaben (Impfungen / Malaria / Auslandsvertretungen), geprüfte Quellenrechte und `publicationAllowed: true` enthält. Die Jimdo-Oberfläche soll danach einmalig auf den V16-Feed umgestellt werden; der bestehende V1-Feed bleibt bis dahin unabhängig.
+
+
+## Dokumentierter Freigabeentscheid
+
+Am 11.11.2026 wurden die Informationen zu **Marokko (MA)** und **Österreich (AT)** vom ärztlichen Prüfer ausdrücklich bestätigt, **mit Ausnahme einer zuvor vorgeschlagenen pauschalen Hepatitis-B-Reiseimpfung für Österreich**. Letztere wurde aus den öffentlich ausgegebenen Impfempfehlungen entfernt. Gültig bleiben die STIKO-Standard- und Indikationsimpfungen nach individuellem Risiko.
+
+Die veröffentlichte V16-Akte enthält für Österreich nur die Hauptanschrift und Kontaktinformationen der deutschen Botschaft Wien, da auf den offiziellen Seiten abweichende Besucheradressen für das Konsularreferat erscheinen. Für Konsularbesuche wird auf die offizielle Terminseite verwiesen; eine separate ungesicherte Besucheradresse wird nicht ausgegeben.
+
+Die Malariarisiko-Einschätzung basiert auf unabhängigen CDC-Länderangaben und ärztlicher Einordnung; die DTG-Karten werden nur extern verlinkt.
+
+**Reviewer:** Dr. med. Sebastian Münster  
+**Freigabedatum:** 11.11.2026  
+**Nächste vorgesehene Prüfung:** spätestens 11.01.2027  
+**Freigegeben:** MA und AT; die sieben weiteren Länder nicht.  
+**GitHub-Export:** nur bei bestandenen automatischen Sicherheitstests.
