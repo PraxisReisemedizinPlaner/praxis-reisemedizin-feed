@@ -31,9 +31,39 @@ python development/v16/validate_v16.py
 
 Die Validierung prüft nur Datenstruktur und Sicherheitsstatus, **nicht** die medizinische Richtigkeit und nicht die Rechte der verlinkten Quellen.
 
-## Veröffentlichung – noch nicht implementiert
+## Veröffentlichung V16 – als Entwurf implementiert
 
-Derzeit gibt es absichtlich **keinen** neuen Release-Job. Erst nach separatem Review bauen wir einen Export, der ungeprüfte Profile und `legacySnapshot` vollständig entfernt und ausschließlich freigegebene medizinische Informationen in eine eigene Datei überträgt. Erst danach wird Jimdo auf den neuen geprüften Feed umgestellt.
+`export_public_v16.py` erzeugt eine **gesonderte** JSON-Datei `country_profiles_public_v16.json`. Darin werden nur freigegebene und nicht abgelaufene ärztliche Profile ausgegeben. Für andere Länder werden ausschließlich Name, Ländercode und „medical_review_required“ veröffentlicht. **Die vorhandene V1-Datei wird weder gelöscht noch überschrieben.**
+
+Die aktualisierte GitHub-Pages-Automatisierung erzeugt den V16-Feed **erst nach dem Zusammenführen dieses Entwicklungszweigs nach main**. Vorher erfolgt keine Änderung am bestehenden Live-Feed. Die Jimdo-Oberfläche verwendet den V16-Feed **noch nicht automatisch**; die einmalige Umstellung muss nach medizinischer Prüfung erfolgen.
+
+Der Export ist technisch „fail-closed“: fehlende Quellenfreigaben, nicht freigegebene Impf-/Malaria-Aussagen oder eine unzulässige DTG-Datennutzung verhindern eine Veröffentlichung. Das ist keine Aussage über die medizinische Richtigkeit.
+
+### Testen
+
+```bash
+python development/v16/validate_v16.py
+python -m unittest discover -s development/v16 -p 'test_*.py' -v
+python development/v16/export_public_v16.py --output /tmp/country_profiles_public_v16.json
+```
+
+GitHub Actions prüft diese Schritte zusätzlich im Pull Request.
+
+### Ärztliche Freigabe je Land
+
+- Identität, Reiseroute, Regionen, Saison, Aufenthaltsdauer und Reiseart sachgerecht berücksichtigen. Länderprofile ersetzen keine individuelle Beratung.
+- Aktuelle Primärquellen überprüfen, exakte Links, Datum und Nutzungsrechte dokumentieren.
+- Erst bei vollständiger inhaltlicher Prüfung `vaccineAssessment.status`, `malariaAssessment.status` und `missions.status` auf `approved` setzen.
+- `medicalReview` vollständig mit `status: approved`, `reviewer`, `reviewedAt`, `nextReviewDate` sowie geprüften `approvedSources` dokumentieren. Pro Quelle wird `reuseRightsChecked: true` erst nach tatsächlicher rechtlicher Prüfung hinterlegt.
+- `publicationAllowed: true` erst als letzten Schritt setzen.
+- Freigegebene Informationen können im V16-Feed nach dem nächsten GitHub-Pages-Deployment verfügbar sein. Die Jimdo-Einbindung muss ausdrücklich auf den neuen Feed zeigen.
+
+### Nicht erlaubt
+
+- Eine KI darf keine ärztliche oder urheberrechtliche Freigabe selbst setzen.
+- DTG-Daten nicht strukturiert übernehmen; nur auf Originalkarten verlinken.
+- Fehlen Daten, dürfen sie nicht durch „kein Risiko“ oder allgemeine Entwarnung ersetzt werden.
+- Keine sensiblen Patientendaten oder personenbezogenen Konsultationsdaten in GitHub ablegen.
 
 ## Nächste fachliche Arbeit
 
