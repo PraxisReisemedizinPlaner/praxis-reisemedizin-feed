@@ -1,0 +1,41 @@
+name: ReiseCheck V16 – Datenpruefung
+
+on:
+  pull_request:
+    paths:
+      - 'development/v16/**'
+      - '.github/workflows/v16-qa.yml'
+      - '.github/workflows/aktualisierung.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  datenpruefung:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository laden
+        uses: actions/checkout@v4
+      - name: Python bereitstellen
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: V16 Struktur und Sperren pruefen
+        run: python development/v16/validate_v16.py
+      - name: Automatische Sicherheitstests ausfuehren
+        run: python -m unittest discover -s development/v16 -p 'test_*.py' -v
+      - name: Public Feed erstellen
+        run: python development/v16/export_public_v16.py --output /tmp/country_profiles_public_v16.json
+      - name: Public Feed auf ungewollte Altinhalte pruefen
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          payload=json.loads(Path('/tmp/country_profiles_public_v16.json').read_text(encoding='utf-8'))
+          assert payload['coverageCount'] >= 9
+          assert payload['approvedCount'] == len(payload['countries'])
+          assert all(x['status'] in ('verified','medical_review_required') for x in payload['coverage'].values())
+          assert 'legacySnapshot' not in json.dumps(payload)
+          print('Public V16 export validation passed')
+          PY

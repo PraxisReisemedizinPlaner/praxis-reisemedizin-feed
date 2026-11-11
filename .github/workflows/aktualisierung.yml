@@ -8,6 +8,8 @@ on:
     paths:
       - 'refresh_international_alerts.py'
       - 'country_profiles_v1.json'
+      - 'development/v16/**'
+      - '.github/workflows/v16-qa.yml'
       - 'index.html'
       - '.github/workflows/aktualisierung.yml'
 
@@ -43,10 +45,18 @@ jobs:
       - name: Offizielle CDC-Meldungen abrufen
         run: python refresh_international_alerts.py
 
+      - name: Medizinischen V16 Feed sicher erzeugen
+        run: |
+          python development/v16/validate_v16.py
+          python -m unittest discover -s development/v16 -p 'test_*.py' -v
+          mkdir -p _site
+          python development/v16/export_public_v16.py --output _site/country_profiles_public_v16.json
+
       - name: Webseite und aktuelle Daten vorbereiten
         run: |
           mkdir -p _site
           cp index.html public_international_alerts.json country_profiles_v1.json _site/
+          cp development/v16/reisecheck_v16_vorschau.html _site/reisecheck-v16-vorschau.html
 
       - name: GitHub Pages konfigurieren
         uses: actions/configure-pages@v5

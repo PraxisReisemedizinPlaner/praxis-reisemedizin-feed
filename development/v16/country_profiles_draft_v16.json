@@ -1,0 +1,540 @@
+{
+  "schemaVersion": 2,
+  "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
+  "edition": "v16-development-2026-11-11",
+  "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
+  "countryCount": 9,
+  "policy": {
+    "approvedProfilesOnly": true,
+    "legacySuggestionsMustNeverBePublished": true,
+    "noDTGStructuredReuse": true,
+    "dtgLinksOnly": true,
+    "doNotInferProphylaxisFromResearchStudies": true,
+    "sourceRetrievalIsNotMedicalReview": true
+  },
+  "countries": {
+    "TH": {
+      "name": "Thailand",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "ReiseCheck_Jimdo_V15.html / STARTER (unverified previous draft)",
+        "originalCheckedDate": "2026-11-01",
+        "previousForAll": [
+          "Hepatitis A"
+        ],
+        "previousRiskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Japanische Enzephalitis",
+          "Tollwut",
+          "Typhus"
+        ],
+        "previousSourceLink": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/thailandsicherheit-201558",
+        "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
+      },
+      "vaccineAssessment": {
+        "status": "not_reviewed",
+        "forAll": [],
+        "riskBased": [],
+        "entryRequirements": [],
+        "routeDependent": []
+      },
+      "malariaAssessment": {
+        "status": "not_reviewed",
+        "riskLevel": null,
+        "preventionType": null,
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": null,
+        "sourceLinks": [
+          {
+            "label": "DTG Malariakarten – Verlinkung ausschließlich",
+            "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "needs_verification",
+        "verifiedEntries": []
+      },
+      "sourceReview": {
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/thailandsicherheit-201558",
+        "reviewedAt": null
+      },
+      "publicationAllowed": false
+    },
+    "ID": {
+      "name": "Indonesien",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "ReiseCheck_Jimdo_V15.html / STARTER (unverified previous draft)",
+        "originalCheckedDate": "2026-11-01",
+        "previousForAll": [
+          "Hepatitis A"
+        ],
+        "previousRiskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Japanische Enzephalitis",
+          "Tollwut",
+          "Typhus"
+        ],
+        "previousSourceLink": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+        "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
+      },
+      "vaccineAssessment": {
+        "status": "not_reviewed",
+        "forAll": [],
+        "riskBased": [],
+        "entryRequirements": [],
+        "routeDependent": []
+      },
+      "malariaAssessment": {
+        "status": "not_reviewed",
+        "riskLevel": null,
+        "preventionType": null,
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": null,
+        "sourceLinks": [
+          {
+            "label": "DTG Malariakarten – Verlinkung ausschließlich",
+            "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "needs_verification",
+        "verifiedEntries": []
+      },
+      "sourceReview": {
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+        "reviewedAt": null
+      },
+      "publicationAllowed": false
+    },
+    "TZ": {
+      "name": "Tansania",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "ReiseCheck_Jimdo_V15.html / STARTER (unverified previous draft)",
+        "originalCheckedDate": "2026-11-01",
+        "previousForAll": [
+          "Hepatitis A",
+          "Poliomyelitis"
+        ],
+        "previousRiskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Meningokokken ACWY",
+          "Tollwut",
+          "Typhus"
+        ],
+        "previousSourceLink": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tansaniasicherheit-208662",
+        "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
+      },
+      "vaccineAssessment": {
+        "status": "not_reviewed",
+        "forAll": [],
+        "riskBased": [],
+        "entryRequirements": [],
+        "routeDependent": []
+      },
+      "malariaAssessment": {
+        "status": "not_reviewed",
+        "riskLevel": null,
+        "preventionType": null,
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": null,
+        "sourceLinks": [
+          {
+            "label": "DTG Malariakarten – Verlinkung ausschließlich",
+            "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "needs_verification",
+        "verifiedEntries": []
+      },
+      "sourceReview": {
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tansaniasicherheit-208662",
+        "reviewedAt": null
+      },
+      "publicationAllowed": false
+    },
+    "KE": {
+      "name": "Kenia",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "ReiseCheck_Jimdo_V15.html / STARTER (unverified previous draft)",
+        "originalCheckedDate": "2026-11-01",
+        "previousForAll": [
+          "Gelbfieber (regional)",
+          "Hepatitis A"
+        ],
+        "previousRiskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Meningokokken ACWY",
+          "Tollwut",
+          "Typhus"
+        ],
+        "previousSourceLink": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/keniasicherheit-208058",
+        "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
+      },
+      "vaccineAssessment": {
+        "status": "not_reviewed",
+        "forAll": [],
+        "riskBased": [],
+        "entryRequirements": [],
+        "routeDependent": []
+      },
+      "malariaAssessment": {
+        "status": "not_reviewed",
+        "riskLevel": null,
+        "preventionType": null,
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": null,
+        "sourceLinks": [
+          {
+            "label": "DTG Malariakarten – Verlinkung ausschließlich",
+            "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "needs_verification",
+        "verifiedEntries": []
+      },
+      "sourceReview": {
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/keniasicherheit-208058",
+        "reviewedAt": null
+      },
+      "publicationAllowed": false
+    },
+    "VN": {
+      "name": "Vietnam",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "ReiseCheck_Jimdo_V15.html / STARTER (unverified previous draft)",
+        "originalCheckedDate": "2026-11-01",
+        "previousForAll": [
+          "Hepatitis A"
+        ],
+        "previousRiskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Japanische Enzephalitis",
+          "Tollwut",
+          "Typhus"
+        ],
+        "previousSourceLink": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vietnamsicherheit-217274",
+        "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
+      },
+      "vaccineAssessment": {
+        "status": "not_reviewed",
+        "forAll": [],
+        "riskBased": [],
+        "entryRequirements": [],
+        "routeDependent": []
+      },
+      "malariaAssessment": {
+        "status": "not_reviewed",
+        "riskLevel": null,
+        "preventionType": null,
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": null,
+        "sourceLinks": [
+          {
+            "label": "DTG Malariakarten – Verlinkung ausschließlich",
+            "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "needs_verification",
+        "verifiedEntries": []
+      },
+      "sourceReview": {
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vietnamsicherheit-217274",
+        "reviewedAt": null
+      },
+      "publicationAllowed": false
+    },
+    "IN": {
+      "name": "Indien",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "ReiseCheck_Jimdo_V15.html / STARTER (unverified previous draft)",
+        "originalCheckedDate": "2026-11-01",
+        "previousForAll": [
+          "Hepatitis A",
+          "Typhus"
+        ],
+        "previousRiskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Japanische Enzephalitis",
+          "Tollwut"
+        ],
+        "previousSourceLink": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+        "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
+      },
+      "vaccineAssessment": {
+        "status": "not_reviewed",
+        "forAll": [],
+        "riskBased": [],
+        "entryRequirements": [],
+        "routeDependent": []
+      },
+      "malariaAssessment": {
+        "status": "not_reviewed",
+        "riskLevel": null,
+        "preventionType": null,
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": null,
+        "sourceLinks": [
+          {
+            "label": "DTG Malariakarten – Verlinkung ausschließlich",
+            "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "needs_verification",
+        "verifiedEntries": []
+      },
+      "sourceReview": {
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+        "reviewedAt": null
+      },
+      "publicationAllowed": false
+    },
+    "EG": {
+      "name": "Ägypten",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "ReiseCheck_Jimdo_V15.html / STARTER (unverified previous draft)",
+        "originalCheckedDate": "2026-11-01",
+        "previousForAll": [
+          "Hepatitis A"
+        ],
+        "previousRiskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Tollwut",
+          "Typhus"
+        ],
+        "previousSourceLink": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/aegyptensicherheit-212622",
+        "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
+      },
+      "vaccineAssessment": {
+        "status": "not_reviewed",
+        "forAll": [],
+        "riskBased": [],
+        "entryRequirements": [],
+        "routeDependent": []
+      },
+      "malariaAssessment": {
+        "status": "not_reviewed",
+        "riskLevel": null,
+        "preventionType": null,
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": null,
+        "sourceLinks": [
+          {
+            "label": "DTG Malariakarten – Verlinkung ausschließlich",
+            "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "needs_verification",
+        "verifiedEntries": []
+      },
+      "sourceReview": {
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/aegyptensicherheit-212622",
+        "reviewedAt": null
+      },
+      "publicationAllowed": false
+    },
+    "MA": {
+      "name": "Marokko",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "ReiseCheck_Jimdo_V15.html / STARTER (unverified previous draft)",
+        "originalCheckedDate": "2026-11-03",
+        "previousForAll": [
+          "Hepatitis A"
+        ],
+        "previousRiskBased": [
+          "Hepatitis B",
+          "Tollwut",
+          "Typhus"
+        ],
+        "previousSourceLink": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/marokkosicherheit-224080",
+        "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
+      },
+      "vaccineAssessment": {
+        "status": "not_reviewed",
+        "forAll": [],
+        "riskBased": [],
+        "entryRequirements": [],
+        "routeDependent": []
+      },
+      "malariaAssessment": {
+        "status": "not_reviewed",
+        "riskLevel": null,
+        "preventionType": null,
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": null,
+        "sourceLinks": [
+          {
+            "label": "DTG Malariakarten – Verlinkung ausschließlich",
+            "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "needs_verification",
+        "verifiedEntries": []
+      },
+      "sourceReview": {
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/marokkosicherheit-224080",
+        "reviewedAt": null
+      },
+      "publicationAllowed": false
+    },
+    "AT": {
+      "name": "Österreich",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "ReiseCheck_Jimdo_V15.html / STARTER (unverified previous draft)",
+        "originalCheckedDate": "2026-11-03",
+        "previousForAll": [],
+        "previousRiskBased": [
+          "FSME",
+          "Hepatitis B"
+        ],
+        "previousSourceLink": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/oesterreichsicherheit-210962",
+        "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
+      },
+      "vaccineAssessment": {
+        "status": "not_reviewed",
+        "forAll": [],
+        "riskBased": [],
+        "entryRequirements": [],
+        "routeDependent": []
+      },
+      "malariaAssessment": {
+        "status": "not_reviewed",
+        "riskLevel": null,
+        "preventionType": null,
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": null,
+        "sourceLinks": [
+          {
+            "label": "DTG Malariakarten – Verlinkung ausschließlich",
+            "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "needs_verification",
+        "verifiedEntries": []
+      },
+      "sourceReview": {
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/oesterreichsicherheit-210962",
+        "reviewedAt": null
+      },
+      "publicationAllowed": false
+    }
+  }
+}
