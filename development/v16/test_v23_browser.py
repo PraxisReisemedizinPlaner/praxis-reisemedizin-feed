@@ -3,7 +3,7 @@
 import json
 from datetime import date
 from pathlib import Path
-from playwright.sync_api import sync_playwright
+# Playwright is imported only for the separately installed browser smoke step.
 
 from export_public_regions_v1 import build_public_regions
 from export_public_v16 import build_public as build_countries
@@ -75,8 +75,10 @@ def smoke(browser,device):
     ctx.close()
     print(f"Browser V23 OK ({device}) – country, ambiguous island, multi-city, missing-risk, unknown text, reset.")
 
-with sync_playwright() as p:
-    browser=p.chromium.launch(headless=True,args=["--no-sandbox"])
-    for label in ("desktop","mobile"):
-        smoke(browser,label)
-    browser.close()
+if __name__ == "__main__":
+    from playwright.sync_api import sync_playwright
+    with sync_playwright() as p:
+        browser=p.chromium.launch(headless=True,args=["--no-sandbox"])
+        for label in ("desktop","mobile"):
+            smoke(browser,label)
+        browser.close()
