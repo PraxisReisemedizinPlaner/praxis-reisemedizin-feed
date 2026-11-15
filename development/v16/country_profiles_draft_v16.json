@@ -316,20 +316,48 @@
         "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
       },
       "vaccineAssessment": {
-        "status": "not_reviewed",
-        "forAll": [],
-        "riskBased": [],
-        "entryRequirements": [],
-        "routeDependent": []
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A",
+          "Poliomyelitis"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Meningokokken ACWY",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland nach Tansania einschließlich Sansibar sind keine Pflichtimpfungen vorgeschrieben."
+        ],
+        "routeDependent": [
+          "Bei Einreise aus einem Gelbfiebergebiet ist ab dem vollendeten ersten Lebensjahr ein Gelbfieberimpfnachweis erforderlich. Ein Flughafentransit unter zwölf Stunden ohne Verlassen des Flughafens ist nach AA ausgenommen; längere Transits und Weiterreisen gesondert prüfen.",
+          "Polioimpfschutz prüfen; bei längerem Aufenthalt aktuelle WHO-Vorgaben zu einer eventuell erforderlichen Ausreiseimpfung und Dokumentation berücksichtigen."
+        ]
       },
       "malariaAssessment": {
-        "status": "not_reviewed",
-        "riskLevel": null,
-        "preventionType": null,
-        "regions": [],
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "chemoprophylaxis_consider",
+        "regions": [
+          "Tansania einschließlich Sansibar, Pemba, Mafia und Nationalparks: AA beschreibt ganzjährig hohes Risiko unter 2.500 m.",
+          "CDC nennt als Übertragungsgebiete Höhenlagen unter 1.800 m. Diese Abweichung der Höhengrenzen wird nicht als Entwarnung für 1.800–2.500 m interpretiert."
+        ],
         "medicationName": null,
-        "clinicalRecommendation": null,
+        "clinicalRecommendation": "Für übliche Reisen in die Tieflagen Tansanias einschließlich Sansibar sind konsequenter Mückenschutz und die ärztliche Auswahl einer medikamentösen Malariaprophylaxe vorgesehen. Bei Bergreisen zählt die gesamte Route mit An- und Abreise; ein hoch gelegenes Tagesziel hebt das Risiko der übrigen Etappen nicht auf. AA und CDC verwenden unterschiedliche Höhengrenzen. Bei Fieber während oder nach der Reise zeitnah ärztlich abklären lassen und auf die Reise hinweisen.",
         "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt: Tansania",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tansaniasicherheit-208662",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC: Tansania",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tanzania",
+            "use": "external_link_only"
+          },
           {
             "label": "DTG Malariakarten – Verlinkung ausschließlich",
             "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
@@ -338,13 +366,63 @@
         ]
       },
       "missions": {
-        "status": "needs_verification",
-        "verifiedEntries": []
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Daressalam",
+            "address": "Umoja House, Ecke Hamburg Avenue / Mirambo Street, 2. Etage, Daressalam, Tansania",
+            "scope": "Tansania; konsularische Zuständigkeit und Erreichbarkeitszeiten auf der Originalseite prüfen.",
+            "phone": "+255 22 221 2300",
+            "emergency": "+255 786 971692",
+            "url": "https://daressalam.diplo.de/tz-de/ueber-uns/1802966-1802966"
+          }
+        ]
       },
       "sourceReview": {
-        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
+        "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tansaniasicherheit-208662",
-        "reviewedAt": null
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "researchReady": true,
+        "proposedNextReviewDate": "2027-01-15",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tansaniasicherheit-208662",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tanzania",
+          "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+          "https://daressalam.diplo.de/tz-de/ueber-uns/1802966-1802966"
+        ],
+        "researchNotes": [
+          "Sansibar nicht als malariafrei darstellen.",
+          "Gelbfieber: Einreisevorschrift von allgemeiner Impfempfehlung trennen.",
+          "Poliomyelitis: Grundimmunisierung, gegebenenfalls Reiseauffrischung und aktuelle WHO-Vorgaben anhand Reisedauer prüfen."
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tansaniasicherheit-208662",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tanzania",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://daressalam.diplo.de/tz-de/ueber-uns/1802966-1802966",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "warning": "Quellenabgeglichener Freigabeentwurf; ärztlicher Länderentscheid steht aus. Keine Veröffentlichung als Patientenempfehlung vor Freigabe."
       },
       "publicationAllowed": false
     },
@@ -376,20 +454,51 @@
         "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
       },
       "vaccineAssessment": {
-        "status": "not_reviewed",
-        "forAll": [],
-        "riskBased": [],
-        "entryRequirements": [],
-        "routeDependent": []
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A",
+          "Poliomyelitis"
+        ],
+        "riskBased": [
+          "Gelbfieber",
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Meningokokken ACWY",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgeschrieben."
+        ],
+        "routeDependent": [
+          "Bei Einreise aus einem Gelbfiebergebiet ist für Personen ab zwölf Monaten ein Gelbfieberimpfnachweis erforderlich; die gesamte Anreise einschließlich Zwischenstopps prüfen.",
+          "Gelbfieberimpfung ist nach AA für weite Teile Kenias empfohlen. Für ausschließlich Nairobi, Mombasa und bestimmte nordöstliche beziehungsweise Küstengebiete besteht keine allgemeine Empfehlung. Die genaue Route entscheidet; die Impfempfehlung ist von der Einreisepflicht zu unterscheiden.",
+          "Polioimpfschutz und bei längeren Aufenthalten aktuelle WHO-Vorgaben zur Ausreiseimpfung prüfen."
+        ]
       },
       "malariaAssessment": {
-        "status": "not_reviewed",
-        "riskLevel": null,
-        "preventionType": null,
-        "regions": [],
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Große Teile des Landes einschließlich Safari- und Küstengebieten unter 2.500 m: relevante Malariaexposition; AA beschreibt hohes Risiko.",
+          "Für das stark urbanisierte Zentrum Nairobis beschreiben AA und CDC eine deutlich geringere Exposition; CDC sieht dort Mückenschutz ohne routinemäßige Chemoprophylaxe vor.",
+          "Eine Reise mit Safari- oder Küstenetappen darf nicht allein anhand eines Aufenthalts in Nairobi eingestuft werden."
+        ],
         "medicationName": null,
-        "clinicalRecommendation": null,
+        "clinicalRecommendation": "Für viele Keniareisen mit Safari- oder Küstenaufenthalten ist zusätzlich zu konsequentem Mückenschutz eine medikamentöse Malariaprophylaxe ärztlich auszuwählen. Das Stadtzentrum Nairobis ist gesondert zu betrachten; eine niedrigere Einschätzung dort gilt nicht für Ausflüge oder weitere Reiseziele. Die konkrete Route und Höhenlage bestimmen die Beratung. Bei Fieber während oder nach der Reise zeitnah ärztlich abklären lassen.",
         "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt: Kenia",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/keniasicherheit-208058",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC: Kenia",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kenya",
+            "use": "external_link_only"
+          },
           {
             "label": "DTG Malariakarten – Verlinkung ausschließlich",
             "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
@@ -398,13 +507,63 @@
         ]
       },
       "missions": {
-        "status": "needs_verification",
-        "verifiedEntries": []
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Nairobi",
+            "address": "Ludwig Krapf House, Riverside Drive 113, Nairobi, Kenia",
+            "scope": "Kenia; Besuch nach Termin, aktuelle Sicherheits- und Zugangshinweise auf der Originalseite beachten.",
+            "phone": "+254 20 426 2100",
+            "emergency": "+254 721 322 443",
+            "url": "https://nairobi.diplo.de/ke-de/ueber-uns/adressenairobi-1510552"
+          }
+        ]
       },
       "sourceReview": {
-        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
+        "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/keniasicherheit-208058",
-        "reviewedAt": null
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "researchReady": true,
+        "proposedNextReviewDate": "2027-01-15",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/keniasicherheit-208058",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kenya",
+          "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+          "https://nairobi.diplo.de/ke-de/ueber-uns/adressenairobi-1510552"
+        ],
+        "researchNotes": [
+          "Gelbfieber nicht pauschal für alle Küsten- oder Städtereisen empfehlen.",
+          "Nairobi-Zentrum nicht mit dem Umland oder dem ganzen Land gleichsetzen.",
+          "Poliomyelitis-Reiseindikation berücksichtigen; aktuelle Lage und Reisedauer prüfen."
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/keniasicherheit-208058",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kenya",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://nairobi.diplo.de/ke-de/ueber-uns/adressenairobi-1510552",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "warning": "Quellenabgeglichener Freigabeentwurf; ärztlicher Länderentscheid steht aus. Keine Veröffentlichung als Patientenempfehlung vor Freigabe."
       },
       "publicationAllowed": false
     },
@@ -435,20 +594,46 @@
         "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
       },
       "vaccineAssessment": {
-        "status": "not_reviewed",
-        "forAll": [],
-        "riskBased": [],
-        "entryRequirements": [],
-        "routeDependent": []
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Dengue",
+          "Hepatitis B",
+          "Japanische Enzephalitis",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgeschrieben."
+        ],
+        "routeDependent": [
+          "Für Langzeitaufenthalte, ländliche Exposition und wiederholte Reisen die Indikation für Japanische Enzephalitis und weitere Reiseimpfungen individuell prüfen. Weiterreisen und Transitländer gesondert berücksichtigen."
+        ]
       },
       "malariaAssessment": {
-        "status": "not_reviewed",
-        "riskLevel": null,
-        "preventionType": null,
-        "regions": [],
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "CDC beschreibt Übertragungsgebiete vor allem im ländlichen Raum; in den Deltas des Mekong und Roten Flusses werden seltene Fälle genannt.",
+          "CDC nennt keine Übertragung in den Städten Hanoi, Ho-Chi-Minh-Stadt, Da Nang, Hai Phong, Nha Trang und Quy Nhon. Das gilt nicht pauschal für deren Umland.",
+          "Für weitere ländliche Risikogebiete nennt CDC medikamentöse Prävention; in den beiden genannten Deltas steht Mückenschutz im Vordergrund. Die AA-Seite benennt derzeit keine entsprechend detaillierte regionale Unterteilung."
+        ],
         "medicationName": null,
-        "clinicalRecommendation": null,
+        "clinicalRecommendation": "Vietnam erfordert eine routebezogene Einschätzung. Eine reine Reise in die von CDC benannten Städte ist anders zu beurteilen als ein Aufenthalt in ländlichen Wald- und Grenzregionen. Aus dem Ländernamen allein folgt keine pauschale Tablettenempfehlung. Mückenschutz bleibt auch wegen Dengue wichtig. Für ländliche Risikostrecken und längere Aufenthalte die medikamentöse Strategie ärztlich klären; bei Fieber während oder nach der Reise zeitnah ärztlich abklären lassen.",
         "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt: Vietnam",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vietnamsicherheit-217274",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC: Vietnam",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam",
+            "use": "external_link_only"
+          },
           {
             "label": "DTG Malariakarten – Verlinkung ausschließlich",
             "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
@@ -457,13 +642,63 @@
         ]
       },
       "missions": {
-        "status": "needs_verification",
-        "verifiedEntries": []
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Hanoi",
+            "address": "27 Tran Phu, Ba Dinh, 11114 Hanoi, Vietnam",
+            "scope": "Nördlicher Konsularbezirk gemäß Originalseite; für südliche Landesteile ist das Generalkonsulat Ho-Chi-Minh-Stadt zu prüfen.",
+            "phone": "+84 24 3267 3335",
+            "emergency": "+84 936 342 598",
+            "url": "https://vietnam.diplo.de/vn-de/ueber-uns/botschaft"
+          }
+        ]
       },
       "sourceReview": {
-        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
+        "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vietnamsicherheit-217274",
-        "reviewedAt": null
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "researchReady": true,
+        "proposedNextReviewDate": "2027-01-15",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vietnamsicherheit-217274",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam",
+          "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+          "https://vietnam.diplo.de/vn-de/ueber-uns/botschaft"
+        ],
+        "researchNotes": [
+          "AA listet Chikungunya als Erkrankungsrisiko, aber hier nicht als allgemeine Reiseimpfung; deshalb keine pauschale Aufnahme in die Impfempfehlung.",
+          "Japanische Enzephalitis ist an Reiseform, Exposition und Dauer zu knüpfen.",
+          "Stadtangabe nicht auf die gesamte Provinz übertragen; Quellen unterscheiden sich in der geografischen Detailtiefe."
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vietnamsicherheit-217274",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://vietnam.diplo.de/vn-de/ueber-uns/botschaft",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "warning": "Quellenabgeglichener Freigabeentwurf; ärztlicher Länderentscheid steht aus. Keine Veröffentlichung als Patientenempfehlung vor Freigabe."
       },
       "publicationAllowed": false
     },
@@ -494,20 +729,49 @@
         "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
       },
       "vaccineAssessment": {
-        "status": "not_reviewed",
-        "forAll": [],
-        "riskBased": [],
-        "entryRequirements": [],
-        "routeDependent": []
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A",
+          "Typhus"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Japanische Enzephalitis",
+          "Tollwut"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgeschrieben."
+        ],
+        "routeDependent": [
+          "Bei Einreise aus einem Gelbfiebergebiet ist ab neun Monaten ein Gelbfieberimpfnachweis erforderlich. Vollständige Anreise und aktuelle Einreisevorschriften vor Abflug prüfen.",
+          "Für lange Aufenthalte und ländliche Exposition insbesondere die Indikation für Japanische Enzephalitis und Tollwut prüfen.",
+          "CDC weist aktuell auf gefälschten ABHAYRAB-Tollwutimpfstoff in Indien hin. Nach Tierkontakt unverzüglich eine verlässliche medizinische Einrichtung aufsuchen; eine Impfung vor der Reise ersetzt die Behandlung nach Kontakt nicht."
+        ]
       },
       "malariaAssessment": {
-        "status": "not_reviewed",
-        "riskLevel": null,
-        "preventionType": null,
-        "regions": [],
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "AA beschreibt unter 2.500 m ein hohes Risiko in einem Gebiet Chhattisgarhs einschließlich Geedam und mittlere Risiken in weiteren Teilen des Ostens und Nordostens.",
+          "AA ordnet viele andere Gebiete einschließlich Delhi, Mumbai und Rajasthan niedriger ein. CDC beschreibt Malariaübertragung dagegen sehr breit einschließlich Delhi und Mumbai und nennt medikamentöse Prävention.",
+          "Auch die Höhenabgrenzungen unterscheiden sich: CDC nennt Gebiete über 2.000 m, AA bestimmte Himalayagebiete ab 2.500 m. Keine pauschale Entwarnung allein anhand der Höhe."
+        ],
         "medicationName": null,
-        "clinicalRecommendation": null,
+        "clinicalRecommendation": "Für Indien gibt es relevante Unterschiede zwischen den offiziellen Quellen zur regionalen Prävention. Daher werden weder eine landesweite Malariafreiheit noch eine einheitliche medikamentöse Strategie ausgegeben. Die genaue Route, Höhenlage, Reisezeit und Versorgungssituation müssen berücksichtigt werden. Lass eine geeignete Prophylaxe beziehungsweise gegebenenfalls Notfallstrategie ärztlich beraten. Konsequenter Mückenschutz und zeitnahe Fieberabklärung während oder nach der Reise bleiben wesentlich.",
         "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt: Indien",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC: Indien",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india",
+            "use": "external_link_only"
+          },
           {
             "label": "DTG Malariakarten – Verlinkung ausschließlich",
             "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
@@ -516,13 +780,63 @@
         ]
       },
       "missions": {
-        "status": "needs_verification",
-        "verifiedEntries": []
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Neu-Delhi",
+            "address": "6/50G Shanti Path, Chanakyapuri, New Delhi 110021, Indien",
+            "scope": "Konsularbezirk Neu-Delhi gemäß Originalseite; für andere Landesteile zuständiges Generalkonsulat prüfen.",
+            "phone": "+91 11 4419 9199",
+            "emergency": "+91 9311 310 567",
+            "url": "https://india.diplo.de/in-de/ueber-uns/neudelhi/1803534-1803534"
+          }
+        ]
       },
       "sourceReview": {
-        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
+        "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
-        "reviewedAt": null
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "researchReady": true,
+        "proposedNextReviewDate": "2027-01-15",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india",
+          "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+          "https://india.diplo.de/in-de/ueber-uns/neudelhi/1803534-1803534"
+        ],
+        "researchNotes": [
+          "Abweichende AA-/CDC-Präventionsstrategien bleiben sichtbar; keine pauschale Tablettenempfehlung für das gesamte Land.",
+          "CDC weist aktuell auf gefälschten ABHAYRAB-Tollwutimpfstoff hin; aktuelle Gesundheitsmeldungen und zuverlässige Versorgung nach Tierkontakt beachten.",
+          "Typhus zusätzlich zu Hepatitis A im Basis-Reisepaket; lebensmittelhygienische Maßnahmen bleiben notwendig."
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://india.diplo.de/in-de/ueber-uns/neudelhi/1803534-1803534",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "warning": "Quellenabgeglichener Freigabeentwurf; ärztlicher Länderentscheid steht aus. Keine Veröffentlichung als Patientenempfehlung vor Freigabe."
       },
       "publicationAllowed": false
     },
