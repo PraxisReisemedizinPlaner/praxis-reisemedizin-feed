@@ -45,7 +45,7 @@ def smoke(browser,device):
     errors=[]
     page.on("pageerror",lambda error: errors.append(str(error)))
     page.goto((ROOT/"website/ReiseCheck_Jimdo_V24.html").as_uri(),wait_until="domcontentloaded")
-    page.wait_for_function("() => document.querySelector('#rm-region-feedback')?.textContent?.includes('Stadt oder Insel')",timeout=15000)
+    page.wait_for_function("() => document.querySelector('#rm-region-feedback')?.textContent?.includes('Mehrfachauswahl')",timeout=15000)
     selected_country(page,"Thailand")
     # Ambiguous Koh Chang must show two clickable locations, without checkboxes.
     region_input=page.locator("#rm-region")
