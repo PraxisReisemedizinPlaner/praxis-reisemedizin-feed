@@ -1,4 +1,4 @@
-<!-- Praxis Dr. Münster: Reisemedizin-Check | Jimdo Creator Widget/HTML | V24.0 (15.11.2026; intuitive Regions-Mehrfachauswahl ohne Fertig, klinisches Freigabegate; Wellen- und Bergsymbol, Quellen im Abschlussbereich; Reisearten und Reisegründe mehrfach auswählbar, Hinweise zur Höhenkrankheit) -->
+<!-- Praxis Dr. Münster: Reisemedizin-Check | Jimdo Creator Widget/HTML | V24.1 (15.11.2026; einheitliche Klick-Mehrfachauswahl für Regionen, Reiseart, Reisegrund und Aktivitäten, klinisches Freigabegate; Wellen- und Bergsymbol, Quellen im Abschlussbereich; Reisearten und Reisegründe mehrfach auswählbar, Hinweise zur Höhenkrankheit) -->
 <div class="rm-tool" id="rm-tool" style="--rm-blue:#6592A7;--rm-deep:#234556;--rm-line:#d8e4e9;--rm-ink:#243b46;--rm-muted:#566c75;font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;font-size:15px;line-height:1.5;color:#243b46;width:100%;max-width:950px;margin:0 auto;box-sizing:border-box">
 <style>
     #rm-tool{--rm-blue:#6592A7;--rm-deep:#234556;--rm-fog:#eef5f7;--rm-line:#d8e4e9;--rm-ink:#243b46;--rm-muted:#566c75;--rm-good:#eef8f3;--rm-attn:#fff3df;--rm-red:#fff1ef;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--rm-ink);font-size:15px;line-height:1.5;width:100%;max-width:950px;margin:0 auto}
@@ -159,15 +159,18 @@
 #rm-tool details.rm-activity-picker>summary:focus-visible{outline:3px solid #a8cada;outline-offset:-3px}
 #rm-tool .rm-activity-list{border:0;border-top:1px solid #e2edf1;padding:5px 7px;margin:0;max-height:245px;overflow-y:auto;min-width:0}
 #rm-tool .rm-activity-visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-#rm-tool .rm-activity-list label.rm-activity-choice{display:flex;align-items:center;gap:11px;margin:0;padding:8px 9px;min-height:39px;border-radius:7px;font-size:13px;font-weight:500;cursor:pointer;line-height:1.4;color:#254658}
-#rm-tool .rm-activity-list label.rm-activity-choice:hover,#rm-tool .rm-activity-list label.rm-activity-choice:focus-within{background:#eaf3f7}
-#rm-tool .rm-activity-list input[type="checkbox"]{display:block;flex:0 0 18px;width:18px!important;min-width:18px;height:18px;min-height:18px!important;padding:0!important;margin:0;accent-color:#527f92;border-radius:4px;cursor:pointer}
-#rm-tool .rm-activity-list input[type="checkbox"]:focus-visible{outline:2px solid #6592a7;outline-offset:2px}
+#rm-tool .rm-activity-list button.rm-activity-choice{display:flex;align-items:center;gap:11px;width:100%;text-align:left;border:0;background:#fff;font-family:inherit;margin:0;padding:8px 9px;min-height:39px;border-radius:7px;font-size:13px;font-weight:500;cursor:pointer;line-height:1.4;color:#254658}
+#rm-tool .rm-activity-list button.rm-activity-choice:hover,#rm-tool .rm-activity-list button.rm-activity-choice:focus-within{background:#eaf3f7}
 #rm-tool .rm-activity-buttons{display:flex;justify-content:space-between;gap:8px;padding:10px 10px;border-top:1px solid #e2edf1;background:#f8fbfc}
 #rm-tool .rm-activity-buttons button{font-size:12px;min-height:34px;padding:6px 12px}
-#rm-tool .rm-activity-buttons .rm-activities-confirm{background:#6592a7;border-color:#6592a7;color:white}
 #rm-tool .rm-activity-selection{margin:5px 0 0!important;font-size:12px;line-height:1.4;color:#52717f}
-@media(max-width:610px){#rm-tool .rm-activity-list{max-height:250px}#rm-tool .rm-activity-list label.rm-activity-choice{min-height:44px}}
+@media(max-width:610px){#rm-tool .rm-activity-list{max-height:250px}#rm-tool .rm-activity-list button.rm-activity-choice{min-height:44px}}
+
+#rm-tool .rm-activity-list button.rm-activity-choice[aria-pressed="true"]{background:#d4e9f2;color:#234556;font-weight:750;box-shadow:inset 4px 0 0 #527f92}
+#rm-tool .rm-activity-list button.rm-activity-choice[aria-pressed="true"]:hover{background:#c0dfed}
+#rm-tool .rm-activity-list button.rm-activity-choice:focus-visible{outline:2px solid #6592a7;outline-offset:-2px}
+#rm-tool .rm-activity-choice::before{content:"✓";visibility:hidden;font-weight:800}
+#rm-tool .rm-activity-choice[aria-pressed="true"]::before{visibility:visible}
 
     /* V23: Eindeutige geografische Ortsauswahl (noch keine klinische Regionalfreigabe). */
     #rm-tool #rm-region-suggest{display:none;position:relative;z-index:8;border:1px solid #a6c2d0;border-radius:10px;background:#fff;box-shadow:0 10px 26px rgba(22,64,82,.12);margin:3px 0 8px;max-height:210px;overflow-y:auto}
@@ -218,18 +221,18 @@
 <details id="rm-style-picker" class="rm-activity-picker">
 <summary id="rm-style-toggle" aria-labelledby="rm-style-label rm-style-summary"><span id="rm-style-summary">Nicht angegeben · Mehrfachauswahl</span></summary>
 <fieldset id="rm-style" class="rm-activity-list" aria-labelledby="rm-style-label"><legend class="rm-activity-visually-hidden">Art der Reise: Mehrfachauswahl</legend>
-<label class="rm-activity-choice" for="rm-style-option-1"><input type="checkbox" id="rm-style-option-1" name="rm-style-option" value="Hotel / Städtereise"/><span>Hotel / Städtereise</span></label>
-<label class="rm-activity-choice" for="rm-style-option-2"><input type="checkbox" id="rm-style-option-2" name="rm-style-option" value="Rundreise"/><span>Rundreise</span></label>
-<label class="rm-activity-choice" for="rm-style-option-3"><input type="checkbox" id="rm-style-option-3" name="rm-style-option" value="Safari / Outdoor"/><span>Safari / Outdoor</span></label>
-<label class="rm-activity-choice" for="rm-style-option-4"><input type="checkbox" id="rm-style-option-4" name="rm-style-option" value="Rucksackreise / einfache Unterkünfte"/><span>Rucksackreise / einfache Unterkünfte</span></label>
-<label class="rm-activity-choice" for="rm-style-option-5"><input type="checkbox" id="rm-style-option-5" name="rm-style-option" value="Arbeit / längerer Aufenthalt"/><span>Arbeit / längerer Aufenthalt</span></label>
+<button type="button" class="rm-activity-choice" id="rm-style-option-1" value="Hotel / Städtereise" aria-pressed="false"><span>Hotel / Städtereise</span></button>
+<button type="button" class="rm-activity-choice" id="rm-style-option-2" value="Rundreise" aria-pressed="false"><span>Rundreise</span></button>
+<button type="button" class="rm-activity-choice" id="rm-style-option-3" value="Safari / Outdoor" aria-pressed="false"><span>Safari / Outdoor</span></button>
+<button type="button" class="rm-activity-choice" id="rm-style-option-4" value="Rucksackreise / einfache Unterkünfte" aria-pressed="false"><span>Rucksackreise / einfache Unterkünfte</span></button>
+<button type="button" class="rm-activity-choice" id="rm-style-option-5" value="Arbeit / längerer Aufenthalt" aria-pressed="false"><span>Arbeit / längerer Aufenthalt</span></button>
 </fieldset>
-<div class="rm-activity-buttons"><button type="button" class="rm-smallbtn" id="rm-style-clear">Auswahl löschen</button><button type="button" class="rm-smallbtn rm-activities-confirm" id="rm-style-done">Fertig</button></div>
+<div class="rm-activity-buttons"><button type="button" class="rm-smallbtn" id="rm-style-clear">Auswahl löschen</button></div>
 </details>
 <p class="rm-hint rm-activity-selection" id="rm-style-chosen" aria-live="polite">Mehrfachauswahl möglich</p>
 </div>
 </div>
-<p class="rm-hint" id="rm-select-keyboard-hint" style="margin:7px 0 4px;font-size:12px;color:#566c75">Tastatur: Bei der Reisedauer mit Pfeiltasten wählen; Mehrfachauswahlen mit Tab öffnen und Optionen mit Leertaste markieren.</p>
+<p class="rm-hint" id="rm-select-keyboard-hint" style="margin:7px 0 4px;font-size:12px;color:#566c75">Tastatur: Bei der Reisedauer mit Pfeiltasten wählen; Mehrfachauswahlen mit Tab erreichen und mit Enter öffnen. Optionen per Klick, Enter oder Leertaste markieren; mit Pfeiltasten wechseln. Beim nächsten Feld schließt sich die Liste.</p>
 <details class="rm-extra" style="border:1px solid #dce9ee;border-radius:10px;margin:12px 0 2px"><summary style="display:list-item;cursor:pointer;font-weight:750;color:#234556;padding:8px 12px;font-size:13px">＋ Weitere Angaben zur Reise (optional)</summary>
 <p class="rm-hint" style="margin:0 0 5px;font-size:12px;line-height:1.45;color:#566c75;margin:6px 0">Bei Familienbesuchen, Tierkontakten, ländlichen Aufenthalten und längeren Aufenthalten können weitere Impfungen relevant werden. Diese Angaben helfen bei der Vorbereitung einer persönlichen Beratung.</p>
 <div class="rm-row" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px">
@@ -238,12 +241,12 @@
 <details id="rm-purpose-picker" class="rm-activity-picker">
 <summary id="rm-purpose-toggle" aria-labelledby="rm-purpose-label rm-purpose-summary"><span id="rm-purpose-summary">Nicht angegeben · Mehrfachauswahl</span></summary>
 <fieldset id="rm-purpose" class="rm-activity-list" aria-labelledby="rm-purpose-label"><legend class="rm-activity-visually-hidden">Reisegrund: Mehrfachauswahl</legend>
-<label class="rm-activity-choice" for="rm-purpose-option-1"><input type="checkbox" id="rm-purpose-option-1" name="rm-purpose-option" value="Urlaub / privat"/><span>Urlaub / privat</span></label>
-<label class="rm-activity-choice" for="rm-purpose-option-2"><input type="checkbox" id="rm-purpose-option-2" name="rm-purpose-option" value="Familien- oder Freundesbesuch"/><span>Familien- oder Freundesbesuch</span></label>
-<label class="rm-activity-choice" for="rm-purpose-option-3"><input type="checkbox" id="rm-purpose-option-3" name="rm-purpose-option" value="Beruf / Studium / Forschung"/><span>Beruf / Studium / Forschung</span></label>
-<label class="rm-activity-choice" for="rm-purpose-option-4"><input type="checkbox" id="rm-purpose-option-4" name="rm-purpose-option" value="Freiwilligendienst / medizinische Tätigkeit"/><span>Freiwilligendienst / medizinische Tätigkeit</span></label>
+<button type="button" class="rm-activity-choice" id="rm-purpose-option-1" value="Urlaub / privat" aria-pressed="false"><span>Urlaub / privat</span></button>
+<button type="button" class="rm-activity-choice" id="rm-purpose-option-2" value="Familien- oder Freundesbesuch" aria-pressed="false"><span>Familien- oder Freundesbesuch</span></button>
+<button type="button" class="rm-activity-choice" id="rm-purpose-option-3" value="Beruf / Studium / Forschung" aria-pressed="false"><span>Beruf / Studium / Forschung</span></button>
+<button type="button" class="rm-activity-choice" id="rm-purpose-option-4" value="Freiwilligendienst / medizinische Tätigkeit" aria-pressed="false"><span>Freiwilligendienst / medizinische Tätigkeit</span></button>
 </fieldset>
-<div class="rm-activity-buttons"><button type="button" class="rm-smallbtn" id="rm-purpose-clear">Auswahl löschen</button><button type="button" class="rm-smallbtn rm-activities-confirm" id="rm-purpose-done">Fertig</button></div>
+<div class="rm-activity-buttons"><button type="button" class="rm-smallbtn" id="rm-purpose-clear">Auswahl löschen</button></div>
 </details>
 <p class="rm-hint rm-activity-selection" id="rm-purpose-chosen" aria-live="polite">Mehrfachauswahl möglich</p>
 </div>
@@ -252,14 +255,14 @@
 <details id="rm-activities-picker" class="rm-activity-picker">
 <summary id="rm-activities-toggle" aria-labelledby="rm-activities-label rm-activities-summary"><span id="rm-activities-summary">Nicht angegeben · Mehrfachauswahl</span></summary>
 <fieldset id="rm-activities" class="rm-activity-list" aria-labelledby="rm-activities-label"><legend class="rm-activity-visually-hidden">Mehrere Aktivitäten auswählen</legend>
-<label class="rm-activity-choice" for="rm-activity-1"><input type="checkbox" id="rm-activity-1" name="rm-activity" value="Städte / organisierte Hotels"/><span>Städte / organisierte Hotels</span></label>
-<label class="rm-activity-choice" for="rm-activity-2"><input type="checkbox" id="rm-activity-2" name="rm-activity" value="Wandern / Natur / Safari"/><span>Wandern / Natur / Safari</span></label>
-<label class="rm-activity-choice" for="rm-activity-3"><input type="checkbox" id="rm-activity-3" name="rm-activity" value="Ländliche Gebiete / Kontakt mit Tieren"/><span>Ländliche Gebiete / Kontakt mit Tieren</span></label>
-<label class="rm-activity-choice" for="rm-activity-4"><input type="checkbox" id="rm-activity-4" name="rm-activity" value="Tauchen / Schnorcheln"/><span>Tauchen / Schnorcheln</span></label>
-<label class="rm-activity-choice" for="rm-activity-5"><input type="checkbox" id="rm-activity-5" name="rm-activity" value="Höhenaufenthalt über 2.500 m"/><span>Höhenaufenthalt über 2.500 m</span></label>
-<label class="rm-activity-choice" for="rm-activity-6"><input type="checkbox" id="rm-activity-6" name="rm-activity" value="Gemeinschaftsunterkunft / längerer Aufenthalt"/><span>Gemeinschaftsunterkunft / längerer Aufenthalt</span></label>
+<button type="button" class="rm-activity-choice" id="rm-activity-1" value="Städte / organisierte Hotels" aria-pressed="false"><span>Städte / organisierte Hotels</span></button>
+<button type="button" class="rm-activity-choice" id="rm-activity-2" value="Wandern / Natur / Safari" aria-pressed="false"><span>Wandern / Natur / Safari</span></button>
+<button type="button" class="rm-activity-choice" id="rm-activity-3" value="Ländliche Gebiete / Kontakt mit Tieren" aria-pressed="false"><span>Ländliche Gebiete / Kontakt mit Tieren</span></button>
+<button type="button" class="rm-activity-choice" id="rm-activity-4" value="Tauchen / Schnorcheln" aria-pressed="false"><span>Tauchen / Schnorcheln</span></button>
+<button type="button" class="rm-activity-choice" id="rm-activity-5" value="Höhenaufenthalt über 2.500 m" aria-pressed="false"><span>Höhenaufenthalt über 2.500 m</span></button>
+<button type="button" class="rm-activity-choice" id="rm-activity-6" value="Gemeinschaftsunterkunft / längerer Aufenthalt" aria-pressed="false"><span>Gemeinschaftsunterkunft / längerer Aufenthalt</span></button>
 </fieldset>
-<div class="rm-activity-buttons"><button type="button" class="rm-smallbtn" id="rm-activities-clear">Auswahl löschen</button><button type="button" class="rm-smallbtn rm-activities-confirm" id="rm-activities-done">Fertig</button></div>
+<div class="rm-activity-buttons"><button type="button" class="rm-smallbtn" id="rm-activities-clear">Auswahl löschen</button></div>
 </details>
 <p class="rm-hint rm-activity-selection" id="rm-activities-chosen" aria-live="polite">Mehrere Aktivitäten auswählbar</p>
 </div>
@@ -388,7 +391,7 @@
     HOST.appendChild(v13style);
     // Jimdo may remove initial CSS: restore the multi-select styling independently.
     const rmActivityStyle=document.createElement('style');
-    rmActivityStyle.textContent="#rm-tool .rm-activities-label{display:block;font-size:14px;font-weight:650;color:#243b46;margin:12px 0 6px}\n#rm-tool details.rm-activity-picker{width:100%;padding:0;border:1px solid #bdd0d9;border-radius:10px;background:white;overflow:hidden;margin:0}\n#rm-tool details.rm-activity-picker>summary{display:flex;align-items:center;gap:8px;min-height:44px;padding:10px 12px;color:#1f3b48;font-size:14px;line-height:1.45;font-weight:500;list-style:none;cursor:pointer}\n#rm-tool details.rm-activity-picker>summary::-webkit-details-marker{display:none}\n#rm-tool details.rm-activity-picker>summary::before{content:none}\n#rm-tool details.rm-activity-picker>summary::after{content:\"⌄\";margin-left:auto;font-size:19px;color:#385d71}\n#rm-tool details.rm-activity-picker[open]>summary::after{content:\"⌃\"}\n#rm-tool details.rm-activity-picker>summary:focus-visible{outline:3px solid #a8cada;outline-offset:-3px}\n#rm-tool .rm-activity-list{border:0;border-top:1px solid #e2edf1;padding:5px 7px;margin:0;max-height:245px;overflow-y:auto;min-width:0}\n#rm-tool .rm-activity-visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}\n#rm-tool .rm-activity-list label.rm-activity-choice{display:flex;align-items:center;gap:11px;margin:0;padding:8px 9px;min-height:39px;border-radius:7px;font-size:13px;font-weight:500;cursor:pointer;line-height:1.4;color:#254658}\n#rm-tool .rm-activity-list label.rm-activity-choice:hover,#rm-tool .rm-activity-list label.rm-activity-choice:focus-within{background:#eaf3f7}\n#rm-tool .rm-activity-list input[type=\"checkbox\"]{display:block;flex:0 0 18px;width:18px!important;min-width:18px;height:18px;min-height:18px!important;padding:0!important;margin:0;accent-color:#527f92;border-radius:4px;cursor:pointer}\n#rm-tool .rm-activity-list input[type=\"checkbox\"]:focus-visible{outline:2px solid #6592a7;outline-offset:2px}\n#rm-tool .rm-activity-buttons{display:flex;justify-content:space-between;gap:8px;padding:10px 10px;border-top:1px solid #e2edf1;background:#f8fbfc}\n#rm-tool .rm-activity-buttons button{font-size:12px;min-height:34px;padding:6px 12px}\n#rm-tool .rm-activity-buttons .rm-activities-confirm{background:#6592a7;border-color:#6592a7;color:white}\n#rm-tool .rm-activity-selection{margin:5px 0 0!important;font-size:12px;line-height:1.4;color:#52717f}\n@media(max-width:610px){#rm-tool .rm-activity-list{max-height:250px}#rm-tool .rm-activity-list label.rm-activity-choice{min-height:44px}}";
+    rmActivityStyle.textContent="  #rm-tool .rm-activities-label{display:block;font-size:14px;font-weight:650;color:#243b46;margin:12px 0 6px}\n#rm-tool details.rm-activity-picker{width:100%;padding:0;border:1px solid #bdd0d9;border-radius:10px;background:white;overflow:hidden;margin:0}\n#rm-tool details.rm-activity-picker>summary{display:flex;align-items:center;gap:8px;min-height:44px;padding:10px 12px;color:#1f3b48;font-size:14px;line-height:1.45;font-weight:500;list-style:none;cursor:pointer}\n#rm-tool details.rm-activity-picker>summary::-webkit-details-marker{display:none}\n#rm-tool details.rm-activity-picker>summary::before{content:none}\n#rm-tool details.rm-activity-picker>summary::after{content:\"⌄\";margin-left:auto;font-size:19px;color:#385d71}\n#rm-tool details.rm-activity-picker[open]>summary::after{content:\"⌃\"}\n#rm-tool details.rm-activity-picker>summary:focus-visible{outline:3px solid #a8cada;outline-offset:-3px}\n#rm-tool .rm-activity-list{border:0;border-top:1px solid #e2edf1;padding:5px 7px;margin:0;max-height:245px;overflow-y:auto;min-width:0}\n#rm-tool .rm-activity-visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}\n#rm-tool .rm-activity-list button.rm-activity-choice{display:flex;align-items:center;gap:11px;width:100%;text-align:left;border:0;background:#fff;font-family:inherit;margin:0;padding:8px 9px;min-height:39px;border-radius:7px;font-size:13px;font-weight:500;cursor:pointer;line-height:1.4;color:#254658}\n#rm-tool .rm-activity-list button.rm-activity-choice:hover,#rm-tool .rm-activity-list button.rm-activity-choice:focus-within{background:#eaf3f7}\n#rm-tool .rm-activity-buttons{display:flex;justify-content:space-between;gap:8px;padding:10px 10px;border-top:1px solid #e2edf1;background:#f8fbfc}\n#rm-tool .rm-activity-buttons button{font-size:12px;min-height:34px;padding:6px 12px}\n#rm-tool .rm-activity-selection{margin:5px 0 0!important;font-size:12px;line-height:1.4;color:#52717f}\n@media(max-width:610px){#rm-tool .rm-activity-list{max-height:250px}#rm-tool .rm-activity-list button.rm-activity-choice{min-height:44px}}\n\n#rm-tool .rm-activity-list button.rm-activity-choice[aria-pressed=\"true\"]{background:#d4e9f2;color:#234556;font-weight:750;box-shadow:inset 4px 0 0 #527f92}\n#rm-tool .rm-activity-list button.rm-activity-choice[aria-pressed=\"true\"]:hover{background:#c0dfed}\n#rm-tool .rm-activity-list button.rm-activity-choice:focus-visible{outline:2px solid #6592a7;outline-offset:-2px}\n#rm-tool .rm-activity-choice::before{content:\"✓\";visibility:hidden;font-weight:800}\n#rm-tool .rm-activity-choice[aria-pressed=\"true\"]::before{visibility:visible}\n";
     HOST.appendChild(rmActivityStyle);
     const syncVisibility=(el)=>{if(el && el.nodeType===1 && el.hasAttribute('data-rm-fallback-hidden'))el.hidden=el.classList.contains('rm-hidden');};
     HOST.querySelectorAll('[data-rm-fallback-hidden]').forEach(syncVisibility);
@@ -670,7 +673,7 @@
     enableKeyboardSelection('rm-duration');
     // V20: One accessible multi-select behavior for Reiseform, Reisegrund, Aktivitäten.
     function getSelectedMulti(id){
-      return [...HOST.querySelectorAll('#'+id+' input[type="checkbox"]:checked')].map(input=>input.value);
+      return [...HOST.querySelectorAll('#'+id+' button.rm-activity-choice[aria-pressed="true"]')].map(button=>button.value);
     }
     function getSelectedActivities(){return getSelectedMulti('rm-activities')}
     function getSelectedStyles(){return getSelectedMulti('rm-style')}
@@ -690,20 +693,45 @@
       updateMultiLabel(group);
       if(selected.length && !$('rm-results').classList.contains('rm-hidden'))updateResult(false);
     }
+    function closeOtherMultiPickers(target){
+      for(const group of multiGroups){
+        const picker=$(group.id+'-picker');
+        if(!picker.contains(target))picker.open=false;
+      }
+    }
+    document.addEventListener('pointerdown',event=>closeOtherMultiPickers(event.target));
+    document.addEventListener('focusin',event=>closeOtherMultiPickers(event.target));
     for(const group of multiGroups){
-      HOST.querySelectorAll('#'+group.id+' input[type="checkbox"]').forEach(input=>input.addEventListener('change',()=>onMultiChange(group)));
+      const picker=$(group.id+'-picker');
+      const options=[...HOST.querySelectorAll('#'+group.id+' button.rm-activity-choice')];
+      options.forEach((button,index)=>{
+        button.addEventListener('click',()=>{
+          button.setAttribute('aria-pressed',String(button.getAttribute('aria-pressed')!=='true'));
+          onMultiChange(group);
+        });
+        button.addEventListener('keydown',event=>{
+          let next;
+          if(event.key==='ArrowDown')next=(index+1)%options.length;
+          if(event.key==='ArrowUp')next=(index+options.length-1)%options.length;
+          if(event.key==='Home')next=0;
+          if(event.key==='End')next=options.length-1;
+          if(next!==undefined){event.preventDefault();options[next].focus();}
+        });
+      });
       $(group.id+'-clear').addEventListener('click',()=>{
-        HOST.querySelectorAll('#'+group.id+' input[type="checkbox"]').forEach(input=>input.checked=false);
+        options.forEach(button=>button.setAttribute('aria-pressed','false'));
         onMultiChange(group);
       });
-      $(group.id+'-done').addEventListener('click',()=>{
-        $(group.id+'-picker').open=false;
-        $(group.id+'-toggle').focus();
+      picker.addEventListener('keydown',event=>{
+        if(event.key==='Escape'){event.preventDefault();picker.open=false;$(group.id+'-toggle').focus();}
+      });
+      picker.addEventListener('toggle',()=>{
+        if(picker.open)closeOtherMultiPickers(picker);
       });
       updateMultiLabel(group);
     }
 
-    $('rm-reset').addEventListener('click',()=>{selected.length=0;['rm-region','rm-when'].forEach(id=>$(id).value='');regionPicks=[];hideRegionSuggestions();renderRegionChips();$('rm-duration').selectedIndex=0;for(const group of multiGroups){HOST.querySelectorAll('#'+group.id+' input[type="checkbox"]').forEach(input=>input.checked=false);$(group.id+'-picker').open=false;updateMultiLabel(group)}$('rm-special-notes').innerHTML='';renderChips();updateSourceFooter();$('rm-country').focus()});
+    $('rm-reset').addEventListener('click',()=>{selected.length=0;['rm-region','rm-when'].forEach(id=>$(id).value='');regionPicks=[];hideRegionSuggestions();renderRegionChips();$('rm-duration').selectedIndex=0;for(const group of multiGroups){HOST.querySelectorAll('#'+group.id+' button.rm-activity-choice').forEach(button=>button.setAttribute('aria-pressed','false'));$(group.id+'-picker').open=false;updateMultiLabel(group)}$('rm-special-notes').innerHTML='';renderChips();updateSourceFooter();$('rm-country').focus()});
     function riskInfo(p,region){const t=clean(region);if(!p)return {kind:'unknown',title:'Malaria: individuelle Prüfung erforderlich',txt:'Für dieses Land liegt noch keine fachlich freigegebene, aktuelle Risikoeinordnung im Tool vor. Bitte prüfe die offiziellen Reise- und Malariainformationen.'};
       if(p._v16){
         const m=p._v16Malaria||{};
