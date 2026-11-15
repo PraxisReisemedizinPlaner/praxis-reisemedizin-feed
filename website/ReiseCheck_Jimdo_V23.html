@@ -1,0 +1,1202 @@
+<!-- Praxis Dr. Münster: Reisemedizin-Check | Jimdo Creator Widget/HTML | V23.0 (15.11.2026; regionale Ortsauswahl mit klinischem Freigabegate; Wellen- und Bergsymbol, Quellen im Abschlussbereich; Reisearten und Reisegründe mehrfach auswählbar, Hinweise zur Höhenkrankheit) -->
+<div class="rm-tool" id="rm-tool" style="--rm-blue:#6592A7;--rm-deep:#234556;--rm-line:#d8e4e9;--rm-ink:#243b46;--rm-muted:#566c75;font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;font-size:15px;line-height:1.5;color:#243b46;width:100%;max-width:950px;margin:0 auto;box-sizing:border-box">
+<style>
+    #rm-tool{--rm-blue:#6592A7;--rm-deep:#234556;--rm-fog:#eef5f7;--rm-line:#d8e4e9;--rm-ink:#243b46;--rm-muted:#566c75;--rm-good:#eef8f3;--rm-attn:#fff3df;--rm-red:#fff1ef;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--rm-ink);font-size:15px;line-height:1.5;width:100%;max-width:950px;margin:0 auto}
+    #rm-tool *{box-sizing:border-box}#rm-tool .rm-card{border:1px solid var(--rm-line);border-radius:17px;background:white;box-shadow:0 4px 16px rgba(28,69,87,.05);margin:12px 0;overflow:hidden}
+    #rm-tool .rm-top{background:linear-gradient(110deg,#e4f0f4,#f8fafb);padding:15px 17px 14px;border-radius:18px;border:1px solid var(--rm-line)}
+    #rm-tool h2,#rm-tool h3,#rm-tool h4,#rm-tool p{margin:0}#rm-tool h2{font-size:clamp(22px,4vw,29px);line-height:1.16;color:var(--rm-deep);margin:7px 0 10px}#rm-tool h3{font-size:18px;color:var(--rm-deep)}#rm-tool h4{font-size:15px;color:var(--rm-deep)}
+    #rm-tool .rm-sub{color:var(--rm-muted)}#rm-tool .rm-section{padding:19px}#rm-tool .rm-step{display:inline-grid;place-items:center;background:var(--rm-blue);color:white;border-radius:50%;height:26px;width:26px;margin-right:8px;font-size:14px;font-weight:750}
+    #rm-tool label{display:block;font-weight:650;margin:12px 0 6px}#rm-tool input,#rm-tool select{font:inherit;border:1px solid #bdd0d9;border-radius:10px;padding:11px 12px;min-height:44px;width:100%;background:white;color:#1f3b48}#rm-tool input:focus,#rm-tool select:focus{outline:3px solid #bcd5e1;outline-offset:1px}
+    #rm-tool .rm-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}#rm-tool .rm-hint{font-size:12px;color:var(--rm-muted);margin-top:7px}
+    #rm-tool button{font:inherit;cursor:pointer}#rm-tool .rm-button{border:1px solid #517d93;border-radius:10px;padding:11px 17px;background:var(--rm-blue);color:white;font-weight:750;min-height:45px}#rm-tool .rm-button:hover{background:#507e92}#rm-tool .rm-button:disabled{cursor:not-allowed;opacity:.5}#rm-tool .rm-outline{background:white;color:#35657a}#rm-tool .rm-outline:hover{background:#ecf4f7}#rm-tool .rm-link{color:#245c74;text-decoration:underline;text-underline-offset:2px;font-weight:650}
+    #rm-tool .rm-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:13px}#rm-tool .rm-smallbtn{border:1px solid #b7cbd3;border-radius:9px;background:white;color:var(--rm-deep);padding:7px 10px;font-size:13px;font-weight:650}
+    #rm-tool .rm-picker{position:relative}#rm-tool .rm-suggest{position:absolute;z-index:22;background:white;box-shadow:0 12px 30px rgba(25,58,73,.13);top:100%;width:100%;max-height:236px;overflow:auto;border:1px solid var(--rm-line);border-radius:11px;display:none}#rm-tool .rm-suggest.rm-show{display:block}
+    #rm-tool .rm-choice{width:100%;padding:10px 13px;border:0;background:white;color:var(--rm-ink);text-align:left;border-bottom:1px solid #f1f4f6}#rm-tool .rm-choice:hover,#rm-tool .rm-choice:focus{background:#eaf4f7;outline:none}#rm-tool .rm-choice small{float:right;color:#678089}
+    #rm-tool .rm-chips{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0 0}#rm-tool .rm-chip{display:inline-flex;align-items:center;gap:8px;padding:6px 9px;background:#e7f0f4;border:1px solid #c8dce5;border-radius:26px;font-weight:650}#rm-tool .rm-chip button{font-size:20px;line-height:1;background:none;border:0;color:#355d70;padding:0 3px}
+    #rm-tool .rm-note{border:1px solid #bdd3de;border-left:4px solid var(--rm-blue);background:#eff5f7;border-radius:9px;padding:11px 14px;margin:13px 0;color:#345565}#rm-tool .rm-note.rm-warning{background:var(--rm-attn);border-color:#d9a54c;color:#604b1c}#rm-tool .rm-note.rm-danger{background:var(--rm-red);border-color:#c9715e;color:#713c32}
+    #rm-tool .rm-stack{display:grid;gap:11px}#rm-tool .rm-result{border:1px solid var(--rm-line);border-radius:14px;padding:16px;background:white}#rm-tool .rm-result h3{margin:0 0 8px}#rm-tool .rm-grid{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-top:10px}#rm-tool .rm-box{background:#f5f9fa;border:1px solid #e2edf0;border-radius:12px;padding:12px}#rm-tool .rm-box p{margin-top:5px}
+    #rm-tool .rm-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}#rm-tool .rm-tag{border-radius:7px;background:#e5eff4;color:#30586d;font-size:13px;font-weight:650;padding:5px 8px}#rm-tool .rm-tag.rm-risk{background:#fff0da;color:#694b17}
+    #rm-tool .rm-status{display:inline-block;padding:4px 8px;border-radius:8px;background:#f8ebd6;color:#7e5724;font-size:12px;font-weight:750;margin:4px 0 9px}#rm-tool .rm-status.rm-green{background:#dcf3e9;color:#25664c}
+    #rm-tool .rm-embassy{border-top:1px solid var(--rm-line);padding-top:11px;margin-top:12px}#rm-tool .rm-embassy p{margin:4px 0}#rm-tool .rm-footer{font-size:12px;color:#5a7079;padding:9px 3px 18px}
+    #rm-tool details{border-top:1px solid var(--rm-line);padding:12px 17px}#rm-tool details:first-of-type{border-top:0}#rm-tool summary{cursor:pointer;font-weight:750;color:var(--rm-deep);list-style:none}#rm-tool summary::-webkit-details-marker{display:none}#rm-tool summary::before{content:"▸";display:inline-block;width:17px;color:#5e8798}#rm-tool details[open] summary::before{content:"▾"}#rm-tool details p{margin:9px 0 0}
+    #rm-tool .rm-general{background:#fff}#rm-tool .rm-detailbox{padding:9px 0}#rm-tool .rm-badge{background:#dcedf2;color:#28566c;font-size:12px;border-radius:6px;padding:3px 6px}
+    #rm-tool .rm-hidden{display:none!important}#rm-tool .rm-live{font-size:12px;color:var(--rm-muted);margin-top:5px}#rm-tool a{overflow-wrap:anywhere}
+    @media(max-width:610px){#rm-tool .rm-top,#rm-tool .rm-section{padding:15px}#rm-tool .rm-row,#rm-tool .rm-grid{grid-template-columns:1fr}#rm-tool .rm-result{padding:13px}#rm-tool .rm-actions .rm-button{flex:1 1 100%}#rm-tool .rm-suggest{max-height:195px}#rm-tool{font-size:14px}}
+    @media print{#rm-tool .rm-picker,#rm-tool .rm-actions,#rm-tool #rm-step2,#rm-tool #rm-liveinfo,#rm-tool .rm-suggest{display:none!important}#rm-tool .rm-result{break-inside:avoid}#rm-tool .rm-card{box-shadow:none}#rm-tool details{display:block}}
+
+    #rm-tool .rm-scheme-grid{display:grid;grid-template-columns:1fr;gap:8px;margin-top:10px}
+    #rm-tool .rm-scheme{border:1px solid #cfdee5;border-radius:10px;background:#fff;padding:10px 12px;font-size:13px}
+    #rm-tool .rm-scheme h5{font-size:14px;margin:0 0 5px;color:#224f65}
+    #rm-tool .rm-scheme p{margin:4px 0;line-height:1.45}
+    #rm-tool .rm-scheme .rm-vaxkind{display:inline-block;font-size:11px;letter-spacing:.01em;border-radius:5px;background:#e7f1f6;padding:2px 5px;color:#355d71;margin:2px 0 5px}
+    #rm-tool .rm-vaccine-index{display:grid;grid-template-columns:repeat(auto-fit,minmax(275px,1fr));gap:10px;margin-top:14px}
+    #rm-tool .rm-missions{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;margin-top:10px}
+    #rm-tool .rm-mission{border:1px solid #dbe6ec;background:#f7fafc;border-radius:11px;padding:12px}
+    #rm-tool .rm-mission p{margin:5px 0;line-height:1.5;overflow-wrap:anywhere}
+    #rm-tool .rm-mission strong{font-size:14px}
+    #rm-tool .rm-extra{margin:12px 0 2px;border:1px solid #dce9ee;border-radius:10px;padding:0}
+    #rm-tool .rm-extra summary{padding:12px 14px;font-size:14px}
+    #rm-tool .rm-extra .rm-hint,#rm-tool .rm-extra .rm-row{margin:0 14px 12px}
+    #rm-tool .rm-catalog details{border-top:0;padding:0}
+    #rm-tool .rm-catalog summary{font-size:16px}
+    #rm-tool .rm-warningline{border-radius:8px;background:#fff4e1;border:1px solid #d4a156;border-left:4px solid #d4a156;padding:10px;margin:10px 0;font-size:13px}#rm-tool details.rm-dive-note{border:1px solid #6b98a9;border-left:4px solid #6b98a9;background:#f3f8fa;border-radius:9px;padding:0;margin:10px 0 14px;color:#294c5d}#rm-tool .rm-dive-note>summary{display:block;padding:12px 14px;font-size:14px;line-height:1.5}#rm-tool .rm-dive-note>summary:focus-visible{outline:3px solid #6592a7;outline-offset:2px}#rm-tool .rm-dive-content{padding:0 14px 13px 28px}#rm-tool .rm-dive-content ul{margin:8px 0 0 18px;padding:0}#rm-tool .rm-dive-content li{margin:4px 0}#rm-tool .rm-dive-content p{margin:6px 0 0}#rm-tool .rm-dive-toggle-hint{font-size:12px;font-weight:500;color:#4c7180;margin-left:6px}#rm-tool .rm-dive-note[open] .rm-dive-toggle-hint{display:none}
+    @media(max-width:610px){#rm-tool .rm-missions,#rm-tool .rm-vaccine-index{grid-template-columns:1fr}}
+    @media print{#rm-tool .rm-vaccine-index{display:none}#rm-tool .rm-catalog{display:none!important}#rm-tool .rm-scheme,#rm-tool .rm-mission{break-inside:avoid}#rm-tool .rm-extra{display:none!important}}
+
+    #rm-tool .rm-international-note{font-size:12px;line-height:1.45;border-radius:9px;padding:10px 12px;margin:10px 0 15px;background:#e9f4f7;border:1px solid #cee3ec;color:#2a5266}
+    #rm-tool .rm-intl-alerts{display:grid;gap:9px;margin-top:10px}
+    #rm-tool .rm-intl-alert{border:1px solid #6b98a9;border-left:4px solid #6b98a9;background:#f5f9fb;padding:11px 12px;border-radius:7px}
+    #rm-tool .rm-intl-alert.rm-area{border-color:#ddaa56;background:#fff9ed}
+    #rm-tool .rm-intl-alert h5{font-size:14px;margin:3px 0 5px;color:#27495c}
+    #rm-tool .rm-intl-alert p{margin:4px 0 0}
+    #rm-tool .rm-intl-meta{font-size:12px;color:#4b6b7a;font-weight:700}
+    #rm-tool .rm-intl-links{display:flex;gap:7px 13px;flex-wrap:wrap;margin:9px 0 3px;font-size:13px}
+    #rm-tool .rm-intl-empty{border:1px solid #e3edf1;border-radius:9px;padding:10px 12px;background:#f7fafb}
+    @media print{#rm-tool .rm-intl-alert{break-inside:avoid}}
+
+    /* V4: klare Ampelfarben, lesbar auch ohne Farberkennung */
+    #rm-tool .rm-tag.rm-traffic-green{background:#ddf2e3;color:#1b653f;border:1px solid #8cbea0}
+    #rm-tool .rm-tag.rm-traffic-yellow{background:#fff1c9;color:#805300;border:1px solid #e4bd60}
+    #rm-tool .rm-scheme.rm-traffic-green{border:1px solid #408c62;border-left:4px solid #408c62;background:linear-gradient(90deg,#f2fbf5 0%,white 44%)}
+    #rm-tool .rm-scheme.rm-traffic-yellow{border:1px solid #d39b38;border-left:4px solid #d39b38;background:linear-gradient(90deg,#fffaf0 0%,white 44%)}
+    #rm-tool .rm-vaxkind.rm-traffic-green{background:#dcf2e3;color:#1b653f;border:1px solid #a8d2b9}
+    #rm-tool .rm-vaxkind.rm-traffic-yellow{background:#fff0c9;color:#805300;border:1px solid #e6c875}
+    #rm-tool .rm-legend{display:flex;gap:7px 12px;flex-wrap:wrap;align-items:center;margin:12px 0 9px;font-size:12px;color:#465d66}
+    #rm-tool .rm-legend-item{display:inline-flex;align-items:center;gap:6px}
+    #rm-tool .rm-legend-swatch{display:inline-block;width:12px;height:12px;border-radius:4px;border:1px solid}
+    #rm-tool .rm-legend-swatch.rm-traffic-green{background:#ddf2e3;border-color:#408c62}
+    #rm-tool .rm-legend-swatch.rm-traffic-yellow{background:#fff1c9;border-color:#d39b38}
+    /* Handgezeichnete Strich-Icons in den Praxisfarben statt Emoji */
+    #rm-tool .rm-svg-icon,#rm-tool .rm-symbol{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;vertical-align:-3px;width:22px;height:22px;margin-right:6px;background:#e8f1f5;color:#527f92;border:1px solid #d7e7ed;border-radius:7px}
+    #rm-tool .rm-svg-icon svg,#rm-tool .rm-symbol svg{width:16px;height:16px;display:block;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+    #rm-tool .rm-top h2 .rm-svg-icon,#rm-tool .rm-top h2 .rm-symbol{width:29px;height:29px;vertical-align:-5px;border-radius:8px}
+    #rm-tool .rm-top h2 .rm-svg-icon svg,#rm-tool .rm-top h2 .rm-symbol svg{width:20px;height:20px}
+    #rm-tool .rm-sources-compact{margin:9px 0 0!important;padding:0!important;border:1px solid #dce7ec!important;border-radius:9px}
+    #rm-tool .rm-sources-compact>summary{padding:7px 12px;font-size:12px}
+    #rm-tool .rm-sources-compact .rm-live,#rm-tool .rm-sources-compact .rm-international-note{margin:0 10px 10px}
+    #rm-tool .rm-source-inside{padding:0 11px 10px}#rm-tool .rm-source-inside .rm-hint{margin:6px 0 9px}#rm-tool .rm-source-inside .rm-live{margin:0}
+    #rm-tool .rm-source-details{margin:9px 0 0;border:1px solid var(--rm-line);border-radius:9px}
+    #rm-tool .rm-source-details summary{font-size:13px;padding:9px 12px}
+    #rm-tool .rm-source-details .rm-actions{margin:3px 12px 12px}
+    #rm-tool .rm-source-details .rm-footer{margin:3px 12px 12px;line-height:1.5;padding:0}
+    #rm-tool .rm-scheme h5{line-height:1.35}
+    /* V5: Gelbfieber-Indikationshinweis, kein allgemeines Länder-Risikoetikett */
+    #rm-tool .rm-yellowfever-flag{display:flex;align-items:flex-start;gap:4px;padding:9px 10px;margin:10px 0;border:1px solid #d9aa37;border-left:4px solid #d9aa37;border-radius:9px;background:#fff8da;color:#624e20;font-size:13px;line-height:1.45}
+    #rm-tool .rm-svg-icon.rm-yellowfever-icon{background:#fff0ae;border-color:#e6cd76;color:#866400}
+    #rm-tool .rm-yellowfever-flag .rm-svg-icon{margin:0 5px 0 0}
+    #rm-tool .rm-window-badge{display:inline-block;vertical-align:middle;white-space:nowrap;font-size:11px;font-weight:750;color:#3e6174;background:#e7f1f4;border:1px solid #d5e6ed;border-radius:6px;padding:2px 7px;margin-left:5px}
+    #rm-tool .rm-intl-original{border-top:0;padding:0;margin-top:7px;background:#fff;border-radius:7px;border:1px solid #d5e5eb}
+    #rm-tool .rm-intl-original summary{font-size:12px;padding:7px 10px;color:#3d6479}
+    #rm-tool .rm-intl-original p{font-size:12px;padding:0 10px 9px;margin:0}
+    #rm-tool .rm-intl-details{padding:0 12px 12px}
+    #rm-tool .rm-intl-details .rm-hint{margin:7px 0 0}
+    #rm-tool .rm-intl-section>.rm-intl-empty{margin-top:8px}
+    #rm-tool .rm-catalog .rm-source-details{margin-top:12px;border:1px solid #d8e6ec;border-radius:9px}
+    #rm-tool .rm-catalog .rm-source-details summary{padding:9px 12px;font-size:12px}
+    #rm-tool .rm-catalog .rm-source-details .rm-hint{margin:0;padding:0 12px 12px}
+    @media print{#rm-tool .rm-legend{display:flex}}
+
+    /* V6: Risikoabhängige Malaria-Ampel, optisch dezent und textlich eindeutig. */
+    #rm-tool .rm-box.rm-malaria-med{background:#fff0ee;border:1px solid #c65c56;border-left:5px solid #c65c56}
+    #rm-tool .rm-box.rm-malaria-standby{background:#fff0dd;border:1px solid #db9443;border-left:5px solid #db9443}
+    #rm-tool .rm-box.rm-malaria-exposure{background:#fff9dc;border:1px solid #c7ab42;border-left:5px solid #c7ab42}
+    #rm-tool .rm-box.rm-malaria-unknown{background:#f5f9fa;border-color:#e2edf0}
+    #rm-tool .rm-box.rm-malaria-none{background:#eff7f8;border:1px solid #6592a7;border-left:5px solid #6592a7}
+    #rm-tool .rm-malaria-state{display:inline-block;font-size:12px;line-height:1.4;font-weight:750;border-radius:7px;padding:4px 9px;margin:8px 0 5px}
+    #rm-tool .rm-malaria-med .rm-malaria-state{background:#f9d6d2;color:#85332d}
+    #rm-tool .rm-malaria-standby .rm-malaria-state{background:#f7d6ac;color:#7e4815}
+    #rm-tool .rm-malaria-exposure .rm-malaria-state{background:#f8e9a8;color:#6b5610}
+    #rm-tool .rm-malaria-unknown .rm-malaria-state{background:#e3eff3;color:#30566a}
+    #rm-tool .rm-malaria-none .rm-malaria-state{background:#dcecf1;color:#28586b}
+    #rm-tool .rm-box.rm-malaria-med h4,#rm-tool .rm-box.rm-malaria-standby h4,#rm-tool .rm-box.rm-malaria-exposure h4{color:#273d48}
+    @media print{#rm-tool .rm-box[class*="rm-malaria-"]{print-color-adjust:exact;-webkit-print-color-adjust:exact}}
+
+    #rm-tool .rm-sources-bottom .rm-sources-inner h4{font-size:14px;margin:15px 0 5px;color:#285266}
+    #rm-tool .rm-sources-bottom .rm-sources-inner h4:first-child{margin-top:4px}
+    #rm-tool .rm-sources-bottom .rm-sources-inner p{font-size:12px;line-height:1.6;color:#546c77;margin:6px 0}
+    #rm-tool .rm-sources-bottom .rm-international-note{font-size:12px;margin:7px 0;padding:9px 11px}
+    #rm-tool .rm-source-country{background:#f7fafb;border:1px solid #e0eaf0;border-radius:10px;padding:10px 12px;margin:9px 0}
+    #rm-tool .rm-source-country h5{margin:0 0 5px;color:#25495e;font-size:13px}
+    #rm-tool .rm-source-country ul{margin:5px 0 1px;padding-left:18px;font-size:12px;line-height:1.55}
+    #rm-tool .rm-source-country li{margin:4px 0}
+    #rm-tool .rm-source-footer>summary{border-bottom:0}
+    #rm-tool .rm-source-footer[open]>summary{background:#f5f9fa;border-bottom:1px solid #e0eaef}
+    #rm-tool .rm-catalog{margin-top:12px}
+
+    /* V12: Amtliche Meldungen sind über die Überschrift direkt anklickbar. */
+    #rm-tool .rm-intl-alert h5 a.rm-alert-link{color:#22566f;text-decoration:underline;text-decoration-color:#8cb4c6;text-underline-offset:3px;font-weight:760;overflow-wrap:anywhere}
+    #rm-tool .rm-intl-alert h5 a.rm-alert-link:hover,#rm-tool .rm-intl-alert h5 a.rm-alert-link:focus{color:#143c50;text-decoration-color:#143c50}
+    #rm-tool .rm-intl-brief{font-size:13px;line-height:1.5}
+    #rm-tool .rm-intl-editorial{font-size:11px;color:#617a86;margin-top:5px}
+
+    /* V15: Fehlende Malaria-Risikolage neutral anzeigen. */
+    #rm-tool .rm-box.rm-malaria-none{background:#eff7f8!important;border:1px solid #6592a7!important;border-left:5px solid #6592a7!important}
+    #rm-tool .rm-malaria-none .rm-malaria-state{background:#dcecf1!important;color:#28586b!important}
+    /* V13: Tastaturbedienbare Reisezielliste und länderübergreifende Impfübersicht */
+    #rm-tool .rm-choice.rm-active,#rm-tool .rm-choice[aria-selected="true"]{background:#dceef5!important;color:#153f53!important;box-shadow:inset 3px 0 #6592A7;font-weight:750}
+    #rm-tool .rm-shared-vax{border:1px solid #cadee5;background:#f9fbfc;border-radius:12px;padding:14px;margin:12px 0 16px}
+    #rm-tool .rm-shared-vax h4{font-size:16px;margin:0 0 5px}
+    #rm-tool .rm-vax-unique{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px;margin-top:10px}
+    #rm-tool .rm-vax-unique-card{border:1px solid #d8e5ea;border-radius:9px;background:white;padding:10px 12px}
+    #rm-tool .rm-vax-unique-card strong{display:block;color:#204a5f;font-size:14px}
+    #rm-tool .rm-vax-country-note{font-size:11px;line-height:1.5;color:#56717d;margin:5px 0 1px}
+    #rm-tool .rm-vax-country-note span{display:block}
+    #rm-tool .rm-vax-country-note .rm-country-global{color:#276647}
+    #rm-tool .rm-vax-country-note .rm-country-risk{color:#986316}
+    #rm-tool .rm-scheme .rm-vax-country-note{background:#f4f8fa;border-radius:6px;padding:5px 8px;margin:4px 0 8px}
+    #rm-tool .rm-shared-vax .rm-vax-schemata{border:1px solid #d7e5eb;border-radius:9px;margin-top:13px;background:#fff}
+    #rm-tool .rm-shared-vax .rm-vax-schemata>summary{cursor:pointer;padding:10px 12px;font-weight:750;font-size:13px;color:#234b62}
+    #rm-tool .rm-shared-vax .rm-vax-schemata>.rm-scheme-grid{padding:0 10px 10px;margin-top:4px}
+    #rm-tool .rm-entry-note{font-size:13px;line-height:1.5}
+    @media(max-width:610px){#rm-tool .rm-vax-unique{grid-template-columns:1fr}}
+  #rm-tool .rm-activities-label{display:block;font-size:14px;font-weight:650;color:#243b46;margin:12px 0 6px}
+#rm-tool details.rm-activity-picker{width:100%;padding:0;border:1px solid #bdd0d9;border-radius:10px;background:white;overflow:hidden;margin:0}
+#rm-tool details.rm-activity-picker>summary{display:flex;align-items:center;gap:8px;min-height:44px;padding:10px 12px;color:#1f3b48;font-size:14px;line-height:1.45;font-weight:500;list-style:none;cursor:pointer}
+#rm-tool details.rm-activity-picker>summary::-webkit-details-marker{display:none}
+#rm-tool details.rm-activity-picker>summary::before{content:none}
+#rm-tool details.rm-activity-picker>summary::after{content:"⌄";margin-left:auto;font-size:19px;color:#385d71}
+#rm-tool details.rm-activity-picker[open]>summary::after{content:"⌃"}
+#rm-tool details.rm-activity-picker>summary:focus-visible{outline:3px solid #a8cada;outline-offset:-3px}
+#rm-tool .rm-activity-list{border:0;border-top:1px solid #e2edf1;padding:5px 7px;margin:0;max-height:245px;overflow-y:auto;min-width:0}
+#rm-tool .rm-activity-visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+#rm-tool .rm-activity-list label.rm-activity-choice{display:flex;align-items:center;gap:11px;margin:0;padding:8px 9px;min-height:39px;border-radius:7px;font-size:13px;font-weight:500;cursor:pointer;line-height:1.4;color:#254658}
+#rm-tool .rm-activity-list label.rm-activity-choice:hover,#rm-tool .rm-activity-list label.rm-activity-choice:focus-within{background:#eaf3f7}
+#rm-tool .rm-activity-list input[type="checkbox"]{display:block;flex:0 0 18px;width:18px!important;min-width:18px;height:18px;min-height:18px!important;padding:0!important;margin:0;accent-color:#527f92;border-radius:4px;cursor:pointer}
+#rm-tool .rm-activity-list input[type="checkbox"]:focus-visible{outline:2px solid #6592a7;outline-offset:2px}
+#rm-tool .rm-activity-buttons{display:flex;justify-content:space-between;gap:8px;padding:10px 10px;border-top:1px solid #e2edf1;background:#f8fbfc}
+#rm-tool .rm-activity-buttons button{font-size:12px;min-height:34px;padding:6px 12px}
+#rm-tool .rm-activity-buttons .rm-activities-confirm{background:#6592a7;border-color:#6592a7;color:white}
+#rm-tool .rm-activity-selection{margin:5px 0 0!important;font-size:12px;line-height:1.4;color:#52717f}
+@media(max-width:610px){#rm-tool .rm-activity-list{max-height:250px}#rm-tool .rm-activity-list label.rm-activity-choice{min-height:44px}}
+
+    /* V23: Eindeutige geografische Ortsauswahl (noch keine klinische Regionalfreigabe). */
+    #rm-tool #rm-region-suggest{display:none;position:relative;z-index:8;border:1px solid #a6c2d0;border-radius:10px;background:#fff;box-shadow:0 10px 26px rgba(22,64,82,.12);margin:3px 0 8px;max-height:210px;overflow-y:auto}
+    #rm-tool #rm-region-suggest.rm-show{display:block}
+    #rm-tool #rm-region-suggest button{width:100%;border:0;border-bottom:1px solid #e7eff2;background:#fff;text-align:left;color:#254759;font-size:13px;line-height:1.4;min-height:40px;padding:9px 12px;cursor:pointer}
+    #rm-tool #rm-region-suggest button:last-child{border-bottom:0}
+    #rm-tool #rm-region-suggest button:hover,#rm-tool #rm-region-suggest button.rm-active{background:#e7f2f7}
+    #rm-tool #rm-region-suggest button:focus-visible{outline:2px solid #6592a7;outline-offset:-2px}
+    #rm-tool .rm-region-chips{display:flex;gap:6px;flex-wrap:wrap;margin:7px 0 3px}
+    #rm-tool .rm-region-chip{display:inline-flex;align-items:center;gap:6px;border:1px solid #c6dde7;background:#edf5f8;border-radius:21px;padding:5px 7px 5px 10px;font-size:12px;line-height:1.35;color:#28536a}
+    #rm-tool .rm-region-chip button{padding:0 3px;font-size:18px;line-height:1;border:0;background:none;color:#3c6878}
+    #rm-tool .rm-region-feedback{font-size:11px;line-height:1.45;color:#52717e;margin:7px 0 0}
+    #rm-tool .rm-region-risk{background:#f3f8fa;border:1px solid #9dbccb;border-left:4px solid #6592a7;border-radius:10px;padding:11px 13px;margin:12px 0;color:#294959}
+    #rm-tool .rm-region-risk h4{font-size:14px;margin:0 0 6px}
+    #rm-tool .rm-region-risk p{font-size:12px;margin:6px 0 0}
+    #rm-tool .rm-region-risk-item{border-top:1px solid #d3e5ed;margin:8px 0 0;padding:7px 0 0;font-size:13px}
+    #rm-tool .rm-region-risk-item strong{display:block}
+    #rm-tool .rm-region-risk-item .rm-hint{margin-top:3px}
+
+</style>
+<div class="rm-top" style="background:#edf5f7;padding:15px 17px 14px;border-radius:16px;border:1px solid #d8e4e9;margin:0 0 12px">
+<h2 style="font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;font-size:clamp(22px,4vw,29px);font-weight:750;line-height:1.2;color:#234556;margin:0 0 10px"><span aria-hidden="true" class="rm-symbol" data-rm-icon="globe" style="display:inline-flex;vertical-align:middle;width:28px;height:28px;max-width:28px;max-height:28px;margin-right:7px;align-items:center;justify-content:center;color:#527f92"></span>Wohin geht deine Reise?</h2>
+<p class="rm-sub" style="margin:0 0 5px;font-size:14px;line-height:1.5;color:#566c75;margin:0 0 8px">Wähle ein oder mehrere Reiseziele. Du bekommst Hinweise zu empfohlenen Impfungen inklusive Handelsnamen und Impfschemata, Malaria und den deutschen Auslandsvertretungen – direkt auf dieser Seite.</p>
+
+</div>
+<div aria-label="Reiseziele wählen" class="rm-card rm-section" style="border:1px solid #d8e4e9;border-radius:16px;background:#fff;box-shadow:0 4px 16px rgba(28,69,87,.05);margin:12px 0;overflow:hidden;padding:18px">
+<h3 style="font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;font-size:18px;font-weight:750;line-height:1.3;color:#234556;margin:0 0 10px"><span class="rm-step" style="display:inline-flex;align-items:center;justify-content:center;background:#6592A7;color:white;border-radius:50%;height:27px;width:27px;margin-right:8px;font-size:14px;font-weight:750">1</span> Reiseziel auswählen</h3>
+<label for="rm-country" style="display:block;font-size:14px;font-weight:650;color:#243b46;margin:12px 0 6px">Land, Insel oder Stadt eingeben</label>
+<div class="rm-picker" style="position:relative">
+<input aria-autocomplete="list" aria-controls="rm-suggest" aria-expanded="false" autocomplete="off" id="rm-country" placeholder="z. B. Thailand, Bali, Sansibar …" style="box-sizing:border-box;font:inherit;font-size:14px;border:1px solid #bdd0d9;border-radius:10px;padding:11px 12px;min-height:44px;width:100%;max-width:100%;background:#fff;color:#1f3b48" type="search"/>
+<div class="rm-suggest" id="rm-suggest" role="listbox"></div>
+</div>
+<div class="rm-hint" style="font-size:12px;line-height:1.45;color:#566c75;margin:6px 0">Mehrere Reiseziele möglich. Städte und Inseln helfen bei der Suche nach einem Land. Regionen und Zwischenstopps trägst du bei Bedarf selbst ein.</div>
+<div aria-live="polite" class="rm-chips" id="rm-chips" style="display:flex;gap:7px;flex-wrap:wrap;margin-top:10px"></div>
+</div>
+<div class="rm-card rm-section rm-hidden" data-rm-fallback-hidden="yes" hidden="" id="rm-step2" style="border:1px solid #d8e4e9;border-radius:16px;background:#fff;box-shadow:0 4px 16px rgba(28,69,87,.05);margin:12px 0;overflow:hidden;padding:18px">
+<h3 style="font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;font-size:18px;font-weight:750;line-height:1.3;color:#234556;margin:0 0 10px"><span class="rm-step" style="display:inline-flex;align-items:center;justify-content:center;background:#6592A7;color:white;border-radius:50%;height:27px;width:27px;margin-right:8px;font-size:14px;font-weight:750">2</span> Deine Reise genauer beschreiben <span class="rm-badge">optional, aber sinnvoll</span></h3>
+<div class="rm-row" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px">
+<div><label for="rm-region" style="display:block;font-size:14px;font-weight:650;color:#243b46;margin:12px 0 6px">Bereiste Regionen und Zwischenstopps</label><input id="rm-region" maxlength="180" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="rm-region-suggest" placeholder="z. B. Küstenregion, Insel, Hochland, Nationalpark oder Zwischenstopp" style="box-sizing:border-box;font:inherit;font-size:14px;border:1px solid #bdd0d9;border-radius:10px;padding:11px 12px;min-height:44px;width:100%;max-width:100%;background:#fff;color:#1f3b48" type="text"/><div class="rm-region-suggest" id="rm-region-suggest" role="listbox" aria-label="Vorschläge für Reiseorte"></div><div class="rm-region-chips" id="rm-region-chips" aria-label="Ausgewählte bereiste Orte"></div><p class="rm-region-feedback" id="rm-region-feedback" aria-live="polite">Orte und Zwischenstopps können einzeln bestätigt werden. Eine medizinische Regionalbewertung ist nur nach ärztlicher Freigabe verfügbar.</p></div>
+<div><label for="rm-when" style="display:block;font-size:14px;font-weight:650;color:#243b46;margin:12px 0 6px">Reisebeginn</label><input aria-label="Reisebeginn: sechs Ziffern Tag Monat Jahr, zum Beispiel 101126, auch mit Punkten möglich" id="rm-when" inputmode="numeric" maxlength="10" placeholder="z. B. 101126" style="box-sizing:border-box;font:inherit;font-size:14px;border:1px solid #bdd0d9;border-radius:10px;padding:11px 12px;min-height:44px;width:100%;max-width:100%;background:#fff;color:#1f3b48" type="text"/><div class="rm-hint" style="font-size:12px;line-height:1.45;color:#566c75;margin:6px 0">Ohne Punkte möglich: 101126 oder 10112026</div></div>
+<div><label for="rm-duration" style="display:block;font-size:14px;font-weight:650;color:#243b46;margin:12px 0 6px">Reisedauer</label><select id="rm-duration" tabindex="0" aria-describedby="rm-select-keyboard-hint" style="box-sizing:border-box;font:inherit;font-size:14px;border:1px solid #bdd0d9;border-radius:10px;padding:11px 12px;min-height:44px;width:100%;max-width:100%;background:#fff;color:#1f3b48"><option value="">Bitte auswählen</option><option>bis 7 Tage</option><option>8–21 Tage</option><option>22–42 Tage</option><option>länger als 6 Wochen</option></select></div>
+<div class="rm-activity-field rm-multi-field">
+<span class="rm-activities-label" id="rm-style-label">Art der Reise</span>
+<details id="rm-style-picker" class="rm-activity-picker">
+<summary id="rm-style-toggle" aria-labelledby="rm-style-label rm-style-summary"><span id="rm-style-summary">Nicht angegeben · Mehrfachauswahl</span></summary>
+<fieldset id="rm-style" class="rm-activity-list" aria-labelledby="rm-style-label"><legend class="rm-activity-visually-hidden">Art der Reise: Mehrfachauswahl</legend>
+<label class="rm-activity-choice" for="rm-style-option-1"><input type="checkbox" id="rm-style-option-1" name="rm-style-option" value="Hotel / Städtereise"/><span>Hotel / Städtereise</span></label>
+<label class="rm-activity-choice" for="rm-style-option-2"><input type="checkbox" id="rm-style-option-2" name="rm-style-option" value="Rundreise"/><span>Rundreise</span></label>
+<label class="rm-activity-choice" for="rm-style-option-3"><input type="checkbox" id="rm-style-option-3" name="rm-style-option" value="Safari / Outdoor"/><span>Safari / Outdoor</span></label>
+<label class="rm-activity-choice" for="rm-style-option-4"><input type="checkbox" id="rm-style-option-4" name="rm-style-option" value="Rucksackreise / einfache Unterkünfte"/><span>Rucksackreise / einfache Unterkünfte</span></label>
+<label class="rm-activity-choice" for="rm-style-option-5"><input type="checkbox" id="rm-style-option-5" name="rm-style-option" value="Arbeit / längerer Aufenthalt"/><span>Arbeit / längerer Aufenthalt</span></label>
+</fieldset>
+<div class="rm-activity-buttons"><button type="button" class="rm-smallbtn" id="rm-style-clear">Auswahl löschen</button><button type="button" class="rm-smallbtn rm-activities-confirm" id="rm-style-done">Fertig</button></div>
+</details>
+<p class="rm-hint rm-activity-selection" id="rm-style-chosen" aria-live="polite">Mehrfachauswahl möglich</p>
+</div>
+</div>
+<p class="rm-hint" id="rm-select-keyboard-hint" style="margin:7px 0 4px;font-size:12px;color:#566c75">Tastatur: Bei der Reisedauer mit Pfeiltasten wählen; Mehrfachauswahlen mit Tab öffnen und Optionen mit Leertaste markieren.</p>
+<details class="rm-extra" style="border:1px solid #dce9ee;border-radius:10px;margin:12px 0 2px"><summary style="display:list-item;cursor:pointer;font-weight:750;color:#234556;padding:8px 12px;font-size:13px">＋ Weitere Angaben zur Reise (optional)</summary>
+<p class="rm-hint" style="margin:0 0 5px;font-size:12px;line-height:1.45;color:#566c75;margin:6px 0">Bei Familienbesuchen, Tierkontakten, ländlichen Aufenthalten und längeren Aufenthalten können weitere Impfungen relevant werden. Diese Angaben helfen bei der Vorbereitung einer persönlichen Beratung.</p>
+<div class="rm-row" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px">
+<div class="rm-activity-field rm-multi-field">
+<span class="rm-activities-label" id="rm-purpose-label">Reisegrund</span>
+<details id="rm-purpose-picker" class="rm-activity-picker">
+<summary id="rm-purpose-toggle" aria-labelledby="rm-purpose-label rm-purpose-summary"><span id="rm-purpose-summary">Nicht angegeben · Mehrfachauswahl</span></summary>
+<fieldset id="rm-purpose" class="rm-activity-list" aria-labelledby="rm-purpose-label"><legend class="rm-activity-visually-hidden">Reisegrund: Mehrfachauswahl</legend>
+<label class="rm-activity-choice" for="rm-purpose-option-1"><input type="checkbox" id="rm-purpose-option-1" name="rm-purpose-option" value="Urlaub / privat"/><span>Urlaub / privat</span></label>
+<label class="rm-activity-choice" for="rm-purpose-option-2"><input type="checkbox" id="rm-purpose-option-2" name="rm-purpose-option" value="Familien- oder Freundesbesuch"/><span>Familien- oder Freundesbesuch</span></label>
+<label class="rm-activity-choice" for="rm-purpose-option-3"><input type="checkbox" id="rm-purpose-option-3" name="rm-purpose-option" value="Beruf / Studium / Forschung"/><span>Beruf / Studium / Forschung</span></label>
+<label class="rm-activity-choice" for="rm-purpose-option-4"><input type="checkbox" id="rm-purpose-option-4" name="rm-purpose-option" value="Freiwilligendienst / medizinische Tätigkeit"/><span>Freiwilligendienst / medizinische Tätigkeit</span></label>
+</fieldset>
+<div class="rm-activity-buttons"><button type="button" class="rm-smallbtn" id="rm-purpose-clear">Auswahl löschen</button><button type="button" class="rm-smallbtn rm-activities-confirm" id="rm-purpose-done">Fertig</button></div>
+</details>
+<p class="rm-hint rm-activity-selection" id="rm-purpose-chosen" aria-live="polite">Mehrfachauswahl möglich</p>
+</div>
+<div class="rm-activity-field">
+<span id="rm-activities-label" class="rm-activities-label">Geplante Aktivitäten</span>
+<details id="rm-activities-picker" class="rm-activity-picker">
+<summary id="rm-activities-toggle" aria-labelledby="rm-activities-label rm-activities-summary"><span id="rm-activities-summary">Nicht angegeben · Mehrfachauswahl</span></summary>
+<fieldset id="rm-activities" class="rm-activity-list" aria-labelledby="rm-activities-label"><legend class="rm-activity-visually-hidden">Mehrere Aktivitäten auswählen</legend>
+<label class="rm-activity-choice" for="rm-activity-1"><input type="checkbox" id="rm-activity-1" name="rm-activity" value="Städte / organisierte Hotels"/><span>Städte / organisierte Hotels</span></label>
+<label class="rm-activity-choice" for="rm-activity-2"><input type="checkbox" id="rm-activity-2" name="rm-activity" value="Wandern / Natur / Safari"/><span>Wandern / Natur / Safari</span></label>
+<label class="rm-activity-choice" for="rm-activity-3"><input type="checkbox" id="rm-activity-3" name="rm-activity" value="Ländliche Gebiete / Kontakt mit Tieren"/><span>Ländliche Gebiete / Kontakt mit Tieren</span></label>
+<label class="rm-activity-choice" for="rm-activity-4"><input type="checkbox" id="rm-activity-4" name="rm-activity" value="Tauchen / Schnorcheln"/><span>Tauchen / Schnorcheln</span></label>
+<label class="rm-activity-choice" for="rm-activity-5"><input type="checkbox" id="rm-activity-5" name="rm-activity" value="Höhenaufenthalt über 2.500 m"/><span>Höhenaufenthalt über 2.500 m</span></label>
+<label class="rm-activity-choice" for="rm-activity-6"><input type="checkbox" id="rm-activity-6" name="rm-activity" value="Gemeinschaftsunterkunft / längerer Aufenthalt"/><span>Gemeinschaftsunterkunft / längerer Aufenthalt</span></label>
+</fieldset>
+<div class="rm-activity-buttons"><button type="button" class="rm-smallbtn" id="rm-activities-clear">Auswahl löschen</button><button type="button" class="rm-smallbtn rm-activities-confirm" id="rm-activities-done">Fertig</button></div>
+</details>
+<p class="rm-hint rm-activity-selection" id="rm-activities-chosen" aria-live="polite">Mehrere Aktivitäten auswählbar</p>
+</div>
+</div>
+</details>
+<p class="rm-hint" style="margin:0 0 5px;font-size:12px;line-height:1.45;color:#566c75;margin:6px 0">Deine Eingaben werden nur in deinem Browser verarbeitet. Kein Name, Geburtsdatum oder medizinischer Befund wird benötigt.</p>
+<div class="rm-actions" style="display:flex;gap:9px;flex-wrap:wrap;margin-top:13px"><button class="rm-button" id="rm-check" style="font-family:inherit;font-size:14px;cursor:pointer;border:1px solid #517d93;border-radius:10px;padding:11px 15px;background:#6592A7;color:white;font-weight:750;min-height:44px;max-width:100%" type="button">Meine Reisehinweise anzeigen →</button><button class="rm-button rm-outline" id="rm-reset" style="font-family:inherit;font-size:14px;cursor:pointer;border:1px solid #517d93;border-radius:10px;padding:11px 15px;background:#6592A7;color:white;font-weight:750;min-height:44px;max-width:100%;background:white;color:#35657a" type="button">Neue Auswahl</button></div>
+</div>
+<div aria-live="polite" class="rm-hidden" data-rm-fallback-hidden="yes" hidden="" id="rm-results">
+<div class="rm-card rm-section" style="border:1px solid #d8e4e9;border-radius:16px;background:#fff;box-shadow:0 4px 16px rgba(28,69,87,.05);margin:12px 0;overflow:hidden;padding:18px">
+<h3 style="font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;font-size:18px;font-weight:750;line-height:1.3;color:#234556;margin:0 0 10px">Deine persönliche Reise-Übersicht</h3>
+
+<p class="rm-note" style="border:1px solid #bdd3de;border-left:4px solid #6592A7;background:#eff5f7;border-radius:8px;padding:8px 11px;margin:9px 0;color:#345565;font-size:13px"><strong>Hinweis:</strong> Die Übersicht ersetzt keine individuelle ärztliche Reiseberatung.</p>
+<div class="rm-hidden rm-note rm-danger" data-rm-fallback-hidden="yes" hidden="" id="rm-urgent" style="border:1px solid #bdd3de;border-left:4px solid #6592A7;background:#eff5f7;border-radius:9px;padding:11px 14px;margin:13px 0;color:#345565"></div>
+<div id="rm-special-notes"></div>
+
+<div id="rm-shared-vaccinations"></div>
+<div id="rm-region-risk" aria-live="polite"></div>
+<div class="rm-stack" id="rm-resultlist"></div>
+<div class="rm-actions" style="display:flex;gap:9px;flex-wrap:wrap;margin-top:13px"><button class="rm-button rm-outline" id="rm-print" style="font-family:inherit;font-size:14px;cursor:pointer;border:1px solid #517d93;border-radius:10px;padding:11px 15px;background:#6592A7;color:white;font-weight:750;min-height:44px;max-width:100%;background:white;color:#35657a" type="button">Kompaktübersicht drucken / als PDF sichern</button></div>
+</div>
+<div class="rm-card rm-general" style="border:1px solid #d8e4e9;border-radius:16px;background:#fff;box-shadow:0 4px 16px rgba(28,69,87,.05);margin:12px 0;overflow:hidden">
+<details><summary><span aria-hidden="true" class="rm-symbol" data-rm-icon="mosquito"></span> Mückenschutz – Tag und Nacht</summary><p style="margin:0 0 5px">Wende ein geeignetes Repellent nach Packungsangabe an (z. B. mit Icaridin oder DEET, je nach Alter und Situation), trage lange, möglichst helle Kleidung und nutze bei Bedarf imprägnierte Moskitonetze und Fliegengitter. Auch tagsüber ist Mückenschutz wichtig: Dengue-, Zika- und Chikungunyaviren werden häufig durch tagaktive Stechmücken übertragen. Mückenschutz schützt, ersetzt in Hochrisikogebieten aber keine notwendige Malaria-Chemoprophylaxe.</p></details>
+<details><summary><span aria-hidden="true" class="rm-symbol" data-rm-icon="sun"></span> Sonne, Hitze und Trinkwasser</summary><p style="margin:0 0 5px">Meide die intensive Mittagssonne, trage Hut, Brille und Kleidung mit UV-Schutz. Nutze wasserfesten Sonnenschutz mit hohem Lichtschutzfaktor (idealerweise 50+) und creme regelmäßig nach. Sonnencreme zuerst auftragen und einziehen lassen, danach Mückenmittel. Trinke ausreichend und achte je nach Reiseland auf sichere Trinkwasser- und Lebensmittelhygiene.</p></details>
+<details><summary><span aria-hidden="true" class="rm-symbol" data-rm-icon="health"></span> Beschwerden nach der Reise: Wann zum Arzt?</summary><p style="margin:0 0 5px"><strong>Fieber während oder nach einer Reise in ein Malariagebiet ist dringend abklärungsbedürftig – noch am selben Tag!</strong> Sage ausdrücklich, in welchen Ländern und Regionen du warst, und lasse gegebenenfalls Malaria ausschließen. Das gilt auch noch Wochen und Monate nach der Rückkehr. Bei ausgeprägten Beschwerden, Benommenheit, Atemnot oder Kreislaufproblemen: 112. Auch neue Ekzeme, Hautausschläge (Exantheme), schlecht heilende Stiche, Durchfälle, Gelbsucht oder unklare Beschwerden sollten ärztlich beurteilt werden; nenne dabei immer die Reiseroute.</p></details>
+<details><summary><span aria-hidden="true" class="rm-symbol" data-rm-icon="luggage"></span> Was du vor der Abreise bedenken solltest</summary><p style="margin:0 0 5px">Plane eine reisemedizinische Beratung möglichst 6–8 Wochen vor der Abreise ein, bei kurzfristigen Reisen trotzdem noch vor Reisebeginn. Bringe deinen Impfpass und deine genaue Route mit. Denke an Reisekrankenversicherung inklusive Rücktransport, Reiseapotheke und Medikamente in ausreichender Menge. Kinder, Schwangerschaft, Immunsuppression und chronische Erkrankungen verändern die Empfehlungen deutlich.</p></details>
+</div>
+<div class="rm-card rm-section rm-catalog" style="border:1px solid #d8e4e9;border-radius:16px;background:#fff;box-shadow:0 4px 16px rgba(28,69,87,.05);margin:12px 0;overflow:hidden;padding:18px">
+<details><summary><span aria-hidden="true" class="rm-symbol" data-rm-icon="vaccine"></span> Alle Impfstoffe &amp; Impfschemata im Überblick (Deutschland, 2026)</summary>
+<p class="rm-hint" style="margin:0 0 5px;font-size:12px;line-height:1.45;color:#566c75;margin:6px 0">Dieses allgemeine Nachschlageverzeichnis ist <strong>keine Empfehlung für jedes Land</strong>. Bei Ländern mit freigegebenem Profil findest du die zum Reiseziel passenden Einträge direkt weiter oben.</p>
+<div class="rm-vaccine-index" id="rm-vaccine-index"></div>
+
+</details>
+</div>
+</div>
+<section class="rm-card rm-sources-bottom" aria-label="Quellen und Aktualität" style="border:1px solid #d8e4e9;border-radius:16px;background:#fff;box-shadow:0 4px 16px rgba(28,69,87,.05);margin:12px 0;overflow:hidden">
+<details class="rm-source-details rm-source-footer" id="rm-all-sources" style="margin:0;border:0;padding:0">
+<summary style="display:list-item;cursor:pointer;font-weight:750;color:#234556;padding:13px 17px;font-size:14px">Datenquellen, Aktualität, fachliche Erläuterungen &amp; rechtliche Hinweise</summary>
+<div style="padding:4px 17px 17px" class="rm-sources-inner">
+<h4>Datenquellen und Aktualität</h4>
+<p class="rm-hint rm-source-lead" style="margin:0 0 5px;font-size:12px;line-height:1.45;color:#566c75;margin:6px 0">Zusätzlich findest du datierte internationale Gesundheitsmeldungen aus den letzten vier Wochen mit Originalquelle. CDC-Meldungen werden täglich automatisch abgerufen; andere Quellen sind derzeit nur als geprüfte Auszüge oder weiterführende amtliche Links enthalten.</p>
+<div aria-live="polite" class="rm-live" id="rm-liveinfo" style="font-size:12px;line-height:1.45;color:#566c75;margin:6px 0">Ärztlich geprüfte Länderprofile werden aus der V16-Datenbank geladen und nach dem jeweiligen nächsten Prüftermin ausgeblendet. CDC-Meldungen werden täglich automatisch abgerufen; WHO/PAHO/ECDC bisher nur als datierte redaktionelle Meldungen beziehungsweise Originalquellen.</div>
+<h4>Aktualität internationaler Gesundheitsmeldungen</h4>
+<div aria-live="polite" class="rm-international-note" id="rm-intl-source-status"><strong>Internationale Meldungen:</strong> Nur Hinweise der letzten vier Wochen nach Veröffentlichungsdatum. Der CDC-Feed wird beim Öffnen der Seite abgerufen. WHO/PAHO/ECDC sind bislang nur als redaktionelle Hinweise hinterlegt. Veröffentlichungsdatum und amtliche Originalmeldungen sind maßgeblich.</div>
+<h4>Originalmeldungen und Länderquellen</h4>
+<div id="rm-destination-source-links" aria-live="polite"><p class="rm-hint">Wähle ein Reiseziel, um die zugehörigen amtlichen Originalquellen zu sehen.</p></div>
+<h4>Fachliche Einordnung und internationale Grundlagen</h4>
+<p>Internationale Gesundheitsmeldungen werden ausschließlich berücksichtigt, wenn das Veröffentlichungsdatum höchstens 28 Tage zurückliegt. Der Datenabruf ist keine automatische medizinische Prüfung aller Länder. WHO, PAHO, ECDC und CDC können lokale Ausbrüche melden; ihre Empfehlungen ersetzen nicht die in Deutschland relevanten STIKO-/DTG-Empfehlungen oder geltende Fachinformationen. Alter, Impfstatus, Vorerkrankungen, Schwangerschaft, Reisestil und die exakte Reiseroute können die Empfehlung verändern.</p>
+<p>Der Impfstatus und die tatsächlichen Impfintervalle müssen ärztlich geprüft werden. Die hier angezeigten Handelsnamen und Schemata sind keine automatisch für dich geltende Impfempfehlung. Die Risikoeinstufung berücksichtigt nicht alle Unterschiede innerhalb eines Landes.</p>
+<h4>Quellen der Impfstoff- und Schemaangaben</h4>
+<p class="rm-hint" style="margin:0 0 5px;font-size:12px;line-height:1.45;color:#566c75;margin:6px 0">STIKO/DTG, Epidemiologisches Bulletin 27/2026; Impfstoffnamen aus RKI-Tabelle 17 und KV Nordrhein (Stand 20.02.2026). Nicht jede genannte Marke ist jederzeit lieferbar. Zulassung, Alter und Fachinformation haben Vorrang.</p>
+<h4>Weitere Quellen und rechtliche Hinweise</h4>
+<p class="rm-footer" style="margin:0 0 5px;font-size:12px;line-height:1.5;color:#5a7079;padding:9px 3px 18px">Datenquellen: Auswärtiges Amt (Reisehinweise / Auslandsvertretungen), RKI/STIKO-DTG (Epid Bull 27/2026, Länder- und Impfschemata), KV Nordrhein (Impfstoffnamen 2026), DTG (Malariaempfehlungen – Originalquellen, keine Datenübernahme), WHO, PAHO/WHO, ECDC (redaktionelle, datierte Meldungen), CDC (täglicher automatischer Feed-Abruf, aber keine ärztliche Freigabe). Kontaktdaten und medizinische Hinweise können sich kurzfristig ändern. <strong>Praxis Dr. Münster | Dein Hausarzt in Troisdorf</strong></p>
+<p>Diese Übersicht ersetzt keine individuelle ärztliche reisemedizinische Beratung. Impfpflichten, Gelbfieberregeln und Malariarisiken können sich je nach Route, Zwischenstopp, Reisedauer und persönlichen Gesundheitsmerkmalen unterscheiden. Vor der Reise aktuelle Originalquellen lesen.</p>
+<h4>Originalquellen zur Höhenmedizin</h4>
+<p class="rm-hint">Bei Höhenaufenthalten über 2.500 m: <a href="https://www.usz.ch/krankheit/hoehenkrankheit/" target="_blank" rel="noopener noreferrer">Universitätsspital Zürich – Höhenkrankheit</a> und <a href="https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html" target="_blank" rel="noopener noreferrer">CDC Yellow Book – High-Altitude Travel</a>.</p>
+</div></details></section>
+</div>  <script>
+  (function(){'use strict';
+    const HOST=document.getElementById('rm-tool');
+    if(!HOST||HOST.dataset.init==='yes')return;HOST.dataset.init='yes';
+    // Jimdo kann CSS-Tags beim Einfuegen entfernen. Dann die Gestaltung zur Laufzeit herstellen.
+    if(!HOST.querySelector('style')){
+      const rmStyle=document.createElement('style');
+      rmStyle.setAttribute('data-rm-runtime-css','v10');
+      rmStyle.textContent="\n    #rm-tool{--rm-blue:#6592A7;--rm-deep:#234556;--rm-fog:#eef5f7;--rm-line:#d8e4e9;--rm-ink:#243b46;--rm-muted:#566c75;--rm-good:#eef8f3;--rm-attn:#fff3df;--rm-red:#fff1ef;font-family:system-ui,-apple-system,\"Segoe UI\",Arial,sans-serif;color:var(--rm-ink);font-size:15px;line-height:1.5;width:100%;max-width:950px;margin:0 auto}\n    #rm-tool *{box-sizing:border-box}#rm-tool .rm-card{border:1px solid var(--rm-line);border-radius:17px;background:white;box-shadow:0 4px 16px rgba(28,69,87,.05);margin:12px 0;overflow:hidden}\n    #rm-tool .rm-top{background:linear-gradient(110deg,#e4f0f4,#f8fafb);padding:15px 17px 14px;border-radius:18px;border:1px solid var(--rm-line)}\n    #rm-tool h2,#rm-tool h3,#rm-tool h4,#rm-tool p{margin:0}#rm-tool h2{font-size:clamp(22px,4vw,29px);line-height:1.16;color:var(--rm-deep);margin:7px 0 10px}#rm-tool h3{font-size:18px;color:var(--rm-deep)}#rm-tool h4{font-size:15px;color:var(--rm-deep)}\n    #rm-tool .rm-sub{color:var(--rm-muted)}#rm-tool .rm-section{padding:19px}#rm-tool .rm-step{display:inline-grid;place-items:center;background:var(--rm-blue);color:white;border-radius:50%;height:26px;width:26px;margin-right:8px;font-size:14px;font-weight:750}\n    #rm-tool label{display:block;font-weight:650;margin:12px 0 6px}#rm-tool input,#rm-tool select{font:inherit;border:1px solid #bdd0d9;border-radius:10px;padding:11px 12px;min-height:44px;width:100%;background:white;color:#1f3b48}#rm-tool input:focus,#rm-tool select:focus{outline:3px solid #bcd5e1;outline-offset:1px}\n    #rm-tool .rm-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}#rm-tool .rm-hint{font-size:12px;color:var(--rm-muted);margin-top:7px}\n    #rm-tool button{font:inherit;cursor:pointer}#rm-tool .rm-button{border:1px solid #517d93;border-radius:10px;padding:11px 17px;background:var(--rm-blue);color:white;font-weight:750;min-height:45px}#rm-tool .rm-button:hover{background:#507e92}#rm-tool .rm-button:disabled{cursor:not-allowed;opacity:.5}#rm-tool .rm-outline{background:white;color:#35657a}#rm-tool .rm-outline:hover{background:#ecf4f7}#rm-tool .rm-link{color:#245c74;text-decoration:underline;text-underline-offset:2px;font-weight:650}\n    #rm-tool .rm-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:13px}#rm-tool .rm-smallbtn{border:1px solid #b7cbd3;border-radius:9px;background:white;color:var(--rm-deep);padding:7px 10px;font-size:13px;font-weight:650}\n    #rm-tool .rm-picker{position:relative}#rm-tool .rm-suggest{position:absolute;z-index:22;background:white;box-shadow:0 12px 30px rgba(25,58,73,.13);top:100%;width:100%;max-height:236px;overflow:auto;border:1px solid var(--rm-line);border-radius:11px;display:none}#rm-tool .rm-suggest.rm-show{display:block}\n    #rm-tool .rm-choice{width:100%;padding:10px 13px;border:0;background:white;color:var(--rm-ink);text-align:left;border-bottom:1px solid #f1f4f6}#rm-tool .rm-choice:hover,#rm-tool .rm-choice:focus{background:#eaf4f7;outline:none}#rm-tool .rm-choice small{float:right;color:#678089}\n    #rm-tool .rm-chips{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0 0}#rm-tool .rm-chip{display:inline-flex;align-items:center;gap:8px;padding:6px 9px;background:#e7f0f4;border:1px solid #c8dce5;border-radius:26px;font-weight:650}#rm-tool .rm-chip button{font-size:20px;line-height:1;background:none;border:0;color:#355d70;padding:0 3px}\n    #rm-tool .rm-note{border:1px solid #bdd3de;border-left:4px solid var(--rm-blue);background:#eff5f7;border-radius:9px;padding:11px 14px;margin:13px 0;color:#345565}#rm-tool .rm-note.rm-warning{background:var(--rm-attn);border-color:#d9a54c;color:#604b1c}#rm-tool .rm-note.rm-danger{background:var(--rm-red);border-color:#c9715e;color:#713c32}\n    #rm-tool .rm-stack{display:grid;gap:11px}#rm-tool .rm-result{border:1px solid var(--rm-line);border-radius:14px;padding:16px;background:white}#rm-tool .rm-result h3{margin:0 0 8px}#rm-tool .rm-grid{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-top:10px}#rm-tool .rm-box{background:#f5f9fa;border:1px solid #e2edf0;border-radius:12px;padding:12px}#rm-tool .rm-box p{margin-top:5px}\n    #rm-tool .rm-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}#rm-tool .rm-tag{border-radius:7px;background:#e5eff4;color:#30586d;font-size:13px;font-weight:650;padding:5px 8px}#rm-tool .rm-tag.rm-risk{background:#fff0da;color:#694b17}\n    #rm-tool .rm-status{display:inline-block;padding:4px 8px;border-radius:8px;background:#f8ebd6;color:#7e5724;font-size:12px;font-weight:750;margin:4px 0 9px}#rm-tool .rm-status.rm-green{background:#dcf3e9;color:#25664c}\n    #rm-tool .rm-embassy{border-top:1px solid var(--rm-line);padding-top:11px;margin-top:12px}#rm-tool .rm-embassy p{margin:4px 0}#rm-tool .rm-footer{font-size:12px;color:#5a7079;padding:9px 3px 18px}\n    #rm-tool details{border-top:1px solid var(--rm-line);padding:12px 17px}#rm-tool details:first-of-type{border-top:0}#rm-tool summary{cursor:pointer;font-weight:750;color:var(--rm-deep);list-style:none}#rm-tool summary::-webkit-details-marker{display:none}#rm-tool summary::before{content:\"▸\";display:inline-block;width:17px;color:#5e8798}#rm-tool details[open] summary::before{content:\"▾\"}#rm-tool details p{margin:9px 0 0}\n    #rm-tool .rm-general{background:#fff}#rm-tool .rm-detailbox{padding:9px 0}#rm-tool .rm-badge{background:#dcedf2;color:#28566c;font-size:12px;border-radius:6px;padding:3px 6px}\n    #rm-tool .rm-hidden{display:none!important}#rm-tool .rm-live{font-size:12px;color:var(--rm-muted);margin-top:5px}#rm-tool a{overflow-wrap:anywhere}\n    @media(max-width:610px){#rm-tool .rm-top,#rm-tool .rm-section{padding:15px}#rm-tool .rm-row,#rm-tool .rm-grid{grid-template-columns:1fr}#rm-tool .rm-result{padding:13px}#rm-tool .rm-actions .rm-button{flex:1 1 100%}#rm-tool .rm-suggest{max-height:195px}#rm-tool{font-size:14px}}\n    @media print{#rm-tool .rm-picker,#rm-tool .rm-actions,#rm-tool #rm-step2,#rm-tool #rm-liveinfo,#rm-tool .rm-suggest{display:none!important}#rm-tool .rm-result{break-inside:avoid}#rm-tool .rm-card{box-shadow:none}#rm-tool details{display:block}}\n\n    #rm-tool .rm-scheme-grid{display:grid;grid-template-columns:1fr;gap:8px;margin-top:10px}\n    #rm-tool .rm-scheme{border:1px solid #cfdee5;border-radius:10px;background:#fff;padding:10px 12px;font-size:13px}\n    #rm-tool .rm-scheme h5{font-size:14px;margin:0 0 5px;color:#224f65}\n    #rm-tool .rm-scheme p{margin:4px 0;line-height:1.45}\n    #rm-tool .rm-scheme .rm-vaxkind{display:inline-block;font-size:11px;letter-spacing:.01em;border-radius:5px;background:#e7f1f6;padding:2px 5px;color:#355d71;margin:2px 0 5px}\n    #rm-tool .rm-vaccine-index{display:grid;grid-template-columns:repeat(auto-fit,minmax(275px,1fr));gap:10px;margin-top:14px}\n    #rm-tool .rm-missions{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;margin-top:10px}\n    #rm-tool .rm-mission{border:1px solid #dbe6ec;background:#f7fafc;border-radius:11px;padding:12px}\n    #rm-tool .rm-mission p{margin:5px 0;line-height:1.5;overflow-wrap:anywhere}\n    #rm-tool .rm-mission strong{font-size:14px}\n    #rm-tool .rm-extra{margin:12px 0 2px;border:1px solid #dce9ee;border-radius:10px;padding:0}\n    #rm-tool .rm-extra summary{padding:12px 14px;font-size:14px}\n    #rm-tool .rm-extra .rm-hint,#rm-tool .rm-extra .rm-row{margin:0 14px 12px}\n    #rm-tool .rm-catalog details{border-top:0;padding:0}\n    #rm-tool .rm-catalog summary{font-size:16px}\n    #rm-tool .rm-warningline{border-radius:8px;background:#fff4e1;border:1px solid #d4a156;border-left:4px solid #d4a156;padding:10px;margin:10px 0;font-size:13px}#rm-tool details.rm-dive-note{border:1px solid #6b98a9;border-left:4px solid #6b98a9;background:#f3f8fa;border-radius:9px;padding:0;margin:10px 0 14px;color:#294c5d}#rm-tool .rm-dive-note>summary{display:block;padding:12px 14px;font-size:14px;line-height:1.5}#rm-tool .rm-dive-note>summary:focus-visible{outline:3px solid #6592a7;outline-offset:2px}#rm-tool .rm-dive-content{padding:0 14px 13px 28px}#rm-tool .rm-dive-content ul{margin:8px 0 0 18px;padding:0}#rm-tool .rm-dive-content li{margin:4px 0}#rm-tool .rm-dive-content p{margin:6px 0 0}#rm-tool .rm-dive-toggle-hint{font-size:12px;font-weight:500;color:#4c7180;margin-left:6px}#rm-tool .rm-dive-note[open] .rm-dive-toggle-hint{display:none}\n    @media(max-width:610px){#rm-tool .rm-missions,#rm-tool .rm-vaccine-index{grid-template-columns:1fr}}\n    @media print{#rm-tool .rm-vaccine-index{display:none}#rm-tool .rm-catalog{display:none!important}#rm-tool .rm-scheme,#rm-tool .rm-mission{break-inside:avoid}#rm-tool .rm-extra{display:none!important}}\n\n    #rm-tool .rm-international-note{font-size:12px;line-height:1.45;border-radius:9px;padding:10px 12px;margin:10px 0 15px;background:#e9f4f7;border:1px solid #cee3ec;color:#2a5266}\n    #rm-tool .rm-intl-alerts{display:grid;gap:9px;margin-top:10px}\n    #rm-tool .rm-intl-alert{border:1px solid #6b98a9;border-left:4px solid #6b98a9;background:#f5f9fb;padding:11px 12px;border-radius:7px}\n    #rm-tool .rm-intl-alert.rm-area{border-color:#ddaa56;background:#fff9ed}\n    #rm-tool .rm-intl-alert h5{font-size:14px;margin:3px 0 5px;color:#27495c}\n    #rm-tool .rm-intl-alert p{margin:4px 0 0}\n    #rm-tool .rm-intl-meta{font-size:12px;color:#4b6b7a;font-weight:700}\n    #rm-tool .rm-intl-links{display:flex;gap:7px 13px;flex-wrap:wrap;margin:9px 0 3px;font-size:13px}\n    #rm-tool .rm-intl-empty{border:1px solid #e3edf1;border-radius:9px;padding:10px 12px;background:#f7fafb}\n    @media print{#rm-tool .rm-intl-alert{break-inside:avoid}}\n\n    /* V4: klare Ampelfarben, lesbar auch ohne Farberkennung */\n    #rm-tool .rm-tag.rm-traffic-green{background:#ddf2e3;color:#1b653f;border:1px solid #8cbea0}\n    #rm-tool .rm-tag.rm-traffic-yellow{background:#fff1c9;color:#805300;border:1px solid #e4bd60}\n    #rm-tool .rm-scheme.rm-traffic-green{border:1px solid #408c62;border-left:4px solid #408c62;background:linear-gradient(90deg,#f2fbf5 0%,white 44%)}\n    #rm-tool .rm-scheme.rm-traffic-yellow{border:1px solid #d39b38;border-left:4px solid #d39b38;background:linear-gradient(90deg,#fffaf0 0%,white 44%)}\n    #rm-tool .rm-vaxkind.rm-traffic-green{background:#dcf2e3;color:#1b653f;border:1px solid #a8d2b9}\n    #rm-tool .rm-vaxkind.rm-traffic-yellow{background:#fff0c9;color:#805300;border:1px solid #e6c875}\n    #rm-tool .rm-legend{display:flex;gap:7px 12px;flex-wrap:wrap;align-items:center;margin:12px 0 9px;font-size:12px;color:#465d66}\n    #rm-tool .rm-legend-item{display:inline-flex;align-items:center;gap:6px}\n    #rm-tool .rm-legend-swatch{display:inline-block;width:12px;height:12px;border-radius:4px;border:1px solid}\n    #rm-tool .rm-legend-swatch.rm-traffic-green{background:#ddf2e3;border-color:#408c62}\n    #rm-tool .rm-legend-swatch.rm-traffic-yellow{background:#fff1c9;border-color:#d39b38}\n    /* Handgezeichnete Strich-Icons in den Praxisfarben statt Emoji */\n    #rm-tool .rm-svg-icon,#rm-tool .rm-symbol{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;vertical-align:-3px;width:22px;height:22px;margin-right:6px;background:#e8f1f5;color:#527f92;border:1px solid #d7e7ed;border-radius:7px}\n    #rm-tool .rm-svg-icon svg,#rm-tool .rm-symbol svg{width:16px;height:16px;display:block;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}\n    #rm-tool .rm-top h2 .rm-svg-icon,#rm-tool .rm-top h2 .rm-symbol{width:29px;height:29px;vertical-align:-5px;border-radius:8px}\n    #rm-tool .rm-top h2 .rm-svg-icon svg,#rm-tool .rm-top h2 .rm-symbol svg{width:20px;height:20px}\n    #rm-tool .rm-sources-compact{margin:9px 0 0!important;padding:0!important;border:1px solid #dce7ec!important;border-radius:9px}\n    #rm-tool .rm-sources-compact>summary{padding:7px 12px;font-size:12px}\n    #rm-tool .rm-sources-compact .rm-live,#rm-tool .rm-sources-compact .rm-international-note{margin:0 10px 10px}\n    #rm-tool .rm-source-inside{padding:0 11px 10px}#rm-tool .rm-source-inside .rm-hint{margin:6px 0 9px}#rm-tool .rm-source-inside .rm-live{margin:0}\n    #rm-tool .rm-source-details{margin:9px 0 0;border:1px solid var(--rm-line);border-radius:9px}\n    #rm-tool .rm-source-details summary{font-size:13px;padding:9px 12px}\n    #rm-tool .rm-source-details .rm-actions{margin:3px 12px 12px}\n    #rm-tool .rm-source-details .rm-footer{margin:3px 12px 12px;line-height:1.5;padding:0}\n    #rm-tool .rm-scheme h5{line-height:1.35}\n    /* V5: Gelbfieber-Indikationshinweis, kein allgemeines Länder-Risikoetikett */\n    #rm-tool .rm-yellowfever-flag{display:flex;align-items:flex-start;gap:4px;padding:9px 10px;margin:10px 0;border:1px solid #d9aa37;border-left:4px solid #d9aa37;border-radius:9px;background:#fff8da;color:#624e20;font-size:13px;line-height:1.45}\n    #rm-tool .rm-svg-icon.rm-yellowfever-icon{background:#fff0ae;border-color:#e6cd76;color:#866400}\n    #rm-tool .rm-yellowfever-flag .rm-svg-icon{margin:0 5px 0 0}\n    #rm-tool .rm-window-badge{display:inline-block;vertical-align:middle;white-space:nowrap;font-size:11px;font-weight:750;color:#3e6174;background:#e7f1f4;border:1px solid #d5e6ed;border-radius:6px;padding:2px 7px;margin-left:5px}\n    #rm-tool .rm-intl-original{border-top:0;padding:0;margin-top:7px;background:#fff;border-radius:7px;border:1px solid #d5e5eb}\n    #rm-tool .rm-intl-original summary{font-size:12px;padding:7px 10px;color:#3d6479}\n    #rm-tool .rm-intl-original p{font-size:12px;padding:0 10px 9px;margin:0}\n    #rm-tool .rm-intl-details{padding:0 12px 12px}\n    #rm-tool .rm-intl-details .rm-hint{margin:7px 0 0}\n    #rm-tool .rm-intl-section>.rm-intl-empty{margin-top:8px}\n    #rm-tool .rm-catalog .rm-source-details{margin-top:12px;border:1px solid #d8e6ec;border-radius:9px}\n    #rm-tool .rm-catalog .rm-source-details summary{padding:9px 12px;font-size:12px}\n    #rm-tool .rm-catalog .rm-source-details .rm-hint{margin:0;padding:0 12px 12px}\n    @media print{#rm-tool .rm-legend{display:flex}}\n\n    /* V6: Risikoabhängige Malaria-Ampel, optisch dezent und textlich eindeutig. */\n    #rm-tool .rm-box.rm-malaria-med{background:#fff0ee;border:1px solid #c65c56;border-left:5px solid #c65c56}\n    #rm-tool .rm-box.rm-malaria-standby{background:#fff0dd;border:1px solid #db9443;border-left:5px solid #db9443}\n    #rm-tool .rm-box.rm-malaria-exposure{background:#fff9dc;border:1px solid #c7ab42;border-left:5px solid #c7ab42}\n    #rm-tool .rm-box.rm-malaria-unknown{background:#f5f9fa;border-color:#e2edf0}\n    #rm-tool .rm-malaria-state{display:inline-block;font-size:12px;line-height:1.4;font-weight:750;border-radius:7px;padding:4px 9px;margin:8px 0 5px}\n    #rm-tool .rm-malaria-med .rm-malaria-state{background:#f9d6d2;color:#85332d}\n    #rm-tool .rm-malaria-standby .rm-malaria-state{background:#f7d6ac;color:#7e4815}\n    #rm-tool .rm-malaria-exposure .rm-malaria-state{background:#f8e9a8;color:#6b5610}\n    #rm-tool .rm-malaria-unknown .rm-malaria-state{background:#e3eff3;color:#30566a}\n    #rm-tool .rm-box.rm-malaria-med h4,#rm-tool .rm-box.rm-malaria-standby h4,#rm-tool .rm-box.rm-malaria-exposure h4{color:#273d48}\n    @media print{#rm-tool .rm-box[class*=\"rm-malaria-\"]{print-color-adjust:exact;-webkit-print-color-adjust:exact}}\n  ";
+      document.head.appendChild(rmStyle);
+    }
+
+    const COUNTRIES=[{"c":"AF","n":"Afghanistan","a":[]},{"c":"AL","n":"Albanien","a":[]},{"c":"DZ","n":"Algerien","a":[]},{"c":"AS","n":"Amerikanisch-Samoa","a":[]},{"c":"VI","n":"Amerikanische Jungferninseln","a":[]},{"c":"UM","n":"Amerikanische Überseeinseln","a":[]},{"c":"AD","n":"Andorra","a":[]},{"c":"AO","n":"Angola","a":[]},{"c":"AI","n":"Anguilla","a":[]},{"c":"AQ","n":"Antarktis","a":[]},{"c":"AG","n":"Antigua und Barbuda","a":[]},{"c":"AR","n":"Argentinien","a":[]},{"c":"AM","n":"Armenien","a":[]},{"c":"AW","n":"Aruba","a":[]},{"c":"AZ","n":"Aserbaidschan","a":[]},{"c":"AU","n":"Australien","a":[]},{"c":"BS","n":"Bahamas","a":[]},{"c":"BH","n":"Bahrain","a":[]},{"c":"BD","n":"Bangladesch","a":[]},{"c":"BB","n":"Barbados","a":[]},{"c":"BY","n":"Belarus","a":[]},{"c":"BE","n":"Belgien","a":[]},{"c":"BZ","n":"Belize","a":[]},{"c":"BJ","n":"Benin","a":[]},{"c":"BM","n":"Bermuda","a":[]},{"c":"BT","n":"Bhutan","a":[]},{"c":"BO","n":"Bolivien","a":[]},{"c":"BA","n":"Bosnien und Herzegowina","a":[]},{"c":"BW","n":"Botsuana","a":[]},{"c":"BV","n":"Bouvetinsel","a":[]},{"c":"BR","n":"Brasilien","a":[]},{"c":"VG","n":"Britische Jungferninseln","a":[]},{"c":"IO","n":"Britisches Territorium im Indischen Ozean","a":[]},{"c":"BN","n":"Brunei Darussalam","a":[]},{"c":"BG","n":"Bulgarien","a":[]},{"c":"BF","n":"Burkina Faso","a":[]},{"c":"BI","n":"Burundi","a":[]},{"c":"CV","n":"Cabo Verde","a":["Kapverden","Kap Verde"]},{"c":"CL","n":"Chile","a":[]},{"c":"CN","n":"China","a":[]},{"c":"CK","n":"Cookinseln","a":[]},{"c":"CR","n":"Costa Rica","a":[]},{"c":"CW","n":"Curaçao","a":[]},{"c":"CI","n":"Côte d’Ivoire","a":[]},{"c":"DE","n":"Deutschland","a":[]},{"c":"DM","n":"Dominica","a":[]},{"c":"DO","n":"Dominikanische Republik","a":[]},{"c":"DJ","n":"Dschibuti","a":[]},{"c":"DK","n":"Dänemark","a":[]},{"c":"EC","n":"Ecuador","a":[]},{"c":"SV","n":"El Salvador","a":[]},{"c":"ER","n":"Eritrea","a":[]},{"c":"EE","n":"Estland","a":[]},{"c":"SZ","n":"Eswatini","a":[]},{"c":"FK","n":"Falklandinseln","a":[]},{"c":"FJ","n":"Fidschi","a":[]},{"c":"FI","n":"Finnland","a":[]},{"c":"FR","n":"Frankreich","a":["Réunion","Guadeloupe","Martinique"]},{"c":"GF","n":"Französisch-Guayana","a":[]},{"c":"PF","n":"Französisch-Polynesien","a":[]},{"c":"TF","n":"Französische Süd- und Antarktisgebiete","a":[]},{"c":"FO","n":"Färöer","a":[]},{"c":"GA","n":"Gabun","a":[]},{"c":"GM","n":"Gambia","a":[]},{"c":"GE","n":"Georgien","a":[]},{"c":"GH","n":"Ghana","a":[]},{"c":"GI","n":"Gibraltar","a":[]},{"c":"GD","n":"Grenada","a":[]},{"c":"GR","n":"Griechenland","a":["Kreta","Rhodos","Griechenland"]},{"c":"GL","n":"Grönland","a":[]},{"c":"GP","n":"Guadeloupe","a":[]},{"c":"GU","n":"Guam","a":[]},{"c":"GT","n":"Guatemala","a":[]},{"c":"GG","n":"Guernsey","a":[]},{"c":"GN","n":"Guinea","a":[]},{"c":"GW","n":"Guinea-Bissau","a":[]},{"c":"GY","n":"Guyana","a":[]},{"c":"HT","n":"Haiti","a":[]},{"c":"HM","n":"Heard und McDonaldinseln","a":[]},{"c":"HN","n":"Honduras","a":[]},{"c":"IN","n":"Indien","a":["Goa","Kerala","Mumbai","Neu-Delhi","Rajasthan","Delhi","Indien"]},{"c":"ID","n":"Indonesien","a":["Bali","Java","Jakarta","Lombok","Sumba","Borneo","Kalimantan","Raja Ampat","Papua","Flores","Sulawesi"]},{"c":"IQ","n":"Irak","a":[]},{"c":"IR","n":"Iran","a":[]},{"c":"IE","n":"Irland","a":[]},{"c":"IS","n":"Island","a":[]},{"c":"IM","n":"Isle of Man","a":[]},{"c":"IL","n":"Israel","a":[]},{"c":"IT","n":"Italien","a":[]},{"c":"JM","n":"Jamaika","a":[]},{"c":"JP","n":"Japan","a":[]},{"c":"YE","n":"Jemen","a":[]},{"c":"JE","n":"Jersey","a":[]},{"c":"JO","n":"Jordanien","a":[]},{"c":"KY","n":"Kaimaninseln","a":[]},{"c":"KH","n":"Kambodscha","a":[]},{"c":"CM","n":"Kamerun","a":[]},{"c":"CA","n":"Kanada","a":[]},{"c":"BQ","n":"Karibische Niederlande","a":[]},{"c":"KZ","n":"Kasachstan","a":[]},{"c":"QA","n":"Katar","a":[]},{"c":"KE","n":"Kenia","a":["Nairobi","Mombasa","Diani Beach","Masai Mara"]},{"c":"KG","n":"Kirgisistan","a":[]},{"c":"KI","n":"Kiribati","a":[]},{"c":"CC","n":"Kokosinseln","a":[]},{"c":"CO","n":"Kolumbien","a":[]},{"c":"KM","n":"Komoren","a":[]},{"c":"CG","n":"Kongo-Brazzaville","a":[]},{"c":"CD","n":"Kongo-Kinshasa","a":[]},{"c":"HR","n":"Kroatien","a":[]},{"c":"CU","n":"Kuba","a":[]},{"c":"KW","n":"Kuwait","a":[]},{"c":"LA","n":"Laos","a":["Laos"]},{"c":"LS","n":"Lesotho","a":[]},{"c":"LV","n":"Lettland","a":[]},{"c":"LB","n":"Libanon","a":[]},{"c":"LR","n":"Liberia","a":[]},{"c":"LY","n":"Libyen","a":[]},{"c":"LI","n":"Liechtenstein","a":[]},{"c":"LT","n":"Litauen","a":[]},{"c":"LU","n":"Luxemburg","a":[]},{"c":"MG","n":"Madagaskar","a":[]},{"c":"MW","n":"Malawi","a":[]},{"c":"MY","n":"Malaysia","a":[]},{"c":"MV","n":"Malediven","a":[]},{"c":"ML","n":"Mali","a":[]},{"c":"MT","n":"Malta","a":[]},{"c":"MA","n":"Marokko","a":[]},{"c":"MH","n":"Marshallinseln","a":[]},{"c":"MQ","n":"Martinique","a":[]},{"c":"MR","n":"Mauretanien","a":[]},{"c":"MU","n":"Mauritius","a":[]},{"c":"YT","n":"Mayotte","a":[]},{"c":"MX","n":"Mexiko","a":[]},{"c":"FM","n":"Mikronesien","a":[]},{"c":"MC","n":"Monaco","a":[]},{"c":"MN","n":"Mongolei","a":[]},{"c":"ME","n":"Montenegro","a":[]},{"c":"MS","n":"Montserrat","a":[]},{"c":"MZ","n":"Mosambik","a":[]},{"c":"MM","n":"Myanmar","a":["Myanmar","Burma"]},{"c":"NA","n":"Namibia","a":[]},{"c":"NR","n":"Nauru","a":[]},{"c":"NP","n":"Nepal","a":[]},{"c":"NC","n":"Neukaledonien","a":[]},{"c":"NZ","n":"Neuseeland","a":[]},{"c":"NI","n":"Nicaragua","a":[]},{"c":"NL","n":"Niederlande","a":[]},{"c":"NE","n":"Niger","a":[]},{"c":"NG","n":"Nigeria","a":[]},{"c":"NU","n":"Niue","a":[]},{"c":"KP","n":"Nordkorea","a":[]},{"c":"MK","n":"Nordmazedonien","a":[]},{"c":"NF","n":"Norfolkinsel","a":[]},{"c":"NO","n":"Norwegen","a":[]},{"c":"MP","n":"Nördliche Marianen","a":[]},{"c":"OM","n":"Oman","a":[]},{"c":"PK","n":"Pakistan","a":[]},{"c":"PW","n":"Palau","a":[]},{"c":"PS","n":"Palästinensische Autonomiegebiete","a":[]},{"c":"PA","n":"Panama","a":[]},{"c":"PG","n":"Papua-Neuguinea","a":[]},{"c":"PY","n":"Paraguay","a":[]},{"c":"PE","n":"Peru","a":[]},{"c":"PH","n":"Philippinen","a":[]},{"c":"PN","n":"Pitcairninseln","a":[]},{"c":"PL","n":"Polen","a":[]},{"c":"PT","n":"Portugal","a":["Madeira","Azoren"]},{"c":"PR","n":"Puerto Rico","a":[]},{"c":"MD","n":"Republik Moldau","a":[]},{"c":"RW","n":"Ruanda","a":[]},{"c":"RO","n":"Rumänien","a":[]},{"c":"RU","n":"Russland","a":[]},{"c":"RE","n":"Réunion","a":[]},{"c":"SB","n":"Salomonen","a":[]},{"c":"ZM","n":"Sambia","a":[]},{"c":"WS","n":"Samoa","a":[]},{"c":"SM","n":"San Marino","a":[]},{"c":"SA","n":"Saudi-Arabien","a":[]},{"c":"SE","n":"Schweden","a":[]},{"c":"CH","n":"Schweiz","a":[]},{"c":"SN","n":"Senegal","a":[]},{"c":"RS","n":"Serbien","a":[]},{"c":"SC","n":"Seychellen","a":[]},{"c":"SL","n":"Sierra Leone","a":[]},{"c":"ZW","n":"Simbabwe","a":[]},{"c":"SG","n":"Singapur","a":[]},{"c":"SX","n":"Sint Maarten","a":[]},{"c":"SK","n":"Slowakei","a":[]},{"c":"SI","n":"Slowenien","a":[]},{"c":"SO","n":"Somalia","a":[]},{"c":"HK","n":"Sonderverwaltungsregion Hongkong","a":[]},{"c":"MO","n":"Sonderverwaltungsregion Macau","a":[]},{"c":"ES","n":"Spanien","a":["Mallorca","Teneriffa","Gran Canaria","Kanaren"]},{"c":"SJ","n":"Spitzbergen und Jan Mayen","a":[]},{"c":"LK","n":"Sri Lanka","a":["Sri Lanka"]},{"c":"BL","n":"St. Barthélemy","a":[]},{"c":"SH","n":"St. Helena","a":[]},{"c":"KN","n":"St. Kitts und Nevis","a":[]},{"c":"LC","n":"St. Lucia","a":[]},{"c":"MF","n":"St. Martin","a":[]},{"c":"PM","n":"St. Pierre und Miquelon","a":[]},{"c":"VC","n":"St. Vincent und die Grenadinen","a":[]},{"c":"SD","n":"Sudan","a":[]},{"c":"SR","n":"Suriname","a":[]},{"c":"SY","n":"Syrien","a":[]},{"c":"ST","n":"São Tomé und Príncipe","a":[]},{"c":"ZA","n":"Südafrika","a":["Kapstadt","Krüger-Nationalpark"]},{"c":"GS","n":"Südgeorgien und die Südlichen Sandwichinseln","a":[]},{"c":"KR","n":"Südkorea","a":[]},{"c":"SS","n":"Südsudan","a":[]},{"c":"TJ","n":"Tadschikistan","a":[]},{"c":"TW","n":"Taiwan","a":[]},{"c":"TZ","n":"Tansania","a":["Sansibar","Zanzibar","Serengeti","Arusha","Kilimandscharo","Daressalam","Pemba"]},{"c":"TH","n":"Thailand","a":["Phuket","Koh Samui","Bangkok","Chiang Mai","Krabi","Koh Chang","Pattaya","Koh Phangan","Khao Lak"]},{"c":"TL","n":"Timor-Leste","a":[]},{"c":"TG","n":"Togo","a":[]},{"c":"TK","n":"Tokelau","a":[]},{"c":"TO","n":"Tonga","a":[]},{"c":"TT","n":"Trinidad und Tobago","a":[]},{"c":"TD","n":"Tschad","a":[]},{"c":"CZ","n":"Tschechien","a":["Tschechien"]},{"c":"TN","n":"Tunesien","a":[]},{"c":"TM","n":"Turkmenistan","a":[]},{"c":"TC","n":"Turks- und Caicosinseln","a":[]},{"c":"TV","n":"Tuvalu","a":[]},{"c":"TR","n":"Türkei","a":["Türkei","Antalya","Istanbul"]},{"c":"UG","n":"Uganda","a":[]},{"c":"UA","n":"Ukraine","a":[]},{"c":"HU","n":"Ungarn","a":[]},{"c":"UY","n":"Uruguay","a":[]},{"c":"UZ","n":"Usbekistan","a":[]},{"c":"VU","n":"Vanuatu","a":[]},{"c":"VA","n":"Vatikanstadt","a":[]},{"c":"VE","n":"Venezuela","a":[]},{"c":"AE","n":"Vereinigte Arabische Emirate","a":["Dubai","Abu Dhabi"]},{"c":"US","n":"Vereinigte Staaten","a":["USA","Vereinigte Staaten von Amerika"]},{"c":"GB","n":"Vereinigtes Königreich","a":["Großbritannien","England","Schottland","Wales"]},{"c":"VN","n":"Vietnam","a":["Hanoi","Ho Chi Minh","Saigon","Da Nang","Phu Quoc"]},{"c":"WF","n":"Wallis und Futuna","a":[]},{"c":"CX","n":"Weihnachtsinsel","a":[]},{"c":"EH","n":"Westsahara","a":[]},{"c":"CF","n":"Zentralafrikanische Republik","a":[]},{"c":"CY","n":"Zypern","a":[]},{"c":"EG","n":"Ägypten","a":["Hurghada","Marsa Alam","Sharm el Sheikh","Kairo","Ägypten"]},{"c":"GQ","n":"Äquatorialguinea","a":[]},{"c":"ET","n":"Äthiopien","a":[]},{"c":"AX","n":"Ålandinseln","a":[]},{"c":"AT","n":"Österreich","a":[]}];
+    // V16: country-specific patient information is loaded ONLY from the medically approved public feed.
+    // Previous embedded country drafts intentionally removed.
+    const STARTER={countries:{}};
+    const VERIFIED=Object.freeze({});
+    const ROOT={AA:'https://www.auswaertiges-amt.de/de/reiseundsicherheit/reise-und-sicherheitshinweise',BOTS:'https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen',RKI:'https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html',DTG:'https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html',KONS:'https://konsulatfinder.diplo.de/'};
+    // PRODUCTION FEED: set to an HTTPS JSON endpoint with CORS enabled. Needs separate licensed source integration!
+    const FEED_URL='';
+    // V16: The public feed includes ONLY medically reviewed country data (independent approval on GitHub).
+    const COUNTRY_PROFILE_FEED_URL='https://praxisreisemedizinplaner.github.io/praxis-reisemedizin-feed/country_profiles_public_v16.json';
+    const REGION_DIRECTORY_FEED_URL='https://praxisreisemedizinplaner.github.io/praxis-reisemedizin-feed/region_directory_public_v1.json';
+    const MAX_MEDICAL_AGE_DAYS=14;
+    // Veröffentlicht in den letzten vier Wochen, nicht bloß technisch erneut abgerufen.
+    const MAX_INTERNATIONAL_NOTICE_AGE_DAYS=28;
+    // Oeffentlicher HTTPS-Datenfeed fuer CDC-Meldungen (GitHub Pages, taeglicher GitHub-Actions-Job).
+    // A successful technical fetch is NOT medical review. Never auto-derive vaccine/malaria advice from alerts.
+    const INTERNATIONAL_ALERT_FEED_URL='https://praxisreisemedizinplaner.github.io/praxis-reisemedizin-feed/public_international_alerts.json';
+    const AMERICAS=new Set(["AG","AI","AR","AW","BB","BL","BM","BO","BQ","BR","BS","BZ","CA","CL","CO","CR","CU","CW","DM","DO","EC","FK","GD","GF","GL","GP","GT","GY","HN","HT","JM","KN","KY","LC","MF","MQ","MS","MX","NI","PA","PE","PM","PR","PY","SR","SV","SX","TC","TT","US","UY","VC","VE","VG","VI"]);
+    const OFFICIAL_HEALTH={
+      WHO_DON:'https://www.who.int/emergencies/disease-outbreak-news/',
+      WHO_TRAVEL:'https://www.who.int/travel-advice/',
+      WHO_VAX:'https://www.who.int/publications/i/item/9789240113350',
+      WHO_MALARIA:'https://www.who.int/publications/i/item/9789240102286',
+      PAHO:'https://www.paho.org/en/epidemiological-alerts-and-updates',
+      ECDC:'https://www.ecdc.europa.eu/en/public-health-events',
+      CDC:'https://wwwnc.cdc.gov/travel/notices',
+      CDC_RSS:'https://wwwnc.cdc.gov/travel/rss/notices.xml'
+    };
+    const STARTER_INTL_ALERTS=[{"id":"paho-dengue-chik-2026-10","source":"PAHO","date":"2026-10-20","region":"AMERICAS","title":"Dengue und Chikungunya: epidemiologisches Update für die Region Amerika","summary":"PAHO berichtet über steigende Denguezahlen in Teilen der Andenregion, Mittelamerikas und der Karibik sowie erneute Chikungunya-Übertragung in mehreren Gebieten. Dies ist ein regionaler Hinweis: Für einzelne Städte oder Länder lässt sich daraus keine pauschale Risikoeinstufung ableiten.","url":"https://www.paho.org/en/documents/epidemiological-update-dengue-and-chikungunya-americas-region-20-october-2026","scope":"regional"},{"id":"cdc-yellow-fever-colombia-2026-10","source":"CDC","date":"2026-10-16","countries":["CO"],"title":"Gelbfieber: erhöhte Fallzahlen in Kolumbien","summary":"Die US-Gesundheitsbehörde CDC meldet eine erhöhte Zahl von Gelbfieberfällen in Kolumbien. Ob eine Impfung für deine Reiseroute angezeigt ist, hängt von der konkreten Region, dem Impfstatus und Kontraindikationen ab.","url":"https://wwwnc.cdc.gov/travel/notices/level2/yellow-fever-colombia","scope":"country"},{"id":"cdc-yellow-fever-ghana-2026-10","source":"CDC","date":"2026-10-16","countries":["GH"],"title":"Gelbfieber-Ausbruch in Ghana (Upper West Region)","summary":"Die CDC weist auf einen Gelbfieberausbruch in der Upper West Region hin. Für dortige Reisen frühzeitig einen individuellen Gelbfieberimpfschutz und konsequenten Mückenschutz prüfen; die Meldung ist nicht gleichbedeutend mit landesweit identischem Risiko.","url":"https://wwwnc.cdc.gov/travel/notices/level2/yellow-fever-ghana","scope":"region-in-country"},{"id":"ecdc-france-chik-dengue-2026-10","source":"ECDC","date":"2026-10-30","countries":["FR","IT"],"title":"Lokal erworbene Fälle von Dengue und Chikungunya in Europa","summary":"ECDC meldete 2026 lokal erworbene Denguefälle in Frankreich und Italien sowie Chikungunyafälle in beiden Ländern. Die Meldung betrifft spezifische Übertragungsgebiete, nicht automatisch das gesamte Land. Tagsüber Mückenstiche vermeiden.","url":"https://www.ecdc.europa.eu/en/public-health-events","scope":"region-in-country"},{"id":"ecdc-drc-ebola-2026-10","source":"ECDC","date":"2026-10-30","countries":["CD"],"title":"Ebola (Bundibugyo-Virus): ECDC berichtet über Ausbruch in Teilen der DR Kongo","summary":"ECDC erfasst einen laufenden Ausbruch in der Demokratischen Republik Kongo, unter anderem mit regional unterschiedlichen Betroffenheiten. Die aktuelle Sicherheitslage und konkrete Zielprovinz vor jeder Reise separat prüfen.","url":"https://www.ecdc.europa.eu/en/public-health-events","scope":"region-in-country"}];
+    let intlAlerts=STARTER_INTL_ALERTS, intlFeedChecked='';
+
+    // Jimdo-Fallback: synchronisiert versteckte Bereiche auch ohne <style>-Block.
+    // Zusätzliche V13-Styles auch dann setzen, wenn Jimdo das ursprüngliche STYLE-Element entfernt.
+    const v13style=document.createElement('style');
+    v13style.textContent=`
+    /* V15: Fehlende Malaria-Risikolage neutral anzeigen. */
+    #rm-tool .rm-box.rm-malaria-none{background:#eff7f8!important;border:1px solid #6592a7!important;border-left:5px solid #6592a7!important}
+    #rm-tool .rm-malaria-none .rm-malaria-state{background:#dcecf1!important;color:#28586b!important}
+    /* V13: Tastaturbedienbare Reisezielliste und länderübergreifende Impfübersicht */
+    #rm-tool .rm-choice.rm-active,#rm-tool .rm-choice[aria-selected="true"]{background:#dceef5!important;color:#153f53!important;box-shadow:inset 3px 0 #6592A7;font-weight:750}
+    #rm-tool .rm-shared-vax{border:1px solid #cadee5;background:#f9fbfc;border-radius:12px;padding:14px;margin:12px 0 16px}
+    #rm-tool .rm-shared-vax h4{font-size:16px;margin:0 0 5px}
+    #rm-tool .rm-vax-unique{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px;margin-top:10px}
+    #rm-tool .rm-vax-unique-card{border:1px solid #d8e5ea;border-radius:9px;background:white;padding:10px 12px}
+    #rm-tool .rm-vax-unique-card strong{display:block;color:#204a5f;font-size:14px}
+    #rm-tool .rm-vax-country-note{font-size:11px;line-height:1.5;color:#56717d;margin:5px 0 1px}
+    #rm-tool .rm-vax-country-note span{display:block}
+    #rm-tool .rm-vax-country-note .rm-country-global{color:#276647}
+    #rm-tool .rm-vax-country-note .rm-country-risk{color:#986316}
+    #rm-tool .rm-scheme .rm-vax-country-note{background:#f4f8fa;border-radius:6px;padding:5px 8px;margin:4px 0 8px}
+    #rm-tool .rm-shared-vax .rm-vax-schemata{border:1px solid #d7e5eb;border-radius:9px;margin-top:13px;background:#fff}
+    #rm-tool .rm-shared-vax .rm-vax-schemata>summary{cursor:pointer;padding:10px 12px;font-weight:750;font-size:13px;color:#234b62}
+    #rm-tool .rm-shared-vax .rm-vax-schemata>.rm-scheme-grid{padding:0 10px 10px;margin-top:4px}
+    #rm-tool .rm-entry-note{font-size:13px;line-height:1.5}
+    @media(max-width:610px){#rm-tool .rm-vax-unique{grid-template-columns:1fr}}
+`;
+    HOST.appendChild(v13style);
+    // Jimdo may remove initial CSS: restore the multi-select styling independently.
+    const rmActivityStyle=document.createElement('style');
+    rmActivityStyle.textContent="#rm-tool .rm-activities-label{display:block;font-size:14px;font-weight:650;color:#243b46;margin:12px 0 6px}\n#rm-tool details.rm-activity-picker{width:100%;padding:0;border:1px solid #bdd0d9;border-radius:10px;background:white;overflow:hidden;margin:0}\n#rm-tool details.rm-activity-picker>summary{display:flex;align-items:center;gap:8px;min-height:44px;padding:10px 12px;color:#1f3b48;font-size:14px;line-height:1.45;font-weight:500;list-style:none;cursor:pointer}\n#rm-tool details.rm-activity-picker>summary::-webkit-details-marker{display:none}\n#rm-tool details.rm-activity-picker>summary::before{content:none}\n#rm-tool details.rm-activity-picker>summary::after{content:\"⌄\";margin-left:auto;font-size:19px;color:#385d71}\n#rm-tool details.rm-activity-picker[open]>summary::after{content:\"⌃\"}\n#rm-tool details.rm-activity-picker>summary:focus-visible{outline:3px solid #a8cada;outline-offset:-3px}\n#rm-tool .rm-activity-list{border:0;border-top:1px solid #e2edf1;padding:5px 7px;margin:0;max-height:245px;overflow-y:auto;min-width:0}\n#rm-tool .rm-activity-visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}\n#rm-tool .rm-activity-list label.rm-activity-choice{display:flex;align-items:center;gap:11px;margin:0;padding:8px 9px;min-height:39px;border-radius:7px;font-size:13px;font-weight:500;cursor:pointer;line-height:1.4;color:#254658}\n#rm-tool .rm-activity-list label.rm-activity-choice:hover,#rm-tool .rm-activity-list label.rm-activity-choice:focus-within{background:#eaf3f7}\n#rm-tool .rm-activity-list input[type=\"checkbox\"]{display:block;flex:0 0 18px;width:18px!important;min-width:18px;height:18px;min-height:18px!important;padding:0!important;margin:0;accent-color:#527f92;border-radius:4px;cursor:pointer}\n#rm-tool .rm-activity-list input[type=\"checkbox\"]:focus-visible{outline:2px solid #6592a7;outline-offset:2px}\n#rm-tool .rm-activity-buttons{display:flex;justify-content:space-between;gap:8px;padding:10px 10px;border-top:1px solid #e2edf1;background:#f8fbfc}\n#rm-tool .rm-activity-buttons button{font-size:12px;min-height:34px;padding:6px 12px}\n#rm-tool .rm-activity-buttons .rm-activities-confirm{background:#6592a7;border-color:#6592a7;color:white}\n#rm-tool .rm-activity-selection{margin:5px 0 0!important;font-size:12px;line-height:1.4;color:#52717f}\n@media(max-width:610px){#rm-tool .rm-activity-list{max-height:250px}#rm-tool .rm-activity-list label.rm-activity-choice{min-height:44px}}";
+    HOST.appendChild(rmActivityStyle);
+    const syncVisibility=(el)=>{if(el && el.nodeType===1 && el.hasAttribute('data-rm-fallback-hidden'))el.hidden=el.classList.contains('rm-hidden');};
+    HOST.querySelectorAll('[data-rm-fallback-hidden]').forEach(syncVisibility);
+    new MutationObserver(records=>records.forEach(r=>syncVisibility(r.target))).observe(HOST,{subtree:true,attributes:true,attributeFilter:['class']});
+    const $=id=>HOST.querySelector('#'+id);
+    const selected=[];let profiles=Object.create(null);let feedMode=false;let feedUpdated='';
+    let regionDirectory=[];let regionPicks=[];let regionFeedReady=false;let regionActive=-1;
+    const clean=s=>(s||'').toString().toLocaleLowerCase('de').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ß/g,'ss').trim();
+    const escape=s=>(s??'').toString().replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+    const A=(url,label)=>'<a class="rm-link" href="'+escape(url)+'" rel="noopener noreferrer" target="_blank">'+escape(label)+' ↗</a>';
+    const format=iso=>{if(!iso)return 'unbekannt';const d=new Date(iso+'T12:00:00Z');return Number.isNaN(d.getTime())?'unbekannt':new Intl.DateTimeFormat('de-DE',{day:'2-digit',month:'2-digit',year:'numeric',timeZone:'UTC'}).format(d)};
+    const age=iso=>{const d=Date.parse((iso||'')+'T00:00:00Z');return Number.isFinite(d)?Math.ceil((Date.now()-d)/86400000):Infinity};
+    // Approved content expires at the physician-defined next review date, not at the feed-refresh date.
+    const profileFresh=p=>{
+      if(!p||p.reviewStatus!=='medically_approved'||!/^\d{4}-\d{2}-\d{2}$/.test(p.nextReviewDate||'')||!/^\d{4}-\d{2}-\d{2}$/.test(p.checked||''))return false;
+      const today=new Date().toISOString().slice(0,10);
+      return p.checked<=today&&p.nextReviewDate>=today;
+    };
+    function isInternationalNoticeRecent(iso){
+      if(typeof iso!=='string'||!/^\d{4}-\d{2}-\d{2}$/.test(iso))return false;
+      const published=Date.parse(iso+'T00:00:00Z');
+      if(!Number.isFinite(published)||new Date(published).toISOString().slice(0,10)!==iso)return false;
+      const now=new Date();const today=Date.UTC(now.getFullYear(),now.getMonth(),now.getDate());
+      const days=(today-published)/86400000;
+      return days>=0&&days<=MAX_INTERNATIONAL_NOTICE_AGE_DAYS;
+    }
+    const SVG_PATHS={
+      globe:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/>',
+      vaccine:'<path d="m5 18 11-11m-3-2 6 6m-8-8 10 10M7 10l7 7m-8 1-3 3m1-6 5 5"/>',
+      mosquito:'<path d="M12 6c1.5 1.2 2.5 3 2.5 6s-1 5-2.5 6c-1.5-1-2.5-3-2.5-6s1-4.8 2.5-6ZM8 7 4 5m12 2 4-2M8 12H3m13 0h5M8 17l-4 3m12-3 4 3M12 3v3"/>',
+      sun:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+      health:'<path d="M4 12h4l2-5 4 10 2-5h4"/><path d="M12 22s-9-5.4-9-11a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 5.6-9 11-9 11Z"/>',
+      luggage:'<rect x="5" y="8" width="14" height="13" rx="2"/><path d="M9 8V5a3 3 0 0 1 6 0v3M9 12v5m6-5v5"/>',
+      pin:'<path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/>',
+      book:'<path d="M12 5c-2-1.7-5-2-9-1v15c4-1 7-.6 9 1 2-1.6 5-2 9-1V4c-4-1-7-.7-9 1Zm0 0v15"/>',
+      building:'<path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6M8 11h1m6 0h1"/>',
+      medicine:'<rect x="8" y="3" width="8" height="18" rx="4" transform="rotate(45 12 12)"/><path d="m8.4 15.6 7.2-7.2"/>',
+      compass:'<circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-3 7-4-4 7-3Z"/>',
+
+      waves:'<path d="M2 6c2.5-2 4.5 2 7 0s4.5-2 7 0 4.5 2 6 0"/><path d="M2 12c2.5-2 4.5 2 7 0s4.5-2 7 0 4.5 2 6 0"/><path d="M2 18c2.5-2 4.5 2 7 0s4.5-2 7 0 4.5 2 6 0"/>',
+      mountain:'<path d="m2 20 7-13 4.5 7 2.5-4 6 10H2Z"/><path d="m6.5 11.6 2.5-4.6 2.9 4.5-2 .4-1.2 1.9-2.2-2.2Z"/>',
+      info:'<circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10h.01"/>'
+    };
+    function icon(name,extraClass=''){return '<span class="rm-svg-icon'+(extraClass?' '+extraClass:'')+'" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">'+(SVG_PATHS[name]||SVG_PATHS.info)+'</svg></span>'}
+    HOST.querySelectorAll('[data-rm-icon]').forEach(e=>{e.innerHTML=icon(e.getAttribute('data-rm-icon'))});
+
+    // V23 regional geographic suggestions. A place name is not a medical risk determination.
+    const geoNormalize=s=>clean(s).replace(/[\u2010-\u2015\-_]/g,' ').replace(/\s+/g,' ');
+    function availableRegions(){
+      const countries=new Set(selected.map(e=>e.c));
+      return regionDirectory.filter(r=>countries.has(r.country)&&!regionPicks.some(x=>x.id===r.id));
+    }
+    function hideRegionSuggestions(){
+      regionActive=-1;
+      $('rm-region-suggest').classList.remove('rm-show');
+      $('rm-region-suggest').innerHTML='';
+      $('rm-region').setAttribute('aria-expanded','false');
+    }
+    function showRegionSuggestions(){
+      const text=geoNormalize($('rm-region').value);
+      if(!regionFeedReady||!selected.length){hideRegionSuggestions();return;}
+      const matches=availableRegions().filter(r=>!text||geoNormalize(r.name).includes(text)||r.aliases.some(a=>geoNormalize(a).includes(text))).slice(0,8);
+      const box=$('rm-region-suggest');box.innerHTML='';
+      for(const r of matches){
+        const btn=document.createElement('button');btn.type='button';btn.setAttribute('role','option');
+        btn.textContent=r.name+' · '+(selected.find(x=>x.c===r.country)?.n||r.country);
+        btn.dataset.id=r.id;btn.addEventListener('click',()=>chooseRegion(r.id));
+        box.appendChild(btn);
+      }
+      box.classList.toggle('rm-show',!!matches.length);
+      $('rm-region').setAttribute('aria-expanded',matches.length?'true':'false');
+      if(!matches.length)regionActive=-1;
+    }
+    function chooseRegion(id){
+      const r=regionDirectory.find(x=>x.id===id);
+      if(!r||!selected.some(e=>e.c===r.country)||regionPicks.some(x=>x.id===id))return;
+      regionPicks.push(r);$('rm-region').value='';hideRegionSuggestions();renderRegionChips();
+      if(!$('rm-results').classList.contains('rm-hidden'))updateResult(false);
+      $('rm-region').focus();
+    }
+    function renderRegionChips(){
+      const countries=new Set(selected.map(x=>x.c));
+      regionPicks=regionPicks.filter(x=>countries.has(x.country)&&regionDirectory.some(r=>r.id===x.id));
+      const host=$('rm-region-chips');host.innerHTML='';
+      for(const r of regionPicks){
+        const pill=document.createElement('span');pill.className='rm-region-chip';
+        pill.append(document.createTextNode(r.name));
+        const btn=document.createElement('button');btn.type='button';btn.textContent='×';
+        btn.setAttribute('aria-label','Reiseziel '+r.name+' entfernen');
+        btn.addEventListener('click',()=>{regionPicks=regionPicks.filter(x=>x.id!==r.id);renderRegionChips();if(!$('rm-results').classList.contains('rm-hidden'))updateResult(false);});
+        pill.append(btn);host.append(pill);
+      }
+      const info=$('rm-region-feedback');
+      if(!regionFeedReady)info.textContent='Ortsvorschläge vorübergehend nicht verfügbar; du kannst Regionen weiter frei eingeben. Daraus werden keine Malariaempfehlungen abgeleitet.';
+      else if(regionPicks.length)info.textContent=regionPicks.length+' Ort(e) eindeutig ausgewählt. Medizinische Regionalhinweise erscheinen ausschließlich nach gesonderter ärztlicher Freigabe.';
+      else info.textContent='Stadt oder Insel eingeben und aus den Vorschlägen bestätigen. Nicht gefundene Orte kannst du weiterhin als Freitext angeben.';
+    }
+    function updateRegionSelectionHighlight(){
+      const options=[...$('rm-region-suggest').querySelectorAll('button')];
+      if(!options.length){regionActive=-1;return;}
+      regionActive=Math.max(0,Math.min(regionActive,options.length-1));
+      options.forEach((b,i)=>{b.classList.toggle('rm-active',i===regionActive);b.setAttribute('aria-selected',i===regionActive?'true':'false');});
+      options[regionActive].scrollIntoView({block:'nearest'});
+    }
+    $('rm-region').addEventListener('input',()=>{
+      showRegionSuggestions();
+      if(!$('rm-results').classList.contains('rm-hidden'))updateResult(false);
+    });
+    $('rm-region').addEventListener('focus',showRegionSuggestions);
+    $('rm-region').addEventListener('keydown',event=>{
+      const box=$('rm-region-suggest'),opts=[...box.querySelectorAll('button')];
+      if(event.key==='Escape'){hideRegionSuggestions();return;}
+      if((event.key==='ArrowDown'||event.key==='ArrowUp')&&opts.length){
+        event.preventDefault();
+        regionActive=regionActive<0?(event.key==='ArrowDown'?0:opts.length-1):(regionActive+(event.key==='ArrowDown'?1:-1)+opts.length)%opts.length;
+        updateRegionSelectionHighlight();
+      }else if(event.key==='Enter'&&regionActive>=0&&opts[regionActive]){
+        event.preventDefault();chooseRegion(opts[regionActive].dataset.id);
+      }
+    });
+    document.addEventListener('click',event=>{
+      if(!HOST.contains(event.target)||(!event.target.closest('#rm-region-suggest')&&event.target!==$('rm-region')))hideRegionSuggestions();
+    });
+
+    function renderRegionalRisk(){
+      const raw=$('rm-region').value.trim();
+      if(!regionPicks.length&&!raw)return '';
+      const content=['<section class="rm-region-risk"><h4>'+icon('pin')+'Bereiste Orte und regionale Malariaeinordnung</h4>'];
+      content.push('<p class="rm-hint">Ortsvorschläge sind geografische Angaben. Die regionale Malariabewertung ist eine getrennte, ärztlich freizugebende Information.</p>');
+      for(const r of regionPicks){
+        const country=selected.find(x=>x.c===r.country)?.n||r.country;
+        const parent=profiles[r.country];
+        const approved=r.clinicalStatus==='approved'&&
+          /^\d{4}-\d{2}-\d{2}$/.test(r.nextReviewDate||'')&&
+          r.nextReviewDate>=new Date().toISOString().slice(0,10)&&profileFresh(parent)&&r.malaria;
+        content.push('<div class="rm-region-risk-item"><strong>'+escape(r.name)+' · '+escape(country)+'</strong>');
+        if(approved){
+          const m=r.malaria;
+          const labels={none:'Kein Malariavorkommen nach regionaler ärztlicher Prüfung',low:'Geringe Exposition – Mückenschutz',moderate:'Region mit relevantem Malariarisiko – ärztliche Prophylaxeberatung',high:'Höheres Malariarisiko – ärztliche Prophylaxeberatung',uncertain:'Regionale Risikoabwägung erforderlich'};
+          content.push('<p>'+escape(labels[m.riskLevel]||'Individuelle Malariaberatung erforderlich')+'</p>');
+          content.push('<p>'+escape(m.clinicalRecommendation)+'</p>');
+        }else content.push('<p class="rm-hint">Dieser Ort ist geografisch zugeordnet; eine ärztlich freigegebene regionale Malariabeurteilung ist noch nicht verfügbar. Die allgemeine Länderinformation bleibt maßgeblich.</p>');
+        content.push('</div>');
+      }
+      if(raw)content.push('<p class="rm-warningline">Nicht bestätigte Ortsangabe: <strong>'+escape(raw)+'</strong>. Diese Freitexte werden nicht als medizinisch geprüfte Regionen erkannt. Wähle einen konkreten Ort aus den Vorschlägen oder lass die Region ärztlich beurteilen.</p>');
+      content.push('</section>');return content.join('');
+    }
+    async function loadRegionDirectory(){
+      const info=$('rm-region-feedback');
+      try{
+        const url=new URL(REGION_DIRECTORY_FEED_URL);
+        if(url.protocol!=='https:'||url.hostname!=='praxisreisemedizinplaner.github.io'||
+          !url.pathname.endsWith('/region_directory_public_v1.json'))throw Error('Falsche regionale Datenquelle');
+        const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),9000);
+        let response;try{response=await fetch(url.href,{cache:'no-store',signal:controller.signal,referrerPolicy:'no-referrer'})}finally{clearTimeout(timer)}
+        if(!response.ok)throw Error('HTTP '+response.status);
+        const data=await response.json();
+        if(data.schemaVersion!==1||data.dataset!=='praxis-dr-muenster-regions-public-v1'||
+          !Array.isArray(data.regions)||data.regions.length>1000||data.geographyCount!==data.regions.length||
+          data.regionalApprovedCount!==data.regions.filter(x=>x.clinicalStatus==='approved').length)throw Error('Regionales Format ungültig');
+        const next=[],seen=new Set(),today=new Date().toISOString().slice(0,10);
+        for(const row of data.regions){
+          if(!row||typeof row.id!=='string'||!/^[A-Z]{2}-[A-Z0-9-]+$/.test(row.id)||
+            !/^[A-Z]{2}$/.test(row.country)||!row.id.startsWith(row.country+'-')||seen.has(row.id)||
+            typeof row.name!=='string'||row.name.length>130||!['city','island','region'].includes(row.kind)||
+            !Array.isArray(row.aliases)||row.aliases.length>15||!row.aliases.every(x=>typeof x==='string'&&x.length<100)||
+            !['medical_review_required','approved'].includes(row.clinicalStatus))throw Error('Region ungültig');
+          seen.add(row.id);
+          const safe={id:row.id,country:row.country,name:row.name,kind:row.kind,aliases:row.aliases,
+            clinicalStatus:'medical_review_required'};
+          if(row.clinicalStatus==='approved'&&row.nextReviewDate>=today&&row.malaria&&
+             ['none','low','moderate','high','uncertain'].includes(row.malaria.riskLevel)&&
+             typeof row.malaria.clinicalRecommendation==='string'&&
+             Array.isArray(row.sources)&&row.sources.every(x=>{try{return new URL(x).protocol==='https:'}catch(_){return false}})){
+              safe.clinicalStatus='approved';safe.nextReviewDate=row.nextReviewDate;
+              safe.malaria={riskLevel:row.malaria.riskLevel,clinicalRecommendation:row.malaria.clinicalRecommendation};
+          }
+          next.push(safe);
+        }
+        regionDirectory=next;regionFeedReady=true;
+        renderRegionChips();
+        if(!$('rm-results').classList.contains('rm-hidden'))$('rm-region-risk').innerHTML=renderRegionalRisk();
+      }catch(_){
+        regionDirectory=[];regionFeedReady=false;regionPicks=[];
+        hideRegionSuggestions();renderRegionChips();
+        if(info)info.textContent='Regionssuche vorübergehend nicht verfügbar. Freitext bleibt möglich, wird aber niemals automatisch zu einer Arzneimittel-Empfehlung.';
+        if(!$('rm-results').classList.contains('rm-hidden'))$('rm-region-risk').innerHTML=renderRegionalRisk();
+      }
+    }
+
+    const makeTag=(txt,risk)=>'<span class="rm-tag '+(risk?'rm-traffic-yellow':'rm-traffic-green')+'">'+escape(txt)+'</span>';
+    function add(e){if(!selected.some(c=>c.c===e.c))selected.push(e);$('rm-country').value='';hideSuggestions();renderChips();}
+    function remove(c){const idx=selected.findIndex(e=>e.c===c);if(idx>=0)selected.splice(idx,1);renderChips();}
+    function renderChips(){
+      renderRegionChips();
+      $('rm-chips').innerHTML='';selected.forEach(e=>{const s=document.createElement('span');s.className='rm-chip';s.append(document.createTextNode(e.n));const b=document.createElement('button');b.type='button';b.textContent='×';b.setAttribute('aria-label',e.n+' entfernen');b.addEventListener('click',()=>remove(e.c));s.append(b);$('rm-chips').append(s)});
+      $('rm-step2').classList.toggle('rm-hidden',selected.length===0);$('rm-results').classList.add('rm-hidden');updateSourceFooter();
+    }
+    let activeSuggestion=-1;
+    function hideSuggestions(){activeSuggestion=-1;const box=$('rm-suggest');box.classList.remove('rm-show');box.innerHTML='';$('rm-country').setAttribute('aria-expanded','false');$('rm-country').removeAttribute('aria-activedescendant');}
+    function setActiveSuggestion(i,scroll){
+      const box=$('rm-suggest'),choices=[...box.querySelectorAll('.rm-choice')];
+      if(!choices.length){activeSuggestion=-1;return;}
+      activeSuggestion=Math.max(0,Math.min(i,choices.length-1));
+      choices.forEach((b,j)=>{b.classList.toggle('rm-active',j===activeSuggestion);b.setAttribute('aria-selected',j===activeSuggestion?'true':'false');});
+      $('rm-country').setAttribute('aria-activedescendant',choices[activeSuggestion].id);
+      if(scroll)choices[activeSuggestion].scrollIntoView({block:'nearest',inline:'nearest'});
+    }
+    function suggest(){const q=clean($('rm-country').value);const box=$('rm-suggest');box.innerHTML='';activeSuggestion=-1;$('rm-country').removeAttribute('aria-activedescendant');
+      if(!q){hideSuggestions();return;}
+      const matches=COUNTRIES.filter(e=>!selected.some(s=>s.c===e.c)&&([e.n,...(e.a||[])].some(x=>clean(x).includes(q))||clean(e.c)===q)).sort((a,b)=>Number(clean(b.n).startsWith(q))-Number(clean(a.n).startsWith(q))).slice(0,12);
+      matches.forEach((e,i)=>{const b=document.createElement('button');b.type='button';b.id='rm-choice-'+i;b.className='rm-choice';b.setAttribute('role','option');b.setAttribute('aria-selected','false');b.textContent=e.n;const match=clean(e.n).includes(q)?null:(e.a||[]).find(x=>clean(x).includes(q));if(match&&clean(e.n)!==clean(match)){const sml=document.createElement('small');sml.textContent=match;b.append(sml)}b.addEventListener('mousedown',ev=>ev.preventDefault());b.addEventListener('click',()=>{add(e);$('rm-country').focus()});box.append(b)});
+      box.classList.toggle('rm-show',matches.length>0);$('rm-country').setAttribute('aria-expanded',matches.length?'true':'false');
+    }
+    $('rm-country').addEventListener('input',suggest);
+    $('rm-country').addEventListener('keydown',e=>{
+      const choices=[...$('rm-suggest').querySelectorAll('.rm-choice')];
+      if(e.key==='Escape'){hideSuggestions();return;}
+      if(e.key==='ArrowDown'||e.key==='ArrowUp'){
+        if(!choices.length){suggest();if(!$('rm-suggest').querySelector('.rm-choice'))return;}
+        const count=$('rm-suggest').querySelectorAll('.rm-choice').length;
+        e.preventDefault();setActiveSuggestion(activeSuggestion===-1?(e.key==='ArrowDown'?0:count-1):(activeSuggestion+(e.key==='ArrowDown'?1:-1)+count)%count,true);return;
+      }
+      if(e.key==='Enter'){
+        const opts=[...$('rm-suggest').querySelectorAll('.rm-choice')];
+        if(opts.length){e.preventDefault();opts[activeSuggestion>=0?activeSuggestion:0].click();}return;
+      }
+      if(e.key==='Tab')hideSuggestions();
+    });
+    HOST.addEventListener('click',ev=>{if(!ev.target.closest('.rm-picker'))hideSuggestions()});
+    // V14: Jimdo/Browser-kompatible Tastatursteuerung der beiden Auswahlfelder.
+    // Tab fokussiert die Felder; Pfeile wählen sofort; Enter bestätigt über das native Select.
+    // Alt+Pfeil, Leertaste und Maus bleiben dem nativen Auswahlmenü vorbehalten.
+    function enableKeyboardSelection(id){
+      const el=$(id);
+      if(!el)return;
+      el.addEventListener('keydown',event=>{
+        if(event.altKey||event.ctrlKey||event.metaKey||event.isComposing)return;
+        const last=el.options.length-1;
+        if(last<1)return;
+        let next=null;
+        if(event.key==='ArrowDown')next=Math.min(last,Math.max(0,el.selectedIndex)+1);
+        else if(event.key==='ArrowUp')next=Math.max(1,(el.selectedIndex<=1?1:el.selectedIndex-1));
+        else if(event.key==='Home')next=1;
+        else if(event.key==='End')next=last;
+        if(next===null)return;
+        event.preventDefault();
+        if(el.selectedIndex!==next){
+          el.selectedIndex=next;
+          el.dispatchEvent(new Event('input',{bubbles:true}));
+          el.dispatchEvent(new Event('change',{bubbles:true}));
+        }
+      });
+    }
+    enableKeyboardSelection('rm-duration');
+    // V20: One accessible multi-select behavior for Reiseform, Reisegrund, Aktivitäten.
+    function getSelectedMulti(id){
+      return [...HOST.querySelectorAll('#'+id+' input[type="checkbox"]:checked')].map(input=>input.value);
+    }
+    function getSelectedActivities(){return getSelectedMulti('rm-activities')}
+    function getSelectedStyles(){return getSelectedMulti('rm-style')}
+    function getSelectedPurposes(){return getSelectedMulti('rm-purpose')}
+    const multiGroups=[
+      {id:'rm-style',single:'Reiseart',plural:'Reisearten'},
+      {id:'rm-purpose',single:'Reisegrund',plural:'Reisegründe'},
+      {id:'rm-activities',single:'Aktivität',plural:'Aktivitäten'}
+    ];
+    function updateMultiLabel(group){
+      const values=getSelectedMulti(group.id);
+      const summary=$(group.id+'-summary'),chosen=$(group.id+'-chosen');
+      if(summary)summary.textContent=!values.length?'Nicht angegeben · Mehrfachauswahl':values.length===1?values[0]:values.length+' '+group.plural+' ausgewählt';
+      if(chosen)chosen.textContent=values.length>1?values.join(' · '):'Mehrfachauswahl möglich';
+    }
+    function onMultiChange(group){
+      updateMultiLabel(group);
+      if(selected.length && !$('rm-results').classList.contains('rm-hidden'))updateResult(false);
+    }
+    for(const group of multiGroups){
+      HOST.querySelectorAll('#'+group.id+' input[type="checkbox"]').forEach(input=>input.addEventListener('change',()=>onMultiChange(group)));
+      $(group.id+'-clear').addEventListener('click',()=>{
+        HOST.querySelectorAll('#'+group.id+' input[type="checkbox"]').forEach(input=>input.checked=false);
+        onMultiChange(group);
+      });
+      $(group.id+'-done').addEventListener('click',()=>{
+        $(group.id+'-picker').open=false;
+        $(group.id+'-toggle').focus();
+      });
+      updateMultiLabel(group);
+    }
+
+    $('rm-reset').addEventListener('click',()=>{selected.length=0;['rm-region','rm-when'].forEach(id=>$(id).value='');regionPicks=[];hideRegionSuggestions();renderRegionChips();$('rm-duration').selectedIndex=0;for(const group of multiGroups){HOST.querySelectorAll('#'+group.id+' input[type="checkbox"]').forEach(input=>input.checked=false);$(group.id+'-picker').open=false;updateMultiLabel(group)}$('rm-special-notes').innerHTML='';renderChips();updateSourceFooter();$('rm-country').focus()});
+    function riskInfo(p,region){const t=clean(region);if(!p)return {kind:'unknown',title:'Malaria: individuelle Prüfung erforderlich',txt:'Für dieses Land liegt noch keine fachlich freigegebene, aktuelle Risikoeinordnung im Tool vor. Bitte prüfe die offiziellen Reise- und Malariainformationen.'};
+      if(p._v16){
+        const m=p._v16Malaria||{};
+        const kinds={none:'none',exposure_only:'exposure',standby_consider:'standby',chemoprophylaxis_consider:'med',regional_assessment_required:'unknown'};
+        const kind=kinds[m.preventionType]||'unknown';
+        const title=kind==='none'?'Malaria: laut geprüften CDC-Länderangaben kein bekanntes Vorkommen':
+          kind==='med'?'Malaria: medikamentöse Prophylaxe ärztlich prüfen':
+          kind==='standby'?'Malaria: Notfall-Selbstbehandlung ärztlich prüfen':
+          kind==='exposure'?'Malaria: Mückenschutz und Expositionsprophylaxe':'Malaria: exakte Reiseregion ärztlich prüfen';
+        // Only an exact verified regional match could justify region-specific advice.
+        // Unsupported input is never used to invent location-specific risk.
+        return {kind,title,txt:m.clinicalRecommendation||'Keine freigegebene regionale Einschätzung verfügbar; ärztliche Beratung erforderlich.'};
+      }
+      if(p.malariaDefault==='none')return {kind:'unknown',title:'Malaria: ärztliche Prüfung erforderlich',txt:'Aktuelle regionale Daten sind noch nicht als V16-Länderprofil freigegeben.'};
+      const matched=t?p.rules.find(r=>r.terms.some(x=>t.includes(clean(x)))):null;
+      const r=matched||{};let kind=r.type||p.malariaDefault||'unknown';
+      const titles={med:'Malaria: medikamentöse Prophylaxe ärztlich besprechen',standby:'Malaria: ggf. Notfall-Selbstbehandlung prüfen',exposure:'Malaria: Mückenschutz im Vordergrund',unknown:'Malaria: Region individuell prüfen'};
+      const defaults={med:'In den genannten Risikogebieten ist neben konsequentem Mückenschutz eine medikamentöse Prophylaxe in der Regel sinnvoll. Ärztlich Auswahl und Verträglichkeit klären.',standby:'Ob eine Notfall-Selbstbehandlung mitgenommen wird, hängt von der genauen Route und der Erreichbarkeit einer medizinischen Einrichtung ab. Niemals ohne vorherige ärztliche Planung.',exposure:'Trotz geringer oder fehlender Malariagefahr bleibt Mückenschutz wegen anderer Erreger wichtig. Keine abschließende Freigabe ohne Prüfung der Reiseroute.',unknown:'Bitte gib auch Regionen und Zwischenstopps an und lass dich individuell beraten. Ein Ländername allein erlaubt oft keine sichere Auswahl der Malariastrategie.'};
+      return {kind,title:titles[kind],txt:r.msg||defaults[kind]};
+    }
+    const SOURCE_RKI='https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26.pdf?__blob=publicationFile&v=3';
+    const VAX={"Hepatitis A":{"brands":"Havrix 1440 (ab 16 J.), VAQTA 50 E (ab 18 J.); für Kinder Havrix 720 Kinder / VAQTA Kinder 25 E","primary":"Havrix: 2 Injektionen i. m. im Abstand 6–12 Monate. VAQTA: 2 Injektionen i. m. im Abstand 6–18 Monate.","booster":"Nach vollständiger Serie ist eine routinemäßige weitere Auffrischimpfung nach STIKO derzeit nicht festgelegt.","special":"Wird gleichzeitig Schutz gegen Hepatitis B benötigt, ist Twinrix (A+B) möglich: 3 Injektionen 0, 1, 6 Monate; bei Erwachsenen ggf. zugelassenes Schnellschema 0, 7, 21 Tage + 12 Monate."},"Hepatitis B":{"brands":"Engerix-B Erwachsene, HBVAXPRO 10 µg; altersabhängige Kinderpräparate","primary":"Bei Personen ab 16 Jahren meist 3 Injektionen i. m.: Monate 0, 1, 6; je nach Präparat/Risiko sind alternative Schemata möglich.","booster":"Keine pauschale Auffrischung bei immunkompetenten Personen nach erfolgreicher Grundimmunisierung; individuelle Indikation, ggf. Anti-HBs-Kontrolle.","special":"Kombinationsimpfstoff bei zusätzlichem Hepatitis-A-Bedarf: Twinrix Erwachsene (0, 1, 6 Monate)."},"Gelbfieber":{"brands":"Stamaril (Lebendimpfstoff; nur zugelassene Gelbfieberimpfstellen)","primary":"1 Injektion; Erstimpfung mindestens 10 Tage vor relevanter Einreise/Exposition.","booster":"STIKO: bei erneuter/fortgesetzter Exposition einmalige zweite Dosis, wenn die Erstimpfung mindestens 10 Jahre zurückliegt; Sonderregeln für Kinder, Schwangerschaft und Immundefizienz.","special":"Der internationale Impfnachweis ist in der Regel lebenslang gültig; medizinische Auffrischung und Einreisenachweis sind nicht dasselbe. Individuelle Kontraindikationen beachten."},"Typhus":{"brands":"Typhim Vi (Injektionsimpfstoff); Typhoral L (oral, keine Injektion)","primary":"Typhim Vi: 1 Injektion i. m., möglichst mindestens 2 Wochen vor Exposition. Alternative Typhoral L: 3 Kapseln oral an Tagen 1, 3, 5.","booster":"Typhim Vi bei fortgesetztem Risiko spätestens nach 3 Jahren; Typhoral L laut STIKO bei Reiseexposition meist nach 1 Jahr prüfen.","special":"Ob Impfung sinnvoll ist, hängt von Ziel, Ernährung/Hygiene, Dauer und Reiseart ab."},"Tollwut":{"brands":"Rabipur, Verorab","primary":"Präexpositionell: klassisch 3 Injektionen i. m. an Tagen 0, 7, 21 (oder 28). Bei Immunkompetenten je nach Präparat auch 2 Dosen an Tagen 0 und 7 möglich.","booster":"Bei weiterer Exposition nach Fachinformation, Expositionsart und ggf. Antikörperbestimmung; kein pauschaler Termin für alle.","special":"Nach jeder verdächtigen Biss-/Kratzexposition sofort Wunde spülen und notfallmäßig ärztlich vorstellen – auch bei Vorimpfung."},"Japanische Enzephalitis":{"brands":"Ixiaro","primary":"2 Injektionen i. m. im Abstand von 28 Tagen; bei Erwachsenen 18–65 Jahre alternativ Abstand 7 Tage möglich.","booster":"Bei erneuter Exposition erste Auffrischung frühestens 12 Monate nach Grundimmunisierung; weiterer Abstand abhängig von Alter/Fachinformation.","special":"Vor allem bei längeren/erhöhten Mückenexpositionen in Endemiegebieten relevant."},"Dengue":{"brands":"Qdenga (Lebendimpfstoff)","primary":"2 Injektionen s. c. im Abstand von mindestens 3 Monaten.","booster":"Ein Routine-Auffrischschema ist derzeit nicht festgelegt.","special":"STIKO-Reiseempfehlung grundsätzlich nur bei früherer labordiagnostisch gesicherter Dengue-Infektion UND erhöhtem Expositionsrisiko. Nicht pauschal für Dengue-naive Reisende empfehlen. In Schwangerschaft/bei Immundefizienz kontraindiziert."},"Chikungunya":{"brands":"Vimkunya (Totimpfstoff); Ixchiq (Lebendimpfstoff)","primary":"Je nach Produkt 1 Injektion i. m. (ab 12 Jahren).","booster":"Derzeit kein etabliertes Auffrischschema.","special":"STIKO empfiehlt Ixchiq nur bis einschließlich 59 Jahre; ab 60 Jahren Vimkunya. Indikation abhängig von Ausbruchsgeschehen bzw. erhöhtem Risiko und Reisedauer. Lebendimpfstoff bei Schwangerschaft/Immundefizienz kontraindiziert."},"Meningokokken ACWY":{"brands":"MenQuadfi, Menveo, Nimenrix","primary":"Bei Jugendlichen und Erwachsenen üblicherweise 1 Injektion i. m.; Säuglingsschemata altersabhängig.","booster":"Bei fortgesetztem Risiko abhängig vom Impfstoff: Nimenrix i. d. R. 10 Jahre; MenQuadfi ca. 5 Jahre; Menveo nach Fachinformation/Indikation.","special":"Besondere Indikation z. B. Meningitisgürtel bei engem Kontakt oder Haddsch/Umrah; Einreisevorschriften gesondert beachten."},"Poliomyelitis":{"brands":"Imovax Polio, IPV-Mérieux; ggf. Tdap-IPV-Kombinationsimpfstoffe (z. B. Repevax, Boostrix Polio)","primary":"Nachhol- bzw. Grundimmunisierung individuell nach vorhandenen Dosen und STIKO-Impfschema; kein einheitliches Reiseschema für alle Erwachsenen.","booster":"Bei bestimmten Risiko- und Ein-/Ausreiseländern zusätzliche IPV-Dosis bzw. zeitlich vorgeschriebener Nachweis möglich.","special":"Vorimpfungen und mögliche WHO-Polio-Erklärungen mit Ein-/Ausreisezeitpunkt abgleichen."},"FSME":{"brands":"Encepur Erwachsene, FSME-IMMUN Erwachsene; altersentsprechende Kinderimpfstoffe","primary":"3 Injektionen i. m.: meist 0, 1–3 Monate, danach je nach Präparat 5–12 bzw. 9–12 Monate nach 2. Dosis. Schnellschemata möglich.","booster":"Erste Auffrischung nach 3 Jahren; anschließend je nach Alter/Produkt meist alle 3–5 Jahre.","special":"Bei Zeckenexposition in FSME-Risikogebieten; nicht gleichbedeutend mit Schutz gegen Borreliose."},"Cholera":{"brands":"Dukoral, Vaxchora (beides Schluckimpfstoffe, keine Injektion)","primary":"Dukoral: ab 6 J. 2 orale Dosen im Abstand 1–6 Wochen; bei jüngeren Kindern altersabhängig mehr. Vaxchora: 1 orale Dosis.","booster":"Dukoral bei fortgesetztem Risiko in der Regel nach 2 Jahren (ab 6 J.) auffrischen; Vaxchora: kein etabliertes Routine-Auffrischschema.","special":"Nur bei besonderen Expositionsrisiken/beruflichen Einsätzen; nicht als Standardimpfung für jede Reise."},"Tetanus / Diphtherie / Pertussis":{"brands":"Td-pur, Td-IMMUN; Kombinationsimpfstoffe mit Pertussis z. B. Boostrix, Repevax, Boostrix Polio (je nach Antigenkombination)","primary":"Fehlende Grundimmunisierung anhand des Impfpasses vervollständigen. Bestehenden Tetanus-/Diphtherieschutz prüfen.","booster":"Td-Auffrischung in der Regel alle 10 Jahre; einmalige Tdap-Gabe im Erwachsenenalter, weitere Indikationen möglich.","special":"Standardimpfung, unabhängig vom Reiseziel prüfen."},"Masern (MMR)":{"brands":"Priorix, M-M-RVaxPro","primary":"Alters- und impfstatusabhängige Standard-/Nachholimpfung; Erwachsene nach STIKO-Indikation meist 1 MMR-Dosis.","booster":"Nach vollständig empfohlener Serie keine routinemäßige Auffrischung.","special":"Lebendimpfstoff; Schwangerschaft und Immundefizienz beachten."}};
+    const matchingVaccine=name=>{
+      const x=clean(name).replace(/\s*\([^)]*\)/g,'');
+      if(x.startsWith('gelbfieber'))return 'Gelbfieber';
+      if(x.startsWith('poliomyelitis')||x==='polio')return 'Poliomyelitis';
+      return Object.keys(VAX).find(k=>clean(k)===x)||null;
+    };
+    function schemeCard(name,tag){
+      const v=VAX[name];if(!v)return '';
+      const html=[];
+      const traffic=tag==='Für alle Reisenden'?'rm-traffic-green':tag==='Je nach Expositionsrisiko'?'rm-traffic-yellow':'';
+      html.push('<div class="rm-scheme '+traffic+'"><h5>'+escape(name)+'</h5>');
+      if(tag)html.push('<span class="rm-vaxkind '+traffic+'">'+escape(tag)+'</span>');
+      html.push('<p><strong>Impfstoff in Deutschland:</strong> '+escape(v.brands)+'</p>');
+      html.push('<p><strong>Grundimmunisierung / Schema:</strong> '+escape(v.primary)+'</p>');
+      html.push('<p><strong>Auffrischung:</strong> '+escape(v.booster)+'</p>');
+      if(v.special)html.push('<p class="rm-hint"><strong>Beachte:</strong> '+escape(v.special)+'</p>');
+      return html.join('')+'</div>';
+    }
+    // Jede Impfung erscheint im Gesamtplan nur einmal. Die Ländernamen darunter
+    // zeigen exakt, wo sie allgemein bzw. nur je nach Exposition genannt wird.
+    // Extract vaccine names only when they are explicit at the START of the signed clinical statement.
+    // Keep all other wording as an indication note; do not infer an extra vaccine indication.
+    function v16VaccineEntry(label){
+      const raw=String(label||'').trim();
+      const names=['Hepatitis A','Hepatitis B','Tollwut','Typhus','FSME'];
+      for(const name of names){
+        if(clean(raw).startsWith(clean(name))){
+          const tail=raw.slice(name.length).trim().replace(/^[-–;,.: ]+/, '').trim();
+          return {name,note:tail,scheme:matchingVaccine(name)};
+        }
+      }
+      if(/standardimpfungen/i.test(raw))return {name:'STIKO-Standardimpfungen',note:raw,scheme:null};
+      return {name:raw,note:'',scheme:matchingVaccine(raw)};
+    }
+    function medicalNotes(v){
+      return v.notes&&v.notes.size?'<div class="rm-vax-country-note">'+[...v.notes].map(n=>'<span>'+escape(n)+'</span>').join('')+'</div>':'';
+    }
+    function unifiedVaccines(){
+      const m=new Map();const missing=[];
+      // Basisschutz gemaess STIKO ist nicht an ein bestimmtes Reiseland gebunden.
+      // Den Hinweis auch dann anzeigen, wenn einzelne Laenderprofile noch ungeprueft sind.
+      if(selected.length){
+        m.set(clean('STIKO-Standardimpfungen'),{
+          name:'STIKO-Standardimpfungen',
+          scheme:null,
+          general:new Set(selected.map(e=>e.n)),
+          risk:new Set(),
+          notes:new Set(['Unabhängig vom Reiseziel: alters- und indikationsgerechten Impfstatus nach STIKO prüfen, insbesondere den Masernschutz. Die STIKO-Empfehlungen richten sich nach Alter und individuellen Risiken.'])
+        });
+      }
+      for(const e of selected){
+        const p=profiles[e.c];
+        const usable=profileFresh(p);
+        if(!usable){missing.push(e.n);continue;}
+        for(const [labels,category] of [[p.base||[],'general'],[p.extra||[],'risk']]){
+          for(const label of labels){
+            const info=v16VaccineEntry(label);const title=info.name;
+            const key=clean(title);if(!key)continue;
+            // STIKO-Basisschutz nur einmal global, nicht als vermeintliche Besonderheit Oesterreichs.
+            if(key===clean('STIKO-Standardimpfungen'))continue;
+            if(!m.has(key))m.set(key,{name:title,scheme:info.scheme,general:new Set(),risk:new Set(),notes:new Set()});
+            m.get(key)[category].add(e.n);
+            if(info.note)m.get(key).notes.add(info.note);
+          }
+        }
+      }
+      const entries=[...m.values()].sort((a,b)=>Number(b.general.size>0)-Number(a.general.size>0)||a.name.localeCompare(b.name,'de'));
+      return {entries,missing};
+    }
+    function vaccineCountryLabels(v){
+      const a=[];
+      if(v.general.size)a.push('<span class="rm-country-global">Für alle Reisenden: '+escape([...v.general].join(', '))+'</span>');
+      if(v.risk.size)a.push('<span class="rm-country-risk">Je nach Expositionsrisiko: '+escape([...v.risk].join(', '))+'</span>');
+      return '<div class="rm-vax-country-note">'+a.join('')+'</div>';
+    }
+    function renderSharedVaccinations(){
+      const {entries,missing}=unifiedVaccines();
+      const h=['<section class="rm-shared-vax" aria-labelledby="rm-vax-title"><h4 id="rm-vax-title">'+icon('vaccine')+'Impfempfehlungen für deine gesamte Reise</h4>'];
+      h.push('<p class="rm-hint">Alle ausgewählten Länder werden gemeinsam berücksichtigt. Jede Impfung erscheint nur einmal; darunter steht, für welches Reiseziel sie genannt wird.</p>');
+      if(entries.length){
+        h.push('<div class="rm-vax-unique">');
+        for(const v of entries){
+          const cls=v.general.size?'rm-traffic-green':'rm-traffic-yellow';
+          h.push('<div class="rm-vax-unique-card"><strong><span class="rm-tag '+cls+'">'+escape(v.name)+'</span></strong>'+vaccineCountryLabels(v)+medicalNotes(v)+'</div>');
+        }
+        h.push('</div>');
+        h.push('<div class="rm-legend" role="note" style="font-size:12px;margin-top:10px"><span class="rm-legend-item"><span class="rm-legend-swatch rm-traffic-green"></span>Grün: Für alle Reisenden im genannten Land</span><span class="rm-legend-item"><span class="rm-legend-swatch rm-traffic-yellow"></span>Gelb: Je nach Exposition im genannten Land</span></div>');
+        h.push('<details class="rm-vax-schemata"><summary>Handelsnamen & Impfschemata für diese Reise einblenden ('+entries.length+')</summary><div class="rm-scheme-grid">');
+        for(const v of entries){
+          if(v.scheme){const kind=v.general.size?'Für alle Reisenden':'Je nach Expositionsrisiko';
+            h.push(schemeCard(v.scheme,kind).replace('</div>',vaccineCountryLabels(v)+medicalNotes(v)+'</div>'));
+          }else h.push('<div class="rm-scheme"><h5>'+escape(v.name)+'</h5>'+vaccineCountryLabels(v)+medicalNotes(v)+'<p class="rm-hint">Einzelheiten der Standard- und Indikationsimpfungen nach STIKO/Fachinformation prüfen.</p></div>');
+        }
+        h.push('</div></details>');
+      }else h.push('<p>Für diese Auswahl kann derzeit kein verlässlicher länderbezogener Impfplan aus den hinterlegten Profilen erstellt werden.</p>');
+      if(missing.length)h.push('<p class="rm-warningline"><strong>Keine ausreichenden Länderdaten für: '+escape(missing.join(', '))+'.</strong> Fehlende Länder dürfen nicht als impffrei interpretiert werden; bitte amtliche Länderinformationen prüfen.</p>');
+      h.push('<p class="rm-hint">Unverbindliche Länderübersicht, keine individuelle Impfentscheidung. Impfpass, Alter und Kontraindikationen ärztlich prüfen.</p></section>');
+      return h.join('');
+    }
+    function renderMission(c){
+      let h='<div class="rm-mission"><p><strong>'+escape(c.title||'Deutsche Auslandsvertretung')+'</strong></p>';
+      if(c.address)h+='<p><strong>Adresse:</strong><br>'+escape(c.address).replace(/, (?=\d)/g,',<br>')+'</p>';
+      if(c.scope)h+='<p><strong>Zuständigkeit:</strong> '+escape(c.scope)+'</p>';
+      if(c.hours)h+='<p><strong>Öffnungszeiten:</strong> '+escape(c.hours)+'</p>';
+      if(c.phone)h+='<p><strong>Telefon:</strong> <a href="tel:'+escape(c.phone.replace(/[^\d+]/g,''))+'">'+escape(c.phone)+'</a></p>';
+      if(c.emergency)h+='<p><strong>Notruf-/Bereitschaftsnummer:</strong> <a href="tel:'+escape(c.emergency.replace(/[^\d+]/g,''))+'">'+escape(c.emergency)+'</a></p>';
+      if(c.email)h+='<p><strong>E-Mail:</strong> <a href="mailto:'+escape(c.email)+'">'+escape(c.email)+'</a></p>';
+      if(c.url)h+='<p>'+A(c.url,'Amtliche Kontaktseite')+'</p>';
+      return h+'</div>';
+    }
+    // International alerts refer to their original *publication date*, even for active RSS items.
+    // Do not infer country-level clinical recommendations from regional outbreaks.
+    function safeHttpsLink(url){try{const u=new URL(url);return u.protocol==='https:'&&['paho.org','www.paho.org','who.int','www.who.int','ecdc.europa.eu','www.ecdc.europa.eu','cdc.gov','www.cdc.gov','wwwnc.cdc.gov'].includes(u.hostname)}catch(_){return false}}
+    function matchesInternational(a,code){return !!((Array.isArray(a.countries)&&a.countries.includes(code))||(a.region==='AMERICAS'&&AMERICAS.has(code)))}
+    function validInternational(a){return a&&['CDC','PAHO','WHO','ECDC'].includes(a.source)&&/^\d{4}-\d{2}-\d{2}$/.test(a.date||'')&&typeof a.title==='string'&&a.title.length<=240&&typeof a.url==='string'&&safeHttpsLink(a.url)&&(Array.isArray(a.countries)&&a.countries.every(x=>/^[A-Z]{2}$/.test(x))||a.region==='AMERICAS')}
+    function recentInternationalFor(code){return intlAlerts.filter(x=>validInternational(x)&&isInternationalNoticeRecent(x.date)&&matchesInternational(x,code))}
+    function officialSourceLinks(code){const li=[A(OFFICIAL_HEALTH.WHO_DON,'WHO · Ausbruchsmeldungen'),A(OFFICIAL_HEALTH.WHO_TRAVEL,'WHO · Reisegesundheit'),A(OFFICIAL_HEALTH.ECDC,'ECDC · Gesundheitsereignisse'),A(OFFICIAL_HEALTH.CDC,'CDC · Reisegesundheitsmeldungen')];if(AMERICAS.has(code))li.unshift(A(OFFICIAL_HEALTH.PAHO,'PAHO · Meldungen Amerika'));return li.join(' ')}
+    function gelbfieberHinweis(e,p){
+      const profileIndication=!!p&&[...(p.base||[]),...(p.extra||[])].some(x=>clean(x).startsWith('gelbfieber'));
+      const recentNotice=recentInternationalFor(e.c).some(x=>/gelbfieber|yellow fever/i.test(x.title));
+      // A conditional entry requirement somewhere on a transit route does not make the destination an endemic area.
+      return profileIndication||recentNotice;
+    }
+        // Redaktionell überprüfte Kurzzusammenfassungen: nur für diese konkreten
+    // CDC-Veröffentlichungen und mit eigenem festen Stand. Keine automatische
+    // Inhaltszusammenfassung bei neuen Meldungen oder bei anderen Quellen.
+    const CDC_SHORT_SUMMARIES={
+      'https://wwwnc.cdc.gov/travel/notices/level1/ebola-kenya':{
+        date:'2026-10-19',
+        summary:'In Nairobi wurden ein eingeschleppter sowie weitere damit zusammenhängende Ebola-(Bundibugyo)-Fälle bestätigt. Vermeide Kontakt zu erkrankten Menschen und deren Körperflüssigkeiten; bei verdächtigen Symptomen umgehend medizinischen Rat einholen.'
+      },
+      'https://wwwnc.cdc.gov/travel/notices/level2/yellow-fever-ghana':{
+        date:'2026-10-16',
+        summary:'Die CDC meldet einen Gelbfieberausbruch in Ghanas Upper West Region. Bei Reisen in betroffene Gebiete empfiehlt sie eine Impfung mindestens zehn Tage vor Reisebeginn und konsequenten Mückenschutz.'
+      },
+      'https://wwwnc.cdc.gov/travel/notices/level2/yellow-fever-colombia':{
+        date:'2026-10-16',
+        summary:'In Kolumbien wurden vermehrt Gelbfieberfälle gemeldet, vor allem in Tolima und angrenzenden neuen Risikogebieten. Bei Reisen in betroffene Regionen sollten Gelbfieberimpfung und Mückenschutz rechtzeitig geprüft werden.'
+      }
+    };
+    function internationalBrief(a){
+      if(a.summary&&a.reviewed===true&&typeof a.summary==='string'&&a.summary.length<=700){
+        return {text:a.summary,editorial:false};
+      }
+      const c=a.source==='CDC'?CDC_SHORT_SUMMARIES[a.url]:null;
+      if(c&&c.date===a.date)return {text:c.summary,editorial:true};
+      // Der CDC-RSS-Feed liefert nur Überschrift und Datum. Ohne fachlich
+      // geprüften Volltext keine scheinbar konkrete Zusammenfassung erfinden.
+      return {text:'Die amtliche Meldung beschreibt eine reisemedizinisch relevante Entwicklung. Betroffene Regionen und konkrete Empfehlungen stehen im verlinkten Originaltext.',editorial:false};
+    }
+function renderInternational(e){
+      const chosen=recentInternationalFor(e.c).sort((a,b)=>(a.scope==='regional'?1:0)-(b.scope==='regional'?1:0)||b.date.localeCompare(a.date)).slice(0,8);
+      const h=['<section class="rm-embassy rm-intl-section"><h4>'+icon('globe')+'Internationale Gesundheitsmeldungen für die Reiseplanung <span class="rm-window-badge">letzte 4 Wochen</span></h4>'];
+      if(chosen.length){
+        h.push('<div class="rm-intl-alerts">');
+        for(const a of chosen){
+          const regional=a.scope==='regional';
+          const brief=internationalBrief(a);
+          h.push('<div class="rm-intl-alert'+(regional?' rm-area':'')+'"><div class="rm-intl-meta">'+escape(a.source)+' · Meldung vom '+format(a.date)+(regional?' · überregionaler Hinweis':'')+'</div><h5><a class="rm-alert-link" href="'+escape(a.url)+'" target="_blank" rel="noopener noreferrer" style="color:#22566f;text-decoration:underline;text-underline-offset:3px;font-weight:760">'+escape(a.title)+'</a></h5>');
+          h.push('<p class="rm-intl-brief">'+escape(brief.text)+'</p>');
+          if(brief.editorial)h.push('<p class="rm-intl-editorial">Redaktionelle Kurzfassung der CDC-Meldung · Stand 01.11.2026. Die aktuelle Originalmeldung ist maßgeblich.</p>');
+          h.push('</div>');
+        }
+        h.push('</div>');
+      }else h.push('<p class="rm-intl-empty">Für dieses Reiseziel liegen in den eingebundenen Quellen derzeit <strong>keine Meldungen aus den letzten vier Wochen</strong> vor. Das bedeutet nicht, dass keine Infektionsrisiken oder Ausbrüche bestehen.</p>');
+      return h.join('')+'</section>';
+    }
+    function renderOne(e,region){
+      const p=profiles[e.c],stale=!!p&&!profileFresh(p),usable=profileFresh(p);
+      const vaxUsable=usable;
+      const b=['<article class="rm-result"><h3>'+icon('pin')+escape(e.n)+'</h3>'];
+      // V18: No status/date chip in the individual country card. Clinical status and dates
+      // remain visible in the collapsible sources panel; unapproved countries retain a warning.
+       if(p&&p.reviewStatus==='editorial_draft')b.push('<p class="rm-hint"><strong>Wichtig:</strong> Quellenabgleich, keine ärztlich freigegebene persönliche Empfehlung. Impfpass, Einreisestrecke und individuelle Risiken ärztlich prüfen.</p>');
+       if(!usable)b.push('<div class="rm-note rm-warning">'+(stale?'Die ärztliche Länderfreigabe ist abgelaufen. Bitte aktuelle offizielle Reisehinweise und eine reisemedizinische Beratung nutzen.':'Für dieses Ziel liegt noch kein freigegebener Länderbericht vor. Die allgemeine Impfschema-Datenbank findest du weiter unten; aus ihr darf keine länderspezifische Indikation abgeleitet werden.')+'</div>');
+      const yellowFeverPossible=gelbfieberHinweis(e,p);
+      if(yellowFeverPossible)b.push('<div class="rm-yellowfever-flag">'+icon('vaccine','rm-yellowfever-icon')+'<span><strong>Gelbfieberimpfung prüfen:</strong> Je nach Reiseroute oder bereister Region kann eine Impfung sinnvoll oder ein Impfnachweis erforderlich sein. Bitte kläre die Indikation und mögliche Kontraindikationen ärztlich.</span></div>');
+      b.push('<div class="rm-grid"><div class="rm-box rm-entry-note"><h4>'+icon('book')+'Einreise & Impfnachweise</h4>');
+      if(vaxUsable){
+        b.push('<p><strong>Länderspezifische Nachweise:</strong> '+escape(p.duty||'Einreisevorschriften und Transferländer vor Abreise prüfen.')+'</p>');
+      }else b.push('<p>Aktuelle Nachweispflichten und Transitbestimmungen sind für dieses Land nicht verifiziert im Tool hinterlegt. Bitte die offiziellen Länderhinweise prüfen.</p>');
+      b.push('<p class="rm-hint">Die gebündelten Impfempfehlungen für alle Reiseziele stehen oben. STIKO-Standardimpfungen anhand des Impfpasses kontrollieren.</p>');
+      b.push('</div>');
+      // Farbklasse nur vergeben, wenn ein gültiges ärztlich geprüftes Länderprofil vorliegt.
+      // Ohne aktuelle Einordnung: neutraler Hintergrund, keine implizite Risiko-Entwarnung.
+      const malariaInfo=usable?riskInfo(p,region):null;
+      const malariaKind=malariaInfo&&['med','standby','exposure','none'].includes(malariaInfo.kind)?malariaInfo.kind:'unknown';
+      const malariaLabels={med:'Medikamentöse Prophylaxe ärztlich prüfen',standby:'Notfalltherapie ärztlich prüfen',exposure:'Expositionsprophylaxe / Mückenschutz',none:'Kein Malariarisiko bekannt oder gemeldet',unknown:'Risiko noch nicht ausreichend eingeordnet'};
+      b.push('<div class="rm-box rm-malaria-'+malariaKind+'"><h4>'+icon('mosquito')+'Malariarisiko & Vorbeugung</h4>');
+      b.push('<span class="rm-malaria-state">'+escape(malariaLabels[malariaKind])+'</span>');
+      if(usable){const r=malariaInfo;
+        b.push('<p><strong>'+escape(r.title)+'</strong></p><p>'+escape(r.txt)+'</p>');
+        if(malariaKind==='standby')b.push('<p class="rm-hint"><strong>Beispiel für ein Notfallmedikament:</strong> Atovaquon/Proguanil. Nur nach ärztlicher Verordnung, Beratung und mit individuell festgelegtem Einnahmeplan; nicht für jede Person oder Reiseroute geeignet.</p>');
+         if(p.malaria)b.push('<p class="rm-hint">'+escape(p.malaria)+'</p>');
+        b.push('<p class="rm-hint"><strong>Wichtig:</strong> Ob Medikamente, eine ärztlich verordnete Notfalltherapie oder nur Mückenschutz benötigt werden, hängt von den exakt bereisten Regionen ab. Ohne sicheren regionalen Abgleich keine individuelle Arzneimittelempfehlung.</p>');
+      }else b.push('<p>Malariarisiko und Chemoprophylaxe sind noch nicht zuverlässig für dieses Ziel eingeordnet. Bitte die aktuellen DTG-Karten und die konkrete Reiseroute ärztlich prüfen.</p>');
+      b.push('</div></div>');
+      b.push(renderInternational(e));
+      b.push('<section class="rm-embassy"><h4>'+icon('building')+'Deutsche Botschaft / Konsulat / Vertretung – Kontaktdaten im Klartext</h4>');
+      const missions=usable&&Array.isArray(p?.missions)?p.missions:[];
+      if(missions.length){b.push('<div class="rm-missions">'+missions.map(renderMission).join('')+'</div>');b.push('<p class="rm-hint">Bitte überprüfe die Kontaktdaten vor der Abreise auf der offiziellen Website.</p>');}
+      else{b.push('<p><strong>Für '+escape(e.n)+' sind noch keine verifizierten Adress- und Telefonnummern im System hinterlegt.</strong> Damit keine falsche Notrufnummer angezeigt wird, ergänzen wir sie erst nach Anbindung an das amtliche Vertretungsverzeichnis.</p>');}
+      b.push('<p>'+A(ROOT.BOTS,'Alle Auslandsvertretungen – amtliches Verzeichnis')+' &nbsp;'+A(ROOT.KONS,'Zuständiges Konsulat finden')+'</p></section>');
+      
+      b.push('</article>');return b.join('');
+    }
+    const vi=$('rm-vaccine-index');
+    if(vi)vi.innerHTML=Object.keys(VAX).map(k=>schemeCard(k,'Allgemeines Nachschlagewerk – keine Länderindikation')).join('');
+    function parseTripDate(value){
+      const digits=(value||'').trim().replace(/[.\/\s-]/g,'');
+      if(!/^\d{6}(?:\d{2})?$/.test(digits))return null;
+      const day=Number(digits.slice(0,2)),month=Number(digits.slice(2,4));
+      const year=digits.length===6?2000+Number(digits.slice(4,6)):Number(digits.slice(4,8));
+      if(year<2000||year>2099)return null;
+      const date=new Date(year,month-1,day,12);
+      return date.getFullYear()===year&&date.getMonth()+1===month&&date.getDate()===day?date:null;
+    }
+    function renderSpecialNotes(){
+      const notes=[];
+      // Separate short, initially closed advice panels for each relevant activity.
+      if(getSelectedActivities().includes('Tauchen / Schnorcheln'))notes.push('<details class="rm-dive-note" data-rm-note="dive" aria-label="Tauchen und Fliegen"><summary>'+icon('waves')+'Tauchen / Schnorcheln: Abstand bis zum Rückflug <span class="rm-dive-toggle-hint">Hinweise anzeigen</span></summary><div class="rm-dive-content"><p><strong>Bitte beachte besonders den zeitlichen Abstand zwischen dem letzten Gerätetauchgang und dem Rückflug.</strong></p><ul><li>Nach <strong>einem einzelnen Tauchgang ohne Dekompressionsstopps</strong> in der Regel mindestens <strong>12 Stunden</strong> bis zum Fliegen einplanen.</li><li>Nach <strong>mehreren Tauchgängen an einem Tag</strong> oder nach <strong>mehreren Tauchtagen</strong> in der Regel mindestens <strong>18 Stunden</strong> Abstand einhalten.</li><li>Nach <strong>Tauchgängen mit Dekompressionsstopps</strong>, technischen Tauchgängen oder bei Unsicherheit sollte der Abstand <strong>deutlich länger</strong> sein; dann bitte tauchmedizinisch rücksprechen.</li><li><strong>Reines Schnorcheln</strong> erfordert meist keinen festen Sicherheitsabstand wie Gerätetauchen. Bei Ohrdruckproblemen, starkem körperlichem Stress oder Beschwerden aber vorsichtig sein und ärztlich nachfragen.</li></ul><p><strong>Sofort ärztlich abklären:</strong> Gelenkschmerzen, Schwindel, Luftnot, Schwäche, Kribbeln oder neurologische Beschwerden nach dem Tauchen. Dann nicht fliegen, bis eine ärztliche Einschätzung erfolgt ist.</p><p class="rm-hint">Die genauen Empfehlungen hängen von Tauchprofil, Tiefe, Anzahl der Tauchgänge und individuellen Risikofaktoren ab.</p></div></details>');
+      if(getSelectedActivities().includes('Höhenaufenthalt über 2.500 m'))notes.push('<details class="rm-dive-note rm-altitude-note" data-rm-note="altitude" aria-label="Höhenaufenthalt und Höhenkrankheit"><summary>'+icon('mountain')+'Höhenaufenthalt über 2.500 m: Höhenkrankheit vermeiden <span class="rm-dive-toggle-hint">Hinweise anzeigen</span></summary><div class="rm-dive-content"><p><strong>Ab etwa 2.500 m kann Höhenkrankheit auftreten – besonders bei schnellem Aufstieg.</strong> Auch sehr fitte Menschen sind davor nicht sicher.</p><ul><li><strong>Langsam aufsteigen:</strong> Oberhalb von 3.000 m die <strong>Schlafhöhe</strong> möglichst um höchstens 300–500 m pro Tag steigern; nach je 1.000 m Schlafhöhengewinn einen zusätzlichen Akklimatisationstag einplanen.</li><li><strong>In den ersten 48 Stunden:</strong> körperlich nur leicht belasten, Alkohol möglichst vermeiden, ausreichend trinken (nicht zwanghaft übermäßig) und Schlafhöhe bewusst planen.</li><li><strong>Warnzeichen erkennen:</strong> Kopfschmerzen nach dem Aufstieg, Übelkeit, Schwindel, ungewöhnliche Müdigkeit oder Erbrechen können auf eine akute Bergkrankheit hinweisen. Bei Symptomen <strong>nicht weiter aufsteigen</strong>; ausruhen und bei fehlender Besserung oder Verschlechterung absteigen.</li><li><strong>Lebensbedrohlicher Notfall:</strong> Atemnot in Ruhe, zunehmender Husten, Gangunsicherheit, Verwirrtheit oder Bewusstseinsstörungen können für ein Höhenlungen- oder Höhenhirnödem sprechen. <strong>Sofort absteigen, Hilfe organisieren und Sauerstoff geben, wenn verfügbar.</strong> Nicht auf eine Wirkung von Medikamenten warten.</li><li><strong>Vor der Reise ärztlich beraten lassen</strong> bei Herz- oder Lungenerkrankungen, früherer Höhenkrankheit oder geplantem raschem Aufstieg. Acetazolamid kann in bestimmten Situationen sinnvoll sein, aber nur nach individueller ärztlicher Prüfung.</li></ul><p class="rm-hint">Diese allgemeinen Hinweise ersetzen keine individuelle höhenmedizinische Beratung. Weiterführende Originalquellen findest du ganz unten unter „Datenquellen, Aktualität“.</p></div></details>');
+      return notes.join('');
+    }
+
+    function updateSourceFooter(){
+      const regional=$('rm-region-risk');if(regional&&!$('rm-results').classList.contains('rm-hidden'))regional.innerHTML=renderRegionalRisk();
+      const target=$('rm-destination-source-links');if(!target)return;
+      if(!selected.length){target.innerHTML='<p class="rm-hint">Wähle ein Reiseziel, um die zugehörigen amtlichen Originalquellen zu sehen.</p>';return;}
+      target.innerHTML=selected.map(e=>{
+        const p=profiles[e.c];
+        const messages=recentInternationalFor(e.c).sort((a,b)=>b.date.localeCompare(a.date)).slice(0,8);
+        let out='<div class="rm-source-country"><h5>'+escape(e.n)+'</h5>';
+         if(p?._v16)out+='<p class="rm-hint">Ärztlich geprüft: '+escape(format(p.checked))+' · nächste Prüfung: '+escape(format(p.nextReviewDate))+'.</p>';
+         out+='<div class="rm-intl-links">'+A(p?.source||ROOT.AA,'Auswärtiges Amt')+' '+A(SOURCE_RKI,'RKI: Reiseimpfungen')+' '+A(ROOT.DTG,'DTG: Malaria')+'</div>';
+        out+='<div class="rm-intl-links">'+officialSourceLinks(e.c)+' '+A(OFFICIAL_HEALTH.WHO_VAX,'WHO: Reiseimpfungen')+' '+A(OFFICIAL_HEALTH.WHO_MALARIA,'WHO: Malaria')+'</div>';
+         if(p?._v16Sources?.length)out+='<div class="rm-intl-links"><strong>Geprüfte Länderquellen:</strong> '+p._v16Sources.map((src,i)=>A(src,'Quelle '+(i+1))).join(' ')+'</div>';
+        if(messages.length){out+='<p><strong>Amtliche Meldungen (letzte 28 Tage):</strong></p><ul>';
+          for(const m of messages)out+='<li>'+escape(m.source)+' · '+format(m.date)+' · '+A(m.url,m.title)+'</li>';
+          out+='</ul>';
+        }else out+='<p class="rm-hint">Keine aktuelle internationale Originalmeldung im eingebundenen Datenbestand.</p>';
+        return out+'</div>';
+      }).join('');
+    }
+    function updateResult(shouldScroll=true){if(!selected.length)return;const region=$('rm-region').value.trim();$('rm-region-risk').innerHTML=renderRegionalRisk();const notesHost=$('rm-special-notes');const openNotes=[...notesHost.querySelectorAll('details[data-rm-note][open]')].map(x=>x.dataset.rmNote);notesHost.innerHTML=renderSpecialNotes();for(const key of openNotes){const note=notesHost.querySelector('details[data-rm-note="'+key+'"]');if(note)note.open=true;}$('rm-shared-vaccinations').innerHTML=renderSharedVaccinations();$('rm-resultlist').innerHTML=selected.map(e=>renderOne(e,region)).join('');updateSourceFooter();
+      const when=$('rm-when').value;const dt=parseTripDate(when);const valid=!!dt;const diff=valid?Math.round((dt-Date.now())/86400000):null;
+      const flag=[];if(when&&!valid)flag.push('Bitte gib dein Abreisedatum als TTMMJJ (z. B. 101126), TTMMJJJJ oder mit Punkten ein.');if(diff!==null&&diff>=0&&diff<=28)flag.push('Deine Abreise ist bald: Vereinbare möglichst zeitnah eine reisemedizinische Beratung, auch wenn noch nicht alle Impfungen vollständig möglich sind.');
+      if(selected.length>1)flag.push('Bei mehreren Ländern und Transitstopps können zusätzliche Impfnachweise erforderlich sein, insbesondere für Gelbfieber. Bitte prüfe die tatsächliche Einreiseroute.');if(getSelectedActivities().includes('Tauchen / Schnorcheln'))flag.push('Für Tauchreisen den zeitlichen Abstand zwischen letztem Tauchgang und Rückflug beachten; Details stehen unten in der Übersicht.');
+      $('rm-urgent').textContent=flag.join(' ');$('rm-urgent').classList.toggle('rm-hidden',!flag.length);
+      $('rm-results').classList.remove('rm-hidden');if(shouldScroll!==false)$('rm-results').scrollIntoView({behavior:'smooth',block:'start'});
+    }
+    $('rm-check').addEventListener('click',updateResult);
+    // V12: Eigene kompakte Druckansicht statt Klonen des gesamten Seiteninhalts.
+    // Keine großen Detailkarten/Quellenanhänge, keine leeren Seiten durch
+    // break-inside:avoid bei einem zu langen Länderartikel.
+    $('rm-print').addEventListener('click',()=>{
+      if(!selected.length||$('rm-results').classList.contains('rm-hidden'))return;
+      const w=window.open('','_blank','width=920,height=740');
+      if(!w){window.alert('Bitte erlaube Pop-up-Fenster für die Druckansicht und versuche es erneut.');return;}
+      const d=w.document;
+      d.title='ReiseCheck – persönliche Reiseübersicht';
+      const meta=d.createElement('meta');meta.setAttribute('charset','utf-8');d.head.appendChild(meta);
+      const viewport=d.createElement('meta');viewport.name='viewport';viewport.content='width=device-width, initial-scale=1';d.head.appendChild(viewport);
+      const style=d.createElement('style');
+      style.textContent=[
+        '@page{size:A4;margin:9mm 11mm}',
+        '*{box-sizing:border-box}',
+        'html,body{margin:0;padding:0;background:white;color:#263d49;font-family:Arial,Helvetica,sans-serif;font-size:8.4pt;line-height:1.23}',
+        'header{border-bottom:2px solid #6592a7;margin:0 0 6px;padding:0 0 5px}',
+        'header .brand{font-size:9pt;color:#456d80;font-weight:700}',
+        'h1{font-size:16pt;line-height:1.1;color:#234556;margin:3px 0 2px}',
+        'h2{font-size:12.5pt;color:#234556;margin:0 0 5px}',
+        'h3{font-size:10pt;color:#234556;margin:0 0 3px}',
+        'p{margin:2px 0 4px}',
+        '.meta{background:#eef5f7;border:1px solid #d7e6ed;border-radius:5px;padding:7px 9px;margin-bottom:7px}',
+        '.meta div{margin:2px 0}',
+        '.country{border:1px solid #cfdee5;border-radius:6px;padding:6px 7px;margin:5px 0;break-before:auto;break-inside:avoid-page;page-break-inside:avoid}',
+        '.country>.rowhead{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid #dfe8ed;padding-bottom:4px;margin-bottom:5px}',
+        '.country>.rowhead h2{margin:0}',
+        '.stand{font-size:7.5pt;color:#647781}',
+        '.grid{display:grid;grid-template-columns:1fr 1fr;gap:7px;align-items:start}',
+        '.box{background:#f6f9fa;border:1px solid #dfe8ec;border-radius:5px;padding:5px 6px;min-width:0}',
+        '.box.med{background:#fff0ee;border-left:3px solid #c65c56}',
+        '.box.standby{background:#fff1df;border-left:3px solid #db9443}',
+        '.box.exposure{background:#fff9df;border-left:3px solid #c7ab42}',
+        '.box.unknown{background:#f5f9fa}',
+         '.box.none{background:#eff7f8;border-left:3px solid #6592a7}',
+        '.pair{margin:3px 0}.pair b{color:#29495a}',
+        '.yf{margin:5px 0;padding:5px 7px;background:#fff5d8;border-left:3px solid #cfaa36}',
+        '.bottom{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:6px}',
+        '.subsection{margin-top:6px;padding-top:5px;border-top:1px solid #e1e9ee}',
+        '.entry{margin:4px 0 5px;break-inside:avoid}',
+        '.small{font-size:8pt;color:#536773}',
+        '.extra{font-size:8pt;color:#536773}',
+        '.vaccination-print{padding:6px 8px;border-radius:6px;border:1px solid #bcd7e2;background:#f5f9fb;margin:6px 0}',
+        '.vaccination-print h2{font-size:10pt;margin:0 0 3px}',
+        '.print-vax-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3px 8px}',
+        '.print-vax-entry{break-inside:avoid;font-size:8pt;padding:2px 0;border-bottom:1px solid #dce7ed}',
+        '.print-vax-entry b{display:block;color:#28566b}',
+        '.advice{border:1px solid #dbe7ec;border-radius:5px;padding:6px 9px;margin:7px 0}',
+        '.advice p{margin:2px 0 5px}',
+        '.warning{background:#fff3e9;border-left:3px solid #c9834d;padding:6px 8px;margin:6px 0}',
+        '.footer{border-top:1px solid #d7e4ea;padding-top:5px;font-size:7.5pt;color:#5a727d;margin-top:7px}',
+        'a{color:#1a536d;text-decoration:underline;overflow-wrap:anywhere}',
+        '.no-print{margin:12px 0;padding:7px 12px;font-size:11pt;border:1px solid #6592a7;border-radius:5px;background:#eef5f7;color:#234556;cursor:pointer}',
+        '@media print{.no-print{display:none!important}body{-webkit-print-color-adjust:exact;print-color-adjust:exact}}',
+        '@media screen{body{max-width:790px;margin:16px auto;padding:10px 15px;box-shadow:0 2px 20px #ddd}}',
+        '@media(max-width:600px){.grid,.bottom{grid-template-columns:1fr}}'
+      ].join('\n');d.head.appendChild(style);
+      const create=(tag,parent,cls,txt)=>{
+        const el=d.createElement(tag);if(cls)el.className=cls;
+        if(txt!==undefined&&txt!==null)el.textContent=String(txt);
+        if(parent)parent.appendChild(el);return el;
+      };
+      const para=(parent,lead,txt,cls)=>{
+        const e=create('p',parent,cls||'pair');if(lead)create('b',e,'',lead+' ');
+        create('span',e,'',txt||'–');return e;
+      };
+      const link=(parent,url,label)=>{
+        if(!safeHttpsLink(url))return create('span',parent,'',label);
+        const a=create('a',parent,'',label);a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a;
+      };
+      const shell=create('main',d.body);
+      const head=create('header',shell);
+      create('div',head,'brand','Praxis Dr. Münster | Dein Hausarzt in Troisdorf');
+      create('h1',head,'','Reisemedizinische Reiseübersicht');
+      create('div',head,'small','Kompaktausdruck · '+new Intl.DateTimeFormat('de-DE').format(new Date()));
+      const metaBox=create('div',shell,'meta');
+      para(metaBox,'Reiseziele:',selected.map(x=>x.n).join(' · '));
+      const abreise=parseTripDate($('rm-when').value);
+      const metaParts=[];
+      if(abreise)metaParts.push('Abreise: '+new Intl.DateTimeFormat('de-DE').format(abreise));
+      if($('rm-duration').value)metaParts.push('Dauer: '+$('rm-duration').value);
+      if(getSelectedStyles().length)metaParts.push('Reiseformen: '+getSelectedStyles().join(' · '));
+      if(metaParts.length)para(metaBox,'Reisedaten:',metaParts.join('  |  '));
+      const activityList=getSelectedActivities();if(activityList.length)para(metaBox,'Aktivitäten:',activityList.join(' · '));const purposes=getSelectedPurposes();if(purposes.length)para(metaBox,'Reisegründe:',purposes.join(' · '));
+      const region=[...regionPicks.map(x=>x.name),$('rm-region').value.trim()].filter(Boolean).join(' · ');if(region)para(metaBox,'Regionen/Zwischenstopps:',region);
+      if(!$('rm-urgent').classList.contains('rm-hidden')&&$('rm-urgent').textContent.trim()){
+        create('p',shell,'warning',$('rm-urgent').textContent.trim());
+      }
+      const unified=unifiedVaccines();
+      const vaxPrint=create('section',shell,'vaccination-print');
+      create('h2',vaxPrint,'','Impfungen für die gesamte Reiseroute');
+      if(unified.entries.length){
+        const columns=create('div',vaxPrint,'print-vax-grid');
+        for(const v of unified.entries){
+          const item=create('div',columns,'print-vax-entry');
+          create('b',item,'',v.name);
+          const chunks=[];
+          if(v.general.size)chunks.push('Allgemein: '+[...v.general].join(', '));
+          if(v.risk.size)chunks.push('Je nach Risiko: '+[...v.risk].join(', '));
+          create('div',item,'small',chunks.join(' · '));
+        }
+      }else create('p',vaxPrint,'small','Länderspezifische Impfempfehlungen sind für diese Reise nicht vollständig hinterlegt.');
+      if(unified.missing.length)create('p',vaxPrint,'small','Ohne geprüfte Länderdaten: '+unified.missing.join(', ')+'. Angaben ärztlich/amtlich prüfen.');
+      create('p',vaxPrint,'small','Impfschemata und Handelsnamen sind in der Online-Übersicht enthalten; individuelle Planung nach Impfpass.');
+      for(const e of selected){
+        const p=profiles[e.c];const stale=!!p&&!profileFresh(p);
+        const usable=profileFresh(p);
+        const vaxUsable=usable;
+        const card=create('section',shell,'country');
+        const row=create('div',card,'rowhead');create('h2',row,'',e.n);
+        create('span',row,'stand',p?'Länderprofil: '+format(p.checked):'Kein geprüftes Länderprofil');
+        if(gelbfieberHinweis(e,p))create('p',card,'yf','Gelbfieber: Impfindikation und ggf. Einreisevorschriften vor Reisebeginn ärztlich prüfen.');
+        const two=create('div',card,'grid');
+        const vacc=create('div',two,'box');create('h3',vacc,'','Einreise & Impfnachweis');
+        if(vaxUsable)para(vacc,'Nachweis / besondere Einreisevorschriften:',p.duty||'Bitte amtliche Vorschriften prüfen.');
+        else create('p',vacc,'','Keine gesichert aktuellen Angaben zu Einreise- oder Impfnachweisen hinterlegt.');
+        const r=usable?riskInfo(p,region):null;
+        const k=r&&['med','standby','exposure'].includes(r.kind)?r.kind:'unknown';
+        const risk=create('div',two,'box '+k);create('h3',risk,'','Malariarisiko & Vorbeugung');
+        const labels={med:'Medikamentöse Prophylaxe ärztlich prüfen',standby:'Notfalltherapie ärztlich prüfen',exposure:'Expositionsprophylaxe/Mückenschutz',unknown:'Regionale Einordnung erforderlich'};
+        para(risk,'Einordnung:',labels[k]);
+        if(r){para(risk,'',r.title);para(risk,'',r.txt);}
+        else create('p',risk,'','Malariagebiet und individuelle Maßnahmen vor Reisebeginn ärztlich überprüfen.');
+        if(k==='standby')para(risk,'Notfallmedikament (Beispiel):','Atovaquon/Proguanil – nur nach ärztlicher Verordnung und Einnahmeanweisung.');
+        const bottom=create('div',card,'bottom');
+        const news=create('div',bottom,'');create('h3',news,'','Aktuelle Gesundheitsmeldungen (28 Tage)');
+        const notices=recentInternationalFor(e.c).sort((a,b)=>b.date.localeCompare(a.date)).slice(0,1);
+        if(notices.length){for(const a of notices){
+          const item=create('div',news,'entry');create('span',item,'small',a.source+' · '+format(a.date)+' · ');
+          link(item,a.url,a.title);const brief=internationalBrief(a);
+          if(brief.text)create('p',item,'extra',brief.text.length>205?brief.text.slice(0,202)+'…':brief.text);
+        }}else create('p',news,'small','Keine Meldung aus den letzten 28 Tagen im eingebundenen Datenbestand.');
+        const missions=create('div',bottom,'');create('h3',missions,'','Deutsche Auslandsvertretung');
+         const contacts=usable&&Array.isArray(p?.missions)?p.missions:[];
+        if(contacts.length){
+          for(const c of contacts.slice(0,1)){
+            const m=create('div',missions,'entry');create('b',m,'',c.title||'Deutsche Auslandsvertretung');
+            if(c.phone)para(m,'Tel.:',c.phone,'small');
+            if(c.emergency)para(m,'Bereitschaft:',c.emergency,'small');
+            if(c.address)para(m,'Adresse:',c.address,'small');
+            if(c.email)para(m,'E-Mail:',c.email,'small');
+          }
+          if(contacts.length>1)create('p',missions,'small','Weitere Auslandsvertretungen in der Online-Übersicht.');
+        }else create('p',missions,'small','Kontaktdaten sind im Tool nicht verifiziert hinterlegt. Amtliches Verzeichnis online prüfen.');
+      }
+      const tips=create('section',shell,'advice');create('h3',tips,'','Das Wichtigste für unterwegs und danach');
+      if(getSelectedActivities().includes('Tauchen / Schnorcheln')){
+        para(tips,'Tauchen und Rückflug:', 'Nach einem einzelnen Tauchgang ohne Dekompressionsstopps in der Regel mindestens 12 Stunden, nach mehreren Tauchgängen oder mehreren Tauchtagen meist mindestens 18 Stunden bis zum Fliegen einplanen. Nach Dekompressionstauchgängen oder bei Beschwerden länger warten und tauchmedizinisch rücksprechen.');
+      }
+      if(getSelectedActivities().includes('Höhenaufenthalt über 2.500 m'))para(tips,'Höhenaufenthalt:', 'Ab 2.500 m besteht Höhenkrankheitsrisiko. Oberhalb von 3.000 m Schlafhöhe pro Tag möglichst um höchstens 300–500 m erhöhen. Bei Kopfschmerz und Übelkeit nicht weiter aufsteigen; bei Atemnot in Ruhe, Gangunsicherheit oder Verwirrtheit sofort absteigen und Notfallhilfe organisieren.');
+      para(tips,'Mückenschutz:', 'Repellent nach Packungsangabe, körperbedeckende Kleidung und bei Bedarf Moskitonetz – tagsüber und nachts.');
+      para(tips,'Sonne und Hygiene:', 'UV-Schutz, ausreichend trinken, sichere Lebensmittel und Trinkwasser beachten.');
+      para(tips,'Nach der Reise:', 'Fieber nach Aufenthalt in einem Malariagebiet noch am selben Tag ärztlich abklären; Reiseroute nennen. Bei ausgeprägten Beschwerden, Atemnot oder Kreislaufproblemen: 112.');
+      create('p',shell,'footer','Diese Übersicht ist eine unverbindliche Orientierung und ersetzt keine individuelle reisemedizinische Beratung. Impf- und Malariaangaben sind nicht automatisch tagesaktuell; maßgeblich sind aktuelle offizielle Quellen und die ärztliche Prüfung. Internationale Meldungen sind kein medizinisch freigegebener Impfplan.');
+      const printButton=create('button',d.body,'no-print','Drucken / als PDF speichern');printButton.type='button';
+      printButton.addEventListener('click',()=>w.print());
+      w.focus();setTimeout(()=>w.print(),450);
+    });
+
+     // V16: only the public medically approved feed, never local/editorial drafts or the V1 feed.
+     async function loadCountryProfileFeed(){
+       const announce=text=>{const el=$('rm-liveinfo');if(el)el.textContent=text;};
+       try{
+         const url=new URL(COUNTRY_PROFILE_FEED_URL);
+         if(url.protocol!=='https:'||url.hostname!=='praxisreisemedizinplaner.github.io'||
+            !url.pathname.endsWith('/country_profiles_public_v16.json'))throw Error('Unerwartete Datenquelle');
+         const abort=new AbortController(),timer=setTimeout(()=>abort.abort(),10000);
+         let resp;try{resp=await fetch(url.href,{cache:'no-store',signal:abort.signal,referrerPolicy:'no-referrer'})}finally{clearTimeout(timer)}
+         if(!resp.ok)throw Error('HTTP '+resp.status);
+         const data=await resp.json();
+         if(data.schemaVersion!==2||data.dataset!=='praxis-dr-muenster-reisecheck-public-v16'||
+           !data.countries||!data.coverage||typeof data.countries!=='object'||Array.isArray(data.countries)||
+           typeof data.approvedCount!=='number'||data.approvedCount!==Object.keys(data.countries).length)
+           throw Error('Falsches Veröffentlichungsformat');
+         const today=new Date().toISOString().slice(0,10),approved=Object.create(null);
+         for(const [code,p] of Object.entries(data.countries)){
+           if(!/^[A-Z]{2}$/.test(code)||!p||typeof p!=='object'||
+              typeof p.medicalReviewDate!=='string'||typeof p.nextReviewDate!=='string'||
+              !p.vaccinations||!p.malaria||!Array.isArray(p.missions)||!Array.isArray(p.sources)||
+              !['none','regional','present','uncertain'].includes(p.malaria.riskLevel)||
+              typeof p.malaria.clinicalRecommendation!=='string')throw Error('Ungültiges freigegebenes Länderprofil');
+           for(const field of ['forAll','riskBased','entryRequirements','routeDependent']){
+             if(!Array.isArray(p.vaccinations[field])||!p.vaccinations[field].every(x=>typeof x==='string'))throw Error('Impfdatensatz ungültig');
+           }
+           const sources=p.sources.map(x=>x.url);
+           if(!sources.length||!sources.every(x=>{try{return new URL(x).protocol==='https:'}catch(_){return false}}))throw Error('Fehlende geprüfte Quellen');
+           if(p.medicalReviewDate>today||p.nextReviewDate<today)continue;
+           const src=sources.find(x=>{try{return new URL(x).hostname==='www.auswaertiges-amt.de'}catch(_){return false}})||ROOT.AA;
+           approved[code]={
+             checked:p.medicalReviewDate,nextReviewDate:p.nextReviewDate,reviewStatus:'medically_approved',_v16:true,
+             _v16Sources:sources,_v16Malaria:p.malaria,
+             source:src,vaxEdition:'reviewed_v16',base:p.vaccinations.forAll,
+             extra:p.vaccinations.riskBased,
+             duty:[...p.vaccinations.entryRequirements,...p.vaccinations.routeDependent].join(' ')||'Aktuelle Einreise- und Transitanforderungen offiziell prüfen.',
+             malariaDefault:'unknown',malaria:'',rules:[],missions:p.missions,travelTips:''
+           };
+         }
+         profiles=approved;
+         feedMode=true;feedUpdated=String(data.generatedAt||'').slice(0,10);
+         announce('V16-Länderdatenbank verbunden: '+Object.keys(approved).length+' ärztlich freigegebene Länderprofile ('+format(feedUpdated)+'). Für weitere Länder werden keine ungeprüften medizinischen Empfehlungen ausgegeben.');
+         if(!$('rm-countries-data-note')){
+           const node=document.createElement('p');node.id='rm-countries-data-note';node.className='rm-hint';
+           const place=$('rm-liveinfo');if(place&&place.parentElement)place.parentElement.appendChild(node);
+         }
+         const note=$('rm-countries-data-note');if(note)note.textContent='Länder im V16-Verzeichnis: '+String(data.coverageCount||0)+' · fachlich freigegeben: '+Object.keys(approved).length+'. Keine individuelle Reiseberatung.';
+         if(!$('rm-results').classList.contains('rm-hidden')){
+           $('rm-shared-vaccinations').innerHTML=renderSharedVaccinations();
+           $('rm-resultlist').innerHTML=selected.map(e=>renderOne(e,$('rm-region').value.trim())).join('');
+           updateSourceFooter();
+         }
+       }catch(err){
+         profiles=Object.create(null);feedMode=false;
+         announce('Die ärztlich freigegebenen V16-Länderinformationen sind vorübergehend nicht erreichbar. Deshalb werden keine Länderempfehlungen angezeigt; bitte die verlinkten Originalquellen prüfen.');
+         if(!$('rm-results').classList.contains('rm-hidden')){
+           $('rm-shared-vaccinations').innerHTML=renderSharedVaccinations();
+           $('rm-resultlist').innerHTML=selected.map(e=>renderOne(e,$('rm-region').value.trim())).join('');
+           updateSourceFooter();
+         }
+       }
+     }
+    async function loadFeed(){if(!FEED_URL)return;try{const u=new URL(FEED_URL);if(u.protocol!=='https:')throw new Error('Nur HTTPS ist zulässig');const controller=new AbortController();const t=setTimeout(()=>controller.abort(),9000);let response;try{response=await fetch(u.toString(),{cache:'no-store',signal:controller.signal,referrerPolicy:'no-referrer'})}finally{clearTimeout(t)}if(!response.ok)throw new Error('HTTP '+response.status);const data=await response.json();
+      if(data.schemaVersion!==1||!data.reviewedAt||!data.countries||typeof data.countries!=='object')throw new Error('Unbekanntes Datenformat');
+      if(age(data.reviewedAt)>2||age(data.reviewedAt)<-2)throw new Error('Feed ist nicht aktuell');
+      // Only a feed that explicitly indicates editorial review is eligible. Automated fetching alone is NOT verification.
+      if(data.medicallyReviewed!==true)throw new Error('Keine dokumentierte ärztliche Freigabe');
+      const allowed={};for(const [code,p]of Object.entries(data.countries)){if(!/^[A-Z]{2}$/.test(code)||!p||!p.checked||age(p.checked)>MAX_MEDICAL_AGE_DAYS||!p.source||!Array.isArray(p.base)||!Array.isArray(p.extra)||!Array.isArray(p.rules))continue;allowed[code]=p;}
+      // Legacy generic feeds cannot override the medically reviewed V16 profiles.
+      feedUpdated=data.reviewedAt;feedMode=false;$('rm-liveinfo').textContent='Datenfeed verbunden · redaktionell geprüft am '+format(feedUpdated)+' · für andere Länder nur offizielle Originalquellen.';
+    }catch(err){$('rm-liveinfo').textContent='Datenfeed derzeit nicht verfügbar oder nicht freigegeben. Medizinische Angaben sind ggf. gesperrt; nutze die verlinkten Originalquellen.';}}
+    async function loadInternationalFeed(){
+      if(!INTERNATIONAL_ALERT_FEED_URL)return;
+      try{
+        const u=new URL(INTERNATIONAL_ALERT_FEED_URL);if(u.protocol!=='https:')throw new Error('HTTPS erforderlich');
+        const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),8500);let res;
+        try{res=await fetch(u.toString(),{cache:'no-store',signal:controller.signal,referrerPolicy:'no-referrer'})}finally{clearTimeout(timer)}
+        if(!res.ok)throw new Error('HTTP '+res.status);
+        const data=await res.json();if(data.schemaVersion!==1||!/^\d{4}-\d{2}-\d{2}$/.test(data.fetchedAt||'')||age(data.fetchedAt)>3||age(data.fetchedAt)<-1||!Array.isArray(data.alerts))throw new Error('Feed nicht plausibel oder älter als 3 Tage');
+        const verified=data.alerts.filter(x=>validInternational(x)&&isInternationalNoticeRecent(x.date)).slice(0,160);
+        intlAlerts=[...STARTER_INTL_ALERTS.filter(x=>x.source!=='CDC'),...verified];intlFeedChecked=data.fetchedAt;
+        $('rm-intl-source-status').innerHTML='<strong>Internationale Meldungen:</strong> CDC-Meldungsfeed automatisch aktualisiert am '+format(intlFeedChecked)+'. Angezeigt werden nur Meldungen aus den letzten 28 Tagen nach Veröffentlichungsdatum. PAHO/WHO/ECDC werden aktuell nur als redaktionelle Auszüge oder amtliche Quellenlinks dargestellt. <strong>Ein Quellenabruf ist keine medizinische Freigabe.</strong>';
+        if(!$('rm-results').classList.contains('rm-hidden')){$('rm-shared-vaccinations').innerHTML=renderSharedVaccinations();$('rm-resultlist').innerHTML=selected.map(e=>renderOne(e,$('rm-region').value.trim())).join('');updateSourceFooter();}
+      }catch(err){$('rm-intl-source-status').textContent='CDC-Meldungen konnten gerade nicht abgerufen werden oder der Feed ist älter als drei Tage. Deshalb erscheinen gegebenenfalls nur redaktionelle Hinweise aus den letzten 28 Tagen. Prüfe die verlinkten offiziellen Originalquellen.'}
+    }
+     loadCountryProfileFeed();
+     loadRegionDirectory();
+     loadFeed();
+     loadInternationalFeed();
+  })();
+  </script>
+</div>
