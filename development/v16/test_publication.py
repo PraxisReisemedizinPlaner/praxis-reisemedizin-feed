@@ -9,9 +9,9 @@ import unittest
 from export_public_v16 import build_public
 
 HERE = Path(__file__).resolve().parent
-TODAY = date(2026, 11, 11)
-APPROVED = {"MA", "AT"}
-PENDING = {"TH", "ID", "TZ", "KE", "VN", "IN", "EG", "TR"}
+TODAY = date(2026, 11, 15)
+APPROVED = {"MA", "AT", "TH", "ID", "EG", "TR"}
+PENDING = {"TZ", "KE", "VN", "IN"}
 
 
 class PublishingSafetyTests(unittest.TestCase):
@@ -23,7 +23,7 @@ class PublishingSafetyTests(unittest.TestCase):
     def test_only_reviewed_countries_are_exported(self):
         out = build_public(copy.deepcopy(self.draft), TODAY)
         self.assertEqual(out["coverageCount"], 10)
-        self.assertEqual(out["approvedCount"], 2)
+        self.assertEqual(out["approvedCount"], 6)
         self.assertEqual(set(out["countries"]), APPROVED)
         self.assertEqual(set(out["coverage"]), APPROVED | PENDING)
         self.assertTrue(all(out["coverage"][code]["status"] == "medical_review_required"
@@ -51,13 +51,13 @@ class PublishingSafetyTests(unittest.TestCase):
 
     def test_pending_country_cannot_be_published_by_flag_alone(self):
         data = copy.deepcopy(self.draft)
-        data["countries"]["TH"]["publicationAllowed"] = True
+        data["countries"]["TZ"]["publicationAllowed"] = True
         with self.assertRaises(ValueError):
             build_public(data, TODAY)
 
     def test_unapproved_country_not_leaked_if_notes_added(self):
         data = copy.deepcopy(self.draft)
-        data["countries"]["TH"]["vaccineAssessment"]["forAll"] = [
+        data["countries"]["TZ"]["vaccineAssessment"]["forAll"] = [
             "TEST – not reviewed"]
         out = build_public(data, TODAY)
         self.assertNotIn("TEST – not reviewed", json.dumps(out))
@@ -68,27 +68,59 @@ class PublishingSafetyTests(unittest.TestCase):
         data["countries"]["MA"]["medicalReview"]["reviewedAt"] = "2026-10-11"
         data["countries"]["MA"]["medicalReview"]["nextReviewDate"] = "2026-11-10"
         out = build_public(data, TODAY)
-        self.assertEqual(set(out["countries"]), {"AT"})
+        self.assertEqual(set(out["countries"]), APPROVED - {"MA"})
         self.assertEqual(out["coverage"]["MA"]["status"],
                          "medical_review_required")
 
 
-    def test_new_research_drafts_remain_blocked_despite_content(self):
+    def test_newly_approved_four_countries_exported(self):
         out = build_public(copy.deepcopy(self.draft), TODAY)
         for code in ("TH", "ID", "EG", "TR"):
-            self.assertFalse(self.draft["countries"][code]["publicationAllowed"])
-            self.assertEqual(self.draft["countries"][code]["medicalReview"]["status"], "pending")
-            self.assertNotIn(code, out["countries"])
-            self.assertEqual(out["coverage"][code]["status"], "medical_review_required")
-        self.assertEqual(set(out["countries"]), APPROVED)
+            with self.subTest(code=code):
+                p = self.draft["countries"][code]
+                self.assertTrue(p["publicationAllowed"])
+                self.assertEqual(p["medicalReview"]["status"], "approved")
+                self.assertEqual(p["medicalReview"]["reviewer"], "Dr. med. Sebastian Münster")
+                self.assertEqual(p["vaccineAssessment"]["status"], "approved")
+                self.assertEqual(p["malariaAssessment"]["status"], "approved")
+                self.assertEqual(p["missions"]["status"], "approved")
+                self.assertIn(code, out["countries"])
+                self.assertEqual(out["coverage"][code]["status"], "verified")
+                self.assertTrue(out["countries"][code]["missions"])
 
-    def test_research_drafts_cannot_be_released_by_flag_only(self):
-        for code in ("TH", "ID", "EG", "TR"):
+    def test_remaining_pending_drafts_cannot_be_released_by_flag_only(self):
+        for code in PENDING:
             with self.subTest(code=code):
                 data = copy.deepcopy(self.draft)
                 data["countries"][code]["publicationAllowed"] = True
                 with self.assertRaises(ValueError):
                     build_public(data, TODAY)
+
+    def test_thailand_indonesia_require_regional_malaria_assessment(self):
+        out = build_public(copy.deepcopy(self.draft), TODAY)
+        for code in ("TH", "ID"):
+            with self.subTest(code=code):
+                p = out["countries"][code]["malaria"]
+                self.assertEqual(p["preventionType"], "regional_assessment_required")
+                self.assertEqual(p["riskLevel"], "regional")
+                self.assertTrue(p["regions"])
+                self.assertIsNone(p["medicationName"])
+                self.assertIn("ärztlich", p["clinicalRecommendation"])
+
+    def test_egypt_no_malaria_prophylaxis_turkey_uncertain(self):
+        out = build_public(copy.deepcopy(self.draft), TODAY)
+        self.assertEqual(out["countries"]["EG"]["malaria"]["riskLevel"], "none")
+        self.assertEqual(out["countries"]["EG"]["malaria"]["preventionType"], "none")
+        self.assertEqual(out["countries"]["TR"]["malaria"]["riskLevel"], "uncertain")
+        self.assertEqual(out["countries"]["TR"]["malaria"]["preventionType"], "regional_assessment_required")
+
+    def test_all_approved_source_urls_are_external_links_only(self):
+        for code in APPROVED:
+            with self.subTest(code=code):
+                sources = self.draft["countries"][code]["medicalReview"]["approvedSources"]
+                self.assertTrue(sources)
+                self.assertTrue(all(s["reuseRightsChecked"] for s in sources))
+                self.assertTrue(all(s["use"] == "external_link_only" for s in sources))
 
     def test_dtg_structured_reuse_blocked(self):
         data = copy.deepcopy(self.draft)

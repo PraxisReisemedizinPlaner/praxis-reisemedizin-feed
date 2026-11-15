@@ -16,11 +16,36 @@
     "TH": {
       "name": "Thailand",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "approvedSources": [],
-        "nextReviewDate": null
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/t.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Empfehlungen-der-STIKO/Empfehlungen/empfehlungen-node.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://bangkok.diplo.de/th-de/ueber-uns/2490770-2490770",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "ReiseCheck_Jimdo_V15.html / STARTER (unverified previous draft)",
@@ -40,7 +65,7 @@
         "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
       },
       "vaccineAssessment": {
-        "status": "not_reviewed",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -60,7 +85,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "not_reviewed",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -69,7 +94,7 @@
           "Die CDC weist für bestimmte Grenz- und Waldregionen in Thailand eine medikamentöse Chemoprophylaxe aus. Das Auswärtige Amt legt in abgelegenen Gebieten mittleren Risikos besonderen Fokus auf individuelle Stand-by-Entscheidungen. Regionale und leitlinienabhängige Abweichungen unbedingt fachlich abgleichen."
         ],
         "medicationName": null,
-        "clinicalRecommendation": "Malaria ist in Thailand regional stark unterschiedlich. Für Stadtaufenthalte und typische Urlaubsinseln darf aus den Daten keine pauschale Arzneimittelempfehlung abgeleitet werden; Mückenschutz bleibt auch wegen Dengue und anderer Erkrankungen wesentlich. Bei Grenzgebieten, Wäldern und abgelegenen Reisen sind Art, Dauer und genaue Orte zu erfassen. CDC und Auswärtiges Amt unterscheiden sich teilweise im medikamentösen Vorgehen: individuelle ärztliche Malariaberatung ist vor Freigabe einer regionenspezifischen Empfehlung erforderlich.",
+        "clinicalRecommendation": "Malaria ist in Thailand regional stark unterschiedlich. Für Stadtaufenthalte und typische Urlaubsinseln darf aus den Daten keine pauschale Arzneimittelempfehlung abgeleitet werden; Mückenschutz bleibt auch wegen Dengue und anderer Erkrankungen wesentlich. Bei Grenzgebieten, Wäldern und abgelegenen Reisen sind Art, Dauer und genaue Orte zu erfassen. CDC und Auswärtiges Amt unterscheiden sich teilweise im medikamentösen Vorgehen: individuelle ärztliche Malariaberatung ist vor einer regionenspezifischen Therapieentscheidung erforderlich.",
         "sourceLinks": [
           {
             "label": "Auswärtiges Amt: Reisegesundheit Thailand",
@@ -89,7 +114,7 @@
         ]
       },
       "missions": {
-        "status": "needs_verification",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Bangkok",
@@ -105,7 +130,7 @@
         "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-15",
         "missionReference": "https://bangkok.diplo.de/th-de/ueber-uns/2490770-2490770",
         "evidenceLinks": [
           "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
@@ -118,18 +143,44 @@
           "Japanische Enzephalitis besonders bei ländlicher Exposition/Dauer und Saison prüfen.",
           "CDC und AA unterscheiden sich in regionaler Präventionsstrategie; keine automatische Subregional-Einstufung im bestehenden V22-Widget."
         ],
-        "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt."
+        "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt.",
+        "rightsNote": "Unabhängige ärztliche Textzusammenfassung; die offiziellen Originalquellen werden ausschließlich als externe HTTPS-Links genannt. Keine vollständige AA-API-Übernahme und keine DTG-Malariakarten/-Daten extrahiert; AA-Nutzungsbedingungen für KI-Zusammenfassungen gelesen am 15.11.2026. Medizinische Freigabe durch Praxisinhaber am 15.11.2026."
       },
-      "publicationAllowed": false
+      "publicationAllowed": true
     },
     "ID": {
       "name": "Indonesien",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "approvedSources": [],
-        "nextReviewDate": null
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/i.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Empfehlungen-der-STIKO/Empfehlungen/empfehlungen-node.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://jakarta.diplo.de/id-de/ueber-uns/botschaft/1687058-1687058",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "ReiseCheck_Jimdo_V15.html / STARTER (unverified previous draft)",
@@ -149,7 +200,7 @@
         "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
       },
       "vaccineAssessment": {
-        "status": "not_reviewed",
+        "status": "approved",
         "forAll": [
           "Hepatitis A",
           "Poliomyelitis"
@@ -171,7 +222,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "not_reviewed",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -182,7 +233,7 @@
           "Jakarta und bestimmte städtische Regionen sind nach den herangezogenen Quellen ohne lokale Malariaexposition."
         ],
         "medicationName": null,
-        "clinicalRecommendation": "Malariarisiko in Indonesien variiert stark nach Insel, Region, Tätigkeit und Unterkunft. Vor der Auswahl einer medikamentösen Chemoprophylaxe oder Notfall-Selbstbehandlung sind die konkreten Ziele (insbesondere West-Papua/Sumba im Vergleich zu städtischen bzw. touristischen Orten auf Bali und Java) individuell zu prüfen. Zwischen Auswärtigem Amt und CDC bestehen teilweise unterschiedliche Gebietseinstufungen. Konsequenten Mückenschutz tags und nachts beachten. Keine landesweite pauschale Malaria-Prophylaxeempfehlung.",
+        "clinicalRecommendation": "Malariarisiko in Indonesien variiert stark nach Insel, Region, Tätigkeit und Unterkunft. Vor der Auswahl einer medikamentösen Chemoprophylaxe oder Notfall-Selbstbehandlung sind die konkreten Ziele (insbesondere West-Papua/Sumba im Vergleich zu städtischen bzw. touristischen Orten auf Bali und Java) individuell ärztlich zu prüfen. Zwischen Auswärtigem Amt und CDC bestehen teilweise unterschiedliche Gebietseinstufungen. Konsequenten Mückenschutz tags und nachts beachten. Keine landesweite pauschale Malaria-Prophylaxeempfehlung.",
         "sourceLinks": [
           {
             "label": "Auswärtiges Amt: Reisegesundheit Indonesien",
@@ -202,7 +253,7 @@
         ]
       },
       "missions": {
-        "status": "needs_verification",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Jakarta",
@@ -218,7 +269,7 @@
         "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-15",
         "missionReference": "https://jakarta.diplo.de/id-de/ueber-uns/botschaft/1687058-1687058",
         "evidenceLinks": [
           "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
@@ -232,9 +283,10 @@
           "Risikozuordnung für Bali/Gili und Ost-Nusa-Tenggara zwischen AA und CDC abweichend: vor Freigabe ausdrücklich abgleichen.",
           "Dengue-/Chikungunya-Impfstoffe abhängig von aktueller STIKO-Indikation und Kontraindikationen, kein pauschaler Einsatz."
         ],
-        "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt."
+        "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt.",
+        "rightsNote": "Unabhängige ärztliche Textzusammenfassung; die offiziellen Originalquellen werden ausschließlich als externe HTTPS-Links genannt. Keine vollständige AA-API-Übernahme und keine DTG-Malariakarten/-Daten extrahiert; AA-Nutzungsbedingungen für KI-Zusammenfassungen gelesen am 15.11.2026. Medizinische Freigabe durch Praxisinhaber am 15.11.2026."
       },
-      "publicationAllowed": false
+      "publicationAllowed": true
     },
     "TZ": {
       "name": "Tansania",
@@ -477,11 +529,42 @@
     "EG": {
       "name": "Ägypten",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "approvedSources": [],
-        "nextReviewDate": null
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/aegyptensicherheit-212622",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/e.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Empfehlungen-der-STIKO/Empfehlungen/empfehlungen-node.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://kairo.diplo.de/eg-de",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/news/item/20-10-2024-egypt-is-certified-malaria-free-by-who",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "ReiseCheck_Jimdo_V15.html / STARTER (unverified previous draft)",
@@ -500,7 +583,7 @@
         "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
       },
       "vaccineAssessment": {
-        "status": "not_reviewed",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -520,7 +603,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "not_reviewed",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -550,14 +633,14 @@
         ]
       },
       "missions": {
-        "status": "needs_verification",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Kairo",
             "address": "2 Sharia Berlin (off Sharia Hassan Sabri), Zamalek, Kairo 11211, Ägypten",
             "scope": "Ägypten; Notfalldienst und Konsulardienstleistungen über amtliche Webseite überprüfen",
             "phone": "+20 2 2728 2000",
-            "url": "https://kairo.diplo.de/eg-de/ueber-uns/2500174-2500174"
+            "url": "https://kairo.diplo.de/eg-de"
           }
         ]
       },
@@ -565,7 +648,7 @@
         "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/aegyptensicherheit-212622",
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-15",
         "missionReference": "https://kairo.diplo.de/eg-de/ueber-uns/2500174-2500174",
         "evidenceLinks": [
           "https://www.auswaertiges-amt.de/de/reiseundsicherheit/aegyptensicherheit-212622",
@@ -579,9 +662,10 @@
           "Einreisebedingungen können sich im regionalen Sicherheitsumfeld rasch verändern; AA enthält Teilreisewarnung.",
           "Polio-Einreiseregeln sind routenabhängig und müssen vor endgültiger Freigabe erneut geprüft werden."
         ],
-        "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt."
+        "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt.",
+        "rightsNote": "Unabhängige ärztliche Textzusammenfassung; die offiziellen Originalquellen werden ausschließlich als externe HTTPS-Links genannt. Keine vollständige AA-API-Übernahme und keine DTG-Malariakarten/-Daten extrahiert; AA-Nutzungsbedingungen für KI-Zusammenfassungen gelesen am 15.11.2026. Medizinische Freigabe durch Praxisinhaber am 15.11.2026."
       },
-      "publicationAllowed": false
+      "publicationAllowed": true
     },
     "MA": {
       "name": "Marokko",
@@ -816,11 +900,42 @@
     "TR": {
       "name": "Türkei",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "approvedSources": [],
-        "nextReviewDate": null
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/tuerkei-node/tuerkeisicherheit-201962",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/t.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Empfehlungen-der-STIKO/Empfehlungen/empfehlungen-node.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://tuerkei.diplo.de/tr-de/vertretungen/1514034-1514034",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/malaria-prevention-guidelines-for-travellers-from-the-uk-2026/country-recommendations",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "New research draft 2026-11-15; no verified V15 record",
@@ -831,7 +946,7 @@
         "important": "New research draft; not medically approved or ready for patient publication"
       },
       "vaccineAssessment": {
-        "status": "not_reviewed",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -845,12 +960,12 @@
         "routeDependent": []
       },
       "malariaAssessment": {
-        "status": "not_reviewed",
+        "status": "approved",
         "riskLevel": "uncertain",
         "preventionType": "regional_assessment_required",
         "regions": [],
         "medicationName": null,
-        "clinicalRecommendation": "Die Quellenlage ist nicht vollständig einheitlich: Die CDC führt für die Türkei aktuell keine Malariagebiete auf, während die britischen Reisegesundheitsempfehlungen 2026 ein sehr geringes Restrisiko mit Mückenschutz nennen. Eine routinemäßige Malaria-Chemoprophylaxe wird für gewöhnliche Reisen nicht empfohlen. Vor einer endgültigen medizinischen Einordnung sind individuelle Reiseziele, insbesondere ländliche Exposition, und die aktuellen Originalquellen ärztlich abzugleichen.",
+        "clinicalRecommendation": "Die Quellenlage ist nicht vollständig einheitlich: Die CDC führt für die Türkei aktuell keine Malariagebiete auf, während die britischen Reisegesundheitsempfehlungen 2026 ein sehr geringes Restrisiko mit Mückenschutz nennen. Eine routinemäßige Malaria-Chemoprophylaxe wird für gewöhnliche Reisen nicht empfohlen. Für eine individuelle reisemedizinische Einordnung sind individuelle Reiseziele, insbesondere ländliche Exposition, und die aktuellen Originalquellen ärztlich zu berücksichtigen.",
         "sourceLinks": [
           {
             "label": "Auswärtiges Amt: Reisegesundheit Türkei",
@@ -875,7 +990,7 @@
         ]
       },
       "missions": {
-        "status": "needs_verification",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Ankara",
@@ -911,7 +1026,7 @@
         "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/tuerkei-node/tuerkeisicherheit-201962",
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-15",
         "missionReference": "https://tuerkei.diplo.de/tr-de/vertretungen/1514034-1514034",
         "evidenceLinks": [
           "https://www.auswaertiges-amt.de/de/service/laender/tuerkei-node/tuerkeisicherheit-201962",
@@ -926,9 +1041,10 @@
           "Bei Istanbul, Izmir und Antalya sind andere Generalkonsulate bzw. Konsulate zuständig; als bloßen Hauptkontakt ist Ankara ungeeignet. Regionale Kontaktliste prüfen und erweitern.",
           "Vier örtlich zuständige Vertretungen (Ankara, Istanbul, Izmir, Antalya) recherchiert; finale Adress-/Notfallkontrolle vor Freigabe erforderlich."
         ],
-        "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt."
+        "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt.",
+        "rightsNote": "Unabhängige ärztliche Textzusammenfassung; die offiziellen Originalquellen werden ausschließlich als externe HTTPS-Links genannt. Keine vollständige AA-API-Übernahme und keine DTG-Malariakarten/-Daten extrahiert; AA-Nutzungsbedingungen für KI-Zusammenfassungen gelesen am 15.11.2026. Medizinische Freigabe durch Praxisinhaber am 15.11.2026."
       },
-      "publicationAllowed": false
+      "publicationAllowed": true
     }
   }
 }
