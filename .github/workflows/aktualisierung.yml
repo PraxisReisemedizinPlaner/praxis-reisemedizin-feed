@@ -66,6 +66,7 @@ jobs:
           cp website/ReiseCheck_Jimdo_V21.html _site/reisecheck-v21-jimdo-test.html
           cp website/ReiseCheck_Jimdo_V22.html _site/reisecheck-v22-jimdo-test.html
           cp website/ReiseCheck_Jimdo_V23.html _site/reisecheck-v23-jimdo-test.html
+          cp website/ReiseCheck_Jimdo_V24.html _site/reisecheck-v24-jimdo-test.html
 
       - name: GitHub Pages konfigurieren
         uses: actions/configure-pages@v5
