@@ -47,7 +47,7 @@ assert "general:new Set(selected.map(e=>e.n))" in script, "STIKO does not includ
 assert "if(key===clean('STIKO-Standardimpfungen'))continue;" in script, "Duplicate STIKO country profile entry"
 assert "Freigegebene Länderinformationen · Stand" not in script, "Old per-country review badge remains"
 assert 'id="rm-special-notes"' in html, "Dive notes container missing"
-assert "rm-dive-note" in script and "<details class=\\"rm-dive-note\\"" in script, "Dive advice not collapsible"
+assert "rm-dive-note" in script and '<details class="rm-dive-note"' in script, "Dive advice not collapsible"
 assert "Freiwillig, z. B." not in html, "Outdated region placeholder"
 
 print("OK: V18 Jimdo HTML – UI, feed safety gates and JS syntax validated.")
