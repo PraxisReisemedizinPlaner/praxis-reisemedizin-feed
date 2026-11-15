@@ -1960,6 +1960,478 @@
         "clinicalRecommendation": null
       },
       "publicationAllowed": false
+    },
+    {
+      "country": "LK",
+      "id": "LK-COLOMBO",
+      "name": "Colombo (Stadt)",
+      "aliases": [
+        "Colombo"
+      ],
+      "kind": "city",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "LK",
+      "id": "LK-LOWLAND",
+      "name": "Sri Lanka – ländliches Tiefland",
+      "aliases": [
+        "Tiefland Sri Lanka",
+        "Reisfelder Sri Lanka"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "LK",
+      "id": "LK-HIGHLAND",
+      "name": "Sri Lanka – Bergland",
+      "aliases": [
+        "Nuwara Eliya",
+        "Ella",
+        "Bergland Sri Lanka"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "NP",
+      "id": "NP-KATHMANDU",
+      "name": "Kathmandu (Stadt)",
+      "aliases": [
+        "Kathmandu"
+      ],
+      "kind": "city",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "NP",
+      "id": "NP-POKHARA",
+      "name": "Pokhara (Stadt)",
+      "aliases": [
+        "Pokhara"
+      ],
+      "kind": "city",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "NP",
+      "id": "NP-WEST-LOW",
+      "name": "Sudurpaschim / Karnali unter 2.000 m",
+      "aliases": [
+        "Sudurpaschim",
+        "Karnali",
+        "Westnepal Tiefland"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "NP",
+      "id": "NP-TERAI",
+      "name": "Übriger Terai / Chitwan / Bardia",
+      "aliases": [
+        "Terai",
+        "Chitwan",
+        "Bardia",
+        "Lumbini"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "NP",
+      "id": "NP-HIMALAYA",
+      "name": "Nepal – Himalaya mit An-/Abreise",
+      "aliases": [
+        "Everest",
+        "Annapurna",
+        "Himalaya Nepal"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "MY",
+      "id": "MY-KL",
+      "name": "Kuala Lumpur (Stadt)",
+      "aliases": [
+        "Kuala Lumpur"
+      ],
+      "kind": "city",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "MY",
+      "id": "MY-PENANG",
+      "name": "Penang / George Town",
+      "aliases": [
+        "Penang",
+        "Georgetown",
+        "George Town"
+      ],
+      "kind": "island",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "MY",
+      "id": "MY-BORNEO-FOREST",
+      "name": "Borneo – ländliche Waldgebiete",
+      "aliases": [
+        "Borneo",
+        "Sabah",
+        "Sarawak"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "MY",
+      "id": "MY-PENINSULA-FOREST",
+      "name": "Halbinsel Malaysia – ländliche Waldgebiete",
+      "aliases": [
+        "Taman Negara",
+        "Westmalaysia",
+        "Malaysia Wald"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PH",
+      "id": "PH-MANILA",
+      "name": "Manila (Stadtgebiet)",
+      "aliases": [
+        "Manila",
+        "Metro Manila"
+      ],
+      "kind": "city",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PH",
+      "id": "PH-CEBU",
+      "name": "Cebu (Insel)",
+      "aliases": [
+        "Cebu"
+      ],
+      "kind": "island",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PH",
+      "id": "PH-PALAWAN-N",
+      "name": "Palawan – Norden",
+      "aliases": [
+        "El Nido",
+        "Nordpalawan"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PH",
+      "id": "PH-PALAWAN-C",
+      "name": "Palawan – mittlerer Abschnitt",
+      "aliases": [
+        "Mittelpalawan",
+        "Puerto Princesa"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PH",
+      "id": "PH-PALAWAN-S",
+      "name": "Palawan – Süden",
+      "aliases": [
+        "Südpalawan",
+        "Southern Palawan"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PH",
+      "id": "PH-MINDANAO",
+      "name": "Mindanao / südliche Inselgruppe",
+      "aliases": [
+        "Mindanao",
+        "Davao",
+        "Sulu"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
     }
   ]
 }

@@ -18,7 +18,7 @@ class RoutePlanningTests(unittest.TestCase):
     def regions(self,c=None):
         return build_public_regions(self.g,c or self.c,self.s,date(2026,11,15))
     def test_all_countries_have_explicit_route_decision(self):
-        self.assertEqual(validate_all(self.c,self.g,self.s),14)
+        self.assertEqual(validate_all(self.c,self.g,self.s),18)
         for code in ("TH","ID","IN","TZ","KE","VN","GR","PT","IT"):
             self.assertTrue(self.c["countries"][code]["routeAssessment"]["regionalSelectionRequired"])
     def test_india_has_thirteen_actual_route_options(self):
@@ -73,7 +73,7 @@ class RoutePlanningTests(unittest.TestCase):
             p=self.c["countries"][code]
             self.assertNotIn("Hepatitis A",p["vaccineAssessment"]["forAll"])
             self.assertEqual(p["sourceReview"]["vaccinationBasis"]["authority"],"STIKO")
-            self.assertIn("Auswärtige Amt",str(p["vaccineAssessment"]["routeDependent"]))
+            self.assertIn("Auswärtige Amt",str(p["sourceReview"]["detailedRouteEvidence"]))
         self.assertTrue(any("Hepatitis B" in x for x in self.c["countries"]["ES"]["vaccineAssessment"]["riskBased"]))
         self.assertTrue(any("FSME" in x for x in self.c["countries"]["IT"]["vaccineAssessment"]["riskBased"]))
     def test_italian_outbreak_snapshot_expires_and_never_assigns_malaria_risk(self):
@@ -87,15 +87,15 @@ class RoutePlanningTests(unittest.TestCase):
         rows={r["id"]:r for r in self.regions()["regions"]}
         self.assertEqual(len([r for r in rows.values() if r["country"]=="IT"]),8)
         self.assertIn("geschlossen",rows["IT-ROME"]["sourceNotice"])
-        self.assertIn("ab 12 Jahren",rows["IT-ROME"]["sourceNotice"])
+        self.assertIn("ab 12 Jahren",str(p["sourceReview"]["detailedRouteEvidence"]))
         self.assertNotIn("malaria",rows["IT-ROME"])
         stale=build_public_regions(self.g,self.c,self.s,date(2026,11,21))
         rome=next(r for r in stale["regions"] if r["id"]=="IT-ROME")
         self.assertNotIn("sourceNotice",rome)
         self.assertEqual(rome["clinicalStatus"],"source_unavailable")
-        preview=render(self.c)
+        preview=render(self.c,codes=("ES","IT","GR","PT"))
         self.assertIn("Friaul-Julisch",preview)
-        self.assertIn("20.11.2026",str(p["sourceReview"]["regionalReview"]))
+        self.assertEqual(p["sourceReview"]["regionalReviewUntil"],"2026-11-20")
     def test_four_country_package_ready_for_single_medical_decision(self):
         c=copy.deepcopy(self.c)
         for code in ("ES","IT","GR","PT"):
@@ -111,6 +111,6 @@ class RoutePlanningTests(unittest.TestCase):
         self.assertIn("Dengue",rows["PT-MADEIRA"]["malaria"]["clinicalRecommendation"])
         self.assertIn("Dengue",c["countries"]["PT"]["vaccineAssessment"]["routeDependent"][0])
         self.assertEqual(c["countries"]["IT"]["vaccineAssessment"]["forAll"],[])
-        html=render(self.c)
+        html=render(self.c,codes=("ES","IT","GR","PT"))
         for name in ("Spanien","Italien","Griechenland","Portugal"): self.assertIn(name,html)
 if __name__=="__main__":unittest.main()

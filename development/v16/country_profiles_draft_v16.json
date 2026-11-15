@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 14,
+  "countryCount": 18,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -82,7 +82,7 @@
           "Bei direkter Einreise aus Deutschland sind nach derzeitigen Angaben keine Pflichtimpfungen vorgeschrieben."
         ],
         "routeDependent": [
-          "Bei Einreise aus einem Gelbfieberinfektionsgebiet oder Transit von mehr als zwölf Stunden in einem solchen Gebiet kann für Reisende ab neun Monaten ein Gelbfieberimpfnachweis gefordert werden; aktuelle Route kontrollieren."
+          "Gelbfiebergebiet als Voraufenthalt oder Transit >12 Stunden: Impfnachweis ab 9 Monaten prüfen."
         ]
       },
       "malariaAssessment": {
@@ -145,7 +145,10 @@
           "CDC und AA unterscheiden sich in regionaler Präventionsstrategie; keine automatische Subregional-Einstufung im bestehenden V22-Widget."
         ],
         "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt.",
-        "rightsNote": "Unabhängige ärztliche Textzusammenfassung; die offiziellen Originalquellen werden ausschließlich als externe HTTPS-Links genannt. Keine vollständige AA-API-Übernahme und keine DTG-Malariakarten/-Daten extrahiert; AA-Nutzungsbedingungen für KI-Zusammenfassungen gelesen am 15.11.2026. Medizinische Freigabe durch Praxisinhaber am 15.11.2026."
+        "rightsNote": "Unabhängige ärztliche Textzusammenfassung; die offiziellen Originalquellen werden ausschließlich als externe HTTPS-Links genannt. Keine vollständige AA-API-Übernahme und keine DTG-Malariakarten/-Daten extrahiert; AA-Nutzungsbedingungen für KI-Zusammenfassungen gelesen am 15.11.2026. Medizinische Freigabe durch Praxisinhaber am 15.11.2026.",
+        "detailedRouteEvidence": [
+          "Bei Einreise aus einem Gelbfieberinfektionsgebiet oder Transit von mehr als zwölf Stunden in einem solchen Gebiet kann für Reisende ab neun Monaten ein Gelbfieberimpfnachweis gefordert werden; aktuelle Route kontrollieren."
+        ]
       },
       "publicationAllowed": true,
       "routeAssessment": {
@@ -245,8 +248,8 @@
           "Für die direkte Einreise aus Deutschland bestehen nach derzeitigen Angaben keine Pflichtimpfungen."
         ],
         "routeDependent": [
-          "Bei Einreise aus einem Gelbfieberinfektionsgebiet kann für Reisende ab neun Monaten ein Gelbfieberimpfnachweis erforderlich sein; aktuelle Transitroute prüfen.",
-          "Poliomyelitis-Impfstatus anhand der STIKO und aktuellen länderspezifischen Einreisevorgaben prüfen."
+          "Einreise aus Gelbfiebergebiet: Impfnachweis ab 9 Monaten prüfen.",
+          "Polio: Nachweise für die Einreise- und Transitroute prüfen."
         ]
       },
       "malariaAssessment": {
@@ -312,7 +315,11 @@
           "Dengue-/Chikungunya-Impfstoffe abhängig von aktueller STIKO-Indikation und Kontraindikationen, kein pauschaler Einsatz."
         ],
         "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt.",
-        "rightsNote": "Unabhängige ärztliche Textzusammenfassung; die offiziellen Originalquellen werden ausschließlich als externe HTTPS-Links genannt. Keine vollständige AA-API-Übernahme und keine DTG-Malariakarten/-Daten extrahiert; AA-Nutzungsbedingungen für KI-Zusammenfassungen gelesen am 15.11.2026. Medizinische Freigabe durch Praxisinhaber am 15.11.2026."
+        "rightsNote": "Unabhängige ärztliche Textzusammenfassung; die offiziellen Originalquellen werden ausschließlich als externe HTTPS-Links genannt. Keine vollständige AA-API-Übernahme und keine DTG-Malariakarten/-Daten extrahiert; AA-Nutzungsbedingungen für KI-Zusammenfassungen gelesen am 15.11.2026. Medizinische Freigabe durch Praxisinhaber am 15.11.2026.",
+        "detailedRouteEvidence": [
+          "Bei Einreise aus einem Gelbfieberinfektionsgebiet kann für Reisende ab neun Monaten ein Gelbfieberimpfnachweis erforderlich sein; aktuelle Transitroute prüfen.",
+          "Poliomyelitis-Impfstatus anhand der STIKO und aktuellen länderspezifischen Einreisevorgaben prüfen."
+        ]
       },
       "publicationAllowed": true,
       "routeAssessment": {
@@ -414,8 +421,8 @@
           "Bei direkter Einreise aus Deutschland nach Tansania einschließlich Sansibar sind keine Pflichtimpfungen vorgeschrieben."
         ],
         "routeDependent": [
-          "Bei Einreise aus einem Gelbfiebergebiet ist ab dem vollendeten ersten Lebensjahr ein Gelbfieberimpfnachweis erforderlich. Ein Flughafentransit unter zwölf Stunden ohne Verlassen des Flughafens ist nach AA ausgenommen; längere Transits und Weiterreisen gesondert prüfen.",
-          "Polioimpfschutz prüfen; bei längerem Aufenthalt aktuelle WHO-Vorgaben zu einer eventuell erforderlichen Ausreiseimpfung und Dokumentation berücksichtigen."
+          "Einreise aus Gelbfiebergebiet: Impfnachweis ab 1 Jahr; Flughafentransit <12 Stunden ohne Verlassen des Flughafens ausgenommen.",
+          "Längerer Aufenthalt: aktuelle Polio-Ausreisevorgaben prüfen."
         ]
       },
       "malariaAssessment": {
@@ -504,7 +511,11 @@
           }
         ],
         "warning": "Am 15.11.2026 ausdrücklich durch Dr. med. Sebastian Münster als Länderpaket medizinisch freigegeben; einschließlich dokumentierter Quellenabweichungen und Routenhinweise.",
-        "approvalRecord": "Ausdrückliche Bestätigung im Chat: Alle vier Länderpakete können freigegeben werden."
+        "approvalRecord": "Ausdrückliche Bestätigung im Chat: Alle vier Länderpakete können freigegeben werden.",
+        "detailedRouteEvidence": [
+          "Bei Einreise aus einem Gelbfiebergebiet ist ab dem vollendeten ersten Lebensjahr ein Gelbfieberimpfnachweis erforderlich. Ein Flughafentransit unter zwölf Stunden ohne Verlassen des Flughafens ist nach AA ausgenommen; längere Transits und Weiterreisen gesondert prüfen.",
+          "Polioimpfschutz prüfen; bei längerem Aufenthalt aktuelle WHO-Vorgaben zu einer eventuell erforderlichen Ausreiseimpfung und Dokumentation berücksichtigen."
+        ]
       },
       "publicationAllowed": true,
       "routeAssessment": {
@@ -600,9 +611,9 @@
           "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgeschrieben."
         ],
         "routeDependent": [
-          "Bei Einreise aus einem Gelbfiebergebiet ist für Personen ab zwölf Monaten ein Gelbfieberimpfnachweis erforderlich; die gesamte Anreise einschließlich Zwischenstopps prüfen.",
-          "Gelbfieberimpfung ist nach AA für weite Teile Kenias empfohlen. Für ausschließlich Nairobi, Mombasa und bestimmte nordöstliche beziehungsweise Küstengebiete besteht keine allgemeine Empfehlung. Die genaue Route entscheidet; die Impfempfehlung ist von der Einreisepflicht zu unterscheiden.",
-          "Polioimpfschutz und bei längeren Aufenthalten aktuelle WHO-Vorgaben zur Ausreiseimpfung prüfen."
+          "Einreise aus Gelbfiebergebiet: Impfnachweis ab 1 Jahr prüfen.",
+          "Gelbfieber: genaue Route entscheidend; reine Aufenthalte in Nairobi, Mombasa und bestimmten Küsten-/Nordostgebieten gesondert bewerten.",
+          "Längerer Aufenthalt: Polio-Ausreisevorgaben prüfen."
         ]
       },
       "malariaAssessment": {
@@ -692,7 +703,12 @@
           }
         ],
         "warning": "Am 15.11.2026 ausdrücklich durch Dr. med. Sebastian Münster als Länderpaket medizinisch freigegeben; einschließlich dokumentierter Quellenabweichungen und Routenhinweise.",
-        "approvalRecord": "Ausdrückliche Bestätigung im Chat: Alle vier Länderpakete können freigegeben werden."
+        "approvalRecord": "Ausdrückliche Bestätigung im Chat: Alle vier Länderpakete können freigegeben werden.",
+        "detailedRouteEvidence": [
+          "Bei Einreise aus einem Gelbfiebergebiet ist für Personen ab zwölf Monaten ein Gelbfieberimpfnachweis erforderlich; die gesamte Anreise einschließlich Zwischenstopps prüfen.",
+          "Gelbfieberimpfung ist nach AA für weite Teile Kenias empfohlen. Für ausschließlich Nairobi, Mombasa und bestimmte nordöstliche beziehungsweise Küstengebiete besteht keine allgemeine Empfehlung. Die genaue Route entscheidet; die Impfempfehlung ist von der Einreisepflicht zu unterscheiden.",
+          "Polioimpfschutz und bei längeren Aufenthalten aktuelle WHO-Vorgaben zur Ausreiseimpfung prüfen."
+        ]
       },
       "publicationAllowed": true,
       "routeAssessment": {
@@ -782,7 +798,7 @@
           "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgeschrieben."
         ],
         "routeDependent": [
-          "Für Langzeitaufenthalte, ländliche Exposition und wiederholte Reisen die Indikation für Japanische Enzephalitis und weitere Reiseimpfungen individuell prüfen. Weiterreisen und Transitländer gesondert berücksichtigen."
+          "Ländliche Etappen oder längerer Aufenthalt: Japanische Enzephalitis prüfen."
         ]
       },
       "malariaAssessment": {
@@ -872,7 +888,10 @@
           }
         ],
         "warning": "Am 15.11.2026 ausdrücklich durch Dr. med. Sebastian Münster als Länderpaket medizinisch freigegeben; einschließlich dokumentierter Quellenabweichungen und Routenhinweise.",
-        "approvalRecord": "Ausdrückliche Bestätigung im Chat: Alle vier Länderpakete können freigegeben werden."
+        "approvalRecord": "Ausdrückliche Bestätigung im Chat: Alle vier Länderpakete können freigegeben werden.",
+        "detailedRouteEvidence": [
+          "Für Langzeitaufenthalte, ländliche Exposition und wiederholte Reisen die Indikation für Japanische Enzephalitis und weitere Reiseimpfungen individuell prüfen. Weiterreisen und Transitländer gesondert berücksichtigen."
+        ]
       },
       "publicationAllowed": true,
       "routeAssessment": {
@@ -968,9 +987,9 @@
           "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgeschrieben."
         ],
         "routeDependent": [
-          "Bei Einreise aus einem Gelbfiebergebiet ist ab neun Monaten ein Gelbfieberimpfnachweis erforderlich. Vollständige Anreise und aktuelle Einreisevorschriften vor Abflug prüfen.",
-          "Für lange Aufenthalte und ländliche Exposition insbesondere die Indikation für Japanische Enzephalitis und Tollwut prüfen.",
-          "CDC weist aktuell auf gefälschten ABHAYRAB-Tollwutimpfstoff in Indien hin. Nach Tierkontakt unverzüglich eine verlässliche medizinische Einrichtung aufsuchen; eine Impfung vor der Reise ersetzt die Behandlung nach Kontakt nicht."
+          "Einreise aus Gelbfiebergebiet: Impfnachweis ab 9 Monaten prüfen.",
+          "Ländliche oder längere Reisen: Japanische Enzephalitis und Tollwut prüfen.",
+          "Tierkontakt: sofort verlässliche Versorgung aufsuchen; Warnung vor gefälschtem ABHAYRAB beachten."
         ]
       },
       "malariaAssessment": {
@@ -1060,7 +1079,12 @@
           }
         ],
         "warning": "Am 15.11.2026 ausdrücklich durch Dr. med. Sebastian Münster als Länderpaket medizinisch freigegeben; einschließlich dokumentierter Quellenabweichungen und Routenhinweise.",
-        "approvalRecord": "Ausdrückliche Bestätigung im Chat: Alle vier Länderpakete können freigegeben werden."
+        "approvalRecord": "Ausdrückliche Bestätigung im Chat: Alle vier Länderpakete können freigegeben werden.",
+        "detailedRouteEvidence": [
+          "Bei Einreise aus einem Gelbfiebergebiet ist ab neun Monaten ein Gelbfieberimpfnachweis erforderlich. Vollständige Anreise und aktuelle Einreisevorschriften vor Abflug prüfen.",
+          "Für lange Aufenthalte und ländliche Exposition insbesondere die Indikation für Japanische Enzephalitis und Tollwut prüfen.",
+          "CDC weist aktuell auf gefälschten ABHAYRAB-Tollwutimpfstoff in Indien hin. Nach Tierkontakt unverzüglich eine verlässliche medizinische Einrichtung aufsuchen; eine Impfung vor der Reise ersetzt die Behandlung nach Kontakt nicht."
+        ]
       },
       "publicationAllowed": true,
       "routeAssessment": {
@@ -1164,8 +1188,8 @@
           "Bei direkter Einreise aus Deutschland wird nach derzeitigen Angaben kein Gelbfieberimpfnachweis gefordert."
         ],
         "routeDependent": [
-          "Ein Gelbfiebernachweis kann bei Einreise ab neun Monaten aus Gelbfieberinfektionsgebieten sowie bestimmten zusätzlich aufgeführten afrikanischen Staaten oder längerem Transit gefordert werden. Exakte Route und aktuelle AA-Liste prüfen.",
-          "Poliomyelitis-Impfnachweise können bei Einreise aus bestimmten Ländern mit Poliovirus-Risiko verlangt werden; aktuell nennt das Auswärtige Amt DR Kongo, Kenia, Niger und Syrien. Vor der Reise erneut prüfen."
+          "Gelbfieber: Nachweis ab 9 Monaten je nach Voraufenthalt/Transit; aktuelle Liste der erfassten Staaten prüfen.",
+          "Polio: Nachweis bei Einreise aus bestimmten Risikoländern prüfen."
         ]
       },
       "malariaAssessment": {
@@ -1229,7 +1253,11 @@
           "Polio-Einreiseregeln sind routenabhängig und müssen vor endgültiger Freigabe erneut geprüft werden."
         ],
         "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt.",
-        "rightsNote": "Unabhängige ärztliche Textzusammenfassung; die offiziellen Originalquellen werden ausschließlich als externe HTTPS-Links genannt. Keine vollständige AA-API-Übernahme und keine DTG-Malariakarten/-Daten extrahiert; AA-Nutzungsbedingungen für KI-Zusammenfassungen gelesen am 15.11.2026. Medizinische Freigabe durch Praxisinhaber am 15.11.2026."
+        "rightsNote": "Unabhängige ärztliche Textzusammenfassung; die offiziellen Originalquellen werden ausschließlich als externe HTTPS-Links genannt. Keine vollständige AA-API-Übernahme und keine DTG-Malariakarten/-Daten extrahiert; AA-Nutzungsbedingungen für KI-Zusammenfassungen gelesen am 15.11.2026. Medizinische Freigabe durch Praxisinhaber am 15.11.2026.",
+        "detailedRouteEvidence": [
+          "Ein Gelbfiebernachweis kann bei Einreise ab neun Monaten aus Gelbfieberinfektionsgebieten sowie bestimmten zusätzlich aufgeführten afrikanischen Staaten oder längerem Transit gefordert werden. Exakte Route und aktuelle AA-Liste prüfen.",
+          "Poliomyelitis-Impfnachweise können bei Einreise aus bestimmten Ländern mit Poliovirus-Risiko verlangt werden; aktuell nennt das Auswärtige Amt DR Kongo, Kenia, Niger und Syrien. Vor der Reise erneut prüfen."
+        ]
       },
       "publicationAllowed": true,
       "routeAssessment": {
@@ -1313,7 +1341,7 @@
           "Bei direkter Einreise aus Deutschland sind aktuell keine Pflichtimpfungen vorgeschrieben."
         ],
         "routeDependent": [
-          "Bei Einreise aus Ländern mit lokaler Poliovirus-Übertragung kann ein Poliomyelitis-Impfnachweis erforderlich sein; Reiseroute und aktuelle Einreisebestimmungen prüfen."
+          "Einreise aus Poliovirus-Risikogebiet: aktuellen Impfnachweis prüfen."
         ]
       },
       "malariaAssessment": {
@@ -1363,7 +1391,10 @@
       "sourceReview": {
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/marokkosicherheit-224080",
-        "reviewedAt": "2026-11-11"
+        "reviewedAt": "2026-11-11",
+        "detailedRouteEvidence": [
+          "Bei Einreise aus Ländern mit lokaler Poliovirus-Übertragung kann ein Poliomyelitis-Impfnachweis erforderlich sein; Reiseroute und aktuelle Einreisebestimmungen prüfen."
+        ]
       },
       "publicationAllowed": true,
       "routeAssessment": {
@@ -1483,7 +1514,8 @@
       "sourceReview": {
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/oesterreichsicherheit-210962",
-        "reviewedAt": "2026-11-11"
+        "reviewedAt": "2026-11-11",
+        "detailedRouteEvidence": []
       },
       "publicationAllowed": true,
       "routeAssessment": {
@@ -1646,7 +1678,8 @@
           "Vier örtlich zuständige Vertretungen (Ankara, Istanbul, Izmir, Antalya) recherchiert; finale Adress-/Notfallkontrolle vor Freigabe erforderlich."
         ],
         "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt.",
-        "rightsNote": "Unabhängige ärztliche Textzusammenfassung; die offiziellen Originalquellen werden ausschließlich als externe HTTPS-Links genannt. Keine vollständige AA-API-Übernahme und keine DTG-Malariakarten/-Daten extrahiert; AA-Nutzungsbedingungen für KI-Zusammenfassungen gelesen am 15.11.2026. Medizinische Freigabe durch Praxisinhaber am 15.11.2026."
+        "rightsNote": "Unabhängige ärztliche Textzusammenfassung; die offiziellen Originalquellen werden ausschließlich als externe HTTPS-Links genannt. Keine vollständige AA-API-Übernahme und keine DTG-Malariakarten/-Daten extrahiert; AA-Nutzungsbedingungen für KI-Zusammenfassungen gelesen am 15.11.2026. Medizinische Freigabe durch Praxisinhaber am 15.11.2026.",
+        "detailedRouteEvidence": []
       },
       "publicationAllowed": true,
       "routeAssessment": {
@@ -1716,10 +1749,7 @@
         "entryRequirements": [
           "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgeschrieben."
         ],
-        "routeDependent": [
-          "Vollständigen Polio- und STIKO-Standardimpfschutz prüfen. Saisonaler Mückenschutz bleibt wegen anderer Erkrankungen wichtig; keine pauschale Dengueimpfung für jede Spanienreise.",
-          "Impfzuordnung nach STIKO-Reiseimpftabelle 2026: keine allgemeine Hepatitis-A-Reiseimpfempfehlung für dieses Land. Das Auswärtige Amt empfiehlt Hepatitis A abweichend; persönliche Indikationen, konkrete Exposition und aktuelle Ausbrüche gesondert ärztlich prüfen."
-        ]
+        "routeDependent": []
       },
       "malariaAssessment": {
         "status": "approved",
@@ -1815,7 +1845,11 @@
           "recordedAt": "2026-11-15",
           "statement": "Die vier Länder können genauso übernommen werden. – Interpretation im Chat bestätigt: exakt.",
           "scope": "Corrected ES IT GR PT packages and source-based regional notices; existing source expiry dates remain binding."
-        }
+        },
+        "detailedRouteEvidence": [
+          "Vollständigen Polio- und STIKO-Standardimpfschutz prüfen. Saisonaler Mückenschutz bleibt wegen anderer Erkrankungen wichtig; keine pauschale Dengueimpfung für jede Spanienreise.",
+          "Impfzuordnung nach STIKO-Reiseimpftabelle 2026: keine allgemeine Hepatitis-A-Reiseimpfempfehlung für dieses Land. Das Auswärtige Amt empfiehlt Hepatitis A abweichend; persönliche Indikationen, konkrete Exposition und aktuelle Ausbrüche gesondert ärztlich prüfen."
+        ]
       },
       "publicationAllowed": true,
       "routeAssessment": {
@@ -1905,9 +1939,8 @@
           "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgeschrieben."
         ],
         "routeDependent": [
-          "Impfzuordnung nach STIKO-Reiseimpftabelle 2026: keine allgemeine Hepatitis-A-Reiseimpfempfehlung für dieses Land. Das Auswärtige Amt empfiehlt Hepatitis A abweichend; persönliche Indikationen, konkrete Exposition und aktuelle Ausbrüche gesondert ärztlich prüfen.",
-          "Italien regional erfassen: Chikungunya hängt vom aktuell betroffenen Ort und Reisezeitraum ab. Laut ECDC (Datenstand 11.11.2026) ist der 2026 gemeldete Cluster in Rom geschlossen. Ein historischer Ausbruch begründet keine aktuelle Impfempfehlung. Für eine Reise in ein Gebiet mit aktuellem Chikungunya-Ausbruch empfiehlt die STIKO die Impfung ab 12 Jahren; Impfstoffwahl und Kontraindikationen ärztlich prüfen. Vor Abreise aktuelle Meldungen erneut abgleichen.",
-          "FSME: Expositionsabhängige Impfindikation insbesondere in Venetien (Belluneser Alpen), Friaul-Julisch Venetien und Trentino-Südtirol prüfen; keine pauschale Empfehlung für ganz Italien."
+          "Nordostitalien (Belluneser Alpen, Friaul-Julisch Venetien, Trentino-Südtirol): FSME bei Naturaufenthalten prüfen.",
+          "Aktuelles Chikungunya-Ausbruchsgebiet auf der Route: Impfung ab 12 Jahren prüfen."
         ]
       },
       "malariaAssessment": {
@@ -2023,21 +2056,26 @@
           "sourceDifference": "AA nennt Hepatitis A als Reiseimpfung; diese Aussage wird nicht als allgemeine STIKO-Empfehlung ausgegeben."
         },
         "regionalReview": [
-          "Rom (Stadt): Rom: Der laut ECDC 2026 gemeldete Chikungunya-Cluster ist im Bericht vom 13.11.2026 (Datenstand 11.11.2026) geschlossen. Daraus folgt derzeit keine ausbruchsbezogene Impfindikation. Diese Momentaufnahme gilt nicht als Entwarnung für einen späteren Reisezeitpunkt. Bei einem aktuell bestätigten Chikungunya-Ausbruch im bereisten Gebiet empfiehlt die STIKO die Impfung ab 12 Jahren; Alter, Impfstoff und Kontraindikationen ärztlich prüfen. Vor Abreise ECDC/ISS erneut prüfen. Quellenstand 15.11.2026; nächste Quellenprüfung spätestens 20.11.2026. Keine automatische Aussage über spätere Reisen. Italien hat keine routinemäßige Malariaprophylaxe-Indikation; die obigen Hinweise betreffen andere Erkrankungen.",
-          "Latium / Lazio (Region): Latium: Das Ereignis in Rom wird nicht auf ganz Latium übertragen. Der Rom-Cluster ist laut ECDC-Datenstand 11.11.2026 geschlossen. Genaue Aufenthaltsorte und Meldungen zum Reisezeitpunkt prüfen. Bei einem aktuell bestätigten Chikungunya-Ausbruch im bereisten Gebiet empfiehlt die STIKO die Impfung ab 12 Jahren; Alter, Impfstoff und Kontraindikationen ärztlich prüfen. Vor Abreise ECDC/ISS erneut prüfen. Quellenstand 15.11.2026; nächste Quellenprüfung spätestens 20.11.2026. Keine automatische Aussage über spätere Reisen. Italien hat keine routinemäßige Malariaprophylaxe-Indikation; die obigen Hinweise betreffen andere Erkrankungen.",
-          "Emilia-Romagna (Region): Emilia-Romagna: Frühere lokale Übertragungen in Italien sind keine Aussage über ein aktuelles Ausbruchsgeschehen am konkreten Urlaubsort. Gemeinde und Reisezeitpunkt für die aktuelle Chikungunya-Bewertung angeben. Bei einem aktuell bestätigten Chikungunya-Ausbruch im bereisten Gebiet empfiehlt die STIKO die Impfung ab 12 Jahren; Alter, Impfstoff und Kontraindikationen ärztlich prüfen. Vor Abreise ECDC/ISS erneut prüfen. Quellenstand 15.11.2026; nächste Quellenprüfung spätestens 20.11.2026. Keine automatische Aussage über spätere Reisen. Italien hat keine routinemäßige Malariaprophylaxe-Indikation; die obigen Hinweise betreffen andere Erkrankungen.",
-          "Venetien / Veneto (Region): Venetien: Die STIKO nennt regionale FSME-Exposition vor allem in den Belluneser Alpen. Aufenthaltsort und Outdoor-Aktivitäten für die Impfindikation berücksichtigen. Eine Chikungunya-Impfung wird nicht allein aus dem Regionsnamen abgeleitet. Bei einem aktuell bestätigten Chikungunya-Ausbruch im bereisten Gebiet empfiehlt die STIKO die Impfung ab 12 Jahren; Alter, Impfstoff und Kontraindikationen ärztlich prüfen. Vor Abreise ECDC/ISS erneut prüfen. Quellenstand 15.11.2026; nächste Quellenprüfung spätestens 20.11.2026. Keine automatische Aussage über spätere Reisen. Italien hat keine routinemäßige Malariaprophylaxe-Indikation; die obigen Hinweise betreffen andere Erkrankungen.",
-          "Toskana / Toscana (Region): Toskana: Für eine Chikungunya-Impfentscheidung sind aktuelle Meldungen zur konkreten Gemeinde und zum Reisezeitpunkt erforderlich. Historische Fälle allein begründen keine aktuelle Ausbruchsindikation. Bei einem aktuell bestätigten Chikungunya-Ausbruch im bereisten Gebiet empfiehlt die STIKO die Impfung ab 12 Jahren; Alter, Impfstoff und Kontraindikationen ärztlich prüfen. Vor Abreise ECDC/ISS erneut prüfen. Quellenstand 15.11.2026; nächste Quellenprüfung spätestens 20.11.2026. Keine automatische Aussage über spätere Reisen. Italien hat keine routinemäßige Malariaprophylaxe-Indikation; die obigen Hinweise betreffen andere Erkrankungen.",
-          "Friaul-Julisch Venetien (Region): Friaul-Julisch Venetien: Die STIKO nennt regionales FSME-Risiko in nordöstlichen Alpen- und Voralpengebieten. Bei Zeckenexposition Impfung individuell prüfen. Diese FSME-Angabe beschreibt kein Chikungunya-Ausbruchsgeschehen. Bei einem aktuell bestätigten Chikungunya-Ausbruch im bereisten Gebiet empfiehlt die STIKO die Impfung ab 12 Jahren; Alter, Impfstoff und Kontraindikationen ärztlich prüfen. Vor Abreise ECDC/ISS erneut prüfen. Quellenstand 15.11.2026; nächste Quellenprüfung spätestens 20.11.2026. Keine automatische Aussage über spätere Reisen. Italien hat keine routinemäßige Malariaprophylaxe-Indikation; die obigen Hinweise betreffen andere Erkrankungen.",
-          "Trentino-Südtirol (Region): Trentino-Südtirol: Regionales FSME-Risiko nach STIKO; bei Naturaufenthalten und Zeckenexposition individuelle Impfindikation prüfen. Chikungunya nur anhand aktueller örtlicher Meldungen bewerten. Bei einem aktuell bestätigten Chikungunya-Ausbruch im bereisten Gebiet empfiehlt die STIKO die Impfung ab 12 Jahren; Alter, Impfstoff und Kontraindikationen ärztlich prüfen. Vor Abreise ECDC/ISS erneut prüfen. Quellenstand 15.11.2026; nächste Quellenprüfung spätestens 20.11.2026. Keine automatische Aussage über spätere Reisen. Italien hat keine routinemäßige Malariaprophylaxe-Indikation; die obigen Hinweise betreffen andere Erkrankungen.",
-          "Italien – weitere Orte / Reiseroute: Weitere italienische Reiseziele: Genaue Orte und Reisezeitraum angeben. Aus der fehlenden eigenen Ortskachel folgt keine Risikofreiheit. Aktuelle Chikungunya- und andere Arbovirusmeldungen vor Abreise prüfen. Bei einem aktuell bestätigten Chikungunya-Ausbruch im bereisten Gebiet empfiehlt die STIKO die Impfung ab 12 Jahren; Alter, Impfstoff und Kontraindikationen ärztlich prüfen. Vor Abreise ECDC/ISS erneut prüfen. Quellenstand 15.11.2026; nächste Quellenprüfung spätestens 20.11.2026. Keine automatische Aussage über spätere Reisen. Italien hat keine routinemäßige Malariaprophylaxe-Indikation; die obigen Hinweise betreffen andere Erkrankungen."
+          "Rom (Stadt): Rom: Chikungunya-Cluster laut ECDC vom 11.11.2026 geschlossen. Vor Abreise aktuelle Lage prüfen.",
+          "Latium / Lazio (Region): Latium: genaue Orte angeben. Rom-Cluster laut ECDC vom 11.11.2026 geschlossen; aktuelle örtliche Lage vor Abreise prüfen.",
+          "Emilia-Romagna (Region): Emilia-Romagna: Gemeinde und Reisezeitpunkt für aktuelle Chikungunya-Meldungen abgleichen.",
+          "Venetien / Veneto (Region): Belluneser Alpen: FSME bei Naturaufenthalten prüfen. Für Chikungunya aktuelle örtliche Meldungen beachten.",
+          "Toskana / Toscana (Region): Toskana: Gemeinde und Reisezeitpunkt für aktuelle Chikungunya-Meldungen abgleichen.",
+          "Friaul-Julisch Venetien (Region): Friaul-Julisch Venetien: FSME bei Zeckenexposition prüfen.",
+          "Trentino-Südtirol (Region): Trentino-Südtirol: FSME bei Naturaufenthalten prüfen.",
+          "Italien – weitere Orte / Reiseroute: Weitere Orte: konkrete Route angeben und aktuelle örtliche Ausbruchsmeldungen vor Abreise prüfen."
         ],
         "regionalReviewUntil": "2026-11-20",
         "approvalRecord": {
           "recordedAt": "2026-11-15",
           "statement": "Die vier Länder können genauso übernommen werden. – Interpretation im Chat bestätigt: exakt.",
           "scope": "Corrected ES IT GR PT packages and source-based regional notices; existing source expiry dates remain binding."
-        }
+        },
+        "detailedRouteEvidence": [
+          "Impfzuordnung nach STIKO-Reiseimpftabelle 2026: keine allgemeine Hepatitis-A-Reiseimpfempfehlung für dieses Land. Das Auswärtige Amt empfiehlt Hepatitis A abweichend; persönliche Indikationen, konkrete Exposition und aktuelle Ausbrüche gesondert ärztlich prüfen.",
+          "Italien regional erfassen: Chikungunya hängt vom aktuell betroffenen Ort und Reisezeitraum ab. Laut ECDC (Datenstand 11.11.2026) ist der 2026 gemeldete Cluster in Rom geschlossen. Ein historischer Ausbruch begründet keine aktuelle Impfempfehlung. Für eine Reise in ein Gebiet mit aktuellem Chikungunya-Ausbruch empfiehlt die STIKO die Impfung ab 12 Jahren; Impfstoffwahl und Kontraindikationen ärztlich prüfen. Vor Abreise aktuelle Meldungen erneut abgleichen.",
+          "FSME: Expositionsabhängige Impfindikation insbesondere in Venetien (Belluneser Alpen), Friaul-Julisch Venetien und Trentino-Südtirol prüfen; keine pauschale Empfehlung für ganz Italien."
+        ]
       },
       "publicationAllowed": true,
       "routeAssessment": {
@@ -2124,9 +2162,8 @@
           "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgeschrieben."
         ],
         "routeDependent": [
-          "Bei längerem Aufenthalt oder besonderer Exposition Hepatitis B und FSME individuell prüfen. Region, Saison und Naturkontakte berücksichtigen.",
-          "Touristische Reiseziele und landwirtschaftliche Aufenthalte unterscheiden. Keine routinemäßige Malariachemoprophylaxe; konsequenter Mückenschutz auch wegen West-Nil-Fieber.",
-          "Impfzuordnung nach STIKO-Reiseimpftabelle 2026: keine allgemeine Hepatitis-A-Reiseimpfempfehlung für dieses Land. Das Auswärtige Amt empfiehlt Hepatitis A abweichend; persönliche Indikationen, konkrete Exposition und aktuelle Ausbrüche gesondert ärztlich prüfen."
+          "Naturaufenthalte im Norden: FSME bei besonderer Zeckenexposition prüfen.",
+          "Landwirtschaftliche Aufenthalte: konsequenter Mückenschutz."
         ]
       },
       "malariaAssessment": {
@@ -2227,7 +2264,12 @@
           "recordedAt": "2026-11-15",
           "statement": "Die vier Länder können genauso übernommen werden. – Interpretation im Chat bestätigt: exakt.",
           "scope": "Corrected ES IT GR PT packages and source-based regional notices; existing source expiry dates remain binding."
-        }
+        },
+        "detailedRouteEvidence": [
+          "Bei längerem Aufenthalt oder besonderer Exposition Hepatitis B und FSME individuell prüfen. Region, Saison und Naturkontakte berücksichtigen.",
+          "Touristische Reiseziele und landwirtschaftliche Aufenthalte unterscheiden. Keine routinemäßige Malariachemoprophylaxe; konsequenter Mückenschutz auch wegen West-Nil-Fieber.",
+          "Impfzuordnung nach STIKO-Reiseimpftabelle 2026: keine allgemeine Hepatitis-A-Reiseimpfempfehlung für dieses Land. Das Auswärtige Amt empfiehlt Hepatitis A abweichend; persönliche Indikationen, konkrete Exposition und aktuelle Ausbrüche gesondert ärztlich prüfen."
+        ]
       },
       "publicationAllowed": true,
       "routeAssessment": {
@@ -2306,9 +2348,7 @@
           "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgeschrieben."
         ],
         "routeDependent": [
-          "Festland, Madeira und Azoren unterscheiden. Madeira ist wegen möglicher Dengueexposition besonders zu berücksichtigen; keine pauschale Dengueimpfung für alle Portugalreisen.",
-          "Bei längerem Aufenthalt oder besonderer Exposition zusätzliche Impfungen nach STIKO individuell prüfen. Eine Dengueimpfung erfordert insbesondere die Prüfung einer gesicherten früheren Dengueinfektion.",
-          "Impfzuordnung nach STIKO-Reiseimpftabelle 2026: keine allgemeine Hepatitis-A-Reiseimpfempfehlung für dieses Land. Das Auswärtige Amt empfiehlt Hepatitis A abweichend; persönliche Indikationen, konkrete Exposition und aktuelle Ausbrüche gesondert ärztlich prüfen."
+          "Madeira: Dengue-Exposition berücksichtigen; Impfung nur bei individueller STIKO-Indikation."
         ]
       },
       "malariaAssessment": {
@@ -2406,7 +2446,12 @@
           "recordedAt": "2026-11-15",
           "statement": "Die vier Länder können genauso übernommen werden. – Interpretation im Chat bestätigt: exakt.",
           "scope": "Corrected ES IT GR PT packages and source-based regional notices; existing source expiry dates remain binding."
-        }
+        },
+        "detailedRouteEvidence": [
+          "Festland, Madeira und Azoren unterscheiden. Madeira ist wegen möglicher Dengueexposition besonders zu berücksichtigen; keine pauschale Dengueimpfung für alle Portugalreisen.",
+          "Bei längerem Aufenthalt oder besonderer Exposition zusätzliche Impfungen nach STIKO individuell prüfen. Eine Dengueimpfung erfordert insbesondere die Prüfung einer gesicherten früheren Dengueinfektion.",
+          "Impfzuordnung nach STIKO-Reiseimpftabelle 2026: keine allgemeine Hepatitis-A-Reiseimpfempfehlung für dieses Land. Das Auswärtige Amt empfiehlt Hepatitis A abweichend; persönliche Indikationen, konkrete Exposition und aktuelle Ausbrüche gesondert ärztlich prüfen."
+        ]
       },
       "publicationAllowed": true,
       "routeAssessment": {
@@ -2424,6 +2469,659 @@
         "sourceUrls": [
           "https://www.auswaertiges-amt.de/de/reiseundsicherheit/portugalsicherheit-210900",
           "https://www.cdc.gov/malaria/travelers/country_table/p.html"
+        ],
+        "otherRegionalFactors": []
+      }
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independently researched next country package; no legacy clinical import",
+        "originalCheckedDate": "2026-11-15",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Japanische Enzephalitis",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Direkte Einreise aus Deutschland: keine Pflichtimpfungen."
+        ],
+        "routeDependent": [
+          "Gelbfiebergebiet als Voraufenthalt oder Transit >12 Stunden: Nachweis ab 9 Monaten.",
+          "Ländliches Tiefland, besonders November–Februar: Japanische Enzephalitis prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Keine routinemäßige Malariaprophylaxe. Tagsüber Mückenschutz wegen Dengue.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/srilankasicherheit-212254",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/sri-lanka",
+            "use": "external_link_only"
+          },
+          {
+            "label": "WHO",
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Colombo",
+            "address": "40 Alfred House Avenue, Colombo 3, Sri Lanka",
+            "phone": "+94 11 258 04 31",
+            "emergency": "+94 77 734 42 83",
+            "scope": "Sri Lanka und Malediven. Konsularabteilung: 43 Temple Lane, Colombo 3. Notdienst Mo–Fr 15:30–22:00, Wochenende 08:00–22:00 Ortszeit.",
+            "url": "https://colombo.diplo.de/lk-de/ueber-uns/1437792-1437792"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/srilankasicherheit-212254",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/srilankasicherheit-212254",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/sri-lanka",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+          "https://colombo.diplo.de/lk-de/ueber-uns/1437792-1437792",
+          "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/srilankasicherheit-212254",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/sri-lanka",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://colombo.diplo.de/lk-de/ueber-uns/1437792-1437792",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Impfzuordnung aus STIKO-Tabelle. Bei Chikungunya und Dengue gelten die STIKO-Indikationen, keine pauschale Impfung.",
+          "WHO bestätigt Sri Lanka seit 2016 als malariafrei. JE-Saison und Bergregionen nach RKI; AA nennt enger November/Dezember und unter 1.000 m."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Länderfreigabe ausstehend; bis dahin keine klinischen Patientenempfehlungen.",
+        "regionalReview": [
+          "Colombo (Stadt): Colombo: keine routinemäßige Malariaprophylaxe. Tagsüber Mückenschutz; bei reiner kurzer Städtereise keine routinemäßige JE-Impfung.",
+          "Sri Lanka – ländliches Tiefland: Ländliches Tiefland: JE-Impfung nach Dauer und Exposition prüfen, besonders November–Februar. Keine routinemäßige Malariaprophylaxe.",
+          "Sri Lanka – Bergland: Bergland: keine routinemäßige Malariaprophylaxe. Tieflandetappen der Rundreise für JE und Mückenschutz zusätzlich erfassen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-15"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "other"
+        ],
+        "regionIds": [
+          "LK-COLOMBO",
+          "LK-LOWLAND",
+          "LK-HIGHLAND"
+        ],
+        "reason": "JE-Exposition unterscheidet sich nach Stadt-, Tiefland- und Bergreise; keine Malariarisikokarte erforderlich.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/srilankasicherheit-212254",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/sri-lanka",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": []
+      }
+    },
+    "NP": {
+      "name": "Nepal",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independently researched next country package; no legacy clinical import",
+        "originalCheckedDate": "2026-11-15",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A",
+          "Typhus"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Japanische Enzephalitis",
+          "Tollwut"
+        ],
+        "entryRequirements": [
+          "Direkte Einreise aus Deutschland: keine Pflichtimpfungen."
+        ],
+        "routeDependent": [
+          "Gelbfiebergebiet als Voraufenthalt/Transit >12 Stunden: Nachweis ab 9 Monaten; Polionachweis je nach Herkunftsland prüfen.",
+          "Terai und westliche Tieflandrouten getrennt von Kathmandu/Pokhara erfassen.",
+          "Trekking über 2.500 m: Akklimatisation und erreichbare medizinische Hilfe einplanen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Kathmandu und Pokhara",
+          "Sudurpaschim/Karnali unter 2.000 m",
+          "Übriger Terai einschließlich Chitwan",
+          "Himalaya-Route mit An-/Abreise"
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Kathmandu/Pokhara: keine routinemäßige Prophylaxe. Westliche Tieflandgebiete und weitere Terai-Etappen getrennt beraten.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/nepalsicherheit-221216",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://www.cdc.gov/yellow-book/hcp/asia/nepal.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Kathmandu",
+            "address": "Gyaneshwor Marg 690, Kathmandu, Nepal",
+            "phone": "+977 1 421 72 00",
+            "emergency": "+977 9851137943",
+            "scope": "Nepal. Notdienst nur für dringende Notfälle.",
+            "url": "https://kathmandu.diplo.de/"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/nepalsicherheit-221216",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/nepalsicherheit-221216",
+          "https://www.cdc.gov/yellow-book/hcp/asia/nepal.html",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+          "https://kathmandu.diplo.de/"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/nepalsicherheit-221216",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/yellow-book/hcp/asia/nepal.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://kathmandu.diplo.de/",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "AA beschreibt geringes Risiko bis 2.500 m; CDC empfiehlt Chemoprophylaxe unter 2.000 m in Sudurpaschim/Karnali, sonst üblicherweise Mückenschutz. Kein automatischer Arzneiplan bei Quellenabweichung.",
+          "STIKO: Hepatitis A und Typhus für alle Reisenden; weitere Impfungen expositionsabhängig. Höhenreise inklusive Tieflandetappen erfassen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Länderfreigabe ausstehend; bis dahin keine klinischen Patientenempfehlungen.",
+        "regionalReview": [
+          "Kathmandu (Stadt): Kathmandu: keine routinemäßige Malariaprophylaxe. Tagsüber Mückenschutz gegen Dengue.",
+          "Pokhara (Stadt): Pokhara: keine routinemäßige Malariaprophylaxe. Weitere Tieflandetappen gesondert erfassen.",
+          "Sudurpaschim / Karnali unter 2.000 m: Westliche Tieflandroute: CDC empfiehlt Malariaprophylaxe; AA beschreibt geringes Risiko. Prävention anhand der genauen Etappen ärztlich festlegen.",
+          "Übriger Terai / Chitwan / Bardia: Terai: Mückenschutz; genaue Orte und Höhen erfassen. Westliche Etappen in Sudurpaschim/Karnali gesondert zur Malariaprophylaxe beraten.",
+          "Nepal – Himalaya mit An-/Abreise: Himalaya: Höhenkrankheit und Rettungszugang einplanen. Für Malaria auch alle Tieflandetappen der An-/Abreise berücksichtigen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-15"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria",
+          "other"
+        ],
+        "regionIds": [
+          "NP-KATHMANDU",
+          "NP-POKHARA",
+          "NP-WEST-LOW",
+          "NP-TERAI",
+          "NP-HIMALAYA"
+        ],
+        "reason": "Malariaprävention hängt von Insel, Höhenlage und konkreten Etappen ab; regionale Auswahl erforderlich.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/nepalsicherheit-221216",
+          "https://www.cdc.gov/yellow-book/hcp/asia/nepal.html",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": [
+          "Höhenkrankheit und Rettungszugang"
+        ]
+      }
+    },
+    "MY": {
+      "name": "Malaysia",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independently researched next country package; no legacy clinical import",
+        "originalCheckedDate": "2026-11-15",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Japanische Enzephalitis",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Direkte Einreise aus Deutschland: keine Pflichtimpfungen."
+        ],
+        "routeDependent": [
+          "Gelbfiebergebiet als Voraufenthalt/Transit >12 Stunden: Nachweis ab 1 Jahr prüfen.",
+          "Borneo und ländliche Waldetappen getrennt von Kuala Lumpur/Penang erfassen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Kuala Lumpur",
+          "Penang / George Town",
+          "Borneo: ländliche Waldgebiete",
+          "Halbinsel: ländliche Waldgebiete"
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Kuala Lumpur/Penang: keine routinemäßige Prophylaxe. Ländliche Waldgebiete: P.-knowlesi-Risiko; konkrete Route und Prävention ärztlich klären.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/malaysiasicherheit-223616",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/malaysia",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Kuala Lumpur",
+            "address": "26th Floor, Menara Tan & Tan, 207 Jalan Tun Razak, 50400 Kuala Lumpur, Malaysia",
+            "phone": "+60 3 2170 9666",
+            "emergency": "+60 12 326 9070",
+            "scope": "Malaysia; konsularisch auch Brunei. Notdienst außerhalb der Bürozeiten bis 24:00, Wochenende/Feiertage 08:00–24:00 Ortszeit.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/malaysia-223620"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/malaysiasicherheit-223616",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/malaysiasicherheit-223616",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/malaysia",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/malaysia-223620"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/malaysiasicherheit-223616",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/malaysia",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/malaysia-223620",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "AA: Borneo mittleres, Festland geringes Risiko mit Notfalltherapie-Abwägung bei abgelegener Route; CDC: Chemoprophylaxe in ländlichen Waldgebieten. Als Quellenabweichung ausweisen.",
+          "STIKO-Impfungen übernommen; für Chikungunya/Dengue gelten spezifische persönliche Voraussetzungen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Länderfreigabe ausstehend; bis dahin keine klinischen Patientenempfehlungen.",
+        "regionalReview": [
+          "Kuala Lumpur (Stadt): Kuala Lumpur: keine routinemäßige Malariaprophylaxe. Wald- und Borneoetappen gesondert erfassen.",
+          "Penang / George Town: Penang/George Town: keine routinemäßige Malariaprophylaxe nach CDC. Mückenschutz bleibt wichtig.",
+          "Borneo – ländliche Waldgebiete: Borneo-Waldroute: P.-knowlesi-Risiko. CDC empfiehlt Prophylaxe; AA berücksichtigt bei abgelegener Route eine Notfalltherapie. Konkrete Etappen ärztlich beraten.",
+          "Halbinsel Malaysia – ländliche Waldgebiete: Waldroute auf der Halbinsel: CDC empfiehlt Malariaprophylaxe; AA beschreibt geringes Risiko. Prävention für die konkrete Route ärztlich festlegen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-15"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria"
+        ],
+        "regionIds": [
+          "MY-KL",
+          "MY-PENANG",
+          "MY-BORNEO-FOREST",
+          "MY-PENINSULA-FOREST"
+        ],
+        "reason": "Malariaprävention hängt von Insel, Höhenlage und konkreten Etappen ab; regionale Auswahl erforderlich.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/malaysiasicherheit-223616",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/malaysia",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": []
+      }
+    },
+    "PH": {
+      "name": "Philippinen",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independently researched next country package; no legacy clinical import",
+        "originalCheckedDate": "2026-11-15",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Japanische Enzephalitis",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Direkte Einreise aus Deutschland: keine Pflichtimpfungen."
+        ],
+        "routeDependent": [
+          "Gelbfiebergebiet oder Transit >12 Stunden: Nachweis prüfen (Altersgrenze 9/12 Monate je nach Quelle). Polionachweise bei Einreise aus Risikoländern prüfen.",
+          "Palawan nach Nord/Mitte/Süd und Mindanao gesondert erfassen.",
+          "Tierkontakt: sofort verlässliche Versorgung aufsuchen; Warnung vor gefälschten Tollwutpräparaten beachten."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Palawan Nord, Mitte und Süd",
+          "Mindanao",
+          "Manila",
+          "Cebu"
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Südpalawan: Malariaprophylaxe ärztlich prüfen. Nord-/Mittelpalawan, Mindanao und weitere Inseln: genaue Route erforderlich; Quellenabweichungen beachten.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/philippinensicherheit-212492",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/philippines",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Manila",
+            "address": "25/F Tower 2, RCBC Plaza, 6819 Ayala Avenue, 1200 Makati City, Metro Manila, Philippinen",
+            "phone": "+63 2 8702 3000",
+            "emergency": "+63 917 867 3000",
+            "scope": "Philippinen sowie weitere pazifische Amtsbezirke laut Originalseite. Notdienst außerhalb der Öffnungszeiten bis 00:00, Wochenende/Feiertage 08:00–00:00 Ortszeit.",
+            "url": "https://manila.diplo.de/ph-de/01-botschaft/botschaft"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/philippinensicherheit-212492",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/philippinensicherheit-212492",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/philippines",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+          "https://manila.diplo.de/ph-de/01-botschaft/botschaft"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/philippinensicherheit-212492",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/philippines",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://manila.diplo.de/ph-de/01-botschaft/botschaft",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "AA differenziert Palawan Nord/Mitte/Süd und weitere Inseln. CDC empfiehlt Chemoprophylaxe für Palawan und die Mindanao-Inselgruppe; Manila und urbane Gebiete ohne Übertragung. Unterschiede nicht zu einer einheitlichen Niedrigrisikostufe glätten.",
+          "Gelbfieber-Einreisealter: AA 1 Jahr; RKI/CDC 9 Monate. Polio-Nachweise bei Herkunft aus Hochrisikoländern laut RKI zusätzlich prüfen.",
+          "CDC verweist auf gefälschte Tollwutimpfstoffe/Antiserum. Nach Tierkontakt sichere Postexpositionsversorgung erforderlich; Vorimpfung ersetzt sie nicht."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Länderfreigabe ausstehend; bis dahin keine klinischen Patientenempfehlungen.",
+        "regionalReview": [
+          "Manila (Stadtgebiet): Manila: keine routinemäßige Malariaprophylaxe. Insel- und Landetappen gesondert erfassen.",
+          "Cebu (Insel): Cebu: AA nennt geringes Malariarisiko, CDC erfasst Cebu nicht als Übertragungsgebiet. Für Ausflüge und weitere Inseln genaue Route prüfen.",
+          "Palawan – Norden: Nordpalawan: AA beschreibt geringes Risiko, CDC empfiehlt für Palawan Prophylaxe. Genaue Route ärztlich abgleichen.",
+          "Palawan – mittlerer Abschnitt: Mittelpalawan: AA berücksichtigt bei abgelegener Reise eine Notfalltherapie, CDC empfiehlt Prophylaxe. Etappen und erreichbare Versorgung ärztlich bewerten.",
+          "Palawan – Süden: Südpalawan: zusätzlich zum Mückenschutz Malariaprophylaxe ärztlich auswählen.",
+          "Mindanao / südliche Inselgruppe: Mindanao: CDC empfiehlt Malariaprophylaxe; AA stuft viele Gebiete niedriger ein. Orte, Übernachtungen und Versorgungszugang ärztlich abgleichen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-15"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria"
+        ],
+        "regionIds": [
+          "PH-MANILA",
+          "PH-CEBU",
+          "PH-PALAWAN-N",
+          "PH-PALAWAN-C",
+          "PH-PALAWAN-S",
+          "PH-MINDANAO"
+        ],
+        "reason": "Malariaprävention hängt von Insel, Höhenlage und konkreten Etappen ab; regionale Auswahl erforderlich.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/philippinensicherheit-212492",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/philippines",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
         ],
         "otherRegionalFactors": []
       }
