@@ -60,7 +60,7 @@ class RegionSafetyTests(unittest.TestCase):
 
     def test_expired_region_never_provides_medical_advice(self):
         d=copy.deepcopy(self.r); self.approve(d["regions"][0])
-        r=d["regions"][0];r["clinicalReview"]["nextReviewDate"]="2026-11-14"
+        r=d["regions"][0];r["clinicalReview"]["reviewedAt"]="2026-10-15";r["clinicalReview"]["nextReviewDate"]="2026-11-14"
         out=self.published(d)
         self.assertEqual(out["regionalApprovedCount"],0)
         self.assertNotIn("malaria",out["regions"][0])
