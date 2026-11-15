@@ -9,6 +9,7 @@ on:
       - 'refresh_international_alerts.py'
       - 'country_profiles_v1.json'
       - 'development/v16/**'
+      - 'website/**'
       - '.github/workflows/v16-qa.yml'
       - 'index.html'
       - '.github/workflows/aktualisierung.yml'
@@ -57,6 +58,7 @@ jobs:
           mkdir -p _site
           cp index.html public_international_alerts.json country_profiles_v1.json _site/
           cp development/v16/reisecheck_v16_vorschau.html _site/reisecheck-v16-vorschau.html
+          cp website/ReiseCheck_Jimdo_V16.html _site/reisecheck-v16-jimdo-test.html
 
       - name: GitHub Pages konfigurieren
         uses: actions/configure-pages@v5
