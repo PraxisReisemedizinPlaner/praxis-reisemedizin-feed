@@ -291,11 +291,36 @@
     "TZ": {
       "name": "Tansania",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "approvedSources": [],
-        "nextReviewDate": null
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tansaniasicherheit-208662",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tanzania",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://daressalam.diplo.de/tz-de/ueber-uns/1802966-1802966",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "ReiseCheck_Jimdo_V15.html / STARTER (unverified previous draft)",
@@ -316,7 +341,7 @@
         "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A",
           "Poliomyelitis"
@@ -338,7 +363,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "chemoprophylaxis_consider",
         "regions": [
@@ -366,7 +391,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Daressalam",
@@ -382,7 +407,7 @@
         "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tansaniasicherheit-208662",
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-15",
         "researchReady": true,
         "proposedNextReviewDate": "2027-01-15",
         "evidenceLinks": [
@@ -422,18 +447,44 @@
             "use": "external_link_only"
           }
         ],
-        "warning": "Quellenabgeglichener Freigabeentwurf; ärztlicher Länderentscheid steht aus. Keine Veröffentlichung als Patientenempfehlung vor Freigabe."
+        "warning": "Am 15.11.2026 ausdrücklich durch Dr. med. Sebastian Münster als Länderpaket medizinisch freigegeben; einschließlich dokumentierter Quellenabweichungen und Routenhinweise.",
+        "approvalRecord": "Ausdrückliche Bestätigung im Chat: Alle vier Länderpakete können freigegeben werden."
       },
-      "publicationAllowed": false
+      "publicationAllowed": true
     },
     "KE": {
       "name": "Kenia",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "approvedSources": [],
-        "nextReviewDate": null
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/keniasicherheit-208058",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kenya",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://nairobi.diplo.de/ke-de/ueber-uns/adressenairobi-1510552",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "ReiseCheck_Jimdo_V15.html / STARTER (unverified previous draft)",
@@ -454,7 +505,7 @@
         "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A",
           "Poliomyelitis"
@@ -478,7 +529,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -507,7 +558,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Nairobi",
@@ -523,7 +574,7 @@
         "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/keniasicherheit-208058",
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-15",
         "researchReady": true,
         "proposedNextReviewDate": "2027-01-15",
         "evidenceLinks": [
@@ -563,18 +614,44 @@
             "use": "external_link_only"
           }
         ],
-        "warning": "Quellenabgeglichener Freigabeentwurf; ärztlicher Länderentscheid steht aus. Keine Veröffentlichung als Patientenempfehlung vor Freigabe."
+        "warning": "Am 15.11.2026 ausdrücklich durch Dr. med. Sebastian Münster als Länderpaket medizinisch freigegeben; einschließlich dokumentierter Quellenabweichungen und Routenhinweise.",
+        "approvalRecord": "Ausdrückliche Bestätigung im Chat: Alle vier Länderpakete können freigegeben werden."
       },
-      "publicationAllowed": false
+      "publicationAllowed": true
     },
     "VN": {
       "name": "Vietnam",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "approvedSources": [],
-        "nextReviewDate": null
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vietnamsicherheit-217274",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://vietnam.diplo.de/vn-de/ueber-uns/botschaft",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "ReiseCheck_Jimdo_V15.html / STARTER (unverified previous draft)",
@@ -594,7 +671,7 @@
         "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -613,7 +690,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -642,7 +719,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Hanoi",
@@ -658,7 +735,7 @@
         "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vietnamsicherheit-217274",
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-15",
         "researchReady": true,
         "proposedNextReviewDate": "2027-01-15",
         "evidenceLinks": [
@@ -698,18 +775,44 @@
             "use": "external_link_only"
           }
         ],
-        "warning": "Quellenabgeglichener Freigabeentwurf; ärztlicher Länderentscheid steht aus. Keine Veröffentlichung als Patientenempfehlung vor Freigabe."
+        "warning": "Am 15.11.2026 ausdrücklich durch Dr. med. Sebastian Münster als Länderpaket medizinisch freigegeben; einschließlich dokumentierter Quellenabweichungen und Routenhinweise.",
+        "approvalRecord": "Ausdrückliche Bestätigung im Chat: Alle vier Länderpakete können freigegeben werden."
       },
-      "publicationAllowed": false
+      "publicationAllowed": true
     },
     "IN": {
       "name": "Indien",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "approvedSources": [],
-        "nextReviewDate": null
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://india.diplo.de/in-de/ueber-uns/neudelhi/1803534-1803534",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "ReiseCheck_Jimdo_V15.html / STARTER (unverified previous draft)",
@@ -729,7 +832,7 @@
         "important": "Legacy suggestions only; not for publication, patient decision or automatic recommendations"
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A",
           "Typhus"
@@ -751,7 +854,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -780,7 +883,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Neu-Delhi",
@@ -796,7 +899,7 @@
         "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-15",
         "researchReady": true,
         "proposedNextReviewDate": "2027-01-15",
         "evidenceLinks": [
@@ -836,9 +939,10 @@
             "use": "external_link_only"
           }
         ],
-        "warning": "Quellenabgeglichener Freigabeentwurf; ärztlicher Länderentscheid steht aus. Keine Veröffentlichung als Patientenempfehlung vor Freigabe."
+        "warning": "Am 15.11.2026 ausdrücklich durch Dr. med. Sebastian Münster als Länderpaket medizinisch freigegeben; einschließlich dokumentierter Quellenabweichungen und Routenhinweise.",
+        "approvalRecord": "Ausdrückliche Bestätigung im Chat: Alle vier Länderpakete können freigegeben werden."
       },
-      "publicationAllowed": false
+      "publicationAllowed": true
     },
     "EG": {
       "name": "Ägypten",

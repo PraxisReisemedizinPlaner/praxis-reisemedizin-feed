@@ -1,10 +1,10 @@
 # Länderpaket Tansania · Kenia · Vietnam · Indien
 
-Quellenabgleich: 15.11.2026. **Ärztliche Länderfreigabe ausstehend.** Die vier Datensätze sind vollständig vorbereitet, aber `medicalReview.status=pending` und `publicationAllowed=false` bleiben bis zur ärztlichen Entscheidung bestehen. Bisher freigegebene sechs Länder bleiben unverändert.
+Quellenabgleich: 15.11.2026. **Am 15.11.2026 ausdrücklich ärztlich freigegeben durch Dr. med. Sebastian Münster.** Die Bestätigung „Alle vier Länderpakete können freigegeben werden“ umfasst Tansania, Kenia, Vietnam und Indien. `medicalReview.status=approved`, alle drei Abschnittsstatus `approved`, `publicationAllowed=true`. Damit sind zehn Länder freigegeben; die vorherigen sechs Länderprofile bleiben unverändert.
 
 [Gemeinsame Prüfvorschau](https://praxisreisemedizinplaner.github.io/praxis-reisemedizin-feed/reisecheck-laender-pruefung.html)
 
-Freigabeumfang pro Land: alle nachstehenden Impf-, Einreise-, Malaria- und Kontaktangaben einschließlich der sichtbaren Quellenabweichungen. Keine gesonderte ärztliche Ortsfreigabe erforderlich; regionale Angaben folgen dem Länderpaketmodell. Nächste Länderprüfung vorgeschlagen: 15.01.2027.
+Freigabeumfang pro Land: alle nachstehenden Impf-, Einreise-, Malaria- und Kontaktangaben einschließlich der sichtbaren Quellenabweichungen. Keine gesonderte ärztliche Ortsfreigabe erforderlich; regionale Angaben folgen dem Länderpaketmodell. Nächste Länderprüfung: 15.01.2027.
 
 STIKO-Standardimpfungen werden im Widget zusätzlich angezeigt. Dengue und Chikungunya bleiben indikationsabhängig; Alter, Kontraindikationen, frühere Dengueinfektion und aktuelle Fachinformation sind zu berücksichtigen. Impfstoffnamen und Impfschemata kommen aus der bestehenden gemeinsamen Widgetlogik; dieses Paket enthält keine neue pauschale Verordnung. Keine konkrete automatische Malariamedikamentenauswahl oder Dosierung.
 

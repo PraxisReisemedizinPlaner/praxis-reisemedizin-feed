@@ -10,8 +10,8 @@ from export_public_v16 import build_public
 
 HERE = Path(__file__).resolve().parent
 TODAY = date(2026, 11, 15)
-APPROVED = {"MA", "AT", "TH", "ID", "EG", "TR"}
-PENDING = {"TZ", "KE", "VN", "IN"}
+APPROVED = {"MA", "AT", "TH", "ID", "EG", "TR", "TZ", "KE", "VN", "IN"}
+PENDING = set()
 
 
 class PublishingSafetyTests(unittest.TestCase):
@@ -23,7 +23,7 @@ class PublishingSafetyTests(unittest.TestCase):
     def test_only_reviewed_countries_are_exported(self):
         out = build_public(copy.deepcopy(self.draft), TODAY)
         self.assertEqual(out["coverageCount"], 10)
-        self.assertEqual(out["approvedCount"], 6)
+        self.assertEqual(out["approvedCount"], 10)
         self.assertEqual(set(out["countries"]), APPROVED)
         self.assertEqual(set(out["coverage"]), APPROVED | PENDING)
         self.assertTrue(all(out["coverage"][code]["status"] == "medical_review_required"
@@ -51,17 +51,20 @@ class PublishingSafetyTests(unittest.TestCase):
 
     def test_pending_country_cannot_be_published_by_flag_alone(self):
         data = copy.deepcopy(self.draft)
+        data["countries"]["TZ"]["medicalReview"]["status"] = "pending"
         data["countries"]["TZ"]["publicationAllowed"] = True
         with self.assertRaises(ValueError):
             build_public(data, TODAY)
 
     def test_unapproved_country_not_leaked_if_notes_added(self):
         data = copy.deepcopy(self.draft)
+        data["countries"]["TZ"]["medicalReview"]["status"] = "pending"
+        data["countries"]["TZ"]["publicationAllowed"] = False
         data["countries"]["TZ"]["vaccineAssessment"]["forAll"] = [
             "TEST – not reviewed"]
         out = build_public(data, TODAY)
         self.assertNotIn("TEST – not reviewed", json.dumps(out))
-        self.assertEqual(set(out["countries"]), APPROVED)
+        self.assertEqual(set(out["countries"]), APPROVED - {"TZ"})
 
     def test_expired_approval_is_omitted(self):
         data = copy.deepcopy(self.draft)
@@ -89,9 +92,10 @@ class PublishingSafetyTests(unittest.TestCase):
                 self.assertTrue(out["countries"][code]["missions"])
 
     def test_remaining_pending_drafts_cannot_be_released_by_flag_only(self):
-        for code in PENDING:
+        for code in ("TZ", "KE", "VN", "IN"):
             with self.subTest(code=code):
                 data = copy.deepcopy(self.draft)
+                data["countries"][code]["medicalReview"]["status"] = "pending"
                 data["countries"][code]["publicationAllowed"] = True
                 with self.assertRaises(ValueError):
                     build_public(data, TODAY)

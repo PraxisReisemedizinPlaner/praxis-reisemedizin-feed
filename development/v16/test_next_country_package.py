@@ -10,10 +10,23 @@ CODES={"TZ","KE","VN","IN"}
 class NextCountryPackageTests(unittest.TestCase):
     def setUp(self):
         self.data=json.loads((HERE/"country_profiles_draft_v16.json").read_text(encoding="utf-8"))
-    def test_prepared_countries_remain_unpublished(self):
+    def test_four_physician_approved_countries_are_published(self):
         public=build_public(self.data,date(2026,11,15))
+        self.assertEqual(public["approvedCount"],10)
         for code in CODES:
-            self.assertFalse(self.data["countries"][code]["publicationAllowed"])
+            p=self.data["countries"][code]
+            self.assertTrue(p["publicationAllowed"])
+            self.assertEqual(p["medicalReview"]["status"],"approved")
+            self.assertEqual(p["medicalReview"]["reviewer"],"Dr. med. Sebastian Münster")
+            self.assertEqual(p["medicalReview"]["reviewedAt"],"2026-11-15")
+            self.assertIn(code,public["countries"])
+            self.assertEqual(public["coverage"][code]["status"],"verified")
+    def test_withdrawn_country_package_is_not_published(self):
+        for code in CODES:
+            data=copy.deepcopy(self.data)
+            data["countries"][code]["publicationAllowed"]=False
+            data["countries"][code]["medicalReview"]["status"]="pending"
+            public=build_public(data,date(2026,11,15))
             self.assertNotIn(code,public["countries"])
             self.assertEqual(public["coverage"][code]["status"],"medical_review_required")
     def test_draft_completeness_and_simulated_release(self):

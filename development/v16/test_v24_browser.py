@@ -16,7 +16,7 @@ PACKAGES=json.loads((HERE/"region_source_packages_v2.json").read_text(encoding="
 regions=build_public_regions(REGION,COUNTRIES,PACKAGES,date(2026,11,15))
 countries=build_countries(COUNTRIES,date(2026,11,15))
 assert regions["sourceBasedCount"] == 7
-assert countries["approvedCount"] == 6
+assert countries["approvedCount"] == 10
 
 def intercept(route):
     url=route.request.url
