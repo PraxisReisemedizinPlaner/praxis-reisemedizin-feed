@@ -32,6 +32,8 @@ jobs:
         run: python development/v16/validate_jimdo_v20.py
       - name: Jimdo V21 Icons und Quellen pruefen
         run: python development/v16/validate_jimdo_v21.py
+      - name: Jimdo V22 Wellensymbol pruefen
+        run: python development/v16/validate_jimdo_v22.py
       - name: V16 Struktur und Sperren pruefen
         run: python development/v16/validate_v16.py
       - name: Automatische Sicherheitstests ausfuehren
