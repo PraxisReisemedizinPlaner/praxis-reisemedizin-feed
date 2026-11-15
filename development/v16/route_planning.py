@@ -1,7 +1,7 @@
 """Every country package must explicitly assess regional route differences."""
 from datetime import date
 from urllib.parse import urlparse
-ALLOWED_TOPICS={"malaria","dengue","yellow_fever","tick_borne","other"}
+ALLOWED_TOPICS={"malaria","dengue","yellow_fever","tick_borne","chikungunya","other"}
 def validate_route_assessment(code,profile,geography=None,sources=None):
     a=profile.get("routeAssessment")
     if not isinstance(a,dict): raise ValueError(code+": regional route assessment missing")

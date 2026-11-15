@@ -1,4 +1,4 @@
-<!-- Praxis Dr. Münster: Reisemedizin-Check | Jimdo Creator Widget/HTML | V24.4 (15.11.2026; einheitliche Klick-Mehrfachauswahl für Regionen, Reiseart, Reisegrund und Aktivitäten, Länderpaket mit quellenbasierten Regionalinformationen; Wellen- und Bergsymbol, Quellen im Abschlussbereich; Reisearten und Reisegründe mehrfach auswählbar, Hinweise zur Höhenkrankheit) -->
+<!-- Praxis Dr. Münster: Reisemedizin-Check | Jimdo Creator Widget/HTML | V24.5 (15.11.2026; einheitliche Klick-Mehrfachauswahl für Regionen, Reiseart, Reisegrund und Aktivitäten, Länderpaket mit quellenbasierten Regionalinformationen; Wellen- und Bergsymbol, Quellen im Abschlussbereich; Reisearten und Reisegründe mehrfach auswählbar, Hinweise zur Höhenkrankheit) -->
 <div class="rm-tool" id="rm-tool" style="--rm-blue:#6592A7;--rm-deep:#234556;--rm-line:#d8e4e9;--rm-ink:#243b46;--rm-muted:#566c75;font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;font-size:15px;line-height:1.5;color:#243b46;width:100%;max-width:950px;margin:0 auto;box-sizing:border-box">
 <style>
     #rm-tool{--rm-blue:#6592A7;--rm-deep:#234556;--rm-fog:#eef5f7;--rm-line:#d8e4e9;--rm-ink:#243b46;--rm-muted:#566c75;--rm-good:#eef8f3;--rm-attn:#fff3df;--rm-red:#fff1ef;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--rm-ink);font-size:15px;line-height:1.5;width:100%;max-width:950px;margin:0 auto}
@@ -558,7 +558,7 @@
     function renderRegionalRisk(){
       const raw=$('rm-region').value.trim();
       if(!regionPicks.length&&!raw)return '';
-      const content=['<section class="rm-region-risk"><h4>'+icon('pin')+'Bereiste Orte und regionale Malariaeinordnung</h4>'];
+      const content=['<section class="rm-region-risk"><h4>'+icon('pin')+'Bereiste Orte und regionale Gesundheitshinweise</h4>'];
       content.push('<p class="rm-hint">Regionale Angaben beruhen auf den Quellen des freigegebenen Länderpakets. Quellenabweichungen und unklare Reiserouten werden ausdrücklich gekennzeichnet.</p>');
       for(const r of regionPicks){
         const country=selected.find(x=>x.c===r.country)?.n||r.country;
@@ -827,17 +827,6 @@
     }
     function unifiedVaccines(){
       const m=new Map();const missing=[];
-      // Basisschutz gemaess STIKO ist nicht an ein bestimmtes Reiseland gebunden.
-      // Den Hinweis auch dann anzeigen, wenn einzelne Laenderprofile noch ungeprueft sind.
-      if(selected.length){
-        m.set(clean('STIKO-Standardimpfungen'),{
-          name:'STIKO-Standardimpfungen',
-          scheme:null,
-          general:new Set(selected.map(e=>e.n)),
-          risk:new Set(),
-          notes:new Set(['Unabhängig vom Reiseziel: alters- und indikationsgerechten Impfstatus nach STIKO prüfen, insbesondere den Masernschutz. Die STIKO-Empfehlungen richten sich nach Alter und individuellen Risiken.'])
-        });
-      }
       for(const e of selected){
         const p=profiles[e.c];
         const usable=profileFresh(p);
@@ -865,7 +854,8 @@
     }
     function renderSharedVaccinations(){
       const {entries,missing}=unifiedVaccines();
-      const h=['<section class="rm-shared-vax" aria-labelledby="rm-vax-title"><h4 id="rm-vax-title">'+icon('vaccine')+'Impfempfehlungen für deine gesamte Reise</h4>'];
+      const standard=selected.length?'<section class="rm-shared-vax rm-standard-vax" aria-labelledby="rm-standard-title" style="width:100%;box-sizing:border-box;grid-column:1 / -1"><h4 id="rm-standard-title">'+icon('vaccine')+'STIKO-Standardimpfungen</h4><p>Unabhängig vom Reiseziel: alters- und indikationsgerechten Impfstatus nach STIKO prüfen, insbesondere den Masernschutz. Die STIKO-Empfehlungen richten sich nach Alter und individuellen Risiken.</p></section>':'';
+      const h=[standard,'<section class="rm-shared-vax" aria-labelledby="rm-vax-title"><h4 id="rm-vax-title">'+icon('vaccine')+'Reisespezifische Impfempfehlungen für deine gesamte Reise</h4>'];
       h.push('<p class="rm-hint">Alle ausgewählten Länder werden gemeinsam berücksichtigt. Jede Impfung erscheint nur einmal; darunter steht, für welches Reiseziel sie genannt wird.</p>');
       if(entries.length){
         h.push('<div class="rm-vax-unique">');
@@ -882,7 +872,8 @@
           }else h.push('<div class="rm-scheme"><h5>'+escape(v.name)+'</h5>'+vaccineCountryLabels(v)+medicalNotes(v)+'<p class="rm-hint">Einzelheiten der Standard- und Indikationsimpfungen nach STIKO/Fachinformation prüfen.</p></div>');
         }
         h.push('</div></details>');
-      }else h.push('<p>Für diese Auswahl kann derzeit kein verlässlicher länderbezogener Impfplan aus den hinterlegten Profilen erstellt werden.</p>');
+      }else if(!selected.some(e=>profileFresh(profiles[e.c])))h.push('<p>Für diese Auswahl kann derzeit kein verlässlicher länderbezogener Impfplan aus den hinterlegten Profilen erstellt werden.</p>');
+      else h.push('<p>Für die freigegebenen Länder dieser Auswahl sind keine zusätzlichen Reiseimpfungen hinterlegt. Individuelle Indikationen und aktuelle Ausbruchsmeldungen bleiben zu prüfen.</p>');
       if(missing.length)h.push('<p class="rm-warningline"><strong>Keine ausreichenden Länderdaten für: '+escape(missing.join(', '))+'.</strong> Fehlende Länder dürfen nicht als impffrei interpretiert werden; bitte amtliche Länderinformationen prüfen.</p>');
       h.push('<p class="rm-hint">Unverbindliche Länderübersicht, keine individuelle Impfentscheidung. Impfpass, Alter und Kontraindikationen ärztlich prüfen.</p></section>');
       return h.join('');

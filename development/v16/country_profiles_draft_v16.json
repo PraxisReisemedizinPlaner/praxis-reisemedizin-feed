@@ -1678,15 +1678,16 @@
       },
       "vaccineAssessment": {
         "status": "prepared_for_review",
-        "forAll": [
-          "Hepatitis A"
+        "forAll": [],
+        "riskBased": [
+          "Hepatitis B bei individueller Indikation"
         ],
-        "riskBased": [],
         "entryRequirements": [
           "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgeschrieben."
         ],
         "routeDependent": [
-          "Vollständigen Polio- und STIKO-Standardimpfschutz prüfen. Saisonaler Mückenschutz bleibt wegen anderer Erkrankungen wichtig; keine pauschale Dengueimpfung für jede Spanienreise."
+          "Vollständigen Polio- und STIKO-Standardimpfschutz prüfen. Saisonaler Mückenschutz bleibt wegen anderer Erkrankungen wichtig; keine pauschale Dengueimpfung für jede Spanienreise.",
+          "Impfzuordnung nach STIKO-Reiseimpftabelle 2026: keine allgemeine Hepatitis-A-Reiseimpfempfehlung für dieses Land. Das Auswärtige Amt empfiehlt Hepatitis A abweichend; persönliche Indikationen, konkrete Exposition und aktuelle Ausbrüche gesondert ärztlich prüfen."
         ]
       },
       "malariaAssessment": {
@@ -1732,7 +1733,8 @@
           "https://www.auswaertiges-amt.de/de/reiseundsicherheit/spaniensicherheit-210534",
           "https://www.cdc.gov/malaria/travelers/country_table/s.html",
           "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
-          "https://spanien.diplo.de/es-de/ueber-uns/botschaft/1694640-1694640"
+          "https://spanien.diplo.de/es-de/ueber-uns/botschaft/1694640-1694640",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
         ],
         "proposedSources": [
           {
@@ -1758,13 +1760,26 @@
             "checkedAt": "2026-11-15",
             "reuseRightsChecked": true,
             "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
           }
         ],
         "researchNotes": [
-          "Vollständigen Polio- und STIKO-Standardimpfschutz prüfen. Saisonaler Mückenschutz bleibt wegen anderer Erkrankungen wichtig; keine pauschale Dengueimpfung für jede Spanienreise."
+          "Vollständigen Polio- und STIKO-Standardimpfschutz prüfen. Saisonaler Mückenschutz bleibt wegen anderer Erkrankungen wichtig; keine pauschale Dengueimpfung für jede Spanienreise.",
+          "Impfzuordnung nach STIKO-Reiseimpftabelle 2026: keine allgemeine Hepatitis-A-Reiseimpfempfehlung für dieses Land. Das Auswärtige Amt empfiehlt Hepatitis A abweichend; persönliche Indikationen, konkrete Exposition und aktuelle Ausbrüche gesondert ärztlich prüfen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus; keine Patientenveröffentlichung vor dieser Entscheidung."
+        "warning": "Ärztliche Länderfreigabe steht aus; keine Patientenveröffentlichung vor dieser Entscheidung.",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-15",
+          "sourceDifference": "AA nennt Hepatitis A als Reiseimpfung; diese Aussage wird nicht als allgemeine STIKO-Empfehlung ausgegeben."
+        }
       },
       "publicationAllowed": false,
       "routeAssessment": {
@@ -1798,15 +1813,16 @@
         "status": "prepared_for_review",
         "forAll": [],
         "riskBased": [
-          "Hepatitis A bei individueller Indikation",
-          "Hepatitis B bei individueller Indikation"
+          "Hepatitis B bei individueller Indikation",
+          "FSME bei entsprechender Exposition in nordöstlichen Alpen- und Voralpengebieten"
         ],
         "entryRequirements": [
           "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgeschrieben."
         ],
         "routeDependent": [
-          "Hepatitis A und B nicht pauschal für jede Italienreise vorsehen, sondern anhand persönlicher Indikation prüfen. Saisonale Mücken- und Sandfliegenexposition berücksichtigen.",
-          "AA meldet 2026 erhöhte West-Nil-Fallzahlen. Mückenschutz ist auch ohne Malariarisiko sinnvoll; Chikungunya- und Dengueimpfungen sind für gewöhnliche Italienreisen in der Regel nicht erforderlich."
+          "Impfzuordnung nach STIKO-Reiseimpftabelle 2026: keine allgemeine Hepatitis-A-Reiseimpfempfehlung für dieses Land. Das Auswärtige Amt empfiehlt Hepatitis A abweichend; persönliche Indikationen, konkrete Exposition und aktuelle Ausbrüche gesondert ärztlich prüfen.",
+          "Italien regional erfassen: Chikungunya hängt vom aktuell betroffenen Ort und Reisezeitraum ab. Laut ECDC (Datenstand 11.11.2026) ist der 2026 gemeldete Cluster in Rom geschlossen. Ein historischer Ausbruch begründet keine aktuelle Impfempfehlung. Für eine Reise in ein Gebiet mit aktuellem Chikungunya-Ausbruch empfiehlt die STIKO die Impfung ab 12 Jahren; Impfstoffwahl und Kontraindikationen ärztlich prüfen. Vor Abreise aktuelle Meldungen erneut abgleichen.",
+          "FSME: Expositionsabhängige Impfindikation insbesondere in Venetien (Belluneser Alpen), Friaul-Julisch Venetien und Trentino-Südtirol prüfen; keine pauschale Empfehlung für ganz Italien."
         ]
       },
       "malariaAssessment": {
@@ -1852,7 +1868,11 @@
           "https://www.auswaertiges-amt.de/de/reiseundsicherheit/italiensicherheit-211322",
           "https://www.cdc.gov/malaria/travelers/country_table/i.html",
           "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
-          "https://italien.diplo.de/it-de/vertretungen/deutsche-botschaft-rom"
+          "https://italien.diplo.de/it-de/vertretungen/deutsche-botschaft-rom",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+          "https://www.ecdc.europa.eu/en/public-health-events/2026-evd-00016/2026-11-13",
+          "https://www.epicentro.iss.it/arbovirosi/js/arbo.html"
         ],
         "proposedSources": [
           {
@@ -1878,28 +1898,83 @@
             "checkedAt": "2026-11-15",
             "reuseRightsChecked": true,
             "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.ecdc.europa.eu/en/public-health-events/2026-evd-00016/2026-11-13",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.epicentro.iss.it/arbovirosi/js/arbo.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
           }
         ],
         "researchNotes": [
-          "Hepatitis A und B nicht pauschal für jede Italienreise vorsehen, sondern anhand persönlicher Indikation prüfen. Saisonale Mücken- und Sandfliegenexposition berücksichtigen.",
-          "AA meldet 2026 erhöhte West-Nil-Fallzahlen. Mückenschutz ist auch ohne Malariarisiko sinnvoll; Chikungunya- und Dengueimpfungen sind für gewöhnliche Italienreisen in der Regel nicht erforderlich."
+          "Impfzuordnung nach STIKO-Reiseimpftabelle 2026: keine allgemeine Hepatitis-A-Reiseimpfempfehlung für dieses Land. Das Auswärtige Amt empfiehlt Hepatitis A abweichend; persönliche Indikationen, konkrete Exposition und aktuelle Ausbrüche gesondert ärztlich prüfen.",
+          "Italien regional erfassen: Chikungunya hängt vom aktuell betroffenen Ort und Reisezeitraum ab. Laut ECDC (Datenstand 11.11.2026) ist der 2026 gemeldete Cluster in Rom geschlossen. Ein historischer Ausbruch begründet keine aktuelle Impfempfehlung. Für eine Reise in ein Gebiet mit aktuellem Chikungunya-Ausbruch empfiehlt die STIKO die Impfung ab 12 Jahren; Impfstoffwahl und Kontraindikationen ärztlich prüfen. Vor Abreise aktuelle Meldungen erneut abgleichen.",
+          "FSME: Expositionsabhängige Impfindikation insbesondere in Venetien (Belluneser Alpen), Friaul-Julisch Venetien und Trentino-Südtirol prüfen; keine pauschale Empfehlung für ganz Italien."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus; keine Patientenveröffentlichung vor dieser Entscheidung."
+        "warning": "Ärztliche Länderfreigabe steht aus; keine Patientenveröffentlichung vor dieser Entscheidung.",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-15",
+          "sourceDifference": "AA nennt Hepatitis A als Reiseimpfung; diese Aussage wird nicht als allgemeine STIKO-Empfehlung ausgegeben."
+        },
+        "regionalReview": [
+          "Rom (Stadt): Rom: Der laut ECDC 2026 gemeldete Chikungunya-Cluster ist im Bericht vom 13.11.2026 (Datenstand 11.11.2026) geschlossen. Daraus folgt derzeit keine ausbruchsbezogene Impfindikation. Diese Momentaufnahme gilt nicht als Entwarnung für einen späteren Reisezeitpunkt. Bei einem aktuell bestätigten Chikungunya-Ausbruch im bereisten Gebiet empfiehlt die STIKO die Impfung ab 12 Jahren; Alter, Impfstoff und Kontraindikationen ärztlich prüfen. Vor Abreise ECDC/ISS erneut prüfen. Quellenstand 15.11.2026; nächste Quellenprüfung spätestens 20.11.2026. Keine automatische Aussage über spätere Reisen. Italien hat keine routinemäßige Malariaprophylaxe-Indikation; die obigen Hinweise betreffen andere Erkrankungen.",
+          "Latium / Lazio (Region): Latium: Das Ereignis in Rom wird nicht auf ganz Latium übertragen. Der Rom-Cluster ist laut ECDC-Datenstand 11.11.2026 geschlossen. Genaue Aufenthaltsorte und Meldungen zum Reisezeitpunkt prüfen. Bei einem aktuell bestätigten Chikungunya-Ausbruch im bereisten Gebiet empfiehlt die STIKO die Impfung ab 12 Jahren; Alter, Impfstoff und Kontraindikationen ärztlich prüfen. Vor Abreise ECDC/ISS erneut prüfen. Quellenstand 15.11.2026; nächste Quellenprüfung spätestens 20.11.2026. Keine automatische Aussage über spätere Reisen. Italien hat keine routinemäßige Malariaprophylaxe-Indikation; die obigen Hinweise betreffen andere Erkrankungen.",
+          "Emilia-Romagna (Region): Emilia-Romagna: Frühere lokale Übertragungen in Italien sind keine Aussage über ein aktuelles Ausbruchsgeschehen am konkreten Urlaubsort. Gemeinde und Reisezeitpunkt für die aktuelle Chikungunya-Bewertung angeben. Bei einem aktuell bestätigten Chikungunya-Ausbruch im bereisten Gebiet empfiehlt die STIKO die Impfung ab 12 Jahren; Alter, Impfstoff und Kontraindikationen ärztlich prüfen. Vor Abreise ECDC/ISS erneut prüfen. Quellenstand 15.11.2026; nächste Quellenprüfung spätestens 20.11.2026. Keine automatische Aussage über spätere Reisen. Italien hat keine routinemäßige Malariaprophylaxe-Indikation; die obigen Hinweise betreffen andere Erkrankungen.",
+          "Venetien / Veneto (Region): Venetien: Die STIKO nennt regionale FSME-Exposition vor allem in den Belluneser Alpen. Aufenthaltsort und Outdoor-Aktivitäten für die Impfindikation berücksichtigen. Eine Chikungunya-Impfung wird nicht allein aus dem Regionsnamen abgeleitet. Bei einem aktuell bestätigten Chikungunya-Ausbruch im bereisten Gebiet empfiehlt die STIKO die Impfung ab 12 Jahren; Alter, Impfstoff und Kontraindikationen ärztlich prüfen. Vor Abreise ECDC/ISS erneut prüfen. Quellenstand 15.11.2026; nächste Quellenprüfung spätestens 20.11.2026. Keine automatische Aussage über spätere Reisen. Italien hat keine routinemäßige Malariaprophylaxe-Indikation; die obigen Hinweise betreffen andere Erkrankungen.",
+          "Toskana / Toscana (Region): Toskana: Für eine Chikungunya-Impfentscheidung sind aktuelle Meldungen zur konkreten Gemeinde und zum Reisezeitpunkt erforderlich. Historische Fälle allein begründen keine aktuelle Ausbruchsindikation. Bei einem aktuell bestätigten Chikungunya-Ausbruch im bereisten Gebiet empfiehlt die STIKO die Impfung ab 12 Jahren; Alter, Impfstoff und Kontraindikationen ärztlich prüfen. Vor Abreise ECDC/ISS erneut prüfen. Quellenstand 15.11.2026; nächste Quellenprüfung spätestens 20.11.2026. Keine automatische Aussage über spätere Reisen. Italien hat keine routinemäßige Malariaprophylaxe-Indikation; die obigen Hinweise betreffen andere Erkrankungen.",
+          "Friaul-Julisch Venetien (Region): Friaul-Julisch Venetien: Die STIKO nennt regionales FSME-Risiko in nordöstlichen Alpen- und Voralpengebieten. Bei Zeckenexposition Impfung individuell prüfen. Diese FSME-Angabe beschreibt kein Chikungunya-Ausbruchsgeschehen. Bei einem aktuell bestätigten Chikungunya-Ausbruch im bereisten Gebiet empfiehlt die STIKO die Impfung ab 12 Jahren; Alter, Impfstoff und Kontraindikationen ärztlich prüfen. Vor Abreise ECDC/ISS erneut prüfen. Quellenstand 15.11.2026; nächste Quellenprüfung spätestens 20.11.2026. Keine automatische Aussage über spätere Reisen. Italien hat keine routinemäßige Malariaprophylaxe-Indikation; die obigen Hinweise betreffen andere Erkrankungen.",
+          "Trentino-Südtirol (Region): Trentino-Südtirol: Regionales FSME-Risiko nach STIKO; bei Naturaufenthalten und Zeckenexposition individuelle Impfindikation prüfen. Chikungunya nur anhand aktueller örtlicher Meldungen bewerten. Bei einem aktuell bestätigten Chikungunya-Ausbruch im bereisten Gebiet empfiehlt die STIKO die Impfung ab 12 Jahren; Alter, Impfstoff und Kontraindikationen ärztlich prüfen. Vor Abreise ECDC/ISS erneut prüfen. Quellenstand 15.11.2026; nächste Quellenprüfung spätestens 20.11.2026. Keine automatische Aussage über spätere Reisen. Italien hat keine routinemäßige Malariaprophylaxe-Indikation; die obigen Hinweise betreffen andere Erkrankungen.",
+          "Italien – weitere Orte / Reiseroute: Weitere italienische Reiseziele: Genaue Orte und Reisezeitraum angeben. Aus der fehlenden eigenen Ortskachel folgt keine Risikofreiheit. Aktuelle Chikungunya- und andere Arbovirusmeldungen vor Abreise prüfen. Bei einem aktuell bestätigten Chikungunya-Ausbruch im bereisten Gebiet empfiehlt die STIKO die Impfung ab 12 Jahren; Alter, Impfstoff und Kontraindikationen ärztlich prüfen. Vor Abreise ECDC/ISS erneut prüfen. Quellenstand 15.11.2026; nächste Quellenprüfung spätestens 20.11.2026. Keine automatische Aussage über spätere Reisen. Italien hat keine routinemäßige Malariaprophylaxe-Indikation; die obigen Hinweise betreffen andere Erkrankungen."
+        ],
+        "regionalReviewUntil": "2026-11-20"
       },
       "publicationAllowed": false,
       "routeAssessment": {
         "assessedAt": "2026-11-15",
-        "regionalSelectionRequired": false,
-        "topics": [],
-        "regionIds": [],
-        "reason": "Keine ausreichend belegte geografische Aufteilung der Malariaprävention für dieses Länderpaket erforderlich. Expositionsabhängige Impfungen und aktuelle Meldungen bleiben gesondert relevant.",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "chikungunya",
+          "tick_borne"
+        ],
+        "regionIds": [
+          "IT-ROME",
+          "IT-LAZIO",
+          "IT-EMILIA",
+          "IT-VENETO",
+          "IT-TOSCANA",
+          "IT-FVG",
+          "IT-TRENTINO",
+          "IT-OTHER"
+        ],
+        "reason": "Aktuelle Chikungunya-Ausbrüche sind örtlich und zeitlich begrenzt; FSME-Risiko unterscheidet sich regional. Region und Reisezeitpunkt sind auch ohne Malariarisiko zu berücksichtigen.",
         "sourceUrls": [
-          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/italiensicherheit-211322",
-          "https://www.cdc.gov/malaria/travelers/country_table/i.html"
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+          "https://www.ecdc.europa.eu/en/public-health-events/2026-evd-00016/2026-11-13"
         ],
         "otherRegionalFactors": [
-          "Saisonale Mücken- und Sandfliegenexposition; keine pauschale zusätzliche Reiseimpfung."
+          "Keine Impfempfehlung allein aus historischen Ausbrüchen; Meldungsstand und erneute Quellenprüfung beachten."
         ]
       }
     },
@@ -1919,9 +1994,7 @@
       },
       "vaccineAssessment": {
         "status": "prepared_for_review",
-        "forAll": [
-          "Hepatitis A"
-        ],
+        "forAll": [],
         "riskBased": [
           "Hepatitis B bei individueller Indikation",
           "FSME bei entsprechender Exposition und individueller Indikation"
@@ -1931,7 +2004,8 @@
         ],
         "routeDependent": [
           "Bei längerem Aufenthalt oder besonderer Exposition Hepatitis B und FSME individuell prüfen. Region, Saison und Naturkontakte berücksichtigen.",
-          "Touristische Reiseziele und landwirtschaftliche Aufenthalte unterscheiden. Keine routinemäßige Malariachemoprophylaxe; konsequenter Mückenschutz auch wegen West-Nil-Fieber."
+          "Touristische Reiseziele und landwirtschaftliche Aufenthalte unterscheiden. Keine routinemäßige Malariachemoprophylaxe; konsequenter Mückenschutz auch wegen West-Nil-Fieber.",
+          "Impfzuordnung nach STIKO-Reiseimpftabelle 2026: keine allgemeine Hepatitis-A-Reiseimpfempfehlung für dieses Land. Das Auswärtige Amt empfiehlt Hepatitis A abweichend; persönliche Indikationen, konkrete Exposition und aktuelle Ausbrüche gesondert ärztlich prüfen."
         ]
       },
       "malariaAssessment": {
@@ -1980,7 +2054,8 @@
           "https://www.auswaertiges-amt.de/de/reiseundsicherheit/griechenlandsicherheit-211534",
           "https://www.cdc.gov/malaria/travelers/country_table/g.html",
           "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
-          "https://griechenland.diplo.de/gr-de/vertretungen/botschaft/1305322-1305322"
+          "https://griechenland.diplo.de/gr-de/vertretungen/botschaft/1305322-1305322",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
         ],
         "proposedSources": [
           {
@@ -2006,14 +2081,27 @@
             "checkedAt": "2026-11-15",
             "reuseRightsChecked": true,
             "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
           }
         ],
         "researchNotes": [
           "Bei längerem Aufenthalt oder besonderer Exposition Hepatitis B und FSME individuell prüfen. Region, Saison und Naturkontakte berücksichtigen.",
-          "Touristische Reiseziele und landwirtschaftliche Aufenthalte unterscheiden. Keine routinemäßige Malariachemoprophylaxe; konsequenter Mückenschutz auch wegen West-Nil-Fieber."
+          "Touristische Reiseziele und landwirtschaftliche Aufenthalte unterscheiden. Keine routinemäßige Malariachemoprophylaxe; konsequenter Mückenschutz auch wegen West-Nil-Fieber.",
+          "Impfzuordnung nach STIKO-Reiseimpftabelle 2026: keine allgemeine Hepatitis-A-Reiseimpfempfehlung für dieses Land. Das Auswärtige Amt empfiehlt Hepatitis A abweichend; persönliche Indikationen, konkrete Exposition und aktuelle Ausbrüche gesondert ärztlich prüfen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus; keine Patientenveröffentlichung vor dieser Entscheidung."
+        "warning": "Ärztliche Länderfreigabe steht aus; keine Patientenveröffentlichung vor dieser Entscheidung.",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-15",
+          "sourceDifference": "AA nennt Hepatitis A als Reiseimpfung; diese Aussage wird nicht als allgemeine STIKO-Empfehlung ausgegeben."
+        }
       },
       "publicationAllowed": false,
       "routeAssessment": {
@@ -2052,9 +2140,7 @@
       },
       "vaccineAssessment": {
         "status": "prepared_for_review",
-        "forAll": [
-          "Hepatitis A"
-        ],
+        "forAll": [],
         "riskBased": [
           "Hepatitis B bei individueller Indikation",
           "Dengue bei entsprechender Exposition auf Madeira und individueller STIKO-Indikation"
@@ -2064,7 +2150,8 @@
         ],
         "routeDependent": [
           "Festland, Madeira und Azoren unterscheiden. Madeira ist wegen möglicher Dengueexposition besonders zu berücksichtigen; keine pauschale Dengueimpfung für alle Portugalreisen.",
-          "Bei längerem Aufenthalt oder besonderer Exposition zusätzliche Impfungen nach STIKO individuell prüfen. Eine Dengueimpfung erfordert insbesondere die Prüfung einer gesicherten früheren Dengueinfektion."
+          "Bei längerem Aufenthalt oder besonderer Exposition zusätzliche Impfungen nach STIKO individuell prüfen. Eine Dengueimpfung erfordert insbesondere die Prüfung einer gesicherten früheren Dengueinfektion.",
+          "Impfzuordnung nach STIKO-Reiseimpftabelle 2026: keine allgemeine Hepatitis-A-Reiseimpfempfehlung für dieses Land. Das Auswärtige Amt empfiehlt Hepatitis A abweichend; persönliche Indikationen, konkrete Exposition und aktuelle Ausbrüche gesondert ärztlich prüfen."
         ]
       },
       "malariaAssessment": {
@@ -2110,7 +2197,8 @@
           "https://www.auswaertiges-amt.de/de/reiseundsicherheit/portugalsicherheit-210900",
           "https://www.cdc.gov/malaria/travelers/country_table/p.html",
           "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
-          "https://lissabon.diplo.de/pt-de/botschaft/1689758-1689758"
+          "https://lissabon.diplo.de/pt-de/botschaft/1689758-1689758",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
         ],
         "proposedSources": [
           {
@@ -2136,14 +2224,27 @@
             "checkedAt": "2026-11-15",
             "reuseRightsChecked": true,
             "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
           }
         ],
         "researchNotes": [
           "Festland, Madeira und Azoren unterscheiden. Madeira ist wegen möglicher Dengueexposition besonders zu berücksichtigen; keine pauschale Dengueimpfung für alle Portugalreisen.",
-          "Bei längerem Aufenthalt oder besonderer Exposition zusätzliche Impfungen nach STIKO individuell prüfen. Eine Dengueimpfung erfordert insbesondere die Prüfung einer gesicherten früheren Dengueinfektion."
+          "Bei längerem Aufenthalt oder besonderer Exposition zusätzliche Impfungen nach STIKO individuell prüfen. Eine Dengueimpfung erfordert insbesondere die Prüfung einer gesicherten früheren Dengueinfektion.",
+          "Impfzuordnung nach STIKO-Reiseimpftabelle 2026: keine allgemeine Hepatitis-A-Reiseimpfempfehlung für dieses Land. Das Auswärtige Amt empfiehlt Hepatitis A abweichend; persönliche Indikationen, konkrete Exposition und aktuelle Ausbrüche gesondert ärztlich prüfen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus; keine Patientenveröffentlichung vor dieser Entscheidung."
+        "warning": "Ärztliche Länderfreigabe steht aus; keine Patientenveröffentlichung vor dieser Entscheidung.",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-15",
+          "sourceDifference": "AA nennt Hepatitis A als Reiseimpfung; diese Aussage wird nicht als allgemeine STIKO-Empfehlung ausgegeben."
+        }
       },
       "publicationAllowed": false,
       "routeAssessment": {

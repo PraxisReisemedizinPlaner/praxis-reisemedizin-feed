@@ -110,6 +110,15 @@ def smoke(browser,device,stripped=False):
     assert "Little Koh Chang" in details and "Bangkok" in details
     assert "Quellenabweichung" in details, details
     assert "Kein bekanntes lokales Malariavorkommen" not in details
+    # Standard vaccinations are independent, full-width, and absent from travel cards/schemata.
+    standard=page.locator(".rm-standard-vax")
+    assert standard.count()==1
+    assert "insbesondere den Masernschutz" in standard.inner_text()
+    assert "Für alle Reisenden: Thailand" not in standard.inner_text()
+    assert "STIKO-Standardimpfungen" not in page.locator(".rm-vax-unique").inner_text()
+    assert "STIKO-Standardimpfungen" not in page.locator(".rm-vax-schemata").inner_text()
+    assert page.locator("#rm-shared-vaccinations").evaluate("el => el.firstElementChild.classList.contains('rm-standard-vax')")
+    assert standard.evaluate("el => Math.abs(el.getBoundingClientRect().width-el.nextElementSibling.getBoundingClientRect().width)<2")
     # Unverified free text must not be interpreted as a clinical region.
     page.locator("#rm-region").fill("Unbekannter Waldort")
     assert "Nicht bestätigte Ortsangabe" in page.locator("#rm-region-risk").inner_text()

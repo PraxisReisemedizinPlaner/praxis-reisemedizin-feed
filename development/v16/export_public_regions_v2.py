@@ -18,7 +18,7 @@ def valid_window(start,end,today):
 def source_url(value):
     if not isinstance(value,str): return False
     p=urlparse(value)
-    return p.scheme=="https" and p.hostname in {"www.auswaertiges-amt.de","wwwnc.cdc.gov","www.cdc.gov"} and not p.username and not p.password and p.port in (None,443)
+    return p.scheme=="https" and p.hostname in {"www.auswaertiges-amt.de","wwwnc.cdc.gov","www.cdc.gov","www.rki.de","www.ecdc.europa.eu","www.epicentro.iss.it"} and not p.username and not p.password and p.port in (None,443)
 def country_valid(parent,today):
     review=parent.get("medicalReview") or {}
     return parent.get("publicationAllowed") is True and review.get("status")=="approved" and bool(review.get("reviewer")) and valid_window(review.get("reviewedAt"),review.get("nextReviewDate"),today)
