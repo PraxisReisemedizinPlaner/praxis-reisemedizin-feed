@@ -883,6 +883,27 @@
             "scope": "Nur Konsularbezirk Ankara; für Istanbul, Izmir und Antalya die zuständige deutsche Vertretung anhand des Reiseziels prüfen",
             "phone": "+90 312 455 51 00",
             "url": "https://tuerkei.diplo.de/tr-de/vertretungen/1514034-1514034"
+          },
+          {
+            "title": "Deutsches Generalkonsulat Istanbul",
+            "address": "İnönü Caddesi 10, 34437 Gümüşsuyu, Istanbul, Türkei",
+            "scope": "Istanbul und Marmararegion; weitere zuständige Provinzen über amtliche Seite prüfen",
+            "phone": "+90 212 334 61 00",
+            "url": "https://tuerkei.diplo.de/tr-de/vertretungen/1514034-1514034"
+          },
+          {
+            "title": "Deutsches Generalkonsulat Izmir",
+            "address": "Korutürk Mah., Havuzbaşı Sokak 1, 35330 Balçova, Izmir, Türkei",
+            "scope": "Izmir und weitere westtürkische Provinzen; Antalya verfügt über ein eigenes Konsulat",
+            "phone": "+90 232 488 88 88",
+            "url": "https://tuerkei.diplo.de/tr-de/vertretungen/1514034-1514034"
+          },
+          {
+            "title": "Deutsches Konsulat Antalya",
+            "address": "Çağlayan Mah. Barınaklar Bulvarı Nr. 54, 07235 Antalya, Türkei",
+            "scope": "Antalya, Burdur und Isparta",
+            "phone": "+90 242 314 11 01",
+            "url": "https://tuerkei.diplo.de/tr-de/vertretungen/1514034-1514034"
           }
         ]
       },
@@ -902,7 +923,8 @@
         "researchNotes": [
           "STIKO-Standardimpfungen sind weltweit gültig; HBV und Tollwut nur bei besonderer Exposition/Langzeitaufenthalt.",
           "CDC: kein Malariavorkommen in der Tabelle, UKHSA/NaTHNaC: sehr geringes Restrisiko; nicht mit unbedingter Risikofreiheit werben.",
-          "Bei Istanbul, Izmir und Antalya sind andere Generalkonsulate bzw. Konsulate zuständig; als bloßen Hauptkontakt ist Ankara ungeeignet. Regionale Kontaktliste prüfen und erweitern."
+          "Bei Istanbul, Izmir und Antalya sind andere Generalkonsulate bzw. Konsulate zuständig; als bloßen Hauptkontakt ist Ankara ungeeignet. Regionale Kontaktliste prüfen und erweitern.",
+          "Vier örtlich zuständige Vertretungen (Ankara, Istanbul, Izmir, Antalya) recherchiert; finale Adress-/Notfallkontrolle vor Freigabe erforderlich."
         ],
         "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt."
       },
