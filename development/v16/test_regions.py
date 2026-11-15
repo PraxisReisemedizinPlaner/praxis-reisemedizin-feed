@@ -36,10 +36,13 @@ class RegionSafetyTests(unittest.TestCase):
         self.assertIn("Little Koh Chang (Ranong",blob)
         self.assertIn("Ko Chang (Trat",blob)
 
-    def test_four_explicit_physician_releases(self):
+    def test_all_twenty_five_explicit_physician_releases(self):
         out=self.published(self.approved_catalogue)
         approved={row["id"]:row for row in out["regions"] if row["clinicalStatus"]=="approved"}
-        self.assertEqual(set(approved),{"TH-PTY","TH-HKT","ID-JKT","ID-SUMBA"})
+        self.assertEqual(set(approved),{r["id"] for r in self.approved_catalogue["regions"]})
+        self.assertEqual(len(approved),25)
+        self.assertEqual(approved["TH-BKK"]["malaria"]["riskLevel"],"uncertain")
+        self.assertEqual(approved["TH-LITTLE-CHANG-RANONG"]["malaria"]["preventionType"],"regional_assessment_required")
         self.assertEqual(approved["TH-PTY"]["malaria"]["riskLevel"],"none")
         self.assertEqual(approved["ID-JKT"]["malaria"]["riskLevel"],"none")
         self.assertEqual(approved["TH-HKT"]["malaria"]["preventionType"],"exposure_only")

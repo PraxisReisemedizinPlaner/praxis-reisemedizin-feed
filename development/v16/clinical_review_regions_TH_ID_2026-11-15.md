@@ -1,3 +1,11 @@
+# Ergänzende ärztliche Freigabe aller 25 Regionen – 15.11.2026
+
+Dr. med. Sebastian Münster hat zusätzlich zu Pattaya, Jakarta, Phuket und Sumba ausdrücklich die weiteren 21 hinterlegten Regionen Thailands und Indonesiens freigegeben. Die Freigabe umfasst die bestehenden Quellenzusammenfassungen einschließlich der kenntlich gemachten Quellenabweichungen und erforderlichen Routenpräzisierungen. Reviewer: Dr. med. Sebastian Münster. Nächste Überprüfung: 15.01.2027.
+
+Alle 25 historischen Geografieeinträge tragen nun eine dokumentierte ärztliche Regionalfreigabe. Im aktuellen V24-Länderpaketmodell bleibt die fachliche Quellenqualität davon getrennt: sieben eindeutige Quellenbewertungen und 18 Quellen-/Routenhinweise. Die Zustimmung hebt keine fachlichen Unterschiede auf und erzeugt keine neue Medikamentenauswahl. Der nachstehende ursprüngliche Prüfverlauf bleibt als Historie erhalten.
+
+---
+
 # Aktueller Veröffentlichungsmodus ab 15.11.2026
 
 Die nachstehende Einzelfreigabe-Dokumentation bleibt als Historie erhalten. Für V24.2 gilt jetzt das autorisierte Länderpaketmodell: regionale Quelleninformationen benötigen keine gesonderte ärztliche Ortsfreigabe. Gültige Länderfreigabe, aktuelle Quellen und eindeutige Ortszuordnung bleiben Voraussetzung. Quellenabweichungen und zu grobe Ortsangaben erscheinen als erklärende Hinweise. Details: [REGIONAL_COUNTRY_PACKAGES.md](REGIONAL_COUNTRY_PACKAGES.md).

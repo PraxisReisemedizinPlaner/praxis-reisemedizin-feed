@@ -14,7 +14,7 @@ REGION=json.loads((HERE/"region_profiles_draft_v1.json").read_text(encoding="utf
 COUNTRIES=json.loads((HERE/"country_profiles_draft_v16.json").read_text(encoding="utf-8"))
 regions=build_public_regions(REGION,COUNTRIES,date(2026,11,15))
 countries=build_countries(COUNTRIES,date(2026,11,15))
-assert regions["regionalApprovedCount"] == 4
+assert regions["regionalApprovedCount"] == 25
 assert countries["approvedCount"] == 10
 
 def intercept(route):
@@ -62,7 +62,7 @@ def smoke(browser,device):
     page.locator("#rm-region-risk").wait_for(state="visible")
     details=page.locator("#rm-region-risk").inner_text()
     assert "Little Koh Chang" in details and "Bangkok" in details
-    assert "noch nicht verfügbar" in details, details
+    assert "Regionale Risikoabwägung erforderlich" in details, details
     assert "Kein Malariavorkommen nach regionaler" not in details
     # Unverified free text must not be interpreted as a clinical region.
     page.locator("#rm-region").fill("Unbekannter Waldort")
