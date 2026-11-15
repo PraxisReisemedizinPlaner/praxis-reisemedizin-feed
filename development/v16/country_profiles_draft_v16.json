@@ -846,11 +846,11 @@
       },
       "malariaAssessment": {
         "status": "not_reviewed",
-        "riskLevel": "none",
-        "preventionType": "none",
+        "riskLevel": "uncertain",
+        "preventionType": "regional_assessment_required",
         "regions": [],
         "medicationName": null,
-        "clinicalRecommendation": "Die CDC-Länderübersicht führt für die Türkei derzeit keine Malariagebiete auf; eine routinemäßige Malaria-Chemoprophylaxe ist für gewöhnliche Reisen nicht angezeigt. Ein unabhängiger britischer reisemedizinischer Leitfaden beschreibt ein sehr geringes Restrisiko und empfiehlt Mückenschutz. Daher auch in ländlichen Regionen konsequente Expositionsprophylaxe und individuelle Reiseberatung bei besonderen Expositionen.",
+        "clinicalRecommendation": "Die Quellenlage ist nicht vollständig einheitlich: Die CDC führt für die Türkei aktuell keine Malariagebiete auf, während die britischen Reisegesundheitsempfehlungen 2026 ein sehr geringes Restrisiko mit Mückenschutz nennen. Eine routinemäßige Malaria-Chemoprophylaxe wird für gewöhnliche Reisen nicht empfohlen. Vor einer endgültigen medizinischen Einordnung sind individuelle Reiseziele, insbesondere ländliche Exposition, und die aktuellen Originalquellen ärztlich abzugleichen.",
         "sourceLinks": [
           {
             "label": "Auswärtiges Amt: Reisegesundheit Türkei",
