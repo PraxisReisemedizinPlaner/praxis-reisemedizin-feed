@@ -1,12 +1,12 @@
 # ReiseCheck V16 – Entwicklungsbereich
 
-**Stand:** 11.11.2026 · **Status:** Entwurf, NICHT für Patienten freigegeben.
+**Stand:** 15.11.2026 · **Status:** kontrollierte Entwicklungsprofile; nur ausdrücklich ärztlich freigegebene Datensätze werden veröffentlicht.
 
-Dieser Entwicklungsbereich dient der strukturierten Übernahme und anschließenden fachlichen Prüfung von Länderprofilen. Die Live-Daten `country_profiles_v1.json`, der produktive CDC-Feed und die Jimdo-Test- bzw. öffentliche Seite werden **nicht** verändert.
+Dieser Entwicklungsbereich dient der strukturierten Übernahme und anschließenden fachlichen Prüfung von Länderprofilen. Die alte Datei `country_profiles_v1.json` bleibt archiviert; die öffentliche Jimdo-Version V22 liest ausschließlich den medizinisch gefilterten V16-Public-Feed. Ungeprüfte Profile aus dieser Entwicklungsdatei dürfen weiterhin nicht in die Patientenansicht gelangen.
 
 ## Inhalt
 
-- `country_profiles_draft_v16.json`: neun Länder (Thailand, Indonesien, Tansania, Kenia, Vietnam, Indien, Ägypten, Marokko, Österreich). Frühere Einträge aus ReiseCheck V15 sind **nur im Feld `legacySnapshot`** als ungeprüfte historische Vorschläge dokumentiert.
+- `country_profiles_draft_v16.json`: zehn Länder (Thailand, Indonesien, Tansania, Kenia, Vietnam, Indien, Ägypten, Marokko, Österreich, Türkei). Frühere Einträge aus ReiseCheck V15 sind **nur im Feld `legacySnapshot`** als ungeprüfte historische Vorschläge dokumentiert.
 - `malaria_sources_registry.json`: 17 Referenzquellen; keine Forschungs- oder DTG-Daten werden automatisch importiert.
 - `validate_v16.py`: Strukturtest mit gesperrten Empfehlungen für alle nicht freigegebenen Profile.
 
@@ -35,7 +35,7 @@ Die Validierung prüft nur Datenstruktur und Sicherheitsstatus, **nicht** die me
 
 `export_public_v16.py` erzeugt eine **gesonderte** JSON-Datei `country_profiles_public_v16.json`. Darin werden nur freigegebene und nicht abgelaufene ärztliche Profile ausgegeben. Für andere Länder werden ausschließlich Name, Ländercode und „medical_review_required“ veröffentlicht. **Die vorhandene V1-Datei wird weder gelöscht noch überschrieben.**
 
-Die aktualisierte GitHub-Pages-Automatisierung erzeugt den V16-Feed **erst nach dem Zusammenführen dieses Entwicklungszweigs nach main**. Vorher erfolgt keine Änderung am bestehenden Live-Feed. Die Jimdo-Oberfläche verwendet den V16-Feed **noch nicht automatisch**; die einmalige Umstellung muss nach medizinischer Prüfung erfolgen.
+Die GitHub-Pages-Automatisierung veröffentlicht den V16-Feed nach erfolgreichen Tests und Änderungen auf `main`. Die öffentliche Jimdo-Oberfläche wurde am 15.11.2026 vom Praxisinhaber auf V22 umgestellt und ruft den V16-Public-Feed automatisch bei Seitenaufruf ab. Für zusätzliche Länderprofile ist kein neuer Jimdo-Code erforderlich.
 
 Der Export ist technisch „fail-closed“: fehlende Quellenfreigaben, nicht freigegebene Impf-/Malaria-Aussagen oder eine unzulässige DTG-Datennutzung verhindern eine Veröffentlichung. Das ist keine Aussage über die medizinische Richtigkeit.
 
@@ -67,8 +67,8 @@ GitHub Actions prüft diese Schritte zusätzlich im Pull Request.
 
 ## Nächste fachliche Arbeit
 
-- Zuerst zwei Musterländer (Marokko und Österreich) gegen Quellen, Einreisevorschriften und Auslandsvertretungen vollständig prüfen.
-- Danach die sieben bisherigen Profile Land für Land prüfen.
+- Marokko (MA) und Österreich (AT) wurden am 11.11.2026 nach ärztlicher Freigabe veröffentlicht; erneute Prüfung spätestens 11.01.2027.
+- Vier neue medizinische Prüfentwürfe (TH, ID, EG, TR) liegen seit 15.11.2026 vor: `clinical_review_TH_ID_EG_TR_2026-11-15.md`. Diese sind **noch nicht** medizinisch freigegeben. Insgesamt sind derzeit 10 Länder erfasst, davon 2 veröffentlicht und 8 gesperrt.
 - Quellenrechte und die Zuverlässigkeit regionaler Malariaangaben prüfen; DTG-Karten nur verlinken.
-- Erst danach Datenexport, Tests, GitHub-Pages-Anbindung und Jimdo-Freigabe.
+- Bei neuer ausdrücklicher ärztlicher Freigabe automatischen Export, GitHub-Tests und öffentlichen ReiseCheck überprüfen. Achtung: Das aktuelle V22-Widget klassifiziert freie Regionseingaben **nicht** automatisch in Malaria-Unterregionen; bei Thailand/Indonesien dürfen daher nur konservative allgemeine Regionalhinweise ohne automatische Arzneimittelempfehlung ausgegeben werden.
 
