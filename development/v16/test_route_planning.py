@@ -106,7 +106,7 @@ class RoutePlanningTests(unittest.TestCase):
             p["publicationAllowed"]=True
             for field in ("vaccineAssessment","malariaAssessment","missions"):
                 p[field]["status"]="approved"
-        self.assertEqual(build_public(c,date(2026,11,15))["approvedCount"],14)
+        self.assertEqual(build_public(c,date(2026,11,15))["approvedCount"],18)
         rows={r["id"]:r for r in self.regions(c)["regions"]}
         self.assertIn("Dengue",rows["PT-MADEIRA"]["malaria"]["clinicalRecommendation"])
         self.assertIn("Dengue",c["countries"]["PT"]["vaccineAssessment"]["routeDependent"][0])
