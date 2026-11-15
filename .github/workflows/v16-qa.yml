@@ -40,6 +40,12 @@ jobs:
         run: python development/v16/validate_v16.py
       - name: Automatische Sicherheitstests ausfuehren
         run: python -m unittest discover -s development/v16 -p 'test_*.py' -v
+      - name: V23 Browser-Tests (Desktop und Mobil)
+        timeout-minutes: 7
+        run: |
+          python -m pip install --quiet playwright==1.55.0
+          python -m playwright install chromium --with-deps
+          python development/v16/test_v23_browser.py
       - name: Public Feed erstellen
         run: python development/v16/export_public_v16.py --output /tmp/country_profiles_public_v16.json
       - name: Regionales Ortsverzeichnis sicher exportieren
