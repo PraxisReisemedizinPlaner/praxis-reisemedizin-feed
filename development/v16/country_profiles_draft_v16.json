@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 9,
+  "countryCount": 10,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -41,21 +41,48 @@
       },
       "vaccineAssessment": {
         "status": "not_reviewed",
-        "forAll": [],
-        "riskBased": [],
-        "entryRequirements": [],
-        "routeDependent": []
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Japanische Enzephalitis",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind nach derzeitigen Angaben keine Pflichtimpfungen vorgeschrieben."
+        ],
+        "routeDependent": [
+          "Bei Einreise aus einem Gelbfieberinfektionsgebiet oder Transit von mehr als zwölf Stunden in einem solchen Gebiet kann für Reisende ab neun Monaten ein Gelbfieberimpfnachweis gefordert werden; aktuelle Route kontrollieren."
+        ]
       },
       "malariaAssessment": {
         "status": "not_reviewed",
-        "riskLevel": null,
-        "preventionType": null,
-        "regions": [],
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Mittlere Risikoeinstufung nach Auswärtigem Amt an der Grenze zu Myanmar und Little Koh Chang (Andamanensee, Provinz Ranong).",
+          "Viele übrige Regionen und Urlaubsinseln laut Auswärtigem Amt niedriges Risiko; Bangkok, Chiang Mai, Chiang Rai und Pattaya werden als malariafrei geführt.",
+          "Die CDC weist für bestimmte Grenz- und Waldregionen in Thailand eine medikamentöse Chemoprophylaxe aus. Das Auswärtige Amt legt in abgelegenen Gebieten mittleren Risikos besonderen Fokus auf individuelle Stand-by-Entscheidungen. Regionale und leitlinienabhängige Abweichungen unbedingt fachlich abgleichen."
+        ],
         "medicationName": null,
-        "clinicalRecommendation": null,
+        "clinicalRecommendation": "Malaria ist in Thailand regional stark unterschiedlich. Für Stadtaufenthalte und typische Urlaubsinseln darf aus den Daten keine pauschale Arzneimittelempfehlung abgeleitet werden; Mückenschutz bleibt auch wegen Dengue und anderer Erkrankungen wesentlich. Bei Grenzgebieten, Wäldern und abgelegenen Reisen sind Art, Dauer und genaue Orte zu erfassen. CDC und Auswärtiges Amt unterscheiden sich teilweise im medikamentösen Vorgehen: individuelle ärztliche Malariaberatung ist vor Freigabe einer regionenspezifischen Empfehlung erforderlich.",
         "sourceLinks": [
           {
-            "label": "DTG Malariakarten – Verlinkung ausschließlich",
+            "label": "Auswärtiges Amt: Reisegesundheit Thailand",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC: Malaria-Länderübersicht Thailand",
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/t.html",
+            "use": "external_link_only"
+          },
+          {
+            "label": "DTG: offizielle Malariakarten (nur externe Verlinkung)",
             "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
             "use": "external_link_only"
           }
@@ -63,12 +90,35 @@
       },
       "missions": {
         "status": "needs_verification",
-        "verifiedEntries": []
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Bangkok",
+            "address": "9 South Sathorn Road, Bangkok 10120, Thailand",
+            "scope": "Thailand; Konsulartermine nach offizieller Terminvergabe",
+            "phone": "+66 2 287 9000",
+            "emergency": "+66 81 845 6224",
+            "url": "https://bangkok.diplo.de/th-de/ueber-uns/2490770-2490770"
+          }
+        ]
       },
       "sourceReview": {
-        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
-        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/thailandsicherheit-201558",
-        "reviewedAt": null
+        "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "missionReference": "https://bangkok.diplo.de/th-de/ueber-uns/2490770-2490770",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+          "https://www.cdc.gov/malaria/travelers/country_table/t.html",
+          "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+          "https://bangkok.diplo.de/th-de/ueber-uns/2490770-2490770"
+        ],
+        "researchNotes": [
+          "Dengue-Impfung nicht pauschal empfehlen; deutsche STIKO-Indikation inkl. gesicherter früherer Dengue-Infektion prüfen.",
+          "Japanische Enzephalitis besonders bei ländlicher Exposition/Dauer und Saison prüfen.",
+          "CDC und AA unterscheiden sich in regionaler Präventionsstrategie; keine automatische Subregional-Einstufung im bestehenden V22-Widget."
+        ],
+        "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt."
       },
       "publicationAllowed": false
     },
@@ -100,21 +150,52 @@
       },
       "vaccineAssessment": {
         "status": "not_reviewed",
-        "forAll": [],
-        "riskBased": [],
-        "entryRequirements": [],
-        "routeDependent": []
+        "forAll": [
+          "Hepatitis A",
+          "Poliomyelitis"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Japanische Enzephalitis",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Für die direkte Einreise aus Deutschland bestehen nach derzeitigen Angaben keine Pflichtimpfungen."
+        ],
+        "routeDependent": [
+          "Bei Einreise aus einem Gelbfieberinfektionsgebiet kann für Reisende ab neun Monaten ein Gelbfieberimpfnachweis erforderlich sein; aktuelle Transitroute prüfen.",
+          "Poliomyelitis-Impfstatus anhand der STIKO und aktuellen länderspezifischen Einreisevorgaben prüfen."
+        ]
       },
       "malariaAssessment": {
         "status": "not_reviewed",
-        "riskLevel": null,
-        "preventionType": null,
-        "regions": [],
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Auswärtiges Amt nennt ganzjährig hohes Risiko vor allem in West-Neuguinea (West-Papua) und auf Sumba.",
+          "Weitere Risikoregionen umfassen Teile Borneos/Kalimantans, Sulawesis und Ost-Nusa-Tenggaras einschließlich Flores; genaue Insel und Ortschaft entscheidend.",
+          "Die CDC führt zahlreiche östliche Inseln und ländliche Regionen als Malariagebiete mit Indikation zur Chemoprophylaxe.",
+          "Bei Bali, Java und den Gili-Inseln bestehen Unterschiede in der Beschreibung des geringen beziehungsweise fehlenden Malariarisikos zwischen internationalen Quellen; Hotellage vs. ländliche Reise gesondert prüfen.",
+          "Jakarta und bestimmte städtische Regionen sind nach den herangezogenen Quellen ohne lokale Malariaexposition."
+        ],
         "medicationName": null,
-        "clinicalRecommendation": null,
+        "clinicalRecommendation": "Malariarisiko in Indonesien variiert stark nach Insel, Region, Tätigkeit und Unterkunft. Vor der Auswahl einer medikamentösen Chemoprophylaxe oder Notfall-Selbstbehandlung sind die konkreten Ziele (insbesondere West-Papua/Sumba im Vergleich zu städtischen bzw. touristischen Orten auf Bali und Java) individuell zu prüfen. Zwischen Auswärtigem Amt und CDC bestehen teilweise unterschiedliche Gebietseinstufungen. Konsequenten Mückenschutz tags und nachts beachten. Keine landesweite pauschale Malaria-Prophylaxeempfehlung.",
         "sourceLinks": [
           {
-            "label": "DTG Malariakarten – Verlinkung ausschließlich",
+            "label": "Auswärtiges Amt: Reisegesundheit Indonesien",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC: Malaria-Länderübersicht Indonesien",
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/i.html",
+            "use": "external_link_only"
+          },
+          {
+            "label": "DTG: offizielle Malariakarten (nur externe Verlinkung)",
             "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
             "use": "external_link_only"
           }
@@ -122,12 +203,36 @@
       },
       "missions": {
         "status": "needs_verification",
-        "verifiedEntries": []
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Jakarta",
+            "address": "Jalan M. H. Thamrin No. 1, Jakarta 10310, Indonesien",
+            "scope": "Indonesien und Timor-Leste; Konsulartermine nach Vereinbarung",
+            "phone": "+62 21 3985 5000",
+            "emergency": "+62 811 152526",
+            "url": "https://jakarta.diplo.de/id-de/ueber-uns/botschaft/1687058-1687058"
+          }
+        ]
       },
       "sourceReview": {
-        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
+        "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
-        "reviewedAt": null
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "missionReference": "https://jakarta.diplo.de/id-de/ueber-uns/botschaft/1687058-1687058",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+          "https://www.cdc.gov/malaria/travelers/country_table/i.html",
+          "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+          "https://jakarta.diplo.de/id-de/ueber-uns/botschaft/1687058-1687058"
+        ],
+        "researchNotes": [
+          "Poliomyelitis bei jeder Reise mit aktuellen STIKO- und Einreisehinweisen prüfen, nicht pauschal unabhängig vom Immunstatus zusätzliche Dosis anordnen.",
+          "AA meldet Zikavirus-Infektionen nach Bali-Aufenthalt in 2025/26; Schwangerschaft/Kinderwunsch extra berücksichtigen.",
+          "Risikozuordnung für Bali/Gili und Ost-Nusa-Tenggara zwischen AA und CDC abweichend: vor Freigabe ausdrücklich abgleichen.",
+          "Dengue-/Chikungunya-Impfstoffe abhängig von aktueller STIKO-Indikation und Kontraindikationen, kein pauschaler Einsatz."
+        ],
+        "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt."
       },
       "publicationAllowed": false
     },
@@ -396,21 +501,49 @@
       },
       "vaccineAssessment": {
         "status": "not_reviewed",
-        "forAll": [],
-        "riskBased": [],
-        "entryRequirements": [],
-        "routeDependent": []
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Dengue",
+          "Hepatitis B",
+          "Meningokokken ACWY",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland wird nach derzeitigen Angaben kein Gelbfieberimpfnachweis gefordert."
+        ],
+        "routeDependent": [
+          "Ein Gelbfiebernachweis kann bei Einreise ab neun Monaten aus Gelbfieberinfektionsgebieten sowie bestimmten zusätzlich aufgeführten afrikanischen Staaten oder längerem Transit gefordert werden. Exakte Route und aktuelle AA-Liste prüfen.",
+          "Poliomyelitis-Impfnachweise können bei Einreise aus bestimmten Ländern mit Poliovirus-Risiko verlangt werden; aktuell nennt das Auswärtige Amt DR Kongo, Kenia, Niger und Syrien. Vor der Reise erneut prüfen."
+        ]
       },
       "malariaAssessment": {
         "status": "not_reviewed",
-        "riskLevel": null,
-        "preventionType": null,
+        "riskLevel": "none",
+        "preventionType": "none",
         "regions": [],
         "medicationName": null,
-        "clinicalRecommendation": null,
+        "clinicalRecommendation": "Ägypten wurde 2024 von der WHO als malariafrei zertifiziert; auch die CDC-Malariaübersicht führt derzeit keine Malariagebiete auf. Für übliche Reisen nach Ägypten ist deshalb keine routinemäßige Malaria-Chemoprophylaxe angezeigt. Andere mückenübertragene Infektionen, insbesondere Dengue im Rotmeerraum und Teilen des Südsinai, bleiben relevant: konsequenter Mückenschutz auch tagsüber.",
         "sourceLinks": [
           {
-            "label": "DTG Malariakarten – Verlinkung ausschließlich",
+            "label": "Auswärtiges Amt: Reisegesundheit Ägypten",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/aegyptensicherheit-212622",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC: Malaria-Länderübersicht Ägypten",
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/e.html",
+            "use": "external_link_only"
+          },
+          {
+            "label": "WHO-Zertifizierung malariafrei (Ägypten, 2024)",
+            "url": "https://www.who.int/news/item/20-10-2024-egypt-is-certified-malaria-free-by-who",
+            "use": "external_link_only"
+          },
+          {
+            "label": "DTG: offizielle Malariakarten (nur externe Verlinkung)",
             "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
             "use": "external_link_only"
           }
@@ -418,12 +551,35 @@
       },
       "missions": {
         "status": "needs_verification",
-        "verifiedEntries": []
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Kairo",
+            "address": "2 Sharia Berlin (off Sharia Hassan Sabri), Zamalek, Kairo 11211, Ägypten",
+            "scope": "Ägypten; Notfalldienst und Konsulardienstleistungen über amtliche Webseite überprüfen",
+            "phone": "+20 2 2728 2000",
+            "url": "https://kairo.diplo.de/eg-de/ueber-uns/2500174-2500174"
+          }
+        ]
       },
       "sourceReview": {
-        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.html?nn=16779528",
+        "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/aegyptensicherheit-212622",
-        "reviewedAt": null
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "missionReference": "https://kairo.diplo.de/eg-de/ueber-uns/2500174-2500174",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/aegyptensicherheit-212622",
+          "https://www.cdc.gov/malaria/travelers/country_table/e.html",
+          "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+          "https://kairo.diplo.de/eg-de/ueber-uns/2500174-2500174",
+          "https://www.who.int/news/item/20-10-2024-egypt-is-certified-malaria-free-by-who"
+        ],
+        "researchNotes": [
+          "Gegen Dengue besteht gemäß AA unter anderem an der Rotmeerküste Exposition; Impfung nur nach individueller STIKO-Indikation prüfen.",
+          "Einreisebedingungen können sich im regionalen Sicherheitsumfeld rasch verändern; AA enthält Teilreisewarnung.",
+          "Polio-Einreiseregeln sind routenabhängig und müssen vor endgültiger Freigabe erneut geprüft werden."
+        ],
+        "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt."
       },
       "publicationAllowed": false
     },
@@ -656,6 +812,101 @@
         "reviewedAt": "2026-11-11"
       },
       "publicationAllowed": true
+    },
+    "TR": {
+      "name": "Türkei",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "New research draft 2026-11-15; no verified V15 record",
+        "originalCheckedDate": "2026-11-15",
+        "previousForAll": [],
+        "previousRiskBased": [],
+        "previousSourceLink": "https://www.auswaertiges-amt.de/de/service/laender/tuerkei-node/tuerkeisicherheit-201962",
+        "important": "New research draft; not medically approved or ready for patient publication"
+      },
+      "vaccineAssessment": {
+        "status": "not_reviewed",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Hepatitis B",
+          "Tollwut"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind nach derzeitiger Information keine Pflichtimpfungen vorgeschrieben."
+        ],
+        "routeDependent": []
+      },
+      "malariaAssessment": {
+        "status": "not_reviewed",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Die CDC-Länderübersicht führt für die Türkei derzeit keine Malariagebiete auf; eine routinemäßige Malaria-Chemoprophylaxe ist für gewöhnliche Reisen nicht angezeigt. Ein unabhängiger britischer reisemedizinischer Leitfaden beschreibt ein sehr geringes Restrisiko und empfiehlt Mückenschutz. Daher auch in ländlichen Regionen konsequente Expositionsprophylaxe und individuelle Reiseberatung bei besonderen Expositionen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt: Reisegesundheit Türkei",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/tuerkei-node/tuerkeisicherheit-201962",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC: Malaria-Länderübersicht Türkei",
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/t.html",
+            "use": "external_link_only"
+          },
+          {
+            "label": "UK: Malaria prevention country recommendations 2026",
+            "url": "https://www.gov.uk/government/publications/malaria-prevention-guidelines-for-travellers-from-the-uk-2026/country-recommendations",
+            "use": "external_link_only"
+          },
+          {
+            "label": "DTG: offizielle Malariakarten (nur externe Verlinkung)",
+            "url": "https://www.dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/karten.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "needs_verification",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Ankara",
+            "address": "Atatürk Bulvarı Nr. 114, Kavaklıdere, 06680 Ankara, Türkei",
+            "scope": "Nur Konsularbezirk Ankara; für Istanbul, Izmir und Antalya die zuständige deutsche Vertretung anhand des Reiseziels prüfen",
+            "phone": "+90 312 455 51 00",
+            "url": "https://tuerkei.diplo.de/tr-de/vertretungen/1514034-1514034"
+          }
+        ]
+      },
+      "sourceReview": {
+        "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/tuerkei-node/tuerkeisicherheit-201962",
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "missionReference": "https://tuerkei.diplo.de/tr-de/vertretungen/1514034-1514034",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/service/laender/tuerkei-node/tuerkeisicherheit-201962",
+          "https://www.cdc.gov/malaria/travelers/country_table/t.html",
+          "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+          "https://tuerkei.diplo.de/tr-de/vertretungen/1514034-1514034",
+          "https://www.gov.uk/government/publications/malaria-prevention-guidelines-for-travellers-from-the-uk-2026/country-recommendations"
+        ],
+        "researchNotes": [
+          "STIKO-Standardimpfungen sind weltweit gültig; HBV und Tollwut nur bei besonderer Exposition/Langzeitaufenthalt.",
+          "CDC: kein Malariavorkommen in der Tabelle, UKHSA/NaTHNaC: sehr geringes Restrisiko; nicht mit unbedingter Risikofreiheit werben.",
+          "Bei Istanbul, Izmir und Antalya sind andere Generalkonsulate bzw. Konsulate zuständig; als bloßen Hauptkontakt ist Ankara ungeeignet. Regionale Kontaktliste prüfen und erweitern."
+        ],
+        "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt."
+      },
+      "publicationAllowed": false
     }
   }
 }
