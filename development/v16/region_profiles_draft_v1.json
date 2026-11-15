@@ -1,0 +1,689 @@
+{
+  "schemaVersion": 1,
+  "dataset": "praxis-dr-muenster-regional-malaria-draft-v1",
+  "createdAt": "2026-11-15",
+  "mode": "DRAFT_ONLY_GEO_CATALOGUE_NO_CLINICAL_RELEASE",
+  "policy": {
+    "sourceUse": "independent_geo_names_plus_official_aa_cdc_research_no_dtg_reuse",
+    "clinicalApprovalRequired": true,
+    "noAutomaticRiskFromFreitext": true,
+    "noDTGStructuredReuse": true,
+    "noMedicationWithoutRegionClinicalApproval": true
+  },
+  "sources": [
+    {
+      "code": "TH",
+      "label": "Auswärtiges Amt Thailand – Gesundheit",
+      "url": "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+      "use": "external_link_only",
+      "checkedAt": "2026-11-15"
+    },
+    {
+      "code": "TH",
+      "label": "CDC Thailand – Malaria country table",
+      "url": "https://www.cdc.gov/malaria/travelers/country_table/t.html",
+      "use": "external_link_only",
+      "checkedAt": "2026-11-15"
+    },
+    {
+      "code": "ID",
+      "label": "Auswärtiges Amt Indonesien – Gesundheit",
+      "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+      "use": "external_link_only",
+      "checkedAt": "2026-11-15"
+    },
+    {
+      "code": "ID",
+      "label": "CDC Indonesien – Travelers Health",
+      "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/vfr/indonesia",
+      "use": "external_link_only",
+      "checkedAt": "2026-11-15"
+    }
+  ],
+  "regions": [
+    {
+      "country": "TH",
+      "id": "TH-BKK",
+      "name": "Bangkok (Stadt)",
+      "aliases": [
+        "Bangkok",
+        "Krung Thep"
+      ],
+      "kind": "city",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "TH",
+      "id": "TH-CNX",
+      "name": "Chiang Mai (Stadt)",
+      "aliases": [
+        "Chiang Mai"
+      ],
+      "kind": "city",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "TH",
+      "id": "TH-CEI",
+      "name": "Chiang Rai (Stadt)",
+      "aliases": [
+        "Chiang Rai"
+      ],
+      "kind": "city",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "TH",
+      "id": "TH-PTY",
+      "name": "Pattaya (Stadt)",
+      "aliases": [
+        "Pattaya"
+      ],
+      "kind": "city",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "TH",
+      "id": "TH-HKT",
+      "name": "Phuket (Insel)",
+      "aliases": [
+        "Phuket"
+      ],
+      "kind": "island",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "TH",
+      "id": "TH-USM",
+      "name": "Ko Samui (Insel)",
+      "aliases": [
+        "Koh Samui",
+        "Ko Samui"
+      ],
+      "kind": "island",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "TH",
+      "id": "TH-KPN",
+      "name": "Ko Pha-ngan (Insel)",
+      "aliases": [
+        "Koh Phangan",
+        "Koh Pha Ngan",
+        "Ko Pha-ngan"
+      ],
+      "kind": "island",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "TH",
+      "id": "TH-PP",
+      "name": "Ko Phi Phi (Krabi)",
+      "aliases": [
+        "Koh Phi Phi",
+        "Phi Phi"
+      ],
+      "kind": "island",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "TH",
+      "id": "TH-CHANG-TRAT",
+      "name": "Ko Chang (Trat, Golf von Thailand)",
+      "aliases": [
+        "Koh Chang Trat",
+        "Ko Chang Trat",
+        "Koh Chang"
+      ],
+      "kind": "island",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "TH",
+      "id": "TH-LITTLE-CHANG-RANONG",
+      "name": "Little Koh Chang (Ranong, Andamanensee)",
+      "aliases": [
+        "Little Koh Chang",
+        "Ko Chang Ranong",
+        "Koh Chang Ranong"
+      ],
+      "kind": "island",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "TH",
+      "id": "TH-MYANMAR-BORDER",
+      "name": "Thailändisches Grenzgebiet zu Myanmar",
+      "aliases": [
+        "Myanmar Grenze Thailand",
+        "Grenze Myanmar Thailand"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "TH",
+      "id": "TH-CAMBODIA-BORDER",
+      "name": "Thailändisches Grenzgebiet zu Kambodscha",
+      "aliases": [
+        "Kambodscha Grenze Thailand",
+        "Grenze Kambodscha Thailand"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "ID",
+      "id": "ID-JKT",
+      "name": "Jakarta (Stadt)",
+      "aliases": [
+        "Jakarta"
+      ],
+      "kind": "city",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "ID",
+      "id": "ID-UBUD",
+      "name": "Ubud (Stadt, Bali)",
+      "aliases": [
+        "Ubud"
+      ],
+      "kind": "city",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "ID",
+      "id": "ID-BALI",
+      "name": "Bali (Insel – genauen Aufenthaltsort angeben)",
+      "aliases": [
+        "Bali"
+      ],
+      "kind": "island",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "ID",
+      "id": "ID-GILI",
+      "name": "Gili-Inseln (westlich von Lombok)",
+      "aliases": [
+        "Gili Inseln",
+        "Gili Trawangan",
+        "Gili Air",
+        "Gili Meno"
+      ],
+      "kind": "island",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "ID",
+      "id": "ID-SUMBA",
+      "name": "Sumba (Insel)",
+      "aliases": [
+        "Sumba"
+      ],
+      "kind": "island",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "ID",
+      "id": "ID-PAPUA",
+      "name": "West-Neuguinea / West-Papua (Region)",
+      "aliases": [
+        "West Papua",
+        "Papua",
+        "West-Neuguinea"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "ID",
+      "id": "ID-KALIMANTAN",
+      "name": "Kalimantan (indonesischer Teil Borneos)",
+      "aliases": [
+        "Borneo",
+        "Kalimantan"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "ID",
+      "id": "ID-LOMBOK",
+      "name": "Lombok (Insel)",
+      "aliases": [
+        "Lombok"
+      ],
+      "kind": "island",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "ID",
+      "id": "ID-FLORES",
+      "name": "Flores (Insel – genaue Region angeben)",
+      "aliases": [
+        "Flores"
+      ],
+      "kind": "island",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "ID",
+      "id": "ID-LABUAN",
+      "name": "Labuan Bajo (Stadt, Flores)",
+      "aliases": [
+        "Labuan Bajo"
+      ],
+      "kind": "city",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "ID",
+      "id": "ID-RAJA",
+      "name": "Raja-Ampat-Inseln",
+      "aliases": [
+        "Raja Ampat"
+      ],
+      "kind": "island",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "ID",
+      "id": "ID-JAVA",
+      "name": "Java (Insel – Stadt/Land angeben)",
+      "aliases": [
+        "Java",
+        "Jawa"
+      ],
+      "kind": "island",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "ID",
+      "id": "ID-YOGYA",
+      "name": "Yogyakarta (Stadt, Java)",
+      "aliases": [
+        "Yogyakarta",
+        "Jogja"
+      ],
+      "kind": "city",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    }
+  ]
+}

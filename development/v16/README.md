@@ -76,3 +76,16 @@ GitHub Actions prüft diese Schritte zusätzlich im Pull Request.
 ## Geplante Orts-/Regionserkennung
 
 Zur neuen Orts-/Regionserkennung (inklusive ärztlich verifizierter regionaler Malariadaten, sicherer Mehrfachauswahl und medizinischem Freigabegate) siehe [GitHub-Issue #10](https://github.com/PraxisReisemedizinPlaner/praxis-reisemedizin-feed/issues/10). Bis zur Umsetzung wertet die V22-Jimdo-Oberfläche Freitexte nicht als medizinisch freigegebene Gebietszuordnung aus. Die Länderfreigabe bleibt davon unabhängig.
+
+## V23 – Regionale Ortsauswahl (Entwicklungs-/Testfassung, 15.11.2026)
+
+**Status:** Die bisherige produktive Jimdo-Version ist weiterhin **V22**. V23 ist zunächst nur als separate GitHub-Pages-Vorschau gedacht, nicht als öffentliche medizinische Regionalfreigabe.
+
+- `region_profiles_draft_v1.json`: 25 geografische Einträge für Thailand und Indonesien (inklusive getrenntem Little Koh Chang/Ranong und Ko Chang/Trat). **Alle sind klinisch unfreigegeben.**
+- `export_public_regions_v1.py`: veröffentlicht ausgewählte Ortsnamen/Synonyme ohne klinische Risikodaten. Regionale medizinische Aussagen erscheinen ausschließlich nach eigener ärztlicher Regionsfreigabe, aktuellem Freigabedatum, geprüften externen Quellenlinks und gültiger Landesfreigabe. Keine Übernahme von DTG-Karten/-Datensammlungen.
+- `test_regions.py`: automatische Tests der Risiko-Sperre, Länderabhängigkeit, Ablaufdaten, Quellenrechte und Veröffentlichungskontrollen.
+- `clinical_review_regions_TH_ID_2026-11-15.md`: fachlicher Prüfbogen mit offen dokumentierten AA/CDC-Unterschieden.
+- `website/ReiseCheck_Jimdo_V23.html`: Ortsvorschläge, Checkbox-unabhängige Mehrfach-Chips, Tastatursteuerung, nicht erkannter Freitext bleibt neutral, Hinweis zur ausstehenden medizinischen Regionalprüfung.
+- Der Public Feed `region_directory_public_v1.json` wird über GitHub Pages ausgeliefert, die V23-Testadresse lautet `reisecheck-v23-jimdo-test.html`.
+
+**Ausdrücklich kein Live-Rollout nach Jimdo**: Erst nach Sichtung der Benutzeroberfläche, Prüfung der Ortsdaten und fachlicher Regionsfreigaben kann die Praxis V23 einmalig einbinden. Die sechs bereits freigegebenen Länderprofile bleiben unabhängig davon unverändert. GitHub-Issue #10 dokumentiert die offenen Schritte.

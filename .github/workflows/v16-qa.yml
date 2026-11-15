@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   datenpruefung:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Repository laden
         uses: actions/checkout@v4
@@ -34,12 +34,22 @@ jobs:
         run: python development/v16/validate_jimdo_v21.py
       - name: Jimdo V22 Wellensymbol pruefen
         run: python development/v16/validate_jimdo_v22.py
+      - name: Jimdo V23 regionale Ortsauswahl pruefen
+        run: python development/v16/validate_jimdo_v23.py
       - name: V16 Struktur und Sperren pruefen
         run: python development/v16/validate_v16.py
       - name: Automatische Sicherheitstests ausfuehren
         run: python -m unittest discover -s development/v16 -p 'test_*.py' -v
+      - name: V23 Browser-Tests (Desktop und Mobil)
+        timeout-minutes: 7
+        run: |
+          python -m pip install --quiet playwright==1.55.0
+          python -m playwright install chromium --with-deps
+          python development/v16/test_v23_browser.py
       - name: Public Feed erstellen
         run: python development/v16/export_public_v16.py --output /tmp/country_profiles_public_v16.json
+      - name: Regionales Ortsverzeichnis sicher exportieren
+        run: python development/v16/export_public_regions_v1.py --output /tmp/region_directory_public_v1.json
       - name: Public Feed auf ungewollte Altinhalte pruefen
         run: |
           python - <<'PY'
