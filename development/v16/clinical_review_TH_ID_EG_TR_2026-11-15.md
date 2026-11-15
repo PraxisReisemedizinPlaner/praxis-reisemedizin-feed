@@ -1,7 +1,9 @@
 # Ärztliche Freigabevorlage – Thailand, Indonesien, Ägypten, Türkei
 
 **Recherchestand:** 15.11.2026  
-**Status:** Medizinischer Prüfentwurf, **nicht für Patienten freigegeben**  
+**Aktueller Status:** **Alle vier Länder am 15.11.2026 ausdrücklich ärztlich freigegeben durch Dr. med. Sebastian Münster.** Die nachstehenden Rechercheteile dokumentieren den **ursprünglichen Prüfstand vor Freigabe**; die verbindliche Freigabeentscheidung steht im Nachtrag am Dokumentende.
+
+**Ursprünglicher Stand vor der Freigabe:** Medizinischer Prüfentwurf, nicht für Patienten freigegeben.  
 **Status im Live-ReiseCheck:** `medical_review_required`, keine länderspezifischen Impf- oder Malariaangaben.  
 **Arbeitsweise:** Eigene Zusammenfassungen aus amtlichen Originalquellen, keine automatisierten DTG-Daten oder Malariakarten. Fachliche und rechtliche Quellenprüfung vor jeder Patientenfreigabe.
 
@@ -109,3 +111,38 @@ https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommissi
 **Keine automatische Veröffentlichung dieser vier medizinischen Entwürfe ohne den letzten Schritt.** Bei jedem GitHub-Pages-Lauf prüft `export_public_v16.py`, ob das Profil ärztlich freigegeben und nicht abgelaufen ist. Die bestehende Jimdo-HTML-Datei bleibt unverändert.
 
 **Offener technischer Hinweis:** Die aktuelle V22-Oberfläche erfasst Regionen als Freitext, weist aber keinen Ort automatisch einer verifizierten regionalen Malaria-Einstufung zu. Deshalb enthält die voraussichtliche erste Freigabe von TH/ID eine neutrale regionale Beratungspflicht und keine automatisch bestimmte Prophylaxe. Präzisere interaktive regionale Aussagen würden einen getrennten, sicherheitsgeprüften Widget-Schritt erfordern.
+
+---
+
+## Freigabeentscheidung und dokumentierte Sicherheitsgrenzen – 15.11.2026
+
+**Ausdrücklicher Freigabeentscheid des Praxisinhabers:** Alle vier Länder **Thailand (TH), Indonesien (ID), Ägypten (EG) und Türkei (TR)** wurden am **15.11.2026** medizinisch bestätigt und zur Veröffentlichung im ReiseCheck freigegeben.
+
+**Reviewer:** Dr. med. Sebastian Münster  
+**Freigabedatum:** 15.11.2026  
+**Nächste ärztliche Prüfung spätestens:** 15.01.2027  
+**Quellenmodell:** Alle amtlichen Originalquellen werden nur als externe HTTPS-Links verknüpft; keinerlei DTG-Karten oder strukturierte DTG-Daten in den Feed übernommen. AA-Open-Data-Nutzungsbedingungen vom 30.10.2026 wurden für das Link-only-Modell geprüft; der Review bleibt eigenständig ärztlich verantwortet.  
+**Notfallkontakte:** Amtliche Vertretungsseiten für Bangkok, Jakarta, Kairo sowie Ankara, Istanbul, Izmir, Antalya am Freigabetag überprüft. Einzelne Telefonnummern und Besuchsadressen können sich unabhängig vom Review ändern; stets Originalquelle beachten.
+
+### Klinische Einschränkungen für die öffentliche Darstellung
+
+- **Thailand und Indonesien:** `malaria.riskLevel=regional` und `malaria.preventionType=regional_assessment_required`. Eine medikamentöse Chemoprophylaxe oder Notfall-Selbstbehandlung darf aus dem aktuellen freien Regionseingabefeld **nicht** automatisch abgeleitet werden. Bei unsicherer Lokalisation konservativ auf individuelle Beratung und die verlinkten amtlichen Originalinformationen verweisen.
+- **Ägypten:** Die WHO hat das Land im Oktober 2024 als malariafrei zertifiziert; `malaria.riskLevel=none`, `preventionType=none`. Schutz vor anderen mückenübertragenen Erkrankungen, insbesondere Dengue, bleibt erforderlich.
+- **Türkei:** CDC-Ländertabelle („None“) und UKMEAG 2026 („very low risk“) verwenden unterschiedliche Kategorien. Veröffentlichte Formulierung dokumentiert die Unsicherheit; `riskLevel=uncertain`, `preventionType=regional_assessment_required`. Keine routinemäßige Malariachemoprophylaxe für gewöhnliche Reisen.
+- Alle Impfungen, vor allem Dengue, Chikungunya, Poliomyelitis und Gelbfiebernachweis auf besonderen Routen, **nicht** als pauschale Verordnung interpretieren; individuelle Indikation und aktuelle Fachinformation prüfen.
+- Der Tourismus-, Sicherheits- und Gesundheitsstatus kann sich ändern; V22-Widget verlinkt Originalquellen. Das Nennen einer Region als Freitext führt noch nicht zu einer ortsgenauen Empfehlung.
+
+### Nachvollziehbarkeit der Veröffentlichung
+
+`medicalReview.status=approved`, `vaccineAssessment.status=approved`, `malariaAssessment.status=approved`, `missions.status=approved`, `publicationAllowed=true` für TH, ID, EG und TR. Im GitHub-Actions-Build werden ausschließlich medizinisch gültige Freigaben exportiert.
+
+**Technische Weiterentwicklung zur Ortszuordnung:** GitHub-Issue [#10](https://github.com/PraxisReisemedizinPlaner/praxis-reisemedizin-feed/issues/10). Voraussetzung: eigenständig geprüfte Regionaldaten, eindeutige Autocomplete-Auswahl und sichere Behandlung nicht erkannter Orte.
+
+### Amtliche Referenzen, überprüft am 15.11.2026
+
+- [Auswärtiges Amt – Open-Data-Nutzungsbedingungen](https://www.auswaertiges-amt.de/de/service/opendata/open-data-schnittstelle-736118)
+- [Thailand – Botschaft Bangkok](https://bangkok.diplo.de/th-de/ueber-uns/2490770-2490770)
+- [Indonesien – Botschaft Jakarta](https://jakarta.diplo.de/id-de/ueber-uns/botschaft/1687058-1687058)
+- [Ägypten – Botschaft Kairo](https://kairo.diplo.de/eg-de)
+- [Türkei – alle vier deutschen Auslandsvertretungen](https://tuerkei.diplo.de/tr-de/vertretungen/1514034-1514034)
+- [UKMEAG – Ländertabelle für Malariaprophylaxe 2026](https://www.gov.uk/government/publications/malaria-prevention-guidelines-for-travellers-from-the-uk-2026/country-recommendations)
