@@ -48,6 +48,9 @@ class RoutePlanningTests(unittest.TestCase):
         self.c["countries"]["IN"]["routeAssessment"]["regionalSelectionRequired"]=False
         with self.assertRaises(ValueError):validate_all(self.c,self.g,self.s)
     def test_unapproved_new_countries_and_regional_advice_not_published(self):
+        for code in ("ES","IT","GR","PT"):
+            self.c["countries"][code]["publicationAllowed"]=False
+            self.c["countries"][code]["medicalReview"]["status"]="pending"
         out=build_public(self.c,date(2026,11,15))
         self.assertEqual(out["approvedCount"],10)
         for code in ("ES","IT","GR","PT"):
@@ -56,6 +59,15 @@ class RoutePlanningTests(unittest.TestCase):
             if row["country"] in ("GR","PT","IT"):
                 self.assertNotIn("malaria",row)
                 self.assertNotIn("sourceNotice",row)
+    def test_four_european_packages_are_medically_approved(self):
+        out=build_public(self.c,date(2026,11,15))
+        self.assertEqual(out["approvedCount"],14)
+        for code in ("ES","IT","GR","PT"):
+            self.assertIn(code,out["countries"])
+            self.assertEqual(self.c["countries"][code]["medicalReview"]["reviewer"],"Dr. med. Sebastian Münster")
+        rows={r["id"]:r for r in self.regions()["regions"]}
+        self.assertIn("sourceNotice",rows["IT-ROME"])
+        self.assertIn("malaria",rows["PT-MADEIRA"])
     def test_stiko_source_distinguished_from_aa(self):
         for code in ("ES","PT","GR","IT"):
             p=self.c["countries"][code]

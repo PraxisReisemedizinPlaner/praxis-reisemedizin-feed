@@ -10,8 +10,8 @@ from export_public_v16 import build_public
 
 HERE = Path(__file__).resolve().parent
 TODAY = date(2026, 11, 15)
-APPROVED = {"MA", "AT", "TH", "ID", "EG", "TR", "TZ", "KE", "VN", "IN"}
-PENDING = {"ES","IT","GR","PT"}
+APPROVED = {"MA", "AT", "TH", "ID", "EG", "TR", "TZ", "KE", "VN", "IN", "ES", "IT", "GR", "PT"}
+PENDING = set()
 
 
 class PublishingSafetyTests(unittest.TestCase):
@@ -23,7 +23,7 @@ class PublishingSafetyTests(unittest.TestCase):
     def test_only_reviewed_countries_are_exported(self):
         out = build_public(copy.deepcopy(self.draft), TODAY)
         self.assertEqual(out["coverageCount"], 14)
-        self.assertEqual(out["approvedCount"], 10)
+        self.assertEqual(out["approvedCount"], 14)
         self.assertEqual(set(out["countries"]), APPROVED)
         self.assertEqual(set(out["coverage"]), APPROVED | PENDING)
         self.assertTrue(all(out["coverage"][code]["status"] == "medical_review_required"
@@ -92,7 +92,7 @@ class PublishingSafetyTests(unittest.TestCase):
                 self.assertTrue(out["countries"][code]["missions"])
 
     def test_remaining_pending_drafts_cannot_be_released_by_flag_only(self):
-        for code in ("TZ", "KE", "VN", "IN"):
+        for code in ("ES", "IT", "GR", "PT"):
             with self.subTest(code=code):
                 data = copy.deepcopy(self.draft)
                 data["countries"][code]["medicalReview"]["status"] = "pending"
