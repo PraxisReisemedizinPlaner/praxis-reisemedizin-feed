@@ -70,6 +70,12 @@ jobs:
           cp website/ReiseCheck_Jimdo_V22.html _site/reisecheck-v22-jimdo-test.html
           cp website/ReiseCheck_Jimdo_V23.html _site/reisecheck-v23-jimdo-test.html
           cp website/ReiseCheck_Jimdo_V24.html _site/reisecheck-v24-jimdo-test.html
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          source=Path("website/ReiseCheck_Jimdo_V24.html").read_text(encoding="utf-8")
+          Path("_site/reisecheck-v24-jimdo-css-test.html").write_text(re.sub(r"<style>.*?</style>","",source,count=1,flags=re.S),encoding="utf-8")
+          PY
 
       - name: GitHub Pages konfigurieren
         uses: actions/configure-pages@v5

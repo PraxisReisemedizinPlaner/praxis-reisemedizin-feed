@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Browser smoke tests for V24 geo-autocomplete and regional clinical gating."""
 import json
+import re
 from datetime import date
 from pathlib import Path
 # Playwright is imported only for the separately installed browser smoke step.
@@ -39,13 +40,17 @@ def selected_country(page,name):
     first.wait_for(timeout=10000)
     first.click()
 
-def smoke(browser,device):
+def smoke(browser,device,stripped=False):
     ctx=browser.new_context(viewport={"width":375 if device=="mobile" else 1140,"height":840})
     ctx.route("**/*", intercept)
     page=ctx.new_page()
     errors=[]
     page.on("pageerror",lambda error: errors.append(str(error)))
-    page.goto((ROOT/"website/ReiseCheck_Jimdo_V24.html").as_uri(),wait_until="domcontentloaded")
+    source_path=ROOT/"website/ReiseCheck_Jimdo_V24.html"
+    if stripped:
+        stripped_html=re.sub(r"<style>.*?</style>","",source_path.read_text(encoding="utf-8"),count=1,flags=re.S)
+        page.route("**/ReiseCheck_Jimdo_V24.html",lambda route: route.fulfill(status=200,content_type="text/html",body=stripped_html))
+    page.goto(source_path.as_uri(),wait_until="domcontentloaded")
     page.wait_for_function("() => document.querySelector('#rm-region-feedback')?.textContent?.includes('Mehrfachauswahl')",timeout=15000)
     selected_country(page,"Thailand")
     # Ambiguous Koh Chang must show two clickable locations, without checkboxes.
@@ -58,6 +63,10 @@ def smoke(browser,device):
     assert "Little Koh Chang" in names and "Ko Chang (Trat" in names, names
     assert page.locator("#rm-region-picker input[type=checkbox]").count()==0
     assert "Fertig" not in listbox.inner_text()
+    assert listbox.evaluate("el => getComputedStyle(el).maxHeight")=="210px"
+    assert listbox.evaluate("el => getComputedStyle(el).overflowY")=="auto"
+    assert options.first.evaluate("el => Math.abs(el.getBoundingClientRect().width-el.parentElement.clientWidth)<3")
+    assert options.first.locator(".rm-region-tick").evaluate("el => getComputedStyle(el).visibility")=="hidden"
 
     # Select once: stays visibly open, selected row is colored and marked.
     options.filter(has_text="Little Koh Chang").first.click()
@@ -65,6 +74,8 @@ def smoke(browser,device):
     assert listbox.is_visible(), "Dropdown must remain open after a choice"
     chosen=listbox.locator("button.rm-selected").filter(has_text="Little Koh Chang")
     assert chosen.count()==1 and chosen.first.get_attribute("aria-selected")=="true"
+    assert chosen.first.evaluate("el => getComputedStyle(el).backgroundColor") in ("rgb(212, 233, 242)","rgb(192, 223, 237)")
+    assert chosen.first.locator(".rm-region-tick").evaluate("el => getComputedStyle(el).visibility")=="visible"
 
     # Add a second place by a single further click, WITHOUT leaving the field.
     listbox.locator("button").filter(has_text="Bangkok").first.click()
@@ -121,4 +132,5 @@ if __name__ == "__main__":
         browser=p.chromium.launch(headless=True,args=["--no-sandbox"])
         for label in ("desktop","mobile"):
             smoke(browser,label)
+            smoke(browser,label,stripped=True)
         browser.close()

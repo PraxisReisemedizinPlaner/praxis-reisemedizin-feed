@@ -1,4 +1,4 @@
-<!-- Praxis Dr. Münster: Reisemedizin-Check | Jimdo Creator Widget/HTML | V24.3 (15.11.2026; einheitliche Klick-Mehrfachauswahl für Regionen, Reiseart, Reisegrund und Aktivitäten, Länderpaket mit quellenbasierten Regionalinformationen; Wellen- und Bergsymbol, Quellen im Abschlussbereich; Reisearten und Reisegründe mehrfach auswählbar, Hinweise zur Höhenkrankheit) -->
+<!-- Praxis Dr. Münster: Reisemedizin-Check | Jimdo Creator Widget/HTML | V24.4 (15.11.2026; einheitliche Klick-Mehrfachauswahl für Regionen, Reiseart, Reisegrund und Aktivitäten, Länderpaket mit quellenbasierten Regionalinformationen; Wellen- und Bergsymbol, Quellen im Abschlussbereich; Reisearten und Reisegründe mehrfach auswählbar, Hinweise zur Höhenkrankheit) -->
 <div class="rm-tool" id="rm-tool" style="--rm-blue:#6592A7;--rm-deep:#234556;--rm-line:#d8e4e9;--rm-ink:#243b46;--rm-muted:#566c75;font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;font-size:15px;line-height:1.5;color:#243b46;width:100%;max-width:950px;margin:0 auto;box-sizing:border-box">
 <style>
     #rm-tool{--rm-blue:#6592A7;--rm-deep:#234556;--rm-fog:#eef5f7;--rm-line:#d8e4e9;--rm-ink:#243b46;--rm-muted:#566c75;--rm-good:#eef8f3;--rm-attn:#fff3df;--rm-red:#fff1ef;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--rm-ink);font-size:15px;line-height:1.5;width:100%;max-width:950px;margin:0 auto}
@@ -393,6 +393,12 @@
     const rmActivityStyle=document.createElement('style');
     rmActivityStyle.textContent="  #rm-tool .rm-activities-label{display:block;font-size:14px;font-weight:650;color:#243b46;margin:12px 0 6px}\n#rm-tool details.rm-activity-picker{width:100%;padding:0;border:1px solid #bdd0d9;border-radius:10px;background:white;overflow:hidden;margin:0}\n#rm-tool details.rm-activity-picker>summary{display:flex;align-items:center;gap:8px;min-height:44px;padding:10px 12px;color:#1f3b48;font-size:14px;line-height:1.45;font-weight:500;list-style:none;cursor:pointer}\n#rm-tool details.rm-activity-picker>summary::-webkit-details-marker{display:none}\n#rm-tool details.rm-activity-picker>summary::before{content:none}\n#rm-tool details.rm-activity-picker>summary::after{content:\"⌄\";margin-left:auto;font-size:19px;color:#385d71}\n#rm-tool details.rm-activity-picker[open]>summary::after{content:\"⌃\"}\n#rm-tool details.rm-activity-picker>summary:focus-visible{outline:3px solid #a8cada;outline-offset:-3px}\n#rm-tool .rm-activity-list{border:0;border-top:1px solid #e2edf1;padding:5px 7px;margin:0;max-height:245px;overflow-y:auto;min-width:0}\n#rm-tool .rm-activity-visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}\n#rm-tool .rm-activity-list button.rm-activity-choice{display:flex;align-items:center;gap:11px;width:100%;text-align:left;border:0;background:#fff;font-family:inherit;margin:0;padding:8px 9px;min-height:39px;border-radius:7px;font-size:13px;font-weight:500;cursor:pointer;line-height:1.4;color:#254658}\n#rm-tool .rm-activity-list button.rm-activity-choice:hover,#rm-tool .rm-activity-list button.rm-activity-choice:focus-within{background:#eaf3f7}\n#rm-tool .rm-activity-buttons{display:flex;justify-content:space-between;gap:8px;padding:10px 10px;border-top:1px solid #e2edf1;background:#f8fbfc}\n#rm-tool .rm-activity-buttons button{font-size:12px;min-height:34px;padding:6px 12px}\n#rm-tool .rm-activity-selection{margin:5px 0 0!important;font-size:12px;line-height:1.4;color:#52717f}\n@media(max-width:610px){#rm-tool .rm-activity-list{max-height:250px}#rm-tool .rm-activity-list button.rm-activity-choice{min-height:44px}}\n\n#rm-tool .rm-activity-list button.rm-activity-choice[aria-pressed=\"true\"]{background:#d4e9f2;color:#234556;font-weight:750;box-shadow:inset 4px 0 0 #527f92}\n#rm-tool .rm-activity-list button.rm-activity-choice[aria-pressed=\"true\"]:hover{background:#c0dfed}\n#rm-tool .rm-activity-list button.rm-activity-choice:focus-visible{outline:2px solid #6592a7;outline-offset:-2px}\n#rm-tool .rm-activity-choice::before{content:\"✓\";visibility:hidden;font-weight:800}\n#rm-tool .rm-activity-choice[aria-pressed=\"true\"]::before{visibility:visible}\n";
     HOST.appendChild(rmActivityStyle);
+    // Jimdo can discard the first style block. Restore all region UI rules at runtime.
+    const rmRegionStyle=document.createElement('style');
+    rmRegionStyle.setAttribute('data-rm-region-style','runtime');
+    rmRegionStyle.textContent="#rm-tool #rm-region-suggest{display:none!important;position:relative!important;z-index:8!important;border:1px solid #a6c2d0!important;border-radius:10px!important;background:#fff!important;box-shadow:0 10px 26px rgba(22,64,82,.12)!important;margin:3px 0 8px!important;max-height:210px!important;overflow-y:auto!important}\n    #rm-tool #rm-region-suggest.rm-show{display:block!important}\n    #rm-tool #rm-region-suggest button{width:100%!important;border:0!important;border-bottom:1px solid #e7eff2!important;background:#fff!important;text-align:left!important;color:#254759!important;font-size:13px!important;line-height:1.4!important;min-height:40px!important;padding:9px 12px!important;cursor:pointer!important}\n    #rm-tool #rm-region-suggest button:last-child{border-bottom:0!important}\n    #rm-tool #rm-region-suggest button:hover,#rm-tool #rm-region-suggest button.rm-active{background:#e7f2f7!important}\n    #rm-tool #rm-region-suggest button:focus-visible{outline:2px solid #6592a7!important;outline-offset:-2px!important}\n    #rm-tool #rm-region-suggest button.rm-selected{background:#d4e9f2!important;color:#234556!important;font-weight:750!important;box-shadow:inset 4px 0 0 #527f92!important}\n    #rm-tool #rm-region-suggest button.rm-selected:hover,#rm-tool #rm-region-suggest button.rm-selected.rm-active{background:#c0dfed!important}\n    #rm-tool #rm-region-suggest button .rm-region-tick{display:inline-block!important;margin-right:8px!important;color:#234556!important;font-weight:800!important}\n    #rm-tool #rm-region-suggest button .rm-region-tick.rm-hidden-tick{visibility:hidden!important}\n    #rm-tool .rm-region-chips{display:flex!important;gap:6px!important;flex-wrap:wrap!important;margin:7px 0 3px!important}\n    #rm-tool .rm-region-chip{display:inline-flex!important;align-items:center!important;gap:6px!important;border:1px solid #c6dde7!important;background:#edf5f8!important;border-radius:21px!important;padding:5px 7px 5px 10px!important;font-size:12px!important;line-height:1.35!important;color:#28536a!important}\n    #rm-tool .rm-region-chip button{padding:0 3px!important;font-size:18px!important;line-height:1!important;border:0!important;background:none!important;color:#3c6878!important}\n    #rm-tool .rm-region-chips:empty{display:none!important}#rm-tool .rm-region-feedback{font-size:11px!important;line-height:1.45!important;color:#52717e!important;margin:7px 0 0!important}\n    #rm-tool .rm-region-risk{background:#f3f8fa!important;border:1px solid #9dbccb!important;border-left:4px solid #6592a7!important;border-radius:10px!important;padding:11px 13px!important;margin:12px 0!important;color:#294959!important}\n    #rm-tool .rm-region-risk h4{font-size:14px!important;margin:0 0 6px!important}\n    #rm-tool .rm-region-risk p{font-size:12px!important;margin:6px 0 0!important}\n    #rm-tool .rm-region-risk-item{border-top:1px solid #d3e5ed!important;margin:8px 0 0!important;padding:7px 0 0!important;font-size:13px!important}\n    #rm-tool .rm-region-risk-item strong{display:block!important}\n    #rm-tool .rm-region-risk-item .rm-hint{margin-top:3px!important}";
+    HOST.appendChild(rmRegionStyle);
+
     const syncVisibility=(el)=>{if(el && el.nodeType===1 && el.hasAttribute('data-rm-fallback-hidden'))el.hidden=el.classList.contains('rm-hidden');};
     HOST.querySelectorAll('[data-rm-fallback-hidden]').forEach(syncVisibility);
     new MutationObserver(records=>records.forEach(r=>syncVisibility(r.target))).observe(HOST,{subtree:true,attributes:true,attributeFilter:['class']});
@@ -447,6 +453,7 @@
     function hideRegionSuggestions(){
       regionActive=-1;
       $('rm-region-suggest').classList.remove('rm-show');
+      $('rm-region-suggest').style.setProperty('display','none','important');
       $('rm-region-suggest').innerHTML='';
       $('rm-region').setAttribute('aria-expanded','false');
     }
@@ -466,10 +473,14 @@
         const btn=document.createElement('button');btn.type='button';btn.setAttribute('role','option');
         const picked=isPicked(r.id);
         btn.classList.toggle('rm-selected',picked);
+        btn.style.cssText='display:block!important;width:100%!important;box-sizing:border-box!important;white-space:normal!important;text-align:left!important;font-family:inherit!important;text-transform:none!important;letter-spacing:normal!important;';
         btn.setAttribute('aria-selected',picked?'true':'false');
         const tick=document.createElement('span');
         tick.className='rm-region-tick'+(picked?'':' rm-hidden-tick');
         tick.textContent='✓';tick.setAttribute('aria-hidden','true');
+        tick.style.setProperty('visibility',picked?'visible':'hidden','important');
+        tick.style.setProperty('display','inline-block','important');
+        tick.style.setProperty('margin-right','8px','important');
         btn.append(tick,document.createTextNode(r.name+' · '+(selected.find(x=>x.c===r.country)?.n||r.country)));
         btn.dataset.id=r.id;
         btn.addEventListener('click',()=>chooseRegion(r.id));
@@ -477,6 +488,10 @@
       }
       box.scrollTop=0;
       box.classList.toggle('rm-show',!!matches.length);
+      box.style.setProperty('display',matches.length?'block':'none','important');
+      box.style.setProperty('max-height','210px','important');
+      box.style.setProperty('overflow-y','auto','important');
+      box.style.setProperty('width','100%','important');
       $('rm-region').setAttribute('aria-expanded',matches.length?'true':'false');
     }
     function chooseRegion(id){
