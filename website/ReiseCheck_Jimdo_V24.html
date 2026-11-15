@@ -854,7 +854,7 @@
     }
     function renderSharedVaccinations(){
       const {entries,missing}=unifiedVaccines();
-      const standard=selected.length?'<section class="rm-shared-vax rm-standard-vax" aria-labelledby="rm-standard-title" style="width:100%;box-sizing:border-box;grid-column:1 / -1;background:#e8f5e9;border:2px solid #2e7d46;color:#1b5e20"><h4 id="rm-standard-title">'+icon('vaccine')+'STIKO-Standardimpfungen</h4><p>Unabhängig vom Reiseziel: alters- und indikationsgerechten Impfstatus nach STIKO prüfen, insbesondere den Masernschutz. Die STIKO-Empfehlungen richten sich nach Alter und individuellen Risiken.</p></section>':'';
+      const standard=selected.length?'<section class="rm-shared-vax rm-standard-vax" aria-labelledby="rm-standard-title" style="width:100%;box-sizing:border-box;grid-column:1 / -1;background:#e8f5e9!important;border:2px solid #2e7d46!important;color:#1b5e20!important"><h4 id="rm-standard-title">'+icon('vaccine')+'STIKO-Standardimpfungen</h4><p>Unabhängig vom Reiseziel: alters- und indikationsgerechten Impfstatus nach STIKO prüfen, insbesondere den Masernschutz. Die STIKO-Empfehlungen richten sich nach Alter und individuellen Risiken.</p></section>':'';
       const h=[standard,'<section class="rm-shared-vax" aria-labelledby="rm-vax-title"><h4 id="rm-vax-title">'+icon('vaccine')+'Reisespezifische Impfempfehlungen für deine gesamte Reise</h4>'];
       h.push('<p class="rm-hint">Alle ausgewählten Länder werden gemeinsam berücksichtigt. Jede Impfung erscheint nur einmal; darunter steht, für welches Reiseziel sie genannt wird.</p>');
       if(entries.length){
