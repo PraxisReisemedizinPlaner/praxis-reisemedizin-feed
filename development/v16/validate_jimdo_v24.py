@@ -51,6 +51,7 @@ assert "regionDirectory.filter(r=>countries.has(r.country));" in script, "Previo
 assert "const had=regionPicks.some(x=>x.id===id);" in script, "Toggle-to-deselect absent"
 assert "showRegionSuggestions(); // intentionally remains open" in script, "Multi-selection dropdown closes prematurely"
 assert "document.addEventListener('focusin',event=>" in script, "Next-field auto-close missing"
+assert "event.composedPath().includes($('rm-region-picker'))" in script, "Click on rerendered item must not close list"
 assert "if(!event.target.closest?.('#rm-region-picker'))hideRegionSuggestions();" in script, "Picker loses focus within itself"
 assert "regionActive?'true':'false'" not in script, "Keyboard highlight must not change selected state"
 
