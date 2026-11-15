@@ -68,7 +68,11 @@ GitHub Actions prüft diese Schritte zusätzlich im Pull Request.
 ## Nächste fachliche Arbeit
 
 - Marokko (MA) und Österreich (AT) wurden am 11.11.2026 nach ärztlicher Freigabe veröffentlicht; erneute Prüfung spätestens 11.01.2027.
-- Vier neue medizinische Prüfentwürfe (TH, ID, EG, TR) liegen seit 15.11.2026 vor: `clinical_review_TH_ID_EG_TR_2026-11-15.md`. Diese sind **noch nicht** medizinisch freigegeben. Insgesamt sind derzeit 10 Länder erfasst, davon 2 veröffentlicht und 8 gesperrt.
-- Quellenrechte und die Zuverlässigkeit regionaler Malariaangaben prüfen; DTG-Karten nur verlinken.
+- Thailand, Indonesien, Ägypten und Türkei (TH/ID/EG/TR) wurden am **15.11.2026 ausdrücklich ärztlich freigegeben** (siehe Nachtrag in `clinical_review_TH_ID_EG_TR_2026-11-15.md`). Neue Überprüfung bis 15.01.2027. Insgesamt sind **10 Länder erfasst, 6 veröffentlicht und 4 gesperrt** (TZ, KE, VN, IN).
+- Die Herkunft und Wiederverwendung externer Quellen weiter prüfen; DTG-Karten ausschließlich verlinken. TH/ID liefern ohne Ortsauflösung keine automatisch abgeleitete Medikamentenempfehlung.
 - Bei neuer ausdrücklicher ärztlicher Freigabe automatischen Export, GitHub-Tests und öffentlichen ReiseCheck überprüfen. Achtung: Das aktuelle V22-Widget klassifiziert freie Regionseingaben **nicht** automatisch in Malaria-Unterregionen; bei Thailand/Indonesien dürfen daher nur konservative allgemeine Regionalhinweise ohne automatische Arzneimittelempfehlung ausgegeben werden.
 
+
+## Geplante Orts-/Regionserkennung
+
+Zur neuen Orts-/Regionserkennung (inklusive ärztlich verifizierter regionaler Malariadaten, sicherer Mehrfachauswahl und medizinischem Freigabegate) siehe [GitHub-Issue #10](https://github.com/PraxisReisemedizinPlaner/praxis-reisemedizin-feed/issues/10). Bis zur Umsetzung wertet die V22-Jimdo-Oberfläche Freitexte nicht als medizinisch freigegebene Gebietszuordnung aus. Die Länderfreigabe bleibt davon unabhängig.
