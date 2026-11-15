@@ -24,6 +24,8 @@ jobs:
           python-version: '3.12'
       - name: Jimdo V16 Widget pruefen
         run: python development/v16/validate_jimdo_v16.py
+      - name: Jimdo V18 Widget pruefen
+        run: python development/v16/validate_jimdo_v18.py
       - name: V16 Struktur und Sperren pruefen
         run: python development/v16/validate_v16.py
       - name: Automatische Sicherheitstests ausfuehren
