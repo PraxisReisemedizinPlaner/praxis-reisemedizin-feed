@@ -1,4 +1,4 @@
-<!-- Praxis Dr. Münster: Reisemedizin-Check | Jimdo Creator Widget/HTML | V24.1 (15.11.2026; einheitliche Klick-Mehrfachauswahl für Regionen, Reiseart, Reisegrund und Aktivitäten, klinisches Freigabegate; Wellen- und Bergsymbol, Quellen im Abschlussbereich; Reisearten und Reisegründe mehrfach auswählbar, Hinweise zur Höhenkrankheit) -->
+<!-- Praxis Dr. Münster: Reisemedizin-Check | Jimdo Creator Widget/HTML | V24.2 (15.11.2026; einheitliche Klick-Mehrfachauswahl für Regionen, Reiseart, Reisegrund und Aktivitäten, Länderpaket mit quellenbasierten Regionalinformationen; Wellen- und Bergsymbol, Quellen im Abschlussbereich; Reisearten und Reisegründe mehrfach auswählbar, Hinweise zur Höhenkrankheit) -->
 <div class="rm-tool" id="rm-tool" style="--rm-blue:#6592A7;--rm-deep:#234556;--rm-line:#d8e4e9;--rm-ink:#243b46;--rm-muted:#566c75;font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;font-size:15px;line-height:1.5;color:#243b46;width:100%;max-width:950px;margin:0 auto;box-sizing:border-box">
 <style>
     #rm-tool{--rm-blue:#6592A7;--rm-deep:#234556;--rm-fog:#eef5f7;--rm-line:#d8e4e9;--rm-ink:#243b46;--rm-muted:#566c75;--rm-good:#eef8f3;--rm-attn:#fff3df;--rm-red:#fff1ef;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--rm-ink);font-size:15px;line-height:1.5;width:100%;max-width:950px;margin:0 auto}
@@ -342,7 +342,7 @@
     const FEED_URL='';
     // V16: The public feed includes ONLY medically reviewed country data (independent approval on GitHub).
     const COUNTRY_PROFILE_FEED_URL='https://praxisreisemedizinplaner.github.io/praxis-reisemedizin-feed/country_profiles_public_v16.json';
-    const REGION_DIRECTORY_FEED_URL='https://praxisreisemedizinplaner.github.io/praxis-reisemedizin-feed/region_directory_public_v1.json';
+    const REGION_DIRECTORY_FEED_URL='https://praxisreisemedizinplaner.github.io/praxis-reisemedizin-feed/region_directory_public_v2.json';
     const MAX_MEDICAL_AGE_DAYS=14;
     // Veröffentlicht in den letzten vier Wochen, nicht bloß technisch erneut abgerufen.
     const MAX_INTERNATIONAL_NOTICE_AGE_DAYS=28;
@@ -544,23 +544,27 @@
       const raw=$('rm-region').value.trim();
       if(!regionPicks.length&&!raw)return '';
       const content=['<section class="rm-region-risk"><h4>'+icon('pin')+'Bereiste Orte und regionale Malariaeinordnung</h4>'];
-      content.push('<p class="rm-hint">Ortsvorschläge sind geografische Angaben. Die regionale Malariabewertung ist eine getrennte, ärztlich freizugebende Information.</p>');
+      content.push('<p class="rm-hint">Regionale Angaben beruhen auf den Quellen des freigegebenen Länderpakets. Quellenabweichungen und unklare Reiserouten werden ausdrücklich gekennzeichnet.</p>');
       for(const r of regionPicks){
         const country=selected.find(x=>x.c===r.country)?.n||r.country;
         const parent=profiles[r.country];
-        const approved=r.clinicalStatus==='approved'&&
+        const approved=r.clinicalStatus==='source_based'&&r.approvalScope==='country_package'&&
           /^\d{4}-\d{2}-\d{2}$/.test(r.nextReviewDate||'')&&
           r.nextReviewDate>=new Date().toISOString().slice(0,10)&&profileFresh(parent)&&r.malaria;
         content.push('<div class="rm-region-risk-item"><strong>'+escape(r.name)+' · '+escape(country)+'</strong>');
         if(approved){
           const m=r.malaria;
-          const labels={none:'Kein Malariavorkommen nach regionaler ärztlicher Prüfung',low:'Geringe Exposition – Mückenschutz',moderate:'Region mit relevantem Malariarisiko – ärztliche Prophylaxeberatung',high:'Höheres Malariarisiko – ärztliche Prophylaxeberatung',uncertain:'Regionale Risikoabwägung erforderlich'};
+          const labels={none:'Kein bekanntes lokales Malariavorkommen laut Quellen',low:'Geringe Exposition – Mückenschutz',moderate:'Region mit relevantem Malariarisiko – ärztliche Prophylaxeberatung',high:'Höheres Malariarisiko – ärztliche Prophylaxeberatung',uncertain:'Regionale Risikoabwägung erforderlich'};
           content.push('<p>'+escape(labels[m.riskLevel]||'Individuelle Malariaberatung erforderlich')+'</p>');
           content.push('<p>'+escape(m.clinicalRecommendation)+'</p>');
-        }else content.push('<p class="rm-hint">Dieser Ort ist geografisch zugeordnet; eine ärztlich freigegebene regionale Malariabeurteilung ist noch nicht verfügbar. Die allgemeine Länderinformation bleibt maßgeblich.</p>');
+        }else if(['source_conflict','route_required'].includes(r.clinicalStatus)&&r.approvalScope==='country_package'&&
+          r.nextReviewDate>=new Date().toISOString().slice(0,10)&&profileFresh(parent)){
+          content.push('<p class="rm-warningline">'+(r.clinicalStatus==='source_conflict'?'Quellenabweichung – konkrete Reise berücksichtigen':'Genaue Reiseroute erforderlich')+'</p>');
+          content.push('<p>'+escape(r.sourceNotice)+'</p>');
+        }else content.push('<p class="rm-hint">Für diesen Ort liegen derzeit keine ausreichend aktuellen, eindeutig zugeordneten Quelleninformationen im freigegebenen Länderpaket vor. Die allgemeine Länderinformation bleibt maßgeblich.</p>');
         content.push('</div>');
       }
-      if(raw)content.push('<p class="rm-warningline">Nicht bestätigte Ortsangabe: <strong>'+escape(raw)+'</strong>. Diese Freitexte werden nicht als medizinisch geprüfte Regionen erkannt. Wähle einen konkreten Ort aus den Vorschlägen oder lass die Region ärztlich beurteilen.</p>');
+      if(raw)content.push('<p class="rm-warningline">Nicht bestätigte Ortsangabe: <strong>'+escape(raw)+'</strong>. Freitext allein wird keiner regionalen Risikostufe zugeordnet. Wähle einen konkreten Ort aus den Vorschlägen oder lass die Region ärztlich beurteilen.</p>');
       content.push('</section>');return content.join('');
     }
     async function loadRegionDirectory(){
@@ -568,30 +572,36 @@
       try{
         const url=new URL(REGION_DIRECTORY_FEED_URL);
         if(url.protocol!=='https:'||url.hostname!=='praxisreisemedizinplaner.github.io'||
-          !url.pathname.endsWith('/region_directory_public_v1.json'))throw Error('Falsche regionale Datenquelle');
+          !url.pathname.endsWith('/region_directory_public_v2.json'))throw Error('Falsche regionale Datenquelle');
         const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),9000);
         let response;try{response=await fetch(url.href,{cache:'no-store',signal:controller.signal,referrerPolicy:'no-referrer'})}finally{clearTimeout(timer)}
         if(!response.ok)throw Error('HTTP '+response.status);
         const data=await response.json();
-        if(data.schemaVersion!==1||data.dataset!=='praxis-dr-muenster-regions-public-v1'||
+        if(data.schemaVersion!==2||data.approvalModel!=='country_package'||data.dataset!=='praxis-dr-muenster-regions-public-v2'||
           !Array.isArray(data.regions)||data.regions.length>1000||data.geographyCount!==data.regions.length||
-          data.regionalApprovedCount!==data.regions.filter(x=>x.clinicalStatus==='approved').length)throw Error('Regionales Format ungültig');
+          data.sourceBasedCount!==data.regions.filter(x=>x.clinicalStatus==='source_based').length)throw Error('Regionales Format ungültig');
         const next=[],seen=new Set(),today=new Date().toISOString().slice(0,10);
         for(const row of data.regions){
           if(!row||typeof row.id!=='string'||!/^[A-Z]{2}-[A-Z0-9-]+$/.test(row.id)||
             !/^[A-Z]{2}$/.test(row.country)||!row.id.startsWith(row.country+'-')||seen.has(row.id)||
             typeof row.name!=='string'||row.name.length>130||!['city','island','region'].includes(row.kind)||
             !Array.isArray(row.aliases)||row.aliases.length>15||!row.aliases.every(x=>typeof x==='string'&&x.length<100)||
-            !['medical_review_required','approved'].includes(row.clinicalStatus))throw Error('Region ungültig');
+            !['source_unavailable','source_based','source_conflict','route_required'].includes(row.clinicalStatus))throw Error('Region ungültig');
           seen.add(row.id);
           const safe={id:row.id,country:row.country,name:row.name,kind:row.kind,aliases:row.aliases,
-            clinicalStatus:'medical_review_required'};
-          if(row.clinicalStatus==='approved'&&row.nextReviewDate>=today&&row.malaria&&
+            clinicalStatus:'source_unavailable'};
+          if(row.clinicalStatus==='source_based'&&row.approvalScope==='country_package'&&/^\d{4}-\d{2}-\d{2}$/.test(row.nextReviewDate||'')&&row.nextReviewDate>=today&&row.malaria&&
              ['none','low','moderate','high','uncertain'].includes(row.malaria.riskLevel)&&
              typeof row.malaria.clinicalRecommendation==='string'&&
              Array.isArray(row.sources)&&row.sources.every(x=>{try{return new URL(x).protocol==='https:'}catch(_){return false}})){
-              safe.clinicalStatus='approved';safe.nextReviewDate=row.nextReviewDate;
+              safe.clinicalStatus='source_based';safe.approvalScope='country_package';safe.nextReviewDate=row.nextReviewDate;
               safe.malaria={riskLevel:row.malaria.riskLevel,clinicalRecommendation:row.malaria.clinicalRecommendation};
+          }
+          if(['source_conflict','route_required'].includes(row.clinicalStatus)&&
+             row.approvalScope==='country_package'&&/^\d{4}-\d{2}-\d{2}$/.test(row.nextReviewDate||'')&&row.nextReviewDate>=today&&
+             typeof row.sourceNotice==='string'&&row.sourceNotice.length<2500){
+            safe.clinicalStatus=row.clinicalStatus;safe.sourceNotice=row.sourceNotice;
+            safe.nextReviewDate=row.nextReviewDate;safe.approvalScope='country_package';
           }
           next.push(safe);
         }

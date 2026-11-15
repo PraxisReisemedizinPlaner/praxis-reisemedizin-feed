@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 2,
+  "approvalModel": "country_package",
+  "authorization": {
+    "recordedAt": "2026-11-15",
+    "authorizedBy": "Dr. med. Sebastian Münster",
+    "scope": "Use the existing valid country approval for source-based regional information; individual region sign-off is not required."
+  },
+  "rules": {
+    "noDTGStructuredReuse": true,
+    "noAutomaticRiskFromFreitext": true,
+    "noMedicationNames": true,
+    "requireValidCountryApproval": true
+  },
+  "regions": [
+    {
+      "id": "TH-BKK",
+      "country": "TH",
+      "status": "source_conflict",
+      "scope": "Bangkok (Stadt)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/thailand"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Das AA beschreibt Bangkok als malariafrei; CDC nennt seltene Fälle. Deshalb wird hier keine pauschale Malariafreiheit ausgewiesen. Die Aussage gilt nur für das Stadtgebiet; Mückenschutz bleibt sinnvoll."
+    },
+    {
+      "id": "TH-CNX",
+      "country": "TH",
+      "status": "source_conflict",
+      "scope": "Chiang Mai (Stadt)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/thailand"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für Chiang Mai Stadt unterscheiden sich die Quellen: AA nennt Malariafreiheit, CDC seltene Fälle. Die gleichnamige Provinz und Waldgebiete sind nicht mit dem Stadtgebiet gleichzusetzen. Keine pauschale regionale Einstufung."
+    },
+    {
+      "id": "TH-CEI",
+      "country": "TH",
+      "status": "source_conflict",
+      "scope": "Chiang Rai (Stadt)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/thailand"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für Chiang Rai Stadt nennt AA Malariafreiheit, CDC seltene Fälle. Stadt und Provinz sind zu unterscheiden; für Ausflüge in Wald- oder Grenzgebiete ist die genaue Route entscheidend."
+    },
+    {
+      "id": "TH-PTY",
+      "country": "TH",
+      "status": "supported",
+      "scope": "Pattaya (Stadt)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/thailand"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für das Stadtgebiet Pattaya ist kein lokales Malariavorkommen bekannt. Eine routinemäßige medikamentöse Malariaprophylaxe ist für diesen Stadtaufenthalt nicht vorgesehen. Ausflüge außerhalb der Stadt müssen gesondert beurteilt werden. Schütze dich weiterhin vor Mückenstichen, auch wegen anderer übertragbarer Erkrankungen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "TH-HKT",
+      "country": "TH",
+      "status": "supported",
+      "scope": "Phuket (Insel)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/thailand"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Auf der Insel Phuket besteht eine geringe Malariaexposition. Konsequenter Mückenschutz steht im Vordergrund; eine routinemäßige medikamentöse Malariaprophylaxe ist in der Regel nicht erforderlich. Weitere Reiseziele und besondere Expositionen müssen gesondert ärztlich beurteilt werden.",
+      "riskLevel": "low",
+      "preventionType": "exposure_only"
+    },
+    {
+      "id": "TH-USM",
+      "country": "TH",
+      "status": "supported",
+      "scope": "Ko Samui (Insel)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/thailand"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für Ko Samui beschreiben die Quellen eine geringe Exposition beziehungsweise seltene Fälle. Konsequenter Mückenschutz steht im Vordergrund; für diese Insel ist üblicherweise keine routinemäßige medikamentöse Malariaprophylaxe vorgesehen.",
+      "riskLevel": "low",
+      "preventionType": "exposure_only"
+    },
+    {
+      "id": "TH-KPN",
+      "country": "TH",
+      "status": "supported",
+      "scope": "Ko Pha-ngan (Insel)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/thailand"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für Ko Pha-ngan beschreiben die Quellen eine geringe Exposition beziehungsweise seltene Fälle. Konsequenter Mückenschutz steht im Vordergrund; für diese Insel ist üblicherweise keine routinemäßige medikamentöse Malariaprophylaxe vorgesehen.",
+      "riskLevel": "low",
+      "preventionType": "exposure_only"
+    },
+    {
+      "id": "TH-PP",
+      "country": "TH",
+      "status": "source_conflict",
+      "scope": "Ko Phi Phi (Krabi)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/thailand"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Das AA ordnet Ko Phi Phi einem geringen Risikobereich zu; CDC beschreibt für die Inseln der Provinz Krabi keine Übertragung. Die Abweichung bleibt sichtbar. Eine pauschale Aussage zur Malariafreiheit wird daraus nicht abgeleitet."
+    },
+    {
+      "id": "TH-CHANG-TRAT",
+      "country": "TH",
+      "status": "route_required",
+      "scope": "Ko Chang (Trat, Golf von Thailand)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/thailand"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Ko Chang in Trat ist nicht Little Koh Chang in Ranong. Aus der geografischen Namenszuordnung allein lässt sich keine sichere lokale Einstufung ableiten. Reiseroute und Ausflüge in Grenz- oder Waldgebiete müssen berücksichtigt werden."
+    },
+    {
+      "id": "TH-LITTLE-CHANG-RANONG",
+      "country": "TH",
+      "status": "source_conflict",
+      "scope": "Little Koh Chang (Ranong, Andamanensee)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/thailand"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "AA beschreibt auf Little Koh Chang in Ranong ein mittleres Risiko und eine vom Zugang zur Versorgung abhängige Notfallstrategie. CDC empfiehlt für relevante Grenzgebiete zu Myanmar eine medikamentöse Prophylaxe. Die Präventionsstrategien sind nicht gleichzusetzen; lass deine konkrete Route und Versorgungssituation beraten."
+    },
+    {
+      "id": "TH-MYANMAR-BORDER",
+      "country": "TH",
+      "status": "route_required",
+      "scope": "Thailändisches Grenzgebiet zu Myanmar",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/thailand"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Die Grenzregion zu Myanmar umfasst unterschiedliche Aufenthaltsorte. AA und CDC unterscheiden sich teilweise in der medikamentösen Prävention. Für Waldaufenthalte und entlegene Strecken ist eine Beratung anhand der konkreten Route erforderlich."
+    },
+    {
+      "id": "TH-CAMBODIA-BORDER",
+      "country": "TH",
+      "status": "route_required",
+      "scope": "Thailändisches Grenzgebiet zu Kambodscha",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/thailand"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Die Grenze zu Kambodscha ist kein einheitliches Risikogebiet. CDC unterscheidet unter anderem Buri Ram von anderen Grenzprovinzen. Für eine medikamentöse Strategie werden Provinz, Aufenthaltsort und Reiseform benötigt."
+    },
+    {
+      "id": "ID-JKT",
+      "country": "ID",
+      "status": "supported",
+      "scope": "Jakarta (Stadt)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/indonesia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für das Stadtgebiet Jakarta ist kein lokales Malariavorkommen bekannt. Eine routinemäßige medikamentöse Malariaprophylaxe ist für diesen Stadtaufenthalt nicht vorgesehen. Ausflüge und weitere Reiseziele außerhalb der Stadt müssen gesondert beurteilt werden. Schütze dich weiterhin vor Mückenstichen, auch wegen anderer übertragbarer Erkrankungen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "ID-UBUD",
+      "country": "ID",
+      "status": "source_conflict",
+      "scope": "Ubud (Stadt, Bali)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/indonesia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "CDC nennt für Ubud Stadt keine Malariaübertragung; AA beschreibt Bali allgemein als Gebiet mit geringer Exposition. Die unterschiedliche räumliche Genauigkeit erlaubt keine pauschale Übertragung auf Ausflüge in andere Teile Balis."
+    },
+    {
+      "id": "ID-BALI",
+      "country": "ID",
+      "status": "route_required",
+      "scope": "Bali (Insel – genauen Aufenthaltsort angeben)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/indonesia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für Bali unterscheiden sich die räumlichen Angaben: AA beschreibt eine geringe Exposition, CDC nennt keine Übertragung in Resortbereichen und Ubud. Für die gesamte Insel wird daraus keine pauschale Malariafreiheit abgeleitet. Bitte berücksichtige deine konkreten Aufenthaltsorte."
+    },
+    {
+      "id": "ID-GILI",
+      "country": "ID",
+      "status": "source_conflict",
+      "scope": "Gili-Inseln (westlich von Lombok)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/indonesia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "CDC nennt für die Gili-Inseln keine Übertragung; AA ordnet die Inselgruppe der gering exponierten Region West-Nusa-Tenggara zu. Diese Quellenabweichung bleibt sichtbar; sie wird nicht automatisch in eine pauschale Malariafreiheit umgewandelt."
+    },
+    {
+      "id": "ID-SUMBA",
+      "country": "ID",
+      "status": "supported",
+      "scope": "Sumba (Insel)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/indonesia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Auf der Insel Sumba besteht ein höheres Malariarisiko. Lass vor der Reise ärztlich prüfen, welche medikamentöse Malariaprophylaxe für dich geeignet ist. Konsequenter Mückenschutz ist zusätzlich erforderlich. Bei Fieber während oder nach der Reise brauchst du zeitnah ärztliche Abklärung mit Hinweis auf den Aufenthalt.",
+      "riskLevel": "high",
+      "preventionType": "chemoprophylaxis_consider"
+    },
+    {
+      "id": "ID-PAPUA",
+      "country": "ID",
+      "status": "supported",
+      "scope": "West-Neuguinea / West-Papua (Region)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/indonesia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für West-Neuguinea beziehungsweise West-Papua beschreiben die Quellen ein relevantes Malariagebiet; AA nennt ein hohes Risiko. Lass vor der Reise eine medikamentöse Malariaprophylaxe beraten und schütze dich zusätzlich konsequent vor Mückenstichen. Sicherheits- und Einreisehinweise gelten unabhängig davon.",
+      "riskLevel": "high",
+      "preventionType": "chemoprophylaxis_consider"
+    },
+    {
+      "id": "ID-KALIMANTAN",
+      "country": "ID",
+      "status": "route_required",
+      "scope": "Kalimantan (indonesischer Teil Borneos)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/indonesia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "AA nennt für Kalimantan ein mittleres Risiko, CDC betont ländliche Gebiete und sieht dort medikamentöse Prävention vor. Die große Region erlaubt keine einheitliche Aussage für Stadt, Wald und abgelegene Strecken. Die genaue Route ist erforderlich."
+    },
+    {
+      "id": "ID-LOMBOK",
+      "country": "ID",
+      "status": "route_required",
+      "scope": "Lombok (Insel)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/indonesia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "AA beschreibt für West-Nusa-Tenggara eine geringe Exposition, CDC nennt ländliche Gebiete einschließlich Lombok als Übertragungsgebiete. Stadt-, Resort- und ländliche Aufenthalte müssen unterschieden werden; eine pauschale Inselbewertung reicht nicht aus."
+    },
+    {
+      "id": "ID-FLORES",
+      "country": "ID",
+      "status": "route_required",
+      "scope": "Flores (Insel – genaue Region angeben)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/indonesia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "AA unterscheidet die westliche und östliche Inselhälfte; CDC beschreibt Ost-Nusa-Tenggara einschließlich Labuan Bajo als Malariagebiet. Für Flores sind konkrete Aufenthaltsorte erforderlich. Eine einheitliche niedrige Einstufung für die gesamte Insel wird nicht angezeigt."
+    },
+    {
+      "id": "ID-LABUAN",
+      "country": "ID",
+      "status": "source_conflict",
+      "scope": "Labuan Bajo (Stadt, Flores)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/indonesia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "CDC nennt Labuan Bajo ausdrücklich als Übertragungsgebiet mit medikamentöser Prävention; AA beschreibt den westlichen Teil von Flores insgesamt als gering exponiert. Die Quellenabweichung erfordert eine Beratung zur konkreten Route; das Tool weist keine Malariafreiheit aus."
+    },
+    {
+      "id": "ID-RAJA",
+      "country": "ID",
+      "status": "source_conflict",
+      "scope": "Raja-Ampat-Inseln",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/indonesia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "AA beschreibt Raja Ampat als Gebiet mit mittlerem Risiko; CDC ordnet West-Papua den Übertragungsgebieten mit medikamentöser Prävention zu. Wegen der unterschiedlichen Präventionsstrategien ist eine Beratung anhand von Inseln, Unterkunft und Versorgung erforderlich."
+    },
+    {
+      "id": "ID-JAVA",
+      "country": "ID",
+      "status": "route_required",
+      "scope": "Java (Insel – Stadt/Land angeben)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/indonesia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Java umfasst sehr unterschiedliche Aufenthaltsorte. CDC nennt ländliche Teilgebiete mit Übertragung und Resortbereiche ohne Übertragung; AA beschreibt eine geringe Exposition und malariafreie große Städte. Bitte präzisiere Stadt, Unterkunft und Ausflüge."
+    },
+    {
+      "id": "ID-YOGYA",
+      "country": "ID",
+      "status": "route_required",
+      "scope": "Yogyakarta (Stadt, Java)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/indonesia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "AA nennt große Städte allgemein als malariafrei, CDC unterscheidet auf Java ländliche Übertragungsgebiete und Resortbereiche. Die verwendeten Quellen benennen Yogyakarta hier nicht übereinstimmend ausdrücklich. Eine genaue Bewertung von Stadtaufenthalt und Ausflügen bleibt erforderlich."
+    }
+  ]
+}

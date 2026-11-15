@@ -1,3 +1,9 @@
+# Aktueller Veröffentlichungsmodus ab 15.11.2026
+
+Die nachstehende Einzelfreigabe-Dokumentation bleibt als Historie erhalten. Für V24.2 gilt jetzt das autorisierte Länderpaketmodell: regionale Quelleninformationen benötigen keine gesonderte ärztliche Ortsfreigabe. Gültige Länderfreigabe, aktuelle Quellen und eindeutige Ortszuordnung bleiben Voraussetzung. Quellenabweichungen und zu grobe Ortsangaben erscheinen als erklärende Hinweise. Details: [REGIONAL_COUNTRY_PACKAGES.md](REGIONAL_COUNTRY_PACKAGES.md).
+
+---
+
 # Regionale Malariaerkennung V23 – erster medizinischer Prüfbogen
 
 **Recherche-/Entwicklungsstand:** 15.11.2026  

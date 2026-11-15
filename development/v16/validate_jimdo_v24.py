@@ -9,7 +9,7 @@ html = (root / "website/ReiseCheck_Jimdo_V24.html").read_text(encoding="utf-8")
 match = re.search(r"<script>(.*?)</script>", html, flags=re.S)
 assert match, "JavaScript missing"
 script = match.group(1)
-assert "V24.1" in html[:250], "Wrong version"
+assert "V24.2" in html[:250], "Wrong version"
 assert "country_profiles_public_v16.json" in script, "Approved medical feed missing"
 assert "country_profiles_v1.json" not in html, "Unsafe v1 feed exposed"
 assert "const STARTER={countries:{}};" in script, "Embedded draft country data still present"
@@ -64,14 +64,16 @@ assert "regionActive?'true':'false'" not in script, "Keyboard highlight must not
 assert 'id="rm-region-risk"' in html
 assert 'id="rm-region-feedback"' in html
 assert 'role="combobox"' in html
-assert "const REGION_DIRECTORY_FEED_URL='https://praxisreisemedizinplaner.github.io/praxis-reisemedizin-feed/region_directory_public_v1.json'" in script
+assert "const REGION_DIRECTORY_FEED_URL='https://praxisreisemedizinplaner.github.io/praxis-reisemedizin-feed/region_directory_public_v2.json'" in script
 for symbol in ("function showRegionSuggestions(","function chooseRegion(","function renderRegionChips(",
                "function renderRegionalRisk(","async function loadRegionDirectory(",
                "function hideRegionSuggestions("):
     assert symbol in script, f"Region UI function missing: {symbol}"
-assert "data.regionalApprovedCount" in script, "Regional medical gate missing"
-assert "row.clinicalStatus==='approved'" in script, "Regional clinical status not checked"
+assert "data.sourceBasedCount" in script, "Regional medical gate missing"
+assert "row.clinicalStatus==='source_based'" in script, "Regional clinical status not checked"
 assert "profileFresh(parent)" in script, "Parent country medical review must remain active"
+assert "approvalScope==='country_package'" in script
+assert "Quellenabweichung – konkrete Reise berücksichtigen" in script
 assert "regionDirectory=[];regionFeedReady=false;regionPicks=[];" in script, "Regional data fail-closed handling missing"
 assert "regionPicks=regionPicks.filter(x=>countries.has(x.country)" in script, "Orphaned region chips not pruned"
 assert "riskInfo(p,region)" in script, "Original country-level malaria safety retained"

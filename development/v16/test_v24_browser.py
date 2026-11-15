@@ -5,21 +5,22 @@ from datetime import date
 from pathlib import Path
 # Playwright is imported only for the separately installed browser smoke step.
 
-from export_public_regions_v1 import build_public_regions
+from export_public_regions_v2 import build_public_regions
 from export_public_v16 import build_public as build_countries
 
 HERE=Path(__file__).resolve().parent
 ROOT=HERE.parents[1]
 REGION=json.loads((HERE/"region_profiles_draft_v1.json").read_text(encoding="utf-8"))
 COUNTRIES=json.loads((HERE/"country_profiles_draft_v16.json").read_text(encoding="utf-8"))
-regions=build_public_regions(REGION,COUNTRIES,date(2026,11,15))
+PACKAGES=json.loads((HERE/"region_source_packages_v2.json").read_text(encoding="utf-8"))
+regions=build_public_regions(REGION,COUNTRIES,PACKAGES,date(2026,11,15))
 countries=build_countries(COUNTRIES,date(2026,11,15))
-assert regions["regionalApprovedCount"] == 4
+assert regions["sourceBasedCount"] == 7
 assert countries["approvedCount"] == 6
 
 def intercept(route):
     url=route.request.url
-    if "/region_directory_public_v1.json" in url:
+    if "/region_directory_public_v2.json" in url:
         route.fulfill(status=200,content_type="application/json",
             headers={"access-control-allow-origin":"*"},body=json.dumps(regions,ensure_ascii=False))
     elif "/country_profiles_public_v16.json" in url:
@@ -96,11 +97,16 @@ def smoke(browser,device):
     page.locator("#rm-region-risk").wait_for(state="visible")
     details=page.locator("#rm-region-risk").inner_text()
     assert "Little Koh Chang" in details and "Bangkok" in details
-    assert "noch nicht verfügbar" in details, details
-    assert "Kein Malariavorkommen nach regionaler" not in details
+    assert "Quellenabweichung" in details, details
+    assert "Kein bekanntes lokales Malariavorkommen" not in details
     # Unverified free text must not be interpreted as a clinical region.
     page.locator("#rm-region").fill("Unbekannter Waldort")
     assert "Nicht bestätigte Ortsangabe" in page.locator("#rm-region-risk").inner_text()
+    # A source-supported island works without an individual regional sign-off.
+    page.locator("#rm-region").fill("Ko Samui")
+    page.locator("#rm-region-suggest button").filter(has_text="Ko Samui").first.click()
+    assert "Geringe Exposition" in page.locator("#rm-region-risk").inner_text()
+    assert "separate ärztliche" not in page.locator("#rm-region-risk").inner_text()
     # Clear all states, especially region chip selections.
     page.locator("#rm-reset").click()
     assert page.locator("#rm-region-chips .rm-region-chip").count()==0

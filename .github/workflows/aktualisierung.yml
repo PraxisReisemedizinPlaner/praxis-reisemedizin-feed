@@ -49,10 +49,12 @@ jobs:
       - name: Medizinischen V16 Feed sicher erzeugen
         run: |
           python development/v16/validate_v16.py
+          python development/v16/validate_jimdo_v24.py
           python -m unittest discover -s development/v16 -p 'test_*.py' -v
           mkdir -p _site
           python development/v16/export_public_v16.py --output _site/country_profiles_public_v16.json
           python development/v16/export_public_regions_v1.py --output _site/region_directory_public_v1.json
+          python development/v16/export_public_regions_v2.py --output _site/region_directory_public_v2.json
 
       - name: Webseite und aktuelle Daten vorbereiten
         run: |
