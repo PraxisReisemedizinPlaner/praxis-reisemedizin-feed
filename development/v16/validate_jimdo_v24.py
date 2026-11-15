@@ -9,7 +9,7 @@ html = (root / "website/ReiseCheck_Jimdo_V24.html").read_text(encoding="utf-8")
 match = re.search(r"<script>(.*?)</script>", html, flags=re.S)
 assert match, "JavaScript missing"
 script = match.group(1)
-assert "V24.0" in html[:250], "Wrong version"
+assert "V24.1" in html[:250], "Wrong version"
 assert "country_profiles_public_v16.json" in script, "Approved medical feed missing"
 assert "country_profiles_v1.json" not in html, "Unsafe v1 feed exposed"
 assert "const STARTER={countries:{}};" in script, "Embedded draft country data still present"
@@ -19,11 +19,17 @@ for name in ("rm-style", "rm-purpose", "rm-activities"):
     assert f'id="{name}-picker"' in html, f"Multi selector {name} missing"
     assert f'<fieldset id="{name}"' in html, f"Checkbox fieldset {name} missing"
     assert f'<select id="{name}"' not in html, f"Old single selector {name} present"
-    for suffix in ("-clear","-done","-toggle","-summary"):
+    for suffix in ("-clear","-toggle","-summary"):
         assert f'id="{name}{suffix}"' in html, f"{name}{suffix} missing"
-assert html.count('name="rm-style-option" value=') == 5, "Reiseform options missing"
-assert html.count('name="rm-purpose-option" value=') == 4, "Reisegrund options missing"
-assert html.count('name="rm-activity" value=') == 6, "Aktivitaeten options missing"
+for name, count in (("rm-style", 5), ("rm-purpose", 4), ("rm-activities", 6)):
+    field = re.search(r'<fieldset id="' + name + r'".*?</fieldset>', html, re.S).group(0)
+    assert field.count('class="rm-activity-choice"') == count, name + " options missing"
+    assert field.count('aria-pressed="false"') == count, name + " toggle state missing"
+    assert 'type="checkbox"' not in field, name + " still uses checkboxes"
+    assert f'id="{name}-done"' not in html, name + " still requires confirmation"
+assert "function closeOtherMultiPickers(" in script
+assert "button.setAttribute('aria-pressed',String(" in script
+assert "document.addEventListener('pointerdown',event=>closeOtherMultiPickers" in script
 for name in ("getSelectedMulti", "getSelectedActivities", "getSelectedStyles", "getSelectedPurposes",
              "updateMultiLabel", "onMultiChange", "renderSpecialNotes", "renderSharedVaccinations",
              "renderOne", "parseTripDate", "updateResult", "loadInternationalFeed"):
