@@ -39,7 +39,9 @@ jobs:
       - name: Jimdo V24 intuitive Mehrfachauswahl pruefen
         run: python development/v16/validate_jimdo_v24.py
       - name: V16 Struktur und Sperren pruefen
-        run: python development/v16/validate_v16.py
+        run: |
+          python development/v16/validate_v16.py
+          python development/v16/validate_route_requirements.py
       - name: Automatische Sicherheitstests ausfuehren
         run: python -m unittest discover -s development/v16 -p 'test_*.py' -v
       - name: V23 Browser-Tests (Desktop und Mobil)

@@ -3,14 +3,15 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 10,
+  "countryCount": 14,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
     "noDTGStructuredReuse": true,
     "dtgLinksOnly": true,
     "doNotInferProphylaxisFromResearchStudies": true,
-    "sourceRetrievalIsNotMedicalReview": true
+    "sourceRetrievalIsNotMedicalReview": true,
+    "regionalRouteAssessmentRequired": true
   },
   "countries": {
     "TH": {
@@ -146,7 +147,34 @@
         "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt.",
         "rightsNote": "Unabhängige ärztliche Textzusammenfassung; die offiziellen Originalquellen werden ausschließlich als externe HTTPS-Links genannt. Keine vollständige AA-API-Übernahme und keine DTG-Malariakarten/-Daten extrahiert; AA-Nutzungsbedingungen für KI-Zusammenfassungen gelesen am 15.11.2026. Medizinische Freigabe durch Praxisinhaber am 15.11.2026."
       },
-      "publicationAllowed": true
+      "publicationAllowed": true,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria"
+        ],
+        "regionIds": [
+          "TH-BKK",
+          "TH-CNX",
+          "TH-CEI",
+          "TH-PTY",
+          "TH-HKT",
+          "TH-USM",
+          "TH-KPN",
+          "TH-PP",
+          "TH-CHANG-TRAT",
+          "TH-LITTLE-CHANG-RANONG",
+          "TH-MYANMAR-BORDER",
+          "TH-CAMBODIA-BORDER"
+        ],
+        "reason": "Region, Aufenthaltsart oder Höhenlage verändern die Einordnung; getrennte Orts-/Routendaten gehören zum Länderpaket.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+          "https://www.cdc.gov/malaria/travelers/country_table/t.html"
+        ],
+        "otherRegionalFactors": []
+      }
     },
     "ID": {
       "name": "Indonesien",
@@ -286,7 +314,35 @@
         "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt.",
         "rightsNote": "Unabhängige ärztliche Textzusammenfassung; die offiziellen Originalquellen werden ausschließlich als externe HTTPS-Links genannt. Keine vollständige AA-API-Übernahme und keine DTG-Malariakarten/-Daten extrahiert; AA-Nutzungsbedingungen für KI-Zusammenfassungen gelesen am 15.11.2026. Medizinische Freigabe durch Praxisinhaber am 15.11.2026."
       },
-      "publicationAllowed": true
+      "publicationAllowed": true,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria"
+        ],
+        "regionIds": [
+          "ID-JKT",
+          "ID-UBUD",
+          "ID-BALI",
+          "ID-GILI",
+          "ID-SUMBA",
+          "ID-PAPUA",
+          "ID-KALIMANTAN",
+          "ID-LOMBOK",
+          "ID-FLORES",
+          "ID-LABUAN",
+          "ID-RAJA",
+          "ID-JAVA",
+          "ID-YOGYA"
+        ],
+        "reason": "Region, Aufenthaltsart oder Höhenlage verändern die Einordnung; getrennte Orts-/Routendaten gehören zum Länderpaket.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+          "https://www.cdc.gov/malaria/travelers/country_table/i.html"
+        ],
+        "otherRegionalFactors": []
+      }
     },
     "TZ": {
       "name": "Tansania",
@@ -450,7 +506,28 @@
         "warning": "Am 15.11.2026 ausdrücklich durch Dr. med. Sebastian Münster als Länderpaket medizinisch freigegeben; einschließlich dokumentierter Quellenabweichungen und Routenhinweise.",
         "approvalRecord": "Ausdrückliche Bestätigung im Chat: Alle vier Länderpakete können freigegeben werden."
       },
-      "publicationAllowed": true
+      "publicationAllowed": true,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria"
+        ],
+        "regionIds": [
+          "TZ-ZANZIBAR",
+          "TZ-PEMBA",
+          "TZ-MAFIA",
+          "TZ-DAR",
+          "TZ-KILIMANJARO",
+          "TZ-SAFARI"
+        ],
+        "reason": "Region, Aufenthaltsart oder Höhenlage verändern die Einordnung; getrennte Orts-/Routendaten gehören zum Länderpaket.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tansaniasicherheit-208662",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tanzania"
+        ],
+        "otherRegionalFactors": []
+      }
     },
     "KE": {
       "name": "Kenia",
@@ -617,7 +694,26 @@
         "warning": "Am 15.11.2026 ausdrücklich durch Dr. med. Sebastian Münster als Länderpaket medizinisch freigegeben; einschließlich dokumentierter Quellenabweichungen und Routenhinweise.",
         "approvalRecord": "Ausdrückliche Bestätigung im Chat: Alle vier Länderpakete können freigegeben werden."
       },
-      "publicationAllowed": true
+      "publicationAllowed": true,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria"
+        ],
+        "regionIds": [
+          "KE-NAIROBI-CENTRE",
+          "KE-MOMBASA",
+          "KE-DIANI",
+          "KE-SAFARI"
+        ],
+        "reason": "Region, Aufenthaltsart oder Höhenlage verändern die Einordnung; getrennte Orts-/Routendaten gehören zum Länderpaket.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/keniasicherheit-208058",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kenya"
+        ],
+        "otherRegionalFactors": []
+      }
     },
     "VN": {
       "name": "Vietnam",
@@ -778,7 +874,31 @@
         "warning": "Am 15.11.2026 ausdrücklich durch Dr. med. Sebastian Münster als Länderpaket medizinisch freigegeben; einschließlich dokumentierter Quellenabweichungen und Routenhinweise.",
         "approvalRecord": "Ausdrückliche Bestätigung im Chat: Alle vier Länderpakete können freigegeben werden."
       },
-      "publicationAllowed": true
+      "publicationAllowed": true,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria"
+        ],
+        "regionIds": [
+          "VN-HANOI",
+          "VN-HCMC",
+          "VN-DANANG",
+          "VN-HAIPHONG",
+          "VN-NHATRANG",
+          "VN-QUYNHON",
+          "VN-MEKONG",
+          "VN-RED-RIVER",
+          "VN-RURAL-FOREST"
+        ],
+        "reason": "Region, Aufenthaltsart oder Höhenlage verändern die Einordnung; getrennte Orts-/Routendaten gehören zum Länderpaket.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vietnamsicherheit-217274",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam"
+        ],
+        "otherRegionalFactors": []
+      }
     },
     "IN": {
       "name": "Indien",
@@ -942,7 +1062,35 @@
         "warning": "Am 15.11.2026 ausdrücklich durch Dr. med. Sebastian Münster als Länderpaket medizinisch freigegeben; einschließlich dokumentierter Quellenabweichungen und Routenhinweise.",
         "approvalRecord": "Ausdrückliche Bestätigung im Chat: Alle vier Länderpakete können freigegeben werden."
       },
-      "publicationAllowed": true
+      "publicationAllowed": true,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria"
+        ],
+        "regionIds": [
+          "IN-DELHI",
+          "IN-MUMBAI",
+          "IN-KOLKATA",
+          "IN-JAIPUR",
+          "IN-AGRA",
+          "IN-GEEDAM",
+          "IN-CHHATTISGARH",
+          "IN-RAJASTHAN",
+          "IN-GOA",
+          "IN-KERALA",
+          "IN-EAST-NE",
+          "IN-HIMALAYA",
+          "IN-ANDAMAN"
+        ],
+        "reason": "Region, Aufenthaltsart oder Höhenlage verändern die Einordnung; getrennte Orts-/Routendaten gehören zum Länderpaket.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india"
+        ],
+        "otherRegionalFactors": []
+      }
     },
     "EG": {
       "name": "Ägypten",
@@ -1083,7 +1231,19 @@
         "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt.",
         "rightsNote": "Unabhängige ärztliche Textzusammenfassung; die offiziellen Originalquellen werden ausschließlich als externe HTTPS-Links genannt. Keine vollständige AA-API-Übernahme und keine DTG-Malariakarten/-Daten extrahiert; AA-Nutzungsbedingungen für KI-Zusammenfassungen gelesen am 15.11.2026. Medizinische Freigabe durch Praxisinhaber am 15.11.2026."
       },
-      "publicationAllowed": true
+      "publicationAllowed": true,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Keine ausreichend belegte geografische Aufteilung der Malariaprävention für dieses Länderpaket erforderlich. Expositionsabhängige Impfungen und aktuelle Meldungen bleiben gesondert relevant.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/aegyptensicherheit-212622",
+          "https://www.cdc.gov/malaria/travelers/country_table/e.html"
+        ],
+        "otherRegionalFactors": []
+      }
     },
     "MA": {
       "name": "Marokko",
@@ -1205,7 +1365,19 @@
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/marokkosicherheit-224080",
         "reviewedAt": "2026-11-11"
       },
-      "publicationAllowed": true
+      "publicationAllowed": true,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Keine ausreichend belegte geografische Aufteilung der Malariaprävention für dieses Länderpaket erforderlich. Expositionsabhängige Impfungen und aktuelle Meldungen bleiben gesondert relevant.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/marokkosicherheit-224080",
+          "https://www.cdc.gov/malaria/travelers/country_table/m.html"
+        ],
+        "otherRegionalFactors": []
+      }
     },
     "AT": {
       "name": "Österreich",
@@ -1313,7 +1485,21 @@
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/oesterreichsicherheit-210962",
         "reviewedAt": "2026-11-11"
       },
-      "publicationAllowed": true
+      "publicationAllowed": true,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Keine ausreichend belegte geografische Aufteilung der Malariaprävention für dieses Länderpaket erforderlich. Expositionsabhängige Impfungen und aktuelle Meldungen bleiben gesondert relevant.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/oesterreichsicherheit-210962",
+          "https://www.cdc.gov/malaria/travelers/country_table/a.html"
+        ],
+        "otherRegionalFactors": [
+          "FSME: Zeckenexposition und individuelle Indikation prüfen."
+        ]
+      }
     },
     "TR": {
       "name": "Türkei",
@@ -1462,7 +1648,522 @@
         "warning": "KI-gestützter Entwurf; keine klinische Freigabe, keine bestätigte Nutzungsrechtsprüfung, kein patientensichtbarer Inhalt.",
         "rightsNote": "Unabhängige ärztliche Textzusammenfassung; die offiziellen Originalquellen werden ausschließlich als externe HTTPS-Links genannt. Keine vollständige AA-API-Übernahme und keine DTG-Malariakarten/-Daten extrahiert; AA-Nutzungsbedingungen für KI-Zusammenfassungen gelesen am 15.11.2026. Medizinische Freigabe durch Praxisinhaber am 15.11.2026."
       },
-      "publicationAllowed": true
+      "publicationAllowed": true,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Keine ausreichend belegte geografische Aufteilung der Malariaprävention für dieses Länderpaket erforderlich. Expositionsabhängige Impfungen und aktuelle Meldungen bleiben gesondert relevant.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/tuerkei-node/tuerkeisicherheit-201962",
+          "https://www.cdc.gov/malaria/travelers/country_table/t.html"
+        ],
+        "otherRegionalFactors": []
+      }
+    },
+    "ES": {
+      "name": "Spanien",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "New independently researched country package, not imported from legacy data",
+        "originalCheckedDate": "2026-11-15",
+        "important": "Historical provenance only, not a publication source."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgeschrieben."
+        ],
+        "routeDependent": [
+          "Vollständigen Polio- und STIKO-Standardimpfschutz prüfen. Saisonaler Mückenschutz bleibt wegen anderer Erkrankungen wichtig; keine pauschale Dengueimpfung für jede Spanienreise."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "CDC führt für Spanien keine Malariaübertragung auf. Eine routinemäßige Malariachemoprophylaxe ist nicht vorgesehen. Schutz vor Mückenstichen bleibt unabhängig davon sinnvoll.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt: Spanien",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/spaniensicherheit-210534",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC: Malaria Spanien",
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/s.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Madrid",
+            "address": "Calle de Fortuny 8, 28010 Madrid, Spanien",
+            "phone": "+34 91 557 9000",
+            "emergency": "+34 661 611 104",
+            "scope": "Konsularbezirk Madrid gemäß Originalseite; für andere Regionen und Inseln zuständige Vertretung prüfen.",
+            "url": "https://spanien.diplo.de/es-de/ueber-uns/botschaft/1694640-1694640"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/spaniensicherheit-210534",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/spaniensicherheit-210534",
+          "https://www.cdc.gov/malaria/travelers/country_table/s.html",
+          "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+          "https://spanien.diplo.de/es-de/ueber-uns/botschaft/1694640-1694640"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/spaniensicherheit-210534",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/s.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://spanien.diplo.de/es-de/ueber-uns/botschaft/1694640-1694640",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Vollständigen Polio- und STIKO-Standardimpfschutz prüfen. Saisonaler Mückenschutz bleibt wegen anderer Erkrankungen wichtig; keine pauschale Dengueimpfung für jede Spanienreise."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus; keine Patientenveröffentlichung vor dieser Entscheidung."
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Keine ausreichend belegte geografische Aufteilung der Malariaprävention für dieses Länderpaket erforderlich. Expositionsabhängige Impfungen und aktuelle Meldungen bleiben gesondert relevant.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/spaniensicherheit-210534",
+          "https://www.cdc.gov/malaria/travelers/country_table/s.html"
+        ],
+        "otherRegionalFactors": []
+      }
+    },
+    "IT": {
+      "name": "Italien",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "New independently researched country package, not imported from legacy data",
+        "originalCheckedDate": "2026-11-15",
+        "important": "Historical provenance only, not a publication source."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [],
+        "riskBased": [
+          "Hepatitis A bei individueller Indikation",
+          "Hepatitis B bei individueller Indikation"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgeschrieben."
+        ],
+        "routeDependent": [
+          "Hepatitis A und B nicht pauschal für jede Italienreise vorsehen, sondern anhand persönlicher Indikation prüfen. Saisonale Mücken- und Sandfliegenexposition berücksichtigen.",
+          "AA meldet 2026 erhöhte West-Nil-Fallzahlen. Mückenschutz ist auch ohne Malariarisiko sinnvoll; Chikungunya- und Dengueimpfungen sind für gewöhnliche Italienreisen in der Regel nicht erforderlich."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "CDC führt für Italien einschließlich Vatikanstadt keine Malariaübertragung auf. Eine routinemäßige Malariachemoprophylaxe ist nicht vorgesehen. Andere mückenübertragene Erkrankungen bleiben saisonal relevant.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt: Italien",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/italiensicherheit-211322",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC: Malaria Italien",
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/i.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Rom",
+            "address": "Via San Martino della Battaglia 4, 00185 Rom, Italien",
+            "phone": "+39 06 492131",
+            "emergency": "+39 06 492131",
+            "scope": "Konsularbezirk Rom gemäß Originalseite; für nördliche Landesteile Generalkonsulat Mailand prüfen.",
+            "url": "https://italien.diplo.de/it-de/vertretungen/deutsche-botschaft-rom"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/italiensicherheit-211322",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/italiensicherheit-211322",
+          "https://www.cdc.gov/malaria/travelers/country_table/i.html",
+          "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+          "https://italien.diplo.de/it-de/vertretungen/deutsche-botschaft-rom"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/italiensicherheit-211322",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/i.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://italien.diplo.de/it-de/vertretungen/deutsche-botschaft-rom",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Hepatitis A und B nicht pauschal für jede Italienreise vorsehen, sondern anhand persönlicher Indikation prüfen. Saisonale Mücken- und Sandfliegenexposition berücksichtigen.",
+          "AA meldet 2026 erhöhte West-Nil-Fallzahlen. Mückenschutz ist auch ohne Malariarisiko sinnvoll; Chikungunya- und Dengueimpfungen sind für gewöhnliche Italienreisen in der Regel nicht erforderlich."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus; keine Patientenveröffentlichung vor dieser Entscheidung."
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Keine ausreichend belegte geografische Aufteilung der Malariaprävention für dieses Länderpaket erforderlich. Expositionsabhängige Impfungen und aktuelle Meldungen bleiben gesondert relevant.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/italiensicherheit-211322",
+          "https://www.cdc.gov/malaria/travelers/country_table/i.html"
+        ],
+        "otherRegionalFactors": [
+          "Saisonale Mücken- und Sandfliegenexposition; keine pauschale zusätzliche Reiseimpfung."
+        ]
+      }
+    },
+    "GR": {
+      "name": "Griechenland",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "New independently researched country package, not imported from legacy data",
+        "originalCheckedDate": "2026-11-15",
+        "important": "Historical provenance only, not a publication source."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Hepatitis B bei individueller Indikation",
+          "FSME bei entsprechender Exposition und individueller Indikation"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgeschrieben."
+        ],
+        "routeDependent": [
+          "Bei längerem Aufenthalt oder besonderer Exposition Hepatitis B und FSME individuell prüfen. Region, Saison und Naturkontakte berücksichtigen.",
+          "Touristische Reiseziele und landwirtschaftliche Aufenthalte unterscheiden. Keine routinemäßige Malariachemoprophylaxe; konsequenter Mückenschutz auch wegen West-Nil-Fieber."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "exposure_only",
+        "regions": [
+          "Touristische Reiseziele: nach CDC keine Malariaübertragung.",
+          "Landwirtschaftliche Gebiete: nach CDC seltene lokale Übertragungen in der warmen Jahreszeit; keine pauschale Aussage zur Malariafreiheit."
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "AA beschreibt kein oder nur minimales saisonales Malariarisiko. CDC nennt seltene lokale Übertragungen in landwirtschaftlichen Gebieten, jedoch keine in touristischen Gebieten. Eine routinemäßige Malariachemoprophylaxe wird nicht empfohlen; Mückenschutz und die konkrete Exposition bleiben relevant.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt: Griechenland",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/griechenlandsicherheit-211534",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC: Malaria Griechenland",
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/g.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Athen",
+            "address": "Karaoli Dimitriou 3, 10675 Athen-Kolonaki, Griechenland",
+            "phone": "+30 210 728 5111",
+            "emergency": "+30 693 233 8153",
+            "scope": "Konsularbezirk Athen gemäß Originalseite; Zuständigkeit anderer Vertretungen und Bereitschaftszeiten prüfen.",
+            "url": "https://griechenland.diplo.de/gr-de/vertretungen/botschaft/1305322-1305322"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/griechenlandsicherheit-211534",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/griechenlandsicherheit-211534",
+          "https://www.cdc.gov/malaria/travelers/country_table/g.html",
+          "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+          "https://griechenland.diplo.de/gr-de/vertretungen/botschaft/1305322-1305322"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/griechenlandsicherheit-211534",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/g.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://griechenland.diplo.de/gr-de/vertretungen/botschaft/1305322-1305322",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Bei längerem Aufenthalt oder besonderer Exposition Hepatitis B und FSME individuell prüfen. Region, Saison und Naturkontakte berücksichtigen.",
+          "Touristische Reiseziele und landwirtschaftliche Aufenthalte unterscheiden. Keine routinemäßige Malariachemoprophylaxe; konsequenter Mückenschutz auch wegen West-Nil-Fieber."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus; keine Patientenveröffentlichung vor dieser Entscheidung."
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria"
+        ],
+        "regionIds": [
+          "GR-TOURISM",
+          "GR-AGRICULTURE"
+        ],
+        "reason": "Region, Aufenthaltsart oder Höhenlage verändern die Einordnung; getrennte Orts-/Routendaten gehören zum Länderpaket.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/griechenlandsicherheit-211534",
+          "https://www.cdc.gov/malaria/travelers/country_table/g.html"
+        ],
+        "otherRegionalFactors": [
+          "FSME nach Region, Naturkontakt und individueller Indikation."
+        ]
+      }
+    },
+    "PT": {
+      "name": "Portugal",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "New independently researched country package, not imported from legacy data",
+        "originalCheckedDate": "2026-11-15",
+        "important": "Historical provenance only, not a publication source."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Hepatitis B bei individueller Indikation",
+          "Dengue bei entsprechender Exposition auf Madeira und individueller STIKO-Indikation"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgeschrieben."
+        ],
+        "routeDependent": [
+          "Festland, Madeira und Azoren unterscheiden. Madeira ist wegen möglicher Dengueexposition besonders zu berücksichtigen; keine pauschale Dengueimpfung für alle Portugalreisen.",
+          "Bei längerem Aufenthalt oder besonderer Exposition zusätzliche Impfungen nach STIKO individuell prüfen. Eine Dengueimpfung erfordert insbesondere die Prüfung einer gesicherten früheren Dengueinfektion."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "CDC führt für Portugal keine Malariaübertragung auf. Eine routinemäßige Malariachemoprophylaxe ist nicht vorgesehen. Das ist von anderen Mückenrisiken zu unterscheiden, insbesondere von Dengue auf Madeira.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt: Portugal",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/portugalsicherheit-210900",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC: Malaria Portugal",
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/p.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Lissabon",
+            "address": "Campo dos Mártires da Pátria 38, 1169-043 Lissabon, Portugal",
+            "phone": "+351 21 881 0210",
+            "emergency": "+351 96 580 8092",
+            "scope": "Portugal; Erreichbarkeitszeiten und gegebenenfalls Honorarkonsulate auf der Originalseite prüfen.",
+            "url": "https://lissabon.diplo.de/pt-de/botschaft/1689758-1689758"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/portugalsicherheit-210900",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/portugalsicherheit-210900",
+          "https://www.cdc.gov/malaria/travelers/country_table/p.html",
+          "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+          "https://lissabon.diplo.de/pt-de/botschaft/1689758-1689758"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/portugalsicherheit-210900",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/p.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Reiseimpfungen/reiseimpfung_inhalt.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://lissabon.diplo.de/pt-de/botschaft/1689758-1689758",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Festland, Madeira und Azoren unterscheiden. Madeira ist wegen möglicher Dengueexposition besonders zu berücksichtigen; keine pauschale Dengueimpfung für alle Portugalreisen.",
+          "Bei längerem Aufenthalt oder besonderer Exposition zusätzliche Impfungen nach STIKO individuell prüfen. Eine Dengueimpfung erfordert insbesondere die Prüfung einer gesicherten früheren Dengueinfektion."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus; keine Patientenveröffentlichung vor dieser Entscheidung."
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "dengue"
+        ],
+        "regionIds": [
+          "PT-MADEIRA",
+          "PT-AZORES",
+          "PT-MAINLAND"
+        ],
+        "reason": "Region, Aufenthaltsart oder Höhenlage verändern die Einordnung; getrennte Orts-/Routendaten gehören zum Länderpaket.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/portugalsicherheit-210900",
+          "https://www.cdc.gov/malaria/travelers/country_table/p.html"
+        ],
+        "otherRegionalFactors": []
+      }
     }
   }
 }

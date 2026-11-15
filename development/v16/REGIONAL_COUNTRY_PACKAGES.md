@@ -25,9 +25,18 @@ Der öffentliche Feed enthält `exceptions` als Ausnahmeliste. Diese Liste besch
 Keine strukturierten DTG-Daten, keine Kartenübernahme, keine automatische konkrete Medikamentenauswahl oder Dosierung. Freitext erzeugt keine lokale Risikoeinstufung. Quelleninformationen tragen ein echtes Abruf-/Abgleichdatum; ein Deployment verlängert dieses Datum nicht.
 
 ## Aktueller Umfang
-25 Orte aus Thailand und Indonesien: 7 eindeutig quellenbasierte Einordnungen, 18 nachvollziehbare Quellen- oder Routenhinweise. Die bisherigen individuellen Freigabestatus werden nicht als Voraussetzung verwendet.
+62 Orts-/Routeneinträge aus acht Ländern: für die sechs bereits freigegebenen regionalen Länder 23 eindeutige Quellenbewertungen und 34 Quellen-/Routenhinweise; fünf Einträge für Portugal und Griechenland warten ausschließlich auf die Länderfreigabe. Die bisherigen individuellen Freigabestatus werden nicht als Voraussetzung verwendet.
 
 ## Prüfungen
 `python -m unittest discover -s development/v16 -p 'test_*.py' -v`
 `python development/v16/validate_jimdo_v24.py`
 `python development/v16/test_v24_browser.py` (Playwright, Desktop/Mobil)
+
+
+## Verbindliche Erweiterung: Regionsprüfung bei jedem Land
+
+Anweisung des Praxisinhabers vom 15.11.2026: Bei allen künftigen Ländern prüfen, ob Region, Reiseroute oder Höhenlage eine wesentlich andere Empfehlung erfordern. `routeAssessment` ist für jedes Länderprofil verpflichtend, auch bei einem begründeten Nein. Bei regionalen Unterschieden müssen Themen, mindestens zwei konkrete Orts-/Routeneinträge, eindeutige Identitäten und Quellenzusammenfassungen vorhanden sein. `validate_route_requirements.py` blockiert den Veröffentlichungsworkflow bei fehlender Beurteilung oder unvollständiger Zuordnung. Der Länderexport kontrolliert zusätzlich die Pflichtangaben jeder tatsächlichen Länderfreigabe.
+
+Malaria ist nicht das einzige Thema: Madeira wird im Portugalpaket gesondert wegen Dengue erfasst. Expositionsabhängige Impfindikationen ersetzen keine Prüfung von Region, Reisezeit und individueller Vorgeschichte. Keine pauschale Herabstufung der gesamten Route aufgrund eines risikoärmeren Teilziels. Quellenabweichungen bleiben kenntlich; unbekannte Orte erzeugen keine Risikoklasse.
+
+Aktuelle Erweiterung: 13 indische Orts-/Routeneinträge; regionale Ergänzungen für Tansania, Kenia und Vietnam. Die vier zusätzlichen Länder Spanien, Italien, Griechenland und Portugal bleiben bis zur ausdrücklichen ärztlichen Länderfreigabe unveröffentlicht. Die neuen regionalen Quelleneinträge bereits freigegebener Länder folgen dem vorhandenen Länderpaketmodell ohne zusätzlichen ärztlichen Ortsfreigabeschritt.

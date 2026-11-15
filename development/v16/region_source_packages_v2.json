@@ -580,6 +580,579 @@
         "nextReviewDate": "2027-01-15",
         "approvalScope": "existing_summary_including_source_conflicts_and_route_constraints"
       }
+    },
+    {
+      "id": "IN-DELHI",
+      "country": "IN",
+      "status": "source_conflict",
+      "scope": "Neu-Delhi / Delhi (Stadt)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india",
+        "https://www.cdc.gov/yellow-book/hcp/asia/india.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "AA beschreibt Delhi als gering exponiert; CDC nennt Übertragung einschließlich Delhi und eine breitere medikamentöse Prävention. Mückenschutz bleibt erforderlich. Die unterschiedlichen Strategien werden nicht automatisch zu einer einheitlichen Tablettenempfehlung zusammengeführt."
+    },
+    {
+      "id": "IN-MUMBAI",
+      "country": "IN",
+      "status": "source_conflict",
+      "scope": "Mumbai / Bombay (Stadt)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india",
+        "https://www.cdc.gov/yellow-book/hcp/asia/india.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "AA ordnet Mumbai einem geringen Risikobereich zu; CDC nennt ausdrücklich Übertragung in Mumbai und medikamentöse Prävention. Die Wahl der Strategie muss Unterkunft, Saison, Dauer und weitere Etappen berücksichtigen."
+    },
+    {
+      "id": "IN-KOLKATA",
+      "country": "IN",
+      "status": "source_conflict",
+      "scope": "Kolkata / Kalkutta (Stadt)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india",
+        "https://www.cdc.gov/yellow-book/hcp/asia/india.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "AA nennt Kalkutta im geringen Risikobereich; CDC erfasst Indien breiter und nennt Westbengalen im Yellow Book als einen stärker betroffenen Bundesstaat. Stadt und Bundesstaat sind nicht gleichzusetzen. Keine pauschale Entwarnung für Ausflüge."
+    },
+    {
+      "id": "IN-JAIPUR",
+      "country": "IN",
+      "status": "source_conflict",
+      "scope": "Jaipur (Stadt, Rajasthan)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india",
+        "https://www.cdc.gov/yellow-book/hcp/asia/india.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "AA beschreibt Rajasthan allgemein als gering exponiert; CDC empfiehlt für indische Übertragungsgebiete eine breitere medikamentöse Prävention. Der Stadtaufenthalt und zusätzliche ländliche Etappen müssen gemeinsam betrachtet werden."
+    },
+    {
+      "id": "IN-AGRA",
+      "country": "IN",
+      "status": "source_conflict",
+      "scope": "Agra (Stadt, Uttar Pradesh)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india",
+        "https://www.cdc.gov/yellow-book/hcp/asia/india.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "AA ordnet viele typische Städte einem geringen Risikobereich zu; CDC beschreibt Übertragung in Indien und nennt Uttar Pradesh unter den stärker betroffenen Bundesstaaten. Aus dem Besuch von Agra allein folgt keine eindeutige Arzneimittelentscheidung."
+    },
+    {
+      "id": "IN-GEEDAM",
+      "country": "IN",
+      "status": "supported",
+      "scope": "Geedam (Stadt, Chhattisgarh)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india",
+        "https://www.cdc.gov/yellow-book/hcp/asia/india.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "AA nennt das Gebiet um Geedam ausdrücklich als Hochrisikogebiet unter 2.500 m; CDC bestätigt Malariaübertragung in Indien und medikamentöse Prävention. Lass vor dieser Route eine geeignete Malariaprophylaxe beraten und schütze dich zusätzlich konsequent vor Mückenstichen.",
+      "riskLevel": "high",
+      "preventionType": "chemoprophylaxis_consider"
+    },
+    {
+      "id": "IN-CHHATTISGARH",
+      "country": "IN",
+      "status": "route_required",
+      "scope": "Chhattisgarh (Bundesstaat – genaue Route)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india",
+        "https://www.cdc.gov/yellow-book/hcp/asia/india.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Die AA-Hochrisikoaussage bezieht sich auf ein bestimmtes Gebiet einschließlich Geedam, nicht automatisch auf den gesamten Bundesstaat. CDC nennt Chhattisgarh als stark betroffenen Bundesstaat. Konkrete Aufenthaltsorte sind erforderlich."
+    },
+    {
+      "id": "IN-RAJASTHAN",
+      "country": "IN",
+      "status": "route_required",
+      "scope": "Rajasthan (Bundesstaat)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india",
+        "https://www.cdc.gov/yellow-book/hcp/asia/india.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "AA beschreibt Rajasthan allgemein als gering exponiert, CDC nutzt eine breitere Präventionsstrategie für Indien. Stadt-, Wüsten- und ländliche Etappen sowie Saison und Versorgungszugang gemeinsam beraten lassen."
+    },
+    {
+      "id": "IN-GOA",
+      "country": "IN",
+      "status": "route_required",
+      "scope": "Goa (Region – Unterkunft und Ausflüge)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india",
+        "https://www.cdc.gov/yellow-book/hcp/asia/india.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Goa darf aus einer touristischen Unterkunft allein nicht als malariafrei eingeordnet werden. AA und CDC unterscheiden sich in der Präventionsstrategie für viele indische Reisegebiete; genaue Unterkunft, Saison und weitere Route berücksichtigen."
+    },
+    {
+      "id": "IN-KERALA",
+      "country": "IN",
+      "status": "route_required",
+      "scope": "Kerala (Bundesstaat – Küste oder Bergland)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india",
+        "https://www.cdc.gov/yellow-book/hcp/asia/india.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Küste, Hinterland und Bergregionen sind zu unterscheiden. CDC beschreibt Höhengebiete über 2.000 m gesondert; daraus folgt keine Malariafreiheit für den gesamten Bundesstaat. Konkrete Route und tatsächliche Höhenlagen sind erforderlich."
+    },
+    {
+      "id": "IN-EAST-NE",
+      "country": "IN",
+      "status": "route_required",
+      "scope": "Ost- und Nordostindien (genaue Orte erforderlich)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india",
+        "https://www.cdc.gov/yellow-book/hcp/asia/india.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "AA beschreibt Teilgebiete im Osten und Nordosten mit erhöhtem Risiko. Die weit gefasste Region erlaubt keine gemeinsame Risikostufe für alle Orte; Bundesstaat, konkrete Etappen und Versorgungszugang müssen präzisiert werden."
+    },
+    {
+      "id": "IN-HIMALAYA",
+      "country": "IN",
+      "status": "route_required",
+      "scope": "Himalaya-Route (genaue Höhenlagen erforderlich)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india",
+        "https://www.cdc.gov/yellow-book/hcp/asia/india.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "AA und CDC verwenden unterschiedliche Höhenabgrenzungen und benennen bestimmte Gebiete. Eine Bergreise kann gefährdete An- und Abreiseetappen enthalten. Ohne genaue Orte und Höhenangaben wird keine pauschale Malariafreiheit ausgegeben."
+    },
+    {
+      "id": "IN-ANDAMAN",
+      "country": "IN",
+      "status": "route_required",
+      "scope": "Andamanen und Nikobaren (Inselgruppe)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indiensicherheit-205998",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india",
+        "https://www.cdc.gov/yellow-book/hcp/asia/india.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "AA ordnet die Inselgruppe einem geringen Risikobereich zu; CDC beschreibt Übertragung in Indien breiter. Eine automatische gemeinsame Prophylaxestrategie wird daraus nicht abgeleitet. Inseln, Unterkunft und weitere Etappen berücksichtigen."
+    },
+    {
+      "id": "TZ-ZANZIBAR",
+      "country": "TZ",
+      "status": "supported",
+      "scope": "Sansibar / Zanzibar (Insel)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tansaniasicherheit-208662",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tanzania"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Diese tansanische Tieflandroute liegt im Malariarisikogebiet. AA und CDC sehen dort zusätzlich zum Mückenschutz eine medikamentöse Prävention vor. Lass vor der Reise die passende Malariaprophylaxe auswählen; auch eine Strand- oder Städtereise ist hier kein Grund zur Entwarnung.",
+      "riskLevel": "high",
+      "preventionType": "chemoprophylaxis_consider"
+    },
+    {
+      "id": "TZ-PEMBA",
+      "country": "TZ",
+      "status": "supported",
+      "scope": "Pemba (Insel, Tansania)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tansaniasicherheit-208662",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tanzania"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Diese tansanische Tieflandroute liegt im Malariarisikogebiet. AA und CDC sehen dort zusätzlich zum Mückenschutz eine medikamentöse Prävention vor. Lass vor der Reise die passende Malariaprophylaxe auswählen; auch eine Strand- oder Städtereise ist hier kein Grund zur Entwarnung.",
+      "riskLevel": "high",
+      "preventionType": "chemoprophylaxis_consider"
+    },
+    {
+      "id": "TZ-MAFIA",
+      "country": "TZ",
+      "status": "supported",
+      "scope": "Mafia (Insel, Tansania)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tansaniasicherheit-208662",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tanzania"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Diese tansanische Tieflandroute liegt im Malariarisikogebiet. AA und CDC sehen dort zusätzlich zum Mückenschutz eine medikamentöse Prävention vor. Lass vor der Reise die passende Malariaprophylaxe auswählen; auch eine Strand- oder Städtereise ist hier kein Grund zur Entwarnung.",
+      "riskLevel": "high",
+      "preventionType": "chemoprophylaxis_consider"
+    },
+    {
+      "id": "TZ-DAR",
+      "country": "TZ",
+      "status": "supported",
+      "scope": "Daressalam (Stadt)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tansaniasicherheit-208662",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tanzania"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Diese tansanische Tieflandroute liegt im Malariarisikogebiet. AA und CDC sehen dort zusätzlich zum Mückenschutz eine medikamentöse Prävention vor. Lass vor der Reise die passende Malariaprophylaxe auswählen; auch eine Strand- oder Städtereise ist hier kein Grund zur Entwarnung.",
+      "riskLevel": "high",
+      "preventionType": "chemoprophylaxis_consider"
+    },
+    {
+      "id": "TZ-KILIMANJARO",
+      "country": "TZ",
+      "status": "route_required",
+      "scope": "Kilimandscharo – Bergtour und An-/Abreise",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tansaniasicherheit-208662",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tanzania"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Die Gipfelhöhe beschreibt nicht die gesamte Reise: Tiefland, Übernachtungen und An-/Abreiseetappen bleiben relevant. AA und CDC verwenden unterschiedliche Höhengrenzen. Lass die vollständige Route einschließlich Akklimatisation und Malariaprävention beraten."
+    },
+    {
+      "id": "TZ-SAFARI",
+      "country": "TZ",
+      "status": "route_required",
+      "scope": "Tansania – Safari / Nationalparks (Route angeben)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tansaniasicherheit-208662",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tanzania"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Safari- und Nationalparkreisen umfassen unterschiedliche Höhenlagen. Für Tieflandetappen beschreiben die Quellen ein relevantes Malariarisiko mit medikamentöser Prävention. Ein einzelnes höher gelegenes Ziel begründet keine Entwarnung für die gesamte Safari."
+    },
+    {
+      "id": "KE-NAIROBI-CENTRE",
+      "country": "KE",
+      "status": "supported",
+      "scope": "Nairobi – stark urbanisiertes Stadtzentrum",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/keniasicherheit-208058",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kenya"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "AA beschreibt das Stadtzentrum als gering exponiert, CDC seltene Fälle und dort Mückenschutz ohne routinemäßige Chemoprophylaxe. Diese Aussage gilt ausschließlich für das stark urbanisierte Zentrum; Safari, Umland und Küstenetappen gesondert berücksichtigen.",
+      "riskLevel": "low",
+      "preventionType": "exposure_only"
+    },
+    {
+      "id": "KE-MOMBASA",
+      "country": "KE",
+      "status": "supported",
+      "scope": "Mombasa / Küste (Kenia)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/keniasicherheit-208058",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kenya"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Die kenianische Küstenroute liegt im Malariarisikobereich unter 2.500 m. Zusätzlich zu konsequentem Mückenschutz ist eine geeignete medikamentöse Malariaprophylaxe ärztlich auszuwählen. Ein Aufenthalt im Strandhotel hebt das Risiko nicht auf.",
+      "riskLevel": "high",
+      "preventionType": "chemoprophylaxis_consider"
+    },
+    {
+      "id": "KE-DIANI",
+      "country": "KE",
+      "status": "supported",
+      "scope": "Diani Beach / Südküste (Kenia)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/keniasicherheit-208058",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kenya"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Die kenianische Küstenroute liegt im Malariarisikobereich unter 2.500 m. Zusätzlich zu konsequentem Mückenschutz ist eine geeignete medikamentöse Malariaprophylaxe ärztlich auszuwählen. Ein Aufenthalt im Strandhotel hebt das Risiko nicht auf.",
+      "riskLevel": "high",
+      "preventionType": "chemoprophylaxis_consider"
+    },
+    {
+      "id": "KE-SAFARI",
+      "country": "KE",
+      "status": "route_required",
+      "scope": "Kenia – Safari / Nationalparks (Route angeben)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/keniasicherheit-208058",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kenya"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "CDC erfasst auch Wildparks unter 2.500 m als Übertragungsgebiete. Für die konkrete Strategie müssen alle Parks, Übernachtungen und Höhenlagen der Safari berücksichtigt werden. Die niedrigere Einschätzung für Nairobis Stadtzentrum darf nicht auf die Safari übertragen werden."
+    },
+    {
+      "id": "VN-HANOI",
+      "country": "VN",
+      "status": "supported",
+      "scope": "Hanoi (Stadt)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vietnamsicherheit-217274",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "CDC nennt für dieses Stadtgebiet keine Malariaübertragung. Für einen ausschließlich dortigen Stadtaufenthalt ist keine routinemäßige Malariachemoprophylaxe vorgesehen. Das gilt nicht automatisch für die Provinz oder ländliche Ausflüge; Mückenschutz bleibt wegen anderer Erkrankungen sinnvoll.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "VN-HCMC",
+      "country": "VN",
+      "status": "supported",
+      "scope": "Ho-Chi-Minh-Stadt / Saigon",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vietnamsicherheit-217274",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "CDC nennt für dieses Stadtgebiet keine Malariaübertragung. Für einen ausschließlich dortigen Stadtaufenthalt ist keine routinemäßige Malariachemoprophylaxe vorgesehen. Das gilt nicht automatisch für die Provinz oder ländliche Ausflüge; Mückenschutz bleibt wegen anderer Erkrankungen sinnvoll.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "VN-DANANG",
+      "country": "VN",
+      "status": "supported",
+      "scope": "Da Nang (Stadt)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vietnamsicherheit-217274",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "CDC nennt für dieses Stadtgebiet keine Malariaübertragung. Für einen ausschließlich dortigen Stadtaufenthalt ist keine routinemäßige Malariachemoprophylaxe vorgesehen. Das gilt nicht automatisch für die Provinz oder ländliche Ausflüge; Mückenschutz bleibt wegen anderer Erkrankungen sinnvoll.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "VN-HAIPHONG",
+      "country": "VN",
+      "status": "supported",
+      "scope": "Hai Phong (Stadt)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vietnamsicherheit-217274",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "CDC nennt für dieses Stadtgebiet keine Malariaübertragung. Für einen ausschließlich dortigen Stadtaufenthalt ist keine routinemäßige Malariachemoprophylaxe vorgesehen. Das gilt nicht automatisch für die Provinz oder ländliche Ausflüge; Mückenschutz bleibt wegen anderer Erkrankungen sinnvoll.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "VN-NHATRANG",
+      "country": "VN",
+      "status": "supported",
+      "scope": "Nha Trang (Stadt)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vietnamsicherheit-217274",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "CDC nennt für dieses Stadtgebiet keine Malariaübertragung. Für einen ausschließlich dortigen Stadtaufenthalt ist keine routinemäßige Malariachemoprophylaxe vorgesehen. Das gilt nicht automatisch für die Provinz oder ländliche Ausflüge; Mückenschutz bleibt wegen anderer Erkrankungen sinnvoll.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "VN-QUYNHON",
+      "country": "VN",
+      "status": "supported",
+      "scope": "Quy Nhon (Stadt)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vietnamsicherheit-217274",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "CDC nennt für dieses Stadtgebiet keine Malariaübertragung. Für einen ausschließlich dortigen Stadtaufenthalt ist keine routinemäßige Malariachemoprophylaxe vorgesehen. Das gilt nicht automatisch für die Provinz oder ländliche Ausflüge; Mückenschutz bleibt wegen anderer Erkrankungen sinnvoll.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "VN-MEKONG",
+      "country": "VN",
+      "status": "supported",
+      "scope": "Mekongdelta (Vietnam)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vietnamsicherheit-217274",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "CDC beschreibt in diesem Delta seltene Malariafälle und sieht Mückenschutz ohne routinemäßige Chemoprophylaxe vor. Eine weiterführende Route in andere ländliche Gebiete muss gesondert berücksichtigt werden.",
+      "riskLevel": "low",
+      "preventionType": "exposure_only"
+    },
+    {
+      "id": "VN-RED-RIVER",
+      "country": "VN",
+      "status": "supported",
+      "scope": "Delta des Roten Flusses (Vietnam)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vietnamsicherheit-217274",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "CDC beschreibt in diesem Delta seltene Malariafälle und sieht Mückenschutz ohne routinemäßige Chemoprophylaxe vor. Eine weiterführende Route in andere ländliche Gebiete muss gesondert berücksichtigt werden.",
+      "riskLevel": "low",
+      "preventionType": "exposure_only"
+    },
+    {
+      "id": "VN-RURAL-FOREST",
+      "country": "VN",
+      "status": "route_required",
+      "scope": "Vietnam – ländliche Wald- und Hochlandroute",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vietnamsicherheit-217274",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für ländliche Übertragungsgebiete außerhalb der beiden Deltas nennt CDC medikamentöse Prävention. Benötigt werden genaue Etappen und Aufenthaltsorte; alte Provinznamen in Quellen können von der aktuellen Verwaltungsgliederung abweichen. Keine pauschale Einstufung allein anhand des Begriffs Hochland."
+    },
+    {
+      "id": "PT-MADEIRA",
+      "country": "PT",
+      "status": "supported",
+      "scope": "Madeira (Inselgruppe)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/portugalsicherheit-210900",
+        "https://www.cdc.gov/malaria/travelers/country_table/p.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für Portugal besteht keine routinemäßige Indikation zur Malariachemoprophylaxe. Unabhängig davon nennt AA Dengue auf Madeira. Tagsüber konsequenter Mückenschutz; eine Dengueimpfung nur bei individueller STIKO-Indikation prüfen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "PT-AZORES",
+      "country": "PT",
+      "status": "supported",
+      "scope": "Azoren (Inselgruppe)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/portugalsicherheit-210900",
+        "https://www.cdc.gov/malaria/travelers/country_table/p.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für Portugal besteht keine routinemäßige Indikation zur Malariachemoprophylaxe. Der besondere AA-Denguehinweis zu Madeira wird nicht automatisch auf die Azoren übertragen. Individuelle Reise- und Impfberatung berücksichtigen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "PT-MAINLAND",
+      "country": "PT",
+      "status": "supported",
+      "scope": "Portugal – Festland",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/portugalsicherheit-210900",
+        "https://www.cdc.gov/malaria/travelers/country_table/p.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für Portugal besteht keine routinemäßige Indikation zur Malariachemoprophylaxe. Ein Inselaufenthalt auf Madeira ist bei einer kombinierten Reise zusätzlich zu erfassen, weil dort andere Mückenrisiken relevant sind.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "GR-TOURISM",
+      "country": "GR",
+      "status": "supported",
+      "scope": "Griechenland – touristische Reiseziele",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/griechenlandsicherheit-211534",
+        "https://www.cdc.gov/malaria/travelers/country_table/g.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "CDC beschreibt keine Malariaübertragung in touristischen Gebieten und empfiehlt keine Malariachemoprophylaxe. Mückenschutz bleibt unter anderem wegen saisonalem West-Nil-Fieber sinnvoll. Längere landwirtschaftliche Aufenthalte sind gesondert zu erfassen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "GR-AGRICULTURE",
+      "country": "GR",
+      "status": "supported",
+      "scope": "Griechenland – landwirtschaftlicher Aufenthalt",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/griechenlandsicherheit-211534",
+        "https://www.cdc.gov/malaria/travelers/country_table/g.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "CDC nennt seltene lokale Übertragungen in landwirtschaftlichen Gebieten in der warmen Jahreszeit. Eine routinemäßige Malariachemoprophylaxe wird nicht empfohlen; Mückenschutz und die konkrete Aufenthaltsart bleiben wichtig.",
+      "riskLevel": "low",
+      "preventionType": "exposure_only"
     }
   ]
 }

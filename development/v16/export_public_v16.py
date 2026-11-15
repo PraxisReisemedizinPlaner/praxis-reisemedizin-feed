@@ -9,6 +9,7 @@ or legal content review.
 import argparse
 from datetime import date, datetime, timezone
 import json
+from route_planning import validate_route_assessment
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -37,6 +38,7 @@ def is_dtg_url(url):
     return host == DTG_DOMAIN or host.endswith("." + DTG_DOMAIN)
 
 def approved_profile(code, profile, as_of):
+    validate_route_assessment(code,profile)
     review = profile["medicalReview"]
     require(review.get("reviewer") and isinstance(review["reviewer"], str),
             f"{code}: reviewer missing")

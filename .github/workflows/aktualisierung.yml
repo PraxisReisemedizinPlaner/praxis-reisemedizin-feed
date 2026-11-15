@@ -49,6 +49,7 @@ jobs:
       - name: Medizinischen V16 Feed sicher erzeugen
         run: |
           python development/v16/validate_v16.py
+          python development/v16/validate_route_requirements.py
           python development/v16/validate_jimdo_v24.py
           python -m unittest discover -s development/v16 -p 'test_*.py' -v
           mkdir -p _site

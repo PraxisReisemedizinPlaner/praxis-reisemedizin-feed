@@ -27,7 +27,7 @@ class RegionSafetyTests(unittest.TestCase):
 
     def test_names_without_any_clinical_risk(self):
         out=self.published()
-        self.assertEqual(out["geographyCount"],25)
+        self.assertEqual(out["geographyCount"],62)
         self.assertEqual(out["regionalApprovedCount"],0)
         self.assertTrue(all(x["clinicalStatus"]=="medical_review_required" for x in out["regions"]))
         blob=json.dumps(out,ensure_ascii=False)
@@ -39,7 +39,7 @@ class RegionSafetyTests(unittest.TestCase):
     def test_all_twenty_five_explicit_physician_releases(self):
         out=self.published(self.approved_catalogue)
         approved={row["id"]:row for row in out["regions"] if row["clinicalStatus"]=="approved"}
-        self.assertEqual(set(approved),{r["id"] for r in self.approved_catalogue["regions"]})
+        self.assertEqual(set(approved),{r["id"] for r in self.approved_catalogue["regions"] if r["publicationAllowed"]})
         self.assertEqual(len(approved),25)
         self.assertEqual(approved["TH-BKK"]["malaria"]["riskLevel"],"uncertain")
         self.assertEqual(approved["TH-LITTLE-CHANG-RANONG"]["malaria"]["preventionType"],"regional_assessment_required")

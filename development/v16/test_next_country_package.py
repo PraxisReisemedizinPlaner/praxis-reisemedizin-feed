@@ -59,7 +59,7 @@ class NextCountryPackageTests(unittest.TestCase):
         self.assertIn("CDC",json.dumps(p["IN"]["malariaAssessment"],ensure_ascii=False))
         self.assertIn("ABHAYRAB",json.dumps(p["IN"]["vaccineAssessment"],ensure_ascii=False))
     def test_review_preview_contains_exact_drafts_and_warning(self):
-        html=render(self.data)
+        html=render(self.data,codes=tuple(sorted(CODES)))
         self.assertIn("Ärztliche Prüfvorschau",html)
         self.assertIn("keine Patientenempfehlung",html)
         self.assertIn("noindex,nofollow",html)
