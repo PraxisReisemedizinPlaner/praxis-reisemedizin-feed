@@ -10,8 +10,8 @@ from export_public_v16 import build_public
 
 HERE = Path(__file__).resolve().parent
 TODAY = date(2026, 11, 15)
-APPROVED = {"MA", "AT", "TH", "ID", "EG", "TR", "TZ", "KE", "VN", "IN", "ES", "IT", "GR", "PT"}
-PENDING = {"LK","NP","MY","PH"}
+APPROVED = {"MA", "AT", "TH", "ID", "EG", "TR", "TZ", "KE", "VN", "IN", "ES", "IT", "GR", "PT", "LK", "NP", "MY", "PH"}
+PENDING = {"KH","LA","ZA","BR"}
 
 
 class PublishingSafetyTests(unittest.TestCase):
@@ -22,8 +22,8 @@ class PublishingSafetyTests(unittest.TestCase):
 
     def test_only_reviewed_countries_are_exported(self):
         out = build_public(copy.deepcopy(self.draft), TODAY)
-        self.assertEqual(out["coverageCount"], 18)
-        self.assertEqual(out["approvedCount"], 14)
+        self.assertEqual(out["coverageCount"], 22)
+        self.assertEqual(out["approvedCount"], 18)
         self.assertEqual(set(out["countries"]), APPROVED)
         self.assertEqual(set(out["coverage"]), APPROVED | PENDING)
         self.assertTrue(all(out["coverage"][code]["status"] == "medical_review_required"

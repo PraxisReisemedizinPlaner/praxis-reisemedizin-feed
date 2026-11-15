@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 18,
+  "countryCount": 22,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -2476,11 +2476,48 @@
     "LK": {
       "name": "Sri Lanka",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "approvedSources": [],
-        "nextReviewDate": null
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/srilankasicherheit-212254",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/sri-lanka",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://colombo.diplo.de/lk-de/ueber-uns/1437792-1437792",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independently researched next country package; no legacy clinical import",
@@ -2488,7 +2525,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -2509,7 +2546,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -2534,7 +2571,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Colombo",
@@ -2549,7 +2586,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-15",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/srilankasicherheit-212254",
         "evidenceLinks": [
@@ -2603,7 +2640,7 @@
           "WHO bestätigt Sri Lanka seit 2016 als malariafrei. JE-Saison und Bergregionen nach RKI; AA nennt enger November/Dezember und unter 1.000 m."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Länderfreigabe ausstehend; bis dahin keine klinischen Patientenempfehlungen.",
+        "warning": "Länderpaket mit Quellenabweichungen und regionalen Hinweisen ärztlich freigegeben.",
         "regionalReview": [
           "Colombo (Stadt): Colombo: keine routinemäßige Malariaprophylaxe. Tagsüber Mückenschutz; bei reiner kurzer Städtereise keine routinemäßige JE-Impfung.",
           "Sri Lanka – ländliches Tiefland: Ländliches Tiefland: JE-Impfung nach Dauer und Exposition prüfen, besonders November–Februar. Keine routinemäßige Malariaprophylaxe.",
@@ -2614,9 +2651,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-15"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-15",
+          "statement": "klasse. alle Länder geprüft und freigegeben.",
+          "scope": "Sri Lanka, Nepal, Malaysia und Philippinen einschließlich 18 regionaler Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-15",
         "regionalSelectionRequired": true,
@@ -2640,11 +2682,42 @@
     "NP": {
       "name": "Nepal",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "approvedSources": [],
-        "nextReviewDate": null
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/nepalsicherheit-221216",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/yellow-book/hcp/asia/nepal.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://kathmandu.diplo.de/",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independently researched next country package; no legacy clinical import",
@@ -2652,7 +2725,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A",
           "Typhus"
@@ -2674,7 +2747,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -2699,7 +2772,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Kathmandu",
@@ -2714,7 +2787,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-15",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/nepalsicherheit-221216",
         "evidenceLinks": [
@@ -2761,7 +2834,7 @@
           "STIKO: Hepatitis A und Typhus für alle Reisenden; weitere Impfungen expositionsabhängig. Höhenreise inklusive Tieflandetappen erfassen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Länderfreigabe ausstehend; bis dahin keine klinischen Patientenempfehlungen.",
+        "warning": "Länderpaket mit Quellenabweichungen und regionalen Hinweisen ärztlich freigegeben.",
         "regionalReview": [
           "Kathmandu (Stadt): Kathmandu: keine routinemäßige Malariaprophylaxe. Tagsüber Mückenschutz gegen Dengue.",
           "Pokhara (Stadt): Pokhara: keine routinemäßige Malariaprophylaxe. Weitere Tieflandetappen gesondert erfassen.",
@@ -2774,9 +2847,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-15"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-15",
+          "statement": "klasse. alle Länder geprüft und freigegeben.",
+          "scope": "Sri Lanka, Nepal, Malaysia und Philippinen einschließlich 18 regionaler Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-15",
         "regionalSelectionRequired": true,
@@ -2805,11 +2883,42 @@
     "MY": {
       "name": "Malaysia",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "approvedSources": [],
-        "nextReviewDate": null
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/malaysiasicherheit-223616",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/malaysia",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/malaysia-223620",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independently researched next country package; no legacy clinical import",
@@ -2817,7 +2926,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -2838,7 +2947,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -2863,7 +2972,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Kuala Lumpur",
@@ -2878,7 +2987,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-15",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/malaysiasicherheit-223616",
         "evidenceLinks": [
@@ -2925,7 +3034,7 @@
           "STIKO-Impfungen übernommen; für Chikungunya/Dengue gelten spezifische persönliche Voraussetzungen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Länderfreigabe ausstehend; bis dahin keine klinischen Patientenempfehlungen.",
+        "warning": "Länderpaket mit Quellenabweichungen und regionalen Hinweisen ärztlich freigegeben.",
         "regionalReview": [
           "Kuala Lumpur (Stadt): Kuala Lumpur: keine routinemäßige Malariaprophylaxe. Wald- und Borneoetappen gesondert erfassen.",
           "Penang / George Town: Penang/George Town: keine routinemäßige Malariaprophylaxe nach CDC. Mückenschutz bleibt wichtig.",
@@ -2937,9 +3046,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-15"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-15",
+          "statement": "klasse. alle Länder geprüft und freigegeben.",
+          "scope": "Sri Lanka, Nepal, Malaysia und Philippinen einschließlich 18 regionaler Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-15",
         "regionalSelectionRequired": true,
@@ -2964,11 +3078,42 @@
     "PH": {
       "name": "Philippinen",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "approvedSources": [],
-        "nextReviewDate": null
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/philippinensicherheit-212492",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/philippines",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://manila.diplo.de/ph-de/01-botschaft/botschaft",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independently researched next country package; no legacy clinical import",
@@ -2976,7 +3121,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -2998,7 +3143,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -3023,7 +3168,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Manila",
@@ -3038,7 +3183,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-15",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/philippinensicherheit-212492",
         "evidenceLinks": [
@@ -3086,7 +3231,7 @@
           "CDC verweist auf gefälschte Tollwutimpfstoffe/Antiserum. Nach Tierkontakt sichere Postexpositionsversorgung erforderlich; Vorimpfung ersetzt sie nicht."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Länderfreigabe ausstehend; bis dahin keine klinischen Patientenempfehlungen.",
+        "warning": "Länderpaket mit Quellenabweichungen und regionalen Hinweisen ärztlich freigegeben.",
         "regionalReview": [
           "Manila (Stadtgebiet): Manila: keine routinemäßige Malariaprophylaxe. Insel- und Landetappen gesondert erfassen.",
           "Cebu (Insel): Cebu: AA nennt geringes Malariarisiko, CDC erfasst Cebu nicht als Übertragungsgebiet. Für Ausflüge und weitere Inseln genaue Route prüfen.",
@@ -3100,9 +3245,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-15"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-15",
+          "statement": "klasse. alle Länder geprüft und freigegeben.",
+          "scope": "Sri Lanka, Nepal, Malaysia und Philippinen einschließlich 18 regionaler Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-15",
         "regionalSelectionRequired": true,
@@ -3124,6 +3274,677 @@
           "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
         ],
         "otherRegionalFactors": []
+      }
+    },
+    "KH": {
+      "name": "Kambodscha",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independently researched country draft; no legacy or DTG malaria import",
+        "originalCheckedDate": "2026-11-15",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Japanische Enzephalitis",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Direkte Einreise aus Deutschland: keine Pflichtimpfungen."
+        ],
+        "routeDependent": [
+          "Gelbfiebergebiet oder Transit >12 Stunden: Nachweis ab 1 Jahr prüfen.",
+          "Waldübernachtungen und abgelegene Ost-/Südwestetappen separat erfassen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Phnom Penh (Stadt)",
+          "Siem Reap / Angkor (übliche Tempelroute)",
+          "Kambodscha – östliche Waldroute",
+          "Pursat / südwestliche Waldroute"
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Phnom Penh: keine routinemäßige Malariaprophylaxe. Bei Waldübernachtungen Prophylaxe ärztlich prüfen; Siem Reap und Angkor getrennt von Waldetappen bewerten.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kambodschasicherheit-220008",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cambodia",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Phnom Penh",
+            "address": "No. 76–78 Rue Yougoslavie (Street 214), Phnom Penh 120308, Kambodscha",
+            "phone": "+855 23 216193",
+            "emergency": "+855 10 990002",
+            "scope": "Kambodscha; Notdienst außerhalb der Bürozeiten bis 22:00 Ortszeit, nur für Notfälle.",
+            "url": "https://phnom-penh.diplo.de/kh-de/ueber-uns/1221828-1221828"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kambodschasicherheit-220008",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kambodschasicherheit-220008",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cambodia",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+          "https://phnom-penh.diplo.de/kh-de/ueber-uns/1221828-1221828"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kambodschasicherheit-220008",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cambodia",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://phnom-penh.diplo.de/kh-de/ueber-uns/1221828-1221828",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "STIKO-Impfzuordnung 2026; Dengue/Chikungunya nur nach jeweiliger STIKO-Indikation.",
+          "CDC empfiehlt Chemoprophylaxe bei ländlichen Waldetappen; AA unterscheidet mittleres und geringes Risiko. In Siem Reap/Angkor beschreibt CDC keine oder vernachlässigbare Übertragung, AA geringes Risiko."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Länderfreigabe ausstehend; noch keine klinischen Patientenempfehlungen.",
+        "regionalReview": [
+          "Phnom Penh (Stadt): Phnom Penh: keine routinemäßige Malariaprophylaxe. Ausflüge in Waldgebiete gesondert erfassen.",
+          "Siem Reap / Angkor (übliche Tempelroute): Tempelroute: AA nennt geringes Risiko, CDC keine/vernachlässigbare Übertragung. Waldübernachtungen gehören in eine separate Abwägung.",
+          "Kambodscha – östliche Waldroute: Östliche Waldroute: mögliches Malariarisiko; CDC empfiehlt Prophylaxe bei Waldaufenthalten. Etappen und Übernachtungen ärztlich abgleichen.",
+          "Pursat / südwestliche Waldroute: Pursat/Waldroute: Prävention vor Reise ärztlich planen; AA und CDC unterscheiden sich bei Prophylaxe/Notfalltherapie."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-15"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria"
+        ],
+        "regionIds": [
+          "KH-PHNOM",
+          "KH-ANGKOR",
+          "KH-EAST-FOREST",
+          "KH-PURSAT"
+        ],
+        "reason": "Malariarisiko und Präventionsstrategie hängen von genauen Orten und Etappen ab; Quellenabweichungen bleiben sichtbar.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kambodschasicherheit-220008",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cambodia",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": []
+      }
+    },
+    "LA": {
+      "name": "Laos",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independently researched country draft; no legacy or DTG malaria import",
+        "originalCheckedDate": "2026-11-15",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A",
+          "Polio"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Japanische Enzephalitis",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Direkte Einreise aus Deutschland: keine Pflichtimpfungen."
+        ],
+        "routeDependent": [
+          "Aufenthalt >4 Wochen: Polioimpfung 4 Wochen bis 12 Monate vor Ausreise und internationale Dokumentation prüfen.",
+          "Südliche Provinzen und Grenz-/Waldetappen separat erfassen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Vientiane – Stadtzentrum",
+          "Luang Prabang (Stadt)",
+          "Laos – nördliche Land-/Waldroute",
+          "Laos – südliche Provinzen"
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Vientiane-Zentrum: keine routinemäßige Malariaprophylaxe. Südliche Provinzen: medikamentöse Prävention ärztlich prüfen; Norden gesondert bewerten.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/laossicherheit-201048",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/laos/",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Vientiane",
+            "address": "26 Sokpalouang Road, Sisattanak District, Vientiane, Laos",
+            "phone": "+856 21 312110",
+            "emergency": "+856 20 5551 5540",
+            "scope": "Laos; Notdienst nur für dringende Notfälle.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/laos-201034"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/laossicherheit-201048",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/laossicherheit-201048",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/laos/",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/laos-201034"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/laossicherheit-201048",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/laos/",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/laos-201034",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "RKI 2026 nennt Polio für alle Reisenden; bei Aufenthalt >4 Wochen Dokumentation der Impfung 4 Wochen bis 12 Monate vor Ausreise.",
+          "Aktuelle CDC-Reiseseite grenzt Süden/Norden und Vientiane/Luang Prabang ab. Ältere CDC-Ländertabelle beschreibt Risiko breiter und wird nicht als aktueller Automatismus übernommen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Länderfreigabe ausstehend; noch keine klinischen Patientenempfehlungen.",
+        "regionalReview": [
+          "Vientiane – Stadtzentrum: Vientiane-Zentrum: keine routinemäßige Malariaprophylaxe. Ländliche Weiterreisen separat erfassen.",
+          "Luang Prabang (Stadt): Luang Prabang: CDC beschreibt keine Stadtübertragung, AA geringes Risiko im Norden. Umland und Waldetappen getrennt erfassen.",
+          "Laos – nördliche Land-/Waldroute: Nordlaos: Mückenschutz; nach aktueller CDC-Reiseseite keine routinemäßige Prophylaxe. Weiterreisen in den Süden gesondert beraten.",
+          "Laos – südliche Provinzen: Südlaos: relevante Malariaexposition. Prophylaxe für die genaue Route ärztlich planen; Provinz und Übernachtungen angeben."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-15"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria"
+        ],
+        "regionIds": [
+          "LA-VIENTIANE",
+          "LA-LUANG",
+          "LA-NORTH",
+          "LA-SOUTH"
+        ],
+        "reason": "Malariarisiko und Präventionsstrategie hängen von genauen Orten und Etappen ab; Quellenabweichungen bleiben sichtbar.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/laossicherheit-201048",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/laos/",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": []
+      }
+    },
+    "ZA": {
+      "name": "Südafrika",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independently researched country draft; no legacy or DTG malaria import",
+        "originalCheckedDate": "2026-11-15",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Hepatitis B",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Direkte Einreise aus Deutschland: keine Pflichtimpfungen."
+        ],
+        "routeDependent": [
+          "Gelbfiebergebiet oder Transit >12 Stunden: Nachweis ab 1 Jahr prüfen.",
+          "Kruger/Nordostsafari: Reisezeit und genaue Parks erfassen.",
+          "Kapregion/Wassersport: Robbenkontakt vermeiden; Tollwutschutz bei Exposition prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Kapregion / Garden Route",
+          "Kruger-Nationalpark",
+          "Nordöstliches Limpopo / Mpumalanga",
+          "KwaZulu-Natal – nördliche Gebiete",
+          "Südafrika – weitere nördliche Safariorte"
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Kruger und nordöstliche Risikogebiete: Prophylaxe ärztlich planen. Saison, Distrikt und weitere Etappen berücksichtigen; Kapregion nicht mit Nordostsafaris gleichsetzen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/suedafrikasicherheit-208400",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-africa",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Pretoria",
+            "address": "201 Florence Ribeiro Avenue, Groenkloof Ext 11, Pretoria 0181, Südafrika",
+            "phone": "+27 12 427 8900",
+            "emergency": "+27 78 608 0950",
+            "scope": "Konsularisch u. a. Gauteng, KwaZulu-Natal, Limpopo und Mpumalanga. Für die Kapregion zuständiges Generalkonsulat Kapstadt im amtlichen Verzeichnis prüfen.",
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/deutsche-auslandsvertretungen/suedafrika/208384"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/suedafrikasicherheit-208400",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/suedafrikasicherheit-208400",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-africa",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/deutsche-auslandsvertretungen/suedafrika/208384",
+          "https://southafrica.diplo.de/sa-de/sa-vertretungen/notfall-495818"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/suedafrikasicherheit-208400",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-africa",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/deutsche-auslandsvertretungen/suedafrika/208384",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://southafrica.diplo.de/sa-de/sa-vertretungen/notfall-495818",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "AA nennt im Vorspann ganzjährig hohes Risiko im gesamten Land, differenziert anschließend aber südliche malariafreie Gebiete und saisonale Nordostrisiken. Diese interne Abweichung wird offengelegt und nicht automatisch aufgelöst.",
+          "CDC empfiehlt Prophylaxe für Kruger und bestimmte Distrikte ganzjährig; AA differenziert September–Mai und Juni–August. Exakte Reisezeit und Route erforderlich.",
+          "CDC warnt vor Tollwut bei Kap-Pelzrobben; bei Wassersport individuelle Präexpositionsimpfung erwägen, bei Biss sofort versorgen lassen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Länderfreigabe ausstehend; noch keine klinischen Patientenempfehlungen.",
+        "regionalReview": [
+          "Kapregion / Garden Route: Kapregion: CDC erfasst keine lokale Malariaübertragung. Wegen widersprüchlichem AA-Vorspann genaue Route abgleichen; Nordostsafari gesondert erfassen.",
+          "Kruger-Nationalpark: Kruger: Malariaprophylaxe ärztlich planen. AA stuft das Risiko saisonal ab; CDC empfiehlt Prophylaxe ganzjährig. Reisemonat angeben.",
+          "Nordöstliches Limpopo / Mpumalanga: Nordostroute: Malariarisiko; Distrikt und Reisemonat für die Prophylaxeplanung ärztlich abgleichen.",
+          "KwaZulu-Natal – nördliche Gebiete: Nördliches KwaZulu-Natal: CDC empfiehlt für uMkhanyakude Prophylaxe; AA beschreibt geringes Risiko. Konkrete Parks und Distrikte angeben.",
+          "Südafrika – weitere nördliche Safariorte: Weitere nördliche Safariorte: Mückenschutz und genaue Lage prüfen. Die Prophylaxeempfehlung für Kruger gilt nicht automatisch für jeden Park."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-15"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria",
+          "other"
+        ],
+        "regionIds": [
+          "ZA-CAPE",
+          "ZA-KRUGER",
+          "ZA-NORTHEAST",
+          "ZA-KZN-NORTH",
+          "ZA-OTHER-NORTH"
+        ],
+        "reason": "Malariarisiko und Präventionsstrategie hängen von genauen Orten und Etappen ab; Quellenabweichungen bleiben sichtbar.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/suedafrikasicherheit-208400",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-africa",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": []
+      }
+    },
+    "BR": {
+      "name": "Brasilien",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "approvedSources": [],
+        "nextReviewDate": null
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independently researched country draft; no legacy or DTG malaria import",
+        "originalCheckedDate": "2026-11-15",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Gelbfieber bei regionaler Exposition",
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Direkte Einreise aus Deutschland: keine Pflichtimpfungen."
+        ],
+        "routeDependent": [
+          "Gelbfieber: genaue Bundesstaaten und Ausflüge prüfen, einschließlich Rio/São Paulo und Iguaçu.",
+          "Amazonas-, Pantanal- und Waldetappen separat erfassen.",
+          "Weiterreise aus Brasilien: Gelbfiebernachweis für das Folgeland prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Rio de Janeiro / São Paulo – Stadtaufenthalte",
+          "Brasília (Stadt)",
+          "Iguaçu / Foz do Iguaçu",
+          "Amazonasbecken – genaue Route",
+          "Pantanal – genaue Route",
+          "Brasilien – weitere Wald-/Landetappen"
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Amazonas- und weitere Waldetappen: genaue Orte für die Prophylaxeplanung erforderlich. Großstadtaufenthalte und Iguaçu getrennt bewerten.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/brasiliensicherheit-201092",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/brazil",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Brasília",
+            "address": "SES Avenida das Nações, Quadra 807, Lote 25, 70415-900 Brasília, DF, Brasilien",
+            "phone": "+55 61 3442 7000",
+            "emergency": "+55 61 3442 7000",
+            "scope": "Brasilienweiter Bereitschaftsdienst für dringende Notfälle. Außerhalb der unmittelbaren Nähe Brasílias zuständiges Generalkonsulat/Honorarkonsulat im Originalverzeichnis prüfen.",
+            "url": "https://brasil.diplo.de/br-de/vertretungen/botschaft/1051130-1051130"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/brasiliensicherheit-201092",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/brasiliensicherheit-201092",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/brazil",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+          "https://brasil.diplo.de/br-de/vertretungen/botschaft/1051130-1051130",
+          "https://www.cdc.gov/yellow-book/hcp/americas-caribbean/brazil.html",
+          "https://brasil.diplo.de/br-de/service/bereitschaftsdienst-2611180"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/brasiliensicherheit-201092",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/brazil",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://brasil.diplo.de/br-de/vertretungen/botschaft/1051130-1051130",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/yellow-book/hcp/americas-caribbean/brazil.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://brasil.diplo.de/br-de/service/bereitschaftsdienst-2611180",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Gelbfieber in der STIKO-Tabelle mit regionalem Sternchen; daher im Widget als routenabhängig, nicht pauschal für jede Brasilienreise. RKI-Tabellentext bei Iguaçu ist widersprüchlich zur regionalen Aufzählung und AA/CDC; Quellenabweichung ausdrücklich prüfen.",
+          "STIKO-Risikokategorien: Chikungunya, Dengue, Hepatitis B, Typhus. AA nennt zusätzlich Tollwut bei individueller Exposition; tierbezogene persönliche Indikation gesondert prüfen.",
+          "Malaria: CDC empfiehlt in Endemiegebieten Prophylaxe, bei seltenen Fällen Mückenschutz; AA differenziert bis in Städte und Flussreisen. Keine pauschale Arzneientscheidung für das gesamte Amazonasbecken."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Länderfreigabe ausstehend; noch keine klinischen Patientenempfehlungen.",
+        "regionalReview": [
+          "Rio de Janeiro / São Paulo – Stadtaufenthalte: Rio/São Paulo (Städte): keine routinemäßige Malariaprophylaxe. Gelbfieberimpfung unabhängig davon für die Route prüfen.",
+          "Brasília (Stadt): Brasília: keine routinemäßige Malariaprophylaxe. Gelbfieberimpfung gesondert prüfen.",
+          "Iguaçu / Foz do Iguaçu: Iguaçu: AA nennt geringes Malariarisiko, CDC keine Übertragung. Gelbfieberimpfung separat anhand aktueller Quellen beraten.",
+          "Amazonasbecken – genaue Route: Amazonasroute: Malariaprophylaxe ärztlich planen. Stadt, Waldübernachtungen und Flussreise getrennt angeben.",
+          "Pantanal – genaue Route: Pantanal: Bundesstaat, Unterkunft und Ausflüge angeben; AA und CDC grenzen Prophylaxegebiete unterschiedlich ab.",
+          "Brasilien – weitere Wald-/Landetappen: Weitere Waldetappen: genaue Orte für Malariaberatung und Gelbfieberimpfung angeben; Städteempfehlungen nicht auf das Umland übertragen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-15"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria",
+          "yellow_fever"
+        ],
+        "regionIds": [
+          "BR-RIO-SP",
+          "BR-BRASILIA",
+          "BR-IGUACU",
+          "BR-AMAZON",
+          "BR-PANTANAL",
+          "BR-OTHER-FOREST"
+        ],
+        "reason": "Malariarisiko und Präventionsstrategie hängen von genauen Orten und Etappen ab; Quellenabweichungen bleiben sichtbar.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/brasiliensicherheit-201092",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/brazil",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": [
+          "Regionale Gelbfieberexposition unabhängig von Malaria."
+        ]
       }
     }
   }

@@ -1,4 +1,4 @@
-<!-- Praxis Dr. Münster: Reisemedizin-Check | Jimdo Creator Widget/HTML | V24.7 (15.11.2026; einheitliche Klick-Mehrfachauswahl für Regionen, Reiseart, Reisegrund und Aktivitäten, Länderpaket mit quellenbasierten Regionalinformationen; Wellen- und Bergsymbol, Quellen im Abschlussbereich; Reisearten und Reisegründe mehrfach auswählbar, Hinweise zur Höhenkrankheit) -->
+<!-- Praxis Dr. Münster: Reisemedizin-Check | Jimdo Creator Widget/HTML | V24.8 (15.11.2026; einheitliche Klick-Mehrfachauswahl für Regionen, Reiseart, Reisegrund und Aktivitäten, Länderpaket mit quellenbasierten Regionalinformationen; Wellen- und Bergsymbol, Quellen im Abschlussbereich; Reisearten und Reisegründe mehrfach auswählbar, Hinweise zur Höhenkrankheit) -->
 <div class="rm-tool" id="rm-tool" style="--rm-blue:#6592A7;--rm-deep:#234556;--rm-line:#d8e4e9;--rm-ink:#243b46;--rm-muted:#566c75;font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;font-size:15px;line-height:1.5;color:#243b46;width:100%;max-width:950px;margin:0 auto;box-sizing:border-box">
 <style>
     #rm-tool{--rm-blue:#6592A7;--rm-deep:#234556;--rm-fog:#eef5f7;--rm-line:#d8e4e9;--rm-ink:#243b46;--rm-muted:#566c75;--rm-good:#eef8f3;--rm-attn:#fff3df;--rm-red:#fff1ef;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--rm-ink);font-size:15px;line-height:1.5;width:100%;max-width:950px;margin:0 auto}
@@ -555,6 +555,17 @@
       if(!event.target.closest?.('#rm-region-picker'))hideRegionSuggestions();
     });
 
+    function malariaVisual(kind){
+      const colors={uncertain:['#fff8db','#c7a431'],exposure:['#fff8db','#c7a431'],med:['#fff0ee','#c65c56'],standby:['#fff0dd','#db9443']};
+      const c=colors[kind];return c?' style="background:'+c[0]+'!important;border:1px solid '+c[1]+'!important;border-left:5px solid '+c[1]+'!important;border-radius:10px;padding:10px 12px;margin-top:8px"':'';
+    }
+    function regionalVisualKind(r,parent){
+      if(!profileFresh(parent))return 'unknown';
+      if(r.clinicalStatus==='source_based'&&r.nextReviewDate>=new Date().toISOString().slice(0,10)&&r.malaria){
+        return r.malaria.riskLevel==='none'?'none':r.malaria.preventionType==='chemoprophylaxis_consider'?'med':'exposure';
+      }
+      return ['regional','present','uncertain'].includes(parent._v16Malaria?.riskLevel)?'uncertain':'unknown';
+    }
     function renderRegionalRisk(){
       const raw=$('rm-region').value.trim();
       if(!regionPicks.length&&!raw)return '';
@@ -566,7 +577,8 @@
         const approved=r.clinicalStatus==='source_based'&&r.approvalScope==='country_package'&&
           /^\d{4}-\d{2}-\d{2}$/.test(r.nextReviewDate||'')&&
           r.nextReviewDate>=new Date().toISOString().slice(0,10)&&profileFresh(parent)&&r.malaria;
-        content.push('<div class="rm-region-risk-item"><strong>'+escape(r.name)+' · '+escape(country)+'</strong>');
+        const visual=regionalVisualKind(r,parent);
+        content.push('<div class="rm-region-risk-item" data-rm-risk="'+visual+'"'+malariaVisual(visual)+'><strong>'+escape(r.name)+' · '+escape(country)+'</strong>');
         if(approved){
           const m=r.malaria;
           const labels={none:'Kein bekanntes lokales Malariavorkommen laut Quellen',low:'Geringe Exposition – Mückenschutz',moderate:'Region mit relevantem Malariarisiko – ärztliche Prophylaxeberatung',high:'Höheres Malariarisiko – ärztliche Prophylaxeberatung',uncertain:'Regionale Risikoabwägung erforderlich'};
@@ -610,7 +622,7 @@
              typeof row.malaria.clinicalRecommendation==='string'&&
              Array.isArray(row.sources)&&row.sources.every(x=>{try{return new URL(x).protocol==='https:'}catch(_){return false}})){
               safe.clinicalStatus='source_based';safe.approvalScope='country_package';safe.nextReviewDate=row.nextReviewDate;
-              safe.malaria={riskLevel:row.malaria.riskLevel,clinicalRecommendation:row.malaria.clinicalRecommendation};
+              safe.malaria={riskLevel:row.malaria.riskLevel,preventionType:row.malaria.preventionType,clinicalRecommendation:row.malaria.clinicalRecommendation};
           }
           if(['source_conflict','route_required'].includes(row.clinicalStatus)&&
              row.approvalScope==='country_package'&&/^\d{4}-\d{2}-\d{2}$/.test(row.nextReviewDate||'')&&row.nextReviewDate>=today&&
@@ -769,8 +781,8 @@
     function riskInfo(p,region){const t=clean(region);if(!p)return {kind:'unknown',title:'Malaria: individuelle Prüfung erforderlich',txt:'Für dieses Land liegt noch keine fachlich freigegebene, aktuelle Risikoeinordnung im Tool vor. Bitte prüfe die offiziellen Reise- und Malariainformationen.'};
       if(p._v16){
         const m=p._v16Malaria||{};
-        const kinds={none:'none',exposure_only:'exposure',standby_consider:'standby',chemoprophylaxis_consider:'med',regional_assessment_required:'unknown'};
-        const kind=kinds[m.preventionType]||'unknown';
+        const kinds={none:'none',exposure_only:'exposure',standby_consider:'standby',chemoprophylaxis_consider:'med',regional_assessment_required:'uncertain'};
+        const kind=m.riskLevel==='uncertain'?'uncertain':(kinds[m.preventionType]||'unknown');
         const title=kind==='none'?'Malaria: laut geprüften CDC-Länderangaben kein bekanntes Vorkommen':
           kind==='med'?'Malaria: medikamentöse Prophylaxe ärztlich prüfen':
           kind==='standby'?'Malaria: Notfall-Selbstbehandlung ärztlich prüfen':
@@ -965,10 +977,10 @@ function renderInternational(e){
       // Farbklasse nur vergeben, wenn ein gültiges ärztlich geprüftes Länderprofil vorliegt.
       // Ohne aktuelle Einordnung: neutraler Hintergrund, keine implizite Risiko-Entwarnung.
       const malariaInfo=usable?riskInfo(p,region):null;
-      const malariaKind=malariaInfo&&['med','standby','exposure','none'].includes(malariaInfo.kind)?malariaInfo.kind:'unknown';
-      const malariaLabels={med:'Medikamentöse Prophylaxe ärztlich prüfen',standby:'Notfalltherapie ärztlich prüfen',exposure:'Expositionsprophylaxe / Mückenschutz',none:'Kein Malariarisiko bekannt oder gemeldet',unknown:'Risiko noch nicht ausreichend eingeordnet'};
-      b.push('<div class="rm-box rm-malaria-'+malariaKind+'"><h4>'+icon('mosquito')+'Malariarisiko & Vorbeugung</h4>');
-      b.push('<span class="rm-malaria-state">'+escape(malariaLabels[malariaKind])+'</span>');
+      const malariaKind=malariaInfo&&['med','standby','exposure','none','uncertain'].includes(malariaInfo.kind)?malariaInfo.kind:'unknown';
+      const malariaLabels={med:'Medikamentöse Prophylaxe ärztlich prüfen',standby:'Notfalltherapie ärztlich prüfen',exposure:'Expositionsprophylaxe / Mückenschutz',none:'Kein Malariarisiko bekannt oder gemeldet',uncertain:'Malariarisiko möglich – Prophylaxe ungeklärt',unknown:'Risiko noch nicht ausreichend eingeordnet'};
+      b.push('<div class="rm-box rm-malaria-'+malariaKind+'"'+malariaVisual(malariaKind)+'><h4>'+icon('mosquito')+'Malariarisiko & Vorbeugung</h4>');
+      b.push('<span class="rm-malaria-state"'+(malariaKind==='uncertain'?' style="background:#ffe8a3!important;color:#654f0b!important"':'')+'>'+escape(malariaLabels[malariaKind])+'</span>');
       if(usable){const r=malariaInfo;
         b.push('<p><strong>'+escape(r.title)+'</strong></p><p>'+escape(r.txt)+'</p>');
         if(malariaKind==='standby')b.push('<p class="rm-hint"><strong>Beispiel für ein Notfallmedikament:</strong> Atovaquon/Proguanil. Nur nach ärztlicher Verordnung, Beratung und mit individuell festgelegtem Einnahmeplan; nicht für jede Person oder Reiseroute geeignet.</p>');

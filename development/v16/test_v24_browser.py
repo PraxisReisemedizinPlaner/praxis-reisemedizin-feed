@@ -16,8 +16,8 @@ COUNTRIES=json.loads((HERE/"country_profiles_draft_v16.json").read_text(encoding
 PACKAGES=json.loads((HERE/"region_source_packages_v2.json").read_text(encoding="utf-8"))
 regions=build_public_regions(REGION,COUNTRIES,PACKAGES,date(2026,11,15))
 countries=build_countries(COUNTRIES,date(2026,11,15))
-assert regions["sourceBasedCount"] == 28
-assert countries["approvedCount"] == 14
+assert regions["sourceBasedCount"] == 37
+assert countries["approvedCount"] == 18
 
 def intercept(route):
     url=route.request.url
@@ -110,6 +110,9 @@ def smoke(browser,device,stripped=False):
     assert "Little Koh Chang" in details and "Bangkok" in details
     assert "Quellenabweichung" in details, details
     assert "Kein bekanntes lokales Malariavorkommen" not in details
+    assert page.locator(".rm-malaria-uncertain").evaluate("el => getComputedStyle(el).backgroundColor")=="rgb(255, 248, 219)"
+    assert page.locator(".rm-region-risk-item[data-rm-risk=uncertain]").first.evaluate("el => getComputedStyle(el).backgroundColor")=="rgb(255, 248, 219)"
+    assert "Prophylaxe ungeklärt" in page.locator(".rm-malaria-uncertain").inner_text()
     # Standard vaccinations are the first card inside the common recommendation grid.
     standard=page.locator(".rm-standard-vax")
     assert standard.count()==1

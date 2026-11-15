@@ -9,7 +9,7 @@ html = (root / "website/ReiseCheck_Jimdo_V24.html").read_text(encoding="utf-8")
 match = re.search(r"<script>(.*?)</script>", html, flags=re.S)
 assert match, "JavaScript missing"
 script = match.group(1)
-assert "V24.7" in html[:250], "Wrong version"
+assert "V24.8" in html[:250], "Wrong version"
 assert "country_profiles_public_v16.json" in script, "Approved medical feed missing"
 assert "country_profiles_v1.json" not in html, "Unsafe v1 feed exposed"
 assert "const STARTER={countries:{}};" in script, "Embedded draft country data still present"

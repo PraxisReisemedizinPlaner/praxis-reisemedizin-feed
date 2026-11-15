@@ -1575,6 +1575,282 @@
       ],
       "reuseRightsChecked": true,
       "summary": "Mindanao: CDC empfiehlt Malariaprophylaxe; AA stuft viele Gebiete niedriger ein. Orte, Übernachtungen und Versorgungszugang ärztlich abgleichen."
+    },
+    {
+      "country": "KH",
+      "id": "KH-PHNOM",
+      "status": "supported",
+      "scope": "Phnom Penh (Stadt)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kambodschasicherheit-220008",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cambodia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Phnom Penh: keine routinemäßige Malariaprophylaxe. Ausflüge in Waldgebiete gesondert erfassen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "country": "KH",
+      "id": "KH-ANGKOR",
+      "status": "source_conflict",
+      "scope": "Siem Reap / Angkor (übliche Tempelroute)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kambodschasicherheit-220008",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cambodia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Tempelroute: AA nennt geringes Risiko, CDC keine/vernachlässigbare Übertragung. Waldübernachtungen gehören in eine separate Abwägung."
+    },
+    {
+      "country": "KH",
+      "id": "KH-EAST-FOREST",
+      "status": "source_conflict",
+      "scope": "Kambodscha – östliche Waldroute",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kambodschasicherheit-220008",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cambodia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Östliche Waldroute: mögliches Malariarisiko; CDC empfiehlt Prophylaxe bei Waldaufenthalten. Etappen und Übernachtungen ärztlich abgleichen."
+    },
+    {
+      "country": "KH",
+      "id": "KH-PURSAT",
+      "status": "source_conflict",
+      "scope": "Pursat / südwestliche Waldroute",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kambodschasicherheit-220008",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cambodia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Pursat/Waldroute: Prävention vor Reise ärztlich planen; AA und CDC unterscheiden sich bei Prophylaxe/Notfalltherapie."
+    },
+    {
+      "country": "LA",
+      "id": "LA-VIENTIANE",
+      "status": "supported",
+      "scope": "Vientiane – Stadtzentrum",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/laossicherheit-201048",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/laos/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Vientiane-Zentrum: keine routinemäßige Malariaprophylaxe. Ländliche Weiterreisen separat erfassen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "country": "LA",
+      "id": "LA-LUANG",
+      "status": "source_conflict",
+      "scope": "Luang Prabang (Stadt)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/laossicherheit-201048",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/laos/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Luang Prabang: CDC beschreibt keine Stadtübertragung, AA geringes Risiko im Norden. Umland und Waldetappen getrennt erfassen."
+    },
+    {
+      "country": "LA",
+      "id": "LA-NORTH",
+      "status": "supported",
+      "scope": "Laos – nördliche Land-/Waldroute",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/laossicherheit-201048",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/laos/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Nordlaos: Mückenschutz; nach aktueller CDC-Reiseseite keine routinemäßige Prophylaxe. Weiterreisen in den Süden gesondert beraten.",
+      "riskLevel": "low",
+      "preventionType": "exposure_only"
+    },
+    {
+      "country": "LA",
+      "id": "LA-SOUTH",
+      "status": "route_required",
+      "scope": "Laos – südliche Provinzen",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/laossicherheit-201048",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/laos/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Südlaos: relevante Malariaexposition. Prophylaxe für die genaue Route ärztlich planen; Provinz und Übernachtungen angeben."
+    },
+    {
+      "country": "ZA",
+      "id": "ZA-CAPE",
+      "status": "source_conflict",
+      "scope": "Kapregion / Garden Route",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/suedafrikasicherheit-208400",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-africa"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Kapregion: CDC erfasst keine lokale Malariaübertragung. Wegen widersprüchlichem AA-Vorspann genaue Route abgleichen; Nordostsafari gesondert erfassen."
+    },
+    {
+      "country": "ZA",
+      "id": "ZA-KRUGER",
+      "status": "source_conflict",
+      "scope": "Kruger-Nationalpark",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/suedafrikasicherheit-208400",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-africa"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Kruger: Malariaprophylaxe ärztlich planen. AA stuft das Risiko saisonal ab; CDC empfiehlt Prophylaxe ganzjährig. Reisemonat angeben."
+    },
+    {
+      "country": "ZA",
+      "id": "ZA-NORTHEAST",
+      "status": "source_conflict",
+      "scope": "Nordöstliches Limpopo / Mpumalanga",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/suedafrikasicherheit-208400",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-africa"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Nordostroute: Malariarisiko; Distrikt und Reisemonat für die Prophylaxeplanung ärztlich abgleichen."
+    },
+    {
+      "country": "ZA",
+      "id": "ZA-KZN-NORTH",
+      "status": "source_conflict",
+      "scope": "KwaZulu-Natal – nördliche Gebiete",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/suedafrikasicherheit-208400",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-africa"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Nördliches KwaZulu-Natal: CDC empfiehlt für uMkhanyakude Prophylaxe; AA beschreibt geringes Risiko. Konkrete Parks und Distrikte angeben."
+    },
+    {
+      "country": "ZA",
+      "id": "ZA-OTHER-NORTH",
+      "status": "source_conflict",
+      "scope": "Südafrika – weitere nördliche Safariorte",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/suedafrikasicherheit-208400",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-africa"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Weitere nördliche Safariorte: Mückenschutz und genaue Lage prüfen. Die Prophylaxeempfehlung für Kruger gilt nicht automatisch für jeden Park."
+    },
+    {
+      "country": "BR",
+      "id": "BR-RIO-SP",
+      "status": "supported",
+      "scope": "Rio de Janeiro / São Paulo – Stadtaufenthalte",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/brasiliensicherheit-201092",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/brazil"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Rio/São Paulo (Städte): keine routinemäßige Malariaprophylaxe. Gelbfieberimpfung unabhängig davon für die Route prüfen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "country": "BR",
+      "id": "BR-BRASILIA",
+      "status": "supported",
+      "scope": "Brasília (Stadt)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/brasiliensicherheit-201092",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/brazil"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Brasília: keine routinemäßige Malariaprophylaxe. Gelbfieberimpfung gesondert prüfen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "country": "BR",
+      "id": "BR-IGUACU",
+      "status": "source_conflict",
+      "scope": "Iguaçu / Foz do Iguaçu",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/brasiliensicherheit-201092",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/brazil"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Iguaçu: AA nennt geringes Malariarisiko, CDC keine Übertragung. Gelbfieberimpfung separat anhand aktueller Quellen beraten."
+    },
+    {
+      "country": "BR",
+      "id": "BR-AMAZON",
+      "status": "route_required",
+      "scope": "Amazonasbecken – genaue Route",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/brasiliensicherheit-201092",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/brazil"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Amazonasroute: Malariaprophylaxe ärztlich planen. Stadt, Waldübernachtungen und Flussreise getrennt angeben."
+    },
+    {
+      "country": "BR",
+      "id": "BR-PANTANAL",
+      "status": "source_conflict",
+      "scope": "Pantanal – genaue Route",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/brasiliensicherheit-201092",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/brazil"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Pantanal: Bundesstaat, Unterkunft und Ausflüge angeben; AA und CDC grenzen Prophylaxegebiete unterschiedlich ab."
+    },
+    {
+      "country": "BR",
+      "id": "BR-OTHER-FOREST",
+      "status": "route_required",
+      "scope": "Brasilien – weitere Wald-/Landetappen",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/brasiliensicherheit-201092",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/brazil"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Weitere Waldetappen: genaue Orte für Malariaberatung und Gelbfieberimpfung angeben; Städteempfehlungen nicht auf das Umland übertragen."
     }
   ]
 }

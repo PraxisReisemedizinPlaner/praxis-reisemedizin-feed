@@ -18,7 +18,7 @@ class RoutePlanningTests(unittest.TestCase):
     def regions(self,c=None):
         return build_public_regions(self.g,c or self.c,self.s,date(2026,11,15))
     def test_all_countries_have_explicit_route_decision(self):
-        self.assertEqual(validate_all(self.c,self.g,self.s),18)
+        self.assertEqual(validate_all(self.c,self.g,self.s),22)
         for code in ("TH","ID","IN","TZ","KE","VN","GR","PT","IT"):
             self.assertTrue(self.c["countries"][code]["routeAssessment"]["regionalSelectionRequired"])
     def test_india_has_thirteen_actual_route_options(self):
@@ -52,7 +52,7 @@ class RoutePlanningTests(unittest.TestCase):
             self.c["countries"][code]["publicationAllowed"]=False
             self.c["countries"][code]["medicalReview"]["status"]="pending"
         out=build_public(self.c,date(2026,11,15))
-        self.assertEqual(out["approvedCount"],10)
+        self.assertEqual(out["approvedCount"],14)
         for code in ("ES","IT","GR","PT"):
             self.assertNotIn(code,out["countries"])
         for row in self.regions()["regions"]:
@@ -61,7 +61,7 @@ class RoutePlanningTests(unittest.TestCase):
                 self.assertNotIn("sourceNotice",row)
     def test_four_european_packages_are_medically_approved(self):
         out=build_public(self.c,date(2026,11,15))
-        self.assertEqual(out["approvedCount"],14)
+        self.assertEqual(out["approvedCount"],18)
         for code in ("ES","IT","GR","PT"):
             self.assertIn(code,out["countries"])
             self.assertEqual(self.c["countries"][code]["medicalReview"]["reviewer"],"Dr. med. Sebastian Münster")
