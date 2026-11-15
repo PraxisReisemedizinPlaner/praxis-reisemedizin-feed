@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - 'development/v16/**'
+      - 'website/**'
       - '.github/workflows/v16-qa.yml'
       - '.github/workflows/aktualisierung.yml'
   workflow_dispatch:
@@ -21,6 +22,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Jimdo V16 Widget pruefen
+        run: python development/v16/validate_jimdo_v16.py
       - name: V16 Struktur und Sperren pruefen
         run: python development/v16/validate_v16.py
       - name: Automatische Sicherheitstests ausfuehren
