@@ -2,11 +2,11 @@
 
 **Recherche-/Entwicklungsstand:** 15.11.2026  
 **Länder:** Thailand (TH), Indonesien (ID)  
-**Status:** **keine medizinische Freigabe für einzelne Regionen**. Diese Dokumentation ist eine getrennte klinische Reviewvorlage. Die Länderprofile TH/ID selbst sind bereits ärztlich freigegeben, daraus folgt jedoch **keine** ortsspezifische Freigabe.
+**Status:** **Vier Regionen ärztlich freigegeben durch Dr. med. Sebastian Münster am 15.11.2026:** Pattaya (Stadt), Jakarta (Stadt), Phuket (Insel), Sumba (Insel). Nächste Überprüfung: 15.01.2027. Grundlage: ausdrückliche Freigabe im Chat für die vier im Screenshot gezeigten Einordnungen. Diese Dokumentation ist eine getrennte klinische Reviewvorlage. Die Länderprofile TH/ID selbst sind bereits ärztlich freigegeben, daraus folgt jedoch **keine** ortsspezifische Freigabe.
 
 ## Zweck und Warnung
 
-Die neue Regionsauswahl des ReiseChecks erkennt ausgewählte geografische Namen eindeutiger. Der Patient sieht deshalb bestätigte Ortsnamen als Chips. Ein Ortsname allein genügt **nicht**, um Risiko, Chemoprophylaxe oder Stand-by-Therapie festzulegen. Alle 25 geografischen Kandidaten in `region_profiles_draft_v1.json` haben `clinicalReview.status=pending`, `publicationAllowed=false`; die öffentliche Regionendatei enthält deshalb **0 regionale Malaria-Einstufungen**.
+Die neue Regionsauswahl des ReiseChecks erkennt ausgewählte geografische Namen eindeutiger. Der Patient sieht deshalb bestätigte Ortsnamen als Chips. Ein Ortsname allein genügt **nicht**, um Risiko, Chemoprophylaxe oder Stand-by-Therapie festzulegen. Von 25 geografischen Kandidaten sind genau vier medizinisch freigegeben; 21 bleiben `pending` und liefern keine regionalen medizinischen Aussagen.
 
 **Quellenmodelle:** Redaktionelle Zusammenfassung aus Auswärtigem Amt und CDC. Keine Übernahme von DTG-Risikokarten, tabellarischen DTG-Daten oder systematische KI-Rekonstruktion; DTG nur extern verlinkt. Einreise-/Sicherheitswarnungen getrennt von Malariaauswertung berücksichtigen.
 
@@ -64,4 +64,13 @@ Die neue Regionsauswahl des ReiseChecks erkennt ausgewählte geografische Namen 
 4. Klinisch nicht freigegebene Ortskandidaten zeigen weiterhin eine neutrale Meldung; bestehende landesbezogene Aussagen bleiben erhalten.
 5. Nach ärztlicher Bestätigung definierter Regionen lässt sich die regionale Malariainformation über GitHub aktualisieren. **Die öffentliche Jimdo-Seite bleibt bei V22**, bis V23 separat abgenommen und einmalig eingebunden wird.
 
-**Hinweis zu derzeitigen Quellabweichungen:** Keine der hier im Prüfbogen formulierten regionalen Einstufungen ist als eigenständige klinische Freigabe zu verstehen. Bei Zweifelsfällen gilt weiterhin konkrete reisemedizinische Beratung.
+## Dokumentierte erste Regionalfreigabe
+
+| ID | Geltungsbereich | Risikostufe | Präventionsklasse |
+|---|---|---|---|
+| TH-PTY | Stadtgebiet Pattaya; keine pauschale Freigabe für Ausflüge | none | none |
+| ID-JKT | Stadtgebiet Jakarta; keine pauschale Freigabe für Ausflüge | none | none |
+| TH-HKT | Insel Phuket; weitere Reiseziele separat prüfen | low | exposure_only |
+| ID-SUMBA | Insel Sumba | high | chemoprophylaxis_consider |
+
+Die Ausgangstabelle bleibt als Recherchehistorie erhalten. Für diese vier Einträge ersetzt die dokumentierte ärztliche Entscheidung den bisherigen Prüfstatus. AA und CDC am 15.11.2026 erneut abgeglichen; eigenständig formulierte Zusammenfassungen mit externen Quellenlinks, keine DTG-Datenübernahme. Keine konkrete Medikamentenauswahl oder Dosierung. Die übrigen Regionen bleiben ungeprüft. Bestehende Länderfreigaben und Datumsprüfungen bleiben Voraussetzung der Veröffentlichung.

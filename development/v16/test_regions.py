@@ -15,6 +15,11 @@ class RegionSafetyTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.r=json.loads((ROOT/"region_profiles_draft_v1.json").read_text(encoding="utf-8"))
+        cls.approved_catalogue=copy.deepcopy(cls.r)
+        # Synthetic pending fixture keeps each independent publication-gate test isolated.
+        for row in cls.r["regions"]:
+            row["publicationAllowed"]=False
+            row["clinicalReview"]["status"]="pending"
         cls.c=json.loads((ROOT/"country_profiles_draft_v16.json").read_text(encoding="utf-8"))
 
     def published(self,r=None,c=None,as_of=TODAY):
@@ -30,6 +35,18 @@ class RegionSafetyTests(unittest.TestCase):
             self.assertNotIn(forbidden,blob)
         self.assertIn("Little Koh Chang (Ranong",blob)
         self.assertIn("Ko Chang (Trat",blob)
+
+    def test_four_explicit_physician_releases(self):
+        out=self.published(self.approved_catalogue)
+        approved={row["id"]:row for row in out["regions"] if row["clinicalStatus"]=="approved"}
+        self.assertEqual(set(approved),{"TH-PTY","TH-HKT","ID-JKT","ID-SUMBA"})
+        self.assertEqual(approved["TH-PTY"]["malaria"]["riskLevel"],"none")
+        self.assertEqual(approved["ID-JKT"]["malaria"]["riskLevel"],"none")
+        self.assertEqual(approved["TH-HKT"]["malaria"]["preventionType"],"exposure_only")
+        self.assertEqual(approved["ID-SUMBA"]["malaria"]["preventionType"],"chemoprophylaxis_consider")
+        for row in out["regions"]:
+            if row["id"] not in approved:
+                self.assertNotIn("malaria",row)
 
     def test_publication_flag_alone_cannot_publish(self):
         d=copy.deepcopy(self.r); d["regions"][0]["publicationAllowed"]=True

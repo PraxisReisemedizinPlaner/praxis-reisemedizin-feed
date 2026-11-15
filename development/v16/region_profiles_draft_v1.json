@@ -127,20 +127,23 @@
       "kind": "city",
       "geographicalEntry": "candidate",
       "clinicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "sourceUrls": [],
-        "reuseRightsChecked": false
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/thailand"
+        ],
+        "reuseRightsChecked": true
       },
       "malariaAssessment": {
-        "riskLevel": null,
-        "preventionType": null,
+        "riskLevel": "none",
+        "preventionType": "none",
         "medicationName": null,
-        "clinicalRecommendation": null
+        "clinicalRecommendation": "Für das Stadtgebiet Pattaya ist kein lokales Malariavorkommen bekannt. Eine routinemäßige medikamentöse Malariaprophylaxe ist für diesen Stadtaufenthalt nicht vorgesehen. Ausflüge außerhalb der Stadt müssen gesondert beurteilt werden. Schütze dich weiterhin vor Mückenstichen, auch wegen anderer übertragbarer Erkrankungen."
       },
-      "publicationAllowed": false
+      "publicationAllowed": true
     },
     {
       "country": "TH",
@@ -152,20 +155,23 @@
       "kind": "island",
       "geographicalEntry": "candidate",
       "clinicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "sourceUrls": [],
-        "reuseRightsChecked": false
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/thailand-node/thailandsicherheit-201558",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/thailand"
+        ],
+        "reuseRightsChecked": true
       },
       "malariaAssessment": {
-        "riskLevel": null,
-        "preventionType": null,
+        "riskLevel": "low",
+        "preventionType": "exposure_only",
         "medicationName": null,
-        "clinicalRecommendation": null
+        "clinicalRecommendation": "Auf der Insel Phuket besteht eine geringe Malariaexposition. Konsequenter Mückenschutz steht im Vordergrund; eine routinemäßige medikamentöse Malariaprophylaxe ist in der Regel nicht erforderlich. Weitere Reiseziele und besondere Expositionen müssen gesondert ärztlich beurteilt werden."
       },
-      "publicationAllowed": false
+      "publicationAllowed": true
     },
     {
       "country": "TH",
@@ -362,20 +368,23 @@
       "kind": "city",
       "geographicalEntry": "candidate",
       "clinicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "sourceUrls": [],
-        "reuseRightsChecked": false
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/indonesia"
+        ],
+        "reuseRightsChecked": true
       },
       "malariaAssessment": {
-        "riskLevel": null,
-        "preventionType": null,
+        "riskLevel": "none",
+        "preventionType": "none",
         "medicationName": null,
-        "clinicalRecommendation": null
+        "clinicalRecommendation": "Für das Stadtgebiet Jakarta ist kein lokales Malariavorkommen bekannt. Eine routinemäßige medikamentöse Malariaprophylaxe ist für diesen Stadtaufenthalt nicht vorgesehen. Ausflüge und weitere Reiseziele außerhalb der Stadt müssen gesondert beurteilt werden. Schütze dich weiterhin vor Mückenstichen, auch wegen anderer übertragbarer Erkrankungen."
       },
-      "publicationAllowed": false
+      "publicationAllowed": true
     },
     {
       "country": "ID",
@@ -465,20 +474,23 @@
       "kind": "island",
       "geographicalEntry": "candidate",
       "clinicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "sourceUrls": [],
-        "reuseRightsChecked": false
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/indonesiensicherheit-212396",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/indonesia"
+        ],
+        "reuseRightsChecked": true
       },
       "malariaAssessment": {
-        "riskLevel": null,
-        "preventionType": null,
+        "riskLevel": "high",
+        "preventionType": "chemoprophylaxis_consider",
         "medicationName": null,
-        "clinicalRecommendation": null
+        "clinicalRecommendation": "Auf der Insel Sumba besteht ein höheres Malariarisiko. Lass vor der Reise ärztlich prüfen, welche medikamentöse Malariaprophylaxe für dich geeignet ist. Konsequenter Mückenschutz ist zusätzlich erforderlich. Bei Fieber während oder nach der Reise brauchst du zeitnah ärztliche Abklärung mit Hinweis auf den Aufenthalt."
       },
-      "publicationAllowed": false
+      "publicationAllowed": true
     },
     {
       "country": "ID",
