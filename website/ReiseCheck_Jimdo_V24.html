@@ -531,7 +531,7 @@
     // Stay open while clicking within the region selector (including selected
     // chips). Close automatically on the next field, on Tab, or outside clicks.
     document.addEventListener('click',event=>{
-      if(!event.target.closest?.('#rm-region-picker'))hideRegionSuggestions();
+      if(!event.composedPath().includes($('rm-region-picker')))hideRegionSuggestions();
     });
     document.addEventListener('focusin',event=>{
       if(!event.target.closest?.('#rm-region-picker'))hideRegionSuggestions();
