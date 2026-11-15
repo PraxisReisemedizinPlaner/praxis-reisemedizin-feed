@@ -29,7 +29,7 @@ for name, count in (("rm-style", 5), ("rm-purpose", 4), ("rm-activities", 6)):
     assert f'id="{name}-done"' not in html, name + " still requires confirmation"
 assert "function closeOtherMultiPickers(" in script
 assert "button.setAttribute('aria-pressed',String(" in script
-assert "document.addEventListener('pointerdown',event=>closeOtherMultiPickers" in script
+assert "if(!multiPointerActive)closeOtherMultiPickers(event.target);" in script
 for name in ("getSelectedMulti", "getSelectedActivities", "getSelectedStyles", "getSelectedPurposes",
              "updateMultiLabel", "onMultiChange", "renderSpecialNotes", "renderSharedVaccinations",
              "renderOne", "parseTripDate", "updateResult", "loadInternationalFeed"):
