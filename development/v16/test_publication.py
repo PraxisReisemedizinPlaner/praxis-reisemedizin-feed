@@ -11,7 +11,7 @@ from export_public_v16 import build_public
 HERE = Path(__file__).resolve().parent
 TODAY = date(2026, 11, 11)
 APPROVED = {"MA", "AT"}
-PENDING = {"TH", "ID", "TZ", "KE", "VN", "IN", "EG"}
+PENDING = {"TH", "ID", "TZ", "KE", "VN", "IN", "EG", "TR"}
 
 
 class PublishingSafetyTests(unittest.TestCase):
@@ -22,7 +22,7 @@ class PublishingSafetyTests(unittest.TestCase):
 
     def test_only_reviewed_countries_are_exported(self):
         out = build_public(copy.deepcopy(self.draft), TODAY)
-        self.assertEqual(out["coverageCount"], 9)
+        self.assertEqual(out["coverageCount"], 10)
         self.assertEqual(out["approvedCount"], 2)
         self.assertEqual(set(out["countries"]), APPROVED)
         self.assertEqual(set(out["coverage"]), APPROVED | PENDING)
@@ -71,6 +71,24 @@ class PublishingSafetyTests(unittest.TestCase):
         self.assertEqual(set(out["countries"]), {"AT"})
         self.assertEqual(out["coverage"]["MA"]["status"],
                          "medical_review_required")
+
+
+    def test_new_research_drafts_remain_blocked_despite_content(self):
+        out = build_public(copy.deepcopy(self.draft), TODAY)
+        for code in ("TH", "ID", "EG", "TR"):
+            self.assertFalse(self.draft["countries"][code]["publicationAllowed"])
+            self.assertEqual(self.draft["countries"][code]["medicalReview"]["status"], "pending")
+            self.assertNotIn(code, out["countries"])
+            self.assertEqual(out["coverage"][code]["status"], "medical_review_required")
+        self.assertEqual(set(out["countries"]), APPROVED)
+
+    def test_research_drafts_cannot_be_released_by_flag_only(self):
+        for code in ("TH", "ID", "EG", "TR"):
+            with self.subTest(code=code):
+                data = copy.deepcopy(self.draft)
+                data["countries"][code]["publicationAllowed"] = True
+                with self.assertRaises(ValueError):
+                    build_public(data, TODAY)
 
     def test_dtg_structured_reuse_blocked(self):
         data = copy.deepcopy(self.draft)
