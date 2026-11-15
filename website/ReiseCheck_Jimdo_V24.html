@@ -699,8 +699,17 @@
         if(!picker.contains(target))picker.open=false;
       }
     }
-    document.addEventListener('pointerdown',event=>closeOtherMultiPickers(event.target));
-    document.addEventListener('focusin',event=>closeOtherMultiPickers(event.target));
+    let multiPointerActive=false;
+    document.addEventListener('pointerdown',()=>{multiPointerActive=true});
+    document.addEventListener('pointercancel',()=>{multiPointerActive=false});
+    document.addEventListener('keydown',()=>{multiPointerActive=false},true);
+    document.addEventListener('click',event=>{
+      multiPointerActive=false;
+      closeOtherMultiPickers(event.target);
+    });
+    document.addEventListener('focusin',event=>{
+      if(!multiPointerActive)closeOtherMultiPickers(event.target);
+    });
     for(const group of multiGroups){
       const picker=$(group.id+'-picker');
       const options=[...HOST.querySelectorAll('#'+group.id+' button.rm-activity-choice')];
