@@ -750,7 +750,7 @@
     function closeOtherMultiPickers(target){
       for(const group of multiGroups){
         const picker=$(group.id+'-picker');
-        if(!picker.contains(target)){if(picker.open)console.warn('RM_PICKER_CLOSE',picker.id,target?.id,target?.tagName,new Error().stack);picker.open=false;}
+        if(!picker.contains(target))picker.open=false;
       }
     }
     let multiPointerActive=false;
@@ -766,15 +766,6 @@
     });
     for(const group of multiGroups){
       const picker=$(group.id+'-picker');
-      $(group.id+'-toggle').addEventListener('click',event=>{
-        event.preventDefault();
-        event.stopPropagation();
-        const willOpen=!picker.open;console.warn('RM_PICKER_ACTIVATE',picker.id,willOpen);
-        closeOtherMultiPickers(picker);
-        hideRegionSuggestions();hideSuggestions();
-        picker.open=willOpen;
-        multiPointerActive=false;
-      });
       const options=[...HOST.querySelectorAll('#'+group.id+' button.rm-activity-choice')];
       options.forEach((button,index)=>{
         button.addEventListener('click',()=>{
