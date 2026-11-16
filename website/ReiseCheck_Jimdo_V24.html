@@ -565,7 +565,9 @@
       if(!event.composedPath().includes($('rm-region-picker')))hideRegionSuggestions();
     });
     document.addEventListener('focusin',event=>{
-      if(!event.target.closest?.('#rm-region-picker'))hideRegionSuggestions();
+      // Pointer focus happens before mouseup: keep the layout stable until click.
+      // Keyboard focus still closes the suggestion list immediately.
+      if(!multiPointerActive&&!event.target.closest?.('#rm-region-picker'))hideRegionSuggestions();
     });
 
     function malariaVisual(kind){
