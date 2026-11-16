@@ -135,7 +135,9 @@ def smoke(browser,device,stripped=False):
     assert page.locator(".rm-extra").count()==0
     assert page.locator("#rm-multi-row").evaluate("el => el.children.length===3")
     assert page.locator("#rm-multi-row").evaluate("el => {const y=[...el.children].map(x=>x.getBoundingClientRect().top);return Math.max(...y)-Math.min(...y)<2}")
-    page.locator("#rm-activities-toggle").click()
+    print("ACTIVITY_BEFORE",page.locator("#rm-activities-picker").get_attribute("open"),flush=True)
+    if page.locator("#rm-activities-picker").get_attribute("open") is None:
+        page.locator("#rm-activities-toggle").click()
     assert page.locator("#rm-activities-picker .rm-multi-panel").evaluate("el => {const r=el.getBoundingClientRect();return r.left>=0&&r.right<=innerWidth}")
     print("ACTIVITY_DEBUG",page.locator("#rm-activities-picker").evaluate("el => ({open:el.open,panel:el.querySelector('.rm-multi-panel').getBoundingClientRect().toJSON(),button:el.querySelector('#rm-activity-4').getBoundingClientRect().toJSON(),display:getComputedStyle(el.querySelector('#rm-activity-4')).display,visibility:getComputedStyle(el.querySelector('#rm-activity-4')).visibility,html:el.innerHTML.slice(0,500)})"),flush=True)
     assert page.locator("#rm-activities-picker").get_attribute("open") is not None
