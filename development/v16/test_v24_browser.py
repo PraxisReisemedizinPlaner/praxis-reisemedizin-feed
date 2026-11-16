@@ -138,9 +138,12 @@ def smoke(browser,device,stripped=False):
     # Let the result navigation animation finish before returning to the inputs.
     page.wait_for_timeout(600)
     page.locator("#rm-activities-toggle").scroll_into_view_if_needed()
+    page.evaluate("""() => {window.eventTrace=[];for(const type of ['pointerdown','focusin','click','toggle'])document.addEventListener(type,e=>eventTrace.push([type,e.target.id,e.target.tagName,document.querySelector('#rm-activities-picker').open]),true)}""")
     if page.locator("#rm-activities-picker").get_attribute("open") is None:
         page.locator("#rm-activities-toggle").click()
     assert page.locator("#rm-activities-picker .rm-multi-panel").evaluate("el => {const r=el.getBoundingClientRect();return r.left>=0&&r.right<=innerWidth}")
+    print("EVENT_TRACE",page.evaluate("() => eventTrace"),flush=True)
+    print("MENU_HTML",page.locator("#rm-activities-picker").evaluate("el => el.outerHTML.slice(0,500)"),flush=True)
     assert page.locator("#rm-activities-picker").get_attribute("open") is not None
     page.locator("#rm-activity-4").click()
     page.locator("#rm-activity-5").click()
