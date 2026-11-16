@@ -766,6 +766,15 @@
     });
     for(const group of multiGroups){
       const picker=$(group.id+'-picker');
+      $(group.id+'-toggle').addEventListener('click',event=>{
+        event.preventDefault();
+        event.stopPropagation();
+        const willOpen=!picker.open;
+        closeOtherMultiPickers(picker);
+        hideRegionSuggestions();hideSuggestions();
+        picker.open=willOpen;
+        multiPointerActive=false;
+      });
       const options=[...HOST.querySelectorAll('#'+group.id+' button.rm-activity-choice')];
       options.forEach((button,index)=>{
         button.addEventListener('click',()=>{
