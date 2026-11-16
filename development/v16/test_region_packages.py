@@ -21,7 +21,7 @@ class CountryPackageTests(unittest.TestCase):
         for r in self.g["regions"]:
             r["publicationAllowed"]=False
             r["clinicalReview"]["status"]="pending"
-        self.assertEqual(self.out()["sourceBasedCount"],37)
+        self.assertEqual(self.out()["sourceBasedCount"],42)
         self.assertEqual(self.row("TH-USM")["approvalScope"],"country_package")
     def test_conflict_never_becomes_low_risk(self):
         r=self.row("TH-BKK")
@@ -32,7 +32,7 @@ class CountryPackageTests(unittest.TestCase):
         r=self.row("ID-FLORES")
         self.assertEqual(r["clinicalStatus"],"route_required")
         self.assertNotIn("malaria",r)
-        self.assertEqual(self.out()["exceptionCount"],70)
+        self.assertEqual(self.out()["exceptionCount"],84)
     def test_withdrawn_or_expired_country_suppresses_only_that_country(self):
         for status in ("withdrawn","expired"):
             if status=="withdrawn": self.c["countries"]["TH"]["publicationAllowed"]=False

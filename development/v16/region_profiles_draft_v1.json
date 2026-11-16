@@ -2949,6 +2949,531 @@
         "clinicalRecommendation": null
       },
       "publicationAllowed": false
+    },
+    {
+      "country": "MX",
+      "id": "MX-CITY",
+      "name": "Mexiko-Stadt",
+      "aliases": [
+        "Mexico City",
+        "CDMX"
+      ],
+      "kind": "city",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "MX",
+      "id": "MX-YUCATAN",
+      "name": "Yucatán / Quintana Roo",
+      "aliases": [
+        "Cancún",
+        "Cancun",
+        "Tulum",
+        "Playa del Carmen",
+        "Yucatan",
+        "Quintana Roo"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "MX",
+      "id": "MX-CHIAPAS",
+      "name": "Chiapas",
+      "aliases": [
+        "Chiapas",
+        "Palenque",
+        "San Cristobal"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "MX",
+      "id": "MX-CAMPECHE-CHIH",
+      "name": "Campeche / südliches Chihuahua",
+      "aliases": [
+        "Campeche",
+        "Chihuahua Süden"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "MX",
+      "id": "MX-OTHER",
+      "name": "Mexiko – weitere Landetappen",
+      "aliases": [
+        "Oaxaca",
+        "Tabasco",
+        "Sinaloa",
+        "Sonora",
+        "Veracruz"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "CR",
+      "id": "CR-SANJOSE",
+      "name": "San José (Stadt)",
+      "aliases": [
+        "San José",
+        "San Jose"
+      ],
+      "kind": "city",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "CR",
+      "id": "CR-ALAJUELA",
+      "name": "Alajuela (Provinz)",
+      "aliases": [
+        "Alajuela",
+        "La Fortuna",
+        "Arenal"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "CR",
+      "id": "CR-LIMON",
+      "name": "Limón (Provinz)",
+      "aliases": [
+        "Limón",
+        "Limon",
+        "Puerto Viejo",
+        "Cahuita",
+        "Tortuguero"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "CR",
+      "id": "CR-NORTHWEST",
+      "name": "Costa Rica – Nordwesten",
+      "aliases": [
+        "Guanacaste",
+        "Liberia",
+        "Tamarindo",
+        "Nosara"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "CR",
+      "id": "CR-OTHER",
+      "name": "Costa Rica – weitere Provinzen",
+      "aliases": [
+        "Puntarenas",
+        "Heredia",
+        "Cartago",
+        "Manuel Antonio"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "DO",
+      "id": "DO-PUNTACANA",
+      "name": "Punta Cana / La Altagracia",
+      "aliases": [
+        "Punta Cana",
+        "Bávaro",
+        "Bavaro",
+        "La Altagracia"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "DO",
+      "id": "DO-SANTODOM",
+      "name": "Santo Domingo / Distrito Nacional",
+      "aliases": [
+        "Santo Domingo",
+        "La Cienaga",
+        "Los Tres Brazos"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "DO",
+      "id": "DO-WEST",
+      "name": "Azua / Elías Piña / San Juan",
+      "aliases": [
+        "Azua",
+        "Elías Piña",
+        "Elias Pina",
+        "San Juan"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "DO",
+      "id": "DO-OTHER",
+      "name": "Dominikanische Republik – weitere Provinzen",
+      "aliases": [
+        "Puerto Plata",
+        "Samaná",
+        "Samana",
+        "La Romana"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PE",
+      "id": "PE-LIMA",
+      "name": "Lima / Ica / Nazca / Arequipa (Städte)",
+      "aliases": [
+        "Lima",
+        "Ica",
+        "Nazca",
+        "Arequipa"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PE",
+      "id": "PE-CUSCO",
+      "name": "Cusco / Machu Picchu / klassische Hochlandroute",
+      "aliases": [
+        "Cusco",
+        "Cuzco",
+        "Machu Picchu",
+        "Titicacasee",
+        "Inka Pfad"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PE",
+      "id": "PE-LORETO",
+      "name": "Loreto / Amazonas-Waldetappen",
+      "aliases": [
+        "Loreto",
+        "Amazonas Peru"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PE",
+      "id": "PE-IQUITOS",
+      "name": "Iquitos / Puerto Maldonado",
+      "aliases": [
+        "Iquitos",
+        "Puerto Maldonado"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PE",
+      "id": "PE-OTHER",
+      "name": "Peru – weitere Tiefland-/Nordküstenetappen",
+      "aliases": [
+        "Ucayali",
+        "San Martin",
+        "Tumbes",
+        "Piura",
+        "Peru Tiefland"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
     }
   ]
 }

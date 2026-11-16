@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 22,
+  "countryCount": 26,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -3279,11 +3279,42 @@
     "KH": {
       "name": "Kambodscha",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "approvedSources": [],
-        "nextReviewDate": null
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kambodschasicherheit-220008",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cambodia",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://phnom-penh.diplo.de/kh-de/ueber-uns/1221828-1221828",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independently researched country draft; no legacy or DTG malaria import",
@@ -3291,7 +3322,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -3312,7 +3343,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -3337,7 +3368,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Phnom Penh",
@@ -3352,7 +3383,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-15",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kambodschasicherheit-220008",
         "evidenceLinks": [
@@ -3399,7 +3430,7 @@
           "CDC empfiehlt Chemoprophylaxe bei ländlichen Waldetappen; AA unterscheidet mittleres und geringes Risiko. In Siem Reap/Angkor beschreibt CDC keine oder vernachlässigbare Übertragung, AA geringes Risiko."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Länderfreigabe ausstehend; noch keine klinischen Patientenempfehlungen.",
+        "warning": "Länderpaket mit regionalen Quellenabweichungen ärztlich freigegeben.",
         "regionalReview": [
           "Phnom Penh (Stadt): Phnom Penh: keine routinemäßige Malariaprophylaxe. Ausflüge in Waldgebiete gesondert erfassen.",
           "Siem Reap / Angkor (übliche Tempelroute): Tempelroute: AA nennt geringes Risiko, CDC keine/vernachlässigbare Übertragung. Waldübernachtungen gehören in eine separate Abwägung.",
@@ -3411,9 +3442,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-15"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-16",
+          "statement": "Die oben genannten vier Länder sind medizinisch-ärztlich freigegeben.",
+          "scope": "Kambodscha, Laos, Südafrika und Brasilien, einschließlich 19 regionaler Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-15",
         "regionalSelectionRequired": true,
@@ -3438,11 +3474,42 @@
     "LA": {
       "name": "Laos",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "approvedSources": [],
-        "nextReviewDate": null
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/laossicherheit-201048",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/laos/",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/laos-201034",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independently researched country draft; no legacy or DTG malaria import",
@@ -3450,7 +3517,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A",
           "Polio"
@@ -3472,7 +3539,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -3497,7 +3564,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Vientiane",
@@ -3512,7 +3579,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-15",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/laossicherheit-201048",
         "evidenceLinks": [
@@ -3559,7 +3626,7 @@
           "Aktuelle CDC-Reiseseite grenzt Süden/Norden und Vientiane/Luang Prabang ab. Ältere CDC-Ländertabelle beschreibt Risiko breiter und wird nicht als aktueller Automatismus übernommen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Länderfreigabe ausstehend; noch keine klinischen Patientenempfehlungen.",
+        "warning": "Länderpaket mit regionalen Quellenabweichungen ärztlich freigegeben.",
         "regionalReview": [
           "Vientiane – Stadtzentrum: Vientiane-Zentrum: keine routinemäßige Malariaprophylaxe. Ländliche Weiterreisen separat erfassen.",
           "Luang Prabang (Stadt): Luang Prabang: CDC beschreibt keine Stadtübertragung, AA geringes Risiko im Norden. Umland und Waldetappen getrennt erfassen.",
@@ -3571,9 +3638,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-15"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-16",
+          "statement": "Die oben genannten vier Länder sind medizinisch-ärztlich freigegeben.",
+          "scope": "Kambodscha, Laos, Südafrika und Brasilien, einschließlich 19 regionaler Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-15",
         "regionalSelectionRequired": true,
@@ -3598,11 +3670,48 @@
     "ZA": {
       "name": "Südafrika",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "approvedSources": [],
-        "nextReviewDate": null
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/suedafrikasicherheit-208400",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-africa",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/deutsche-auslandsvertretungen/suedafrika/208384",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://southafrica.diplo.de/sa-de/sa-vertretungen/notfall-495818",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independently researched country draft; no legacy or DTG malaria import",
@@ -3610,7 +3719,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -3629,7 +3738,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -3655,7 +3764,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Pretoria",
@@ -3670,7 +3779,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-15",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/suedafrikasicherheit-208400",
         "evidenceLinks": [
@@ -3725,7 +3834,7 @@
           "CDC warnt vor Tollwut bei Kap-Pelzrobben; bei Wassersport individuelle Präexpositionsimpfung erwägen, bei Biss sofort versorgen lassen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Länderfreigabe ausstehend; noch keine klinischen Patientenempfehlungen.",
+        "warning": "Länderpaket mit regionalen Quellenabweichungen ärztlich freigegeben.",
         "regionalReview": [
           "Kapregion / Garden Route: Kapregion: CDC erfasst keine lokale Malariaübertragung. Wegen widersprüchlichem AA-Vorspann genaue Route abgleichen; Nordostsafari gesondert erfassen.",
           "Kruger-Nationalpark: Kruger: Malariaprophylaxe ärztlich planen. AA stuft das Risiko saisonal ab; CDC empfiehlt Prophylaxe ganzjährig. Reisemonat angeben.",
@@ -3738,9 +3847,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-15"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-16",
+          "statement": "Die oben genannten vier Länder sind medizinisch-ärztlich freigegeben.",
+          "scope": "Kambodscha, Laos, Südafrika und Brasilien, einschließlich 19 regionaler Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-15",
         "regionalSelectionRequired": true,
@@ -3767,11 +3881,54 @@
     "BR": {
       "name": "Brasilien",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "approvedSources": [],
-        "nextReviewDate": null
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-15",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/brasiliensicherheit-201092",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/brazil",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://brasil.diplo.de/br-de/vertretungen/botschaft/1051130-1051130",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/yellow-book/hcp/americas-caribbean/brazil.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://brasil.diplo.de/br-de/service/bereitschaftsdienst-2611180",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independently researched country draft; no legacy or DTG malaria import",
@@ -3779,7 +3936,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -3800,7 +3957,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -3827,7 +3984,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Brasília",
@@ -3842,7 +3999,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-15",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/brasiliensicherheit-201092",
         "evidenceLinks": [
@@ -3904,7 +4061,7 @@
           "Malaria: CDC empfiehlt in Endemiegebieten Prophylaxe, bei seltenen Fällen Mückenschutz; AA differenziert bis in Städte und Flussreisen. Keine pauschale Arzneientscheidung für das gesamte Amazonasbecken."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Länderfreigabe ausstehend; noch keine klinischen Patientenempfehlungen.",
+        "warning": "Länderpaket mit regionalen Quellenabweichungen ärztlich freigegeben.",
         "regionalReview": [
           "Rio de Janeiro / São Paulo – Stadtaufenthalte: Rio/São Paulo (Städte): keine routinemäßige Malariaprophylaxe. Gelbfieberimpfung unabhängig davon für die Route prüfen.",
           "Brasília (Stadt): Brasília: keine routinemäßige Malariaprophylaxe. Gelbfieberimpfung gesondert prüfen.",
@@ -3918,9 +4075,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-15"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-16",
+          "statement": "Die oben genannten vier Länder sind medizinisch-ärztlich freigegeben.",
+          "scope": "Kambodscha, Laos, Südafrika und Brasilien, einschließlich 19 regionaler Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-15",
         "regionalSelectionRequired": true,
@@ -3944,6 +4106,672 @@
         ],
         "otherRegionalFactors": [
           "Regionale Gelbfieberexposition unabhängig von Malaria."
+        ]
+      }
+    },
+    "MX": {
+      "name": "Mexiko",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent country research; no legacy or DTG malaria import",
+        "originalCheckedDate": "2026-11-15",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Direkte Einreise aus Deutschland: keine Pflichtimpfungen."
+        ],
+        "routeDependent": [
+          "Chiapas, Campeche und südliches Chihuahua gesondert erfassen.",
+          "Ländliche Etappen: Ort und Bundesstaat für die Malariaberatung angeben."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Mexiko-Stadt",
+          "Yucatán / Quintana Roo",
+          "Chiapas",
+          "Campeche / südliches Chihuahua",
+          "Mexiko – weitere Landetappen"
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Chiapas, Campeche und südliches Chihuahua: Malariaprophylaxe ärztlich abgleichen. Reine Stadt-/Yucatán-Reisen getrennt bewerten.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/mexikosicherheit-213648",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mexico",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Mexiko-Stadt",
+            "address": "Horacio 1506, Col. Los Morales Sección Alameda, Miguel Hidalgo, C.P. 11530 Mexiko-Stadt, Mexiko",
+            "phone": "+52 55 5283 2200",
+            "emergency": "+52 55 5431 2177",
+            "scope": "Mexiko; Notdienst nur für dringende Notfälle.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/mexiko-213652"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/mexikosicherheit-213648",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/mexikosicherheit-213648",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mexico",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/mexiko-213652",
+          "https://www.gob.mx/salud/articulos/secretaria-de-salud-mantiene-acciones-para-eliminar-la-transmision-de-paludismo?idiom=es"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/mexikosicherheit-213648",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mexico",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/mexiko-213652",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.gob.mx/salud/articulos/secretaria-de-salud-mantiene-acciones-para-eliminar-la-transmision-de-paludismo?idiom=es",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "CDC empfiehlt Prophylaxe in Campeche, Chiapas und südlichem Chihuahua; AA beschreibt geringes Risiko. Unterschiedliche Präventionsansätze bleiben sichtbar.",
+          "Eine mexikanische Gesundheitsmeldung vom 05.11.2026 nennt vorwiegend Chiapas und 31 Staaten ohne Übertragung. Diese jüngere lokale Lageinformation ersetzt nicht automatisch internationale Reiseprophylaxeempfehlungen.",
+          "STIKO-Impfzuordnung; AA nennt zusätzlich Tollwut bei besonderer Exposition, STIKO keine routinemäßige Reiseimpfung gegen Hunde-Tollwut."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Mexiko-Stadt: Mexiko-Stadt: keine routinemäßige Malariaprophylaxe. Weiterreisen in andere Bundesstaaten zusätzlich erfassen.",
+          "Yucatán / Quintana Roo: Yucatán/Quintana Roo: keine routinemäßige Malariaprophylaxe. Ausflüge nach Chiapas oder Campeche separat erfassen.",
+          "Chiapas: Chiapas: mögliches Malariarisiko. CDC empfiehlt Prophylaxe, AA beschreibt geringes Risiko; konkrete Etappen ärztlich abgleichen.",
+          "Campeche / südliches Chihuahua: Campeche/südliches Chihuahua: CDC empfiehlt Prophylaxe; AA und neuere mexikanische Meldungen grenzen anders ab. Exakte Orte ärztlich prüfen.",
+          "Mexiko – weitere Landetappen: Weitere Landetappen: genaue Orte und Bundesstaaten angeben. Seltene Fälle und Quellenabweichungen ärztlich berücksichtigen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-15"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria"
+        ],
+        "regionIds": [
+          "MX-CITY",
+          "MX-YUCATAN",
+          "MX-CHIAPAS",
+          "MX-CAMPECHE-CHIH",
+          "MX-OTHER"
+        ],
+        "reason": "Regionale Malaria- und weitere Expositionen erfordern genaue Etappen; Quellenabweichungen bleiben sichtbar.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/mexikosicherheit-213648",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mexico",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": []
+      }
+    },
+    "CR": {
+      "name": "Costa Rica",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent country research; no legacy or DTG malaria import",
+        "originalCheckedDate": "2026-11-15",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Direkte Einreise aus Deutschland: keine Pflichtimpfungen."
+        ],
+        "routeDependent": [
+          "Alajuela und Limón: Prophylaxe für die genaue Route ärztlich prüfen.",
+          "Nordwesten: aktuelle Chikungunya-Lage prüfen; bei aktivem Ausbruch Impfung ab 12 Jahren beraten.",
+          "Voraufenthalt u. a. in Peru, Kolumbien, Ecuador, Tansania oder Sambia: Gelbfiebernachweis prüfen; reine Flughafentransits nach AA ausgenommen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "San José (Stadt)",
+          "Alajuela (Provinz)",
+          "Limón (Provinz)",
+          "Costa Rica – Nordwesten",
+          "Costa Rica – weitere Provinzen"
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Alajuela und Limón separat erfassen; AA und CDC unterscheiden sich bei der medikamentösen Prävention. San José und weitere Reisegebiete getrennt bewerten.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/costarica-node/costaricasicherheit/224816",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/costa-rica/",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft San José",
+            "address": "Torre La Sabana, 8. Etage, Sabana Norte, San José, Costa Rica",
+            "phone": "+506 2290 9091",
+            "emergency": "+506 8381 7968",
+            "scope": "Costa Rica; Notdienst nur für dringende Notfälle.",
+            "url": "https://san-jose.diplo.de/cr-de/botschaft/adresse-1512874"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/costarica-node/costaricasicherheit/224816",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/service/laender/costarica-node/costaricasicherheit/224816",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/costa-rica/",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+          "https://san-jose.diplo.de/cr-de/botschaft/adresse-1512874"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/costarica-node/costaricasicherheit/224816",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/costa-rica/",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://san-jose.diplo.de/cr-de/botschaft/adresse-1512874",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "CDC empfiehlt Prophylaxe für Alajuela/Limón. AA differenziert nördliches Alajuela mit mittlerem und weitere Gebiete mit geringem Risiko.",
+          "AA meldet einen Chikungunya-Ausbruch seit Juli 2026 im Nordwesten. Fortbestehen und genaue Orte vor Abreise erneut prüfen; keine dauerhafte Ausbruchsindikation ableiten.",
+          "Gelbfieber: AA und RKI/WHO nennen abweichende Herkunftsgebiets- und Transitregeln. Vollständige Route aktuell prüfen.",
+          "STIKO: Hepatitis A allgemein, weitere genannte Impfungen expositionsabhängig. AA nennt zusätzlich Tollwut bei besonderer Exposition."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "San José (Stadt): San José: keine routinemäßige Malariaprophylaxe. Weitere Provinzen separat erfassen.",
+          "Alajuela (Provinz): Alajuela: CDC empfiehlt Prophylaxe, AA differenziert Norden und übrige Gebiete. Orte und Übernachtungen ärztlich abgleichen.",
+          "Limón (Provinz): Limón: CDC empfiehlt Malariaprophylaxe; AA beschreibt überwiegend geringes Risiko. Konkrete Route ärztlich beraten.",
+          "Costa Rica – Nordwesten: Nordwesten: AA meldet Chikungunya-Ausbruch seit Juli 2026. Vor Abreise örtliche Lage prüfen; bei aktivem Ausbruch Impfung ab 12 Jahren beraten.",
+          "Costa Rica – weitere Provinzen: Weitere Provinzen: genaue Orte und aktuelle Meldungen prüfen; in Teilen von Puntarenas beschreibt AA Malariaexposition."
+        ],
+        "regionalReviewUntil": "2026-11-20",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-15"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria",
+          "chikungunya"
+        ],
+        "regionIds": [
+          "CR-SANJOSE",
+          "CR-ALAJUELA",
+          "CR-LIMON",
+          "CR-NORTHWEST",
+          "CR-OTHER"
+        ],
+        "reason": "Regionale Malaria- und weitere Expositionen erfordern genaue Etappen; Quellenabweichungen bleiben sichtbar.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/costarica-node/costaricasicherheit/224816",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/costa-rica/",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": []
+      }
+    },
+    "DO": {
+      "name": "Dominikanische Republik",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent country research; no legacy or DTG malaria import",
+        "originalCheckedDate": "2026-11-15",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Direkte Einreise aus Deutschland: keine Pflichtimpfungen."
+        ],
+        "routeDependent": [
+          "Punta Cana/La Altagracia und Santo Domingo: auch Hotelaufenthalte bei der Malariaberatung berücksichtigen.",
+          "Azua, Elías Piña und San Juan gesondert erfassen.",
+          "Voraufenthalt in Gelbfiebergebieten: aktuelle Nachweispflicht prüfen; Quellen unterscheiden sich beim Umfang."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Punta Cana / La Altagracia",
+          "Santo Domingo / Distrito Nacional",
+          "Azua / Elías Piña / San Juan",
+          "Dominikanische Republik – weitere Provinzen"
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Quellenabweichung zur Prophylaxe, auch für einzelne Hotelregionen. Besonders La Altagracia/Punta Cana, Santo Domingo, Azua, Elías Piña und San Juan prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/dominikanischerepubliksicherheit-206146",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/dominican-republic",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Santo Domingo",
+            "address": "Edificio EQUINOX, pisos 5 y 6, Av. Núñez de Cáceres 11, Ensanche Bella Vista, Santo Domingo 10114, Dominikanische Republik",
+            "phone": "+1 809 542 8949",
+            "emergency": "+1 809 543 5650",
+            "scope": "Dominikanische Republik. Notdienst laut Originalseite Mo–Fr 15:30–24:00, Wochenende 08:00–24:00 Ortszeit.",
+            "url": "https://santo-domingo.diplo.de/do-de/ueber-uns/2013652-2013652"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/dominikanischerepubliksicherheit-206146",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/dominikanischerepubliksicherheit-206146",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/dominican-republic",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+          "https://santo-domingo.diplo.de/do-de/ueber-uns/2013652-2013652"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/dominikanischerepubliksicherheit-206146",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/dominican-republic",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://santo-domingo.diplo.de/do-de/ueber-uns/2013652-2013652",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "CDC empfiehlt Prophylaxe in mehreren Provinzen einschließlich Resortgebieten. AA beschreibt vorwiegend geringes Risiko und mittlere Exposition in Azua/Elías Piña/San Juan.",
+          "AA beschreibt die Gelbfiebernachweispflicht breiter als RKI mit bestimmten brasilianischen Bundesstaaten. Vollständige Route und aktuelle Einreiseregeln prüfen.",
+          "STIKO-Risikoimpfungen übernommen. AA nennt zusätzlich Tollwut/gegebenenfalls Cholera bei besonderer Exposition; keine pauschale Übernahme."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Punta Cana / La Altagracia: Punta Cana/La Altagracia: CDC empfiehlt auch für Resortgebiete Prophylaxe; AA beschreibt geringes Risiko. Hotel und Ausflüge ärztlich abgleichen.",
+          "Santo Domingo / Distrito Nacional: Santo Domingo: CDC erfasst relevante Übertragungsgebiete, AA stuft niedriger ein. Stadtviertel und Etappen ärztlich bewerten.",
+          "Azua / Elías Piña / San Juan: Westliche Provinzen: CDC empfiehlt Prophylaxe; AA wägt bei mittlerem Risiko eine Notfalltherapie ab. Versorgung und Route ärztlich besprechen.",
+          "Dominikanische Republik – weitere Provinzen: Weitere Provinzen: konsequenter Mückenschutz. Ausflüge in CDC-Prophylaxegebiete separat erfassen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-15"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria"
+        ],
+        "regionIds": [
+          "DO-PUNTACANA",
+          "DO-SANTODOM",
+          "DO-WEST",
+          "DO-OTHER"
+        ],
+        "reason": "Regionale Malaria- und weitere Expositionen erfordern genaue Etappen; Quellenabweichungen bleiben sichtbar.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/dominikanischerepubliksicherheit-206146",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/dominican-republic",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": []
+      }
+    },
+    "PE": {
+      "name": "Peru",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent country research; no legacy or DTG malaria import",
+        "originalCheckedDate": "2026-11-15",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Gelbfieber bei regionaler Exposition",
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Direkte Einreise aus Deutschland: keine Pflichtimpfungen."
+        ],
+        "routeDependent": [
+          "Anden-/Trekkingroute: Höhenlagen und Akklimatisation berücksichtigen.",
+          "Amazonastiefland: Malariaprophylaxe und Gelbfieberimpfung ärztlich planen.",
+          "Weiterreise aus Peru: Gelbfiebernachweis für das Folgeland prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Lima / Ica / Nazca / Arequipa (Städte)",
+          "Cusco / Machu Picchu / klassische Hochlandroute",
+          "Loreto / Amazonas-Waldetappen",
+          "Iquitos / Puerto Maldonado",
+          "Peru – weitere Tiefland-/Nordküstenetappen"
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Amazonastiefland östlich der Anden: Prophylaxe ärztlich prüfen. Iquitos und Puerto Maldonado nicht mit Lima, Cusco oder der klassischen Machu-Picchu-Route gleichsetzen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/perusicherheit-211938",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/peru",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Lima",
+            "address": "Av. Dionisio Derteano 144, Edificio Alto Caral, pisos 7 y 8, San Isidro, Lima, Peru",
+            "phone": "+51 1 2035940",
+            "emergency": "+51 989 556 999",
+            "scope": "Peru. Notdienst außerhalb der Öffnungszeiten bis 24:00, Wochenende ab 07:30 Ortszeit laut Kontaktseite.",
+            "url": "https://lima.diplo.de/pe-de/botschaft/2188422-2188422"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-15",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/perusicherheit-211938",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/perusicherheit-211938",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/peru",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+          "https://lima.diplo.de/pe-de/botschaft/2188422-2188422",
+          "https://www.cdc.gov/yellow-book/hcp/americas-caribbean/peru.html"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/perusicherheit-211938",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/peru",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://lima.diplo.de/pe-de/botschaft/2188422-2188422",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/yellow-book/hcp/americas-caribbean/peru.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "STIKO führt Gelbfieber mit regionalem Sternchen, daher routenabhängig statt pauschal für jede Peru-Reise.",
+          "Die AA-Höhenbeschreibung gruppiert Machu Picchu mit touristischen Hochlandzielen. Die konkrete Ortsausnahme wird nicht auf alle Ziele derselben Höhenlage übertragen.",
+          "CDC empfiehlt Prophylaxe im Osten unter 2.500 m einschließlich Iquitos/Puerto Maldonado. AA stuft die Städte niedriger als manche umliegenden Waldgebiete ein; Quellenabweichung sichtbar halten."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Lima / Ica / Nazca / Arequipa (Städte): Genannte Städte: keine routinemäßige Malariaprophylaxe. Wald- und Tieflandetappen separat erfassen.",
+          "Cusco / Machu Picchu / klassische Hochlandroute: Klassische Cusco-/Machu-Picchu-Route: keine routinemäßige Malariaprophylaxe. Höhenanpassung beachten; Tieflandausflüge gesondert erfassen.",
+          "Loreto / Amazonas-Waldetappen: Loreto/Waldetappen: Malariaprophylaxe und Gelbfieberimpfung ärztlich planen. Iquitos-Stadt und Flusskreuzfahrten getrennt erfassen.",
+          "Iquitos / Puerto Maldonado: Iquitos/Puerto Maldonado: CDC empfiehlt Malariaprophylaxe; AA stuft Stadtgebiete niedriger ein. Stadt, Wald und Übernachtungen ärztlich abgleichen.",
+          "Peru – weitere Tiefland-/Nordküstenetappen: Weitere Etappen: Höhenlage und Seite der Anden angeben. Malariaprophylaxe und Gelbfieberimpfung getrennt prüfen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-15"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-15",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria",
+          "yellow_fever",
+          "other"
+        ],
+        "regionIds": [
+          "PE-LIMA",
+          "PE-CUSCO",
+          "PE-LORETO",
+          "PE-IQUITOS",
+          "PE-OTHER"
+        ],
+        "reason": "Regionale Malaria- und weitere Expositionen erfordern genaue Etappen; Quellenabweichungen bleiben sichtbar.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/perusicherheit-211938",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/peru",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": [
+          "Höhenkrankheit und Gelbfieber unabhängig von Malaria."
         ]
       }
     }

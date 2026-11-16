@@ -57,6 +57,13 @@ jobs:
           python development/v16/export_public_regions_v1.py --output _site/region_directory_public_v1.json
           python development/v16/export_public_regions_v2.py --output _site/region_directory_public_v2.json
 
+      - name: V24 Browserdarstellung auf Desktop und Mobil pruefen
+        timeout-minutes: 7
+        run: |
+          python -m pip install --quiet playwright==1.55.0
+          python -m playwright install chromium --with-deps
+          python development/v16/test_v24_browser.py
+
       - name: Webseite und aktuelle Daten vorbereiten
         run: |
           mkdir -p _site

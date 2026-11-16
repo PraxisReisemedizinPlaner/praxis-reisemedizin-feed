@@ -1851,6 +1851,284 @@
       ],
       "reuseRightsChecked": true,
       "summary": "Weitere Waldetappen: genaue Orte für Malariaberatung und Gelbfieberimpfung angeben; Städteempfehlungen nicht auf das Umland übertragen."
+    },
+    {
+      "id": "MX-CITY",
+      "country": "MX",
+      "status": "supported",
+      "scope": "Mexiko-Stadt",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/mexikosicherheit-213648",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mexico"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Mexiko-Stadt: keine routinemäßige Malariaprophylaxe. Weiterreisen in andere Bundesstaaten zusätzlich erfassen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "MX-YUCATAN",
+      "country": "MX",
+      "status": "supported",
+      "scope": "Yucatán / Quintana Roo",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/mexikosicherheit-213648",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mexico"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Yucatán/Quintana Roo: keine routinemäßige Malariaprophylaxe. Ausflüge nach Chiapas oder Campeche separat erfassen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "MX-CHIAPAS",
+      "country": "MX",
+      "status": "source_conflict",
+      "scope": "Chiapas",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/mexikosicherheit-213648",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mexico"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Chiapas: mögliches Malariarisiko. CDC empfiehlt Prophylaxe, AA beschreibt geringes Risiko; konkrete Etappen ärztlich abgleichen."
+    },
+    {
+      "id": "MX-CAMPECHE-CHIH",
+      "country": "MX",
+      "status": "source_conflict",
+      "scope": "Campeche / südliches Chihuahua",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/mexikosicherheit-213648",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mexico"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Campeche/südliches Chihuahua: CDC empfiehlt Prophylaxe; AA und neuere mexikanische Meldungen grenzen anders ab. Exakte Orte ärztlich prüfen."
+    },
+    {
+      "id": "MX-OTHER",
+      "country": "MX",
+      "status": "route_required",
+      "scope": "Mexiko – weitere Landetappen",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/mexikosicherheit-213648",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mexico"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Weitere Landetappen: genaue Orte und Bundesstaaten angeben. Seltene Fälle und Quellenabweichungen ärztlich berücksichtigen."
+    },
+    {
+      "id": "CR-SANJOSE",
+      "country": "CR",
+      "status": "supported",
+      "scope": "San José (Stadt)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/costarica-node/costaricasicherheit/224816",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/costa-rica/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "San José: keine routinemäßige Malariaprophylaxe. Weitere Provinzen separat erfassen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "CR-ALAJUELA",
+      "country": "CR",
+      "status": "source_conflict",
+      "scope": "Alajuela (Provinz)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/costarica-node/costaricasicherheit/224816",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/costa-rica/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Alajuela: CDC empfiehlt Prophylaxe, AA differenziert Norden und übrige Gebiete. Orte und Übernachtungen ärztlich abgleichen."
+    },
+    {
+      "id": "CR-LIMON",
+      "country": "CR",
+      "status": "source_conflict",
+      "scope": "Limón (Provinz)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/costarica-node/costaricasicherheit/224816",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/costa-rica/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Limón: CDC empfiehlt Malariaprophylaxe; AA beschreibt überwiegend geringes Risiko. Konkrete Route ärztlich beraten."
+    },
+    {
+      "id": "CR-NORTHWEST",
+      "country": "CR",
+      "status": "route_required",
+      "scope": "Costa Rica – Nordwesten",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2026-11-20",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/costarica-node/costaricasicherheit/224816",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/costa-rica/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Nordwesten: AA meldet Chikungunya-Ausbruch seit Juli 2026. Vor Abreise örtliche Lage prüfen; bei aktivem Ausbruch Impfung ab 12 Jahren beraten."
+    },
+    {
+      "id": "CR-OTHER",
+      "country": "CR",
+      "status": "route_required",
+      "scope": "Costa Rica – weitere Provinzen",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/costarica-node/costaricasicherheit/224816",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/costa-rica/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Weitere Provinzen: genaue Orte und aktuelle Meldungen prüfen; in Teilen von Puntarenas beschreibt AA Malariaexposition."
+    },
+    {
+      "id": "DO-PUNTACANA",
+      "country": "DO",
+      "status": "source_conflict",
+      "scope": "Punta Cana / La Altagracia",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/dominikanischerepubliksicherheit-206146",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/dominican-republic"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Punta Cana/La Altagracia: CDC empfiehlt auch für Resortgebiete Prophylaxe; AA beschreibt geringes Risiko. Hotel und Ausflüge ärztlich abgleichen."
+    },
+    {
+      "id": "DO-SANTODOM",
+      "country": "DO",
+      "status": "source_conflict",
+      "scope": "Santo Domingo / Distrito Nacional",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/dominikanischerepubliksicherheit-206146",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/dominican-republic"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Santo Domingo: CDC erfasst relevante Übertragungsgebiete, AA stuft niedriger ein. Stadtviertel und Etappen ärztlich bewerten."
+    },
+    {
+      "id": "DO-WEST",
+      "country": "DO",
+      "status": "source_conflict",
+      "scope": "Azua / Elías Piña / San Juan",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/dominikanischerepubliksicherheit-206146",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/dominican-republic"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Westliche Provinzen: CDC empfiehlt Prophylaxe; AA wägt bei mittlerem Risiko eine Notfalltherapie ab. Versorgung und Route ärztlich besprechen."
+    },
+    {
+      "id": "DO-OTHER",
+      "country": "DO",
+      "status": "supported",
+      "scope": "Dominikanische Republik – weitere Provinzen",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/dominikanischerepubliksicherheit-206146",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/dominican-republic"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Weitere Provinzen: konsequenter Mückenschutz. Ausflüge in CDC-Prophylaxegebiete separat erfassen.",
+      "riskLevel": "low",
+      "preventionType": "exposure_only"
+    },
+    {
+      "id": "PE-LIMA",
+      "country": "PE",
+      "status": "supported",
+      "scope": "Lima / Ica / Nazca / Arequipa (Städte)",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/perusicherheit-211938",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/peru"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Genannte Städte: keine routinemäßige Malariaprophylaxe. Wald- und Tieflandetappen separat erfassen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "PE-CUSCO",
+      "country": "PE",
+      "status": "supported",
+      "scope": "Cusco / Machu Picchu / klassische Hochlandroute",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/perusicherheit-211938",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/peru"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Klassische Cusco-/Machu-Picchu-Route: keine routinemäßige Malariaprophylaxe. Höhenanpassung beachten; Tieflandausflüge gesondert erfassen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "PE-LORETO",
+      "country": "PE",
+      "status": "route_required",
+      "scope": "Loreto / Amazonas-Waldetappen",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/perusicherheit-211938",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/peru"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Loreto/Waldetappen: Malariaprophylaxe und Gelbfieberimpfung ärztlich planen. Iquitos-Stadt und Flusskreuzfahrten getrennt erfassen."
+    },
+    {
+      "id": "PE-IQUITOS",
+      "country": "PE",
+      "status": "source_conflict",
+      "scope": "Iquitos / Puerto Maldonado",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/perusicherheit-211938",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/peru"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Iquitos/Puerto Maldonado: CDC empfiehlt Malariaprophylaxe; AA stuft Stadtgebiete niedriger ein. Stadt, Wald und Übernachtungen ärztlich abgleichen."
+    },
+    {
+      "id": "PE-OTHER",
+      "country": "PE",
+      "status": "route_required",
+      "scope": "Peru – weitere Tiefland-/Nordküstenetappen",
+      "checkedAt": "2026-11-15",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/perusicherheit-211938",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/peru"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Weitere Etappen: Höhenlage und Seite der Anden angeben. Malariaprophylaxe und Gelbfieberimpfung getrennt prüfen."
     }
   ]
 }

@@ -16,8 +16,8 @@ COUNTRIES=json.loads((HERE/"country_profiles_draft_v16.json").read_text(encoding
 PACKAGES=json.loads((HERE/"region_source_packages_v2.json").read_text(encoding="utf-8"))
 regions=build_public_regions(REGION,COUNTRIES,PACKAGES,date(2026,11,15))
 countries=build_countries(COUNTRIES,date(2026,11,15))
-assert regions["sourceBasedCount"] == 37
-assert countries["approvedCount"] == 18
+assert regions["sourceBasedCount"] == 42
+assert countries["approvedCount"] == 22
 
 def intercept(route):
     url=route.request.url
@@ -131,6 +131,18 @@ def smoke(browser,device,stripped=False):
     page.locator("#rm-region-suggest button").filter(has_text="Ko Samui").first.click()
     assert "Geringe Exposition" in page.locator("#rm-region-risk").inner_text()
     assert "separate ärztliche" not in page.locator("#rm-region-risk").inner_text()
+    # All three multi-select fields are visible without an outer disclosure, in one row.
+    assert page.locator(".rm-extra").count()==0
+    assert page.locator("#rm-multi-row").evaluate("el => el.children.length===3")
+    assert page.locator("#rm-multi-row").evaluate("el => {const y=[...el.children].map(x=>x.getBoundingClientRect().top);return Math.max(...y)-Math.min(...y)<2}")
+    page.locator("#rm-activities-toggle").click()
+    assert page.locator("#rm-activities-picker .rm-multi-panel").evaluate("el => {const r=el.getBoundingClientRect();return r.left>=0&&r.right<=innerWidth}")
+    page.locator("#rm-activity-4").click()
+    page.locator("#rm-activity-5").click()
+    page.locator("#rm-when").click()
+    assert page.locator("#rm-special-notes details").count()==2
+    assert page.locator("#rm-special-notes").evaluate("el => !!(document.querySelector('#rm-print').compareDocumentPosition(el)&Node.DOCUMENT_POSITION_FOLLOWING)")
+    assert page.locator("#rm-special-notes").evaluate("el => !!(el.compareDocumentPosition(document.querySelector('.rm-general'))&Node.DOCUMENT_POSITION_FOLLOWING)")
     # Clear all states, especially region chip selections.
     page.locator("#rm-reset").click()
     assert page.locator("#rm-region-chips .rm-region-chip").count()==0

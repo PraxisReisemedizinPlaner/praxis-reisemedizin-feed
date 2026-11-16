@@ -15,9 +15,12 @@ class FourthCountryBatchTests(unittest.TestCase):
         self.c=read("country_profiles_draft_v16.json")
         self.g=read("region_profiles_draft_v1.json")
         self.s=read("region_source_packages_v2.json")
-    def test_eighteen_approved_and_four_pending(self):
+    def test_withdrawn_country_packages_stay_private(self):
+        for code in CODES:
+            self.c["countries"][code]["publicationAllowed"]=False
+            self.c["countries"][code]["medicalReview"]["status"]="pending"
         out=build_public(self.c,date(2026,11,15))
-        self.assertEqual(out["coverageCount"],22)
+        self.assertEqual(out["coverageCount"],26)
         self.assertEqual(out["approvedCount"],18)
         for code in ("LK","NP","MY","PH"):
             self.assertIn(code,out["countries"])
@@ -28,11 +31,11 @@ class FourthCountryBatchTests(unittest.TestCase):
                 self.assertNotIn("malaria",r)
                 self.assertNotIn("sourceNotice",r)
     def test_country_routes_sources_and_contacts_ready(self):
-        self.assertEqual(validate_all(self.c,self.g,self.s),22)
+        self.assertEqual(validate_all(self.c,self.g,self.s),26)
         for code in CODES:
             p=self.c["countries"][code]
-            self.assertFalse(p["publicationAllowed"])
-            self.assertEqual(p["medicalReview"]["status"],"pending")
+            self.assertTrue(p["publicationAllowed"])
+            self.assertEqual(p["medicalReview"]["status"],"approved")
             self.assertGreaterEqual(len(p["routeAssessment"]["regionIds"]),4)
             self.assertTrue(p["missions"]["verifiedEntries"])
         self.assertIn("Polio",self.c["countries"]["LA"]["vaccineAssessment"]["forAll"])
@@ -52,6 +55,6 @@ class FourthCountryBatchTests(unittest.TestCase):
             self.assertNotIn("malaria",rows[rid])
         self.assertEqual(rows["KH-PHNOM"]["malaria"]["riskLevel"],"none")
         self.assertEqual(rows["LA-NORTH"]["malaria"]["riskLevel"],"low")
-        html=render(self.c)
+        html=render(self.c,codes=CODES)
         for code in CODES:self.assertIn(self.c["countries"][code]["name"],html)
 if __name__=="__main__":unittest.main()
