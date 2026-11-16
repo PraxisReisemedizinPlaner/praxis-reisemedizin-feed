@@ -46,6 +46,7 @@ def smoke(browser,device,stripped=False):
     page=ctx.new_page()
     errors=[]
     page.on("pageerror",lambda error: errors.append(str(error)))
+    page.on("console",lambda msg: print(msg.text,flush=True) if "RM_PICKER_" in msg.text else None)
     source_path=ROOT/"website/ReiseCheck_Jimdo_V24.html"
     if stripped:
         stripped_html=re.sub(r"<style>.*?</style>","",source_path.read_text(encoding="utf-8"),count=1,flags=re.S)
