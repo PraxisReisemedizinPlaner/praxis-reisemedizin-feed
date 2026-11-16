@@ -136,6 +136,8 @@ def smoke(browser,device,stripped=False):
     assert page.locator(".rm-extra").count()==0
     assert page.locator("#rm-multi-row").evaluate("el => el.children.length===3")
     assert page.locator("#rm-multi-row").evaluate("el => {const y=[...el.children].map(x=>x.getBoundingClientRect().top);return Math.max(...y)-Math.min(...y)<2}")
+    print("JS_ERRORS",errors,flush=True)
+    print("HIT_TARGET",page.locator("#rm-activities-toggle").evaluate("el => {const r=el.getBoundingClientRect();return {rect:r.toJSON(),hit:document.elementFromPoint(r.x+r.width/2,r.y+r.height/2)?.outerHTML}}"),flush=True)
     print("ACTIVITY_BEFORE",page.locator("#rm-activities-picker").get_attribute("open"),flush=True)
     if page.locator("#rm-activities-picker").get_attribute("open") is None:
         page.locator("#rm-activities-toggle").click()
