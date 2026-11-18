@@ -2301,6 +2301,110 @@
       ],
       "reuseRightsChecked": true,
       "summary": "Kalahari/Süd- und Ostetappen: genaue Orte angeben. CDC empfiehlt in mehreren Distrikten Prophylaxe; AA stuft Teile niedriger ein."
+    },
+    {
+      "id": "JP-HOKKAIDO",
+      "country": "JP",
+      "status": "route_required",
+      "scope": "Hokkaido",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/japansicherheit-213032",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/japan",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Zeckenexposition auf Hokkaido FSME individuell prüfen. Die berichteten menschlichen FSME-Fälle betreffen bislang Hokkaido."
+    },
+    {
+      "id": "JP-CITY",
+      "country": "JP",
+      "status": "route_required",
+      "scope": "Tokio / Osaka / Kyoto (Stadtaufenthalt)",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/japansicherheit-213032",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/japan",
+        "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/japanese-encephalitis.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei kurzer reiner Städtereise ist eine Impfung gegen Japanische Enzephalitis in der Regel nicht angezeigt. Ländliche Ausflüge und Übernachtungen separat erfassen."
+    },
+    {
+      "id": "KR-SEOUL",
+      "country": "KR",
+      "status": "supported",
+      "scope": "Seoul (Stadt)",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/korearepubliksicherheit-216132",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-korea"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für Seoul-Stadt ist keine routinemäßige Malariaprophylaxe vorgesehen. Ausflüge zur DMZ separat erfassen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "KR-DMZ",
+      "country": "KR",
+      "status": "source_conflict",
+      "scope": "Grenzregion / demilitarisierte Zone (DMZ)",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/korearepubliksicherheit-216132",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-korea"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "März–Dezember: Das Auswärtige Amt nennt geringes Risiko, die CDC sieht in betroffenen ländlichen Gebieten eine Chemoprophylaxe vor. Ort, Monat und Aufenthaltsart ärztlich abgleichen."
+    },
+    {
+      "id": "KR-NORTH",
+      "country": "KR",
+      "status": "source_conflict",
+      "scope": "Ländlicher Norden (Incheon / Gyeonggi / Gangwon)",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/korearepubliksicherheit-216132",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-korea"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Die Angaben beziehen sich auf betroffene ländliche Nordgebiete von März bis Dezember. Stadt, Flughafen und Übernachtungsort unterscheiden. Prophylaxe nach genauer Route ärztlich prüfen."
+    },
+    {
+      "id": "TW-SOUTH",
+      "country": "TW",
+      "status": "route_required",
+      "scope": "Südtaiwan (Tainan / Kaohsiung / Pingtung)",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/taiwan-node/taiwansicherheit-200896",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/taiwan",
+        "https://www.cdc.gov/dengue/areas-with-risk/index.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Im Süden lagen frühere Dengue-Schwerpunkte. Aktuelle Meldungen für den Reiseort prüfen und tagsüber vor Mücken schützen."
+    },
+    {
+      "id": "TW-TAIPEI",
+      "country": "TW",
+      "status": "route_required",
+      "scope": "Taipei (Stadt)",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/taiwan-node/taiwansicherheit-200896",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/taiwan",
+        "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/japanese-encephalitis.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Auch in der Stadt gilt Dengue-Mückenschutz. Ländliche Ausflüge bei der Prüfung zur Japanischen Enzephalitis mit angeben."
     }
   ]
 }
