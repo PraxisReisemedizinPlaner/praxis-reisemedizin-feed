@@ -2405,6 +2405,62 @@
       ],
       "reuseRightsChecked": true,
       "summary": "Auch in der Stadt gilt Dengue-Mückenschutz. Ländliche Ausflüge bei der Prüfung zur Japanischen Enzephalitis mit angeben."
+    },
+    {
+      "id": "TN-NORTH",
+      "country": "TN",
+      "status": "route_required",
+      "scope": "Nordtunesien (einschließlich Tunis)",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2026-12-18",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tunesiensicherheit-219024",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tunisia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Das Auswärtige Amt meldet vermehrte Tollwutfälle bei Tieren insbesondere im Norden. Bei absehbarem Tierkontakt oder erschwerter Versorgung Impfung individuell prüfen."
+    },
+    {
+      "id": "TN-OTHER",
+      "country": "TN",
+      "status": "route_required",
+      "scope": "Tunesien – übrige Reiseetappen",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tunesiensicherheit-219024",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tunisia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Auch außerhalb Nordtunesiens bei Tierkontakt oder schwer erreichbarer Versorgung die Tollwutprävention individuell abklären."
+    },
+    {
+      "id": "OM-MUSCAT",
+      "country": "OM",
+      "status": "route_required",
+      "scope": "Raum Maskat",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/omansicherheit-204160",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/oman"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Aus dem Raum Maskat sind sporadische Dengue-Meldungen bekannt. Tagsüber Mückenschutz anwenden und bei besonderer Exposition die Impfentscheidung individuell prüfen."
+    },
+    {
+      "id": "OM-OTHER",
+      "country": "OM",
+      "status": "route_required",
+      "scope": "Oman – Etappen außerhalb Maskats",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/omansicherheit-204160",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/oman"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für weitere Etappen aktuelle Meldungen zum Aufenthaltsort prüfen. Mückenschutz einplanen."
     }
   ]
 }

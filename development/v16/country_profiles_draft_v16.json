@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 34,
+  "countryCount": 38,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -5692,11 +5692,48 @@
     "JP": {
       "name": "Japan",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-18",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/japansicherheit-213032",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/japan",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://japan.diplo.de/ja-de/vertretungen/1021764-1021764",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/japanese-encephalitis.html",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -5704,7 +5741,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [],
         "riskBased": [
           "FSME",
@@ -5720,7 +5757,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -5740,7 +5777,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Tokio",
@@ -5755,7 +5792,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-18",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-18",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/japansicherheit-213032",
         "evidenceLinks": [
@@ -5808,7 +5845,7 @@
           "STIKO führt für Japan keine zusätzliche allgemeine Reiseimpfung auf. Japanische Enzephalitis betrifft vor allem längere oder exponierte ländliche Aufenthalte."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Hokkaido: Bei Zeckenexposition auf Hokkaido FSME individuell prüfen. Die berichteten menschlichen FSME-Fälle betreffen bislang Hokkaido.",
           "Tokio / Osaka / Kyoto (Stadtaufenthalt): Bei kurzer reiner Städtereise ist eine Impfung gegen Japanische Enzephalitis in der Regel nicht angezeigt. Ländliche Ausflüge und Übernachtungen separat erfassen."
@@ -5818,9 +5855,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-18"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-18",
+          "statement": "Auch diese vier sind freigegeben.",
+          "scope": "Japan, Südkorea, Taiwan und Singapur einschließlich der regionalen Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-18",
         "regionalSelectionRequired": true,
@@ -5849,11 +5891,48 @@
     "KR": {
       "name": "Südkorea",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-18",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/korearepubliksicherheit-216132",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-korea",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://seoul.diplo.de/kr-de/botschaft/1694076-1694076",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/japanese-encephalitis.html",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -5861,7 +5940,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [],
         "riskBased": [
           "FSME",
@@ -5877,7 +5956,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -5901,7 +5980,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Seoul",
@@ -5916,7 +5995,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-18",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-18",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/korearepubliksicherheit-216132",
         "evidenceLinks": [
@@ -5970,7 +6049,7 @@
           "FSME ist in der STIKO-Tabelle als sporadisch aufgeführt. Erregernachweise bei Zecken und Nagern begründen keine pauschale Impfindikation."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Seoul (Stadt): Für Seoul-Stadt ist keine routinemäßige Malariaprophylaxe vorgesehen. Ausflüge zur DMZ separat erfassen.",
           "Grenzregion / demilitarisierte Zone (DMZ): März–Dezember: Das Auswärtige Amt nennt geringes Risiko, die CDC sieht in betroffenen ländlichen Gebieten eine Chemoprophylaxe vor. Ort, Monat und Aufenthaltsart ärztlich abgleichen.",
@@ -5981,9 +6060,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-18"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-18",
+          "statement": "Auch diese vier sind freigegeben.",
+          "scope": "Japan, Südkorea, Taiwan und Singapur einschließlich der regionalen Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-18",
         "regionalSelectionRequired": true,
@@ -6013,11 +6097,60 @@
     "TW": {
       "name": "Taiwan",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-18",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/taiwan-node/taiwansicherheit-200896",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/taiwan",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://taipei.diplo.de/tw-de/botschaft/oeffnungszeiten-1759884",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/japanese-encephalitis.html",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/dengue/areas-with-risk/index.html",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov.tw/En/Category/ListContent/bg0g_VU_Ysrgkes_KRUDgQ?uaid=9_Oq7OYHa-l8B05iUwyVvQ",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://nidss.cdc.gov.tw/en/nndss/disease?id=061",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -6025,7 +6158,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -6044,7 +6177,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -6064,7 +6197,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsches Institut Taipei",
@@ -6079,7 +6212,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-18",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-18",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/taiwan-node/taiwansicherheit-200896",
         "evidenceLinks": [
@@ -6147,7 +6280,7 @@
           "Historische Dengue-Häufungen im Süden sind keine Aussage über einen laufenden Ausbruch. Aktuelle Meldungen vor Reisebeginn prüfen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Südtaiwan (Tainan / Kaohsiung / Pingtung): Im Süden lagen frühere Dengue-Schwerpunkte. Aktuelle Meldungen für den Reiseort prüfen und tagsüber vor Mücken schützen.",
           "Taipei (Stadt): Auch in der Stadt gilt Dengue-Mückenschutz. Ländliche Ausflüge bei der Prüfung zur Japanischen Enzephalitis mit angeben."
@@ -6157,9 +6290,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-18"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-18",
+          "statement": "Auch diese vier sind freigegeben.",
+          "scope": "Japan, Südkorea, Taiwan und Singapur einschließlich der regionalen Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-18",
         "regionalSelectionRequired": true,
@@ -6190,11 +6328,48 @@
     "SG": {
       "name": "Singapur",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-18",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/singapursicherheit-225412",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/singapore",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://singapur.diplo.de/sg-de/botschaft/1225334-1225334",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/japanese-encephalitis.html",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore/entry-requirements/yellow-fever-vaccination-certificate",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -6202,7 +6377,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -6221,7 +6396,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -6241,7 +6416,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Singapur",
@@ -6256,7 +6431,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-18",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-18",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/singapursicherheit-225412",
         "evidenceLinks": [
@@ -6310,16 +6485,21 @@
           "Das Auswärtige Amt nennt zusätzlich Typhus je nach Exposition. In der STIKO-Ländertabelle ist Typhus für Singapur nicht aufgeführt."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-18"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-18",
+          "statement": "Auch diese vier sind freigegeben.",
+          "scope": "Japan, Südkorea, Taiwan und Singapur einschließlich der regionalen Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-18",
         "regionalSelectionRequired": false,
@@ -6336,6 +6516,598 @@
         "otherRegionalFactors": [
           "Gelbfieber-Nachweis bei relevanter Vorreise in den letzten sechs Tagen oder Flughafentransit über zwölf Stunden in einem Gelbfieber-Risikoland vorab prüfen.",
           "Bei kurzen Stadtaufenthalten steht Mückenschutz im Vordergrund. Ausflüge nach Malaysia oder Indonesien als zusätzliche Reiseziele erfassen."
+        ]
+      }
+    },
+    "TN": {
+      "name": "Tunesien",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-18",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Hepatitis B",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Bei Tierkontakt, längeren Aufenthalten oder eingeschränktem Zugang zur Versorgung Tollwutimpfung individuell prüfen.",
+          "Nach Biss oder Kratzer durch ein möglicherweise infiziertes Tier sofort die Wunde gründlich mit Wasser und Seife spülen und unverzüglich ärztliche Hilfe suchen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Es ist kein lokales Malariarisiko bekannt. Andere Länder auf der Reiseroute gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tunesiensicherheit-219024",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC Malariatabelle",
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/t.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Tunis",
+            "address": "Impasse du Lac Windermere, Les Berges du Lac 1, Tunis, Tunesien",
+            "phone": "+216 71 143 200",
+            "emergency": "+216 98 305 090",
+            "scope": "Tunesien. Bereitschaft nur für dringende konsularische Notfälle.",
+            "url": "https://tunis.diplo.de/tn-de/2006452-2006452"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-18",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tunesiensicherheit-219024",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tunesiensicherheit-219024",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tunisia",
+          "https://www.cdc.gov/malaria/travelers/country_table/t.html",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://tunis.diplo.de/tn-de/2006452-2006452"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tunesiensicherheit-219024",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tunisia",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/t.html",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://tunis.diplo.de/tn-de/2006452-2006452",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt weist auf vermehrte Tollwutfälle bei Tieren im Norden und auf begrenzte Verfügbarkeit von Impfstoff und Immunglobulin hin. Die Tollwutprävention bleibt im ganzen Land relevant.",
+          "Chikungunya steht in der STIKO-Ländertabelle als Risikoimpfung. Für die Entscheidung die aktuelle Ausbruchslage und die individuelle Indikation prüfen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Nordtunesien (einschließlich Tunis): Das Auswärtige Amt meldet vermehrte Tollwutfälle bei Tieren insbesondere im Norden. Bei absehbarem Tierkontakt oder erschwerter Versorgung Impfung individuell prüfen.",
+          "Tunesien – übrige Reiseetappen: Auch außerhalb Nordtunesiens bei Tierkontakt oder schwer erreichbarer Versorgung die Tollwutprävention individuell abklären."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-18"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-18",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "other"
+        ],
+        "regionIds": [
+          "TN-NORTH",
+          "TN-OTHER"
+        ],
+        "reason": "Regionale Infektionsmeldungen machen die genaue Reiseroute für die individuelle Beratung relevant.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tunesiensicherheit-219024",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tunisia",
+          "https://www.cdc.gov/malaria/travelers/country_table/t.html",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": [
+          "Bei Tierkontakt, längeren Aufenthalten oder eingeschränktem Zugang zur Versorgung Tollwutimpfung individuell prüfen.",
+          "Nach Biss oder Kratzer durch ein möglicherweise infiziertes Tier sofort die Wunde gründlich mit Wasser und Seife spülen und unverzüglich ärztliche Hilfe suchen."
+        ]
+      }
+    },
+    "JO": {
+      "name": "Jordanien",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-18",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Einreise ab einem Jahr nach Aufenthalt in einem Gelbfiebergebiet oder mehr als zwölf Stunden Flughafentransit dort: Gelbfiebernachweis nach Angabe des Auswärtigen Amts prüfen.",
+          "Bei Anreise aus einem Poliorisikogebiet den aktuellen Impfnachweis für diese Route prüfen.",
+          "Bei absehbarem Tierkontakt oder erschwerter Versorgung Tollwut individuell abklären."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Es ist kein lokales Malariarisiko bekannt. Andere Länder auf der Reiseroute gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/jordaniensicherheit/218008",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC Malariatabelle",
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/j.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Amman",
+            "address": "25 Benghasi Street, Jabal Amman, Jordanien",
+            "phone": "+962 6 590 1230",
+            "emergency": "+962 6 590 1230 (Ansage zum Bereitschaftsdienst)",
+            "scope": "Jordanien. Außerhalb der Dienstzeit der Ansage der Botschaft folgen.",
+            "url": "https://amman.diplo.de/jo-de/botschaft/218024-218024"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-18",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/jordaniensicherheit/218008",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/jordaniensicherheit/218008",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/jordan",
+          "https://www.cdc.gov/malaria/travelers/country_table/j.html",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://amman.diplo.de/jo-de/botschaft/218024-218024"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/jordaniensicherheit/218008",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/jordan",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/j.html",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://amman.diplo.de/jo-de/botschaft/218024-218024",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO-Ländertabelle führt bei Reiseexposition Hepatitis B und Typhus auf. Das Auswärtige Amt nennt bei besonderer Exposition zusätzlich Tollwut.",
+          "Die STIKO-Ländertabelle nennt keine generelle Nachweispflicht. Die vom Auswärtigen Amt genannten Gelbfieber- und Polioauflagen beziehen sich auf bestimmte Anreiserouten."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-18"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-18",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Die reisemedizinische Einstufung erfolgt nach Anreiseland und Exposition ohne feste regionale Risikozonen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/jordaniensicherheit/218008",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/jordan",
+          "https://www.cdc.gov/malaria/travelers/country_table/j.html",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": [
+          "Einreise ab einem Jahr nach Aufenthalt in einem Gelbfiebergebiet oder mehr als zwölf Stunden Flughafentransit dort: Gelbfiebernachweis nach Angabe des Auswärtigen Amts prüfen.",
+          "Bei Anreise aus einem Poliorisikogebiet den aktuellen Impfnachweis für diese Route prüfen.",
+          "Bei absehbarem Tierkontakt oder erschwerter Versorgung Tollwut individuell abklären."
+        ]
+      }
+    },
+    "OM": {
+      "name": "Oman",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-18",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Maskat: tagsüber vor Mückenstichen schützen. Bei relevanter Exposition die Dengue-Impfung nach STIKO-Indikation prüfen.",
+          "Ab neun Monaten bei relevantem Gelbfieber-Voraufenthalt oder Transit über zwölf Stunden den Impfnachweis prüfen. Laut Auswärtigem Amt zählt Oman auch Ruanda und Tansania dazu.",
+          "Bei Wildtierkontakt und abgelegenen Etappen Zugang zur medizinischen Versorgung klären."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "uncertain",
+        "preventionType": "exposure_only",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "CDC beschreibt seltene Übertragungen nach importierten Fällen. Mückenschutz einplanen. Eine routinemäßige medikamentöse Malariaprophylaxe ist für Oman nicht vorgesehen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/omansicherheit-204160",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC Malariatabelle",
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/o.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Maskat",
+            "address": "Diplomatic Area, Al-Khuwair, Jami'at Al-Duwal Al-Arabiah Street, Maskat, Oman",
+            "phone": "+968 2469 1218",
+            "emergency": "+968 9121 8549",
+            "scope": "Oman. Konsularischer Bereitschaftsdienst laut Botschaft nach Dienstschluss bis Mitternacht.",
+            "url": "https://maskat.diplo.de/om-de/01-ueber-uns/botschaft"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-18",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/omansicherheit-204160",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/omansicherheit-204160",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/oman",
+          "https://www.cdc.gov/malaria/travelers/country_table/o.html",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://maskat.diplo.de/om-de/01-ueber-uns/botschaft"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/omansicherheit-204160",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/oman",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/o.html",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://maskat.diplo.de/om-de/01-ueber-uns/botschaft",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt beschreibt seltene Dengue-Meldungen im Raum Maskat. Das ist keine Aussage über einen laufenden Ausbruch.",
+          "Die STIKO-Ländertabelle nennt kein bekanntes Malariarisiko. CDC führt seltene Übertragungen nach Import auf und empfiehlt Mückenschutz ohne routinemäßige Chemoprophylaxe.",
+          "Das Auswärtige Amt nennt bei besonderer Exposition zusätzlich Typhus und Tollwut. Beide sind in der STIKO-Ländertabelle für Oman nicht als Reiseimpfungen aufgeführt."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Raum Maskat: Aus dem Raum Maskat sind sporadische Dengue-Meldungen bekannt. Tagsüber Mückenschutz anwenden und bei besonderer Exposition die Impfentscheidung individuell prüfen.",
+          "Oman – Etappen außerhalb Maskats: Für weitere Etappen aktuelle Meldungen zum Aufenthaltsort prüfen. Mückenschutz einplanen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-18"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-18",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "dengue"
+        ],
+        "regionIds": [
+          "OM-MUSCAT",
+          "OM-OTHER"
+        ],
+        "reason": "Regionale Infektionsmeldungen machen die genaue Reiseroute für die individuelle Beratung relevant.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/omansicherheit-204160",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/oman",
+          "https://www.cdc.gov/malaria/travelers/country_table/o.html",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": [
+          "Maskat: tagsüber vor Mückenstichen schützen. Bei relevanter Exposition die Dengue-Impfung nach STIKO-Indikation prüfen.",
+          "Ab neun Monaten bei relevantem Gelbfieber-Voraufenthalt oder Transit über zwölf Stunden den Impfnachweis prüfen. Laut Auswärtigem Amt zählt Oman auch Ruanda und Tansania dazu.",
+          "Bei Wildtierkontakt und abgelegenen Etappen Zugang zur medizinischen Versorgung klären."
+        ]
+      }
+    },
+    "AE": {
+      "name": "Vereinigte Arabische Emirate",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-18",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Ab neun Monaten bei relevantem Gelbfieber-Voraufenthalt oder Transit über zwölf Stunden dort den Nachweis prüfen.",
+          "Typhus bei sehr einfachem Reisestil und engem Kontakt zur Bevölkerung individuell prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Es ist kein lokales Malariarisiko bekannt. Andere Länder auf der Reiseroute gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vereinigtearabischeemiratesicherheit-202332",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC Malariatabelle",
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/u.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Abu Dhabi",
+            "address": "The Towers at the Trade Center, West Tower, 14. Stock, Abu Dhabi Mall, Abu Dhabi, Vereinigte Arabische Emirate",
+            "phone": "+971 2 596 7700",
+            "emergency": "+971 50 650 4134",
+            "scope": "Konsularische Zuständigkeit und Bereitschaftszeiten beim Originalkontakt prüfen.",
+            "url": "https://uae.diplo.de/ae-de/ueber-uns/botschaft"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-18",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vereinigtearabischeemiratesicherheit-202332",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vereinigtearabischeemiratesicherheit-202332",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/united-arab-emirates",
+          "https://www.cdc.gov/malaria/travelers/country_table/u.html",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://uae.diplo.de/ae-de/ueber-uns/botschaft"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vereinigtearabischeemiratesicherheit-202332",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/united-arab-emirates",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/u.html",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://uae.diplo.de/ae-de/ueber-uns/botschaft",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Gelbfieber betrifft die Anreiseroute. Bei direkter Einreise aus Deutschland sind laut Auswärtigem Amt keine Pflichtimpfungen vorgeschrieben.",
+          "Für die Malariaprävention ergibt sich keine regionale Unterteilung."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-18"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-18",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Die reisemedizinische Einstufung erfolgt nach Anreiseland und Exposition ohne feste regionale Risikozonen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/vereinigtearabischeemiratesicherheit-202332",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/united-arab-emirates",
+          "https://www.cdc.gov/malaria/travelers/country_table/u.html",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": [
+          "Ab neun Monaten bei relevantem Gelbfieber-Voraufenthalt oder Transit über zwölf Stunden dort den Nachweis prüfen.",
+          "Typhus bei sehr einfachem Reisestil und engem Kontakt zur Bevölkerung individuell prüfen."
         ]
       }
     }
