@@ -2461,6 +2461,132 @@
       ],
       "reuseRightsChecked": true,
       "summary": "Für weitere Etappen aktuelle Meldungen zum Aufenthaltsort prüfen. Mückenschutz einplanen."
+    },
+    {
+      "id": "AU-TORRES",
+      "country": "AU",
+      "status": "route_required",
+      "scope": "Äußere Inseln der Torres-Straße",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/australien-node/australiensicherheit-213920",
+        "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/japanese-encephalitis.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Japanische Enzephalitis bei längeren Aufenthalten und bei relevanter Mückenexposition individuell prüfen. Die lokalen Hinweise zur Reisezeit beachten."
+    },
+    {
+      "id": "AU-MURRAY",
+      "country": "AU",
+      "status": "route_required",
+      "scope": "Ländliches Murray-Tal",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/australien-node/australiensicherheit-213920",
+        "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/japanese-encephalitis.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für ländliche Etappen mit Mückenexposition die aktuellen örtlichen Hinweise zur Japanischen Enzephalitis und eine mögliche Impfung prüfen."
+    },
+    {
+      "id": "AU-NORTH",
+      "country": "AU",
+      "status": "route_required",
+      "scope": "Nordqueensland und Cape York",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/australien-node/australiensicherheit-213920",
+        "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/japanese-encephalitis.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Mückenschutz einplanen. Bei ländlichen Etappen genaue Orte und aktuelle Hinweise zu Dengue und Japanischer Enzephalitis prüfen."
+    },
+    {
+      "id": "AU-TIWI",
+      "country": "AU",
+      "status": "route_required",
+      "scope": "Tiwi-Inseln",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/australien-node/australiensicherheit-213920",
+        "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/japanese-encephalitis.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Vor exponierten Aufenthalten aktuelle lokale Hinweise zur Japanischen Enzephalitis und die individuelle Impfindikation prüfen."
+    },
+    {
+      "id": "CA-NORTH",
+      "country": "CA",
+      "status": "route_required",
+      "scope": "Nördliche Landesteile Kanadas",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kanadasicherheit-204874",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/canada"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Das Auswärtige Amt hebt Hepatitis B bei Aufenthalten im Norden hervor. Impfstatus, Aufenthaltsdauer und Exposition in die Beratung einbeziehen."
+    },
+    {
+      "id": "CA-CITY",
+      "country": "CA",
+      "status": "route_required",
+      "scope": "Kanada – Städtereise",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kanadasicherheit-204874",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/canada"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Hepatitis B nach individueller Exposition beurteilen. Weiterreisen in den Norden separat erfassen."
+    },
+    {
+      "id": "US-FL",
+      "country": "US",
+      "status": "route_required",
+      "scope": "Florida",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/usavereinigtestaatensicherheit-201382",
+        "https://www.cdc.gov/dengue/php/public-health-considerations/index.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "In Florida wurde lokale Dengue-Übertragung dokumentiert. Vor der Reise aktuelle Meldungen für den Aufenthaltsort prüfen und tagsüber Mückenschutz anwenden."
+    },
+    {
+      "id": "US-HI",
+      "country": "US",
+      "status": "route_required",
+      "scope": "Hawaii",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/usavereinigtestaatensicherheit-201382",
+        "https://www.cdc.gov/dengue/php/public-health-considerations/index.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Auf Hawaii sind einzelne frühere lokale Dengue-Übertragungen dokumentiert. Aktuelle Hinweise für die konkrete Insel beachten."
+    },
+    {
+      "id": "US-SOUTHWEST",
+      "country": "US",
+      "status": "route_required",
+      "scope": "Texas, Arizona oder Kalifornien",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/usavereinigtestaatensicherheit-201382",
+        "https://www.cdc.gov/dengue/php/public-health-considerations/index.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "In Teilen dieser Bundesstaaten wurden lokal erworbene Dengue-Fälle beobachtet. Aktuelle örtliche Meldungen und Reiseroute prüfen."
     }
   ]
 }
