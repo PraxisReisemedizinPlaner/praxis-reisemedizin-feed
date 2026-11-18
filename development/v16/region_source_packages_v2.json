@@ -2587,6 +2587,171 @@
       ],
       "reuseRightsChecked": true,
       "summary": "In Teilen dieser Bundesstaaten wurden lokal erworbene Dengue-Fälle beobachtet. Aktuelle örtliche Meldungen und Reiseroute prüfen."
+    },
+    {
+      "id": "HR-NORTH",
+      "country": "HR",
+      "status": "route_required",
+      "scope": "Nord- und Nordostkroatien",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kroatiensicherheit-210072",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Die höchsten gemeldeten FSME-Risiken liegen im Norden und Nordosten. Bei Zeckenexposition ist die Impfindikation zu prüfen."
+    },
+    {
+      "id": "HR-MOUNTAINS",
+      "country": "HR",
+      "status": "route_required",
+      "scope": "Zentrales Bergland",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kroatiensicherheit-210072",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Das gemeldete FSME-Risiko ist geringer als in den nördlichen Schwerpunkten. Bei Wanderungen oder Camping den Impfstatus individuell prüfen."
+    },
+    {
+      "id": "HR-COAST",
+      "country": "HR",
+      "status": "route_required",
+      "scope": "Adriaküste und Inseln",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kroatiensicherheit-210072",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Im adriatischen Küstenraum sind einzelne FSME-Fälle beschrieben. Ausflüge ins Inland und Zeckenexposition gesondert erfassen."
+    },
+    {
+      "id": "SI-NORTH-CENTRAL",
+      "country": "SI",
+      "status": "route_required",
+      "scope": "Nord- und Zentralslowenien",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/sloweniensicherheit-210644",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Übertragungsherde kommen landesweit vor, mit höherer gemeldeter Inzidenz im Norden und in der Mitte. Bei Wald- und Wiesenkontakt FSME-Impfung prüfen."
+    },
+    {
+      "id": "SI-OTHER",
+      "country": "SI",
+      "status": "route_required",
+      "scope": "Weitere Etappen in Slowenien",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/sloweniensicherheit-210644",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Auch außerhalb der Schwerpunkte sind FSME-Übertragungen möglich. Zeckenexposition und Ausflüge in andere Regionen berücksichtigen."
+    },
+    {
+      "id": "CH-TI",
+      "country": "CH",
+      "status": "route_required",
+      "scope": "Tessin",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/schweizsicherheit-206208",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Das Tessin ist nach BAG nicht als FSME-Risikogebiet eingestuft. Zeckenschutz bleibt sinnvoll. Weiterreisen in andere Kantone oder Länder gesondert bewerten."
+    },
+    {
+      "id": "CH-TG",
+      "country": "CH",
+      "status": "route_required",
+      "scope": "Thurgau",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/schweizsicherheit-206208",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Die STIKO-Ländertabelle führt Thurgau als hochendemisch auf. Bei Zeckenexposition FSME-Impfschutz prüfen."
+    },
+    {
+      "id": "CH-OTHER",
+      "country": "CH",
+      "status": "route_required",
+      "scope": "Weitere Schweizer Kantone",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/schweizsicherheit-206208",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Nach BAG gelten außer dem Tessin alle Schweizer Kantone einschließlich Genf als Risikogebiete. Bei Zeckenexposition den Impfstatus prüfen."
+    },
+    {
+      "id": "CZ-SOUTH",
+      "country": "CZ",
+      "status": "route_required",
+      "scope": "Südböhmen",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/tschechischerepublik-node/tschechischerepubliksicherheit-210456",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Südböhmen zählt zu den FSME-Schwerpunkten. Bei Zeckenexposition, etwa beim Wandern oder Camping, FSME-Impfschutz prüfen."
+    },
+    {
+      "id": "CZ-PRAGUE",
+      "country": "CZ",
+      "status": "route_required",
+      "scope": "Prag und Mittelböhmen",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/tschechischerepublik-node/tschechischerepubliksicherheit-210456",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Auch in Prager Parks und Waldgebieten sowie in Mittelböhmen ist Zeckenexposition relevant. Aktivitäten im Freien bei der Impfberatung berücksichtigen."
+    },
+    {
+      "id": "CZ-OTHER",
+      "country": "CZ",
+      "status": "route_required",
+      "scope": "Weitere Etappen in Tschechien",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/tschechischerepublik-node/tschechischerepubliksicherheit-210456",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Übertragungsherde kommen auch außerhalb Südböhmens vor. Zeckenexposition auf der genauen Route prüfen."
     }
   ]
 }

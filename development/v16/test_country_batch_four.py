@@ -20,8 +20,8 @@ class FourthCountryBatchTests(unittest.TestCase):
             self.c["countries"][code]["publicationAllowed"]=False
             self.c["countries"][code]["medicalReview"]["status"]="pending"
         out=build_public(self.c,date(2026,11,18))
-        self.assertEqual(out["coverageCount"],42)
-        self.assertEqual(out["approvedCount"],34)
+        self.assertEqual(out["coverageCount"],46)
+        self.assertEqual(out["approvedCount"],38)
         for code in ("LK","NP","MY","PH"):
             self.assertIn(code,out["countries"])
             self.assertEqual(self.c["countries"][code]["medicalReview"]["reviewer"],"Dr. med. Sebastian Münster")
@@ -31,7 +31,7 @@ class FourthCountryBatchTests(unittest.TestCase):
                 self.assertNotIn("malaria",r)
                 self.assertNotIn("sourceNotice",r)
     def test_country_routes_sources_and_contacts_ready(self):
-        self.assertEqual(validate_all(self.c,self.g,self.s),42)
+        self.assertEqual(validate_all(self.c,self.g,self.s),46)
         for code in CODES:
             p=self.c["countries"][code]
             self.assertTrue(p["publicationAllowed"])
@@ -48,7 +48,7 @@ class FourthCountryBatchTests(unittest.TestCase):
             p["medicalReview"]={"status":"approved","reviewer":"TEST ONLY","reviewedAt":"2026-11-15",
                 "nextReviewDate":"2027-01-15","approvedSources":p["sourceReview"]["proposedSources"]}
             for f in ("vaccineAssessment","malariaAssessment","missions"):p[f]["status"]="approved"
-        self.assertEqual(build_public(self.c,date(2026,11,18))["approvedCount"],38)
+        self.assertEqual(build_public(self.c,date(2026,11,18))["approvedCount"],42)
         rows={r["id"]:r for r in build_public_regions(self.g,self.c,self.s,date(2026,11,18))["regions"]}
         for rid in ("KH-ANGKOR","ZA-KRUGER","BR-IGUACU"):
             self.assertEqual(rows[rid]["clinicalStatus"],"source_conflict")
