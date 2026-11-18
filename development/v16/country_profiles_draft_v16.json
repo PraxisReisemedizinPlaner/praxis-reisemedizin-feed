@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 46,
+  "countryCount": 50,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -8015,11 +8015,36 @@
     "HR": {
       "name": "Kroatien",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-18",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kroatiensicherheit-210072",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://zagreb.diplo.de/hr-de",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -8027,7 +8052,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -8043,7 +8068,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -8063,7 +8088,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Zagreb",
@@ -8078,7 +8103,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-18",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-18",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kroatiensicherheit-210072",
         "evidenceLinks": [
@@ -8117,7 +8142,7 @@
           "Die STIKO-Ländertabelle führt FSME und Hepatitis B bei Exposition auf. Das Auswärtige Amt nennt zusätzlich Tollwut bei besonderer Exposition oder Langzeitaufenthalt."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Nord- und Nordostkroatien: Die höchsten gemeldeten FSME-Risiken liegen im Norden und Nordosten. Bei Zeckenexposition ist die Impfindikation zu prüfen.",
           "Zentrales Bergland: Das gemeldete FSME-Risiko ist geringer als in den nördlichen Schwerpunkten. Bei Wanderungen oder Camping den Impfstatus individuell prüfen.",
@@ -8128,9 +8153,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-18"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-18",
+          "statement": "Die vier Länder wird freigeben und die nächsten. Bearbeiten",
+          "scope": "Kroatien, Slowenien, Schweiz und Tschechien einschließlich der regionalen Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-18",
         "regionalSelectionRequired": true,
@@ -8156,11 +8186,36 @@
     "SI": {
       "name": "Slowenien",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-18",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/sloweniensicherheit-210644",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://ljubljana.diplo.de/si-de",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -8168,7 +8223,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -8184,7 +8239,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -8204,7 +8259,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Ljubljana",
@@ -8219,7 +8274,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-18",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-18",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/sloweniensicherheit-210644",
         "evidenceLinks": [
@@ -8258,7 +8313,7 @@
           "Die STIKO-Ländertabelle führt Hepatitis A als allgemeine Reiseimpfung auf. FSME und Hepatitis B werden nach Exposition beurteilt."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Nord- und Zentralslowenien: Übertragungsherde kommen landesweit vor, mit höherer gemeldeter Inzidenz im Norden und in der Mitte. Bei Wald- und Wiesenkontakt FSME-Impfung prüfen.",
           "Weitere Etappen in Slowenien: Auch außerhalb der Schwerpunkte sind FSME-Übertragungen möglich. Zeckenexposition und Ausflüge in andere Regionen berücksichtigen."
@@ -8268,9 +8323,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-18"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-18",
+          "statement": "Die vier Länder wird freigeben und die nächsten. Bearbeiten",
+          "scope": "Kroatien, Slowenien, Schweiz und Tschechien einschließlich der regionalen Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-18",
         "regionalSelectionRequired": true,
@@ -8295,11 +8355,48 @@
     "CH": {
       "name": "Schweiz",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-18",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/schweizsicherheit-206208",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://bern.diplo.de/ch-de/service/02-service",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.bag.admin.ch/de/fruehsommer-meningoenzephalitis-fsme",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://bern.diplo.de/ch-de/service/01-hilfe-fuer-deutsche-1218354",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -8307,7 +8404,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [],
         "riskBased": [
           "FSME",
@@ -8321,7 +8418,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -8341,7 +8438,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Bern – Rechts- und Konsularabteilung",
@@ -8356,7 +8453,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-18",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-18",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/schweizsicherheit-206208",
         "evidenceLinks": [
@@ -8409,7 +8506,7 @@
           "BAG und STIKO-Ländertabelle führen das Tessin als Ausnahme der schweizerischen FSME-Risikoeinstufung. Genf gehört nach BAG zu den Risikogebieten."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Tessin: Das Tessin ist nach BAG nicht als FSME-Risikogebiet eingestuft. Zeckenschutz bleibt sinnvoll. Weiterreisen in andere Kantone oder Länder gesondert bewerten.",
           "Thurgau: Die STIKO-Ländertabelle führt Thurgau als hochendemisch auf. Bei Zeckenexposition FSME-Impfschutz prüfen.",
@@ -8420,9 +8517,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-18"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-18",
+          "statement": "Die vier Länder wird freigeben und die nächsten. Bearbeiten",
+          "scope": "Kroatien, Slowenien, Schweiz und Tschechien einschließlich der regionalen Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-18",
         "regionalSelectionRequired": true,
@@ -8449,11 +8551,36 @@
     "CZ": {
       "name": "Tschechien",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-18",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/tschechischerepublik-node/tschechischerepubliksicherheit-210456",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://prag.diplo.de/cz-de/botschaft/2480752-2480752",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -8461,7 +8588,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -8477,7 +8604,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -8497,7 +8624,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Prag",
@@ -8512,7 +8639,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-18",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-18",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/tschechischerepublik-node/tschechischerepubliksicherheit-210456",
         "evidenceLinks": [
@@ -8551,7 +8678,7 @@
           "Das Auswärtige Amt berichtet über eine Hepatitis-A-Häufung besonders in Prag und weiteren Regionen. Die allgemeine Hepatitis-A-Reiseimpfempfehlung stützt sich auf die STIKO-Ländertabelle."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Südböhmen: Südböhmen zählt zu den FSME-Schwerpunkten. Bei Zeckenexposition, etwa beim Wandern oder Camping, FSME-Impfschutz prüfen.",
           "Prag und Mittelböhmen: Auch in Prager Parks und Waldgebieten sowie in Mittelböhmen ist Zeckenexposition relevant. Aktivitäten im Freien bei der Impfberatung berücksichtigen.",
@@ -8562,9 +8689,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-18"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-18",
+          "statement": "Die vier Länder wird freigeben und die nächsten. Bearbeiten",
+          "scope": "Kroatien, Slowenien, Schweiz und Tschechien einschließlich der regionalen Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-18",
         "regionalSelectionRequired": true,
@@ -8584,6 +8716,613 @@
         ],
         "otherRegionalFactors": [
           "FSME-Impfschutz bei Zeckenexposition prüfen, auch bei Aufenthalten in Parks oder Wäldern im Stadtgebiet Prag."
+        ]
+      }
+    },
+    "FR": {
+      "name": "Frankreich",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-18",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [],
+        "riskBased": [
+          "FSME",
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Festland und Korsika. Bei Zeckenexposition FSME örtlich prüfen.",
+          "Chikungunya: Bei Reisen in ein Gebiet mit aktuellem Ausbruch STIKO-Indikation ab 12 Jahren prüfen. Ort und Reisezeit mit aktuellen ECDC-Meldungen abgleichen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für das europäische Frankreich einschließlich Korsika ist keine medikamentöse Malariaprophylaxe vorgesehen. Für französische Überseegebiete die eigene Länderbewertung heranziehen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/frankreichsicherheit-209524",
+            "use": "external_link_only"
+          },
+          {
+            "label": "STIKO-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Paris – Rechts- und Konsularabteilung",
+            "address": "28 rue Marbeau, 75116 Paris",
+            "phone": "+33 1 53 83 45 00",
+            "emergency": "+33 6 11 76 22 55",
+            "scope": "Konsularbezirk und Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://allemagneenfrance.diplo.de/fr-de/1355348-1355348"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-18",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/frankreichsicherheit-209524",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/frankreichsicherheit-209524",
+          "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.ecdc.europa.eu/en/public-health-events/2026-evd-00016/2026-11-13",
+          "https://allemagneenfrance.diplo.de/fr-de/1355348-1355348",
+          "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+          "https://chik-weekly.ecdc.europa.eu/"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/frankreichsicherheit-209524",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.ecdc.europa.eu/en/public-health-events/2026-evd-00016/2026-11-13",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://allemagneenfrance.diplo.de/fr-de/1355348-1355348",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://chik-weekly.ecdc.europa.eu/",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Frankreichprofil gilt für das europäische Frankreich einschließlich Korsika. Reiseziele in Übersee benötigen eigene Bewertungen.",
+          "Quellenabweichung: Das Auswärtige Amt empfiehlt Hepatitis A für die Mittelmeerküste und Korsika. Die STIKO-Ländertabelle nennt für das europäische Frankreich keine allgemeine Hepatitis-A-Reiseimpfung. Individuelle Indikation prüfen.",
+          "ECDC meldete am 13.11.2026 aktive lokale Chikungunya-Cluster unter anderem in Prayssac und Cavalaire-sur-Mer (Datenstand 11.11.2026). Vor der Reise aktuellen Status prüfen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Elsass und Oberrheinebene: Bei Zeckenexposition im Elsass und in der Rheinebene FSME-Impfung prüfen.",
+          "Auvergne-Rhône-Alpes: Bei Zeckenexposition in lokalen FSME-Gebieten der Region die Impfindikation prüfen.",
+          "Cavalaire-sur-Mer und weitere Etappen im Var: Chikungunya-Meldestatus für den konkreten Reiseort und Zeitraum abgleichen. Für die Mittelmeerküste empfiehlt das Auswärtige Amt Hepatitis A.",
+          "Prayssac und weitere Etappen im Lot: Aktuellen Chikungunya-Meldestatus für den konkreten Reiseort und Zeitraum prüfen.",
+          "Mittelmeerküste außerhalb des Var und Korsika: Das Auswärtige Amt empfiehlt Hepatitis A für Mittelmeerküste und Korsika. Aktuelle lokale Chikungunya-Meldungen bei passender Route abgleichen.",
+          "Weitere Etappen im europäischen Frankreich: Bei Zeckenexposition lokale FSME-Hinweise und bei aktuellen Chikungunya-Meldungen den genauen Reiseort abgleichen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-18"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-18",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "tick_borne",
+          "chikungunya"
+        ],
+        "regionIds": [
+          "FR-ALSACE",
+          "FR-ALPS",
+          "FR-VAR",
+          "FR-LOT",
+          "FR-MED",
+          "FR-OTHER"
+        ],
+        "reason": "FSME-Indikation und die Bewertung aktueller Chikungunya-Ausbrüche hängen vom Reiseort, der Exposition und dem Reisezeitpunkt ab.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/frankreichsicherheit-209524",
+          "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.ecdc.europa.eu/en/public-health-events/2026-evd-00016/2026-11-13"
+        ],
+        "otherRegionalFactors": [
+          "Festland und Korsika. Bei Zeckenexposition FSME örtlich prüfen.",
+          "Chikungunya: Bei Reisen in ein Gebiet mit aktuellem Ausbruch STIKO-Indikation ab 12 Jahren prüfen. Ort und Reisezeit mit aktuellen ECDC-Meldungen abgleichen."
+        ]
+      }
+    },
+    "SE": {
+      "name": "Schweden",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-18",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [],
+        "riskBased": [
+          "FSME",
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Bei Aufenthalt in Gras, Buschwerk oder Wald die FSME-Indikation für die konkret bereisten Orte prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für die übliche Reise ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Länder auf der Route gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/schwedensicherheit-210708",
+            "use": "external_link_only"
+          },
+          {
+            "label": "STIKO-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Stockholm",
+            "address": "Skarpögatan 9, 115 27 Stockholm",
+            "phone": "+46 8 670 15 00",
+            "emergency": "+46 70 852 94 20",
+            "scope": "Schweden. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://stockholm.diplo.de/se-de/botschaft/adresse-oeffnungszeiten-1513416"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-18",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/schwedensicherheit-210708",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/schwedensicherheit-210708",
+          "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://stockholm.diplo.de/se-de/botschaft/adresse-oeffnungszeiten-1513416",
+          "https://stockholm.diplo.de/se-de/service/hilfe-1513290"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/schwedensicherheit-210708",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://stockholm.diplo.de/se-de/botschaft/adresse-oeffnungszeiten-1513416",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://stockholm.diplo.de/se-de/service/hilfe-1513290",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO-Ländertabelle führt FSME und Hepatitis B bei reiseassoziiertem Risiko auf."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Großraum Stockholm, Schären und Mälaren: FSME-Schwerpunkt. Bei Zeckenexposition Impfindikation prüfen.",
+          "Gotland und schwedische Ostküste: Bei Naturaufenthalten lokale FSME-Risikogebiete und Zeckenexposition prüfen.",
+          "Vänern und Vättern: Bei Zeckenexposition in lokalen FSME-Gebieten im Umfeld der Seen Impfindikation prüfen.",
+          "Weitere Etappen in Schweden: Bei Naturaufenthalten lokale FSME-Informationen und Zeckenexposition prüfen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-18"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-18",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "tick_borne"
+        ],
+        "regionIds": [
+          "SE-STOCKHOLM",
+          "SE-GOTLAND",
+          "SE-LAKES",
+          "SE-OTHER"
+        ],
+        "reason": "Region und Zeckenexposition beeinflussen die Prüfung der FSME-Impfindikation.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/schwedensicherheit-210708",
+          "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": [
+          "Bei Aufenthalt in Gras, Buschwerk oder Wald die FSME-Indikation für die konkret bereisten Orte prüfen."
+        ]
+      }
+    },
+    "NO": {
+      "name": "Norwegen",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-18",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [],
+        "riskBased": [
+          "FSME",
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Bei Naturaufenthalten in betroffenen Küstengebieten Südnorwegens FSME anhand der genauen Route und Zeckenexposition prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für die übliche Reise ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Länder auf der Route gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/norwegensicherheit-205878",
+            "use": "external_link_only"
+          },
+          {
+            "label": "STIKO-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Oslo",
+            "address": "Oscars gate 45, 0258 Oslo",
+            "phone": "+47 23 27 54 00",
+            "emergency": "+47 90 85 08 02",
+            "scope": "Norwegen. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://oslo.diplo.de/no-de/ueber-uns/2571920-2571920"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-18",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/norwegensicherheit-205878",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/norwegensicherheit-205878",
+          "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://oslo.diplo.de/no-de/ueber-uns/2571920-2571920"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/norwegensicherheit-205878",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://oslo.diplo.de/no-de/ueber-uns/2571920-2571920",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO-Ländertabelle führt FSME und Hepatitis B bei reiseassoziiertem Risiko auf."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Küste von Agder: FSME-Risikogebiete an der Südküste. Bei Zeckenexposition Impfindikation prüfen.",
+          "Küste von Vestfold und Telemark: Bei Zeckenexposition in den betroffenen Küstenabschnitten FSME-Impfung prüfen.",
+          "Weitere Etappen auf dem norwegischen Festland: Bei Naturaufenthalten lokale FSME-Hinweise beachten und Zwischenstopps an der Südküste gesondert erfassen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-18"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-18",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "tick_borne"
+        ],
+        "regionIds": [
+          "NO-AGDER",
+          "NO-VESTFOLD",
+          "NO-OTHER"
+        ],
+        "reason": "Region und Zeckenexposition beeinflussen die Prüfung der FSME-Impfindikation.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/norwegensicherheit-205878",
+          "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": [
+          "Bei Naturaufenthalten in betroffenen Küstengebieten Südnorwegens FSME anhand der genauen Route und Zeckenexposition prüfen."
+        ]
+      }
+    },
+    "FI": {
+      "name": "Finnland",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-18",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [],
+        "riskBased": [
+          "FSME",
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Bei Naturaufenthalten auf Åland und in betroffenen Küsten- und Schärengebieten die FSME-Indikation prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für die übliche Reise ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Länder auf der Route gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/finnlandsicherheit-211624",
+            "use": "external_link_only"
+          },
+          {
+            "label": "STIKO-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Helsinki",
+            "address": "Krogiuksentie 4b, 00340 Helsinki",
+            "phone": "+358 9 458 580",
+            "emergency": "+358 50 563 6546",
+            "scope": "Finnland. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://helsinki.diplo.de/fi-de/botschaft/1507858-1507858"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-18",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/finnlandsicherheit-211624",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/finnlandsicherheit-211624",
+          "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://helsinki.diplo.de/fi-de/botschaft/1507858-1507858",
+          "https://www.who.int/news/item/13-11-2026-statement-of-the-forty-sixth-meeting-of-the-polio-ihr-emergency-committee"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/finnlandsicherheit-211624",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://helsinki.diplo.de/fi-de/botschaft/1507858-1507858",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/news/item/13-11-2026-statement-of-the-forty-sixth-meeting-of-the-polio-ihr-emergency-committee",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt erinnert an den vollständigen Polio-Standardimpfschutz. Die WHO führt Finnland im Bericht vom 13.11.2026 als nicht mehr infiziert und nennt den letzten Nachweis vom 19.11.2024."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Ålandinseln: Bei Naturaufenthalten auf Åland die FSME-Impfung anhand der Zeckenexposition prüfen.",
+          "Südwestküste und Schärenmeer: FSME-Herde unter anderem in Kustavi und Parainen. Bei Zeckenexposition Impfindikation prüfen.",
+          "Südküste und Schären am Finnischen Meerbusen: Bei Naturaufenthalten in lokalen FSME-Herden, etwa in den Schären, Zeckenexposition und Impfindikation prüfen.",
+          "Weitere Etappen in Finnland: Weitere örtliche FSME-Herde liegen auch außerhalb der Schären. Bei Naturaufenthalten genaue Etappen prüfen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-18"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-18",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "tick_borne"
+        ],
+        "regionIds": [
+          "FI-ALAND",
+          "FI-SOUTHWEST",
+          "FI-GULF",
+          "FI-OTHER"
+        ],
+        "reason": "Region und Zeckenexposition beeinflussen die Prüfung der FSME-Impfindikation.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/finnlandsicherheit-211624",
+          "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": [
+          "Bei Naturaufenthalten auf Åland und in betroffenen Küsten- und Schärengebieten die FSME-Indikation prüfen."
         ]
       }
     }

@@ -17,21 +17,21 @@ class SixthCountryBatchTests(unittest.TestCase):
         self.s=read("region_source_packages_v2.json")
     def test_approved_batch_and_next_drafts_are_separate(self):
         out=build_public(self.c,date(2026,11,18))
-        self.assertEqual(out["coverageCount"],46)
-        self.assertEqual(out["approvedCount"],42)
+        self.assertEqual(out["coverageCount"],50)
+        self.assertEqual(out["approvedCount"],46)
         for code in CODES:
             self.assertIn(code,out["countries"])
             self.assertEqual(self.c["countries"][code]["medicalReview"]["reviewedAt"],"2026-11-18")
-        for code in ("HR","SI","CH","CZ"):
+        for code in ("FR","SE","NO","FI"):
             self.assertNotIn(code,out["countries"])
             self.assertFalse(self.c["countries"][code]["publicationAllowed"])
         rows=build_public_regions(self.g,self.c,self.s,date(2026,11,18))["regions"]
         for r in rows:
-            if r["country"] in ("HR","SI","CH","CZ"):
+            if r["country"] in ("FR","SE","NO","FI"):
                 self.assertNotIn("malaria",r)
                 self.assertNotIn("sourceNotice",r)
     def test_routes_and_evidence_are_complete(self):
-        self.assertEqual(validate_all(self.c,self.g,self.s),46)
+        self.assertEqual(validate_all(self.c,self.g,self.s),50)
         self.assertEqual(sum(r["country"] in CODES for r in self.g["regions"]),12)
         for code in ("NA","BW"):
             self.assertTrue(self.c["countries"][code]["routeAssessment"]["regionalSelectionRequired"])
@@ -47,7 +47,7 @@ class SixthCountryBatchTests(unittest.TestCase):
         for code in CODES:self.assertIn(self.c["countries"][code]["name"],html)
         self.assertIn("2026-11-18",html)
     def test_release_keeps_seasonal_conflicts_unclassified(self):
-        self.assertEqual(build_public(self.c,date(2026,11,18))["approvedCount"],42)
+        self.assertEqual(build_public(self.c,date(2026,11,18))["approvedCount"],46)
         rows={r["id"]:r for r in build_public_regions(self.g,self.c,self.s,date(2026,11,18))["regions"]}
         for rid in ("NA-ETOSHA","NA-KUNENE","BW-OKAVANGO","BW-GABORONE"):
             self.assertEqual(rows[rid]["clinicalStatus"],"source_conflict")

@@ -2752,6 +2752,267 @@
       ],
       "reuseRightsChecked": true,
       "summary": "Übertragungsherde kommen auch außerhalb Südböhmens vor. Zeckenexposition auf der genauen Route prüfen."
+    },
+    {
+      "id": "FR-ALSACE",
+      "country": "FR",
+      "status": "route_required",
+      "scope": "Elsass und Oberrheinebene",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/frankreichsicherheit-209524",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.ecdc.europa.eu/en/public-health-events/2026-evd-00016/2026-11-13"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Zeckenexposition im Elsass und in der Rheinebene FSME-Impfung prüfen."
+    },
+    {
+      "id": "FR-ALPS",
+      "country": "FR",
+      "status": "route_required",
+      "scope": "Auvergne-Rhône-Alpes",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/frankreichsicherheit-209524",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.ecdc.europa.eu/en/public-health-events/2026-evd-00016/2026-11-13"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Zeckenexposition in lokalen FSME-Gebieten der Region die Impfindikation prüfen."
+    },
+    {
+      "id": "FR-VAR",
+      "country": "FR",
+      "status": "route_required",
+      "scope": "Cavalaire-sur-Mer und weitere Etappen im Var",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/frankreichsicherheit-209524",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.ecdc.europa.eu/en/public-health-events/2026-evd-00016/2026-11-13"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Chikungunya-Meldestatus für den konkreten Reiseort und Zeitraum abgleichen. Für die Mittelmeerküste empfiehlt das Auswärtige Amt Hepatitis A."
+    },
+    {
+      "id": "FR-LOT",
+      "country": "FR",
+      "status": "route_required",
+      "scope": "Prayssac und weitere Etappen im Lot",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/frankreichsicherheit-209524",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.ecdc.europa.eu/en/public-health-events/2026-evd-00016/2026-11-13"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Aktuellen Chikungunya-Meldestatus für den konkreten Reiseort und Zeitraum prüfen."
+    },
+    {
+      "id": "FR-MED",
+      "country": "FR",
+      "status": "route_required",
+      "scope": "Mittelmeerküste außerhalb des Var und Korsika",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/frankreichsicherheit-209524",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.ecdc.europa.eu/en/public-health-events/2026-evd-00016/2026-11-13"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Das Auswärtige Amt empfiehlt Hepatitis A für Mittelmeerküste und Korsika. Aktuelle lokale Chikungunya-Meldungen bei passender Route abgleichen."
+    },
+    {
+      "id": "FR-OTHER",
+      "country": "FR",
+      "status": "route_required",
+      "scope": "Weitere Etappen im europäischen Frankreich",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/frankreichsicherheit-209524",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.ecdc.europa.eu/en/public-health-events/2026-evd-00016/2026-11-13"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Zeckenexposition lokale FSME-Hinweise und bei aktuellen Chikungunya-Meldungen den genauen Reiseort abgleichen."
+    },
+    {
+      "id": "SE-STOCKHOLM",
+      "country": "SE",
+      "status": "route_required",
+      "scope": "Großraum Stockholm, Schären und Mälaren",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/schwedensicherheit-210708",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "FSME-Schwerpunkt. Bei Zeckenexposition Impfindikation prüfen."
+    },
+    {
+      "id": "SE-GOTLAND",
+      "country": "SE",
+      "status": "route_required",
+      "scope": "Gotland und schwedische Ostküste",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/schwedensicherheit-210708",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Naturaufenthalten lokale FSME-Risikogebiete und Zeckenexposition prüfen."
+    },
+    {
+      "id": "SE-LAKES",
+      "country": "SE",
+      "status": "route_required",
+      "scope": "Vänern und Vättern",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/schwedensicherheit-210708",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Zeckenexposition in lokalen FSME-Gebieten im Umfeld der Seen Impfindikation prüfen."
+    },
+    {
+      "id": "SE-OTHER",
+      "country": "SE",
+      "status": "route_required",
+      "scope": "Weitere Etappen in Schweden",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/schwedensicherheit-210708",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Naturaufenthalten lokale FSME-Informationen und Zeckenexposition prüfen."
+    },
+    {
+      "id": "NO-AGDER",
+      "country": "NO",
+      "status": "route_required",
+      "scope": "Küste von Agder",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/norwegensicherheit-205878",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "FSME-Risikogebiete an der Südküste. Bei Zeckenexposition Impfindikation prüfen."
+    },
+    {
+      "id": "NO-VESTFOLD",
+      "country": "NO",
+      "status": "route_required",
+      "scope": "Küste von Vestfold und Telemark",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/norwegensicherheit-205878",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Zeckenexposition in den betroffenen Küstenabschnitten FSME-Impfung prüfen."
+    },
+    {
+      "id": "NO-OTHER",
+      "country": "NO",
+      "status": "route_required",
+      "scope": "Weitere Etappen auf dem norwegischen Festland",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/norwegensicherheit-205878",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Naturaufenthalten lokale FSME-Hinweise beachten und Zwischenstopps an der Südküste gesondert erfassen."
+    },
+    {
+      "id": "FI-ALAND",
+      "country": "FI",
+      "status": "route_required",
+      "scope": "Ålandinseln",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/finnlandsicherheit-211624",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Naturaufenthalten auf Åland die FSME-Impfung anhand der Zeckenexposition prüfen."
+    },
+    {
+      "id": "FI-SOUTHWEST",
+      "country": "FI",
+      "status": "route_required",
+      "scope": "Südwestküste und Schärenmeer",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/finnlandsicherheit-211624",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "FSME-Herde unter anderem in Kustavi und Parainen. Bei Zeckenexposition Impfindikation prüfen."
+    },
+    {
+      "id": "FI-GULF",
+      "country": "FI",
+      "status": "route_required",
+      "scope": "Südküste und Schären am Finnischen Meerbusen",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/finnlandsicherheit-211624",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Naturaufenthalten in lokalen FSME-Herden, etwa in den Schären, Zeckenexposition und Impfindikation prüfen."
+    },
+    {
+      "id": "FI-OTHER",
+      "country": "FI",
+      "status": "route_required",
+      "scope": "Weitere Etappen in Finnland",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/finnlandsicherheit-211624",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Weitere örtliche FSME-Herde liegen auch außerhalb der Schären. Bei Naturaufenthalten genaue Etappen prüfen."
     }
   ]
 }

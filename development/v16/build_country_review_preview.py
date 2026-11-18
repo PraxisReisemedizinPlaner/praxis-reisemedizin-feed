@@ -5,7 +5,7 @@ import html
 import json
 from pathlib import Path
 HERE=Path(__file__).resolve().parent
-CODES=("HR","SI","CH","CZ")
+CODES=("FR","SE","NO","FI")
 def esc(s): return html.escape(str(s),quote=True)
 def bullets(items): return "<ul>"+"".join("<li>"+esc(v)+"</li>" for v in items)+"</ul>"
 def render(data,codes=CODES):
@@ -26,8 +26,14 @@ def render(data,codes=CODES):
 def main():
     ap=argparse.ArgumentParser()
     ap.add_argument("--output",type=Path,required=True)
+    ap.add_argument("--batch-copy",action="store_true")
     args=ap.parse_args()
     data=json.loads((HERE/"country_profiles_draft_v16.json").read_text(encoding="utf-8"))
     args.output.parent.mkdir(parents=True,exist_ok=True)
-    args.output.write_text(render(data),encoding="utf-8")
+    html=render(data)
+    args.output.write_text(html,encoding="utf-8")
+    if args.batch_copy:
+        suffix="-".join(CODES).lower()
+        batch_path=args.output.with_name(f"{args.output.stem}-{suffix}{args.output.suffix}")
+        batch_path.write_text(html,encoding="utf-8")
 if __name__=="__main__": main()

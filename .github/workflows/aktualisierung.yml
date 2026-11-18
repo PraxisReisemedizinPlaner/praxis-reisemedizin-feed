@@ -67,7 +67,7 @@ jobs:
       - name: Webseite und aktuelle Daten vorbereiten
         run: |
           mkdir -p _site
-          python development/v16/build_country_review_preview.py --output _site/reisecheck-laender-pruefung.html
+          python development/v16/build_country_review_preview.py --output _site/reisecheck-laender-pruefung.html --batch-copy
           cp index.html public_international_alerts.json country_profiles_v1.json _site/
           cp development/v16/reisecheck_v16_vorschau.html _site/reisecheck-v16-vorschau.html
           cp website/ReiseCheck_Jimdo_V16.html _site/reisecheck-v16-jimdo-test.html
