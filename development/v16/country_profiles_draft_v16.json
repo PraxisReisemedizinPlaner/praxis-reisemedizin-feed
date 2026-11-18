@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 26,
+  "countryCount": 30,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -4112,11 +4112,48 @@
     "MX": {
       "name": "Mexiko",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-18",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/mexikosicherheit-213648",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mexico",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/mexiko-213652",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.gob.mx/salud/articulos/secretaria-de-salud-mantiene-acciones-para-eliminar-la-transmision-de-paludismo?idiom=es",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent country research; no legacy or DTG malaria import",
@@ -4124,7 +4161,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -4143,7 +4180,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -4169,7 +4206,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Mexiko-Stadt",
@@ -4184,7 +4221,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-18",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/mexikosicherheit-213648",
         "evidenceLinks": [
@@ -4239,7 +4276,7 @@
           "STIKO-Impfzuordnung; AA nennt zusätzlich Tollwut bei besonderer Exposition, STIKO keine routinemäßige Reiseimpfung gegen Hunde-Tollwut."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket einschließlich regionaler Quellenabweichungen ärztlich freigegeben.",
         "regionalReview": [
           "Mexiko-Stadt: Mexiko-Stadt: keine routinemäßige Malariaprophylaxe. Weiterreisen in andere Bundesstaaten zusätzlich erfassen.",
           "Yucatán / Quintana Roo: Yucatán/Quintana Roo: keine routinemäßige Malariaprophylaxe. Ausflüge nach Chiapas oder Campeche separat erfassen.",
@@ -4252,9 +4289,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-15"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-18",
+          "statement": "alle 4 Länder sind freigegeben. bitte die nächsten Länder vorbereiten",
+          "scope": "Mexiko, Costa Rica, Dominikanische Republik und Peru einschließlich 19 regionaler Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-15",
         "regionalSelectionRequired": true,
@@ -4280,11 +4322,42 @@
     "CR": {
       "name": "Costa Rica",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-18",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/costarica-node/costaricasicherheit/224816",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/costa-rica/",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://san-jose.diplo.de/cr-de/botschaft/adresse-1512874",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent country research; no legacy or DTG malaria import",
@@ -4292,7 +4365,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -4312,7 +4385,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -4338,7 +4411,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft San José",
@@ -4353,7 +4426,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-18",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/costarica-node/costaricasicherheit/224816",
         "evidenceLinks": [
@@ -4402,7 +4475,7 @@
           "STIKO: Hepatitis A allgemein, weitere genannte Impfungen expositionsabhängig. AA nennt zusätzlich Tollwut bei besonderer Exposition."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket einschließlich regionaler Quellenabweichungen ärztlich freigegeben.",
         "regionalReview": [
           "San José (Stadt): San José: keine routinemäßige Malariaprophylaxe. Weitere Provinzen separat erfassen.",
           "Alajuela (Provinz): Alajuela: CDC empfiehlt Prophylaxe, AA differenziert Norden und übrige Gebiete. Orte und Übernachtungen ärztlich abgleichen.",
@@ -4415,9 +4488,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-15"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-18",
+          "statement": "alle 4 Länder sind freigegeben. bitte die nächsten Länder vorbereiten",
+          "scope": "Mexiko, Costa Rica, Dominikanische Republik und Peru einschließlich 19 regionaler Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-15",
         "regionalSelectionRequired": true,
@@ -4444,11 +4522,42 @@
     "DO": {
       "name": "Dominikanische Republik",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-18",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/dominikanischerepubliksicherheit-206146",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/dominican-republic",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://santo-domingo.diplo.de/do-de/ueber-uns/2013652-2013652",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent country research; no legacy or DTG malaria import",
@@ -4456,7 +4565,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -4476,7 +4585,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -4501,7 +4610,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Santo Domingo",
@@ -4516,7 +4625,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-18",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/dominikanischerepubliksicherheit-206146",
         "evidenceLinks": [
@@ -4564,7 +4673,7 @@
           "STIKO-Risikoimpfungen übernommen. AA nennt zusätzlich Tollwut/gegebenenfalls Cholera bei besonderer Exposition; keine pauschale Übernahme."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket einschließlich regionaler Quellenabweichungen ärztlich freigegeben.",
         "regionalReview": [
           "Punta Cana / La Altagracia: Punta Cana/La Altagracia: CDC empfiehlt auch für Resortgebiete Prophylaxe; AA beschreibt geringes Risiko. Hotel und Ausflüge ärztlich abgleichen.",
           "Santo Domingo / Distrito Nacional: Santo Domingo: CDC erfasst relevante Übertragungsgebiete, AA stuft niedriger ein. Stadtviertel und Etappen ärztlich bewerten.",
@@ -4576,9 +4685,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-15"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-18",
+          "statement": "alle 4 Länder sind freigegeben. bitte die nächsten Länder vorbereiten",
+          "scope": "Mexiko, Costa Rica, Dominikanische Republik und Peru einschließlich 19 regionaler Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-15",
         "regionalSelectionRequired": true,
@@ -4603,11 +4717,48 @@
     "PE": {
       "name": "Peru",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-18",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/perusicherheit-211938",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/peru",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Impfen/Chikungunya/FAQ-Liste_Impfempfehlung.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://lima.diplo.de/pe-de/botschaft/2188422-2188422",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/yellow-book/hcp/americas-caribbean/peru.html",
+            "checkedAt": "2026-11-15",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent country research; no legacy or DTG malaria import",
@@ -4615,7 +4766,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -4637,7 +4788,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -4663,7 +4814,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Lima",
@@ -4678,7 +4829,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-15",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-18",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/perusicherheit-211938",
         "evidenceLinks": [
@@ -4733,7 +4884,7 @@
           "CDC empfiehlt Prophylaxe im Osten unter 2.500 m einschließlich Iquitos/Puerto Maldonado. AA stuft die Städte niedriger als manche umliegenden Waldgebiete ein; Quellenabweichung sichtbar halten."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket einschließlich regionaler Quellenabweichungen ärztlich freigegeben.",
         "regionalReview": [
           "Lima / Ica / Nazca / Arequipa (Städte): Genannte Städte: keine routinemäßige Malariaprophylaxe. Wald- und Tieflandetappen separat erfassen.",
           "Cusco / Machu Picchu / klassische Hochlandroute: Klassische Cusco-/Machu-Picchu-Route: keine routinemäßige Malariaprophylaxe. Höhenanpassung beachten; Tieflandausflüge gesondert erfassen.",
@@ -4746,9 +4897,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-15"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-18",
+          "statement": "alle 4 Länder sind freigegeben. bitte die nächsten Länder vorbereiten",
+          "scope": "Mexiko, Costa Rica, Dominikanische Republik und Peru einschließlich 19 regionaler Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-15",
         "regionalSelectionRequired": true,
@@ -4772,6 +4928,626 @@
         ],
         "otherRegionalFactors": [
           "Höhenkrankheit und Gelbfieber unabhängig von Malaria."
+        ]
+      }
+    },
+    "NA": {
+      "name": "Namibia",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research; no DTG malaria data imported",
+        "originalCheckedDate": "2026-11-18",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A",
+          "Polio"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Direkte Einreise aus Deutschland: keine Pflichtimpfungen."
+        ],
+        "routeDependent": [
+          "Nord- und Safari-Etappen mit Reisemonat angeben; Etosha und Zambezi getrennt erfassen.",
+          "Bei Aufenthalt über vier Wochen: aktuelle Polio-Ausreiseempfehlung und internationalen Impfnachweis prüfen.",
+          "Küstenreise mit Robbenkontakt/Wassersport: Tollwutprävention individuell besprechen.",
+          "Gelbfieber-Voraufenthalt/Transit über zwölf Stunden: Nachweis ab neun Monaten prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Windhuk (Stadt)",
+          "Zambezi / Caprivi",
+          "Kavango / Ohangwena",
+          "Etosha-Nationalpark",
+          "Kunene / Damaraland",
+          "Küste / Namib / südliche Landeshälfte",
+          "Namibia – weitere Nord-/Ostetappen"
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Norden und Nordosten: Malariaprophylaxe ärztlich planen. Bei Etosha/Kunene hängen die Maßnahmen von Monat und genauer Route ab; AA und CDC unterscheiden sich. Windhuk getrennt erfassen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/namibiasicherheit-208314",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/namibia",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Windhuk",
+            "address": "Sanlam|Allianz Centre, 6. Etage, Independence Ave 145, Windhuk, Namibia",
+            "phone": "+264 61 273 100",
+            "emergency": "+264 81 124 3572",
+            "scope": "Namibia; Bereitschaft für dringende konsularische Notfälle bis 22 Uhr.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/namibia-208318"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-18",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/namibiasicherheit-208314",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/namibiasicherheit-208314",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/namibia",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/namibia-208318",
+          "https://www.who.int/news/item/13-11-2026-statement-of-the-forty-sixth-meeting-of-the-polio-ihr-emergency-committee",
+          "https://windhuk.diplo.de/na-de/service/01-hilfefuerdeutsche"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/namibiasicherheit-208314",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/namibia",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/namibia-208318",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/news/item/13-11-2026-statement-of-the-forty-sixth-meeting-of-the-polio-ihr-emergency-committee",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://windhuk.diplo.de/na-de/service/01-hilfefuerdeutsche",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "AA: Zambezi sowie Teile von Kavango/Ohangwena ganzjährig hohes Risiko. Etosha und übriges nördliches Drittel September–Mai hoch, Juni–August mittel; westliches Kunene mittel.",
+          "CDC empfiehlt in mehreren nördlichen und östlichen Verwaltungsregionen Chemoprophylaxe ohne diese saisonale Abgrenzung. Unklare Etappen bleiben ohne feste Risikozuweisung.",
+          "Polio: STIKO-Ländertabelle mit WHO 08/2026 und WHO-Erklärung vom 13.11.2026 abgleichen; Namibia in cVDPV2-Gruppe. Empfehlung für Langzeitaufenthalte ist keine pauschale Einreise-Impfpflicht.",
+          "CDC weist auf Tollwut bei Robben hin; kein historischer Ausbruch wird als dauerhaft aktuell gespeichert."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Windhuk (Stadt): Windhuk: keine routinemäßige Malariaprophylaxe. Nord- und Safari-Etappen separat erfassen.",
+          "Zambezi / Caprivi: Zambezi/Caprivi: ganzjährig hohes Malariarisiko. Medikamentöse Prophylaxe ärztlich planen.",
+          "Kavango / Ohangwena: Kavango/Ohangwena: genaue Orte und Monat angeben. Teilgebiete ganzjährig hoch; übrige Etappen saisonabhängig.",
+          "Etosha-Nationalpark: Etosha: AA September–Mai hohes, Juni–August mittleres Risiko; CDC empfiehlt regional Prophylaxe ohne diese Saisonabgrenzung. Reisemonat ärztlich abgleichen.",
+          "Kunene / Damaraland: Kunene/Damaraland: genaue Übernachtungen angeben. AA unterscheidet westliche und übrige Gebiete sowie Saison; CDC empfiehlt Prophylaxe in Kunene.",
+          "Küste / Namib / südliche Landeshälfte: Küste/Namib/Süden: AA nennt Malariafreiheit; CDC beschreibt seltene Fälle außerhalb seiner Hauptgebiete. Keine pauschale Arzneimittelempfehlung; Nordetappen zusätzlich erfassen.",
+          "Namibia – weitere Nord-/Ostetappen: Weitere Nord-/Ostetappen: Ort und Reisemonat angeben. AA und CDC grenzen die Prophylaxegebiete unterschiedlich ab."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-18"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-18",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria"
+        ],
+        "regionIds": [
+          "NA-WINDHOEK",
+          "NA-ZAMBEZI",
+          "NA-KAVANGO",
+          "NA-ETOSHA",
+          "NA-KUNENE",
+          "NA-COAST",
+          "NA-OTHER"
+        ],
+        "reason": "Region und Saison verändern die Malariaprävention; genaue Etappen und Quellenabweichungen berücksichtigen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/namibiasicherheit-208314",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/namibia",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": []
+      }
+    },
+    "BW": {
+      "name": "Botswana",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research; no DTG malaria data imported",
+        "originalCheckedDate": "2026-11-18",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Hepatitis B",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Direkte Einreise aus Deutschland: keine Pflichtimpfungen."
+        ],
+        "routeDependent": [
+          "Chobe, Okavango/Moremi und Kalahari getrennt mit Reisemonat angeben.",
+          "Gelbfieber-Voraufenthalt oder Transit: Nachweis ab einem Jahr prüfen; auch kurze Transits abklären."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Chobe-Nationalpark / Kasane",
+          "Okavango / Moremi / Maun",
+          "Makgadikgadi / Nxai Pan",
+          "Gaborone (Stadt)",
+          "Kalahari / südliche und östliche Distrikte"
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Chobe/Norden: Malariaprophylaxe ärztlich planen. Okavango, Moremi und Maun saisonabhängig beurteilen. Für südliche Etappen bestehen Quellenabweichungen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/botsuanasicherheit-219522",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/botswana",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Gaborone",
+            "address": "Queens Road 1079–1084, Main Mall, Gaborone, Botswana",
+            "phone": "+267 395 3143",
+            "emergency": "+267 71 300 139",
+            "scope": "Botswana; Notdienst für dringende konsularische Notfälle.",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/botsuana-node/botsuana-219508"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-18",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/botsuanasicherheit-219522",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/botsuanasicherheit-219522",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/botswana",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/service/laender/botsuana-node/botsuana-219508"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/botsuanasicherheit-219522",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/botswana",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/botsuana-node/botsuana-219508",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "AA: nördliches Chobe/Ngamiland ganzjährig hoch. Übrige Nordhälfte September–Mai hoch, Juni–August mittel; genaue Parkabschnitte und Monat erfassen.",
+          "CDC empfiehlt in mehreren Distrikten einschließlich Okavango, Ghanzi und Francistown Chemoprophylaxe; AA beschreibt südliche Gebiete niedriger. Gaborone wird unterschiedlich eingestuft.",
+          "Victoriafälle liegen außerhalb Botswanas: tatsächliches Land als zusätzliches Reiseziel erfassen.",
+          "Keine automatische Notfallmedikation aus Entfernung oder Reisedauer ableiten."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Chobe-Nationalpark / Kasane: Chobe: nördliche Parkteile ganzjährig hohes Risiko, südliche Teile saisonabhängig. Camp und Reisemonat angeben; Prophylaxe ärztlich planen.",
+          "Okavango / Moremi / Maun: Okavango/Moremi/Maun: AA September–Mai hoch, Juni–August mittel; CDC empfiehlt Prophylaxe ohne diese Saisonabgrenzung. Reisemonat ärztlich prüfen.",
+          "Makgadikgadi / Nxai Pan: Makgadikgadi/Nxai Pan: saisonale AA-Einstufung und CDC-Prophylaxegebiete unterscheiden sich. Camp, Distrikt und Reisemonat angeben.",
+          "Gaborone (Stadt): Gaborone: AA nennt geringes Risiko, CDC keine Übertragung. Keine pauschale Malariafreiheit; Weiterreisen separat erfassen.",
+          "Kalahari / südliche und östliche Distrikte: Kalahari/Süd- und Ostetappen: genaue Orte angeben. CDC empfiehlt in mehreren Distrikten Prophylaxe; AA stuft Teile niedriger ein."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-18"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-18",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria"
+        ],
+        "regionIds": [
+          "BW-CHOBE",
+          "BW-OKAVANGO",
+          "BW-PANS",
+          "BW-GABORONE",
+          "BW-SOUTH"
+        ],
+        "reason": "Region und Saison verändern die Malariaprävention; genaue Etappen und Quellenabweichungen berücksichtigen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/botsuanasicherheit-219522",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/botswana",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": []
+      }
+    },
+    "MU": {
+      "name": "Mauritius",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research; no DTG malaria data imported",
+        "originalCheckedDate": "2026-11-18",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Direkte Einreise aus Deutschland: keine Pflichtimpfungen."
+        ],
+        "routeDependent": [
+          "Voraufenthalte in Ausbruchsgebieten und aktuelle Einreiseauflagen vor Abflug prüfen.",
+          "Tollwut: widersprüchliche Quellenangaben; Tierkontakte und Erreichbarkeit der Behandlung individuell prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Kein bekanntes lokales Malariarisiko; keine routinemäßige Malariaprophylaxe. Bei Kombinationsreisen weitere Länder gesondert erfassen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/mauritiussicherheit-206994",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mauritius",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Antananarivo – zuständig für Mauritius",
+            "address": "101, Rue du Pasteur Rabeony Hans, Ambodirotra, Antananarivo 101, Madagaskar",
+            "phone": "+261 20 222 3802",
+            "emergency": "+261 37 03 457 39",
+            "scope": "Madagaskar und Mauritius; Honorarkonsul Ebène: +230 5253 0300, nach Terminvereinbarung.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/mauritius-206982"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-18",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/mauritiussicherheit-206994",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/mauritiussicherheit-206994",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mauritius",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/mauritius-206982",
+          "https://antananarivo.diplo.de/mg-de/service"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/mauritiussicherheit-206994",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mauritius",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/mauritius-206982",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://antananarivo.diplo.de/mg-de/service",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "STIKO-Ländertabelle führt Tollwut als Risikoimpfung; CDC beschreibt Hunde-Tollwut als nicht häufig, AA nennt keine allgemeine Reiseimpfung dagegen. Fachlicher Prüfpunkt, keine pauschale hohe Hundetollwutgefahr ableiten.",
+          "Kein belastbarer regionaler Malariaunterschied; deshalb keine künstlichen Risikozonen.",
+          "Aktuelle AA-Hinweise zu Einreisebeschränkungen nach Aufenthalten in der DR Kongo/Südsudan beachten; nicht dauerhaft in der Patientenempfehlung festschreiben.",
+          "Konsularische Zuständigkeit seit 01.09.2025 Antananarivo, nicht Pretoria."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-18"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-18",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Keine belastbare regionale Malaria-Abstufung; weitere Expositionen werden über Aktivitäten und Routenhinweise erfasst.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/mauritiussicherheit-206994",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mauritius",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": [
+          "Voraufenthalte in Ausbruchsgebieten und aktuelle Einreiseauflagen vor Abflug prüfen.",
+          "Tollwut: widersprüchliche Quellenangaben; Tierkontakte und Erreichbarkeit der Behandlung individuell prüfen."
+        ]
+      }
+    },
+    "SC": {
+      "name": "Seychellen",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research; no DTG malaria data imported",
+        "originalCheckedDate": "2026-11-18",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Direkte Einreise aus Deutschland: keine Pflichtimpfungen."
+        ],
+        "routeDependent": [
+          "Gelbfieber-Voraufenthalt: Nachweis ab einem Jahr prüfen. Bei Transit unterscheiden sich Angaben zur Mindestdauer; Route vorab abklären.",
+          "Abgelegene Inseln: medizinische Erreichbarkeit und Rücktransport planen.",
+          "Tollwut: Quellenabweichung; konkrete Tierkontakte individuell bewerten."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Kein bekanntes lokales Malariarisiko; keine routinemäßige Malariaprophylaxe. Voraufenthalte in Afrika gesondert erfassen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/seychellensicherheit-226912",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/seychelles",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Nairobi – zuständig für die Seychellen",
+            "address": "Ludwig Krapf House, Riverside Drive 113, Nairobi, Kenia",
+            "phone": "+254 20 426 2100",
+            "emergency": "+254 721 322 443",
+            "scope": "Seychellen; Honorarkonsulin Mahé: +248 4601 100, Notfall +248 2718 350.",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/seychellen-node/seychellen-226916"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-18",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/seychellensicherheit-226912",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/seychellensicherheit-226912",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/seychelles",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/service/laender/seychellen-node/seychellen-226916"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/seychellensicherheit-226912",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/seychelles",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/seychellen-node/seychellen-226916",
+            "checkedAt": "2026-11-18",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "STIKO-Ländertabelle führt Tollwut als Risikoimpfung; CDC beschreibt Hunde-Tollwut als nicht häufig und AA nennt keine allgemeine Reiseimpfung dagegen. Keine ungeprüfte Aussage eines hohen Hundetollwutrisikos übernehmen.",
+          "Gelbfieber: STIKO-Tabelle nennt Transit unabhängig von Dauer, AA/CDC mehr als zwölf Stunden. Nachweis mit Airline/Behörden vorab prüfen.",
+          "Keine medizinisch belegte Malaria-Unterteilung nach Inseln. Versorgungsunterschiede bei abgelegenen Inseln bleiben als Routenhinweis."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-18"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-18",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Keine belastbare regionale Malaria-Abstufung; weitere Expositionen werden über Aktivitäten und Routenhinweise erfasst.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/seychellensicherheit-226912",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/seychelles",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": [
+          "Gelbfieber-Voraufenthalt: Nachweis ab einem Jahr prüfen. Bei Transit unterscheiden sich Angaben zur Mindestdauer; Route vorab abklären.",
+          "Abgelegene Inseln: medizinische Erreichbarkeit und Rücktransport planen.",
+          "Tollwut: Quellenabweichung; konkrete Tierkontakte individuell bewerten."
         ]
       }
     }

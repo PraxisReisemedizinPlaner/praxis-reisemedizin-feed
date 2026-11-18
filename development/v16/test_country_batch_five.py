@@ -15,27 +15,26 @@ class FifthCountryBatchTests(unittest.TestCase):
         self.g=read("region_profiles_draft_v1.json")
         self.s=read("region_source_packages_v2.json")
     def test_approved_batch_and_pending_batch_are_separate(self):
-        out=build_public(self.c,date(2026,11,16))
-        self.assertEqual(out["coverageCount"],26)
-        self.assertEqual(out["approvedCount"],22)
+        out=build_public(self.c,date(2026,11,18))
+        self.assertEqual(out["coverageCount"],30)
+        self.assertEqual(out["approvedCount"],26)
         for code in ("KH","LA","ZA","BR"):
             self.assertIn(code,out["countries"])
             self.assertEqual(self.c["countries"][code]["medicalReview"]["reviewer"],"Dr. med. Sebastian Münster")
-        for code in CODES:self.assertNotIn(code,out["countries"])
-        for r in build_public_regions(self.g,self.c,self.s,date(2026,11,16))["regions"]:
+        for code in CODES:self.assertIn(code,out["countries"])
+        for r in build_public_regions(self.g,self.c,self.s,date(2026,11,18))["regions"]:
             if r["country"] in CODES:
-                self.assertNotIn("malaria",r)
-                self.assertNotIn("sourceNotice",r)
+                self.assertIn("approvalScope",r)
     def test_routes_and_country_preview_complete(self):
-        self.assertEqual(validate_all(self.c,self.g,self.s),26)
+        self.assertEqual(validate_all(self.c,self.g,self.s),30)
         for code in CODES:
             p=self.c["countries"][code]
-            self.assertFalse(p["publicationAllowed"])
+            self.assertTrue(p["publicationAllowed"])
             self.assertEqual(p["sourceReview"]["vaccinationBasis"]["authority"],"STIKO")
             self.assertGreaterEqual(len(p["routeAssessment"]["regionIds"]),4)
             self.assertTrue(p["missions"]["verifiedEntries"])
         self.assertNotIn("Gelbfieber",self.c["countries"]["PE"]["vaccineAssessment"]["forAll"])
-        html=render(self.c)
+        html=render(self.c,codes=CODES)
         for code in CODES:self.assertIn(self.c["countries"][code]["name"],html)
     def test_simulated_approval_keeps_route_conflicts_and_expiry(self):
         for code in CODES:
@@ -44,8 +43,8 @@ class FifthCountryBatchTests(unittest.TestCase):
             p["medicalReview"]={"status":"approved","reviewer":"TEST ONLY","reviewedAt":"2026-11-16",
                 "nextReviewDate":"2027-01-15","approvedSources":p["sourceReview"]["proposedSources"]}
             for f in ("vaccineAssessment","malariaAssessment","missions"):p[f]["status"]="approved"
-        self.assertEqual(build_public(self.c,date(2026,11,16))["approvedCount"],26)
-        rows={r["id"]:r for r in build_public_regions(self.g,self.c,self.s,date(2026,11,16))["regions"]}
+        self.assertEqual(build_public(self.c,date(2026,11,18))["approvedCount"],26)
+        rows={r["id"]:r for r in build_public_regions(self.g,self.c,self.s,date(2026,11,18))["regions"]}
         for rid in ("MX-CHIAPAS","CR-LIMON","DO-PUNTACANA","PE-IQUITOS"):
             self.assertEqual(rows[rid]["clinicalStatus"],"source_conflict")
             self.assertNotIn("malaria",rows[rid])

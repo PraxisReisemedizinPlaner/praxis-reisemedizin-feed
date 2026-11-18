@@ -9,7 +9,7 @@ import unittest
 from export_public_regions_v1 import build_public_regions
 
 ROOT=Path(__file__).resolve().parent
-TODAY=date(2026,11,15)
+TODAY=date(2026,11,18)
 
 class RegionSafetyTests(unittest.TestCase):
     @classmethod
@@ -27,7 +27,7 @@ class RegionSafetyTests(unittest.TestCase):
 
     def test_names_without_any_clinical_risk(self):
         out=self.published()
-        self.assertEqual(out["geographyCount"],126)
+        self.assertEqual(out["geographyCount"],138)
         self.assertEqual(out["regionalApprovedCount"],0)
         self.assertTrue(all(x["clinicalStatus"]=="medical_review_required" for x in out["regions"]))
         blob=json.dumps(out,ensure_ascii=False)

@@ -2129,6 +2129,178 @@
       ],
       "reuseRightsChecked": true,
       "summary": "Weitere Etappen: Höhenlage und Seite der Anden angeben. Malariaprophylaxe und Gelbfieberimpfung getrennt prüfen."
+    },
+    {
+      "id": "NA-WINDHOEK",
+      "country": "NA",
+      "status": "supported",
+      "scope": "Windhuk (Stadt)",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/namibiasicherheit-208314",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/namibia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Windhuk: keine routinemäßige Malariaprophylaxe. Nord- und Safari-Etappen separat erfassen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "NA-ZAMBEZI",
+      "country": "NA",
+      "status": "supported",
+      "scope": "Zambezi / Caprivi",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/namibiasicherheit-208314",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/namibia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Zambezi/Caprivi: ganzjährig hohes Malariarisiko. Medikamentöse Prophylaxe ärztlich planen.",
+      "riskLevel": "high",
+      "preventionType": "chemoprophylaxis_consider"
+    },
+    {
+      "id": "NA-KAVANGO",
+      "country": "NA",
+      "status": "route_required",
+      "scope": "Kavango / Ohangwena",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/namibiasicherheit-208314",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/namibia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Kavango/Ohangwena: genaue Orte und Monat angeben. Teilgebiete ganzjährig hoch; übrige Etappen saisonabhängig."
+    },
+    {
+      "id": "NA-ETOSHA",
+      "country": "NA",
+      "status": "source_conflict",
+      "scope": "Etosha-Nationalpark",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/namibiasicherheit-208314",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/namibia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Etosha: AA September–Mai hohes, Juni–August mittleres Risiko; CDC empfiehlt regional Prophylaxe ohne diese Saisonabgrenzung. Reisemonat ärztlich abgleichen."
+    },
+    {
+      "id": "NA-KUNENE",
+      "country": "NA",
+      "status": "source_conflict",
+      "scope": "Kunene / Damaraland",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/namibiasicherheit-208314",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/namibia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Kunene/Damaraland: genaue Übernachtungen angeben. AA unterscheidet westliche und übrige Gebiete sowie Saison; CDC empfiehlt Prophylaxe in Kunene."
+    },
+    {
+      "id": "NA-COAST",
+      "country": "NA",
+      "status": "source_conflict",
+      "scope": "Küste / Namib / südliche Landeshälfte",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/namibiasicherheit-208314",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/namibia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Küste/Namib/Süden: AA nennt Malariafreiheit; CDC beschreibt seltene Fälle außerhalb seiner Hauptgebiete. Keine pauschale Arzneimittelempfehlung; Nordetappen zusätzlich erfassen."
+    },
+    {
+      "id": "NA-OTHER",
+      "country": "NA",
+      "status": "source_conflict",
+      "scope": "Namibia – weitere Nord-/Ostetappen",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/namibiasicherheit-208314",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/namibia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Weitere Nord-/Ostetappen: Ort und Reisemonat angeben. AA und CDC grenzen die Prophylaxegebiete unterschiedlich ab."
+    },
+    {
+      "id": "BW-CHOBE",
+      "country": "BW",
+      "status": "route_required",
+      "scope": "Chobe-Nationalpark / Kasane",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/botsuanasicherheit-219522",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/botswana"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Chobe: nördliche Parkteile ganzjährig hohes Risiko, südliche Teile saisonabhängig. Camp und Reisemonat angeben; Prophylaxe ärztlich planen."
+    },
+    {
+      "id": "BW-OKAVANGO",
+      "country": "BW",
+      "status": "source_conflict",
+      "scope": "Okavango / Moremi / Maun",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/botsuanasicherheit-219522",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/botswana"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Okavango/Moremi/Maun: AA September–Mai hoch, Juni–August mittel; CDC empfiehlt Prophylaxe ohne diese Saisonabgrenzung. Reisemonat ärztlich prüfen."
+    },
+    {
+      "id": "BW-PANS",
+      "country": "BW",
+      "status": "source_conflict",
+      "scope": "Makgadikgadi / Nxai Pan",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/botsuanasicherheit-219522",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/botswana"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Makgadikgadi/Nxai Pan: saisonale AA-Einstufung und CDC-Prophylaxegebiete unterscheiden sich. Camp, Distrikt und Reisemonat angeben."
+    },
+    {
+      "id": "BW-GABORONE",
+      "country": "BW",
+      "status": "source_conflict",
+      "scope": "Gaborone (Stadt)",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/botsuanasicherheit-219522",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/botswana"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Gaborone: AA nennt geringes Risiko, CDC keine Übertragung. Keine pauschale Malariafreiheit; Weiterreisen separat erfassen."
+    },
+    {
+      "id": "BW-SOUTH",
+      "country": "BW",
+      "status": "source_conflict",
+      "scope": "Kalahari / südliche und östliche Distrikte",
+      "checkedAt": "2026-11-18",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/botsuanasicherheit-219522",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/botswana"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Kalahari/Süd- und Ostetappen: genaue Orte angeben. CDC empfiehlt in mehreren Distrikten Prophylaxe; AA stuft Teile niedriger ein."
     }
   ]
 }

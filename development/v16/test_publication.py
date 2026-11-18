@@ -9,9 +9,9 @@ import unittest
 from export_public_v16 import build_public
 
 HERE = Path(__file__).resolve().parent
-TODAY = date(2026, 11, 15)
-APPROVED = {"MA", "AT", "TH", "ID", "EG", "TR", "TZ", "KE", "VN", "IN", "ES", "IT", "GR", "PT", "LK", "NP", "MY", "PH", "KH", "LA", "ZA", "BR"}
-PENDING = {"MX","CR","DO","PE"}
+TODAY = date(2026, 11, 18)
+APPROVED = {"MA", "AT", "TH", "ID", "EG", "TR", "TZ", "KE", "VN", "IN", "ES", "IT", "GR", "PT", "LK", "NP", "MY", "PH", "KH", "LA", "ZA", "BR", "MX", "CR", "DO", "PE"}
+PENDING = {"NA","BW","MU","SC"}
 
 
 class PublishingSafetyTests(unittest.TestCase):
@@ -22,8 +22,8 @@ class PublishingSafetyTests(unittest.TestCase):
 
     def test_only_reviewed_countries_are_exported(self):
         out = build_public(copy.deepcopy(self.draft), TODAY)
-        self.assertEqual(out["coverageCount"], 26)
-        self.assertEqual(out["approvedCount"], 22)
+        self.assertEqual(out["coverageCount"], 30)
+        self.assertEqual(out["approvedCount"], 26)
         self.assertEqual(set(out["countries"]), APPROVED)
         self.assertEqual(set(out["coverage"]), APPROVED | PENDING)
         self.assertTrue(all(out["coverage"][code]["status"] == "medical_review_required"

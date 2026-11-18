@@ -3474,6 +3474,336 @@
         "clinicalRecommendation": null
       },
       "publicationAllowed": false
+    },
+    {
+      "country": "NA",
+      "id": "NA-WINDHOEK",
+      "name": "Windhuk (Stadt)",
+      "aliases": [
+        "Windhuk",
+        "Windhoek"
+      ],
+      "kind": "city",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "NA",
+      "id": "NA-ZAMBEZI",
+      "name": "Zambezi / Caprivi",
+      "aliases": [
+        "Zambezi",
+        "Caprivi",
+        "Katima Mulilo"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "NA",
+      "id": "NA-KAVANGO",
+      "name": "Kavango / Ohangwena",
+      "aliases": [
+        "Kavango East",
+        "Kavango West",
+        "Ohangwena",
+        "Rundu"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "NA",
+      "id": "NA-ETOSHA",
+      "name": "Etosha-Nationalpark",
+      "aliases": [
+        "Etosha",
+        "Etosha National Park"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "NA",
+      "id": "NA-KUNENE",
+      "name": "Kunene / Damaraland",
+      "aliases": [
+        "Kunene",
+        "Damaraland",
+        "Opuwo"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "NA",
+      "id": "NA-COAST",
+      "name": "Küste / Namib / südliche Landeshälfte",
+      "aliases": [
+        "Swakopmund",
+        "Walvis Bay",
+        "Sossusvlei",
+        "Namib",
+        "Lüderitz",
+        "Fish River Canyon"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "NA",
+      "id": "NA-OTHER",
+      "name": "Namibia – weitere Nord-/Ostetappen",
+      "aliases": [
+        "Omaheke",
+        "Otjozondjupa",
+        "Tsumeb",
+        "Grootfontein",
+        "Oshakati"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "BW",
+      "id": "BW-CHOBE",
+      "name": "Chobe-Nationalpark / Kasane",
+      "aliases": [
+        "Chobe",
+        "Kasane"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "BW",
+      "id": "BW-OKAVANGO",
+      "name": "Okavango / Moremi / Maun",
+      "aliases": [
+        "Okavango",
+        "Okavango Delta",
+        "Moremi",
+        "Maun"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "BW",
+      "id": "BW-PANS",
+      "name": "Makgadikgadi / Nxai Pan",
+      "aliases": [
+        "Makgadikgadi",
+        "Nxai Pan",
+        "Nwetwe",
+        "Sua"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "BW",
+      "id": "BW-GABORONE",
+      "name": "Gaborone (Stadt)",
+      "aliases": [
+        "Gaborone"
+      ],
+      "kind": "city",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "BW",
+      "id": "BW-SOUTH",
+      "name": "Kalahari / südliche und östliche Distrikte",
+      "aliases": [
+        "Central Kalahari",
+        "Ghanzi",
+        "Francistown",
+        "Serowe",
+        "Palapye",
+        "Tsabong"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
     }
   ]
 }
