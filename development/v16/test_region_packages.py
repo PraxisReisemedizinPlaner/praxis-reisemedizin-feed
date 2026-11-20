@@ -32,7 +32,7 @@ class CountryPackageTests(unittest.TestCase):
         r=self.row("ID-FLORES")
         self.assertEqual(r["clinicalStatus"],"route_required")
         self.assertNotIn("malaria",r)
-        self.assertEqual(self.out()["exceptionCount"],176)
+        self.assertEqual(self.out()["exceptionCount"],179)
     def test_withdrawn_or_expired_country_suppresses_only_that_country(self):
         for status in ("withdrawn","expired"):
             if status=="withdrawn": self.c["countries"]["TH"]["publicationAllowed"]=False

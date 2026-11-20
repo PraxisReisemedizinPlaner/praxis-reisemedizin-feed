@@ -6326,6 +6326,95 @@
         "clinicalRecommendation": null
       },
       "publicationAllowed": false
+    },
+    {
+      "country": "GE",
+      "id": "GE-TBILISI-BATUMI",
+      "name": "Tiflis und Batumi",
+      "aliases": [
+        "Tiflis",
+        "Tbilisi",
+        "Batumi"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "GE",
+      "id": "GE-REMOTE",
+      "name": "Entlegene Berg- und Landetappen",
+      "aliases": [
+        "Swanetien",
+        "Svaneti",
+        "Mestia",
+        "Tuschetien",
+        "Tusheti",
+        "Omalo",
+        "Stepanzminda",
+        "Kasbegi"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "GE",
+      "id": "GE-CONFLICT",
+      "name": "Abchasien und Südossetien",
+      "aliases": [
+        "Abchasien",
+        "Abkhazia",
+        "Südossetien",
+        "South Ossetia",
+        "Suchumi",
+        "Zchinwali"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
     }
   ]
 }

@@ -3641,6 +3641,51 @@
       ],
       "reuseRightsChecked": true,
       "summary": "Für Naturaufenthalte Zeckenexposition und Impfindikation individuell prüfen. Die Datenlage erlaubt keine regionale Entwarnung."
+    },
+    {
+      "id": "GE-TBILISI-BATUMI",
+      "country": "GE",
+      "status": "route_required",
+      "scope": "Tiflis und Batumi",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/georgiensicherheit-201918",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Georgia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "In Tiflis und Batumi gibt es laut Auswärtigem Amt moderne private Einrichtungen. Bei Tierkontakt gilt auch hier die individuelle Tollwut-Risikoprüfung."
+    },
+    {
+      "id": "GE-REMOTE",
+      "country": "GE",
+      "status": "route_required",
+      "scope": "Entlegene Berg- und Landetappen",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/georgiensicherheit-201918",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Georgia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Zeitnah erreichbare medizinische Hilfe und Zugang zur Behandlung nach Tierbiss vor der Reise klären. Bei erwartbarem Tierkontakt Tollwutimpfung individuell prüfen."
+    },
+    {
+      "id": "GE-CONFLICT",
+      "country": "GE",
+      "status": "route_required",
+      "scope": "Abchasien und Südossetien",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/georgiensicherheit-201918",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Georgia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Das Auswärtige Amt rät von Reisen in die Konfliktgebiete und deren unmittelbare Nähe dringend ab. Rettungsflüge sind laut Auswärtigem Amt nicht sichergestellt."
     }
   ]
 }
