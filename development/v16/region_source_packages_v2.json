@@ -3013,6 +3013,171 @@
       ],
       "reuseRightsChecked": true,
       "summary": "Weitere örtliche FSME-Herde liegen auch außerhalb der Schären. Bei Naturaufenthalten genaue Etappen prüfen."
+    },
+    {
+      "id": "DK-BORNHOLM",
+      "country": "DK",
+      "status": "route_required",
+      "scope": "Bornholm",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/daenemarksicherheit-211724",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Aufenthalten in Wald und hoher Vegetation auf Bornholm FSME-Impfung prüfen."
+    },
+    {
+      "id": "DK-NORTH-ZEALAND",
+      "country": "DK",
+      "status": "route_required",
+      "scope": "Nordseeland – Tisvilde Hegn und weitere Waldgebiete",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/daenemarksicherheit-211724",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Lokale FSME-Herde unter anderem im Tisvilde Hegn und im Tokkekøb Hegn. Bei Zeckenexposition Impfindikation prüfen."
+    },
+    {
+      "id": "DK-OTHER",
+      "country": "DK",
+      "status": "route_required",
+      "scope": "Weitere Etappen in Dänemark",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/daenemarksicherheit-211724",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Naturaufenthalten örtliche Hinweise prüfen. Ausflüge in FSME-Gebiete auf Nordseeland oder nach Bornholm gesondert erfassen."
+    },
+    {
+      "id": "PL-NORTHEAST",
+      "country": "PL",
+      "status": "route_required",
+      "scope": "Podlachien und Ermland-Masuren",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/polen-node/polensicherheit/199124",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "FSME-Schwerpunkt im Nordosten. Bei Wald- und Naturaufenthalten die Impfindikation prüfen."
+    },
+    {
+      "id": "PL-CENTRAL-EAST",
+      "country": "PL",
+      "status": "route_required",
+      "scope": "Masowien und Lublin",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/polen-node/polensicherheit/199124",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Naturaufenthalten in den lokalen FSME-Gebieten die Impfindikation prüfen."
+    },
+    {
+      "id": "PL-OTHER",
+      "country": "PL",
+      "status": "route_required",
+      "scope": "Weitere Etappen in Polen",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/polen-node/polensicherheit/199124",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "FSME-Übertragungsherde kommen auch außerhalb der Schwerpunkte vor. Bei Zeckenexposition lokale Hinweise prüfen."
+    },
+    {
+      "id": "EE-WEST",
+      "country": "EE",
+      "status": "route_required",
+      "scope": "Westestland und westliche Inseln",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/estlandsicherheit-200754",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "FSME-Schwerpunkt im Westen. Bei Naturaufenthalten und möglicher Zeckenexposition die Impfindikation prüfen."
+    },
+    {
+      "id": "EE-OTHER",
+      "country": "EE",
+      "status": "route_required",
+      "scope": "Tallinn und weitere Etappen in Estland",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/estlandsicherheit-200754",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "FSME-Herde sind landesweit beschrieben. Naturausflüge außerhalb der Stadt und Zeckenexposition gesondert erfassen."
+    },
+    {
+      "id": "LV-KURZEME",
+      "country": "LV",
+      "status": "route_required",
+      "scope": "Kurzeme und Westküste",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/lettlandsicherheit-200674",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "FSME-Schwerpunkt im Westen. Bei Naturaufenthalten die Impfindikation prüfen."
+    },
+    {
+      "id": "LV-VIDZEME-RIGA",
+      "country": "LV",
+      "status": "route_required",
+      "scope": "Vidzeme und Region Riga",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/lettlandsicherheit-200674",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Naturausflügen in Vidzeme und im Raum Riga die Zeckenexposition und FSME-Impfung prüfen."
+    },
+    {
+      "id": "LV-OTHER",
+      "country": "LV",
+      "status": "route_required",
+      "scope": "Weitere Etappen in Lettland",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/lettlandsicherheit-200674",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "FSME-Übertragungsherde kommen landesweit vor. Bei Zeckenexposition die örtlichen Hinweise prüfen."
     }
   ]
 }

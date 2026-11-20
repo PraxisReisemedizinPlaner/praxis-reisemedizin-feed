@@ -9,9 +9,9 @@ import unittest
 from export_public_v16 import build_public
 
 HERE = Path(__file__).resolve().parent
-TODAY = date(2026, 11, 18)
-APPROVED = {"MA", "AT", "TH", "ID", "EG", "TR", "TZ", "KE", "VN", "IN", "ES", "IT", "GR", "PT", "LK", "NP", "MY", "PH", "KH", "LA", "ZA", "BR", "MX", "CR", "DO", "PE", "NA", "BW", "MU", "SC", "JP", "KR", "TW", "SG", "TN", "JO", "OM", "AE", "AU", "NZ", "CA", "US", "HR", "SI", "CH", "CZ"}
-PENDING = {"FR","SE","NO","FI"}
+TODAY = date(2026, 11, 20)
+APPROVED = {"MA", "AT", "TH", "ID", "EG", "TR", "TZ", "KE", "VN", "IN", "ES", "IT", "GR", "PT", "LK", "NP", "MY", "PH", "KH", "LA", "ZA", "BR", "MX", "CR", "DO", "PE", "NA", "BW", "MU", "SC", "JP", "KR", "TW", "SG", "TN", "JO", "OM", "AE", "AU", "NZ", "CA", "US", "HR", "SI", "CH", "CZ", "FR", "SE", "NO", "FI"}
+PENDING = {"DK","PL","EE","LV"}
 
 
 class PublishingSafetyTests(unittest.TestCase):
@@ -22,8 +22,8 @@ class PublishingSafetyTests(unittest.TestCase):
 
     def test_only_reviewed_countries_are_exported(self):
         out = build_public(copy.deepcopy(self.draft), TODAY)
-        self.assertEqual(out["coverageCount"], 50)
-        self.assertEqual(out["approvedCount"], 46)
+        self.assertEqual(out["coverageCount"], 54)
+        self.assertEqual(out["approvedCount"], 50)
         self.assertEqual(set(out["countries"]), APPROVED)
         self.assertEqual(set(out["coverage"]), APPROVED | PENDING)
         self.assertTrue(all(out["coverage"][code]["status"] == "medical_review_required"
@@ -78,7 +78,7 @@ class PublishingSafetyTests(unittest.TestCase):
 
     def test_newly_approved_four_countries_exported(self):
         out = build_public(copy.deepcopy(self.draft), TODAY)
-        for code in ("TH", "ID", "EG", "TR"):
+        for code in ("TH", "ID", "EG", "TR", "FR", "SE", "NO", "FI"):
             with self.subTest(code=code):
                 p = self.draft["countries"][code]
                 self.assertTrue(p["publicationAllowed"])

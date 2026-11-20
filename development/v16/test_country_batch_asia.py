@@ -19,18 +19,18 @@ class AsiaBatchTests(unittest.TestCase):
         for code in CODES:
             self.c["countries"][code]["publicationAllowed"]=False
             self.c["countries"][code]["medicalReview"]["status"]="pending"
-        out=build_public(self.c,date(2026,11,18))
-        self.assertEqual(out["coverageCount"],50)
-        self.assertEqual(out["approvedCount"],42)
+        out=build_public(self.c,date(2026,11,20))
+        self.assertEqual(out["coverageCount"],54)
+        self.assertEqual(out["approvedCount"],46)
         for code in CODES:
             self.assertNotIn(code,out["countries"])
             self.assertEqual(out["coverage"][code]["status"],"medical_review_required")
-        for r in build_public_regions(self.g,self.c,self.s,date(2026,11,18))["regions"]:
+        for r in build_public_regions(self.g,self.c,self.s,date(2026,11,20))["regions"]:
             if r["country"] in CODES:
                 self.assertNotIn("sourceNotice",r)
                 self.assertNotIn("malaria",r)
     def test_complete_packages_with_route_options_and_explicit_stiko_basis(self):
-        self.assertEqual(validate_all(self.c,self.g,self.s),50)
+        self.assertEqual(validate_all(self.c,self.g,self.s),54)
         for code in CODES:
             p=self.c["countries"][code]
             self.assertTrue(p["publicationAllowed"])
@@ -47,8 +47,8 @@ class AsiaBatchTests(unittest.TestCase):
                 "reviewedAt":"2026-11-15","nextReviewDate":"2027-01-15",
                 "approvedSources":p["sourceReview"]["proposedSources"]}
             for f in ("vaccineAssessment","malariaAssessment","missions"):p[f]["status"]="approved"
-        self.assertEqual(build_public(self.c,date(2026,11,18))["approvedCount"],46)
-        rows={r["id"]:r for r in build_public_regions(self.g,self.c,self.s,date(2026,11,18))["regions"]}
+        self.assertEqual(build_public(self.c,date(2026,11,20))["approvedCount"],50)
+        rows={r["id"]:r for r in build_public_regions(self.g,self.c,self.s,date(2026,11,20))["regions"]}
         for rid in ("NP-WEST-LOW","MY-BORNEO-FOREST","PH-PALAWAN-N","PH-CEBU"):
             self.assertEqual(rows[rid]["clinicalStatus"],"source_conflict")
             self.assertNotIn("malaria",rows[rid])

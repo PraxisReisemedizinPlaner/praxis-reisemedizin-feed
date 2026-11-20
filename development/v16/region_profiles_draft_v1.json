@@ -5144,6 +5144,329 @@
         "clinicalRecommendation": null
       },
       "publicationAllowed": false
+    },
+    {
+      "country": "DK",
+      "id": "DK-BORNHOLM",
+      "name": "Bornholm",
+      "aliases": [
+        "Rønne",
+        "Ronne",
+        "Nexø",
+        "Nexo"
+      ],
+      "kind": "island",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "DK",
+      "id": "DK-NORTH-ZEALAND",
+      "name": "Nordseeland – Tisvilde Hegn und weitere Waldgebiete",
+      "aliases": [
+        "Nordsjælland",
+        "Tisvilde",
+        "Gribskov",
+        "Tokkekøb Hegn",
+        "Allerød",
+        "Halsnæs"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "DK",
+      "id": "DK-OTHER",
+      "name": "Weitere Etappen in Dänemark",
+      "aliases": [
+        "Kopenhagen",
+        "København",
+        "Aarhus",
+        "Odense",
+        "Jütland"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PL",
+      "id": "PL-NORTHEAST",
+      "name": "Podlachien und Ermland-Masuren",
+      "aliases": [
+        "Podlaskie",
+        "Białystok",
+        "Bialystok",
+        "Masuren",
+        "Olsztyn",
+        "Białowieża"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PL",
+      "id": "PL-CENTRAL-EAST",
+      "name": "Masowien und Lublin",
+      "aliases": [
+        "Warschau",
+        "Warszawa",
+        "Mazowieckie",
+        "Lublin",
+        "Lubelskie"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PL",
+      "id": "PL-OTHER",
+      "name": "Weitere Etappen in Polen",
+      "aliases": [
+        "Danzig",
+        "Gdańsk",
+        "Krakau",
+        "Kraków",
+        "Breslau",
+        "Wrocław",
+        "Posen"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "EE",
+      "id": "EE-WEST",
+      "name": "Westestland und westliche Inseln",
+      "aliases": [
+        "Saaremaa",
+        "Hiiumaa",
+        "Kuressaare",
+        "Pärnu",
+        "Haapsalu"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "EE",
+      "id": "EE-OTHER",
+      "name": "Tallinn und weitere Etappen in Estland",
+      "aliases": [
+        "Tallinn",
+        "Harjumaa",
+        "Tartu",
+        "Narva",
+        "Lahemaa"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "LV",
+      "id": "LV-KURZEME",
+      "name": "Kurzeme und Westküste",
+      "aliases": [
+        "Kurzeme",
+        "Kurland",
+        "Liepāja",
+        "Ventspils",
+        "Kuldīga"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "LV",
+      "id": "LV-VIDZEME-RIGA",
+      "name": "Vidzeme und Region Riga",
+      "aliases": [
+        "Riga",
+        "Vidzeme",
+        "Sigulda",
+        "Cēsis",
+        "Gauja",
+        "Jūrmala"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "LV",
+      "id": "LV-OTHER",
+      "name": "Weitere Etappen in Lettland",
+      "aliases": [
+        "Latgale",
+        "Zemgale",
+        "Daugavpils",
+        "Rēzekne",
+        "Jelgava"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
     }
   ]
 }
