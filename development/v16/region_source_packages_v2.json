@@ -3535,6 +3535,112 @@
       ],
       "reuseRightsChecked": true,
       "summary": "Naturausflüge und Zeckenexposition gesondert erfassen. Vereinzelte Meldungen aus verschiedenen Landesteilen erlauben keine verlässliche regionale Entwarnung."
+    },
+    {
+      "id": "BG-RIVER",
+      "country": "BG",
+      "status": "route_required",
+      "scope": "Flussniederungen in Bulgarien",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/bulgariensicherheit/211834",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Naturaufenthalten in Flussniederungen Zeckenexposition und FSME-Indikation prüfen. Die Quellen weisen keine belastbaren lokalen Risikogrenzen aus."
+    },
+    {
+      "id": "BG-OTHER",
+      "country": "BG",
+      "status": "route_required",
+      "scope": "Weitere Etappen in Bulgarien",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/bulgariensicherheit/211834",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei intensiver Zeckenexposition und Ausflügen in Flussniederungen die genaue Route prüfen."
+    },
+    {
+      "id": "MK-SKOPJE",
+      "country": "MK",
+      "status": "route_required",
+      "scope": "Skopje und Hauptstadtregion",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/nordmazedonien-node/mazedoniensicherheit-207612",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/north-macedonia",
+        "https://www.ecdc.europa.eu/sites/default/files/documents/Communicable-disease-threats-report-week-37-2026.pdf"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "ECDC meldete für die Saison 2026 einen West-Nil-Ausbruch in der Hauptstadtregion. Für die geplante Reise aktuelle Meldungen prüfen und in der Mückensaison Mückenstiche vermeiden."
+    },
+    {
+      "id": "MK-OTHER",
+      "country": "MK",
+      "status": "route_required",
+      "scope": "Weitere Etappen in Nordmazedonien",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/nordmazedonien-node/mazedoniensicherheit-207612",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/north-macedonia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "In der Mückensaison vor Stichen schützen. Bei Naturaufenthalten mit besonderer Zeckenexposition FSME-Indikation individuell prüfen."
+    },
+    {
+      "id": "MD-FALESTI",
+      "country": "MD",
+      "status": "route_required",
+      "scope": "Fălești und Umgebung (Nordwesten)",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/moldausicherheit-201932",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "CDC nennt einen lokal erworbenen FSME-Fall in der Region. Bei Naturaufenthalten mit Zeckenexposition die Impfindikation individuell prüfen."
+    },
+    {
+      "id": "MD-TRANSNISTRIA",
+      "country": "MD",
+      "status": "route_required",
+      "scope": "Transnistrien einschließlich Tiraspol",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/moldausicherheit-201932",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Das Auswärtige Amt rät von Reisen in den Landesteil ab. Die Botschaft kann dort keine unmittelbare konsularische Betreuung bereitstellen."
+    },
+    {
+      "id": "MD-OTHER",
+      "country": "MD",
+      "status": "route_required",
+      "scope": "Weitere Etappen in der Republik Moldau",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/moldausicherheit-201932",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für Naturaufenthalte Zeckenexposition und Impfindikation individuell prüfen. Die Datenlage erlaubt keine regionale Entwarnung."
     }
   ]
 }
