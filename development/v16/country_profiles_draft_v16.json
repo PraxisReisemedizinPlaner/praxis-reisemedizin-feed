@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 78,
+  "countryCount": 82,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -13796,11 +13796,42 @@
     "AM": {
       "name": "Armenien",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-20",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/armeniensicherheit-201872",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Armenia",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://eriwan.diplo.de/am-de/botschaft/1229412-1229412?isLocal=false&isPreview=false",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -13808,7 +13839,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -13825,7 +13856,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -13845,7 +13876,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Eriwan",
@@ -13860,7 +13891,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-20",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-20",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/armeniensicherheit-201872",
         "evidenceLinks": [
@@ -13906,7 +13937,7 @@
           "Die STIKO-Ländertabelle führt Typhus bei reiseassoziiertem Risiko auf. Das Auswärtige Amt nennt Hepatitis A sowie Hepatitis B und Tollwut nach individueller Indikation."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Eriwan und größere Städte: Bei geplantem Tierkontakt Tollwut-Impfindikation individuell prüfen. Abgelegene Ausflüge gesondert erfassen.",
           "Entlegene Land- und Bergetappen: Bei möglichem Tierkontakt Tollwut-Impfindikation prüfen und vorab klären, wo nach einem Tierbiss rasch medizinische Hilfe erreichbar ist."
@@ -13916,9 +13947,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-20"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-20",
+          "statement": "Freigabe und weiter.",
+          "scope": "Armenien, Aserbaidschan, Usbekistan und Kasachstan einschließlich der regionalen Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-20",
         "regionalSelectionRequired": true,
@@ -13943,11 +13979,42 @@
     "AZ": {
       "name": "Aserbaidschan",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-20",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/aserbaidschan-node/aserbaidschansicherheit-201888",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Azerbaijan",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://baku.diplo.de/az-de/botschaft/202946-202946",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -13955,7 +14022,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -13973,7 +14040,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -13993,7 +14060,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Baku",
@@ -14008,7 +14075,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-20",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-20",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/aserbaidschan-node/aserbaidschansicherheit-201888",
         "evidenceLinks": [
@@ -14054,7 +14121,7 @@
           "Die STIKO-Ländertabelle führt Typhus bei reiseassoziiertem Risiko auf und nennt keine landesspezifische FSME-Reiseimpfung. Das Auswärtige Amt weist auf FSME im Kaukasusgebiet hin und empfiehlt die Beratung bei Zeckenexposition."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Baku: Bei Tierkontakt die Tollwut-Impfindikation individuell prüfen. Ausflüge ins Kaukasusgebiet gesondert erfassen.",
           "Kaukasus-Etappen in Aserbaidschan: Das Auswärtige Amt weist auf FSME im Kaukasusgebiet hin. Bei Naturaufenthalten mit Zeckenexposition Impfindikation individuell prüfen.",
@@ -14065,9 +14132,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-20"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-20",
+          "statement": "Freigabe und weiter.",
+          "scope": "Armenien, Aserbaidschan, Usbekistan und Kasachstan einschließlich der regionalen Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-20",
         "regionalSelectionRequired": true,
@@ -14095,11 +14167,42 @@
     "UZ": {
       "name": "Usbekistan",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-20",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/usbekistansicherheit/206790",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Uzbekistan",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://taschkent.diplo.de/uz-de/ueber-uns/1444058-1444058",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -14107,7 +14210,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -14125,7 +14228,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -14145,7 +14248,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Taschkent",
@@ -14160,7 +14263,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-20",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-20",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/usbekistansicherheit/206790",
         "evidenceLinks": [
@@ -14207,7 +14310,7 @@
           "Laut CDC ist die Tollwutversorgung nach Tierbissen unter Umständen nur in größeren medizinischen Einrichtungen verfügbar."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Taschkent und größere Städte: Bei Tierkontakt Tollwut-Impfindikation individuell prüfen. Auch in größeren Städten vorab geeignete Einrichtungen für den Notfall ermitteln.",
           "Gebirgsetappen in Usbekistan: Bei Etappen über 2.300 m vor der Reise Aufstiegsprofil und Schlafhöhen prüfen. Bei entlegenen Touren den Zugang zur Notfallversorgung klären.",
@@ -14218,9 +14321,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-20"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-20",
+          "statement": "Freigabe und weiter.",
+          "scope": "Armenien, Aserbaidschan, Usbekistan und Kasachstan einschließlich der regionalen Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-20",
         "regionalSelectionRequired": true,
@@ -14247,11 +14355,48 @@
     "KZ": {
       "name": "Kasachstan",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-20",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/kasachstan-node/kasachstansicherheit-206342",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://kasachstan.diplo.de/kz-de/vertretungen/2012208-2012208",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kazakhstan",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -14259,7 +14404,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -14278,7 +14423,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -14298,7 +14443,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Astana",
@@ -14321,7 +14466,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-20",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-20",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/kasachstan-node/kasachstansicherheit-206342",
         "evidenceLinks": [
@@ -14374,7 +14519,7 @@
           "Die STIKO-Ländertabelle nennt Almaty, Ostkasachstan und Sandyktau als Schwerpunkte. CDC nennt weitere Teile Nord- und Zentralkasachstans. Für Stadtaufenthalte und Naturausflüge die Exposition getrennt prüfen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Gebiet Almaty und Umland: FSME-Schwerpunkt laut STIKO-Ländertabelle. Bei Naturaufenthalten im Umland und möglicher Zeckenexposition die Impfindikation prüfen.",
           "Ostkasachstan: FSME-Schwerpunkt laut STIKO-Ländertabelle. Bei Naturaufenthalten die genaue Etappe und Zeckenexposition prüfen.",
@@ -14387,9 +14532,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-20"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-20",
+          "statement": "Freigabe und weiter.",
+          "scope": "Armenien, Aserbaidschan, Usbekistan und Kasachstan einschließlich der regionalen Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-20",
         "regionalSelectionRequired": true,
@@ -14411,6 +14561,674 @@
         ],
         "otherRegionalFactors": [
           "Bei Naturaufenthalten im Gebiet Almaty, in Ostkasachstan und in betroffenen Etappen in Akmola und im Norden die FSME-Indikation anhand der konkreten Zeckenexposition prüfen."
+        ]
+      }
+    },
+    "KG": {
+      "name": "Kirgisistan",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-20",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "FSME",
+          "Hepatitis B",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Bei Naturaufenthalten rund um Ala-Archa die Zeckenexposition und FSME-Impfindikation prüfen.",
+          "Bei geplanten Etappen über 2.300 m Aufstiegs- und Schlafhöhen vor der Reise besprechen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Die WHO hat Kirgisistan 2016 als malariafrei zertifiziert. Für Kirgisistan ist keine medikamentöse Malariaprophylaxe vorgesehen.",
+        "sourceLinks": [
+          {
+            "label": "STIKO-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "WHO",
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Bischkek",
+            "address": "Business-Center Orion, 8. Etage, Boulevard Erkindik 21, 720040 Bischkek",
+            "phone": "+996 312 627 100",
+            "emergency": "+996 772 541 113",
+            "scope": "Kirgisistan. Deutschsprachiger Bereitschaftsdienst für dringende Notfälle.",
+            "url": "https://bischkek.diplo.de/kg-de/1222344-1222344"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-20",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/kirgisistan-node/kirgisistansicherheit-206738",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/service/laender/kirgisistan-node/kirgisistansicherheit-206738",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+          "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+          "https://bischkek.diplo.de/kg-de/1222344-1222344"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/kirgisistan-node/kirgisistansicherheit-206738",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://bischkek.diplo.de/kg-de/1222344-1222344",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die FSME-Daten sind begrenzt. CDC beschreibt infizierte Zecken und einen möglichen menschlichen Fall im Naturpark Ala-Archa."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Ala-Archa-Nationalpark und Umgebung: Bei Naturaufenthalten die FSME-Impfindikation prüfen. Lokale Zeckennachweise begründen keine pauschale Impfindikation für die gesamte Region.",
+          "Gebirgsetappen in Kirgisistan: Bei Etappen über 2.300 m Aufstieg und Schlafhöhen vor der Reise besprechen. Zugang zu Bergrettung und Notfallversorgung klären.",
+          "Bischkek und weitere Etappen in Kirgisistan: Bei geplantem Tierkontakt die Tollwut-Impfindikation prüfen. Natur- und Hochgebirgsausflüge gesondert erfassen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-20"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-20",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "tick_borne",
+          "other"
+        ],
+        "regionIds": [
+          "KG-ALA-ARCHA",
+          "KG-HIGHLAND",
+          "KG-OTHER"
+        ],
+        "reason": "Für Ala-Archa sind lokale FSME-Hinweise verfügbar. Bei Bergtouren sind die tatsächlichen Aufstiegs- und Schlafhöhen relevant.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/kirgisistan-node/kirgisistansicherheit-206738",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+        ],
+        "otherRegionalFactors": [
+          "Bei Naturaufenthalten rund um Ala-Archa die Zeckenexposition und FSME-Impfindikation prüfen.",
+          "Bei geplanten Etappen über 2.300 m Aufstiegs- und Schlafhöhen vor der Reise besprechen."
+        ]
+      }
+    },
+    "TJ": {
+      "name": "Tadschikistan",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-20",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Hepatitis B",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Bei Pamir- und anderen Hochgebirgsetappen über 2.300 m Aufstiegs- und Schlafhöhen sowie Bergrettung vorab klären.",
+          "Bei Tierkontakt und entlegenen Etappen Tollwut-Impfindikation sowie Zugang zur Behandlung nach einem Biss prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Die WHO hat Tadschikistan 2023 als malariafrei zertifiziert. Für Tadschikistan ist keine medikamentöse Malariaprophylaxe vorgesehen.",
+        "sourceLinks": [
+          {
+            "label": "STIKO-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "WHO",
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Duschanbe",
+            "address": "I. Somoni-Str. 59/1, 734064 Duschanbe",
+            "phone": "+992 43 377 30 00",
+            "emergency": "+992 907 727 583",
+            "scope": "Tadschikistan. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://duschanbe.diplo.de/tj-de/ueber-uns/206868-206868?isLocal=false&isPreview=false"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-20",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/tadschikistan-node/tadschikistansicherheit-206756",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/service/laender/tadschikistan-node/tadschikistansicherheit-206756",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tajikistan",
+          "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+          "https://duschanbe.diplo.de/tj-de/ueber-uns/206868-206868?isLocal=false&isPreview=false"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/tadschikistan-node/tadschikistansicherheit-206756",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tajikistan",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://duschanbe.diplo.de/tj-de/ueber-uns/206868-206868?isLocal=false&isPreview=false",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt nennt zusätzlich MenACWY bei Langzeitaufenthalt oder besonderer Exposition. Die STIKO-Ländertabelle enthält für Tadschikistan keine allgemeine MenACWY-Reiseimpfung."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Pamir und Berg-Badachschan: Aufstiegsprofil und Schlafhöhen vor der Reise besprechen. In entlegenen Etappen die Möglichkeiten der Bergrettung und die medizinische Versorgung vorab klären.",
+          "Duschanbe und weitere Etappen in Tadschikistan: Bei geplantem Tierkontakt Tollwut-Impfindikation prüfen. Hochgebirgsetappen und abgelegene Ausflüge gesondert erfassen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-20"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-20",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "other"
+        ],
+        "regionIds": [
+          "TJ-PAMIR",
+          "TJ-OTHER"
+        ],
+        "reason": "Aufstiegsprofil und zeitnaher Zugang zu Bergrettung oder Notfallversorgung unterscheiden sich nach Reiseetappe.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/tadschikistan-node/tadschikistansicherheit-206756",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tajikistan"
+        ],
+        "otherRegionalFactors": [
+          "Bei Pamir- und anderen Hochgebirgsetappen über 2.300 m Aufstiegs- und Schlafhöhen sowie Bergrettung vorab klären.",
+          "Bei Tierkontakt und entlegenen Etappen Tollwut-Impfindikation sowie Zugang zur Behandlung nach einem Biss prüfen."
+        ]
+      }
+    },
+    "MN": {
+      "name": "Mongolei",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-20",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "FSME",
+          "Hepatitis B",
+          "Tollwut",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Bei Naturaufenthalten in Selenge und Bulgan sowie bei relevanter Zeckenexposition in Töv die FSME-Impfindikation prüfen.",
+          "Bei Tierkontakt und entlegenen Etappen Tollwut-Impfindikation und Zugang zur Versorgung nach einem Biss prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für die Mongolei ist laut STIKO-Ländertabelle kein Malariarisiko bekannt. Eine medikamentöse Malariaprophylaxe ist für dieses Reiseziel nicht vorgesehen.",
+        "sourceLinks": [
+          {
+            "label": "STIKO-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "WHO",
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Ulan Bator",
+            "address": "Baga Toiruu 2, United Nations Street 16, Ulan Bator 14201",
+            "phone": "+976 7013 3900",
+            "emergency": "+976 9911 4665",
+            "scope": "Mongolei. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://ulan-bator.diplo.de/mn-de/botschaft/1806926-1806926"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-20",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/mongolei-node/mongoleisicherheit-222842",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/service/laender/mongolei-node/mongoleisicherheit-222842",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+          "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+          "https://ulan-bator.diplo.de/mn-de/botschaft/1806926-1806926"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/mongolei-node/mongoleisicherheit-222842",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://ulan-bator.diplo.de/mn-de/botschaft/1806926-1806926",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt empfiehlt Tollwut breiter und nennt MenACWY bei Langzeitaufenthalt oder besonderer Exposition. Die STIKO-Ländertabelle führt Tollwut bei reiseassoziiertem Risiko und keine landesspezifische MenACWY-Reiseimpfung auf."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Selenge und Bulgan (Nordmongolei): FSME-Schwerpunkt laut STIKO-Ländertabelle. Bei Naturaufenthalten mit Zeckenexposition die Impfindikation prüfen.",
+          "Töv und Naturausflüge um Ulan Bator: CDC beschreibt infizierte Zecken an einem Ort in Töv. Bei Naturausflügen die konkrete Zeckenexposition und Impfindikation prüfen.",
+          "Ulan Bator und weitere Etappen in der Mongolei: Bei geplantem Tierkontakt die Tollwut-Impfindikation prüfen. Bei entlegenen Etappen die Versorgung nach einem Biss vorab klären."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-20"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-20",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "tick_borne",
+          "other"
+        ],
+        "regionIds": [
+          "MN-NORTH",
+          "MN-TOV",
+          "MN-OTHER"
+        ],
+        "reason": "Die FSME-Exposition unterscheidet sich regional. Bei abgelegenen Etappen ist der Zugang zur Versorgung nach einem Tierbiss gesondert zu prüfen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/mongolei-node/mongoleisicherheit-222842",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+        ],
+        "otherRegionalFactors": [
+          "Bei Naturaufenthalten in Selenge und Bulgan sowie bei relevanter Zeckenexposition in Töv die FSME-Impfindikation prüfen.",
+          "Bei Tierkontakt und entlegenen Etappen Tollwut-Impfindikation und Zugang zur Versorgung nach einem Biss prüfen."
+        ]
+      }
+    },
+    "BT": {
+      "name": "Bhutan",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-20",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Hepatitis B",
+          "Tollwut",
+          "Typhus",
+          "Dengue",
+          "Japanische Enzephalitis"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Tiefer gelegene Etappen im Süden mit genauer Höhe, Saison und Übernachtungsorten erfassen. Empfehlungen zur medikamentösen Malariaprophylaxe unterscheiden sich.",
+          "Bei längeren ländlichen Aufenthalten im Tiefland die Impfindikation für Japanische Enzephalitis prüfen. Für Dengue gelten die STIKO-Kriterien.",
+          "Bei Etappen über 2.300 m Aufstieg, Schlafhöhen und Rettungsmöglichkeiten vor der Reise besprechen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Paro und Thimphu: Stadtaufenthalte laut Auswärtigem Amt malariafrei.",
+          "Tiefer gelegener Süden: geringes Risiko. Konkrete Route und Prophylaxe bei Quellenabweichung ärztlich prüfen."
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Im tiefer gelegenen Süden an der Grenze zu Indien besteht ein geringes Malariarisiko. Die Quellen unterscheiden sich bei Risikogrenzen und medikamentöser Prophylaxe. Bei Süd- oder unklaren Etappen Mückenschutz beachten und die konkrete Route ärztlich prüfen lassen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/bhutansicherheit-226702",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/b.html",
+            "use": "external_link_only"
+          },
+          {
+            "label": "UKHSA",
+            "url": "https://www.gov.uk/government/publications/malaria-prevention-guidelines-for-travellers-from-the-uk-2026/country-recommendations",
+            "use": "external_link_only"
+          },
+          {
+            "label": "FHI",
+            "url": "https://www.fhi.no/en/in/travel/traveladvice-vaccines/asia/bhutan/",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Gesundheitsministerium Bhutan",
+            "url": "https://moh.gov.bt/wp-content/uploads/2025/01/Revised-National-Guideline-on-Diagnosis-and-Treatment-on-Malaria-.pdf",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft New Delhi",
+            "address": "No. 6/50G, Shanti Path, Chanakyapuri, New Delhi 110021, Indien",
+            "phone": "+91 11 44 19 91 99",
+            "emergency": "+91 9311 310 567",
+            "scope": "Auch für Bhutan konsularisch zuständig. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://india.diplo.de/in-de/ueber-uns/neudelhi/1803534-1803534"
+          },
+          {
+            "title": "Deutscher Honorarkonsul in Thimphu",
+            "address": "Postanschrift: Bhutan Dorji Holidays, PO Box 550, Thimphu",
+            "phone": "+975 2 322982",
+            "scope": "Begrenzte konsularische Zuständigkeit. Kontakt vor einem Besuch aufnehmen.",
+            "url": "https://india.diplo.de/in-de/ueber-uns/2538128-2538128"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-20",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/bhutansicherheit-226702",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/bhutansicherheit-226702",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.cdc.gov/malaria/travelers/country_table/b.html",
+          "https://india.diplo.de/in-de/ueber-uns/neudelhi/1803534-1803534",
+          "https://india.diplo.de/in-de/ueber-uns/2538128-2538128",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/bhutan",
+          "https://moh.gov.bt/wp-content/uploads/2025/01/Revised-National-Guideline-on-Diagnosis-and-Treatment-on-Malaria-.pdf",
+          "https://www.gov.uk/government/publications/malaria-prevention-guidelines-for-travellers-from-the-uk-2026/country-recommendations",
+          "https://www.fhi.no/en/in/travel/traveladvice-vaccines/asia/bhutan/"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/bhutansicherheit-226702",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/b.html",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://india.diplo.de/in-de/ueber-uns/neudelhi/1803534-1803534",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://india.diplo.de/in-de/ueber-uns/2538128-2538128",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/bhutan",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://moh.gov.bt/wp-content/uploads/2025/01/Revised-National-Guideline-on-Diagnosis-and-Treatment-on-Malaria-.pdf",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/malaria-prevention-guidelines-for-travellers-from-the-uk-2026/country-recommendations",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.fhi.no/en/in/travel/traveladvice-vaccines/asia/bhutan/",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "CDC und UKHSA setzen bei den von ihnen beschriebenen südlichen Risikogebieten auf Mückenschutz. Das norwegische FHI empfiehlt für Risikogebiete und -zeiten zusätzlich Chemoprophylaxe. Auch die geografischen und höhenbezogenen Abgrenzungen unterscheiden sich.",
+          "Die STIKO-Ländertabelle führt Dengue bei gesicherter früherer Infektion und Japanische Enzephalitis nach Exposition auf. Die japanische Enzephalitis ist laut Ländertabelle vermutlich vor allem in nicht-bergigen Gebieten relevant."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Paro und Thimphu (Stadtaufenthalte): Paro und Thimphu werden vom Auswärtigen Amt als malariafrei eingeordnet. Abstecher und Übernachtungen in tiefer gelegenen Gebieten separat prüfen.",
+          "Tiefer gelegener Süden an der Grenze zu Indien: Geringes Malariarisiko. Die Quellen ziehen unterschiedliche Risikogrenzen und unterscheiden sich bei der medikamentösen Prophylaxe. Mückenschutz beachten und genaue Höhe, Saison und Übernachtungsorte ärztlich prüfen.",
+          "Hochgebirgsetappen oberhalb von 2.500 m: Schlaf- und Aufstiegshöhen sowie Notfallversorgung vor der Reise planen. Tiefer gelegene Zwischenstopps für die Malariaberatung gesondert erfassen.",
+          "Weitere oder noch unklare Etappen in Bhutan: Ort, Höhe und Übernachtungen klären. Ohne genaue Route ist keine vollständige Malariaeinschätzung möglich."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-20"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-20",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria",
+          "dengue",
+          "other"
+        ],
+        "regionIds": [
+          "BT-PARO-THIMPHU",
+          "BT-SOUTH",
+          "BT-HIGHLAND",
+          "BT-OTHER"
+        ],
+        "reason": "Malariarisiko und weitere Mückenexposition hängen von Region und Höhe ab. Für Trekking unterscheiden sich das Höhenprofil und die Erreichbarkeit von Hilfe.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/bhutansicherheit-226702",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.cdc.gov/malaria/travelers/country_table/b.html"
+        ],
+        "otherRegionalFactors": [
+          "Tiefer gelegene Etappen im Süden mit genauer Höhe, Saison und Übernachtungsorten erfassen. Empfehlungen zur medikamentösen Malariaprophylaxe unterscheiden sich.",
+          "Bei längeren ländlichen Aufenthalten im Tiefland die Impfindikation für Japanische Enzephalitis prüfen. Für Dengue gelten die STIKO-Kriterien.",
+          "Bei Etappen über 2.300 m Aufstieg, Schlafhöhen und Rettungsmöglichkeiten vor der Reise besprechen."
         ]
       }
     }

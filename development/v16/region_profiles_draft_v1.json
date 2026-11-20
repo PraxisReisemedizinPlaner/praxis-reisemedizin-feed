@@ -6781,6 +6781,351 @@
         "clinicalRecommendation": null
       },
       "publicationAllowed": false
+    },
+    {
+      "country": "KG",
+      "id": "KG-ALA-ARCHA",
+      "name": "Ala-Archa-Nationalpark und Umgebung",
+      "aliases": [
+        "Ala-Archa",
+        "Ala Archa",
+        "Tschüi",
+        "Chüy"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "KG",
+      "id": "KG-HIGHLAND",
+      "name": "Gebirgsetappen in Kirgisistan",
+      "aliases": [
+        "Tian Shan",
+        "Tianshan",
+        "Songköl",
+        "Song-Kul",
+        "Ala-Kul",
+        "Pamir-Alai"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "KG",
+      "id": "KG-OTHER",
+      "name": "Bischkek und weitere Etappen in Kirgisistan",
+      "aliases": [
+        "Bischkek",
+        "Bishkek",
+        "Osch",
+        "Osh",
+        "Issyk-Kul"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "TJ",
+      "id": "TJ-PAMIR",
+      "name": "Pamir und Berg-Badachschan",
+      "aliases": [
+        "Pamir Highway",
+        "Pamir",
+        "GBAO",
+        "Berg-Badachschan",
+        "Chorugh",
+        "Khorog",
+        "Murghob"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "TJ",
+      "id": "TJ-OTHER",
+      "name": "Duschanbe und weitere Etappen in Tadschikistan",
+      "aliases": [
+        "Duschanbe",
+        "Dushanbe",
+        "Chudschand",
+        "Khujand",
+        "Pandschakent"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "MN",
+      "id": "MN-NORTH",
+      "name": "Selenge und Bulgan (Nordmongolei)",
+      "aliases": [
+        "Selenge",
+        "Bulgan",
+        "Nordmongolei"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "MN",
+      "id": "MN-TOV",
+      "name": "Töv und Naturausflüge um Ulan Bator",
+      "aliases": [
+        "Töv",
+        "Tuv",
+        "Töw",
+        "Ulaanbaatar Umland"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "MN",
+      "id": "MN-OTHER",
+      "name": "Ulan Bator und weitere Etappen in der Mongolei",
+      "aliases": [
+        "Ulan Bator",
+        "Ulaanbaatar",
+        "Gobi",
+        "Karakorum",
+        "Kharkhorin"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "BT",
+      "id": "BT-PARO-THIMPHU",
+      "name": "Paro und Thimphu (Stadtaufenthalte)",
+      "aliases": [
+        "Paro",
+        "Thimphu",
+        "Timphu"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "BT",
+      "id": "BT-SOUTH",
+      "name": "Tiefer gelegener Süden an der Grenze zu Indien",
+      "aliases": [
+        "Gelephu",
+        "Sarpang",
+        "Phuentsholing",
+        "Samtse",
+        "Samdrup Jongkhar",
+        "Chukha",
+        "Zhemgang"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "BT",
+      "id": "BT-HIGHLAND",
+      "name": "Hochgebirgsetappen oberhalb von 2.500 m",
+      "aliases": [
+        "Hochgebirge Bhutan",
+        "Jomolhari",
+        "Snowman Trek",
+        "Laya"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "BT",
+      "id": "BT-OTHER",
+      "name": "Weitere oder noch unklare Etappen in Bhutan",
+      "aliases": [
+        "Punakha",
+        "Bumthang",
+        "Trongsa",
+        "Wangdue"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
     }
   ]
 }

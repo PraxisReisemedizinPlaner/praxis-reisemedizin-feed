@@ -3881,6 +3881,188 @@
       ],
       "reuseRightsChecked": true,
       "summary": "Bei Stadtreisen geplante Naturausflüge gesondert erfassen. Bei Zeckenexposition lokale Quellen abgleichen."
+    },
+    {
+      "id": "KG-ALA-ARCHA",
+      "country": "KG",
+      "status": "route_required",
+      "scope": "Ala-Archa-Nationalpark und Umgebung",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/kirgisistan-node/kirgisistansicherheit-206738",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Naturaufenthalten die FSME-Impfindikation prüfen. Lokale Zeckennachweise begründen keine pauschale Impfindikation für die gesamte Region."
+    },
+    {
+      "id": "KG-HIGHLAND",
+      "country": "KG",
+      "status": "route_required",
+      "scope": "Gebirgsetappen in Kirgisistan",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/kirgisistan-node/kirgisistansicherheit-206738",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Etappen über 2.300 m Aufstieg und Schlafhöhen vor der Reise besprechen. Zugang zu Bergrettung und Notfallversorgung klären."
+    },
+    {
+      "id": "KG-OTHER",
+      "country": "KG",
+      "status": "route_required",
+      "scope": "Bischkek und weitere Etappen in Kirgisistan",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/kirgisistan-node/kirgisistansicherheit-206738",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei geplantem Tierkontakt die Tollwut-Impfindikation prüfen. Natur- und Hochgebirgsausflüge gesondert erfassen."
+    },
+    {
+      "id": "TJ-PAMIR",
+      "country": "TJ",
+      "status": "route_required",
+      "scope": "Pamir und Berg-Badachschan",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/tadschikistan-node/tadschikistansicherheit-206756",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tajikistan"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Aufstiegsprofil und Schlafhöhen vor der Reise besprechen. In entlegenen Etappen die Möglichkeiten der Bergrettung und die medizinische Versorgung vorab klären."
+    },
+    {
+      "id": "TJ-OTHER",
+      "country": "TJ",
+      "status": "route_required",
+      "scope": "Duschanbe und weitere Etappen in Tadschikistan",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/tadschikistan-node/tadschikistansicherheit-206756",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tajikistan"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei geplantem Tierkontakt Tollwut-Impfindikation prüfen. Hochgebirgsetappen und abgelegene Ausflüge gesondert erfassen."
+    },
+    {
+      "id": "MN-NORTH",
+      "country": "MN",
+      "status": "route_required",
+      "scope": "Selenge und Bulgan (Nordmongolei)",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/mongolei-node/mongoleisicherheit-222842",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "FSME-Schwerpunkt laut STIKO-Ländertabelle. Bei Naturaufenthalten mit Zeckenexposition die Impfindikation prüfen."
+    },
+    {
+      "id": "MN-TOV",
+      "country": "MN",
+      "status": "route_required",
+      "scope": "Töv und Naturausflüge um Ulan Bator",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/mongolei-node/mongoleisicherheit-222842",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "CDC beschreibt infizierte Zecken an einem Ort in Töv. Bei Naturausflügen die konkrete Zeckenexposition und Impfindikation prüfen."
+    },
+    {
+      "id": "MN-OTHER",
+      "country": "MN",
+      "status": "route_required",
+      "scope": "Ulan Bator und weitere Etappen in der Mongolei",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/mongolei-node/mongoleisicherheit-222842",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei geplantem Tierkontakt die Tollwut-Impfindikation prüfen. Bei entlegenen Etappen die Versorgung nach einem Biss vorab klären."
+    },
+    {
+      "id": "BT-PARO-THIMPHU",
+      "country": "BT",
+      "status": "supported",
+      "scope": "Paro und Thimphu (Stadtaufenthalte)",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/bhutansicherheit-226702",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/malaria/travelers/country_table/b.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Paro und Thimphu werden vom Auswärtigen Amt als malariafrei eingeordnet. Abstecher und Übernachtungen in tiefer gelegenen Gebieten separat prüfen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "BT-SOUTH",
+      "country": "BT",
+      "status": "source_conflict",
+      "scope": "Tiefer gelegener Süden an der Grenze zu Indien",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/bhutansicherheit-226702",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/malaria/travelers/country_table/b.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Geringes Malariarisiko. Die Quellen ziehen unterschiedliche Risikogrenzen und unterscheiden sich bei der medikamentösen Prophylaxe. Mückenschutz beachten und genaue Höhe, Saison und Übernachtungsorte ärztlich prüfen."
+    },
+    {
+      "id": "BT-HIGHLAND",
+      "country": "BT",
+      "status": "route_required",
+      "scope": "Hochgebirgsetappen oberhalb von 2.500 m",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/bhutansicherheit-226702",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/malaria/travelers/country_table/b.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Schlaf- und Aufstiegshöhen sowie Notfallversorgung vor der Reise planen. Tiefer gelegene Zwischenstopps für die Malariaberatung gesondert erfassen."
+    },
+    {
+      "id": "BT-OTHER",
+      "country": "BT",
+      "status": "route_required",
+      "scope": "Weitere oder noch unklare Etappen in Bhutan",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/bhutansicherheit-226702",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/malaria/travelers/country_table/b.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Ort, Höhe und Übernachtungen klären. Ohne genaue Route ist keine vollständige Malariaeinschätzung möglich."
     }
   ]
 }
