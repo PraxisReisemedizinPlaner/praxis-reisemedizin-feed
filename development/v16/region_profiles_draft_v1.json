@@ -6009,6 +6009,126 @@
         "clinicalRecommendation": null
       },
       "publicationAllowed": false
+    },
+    {
+      "country": "AL",
+      "id": "AL-COAST",
+      "name": "Albanische Küste",
+      "aliases": [
+        "Durrës",
+        "Durres",
+        "Vlorë",
+        "Vlore",
+        "Himarë",
+        "Sarandë",
+        "Ksamil"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "AL",
+      "id": "AL-OTHER",
+      "name": "Weitere Etappen in Albanien",
+      "aliases": [
+        "Tirana",
+        "Berat",
+        "Gjirokastër",
+        "Shkodër",
+        "Theth",
+        "Valbonë",
+        "Kukës"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "RS",
+      "id": "RS-BELGRADE-RURAL",
+      "name": "Ländliches Umland von Belgrad",
+      "aliases": [
+        "Belgrad Umgebung",
+        "Avala",
+        "Kosmaj",
+        "Beograd Umgebung"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "RS",
+      "id": "RS-OTHER",
+      "name": "Belgrad (Stadt) und weitere Etappen in Serbien",
+      "aliases": [
+        "Belgrad",
+        "Beograd",
+        "Novi Sad",
+        "Niš",
+        "Zlatibor",
+        "Kopaonik"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
     }
   ]
 }

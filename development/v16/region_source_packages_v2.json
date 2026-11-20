@@ -3475,6 +3475,66 @@
       ],
       "reuseRightsChecked": true,
       "summary": "Einzelne FSME-Fälle wurden auch andernorts beschrieben. Bei intensiver Zeckenexposition die konkrete Etappe prüfen."
+    },
+    {
+      "id": "AL-COAST",
+      "country": "AL",
+      "status": "route_required",
+      "scope": "Albanische Küste",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/albanien-node/albaniensicherheit-216248",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Albania"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Von Frühjahr bis Herbst auf Schutz vor Stech- und Sandmücken achten, besonders bei Aufenthalten im Freien."
+    },
+    {
+      "id": "AL-OTHER",
+      "country": "AL",
+      "status": "route_required",
+      "scope": "Weitere Etappen in Albanien",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/albanien-node/albaniensicherheit-216248",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Albania"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Naturaufenthalten Zeckenschutz beachten und FSME-Impfindikation nach Exposition prüfen. Die Daten erlauben keine regionale FSME-Einstufung."
+    },
+    {
+      "id": "RS-BELGRADE-RURAL",
+      "country": "RS",
+      "status": "route_required",
+      "scope": "Ländliches Umland von Belgrad",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/serbiensicherheit/207502",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Vereinzelte FSME-Fälle aus dem ländlichen Umland beschrieben. Bei Zeckenexposition die Impfindikation individuell prüfen."
+    },
+    {
+      "id": "RS-OTHER",
+      "country": "RS",
+      "status": "route_required",
+      "scope": "Belgrad (Stadt) und weitere Etappen in Serbien",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/serbiensicherheit/207502",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Naturausflüge und Zeckenexposition gesondert erfassen. Vereinzelte Meldungen aus verschiedenen Landesteilen erlauben keine verlässliche regionale Entwarnung."
     }
   ]
 }

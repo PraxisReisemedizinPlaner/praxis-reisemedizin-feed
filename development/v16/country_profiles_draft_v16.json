@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 62,
+  "countryCount": 66,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -10957,11 +10957,66 @@
     "GB": {
       "name": "Vereinigtes Königreich",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-20",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://uk.diplo.de/uk-de/vertretungen-honorarkonsuln/botschaft/oeffnungszeiten",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.gov.uk/guidance/tick-borne-encephalitis-epidemiology-diagnosis-and-prevention",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/news/item/13-11-2026-statement-of-the-forty-sixth-meeting-of-the-polio-ihr-emergency-committee",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/polio-global-eradication-nac-and-environmental-surveillance/environmental-surveillance-for-polio",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.nhs.uk/vaccinations/menacwy-vaccine/",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://uk.diplo.de/uk-de/02/ausweisverlust-2452904",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -10969,7 +11024,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [],
         "riskBased": [
           "FSME",
@@ -10985,7 +11040,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -11005,7 +11060,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft London",
@@ -11020,7 +11075,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-20",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-20",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
         "evidenceLinks": [
@@ -11096,7 +11151,7 @@
           "Die STIKO-Ländertabelle nennt Polio im Zusammenhang mit Abwasserbefunden. Die WHO führt das Vereinigte Königreich im Bericht vom 13.11.2026 in der cVDPV2-Überwachung mit zuletzt gemeldetem Nachweis vom 03.03.2026. UKHSA dokumentiert den Abwasserbefund in London; maßgeblich für die Reise ist der vollständige Standardimpfschutz laut STIKO."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Thetford Forest: FSME-Virus wurde in Zecken nachgewiesen. Bei intensiver Zeckenexposition die Impfindikation individuell prüfen.",
           "Hampshire und Dorset – New Forest und Grenzgebiet: Lokale FSME-Nachweise, darunter im Grenzgebiet Hampshire–Dorset. Bei intensiver Zeckenexposition die genaue Route prüfen.",
@@ -11109,9 +11164,14 @@
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-20"
         },
-        "regionalReviewUntil": "2027-01-15"
+        "regionalReviewUntil": "2027-01-15",
+        "approvalRecord": {
+          "recordedAt": "2026-11-20",
+          "statement": "Auch diese sind freigegeben, weiter geht's.",
+          "scope": "Vereinigtes Königreich, Irland, Niederlande und Belgien einschließlich der regionalen Quellenpakete."
+        }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-20",
         "regionalSelectionRequired": true,
@@ -11142,11 +11202,36 @@
     "IE": {
       "name": "Irland",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-20",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/irlandsicherheit-211460",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://dublin.diplo.de/ie-de/botschaft/01-botschaft",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.hpsc.ie/a-z/vectorborne/tick-borneencephalitis/",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -11154,7 +11239,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [],
         "riskBased": [
           "Hepatitis B"
@@ -11165,7 +11250,7 @@
         "routeDependent": []
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -11185,7 +11270,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Dublin",
@@ -11200,7 +11285,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-20",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-20",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/irlandsicherheit-211460",
         "evidenceLinks": [
@@ -11240,15 +11325,20 @@
           "Das irische HPSC berichtet bislang keine im Land erworbenen FSME-Fälle. Die STIKO-Ländertabelle und das Auswärtige Amt führen Hepatitis B bei individueller Indikation auf."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "vaccinationBasis": {
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-20"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-20",
+          "statement": "Auch diese sind freigegeben, weiter geht's.",
+          "scope": "Vereinigtes Königreich, Irland, Niederlande und Belgien einschließlich der regionalen Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-20",
         "regionalSelectionRequired": false,
@@ -11266,11 +11356,42 @@
     "NL": {
       "name": "Niederlande",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-20",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/niederlandesicherheit/211084",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://niederlande.diplo.de/nl-de/vertretungen/1356674-1356674",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://lci.rivm.nl/richtlijnen/tekenencefalitis",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -11278,7 +11399,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [],
         "riskBased": [
           "FSME",
@@ -11292,7 +11413,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -11312,7 +11433,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsches Generalkonsulat Amsterdam",
@@ -11327,7 +11448,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-20",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-20",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/niederlandesicherheit/211084",
         "evidenceLinks": [
@@ -11374,7 +11495,7 @@
           "Die STIKO-Ländertabelle führt FSME bei reiseassoziiertem Risiko auf. Das Auswärtige Amt nennt für die europäischen Niederlande Hepatitis B nach individueller Indikation. CDC benennt lokale FSME-Übertragungsherde; RIVM rät zu einer expositionsbezogenen Impfprüfung."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Utrechtse Heuvelrug: Lokales FSME-Übertragungsgebiet. Bei intensiver Zeckenexposition die Impfindikation prüfen.",
           "Sallandse Heuvelrug: Lokales FSME-Übertragungsgebiet. Bei intensiver Zeckenexposition die Impfindikation prüfen.",
@@ -11385,9 +11506,14 @@
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-20"
         },
-        "regionalReviewUntil": "2027-01-15"
+        "regionalReviewUntil": "2027-01-15",
+        "approvalRecord": {
+          "recordedAt": "2026-11-20",
+          "statement": "Auch diese sind freigegeben, weiter geht's.",
+          "scope": "Vereinigtes Königreich, Irland, Niederlande und Belgien einschließlich der regionalen Quellenpakete."
+        }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-20",
         "regionalSelectionRequired": true,
@@ -11414,11 +11540,36 @@
     "BE": {
       "name": "Belgien",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-20",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/belgien-node/belgiensicherheit-200382",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://bruessel.diplo.de/be-de/kontakt/1353434-1353434",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.sciensano.be/sites/default/files/tbev_2024_nl.pdf",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -11426,7 +11577,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [],
         "riskBased": [
           "FSME",
@@ -11440,7 +11591,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -11460,7 +11611,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Brüssel",
@@ -11475,7 +11626,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-20",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-20",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/belgien-node/belgiensicherheit-200382",
         "evidenceLinks": [
@@ -11514,6 +11665,293 @@
           "Das Auswärtige Amt verweist auf die Standardimpfungen. Die STIKO-Ländertabelle führt FSME und Hepatitis B bei reiseassoziiertem Risiko auf. Sciensano beschreibt ein sehr niedriges Risiko und einzelne geografisch verstreute FSME-Fälle."
         ],
         "proposedNextReviewDate": "2027-01-15",
+        "warning": "Länderpaket ärztlich freigegeben.",
+        "regionalReview": [],
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-20"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-20",
+          "statement": "Auch diese sind freigegeben, weiter geht's.",
+          "scope": "Vereinigtes Königreich, Irland, Niederlande und Belgien einschließlich der regionalen Quellenpakete."
+        }
+      },
+      "publicationAllowed": true,
+      "routeAssessment": {
+        "assessedAt": "2026-11-20",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Die dokumentierten sporadischen FSME-Fälle erlauben laut Sciensano keine für die Reiseberatung belastbare Regionalisierung.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/belgien-node/belgiensicherheit-200382",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.sciensano.be/sites/default/files/tbev_2024_nl.pdf"
+        ],
+        "otherRegionalFactors": [
+          "FSME laut STIKO-Ländertabelle bei konkreter reiseassoziierter Exposition prüfen. Die belgische Gesundheitsbehörde empfiehlt bei der derzeitigen Datenlage keine routinemäßige Impfung vor Aufenthalten in Belgien."
+        ]
+      }
+    },
+    "AL": {
+      "name": "Albanien",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-20",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "FSME",
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Bei Einreise aus einem Gelbfieber-Risikogebiet ist ab einem Alter von 1 Jahr ein Gelbfieber-Impfnachweis erforderlich. Bei Voraufenthalt oder längerem Transit im Risikogebiet die konkrete Route vor Abreise prüfen."
+        ],
+        "routeDependent": [
+          "Bei Naturaufenthalten Zeckenschutz beachten. Bei relevanter Zeckenexposition die FSME-Impfindikation individuell prüfen.",
+          "An der Küste von Frühjahr bis Herbst auf Schutz vor Stech- und Sandmücken achten."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für die übliche Reise ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Länder auf der Route gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/albanien-node/albaniensicherheit-216248",
+            "use": "external_link_only"
+          },
+          {
+            "label": "STIKO-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Tirana",
+            "address": "Rruga Skënderbej Nr. 8, Tirana",
+            "phone": "+355 4 2274 505",
+            "emergency": "+355 68 202 9109",
+            "scope": "Albanien. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://tirana.diplo.de/al-de/service/hilfe-fuer-deutsche-2014610"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-20",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/albanien-node/albaniensicherheit-216248",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/service/laender/albanien-node/albaniensicherheit-216248",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Albania",
+          "https://tirana.diplo.de/al-de/service/hilfe-fuer-deutsche-2014610",
+          "https://wnv-weekly.ecdc.europa.eu/"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/albanien-node/albaniensicherheit-216248",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Albania",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://tirana.diplo.de/al-de/service/hilfe-fuer-deutsche-2014610",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wnv-weekly.ecdc.europa.eu/",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO-Ländertabelle führt Typhus bei reiseassoziiertem Risiko auf. Das Auswärtige Amt nennt Tollwut bei besonderer Exposition als zusätzlichen Prüfpunkt.",
+          "Das ECDC dokumentiert für die Saison 2026 lokal erworbene West-Nil-Infektionen. Für die konkrete Reise die saisonalen Meldungen berücksichtigen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Albanische Küste: Von Frühjahr bis Herbst auf Schutz vor Stech- und Sandmücken achten, besonders bei Aufenthalten im Freien.",
+          "Weitere Etappen in Albanien: Bei Naturaufenthalten Zeckenschutz beachten und FSME-Impfindikation nach Exposition prüfen. Die Daten erlauben keine regionale FSME-Einstufung."
+        ],
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-20"
+        },
+        "regionalReviewUntil": "2027-01-15"
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-20",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "tick_borne",
+          "other"
+        ],
+        "regionIds": [
+          "AL-COAST",
+          "AL-OTHER"
+        ],
+        "reason": "An der Küste ist der Schutz vor Sandmücken besonders relevant. Für FSME sind keine belastbaren regionalen Risikogrenzen beschrieben.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/albanien-node/albaniensicherheit-216248",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Albania"
+        ],
+        "otherRegionalFactors": [
+          "Bei Naturaufenthalten Zeckenschutz beachten. Bei relevanter Zeckenexposition die FSME-Impfindikation individuell prüfen.",
+          "An der Küste von Frühjahr bis Herbst auf Schutz vor Stech- und Sandmücken achten."
+        ]
+      }
+    },
+    "ME": {
+      "name": "Montenegro",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-20",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Bei Naturaufenthalten mit erheblicher Zeckenexposition den FSME-Hinweis des Auswärtigen Amts individuell einordnen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für die übliche Reise ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Länder auf der Route gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/montenegro-node/montenegrosicherheit-216330",
+            "use": "external_link_only"
+          },
+          {
+            "label": "STIKO-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Podgorica",
+            "address": "Hercegovačka 10, 81000 Podgorica",
+            "phone": "+382 20 44 10 00",
+            "emergency": "+382 67 211 954",
+            "scope": "Montenegro. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://podgorica.diplo.de/me-de/botschaft/1691650-1691650"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-20",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/montenegro-node/montenegrosicherheit-216330",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/service/laender/montenegro-node/montenegrosicherheit-216330",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+          "https://podgorica.diplo.de/me-de/botschaft/1691650-1691650"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/montenegro-node/montenegrosicherheit-216330",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://podgorica.diplo.de/me-de/botschaft/1691650-1691650",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO-Ländertabelle führt Hepatitis B und Typhus bei reiseassoziiertem Risiko auf. Das Auswärtige Amt weist auf FSME in Teilen des Landes hin und nennt Tollwut bei besonderer Exposition oder Langzeitaufenthalt. Die STIKO-Ländertabelle führt FSME für Montenegro nicht unter den Reiseindikationen auf."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
         "warning": "Ärztliche Länderfreigabe steht aus.",
         "regionalReview": [],
         "vaccinationBasis": {
@@ -11528,14 +11966,309 @@
         "regionalSelectionRequired": false,
         "topics": [],
         "regionIds": [],
-        "reason": "Die dokumentierten sporadischen FSME-Fälle erlauben laut Sciensano keine für die Reiseberatung belastbare Regionalisierung.",
+        "reason": "Für die FSME-Hinweise liegen in den abgeglichenen Quellen keine belastbaren regionalen Grenzen vor.",
         "sourceUrls": [
-          "https://www.auswaertiges-amt.de/de/service/laender/belgien-node/belgiensicherheit-200382",
+          "https://www.auswaertiges-amt.de/de/service/laender/montenegro-node/montenegrosicherheit-216330",
           "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
-          "https://www.sciensano.be/sites/default/files/tbev_2024_nl.pdf"
+          "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
         ],
         "otherRegionalFactors": [
-          "FSME laut STIKO-Ländertabelle bei konkreter reiseassoziierter Exposition prüfen. Die belgische Gesundheitsbehörde empfiehlt bei der derzeitigen Datenlage keine routinemäßige Impfung vor Aufenthalten in Belgien."
+          "Bei Naturaufenthalten mit erheblicher Zeckenexposition den FSME-Hinweis des Auswärtigen Amts individuell einordnen."
+        ]
+      }
+    },
+    "RS": {
+      "name": "Serbien",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-20",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "FSME",
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Bei Naturaufenthalten mit Zeckenexposition die FSME-Indikation prüfen, auch bei Ausflügen ins ländliche Umland von Belgrad."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für die übliche Reise ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Länder auf der Route gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/serbiensicherheit/207502",
+            "use": "external_link_only"
+          },
+          {
+            "label": "STIKO-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Belgrad",
+            "address": "Kneza Miloša 74–76, 11000 Beograd",
+            "phone": "+381 11 306 44 00",
+            "emergency": "+381 63 21 93 62",
+            "scope": "Serbien. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://belgrad.diplo.de/rs-de/botschaft/2010856-2010856"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-20",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/serbiensicherheit/207502",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/serbiensicherheit/207502",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+          "https://belgrad.diplo.de/rs-de/botschaft/2010856-2010856",
+          "https://wnv-weekly.ecdc.europa.eu/",
+          "https://belgrad.diplo.de/rs-de/service/hilfe-fuer-deutsche-2010730"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/serbiensicherheit/207502",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://belgrad.diplo.de/rs-de/botschaft/2010856-2010856",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wnv-weekly.ecdc.europa.eu/",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://belgrad.diplo.de/rs-de/service/hilfe-fuer-deutsche-2010730",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "STIKO und CDC nennen sporadische FSME-Meldungen aus mehreren Gegenden einschließlich des ländlichen Umlands von Belgrad. Die Meldedaten erlauben keine Einstufung als Hochrisikogebiet.",
+          "Das ECDC dokumentiert für die Saison 2026 lokal erworbene West-Nil-Infektionen. Für die konkrete Reise die saisonalen Meldungen berücksichtigen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Ländliches Umland von Belgrad: Vereinzelte FSME-Fälle aus dem ländlichen Umland beschrieben. Bei Zeckenexposition die Impfindikation individuell prüfen.",
+          "Belgrad (Stadt) und weitere Etappen in Serbien: Naturausflüge und Zeckenexposition gesondert erfassen. Vereinzelte Meldungen aus verschiedenen Landesteilen erlauben keine verlässliche regionale Entwarnung."
+        ],
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-20"
+        },
+        "regionalReviewUntil": "2027-01-15"
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-20",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "tick_borne"
+        ],
+        "regionIds": [
+          "RS-BELGRADE-RURAL",
+          "RS-OTHER"
+        ],
+        "reason": "Bei Naturausflügen ins ländliche Umland von Belgrad ist ein konkreter FSME-Prüfhinweis möglich; weitere Etappen werden nach Exposition beurteilt.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/serbiensicherheit/207502",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+        ],
+        "otherRegionalFactors": [
+          "Bei Naturaufenthalten mit Zeckenexposition die FSME-Indikation prüfen, auch bei Ausflügen ins ländliche Umland von Belgrad."
+        ]
+      }
+    },
+    "BA": {
+      "name": "Bosnien und Herzegowina",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-20",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "FSME",
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Polio-Standardimpfschutz auf Vollständigkeit prüfen.",
+          "Bei besonderer Zeckenexposition die FSME-Impfindikation individuell prüfen. Die regionale Datenlage ist begrenzt."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für die übliche Reise ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Länder auf der Route gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/bosnienundherzegowina-node/bosnienundherzegowinasicherheit-207694",
+            "use": "external_link_only"
+          },
+          {
+            "label": "STIKO-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Sarajevo",
+            "address": "Skenderija 3, Sarajevo",
+            "phone": "+387 33 56 53 00",
+            "emergency": "+387 61 130 032",
+            "scope": "Bosnien und Herzegowina. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://sarajewo.diplo.de/ba-de/botschaft"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-20",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/bosnienundherzegowina-node/bosnienundherzegowinasicherheit-207694",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/service/laender/bosnienundherzegowina-node/bosnienundherzegowinasicherheit-207694",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+          "https://sarajewo.diplo.de/ba-de/botschaft",
+          "https://www.who.int/news/item/13-11-2026-statement-of-the-forty-sixth-meeting-of-the-polio-ihr-emergency-committee"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/bosnienundherzegowina-node/bosnienundherzegowinasicherheit-207694",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://sarajewo.diplo.de/ba-de/botschaft",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/news/item/13-11-2026-statement-of-the-forty-sixth-meeting-of-the-polio-ihr-emergency-committee",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt nennt Polio als Reiseimpfung. Die STIKO-Ländertabelle führt Polio unter den Standardimpfungen und nennt keinen landesspezifischen Nachweis für die direkte Einreise aus Deutschland.",
+          "Die STIKO-Ländertabelle führt Typhus bei reiseassoziiertem Risiko auf. Das Auswärtige Amt nennt Tollwut bei Langzeitaufenthalt oder besonderer Exposition als zusätzlichen Prüfpunkt."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-20"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-20",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Die Angaben des Auswärtigen Amts, der STIKO-Ländertabelle und der CDC zu FSME erlauben keine belastbare regionale Abstufung.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/bosnienundherzegowina-node/bosnienundherzegowinasicherheit-207694",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+        ],
+        "otherRegionalFactors": [
+          "Polio-Standardimpfschutz auf Vollständigkeit prüfen.",
+          "Bei besonderer Zeckenexposition die FSME-Impfindikation individuell prüfen. Die regionale Datenlage ist begrenzt."
         ]
       }
     }
