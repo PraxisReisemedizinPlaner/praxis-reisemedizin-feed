@@ -3686,6 +3686,201 @@
       ],
       "reuseRightsChecked": true,
       "summary": "Das Auswärtige Amt rät von Reisen in die Konfliktgebiete und deren unmittelbare Nähe dringend ab. Rettungsflüge sind laut Auswärtigem Amt nicht sichergestellt."
+    },
+    {
+      "id": "AM-URBAN",
+      "country": "AM",
+      "status": "route_required",
+      "scope": "Eriwan und größere Städte",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/armeniensicherheit-201872",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Armenia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei geplantem Tierkontakt Tollwut-Impfindikation individuell prüfen. Abgelegene Ausflüge gesondert erfassen."
+    },
+    {
+      "id": "AM-REMOTE",
+      "country": "AM",
+      "status": "route_required",
+      "scope": "Entlegene Land- und Bergetappen",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/armeniensicherheit-201872",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Armenia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei möglichem Tierkontakt Tollwut-Impfindikation prüfen und vorab klären, wo nach einem Tierbiss rasch medizinische Hilfe erreichbar ist."
+    },
+    {
+      "id": "AZ-BAKU",
+      "country": "AZ",
+      "status": "route_required",
+      "scope": "Baku",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/aserbaidschan-node/aserbaidschansicherheit-201888",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Azerbaijan"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Tierkontakt die Tollwut-Impfindikation individuell prüfen. Ausflüge ins Kaukasusgebiet gesondert erfassen."
+    },
+    {
+      "id": "AZ-CAUCASUS",
+      "country": "AZ",
+      "status": "route_required",
+      "scope": "Kaukasus-Etappen in Aserbaidschan",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/aserbaidschan-node/aserbaidschansicherheit-201888",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Azerbaijan"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Das Auswärtige Amt weist auf FSME im Kaukasusgebiet hin. Bei Naturaufenthalten mit Zeckenexposition Impfindikation individuell prüfen."
+    },
+    {
+      "id": "AZ-OTHER",
+      "country": "AZ",
+      "status": "route_required",
+      "scope": "Weitere Etappen außerhalb von Baku",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/aserbaidschan-node/aserbaidschansicherheit-201888",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Azerbaijan"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Tierkontakt und längerer Anfahrt zu einer Klinik die Tollwut-Impfindikation und den Zugang zur Versorgung nach einem Biss prüfen."
+    },
+    {
+      "id": "UZ-URBAN",
+      "country": "UZ",
+      "status": "route_required",
+      "scope": "Taschkent und größere Städte",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/usbekistansicherheit/206790",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Uzbekistan"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Tierkontakt Tollwut-Impfindikation individuell prüfen. Auch in größeren Städten vorab geeignete Einrichtungen für den Notfall ermitteln."
+    },
+    {
+      "id": "UZ-HIGHLAND",
+      "country": "UZ",
+      "status": "route_required",
+      "scope": "Gebirgsetappen in Usbekistan",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/usbekistansicherheit/206790",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Uzbekistan"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Etappen über 2.300 m vor der Reise Aufstiegsprofil und Schlafhöhen prüfen. Bei entlegenen Touren den Zugang zur Notfallversorgung klären."
+    },
+    {
+      "id": "UZ-OTHER",
+      "country": "UZ",
+      "status": "route_required",
+      "scope": "Weitere und entlegene Etappen in Usbekistan",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/usbekistansicherheit/206790",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Uzbekistan"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Tierkontakt oder entlegener Route Tollwut-Impfindikation und die nächstgelegene geeignete Einrichtung für den Fall eines Bisses prüfen."
+    },
+    {
+      "id": "KZ-ALMATY",
+      "country": "KZ",
+      "status": "route_required",
+      "scope": "Gebiet Almaty und Umland",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/kasachstan-node/kasachstansicherheit-206342",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "FSME-Schwerpunkt laut STIKO-Ländertabelle. Bei Naturaufenthalten im Umland und möglicher Zeckenexposition die Impfindikation prüfen."
+    },
+    {
+      "id": "KZ-EAST",
+      "country": "KZ",
+      "status": "route_required",
+      "scope": "Ostkasachstan",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/kasachstan-node/kasachstansicherheit-206342",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "FSME-Schwerpunkt laut STIKO-Ländertabelle. Bei Naturaufenthalten die genaue Etappe und Zeckenexposition prüfen."
+    },
+    {
+      "id": "KZ-AKMOLA",
+      "country": "KZ",
+      "status": "route_required",
+      "scope": "Akmola – Sandyktau und Umgebung",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/kasachstan-node/kasachstansicherheit-206342",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Die STIKO-Ländertabelle nennt den Bezirk Sandyktau als Schwerpunkt. Bei Zeckenexposition im Freien die genaue Etappe prüfen."
+    },
+    {
+      "id": "KZ-NORTH-CENTRAL",
+      "country": "KZ",
+      "status": "route_required",
+      "scope": "Weitere Etappen im Norden und in Zentralkasachstan",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/kasachstan-node/kasachstansicherheit-206342",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "CDC nennt einzelne Teile dieser Regionen als FSME-Risikogebiete. Für Naturaufenthalte die Zeckenexposition und genaue Route prüfen."
+    },
+    {
+      "id": "KZ-OTHER",
+      "country": "KZ",
+      "status": "route_required",
+      "scope": "Weitere Etappen in Kasachstan",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/kasachstan-node/kasachstansicherheit-206342",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Stadtreisen geplante Naturausflüge gesondert erfassen. Bei Zeckenexposition lokale Quellen abgleichen."
     }
   ]
 }

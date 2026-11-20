@@ -6415,6 +6415,372 @@
         "clinicalRecommendation": null
       },
       "publicationAllowed": false
+    },
+    {
+      "country": "AM",
+      "id": "AM-URBAN",
+      "name": "Eriwan und größere Städte",
+      "aliases": [
+        "Eriwan",
+        "Jerewan",
+        "Yerevan",
+        "Gjumri",
+        "Gyumri"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "AM",
+      "id": "AM-REMOTE",
+      "name": "Entlegene Land- und Bergetappen",
+      "aliases": [
+        "Bergtour",
+        "Ländliches Armenien",
+        "Abgelegene Etappe"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "AZ",
+      "id": "AZ-BAKU",
+      "name": "Baku",
+      "aliases": [
+        "Baku",
+        "Bakı"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "AZ",
+      "id": "AZ-CAUCASUS",
+      "name": "Kaukasus-Etappen in Aserbaidschan",
+      "aliases": [
+        "Großer Kaukasus",
+        "Quba",
+        "Qusar",
+        "Gabala",
+        "Qəbələ"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "AZ",
+      "id": "AZ-OTHER",
+      "name": "Weitere Etappen außerhalb von Baku",
+      "aliases": [
+        "Gəncə",
+        "Gandscha",
+        "Lənkəran",
+        "Lankaran",
+        "Nachitschewan"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "UZ",
+      "id": "UZ-URBAN",
+      "name": "Taschkent und größere Städte",
+      "aliases": [
+        "Taschkent",
+        "Toshkent",
+        "Samarkand",
+        "Buchara"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "UZ",
+      "id": "UZ-HIGHLAND",
+      "name": "Gebirgsetappen in Usbekistan",
+      "aliases": [
+        "Tian Shan",
+        "Tianshan",
+        "Westlicher Tian Shan",
+        "Pamir-Alai",
+        "Bergetappe"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "UZ",
+      "id": "UZ-OTHER",
+      "name": "Weitere und entlegene Etappen in Usbekistan",
+      "aliases": [
+        "Nukus",
+        "Karakalpakstan",
+        "Chiwa",
+        "Ferghanatal"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "KZ",
+      "id": "KZ-ALMATY",
+      "name": "Gebiet Almaty und Umland",
+      "aliases": [
+        "Almaty",
+        "Almaty-Gebiet",
+        "Alatau",
+        "Ile-Alatau"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "KZ",
+      "id": "KZ-EAST",
+      "name": "Ostkasachstan",
+      "aliases": [
+        "Ostkasachstan",
+        "Öskemen",
+        "Oskemen",
+        "Ust-Kamenogorsk",
+        "Kasachischer Altai"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "KZ",
+      "id": "KZ-AKMOLA",
+      "name": "Akmola – Sandyktau und Umgebung",
+      "aliases": [
+        "Akmola",
+        "Aqmola",
+        "Sandyktau"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "KZ",
+      "id": "KZ-NORTH-CENTRAL",
+      "name": "Weitere Etappen im Norden und in Zentralkasachstan",
+      "aliases": [
+        "Nordkasachstan",
+        "Petropawl",
+        "Kostanai",
+        "Qostanai",
+        "Karaganda"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "KZ",
+      "id": "KZ-OTHER",
+      "name": "Weitere Etappen in Kasachstan",
+      "aliases": [
+        "Astana",
+        "Schymkent",
+        "Aktau",
+        "Atyrau"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
     }
   ]
 }

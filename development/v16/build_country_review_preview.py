@@ -5,7 +5,7 @@ import html
 import json
 from pathlib import Path
 HERE=Path(__file__).resolve().parent
-CODES=("MT","IS","LU","GE")
+CODES=("AM","AZ","UZ","KZ")
 def esc(s): return html.escape(str(s),quote=True)
 def bullets(items): return "<ul>"+"".join("<li>"+esc(v)+"</li>" for v in items)+"</ul>"
 def render(data,codes=CODES):
