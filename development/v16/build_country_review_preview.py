@@ -15,7 +15,7 @@ def render(data,codes=CODES):
     for code in codes:
         p=data["countries"][code]; v=p["vaccineAssessment"]; m=p["malariaAssessment"]
         released=p["publicationAllowed"] is True and p["medicalReview"]["status"]=="approved"
-        contacts="".join("<h4>"+esc(x["title"])+"</h4><p>"+esc(x["address"])+"<br>Telefon: "+esc(x["phone"])+"<br>Notfall: "+esc(x["emergency"])+"</p><p>"+esc(x["scope"])+"</p><p><a href='"+esc(x["url"])+"' target='_blank' rel='noopener noreferrer'>Originalkontakt öffnen ↗</a></p>" for x in p["missions"]["verifiedEntries"])
+        contacts="".join("<h4>"+esc(x["title"])+"</h4><p>"+esc(x["address"])+"<br>Telefon: "+esc(x["phone"])+("<br>Notfall: "+esc(x["emergency"]) if x.get("emergency") else "")+"</p><p>"+esc(x["scope"])+"</p><p><a href='"+esc(x["url"])+"' target='_blank' rel='noopener noreferrer'>Originalkontakt öffnen ↗</a></p>" for x in p["missions"]["verifiedEntries"])
         sources="".join("<li><a href='"+esc(u)+"' target='_blank' rel='noopener noreferrer'>"+esc(u)+"</a></li>" for u in p["sourceReview"]["evidenceLinks"])
         regional=p["sourceReview"].get("regionalReview",[])
         regional_html=("<details><summary>Regionale Hinweise ("+str(len(regional))+")</summary>"+bullets(regional)+"</details>") if regional else ""
