@@ -155,7 +155,7 @@ def smoke(browser,device,stripped=False):
     # A medically released Bhutan itinerary must keep the unresolved southern risk yellow.
     selected_country(page,"Bhutan")
     region_input.fill("Gelephu")
-    listbox.get_by_role("button", name=re.compile("Tiefer gelegener Süden")).click()
+    listbox.locator("button").filter(has_text="Tiefer gelegener Süden").click(timeout=10000)
     page.locator("#rm-when").focus()
     page.locator("#rm-check").click()
     south = page.locator(".rm-region-risk-item").filter(has_text="Tiefer gelegener Süden")
