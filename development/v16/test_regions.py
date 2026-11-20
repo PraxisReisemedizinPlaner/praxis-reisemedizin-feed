@@ -27,7 +27,7 @@ class RegionSafetyTests(unittest.TestCase):
 
     def test_names_without_any_clinical_risk(self):
         out=self.published()
-        self.assertEqual(out["geographyCount"],255)
+        self.assertEqual(out["geographyCount"],266)
         self.assertEqual(out["regionalApprovedCount"],0)
         self.assertTrue(all(x["clinicalStatus"]=="medical_review_required" for x in out["regions"]))
         blob=json.dumps(out,ensure_ascii=False)

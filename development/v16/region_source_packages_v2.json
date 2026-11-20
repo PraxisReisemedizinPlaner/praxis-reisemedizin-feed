@@ -4063,6 +4063,171 @@
       ],
       "reuseRightsChecked": true,
       "summary": "Ort, Höhe und Übernachtungen klären. Ohne genaue Route ist keine vollständige Malariaeinschätzung möglich."
+    },
+    {
+      "id": "AR-IGUAZU",
+      "country": "AR",
+      "status": "route_required",
+      "scope": "Misiones einschließlich der Iguazú-Wasserfälle",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/argentinien-node/argentiniensicherheit-201326",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/argentina"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Gelbfieber-Impfindikation für diese Etappe prüfen. Bei Ausflügen nach Brasilien oder Paraguay gelten deren Einreisevorgaben."
+    },
+    {
+      "id": "AR-CORRIENTES",
+      "country": "AR",
+      "status": "route_required",
+      "scope": "Provinz Corrientes",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/argentinien-node/argentiniensicherheit-201326",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/argentina"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Gelbfieber-Impfindikation prüfen."
+    },
+    {
+      "id": "AR-NORTH",
+      "country": "AR",
+      "status": "route_required",
+      "scope": "Formosa und ausgewiesene Teile von Chaco, Jujuy und Salta",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/argentinien-node/argentiniensicherheit-201326",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/argentina"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Die Quellen bewerten diese Gebiete unterschiedlich. Exakten Übernachtungs- und Ausflugsort für die Gelbfieberberatung prüfen."
+    },
+    {
+      "id": "AR-OTHER",
+      "country": "AR",
+      "status": "route_required",
+      "scope": "Buenos Aires und weitere Etappen in Argentinien",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/argentinien-node/argentiniensicherheit-201326",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/argentina"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Reisen ausschließlich außerhalb der ausgewiesenen Gebiete ist keine Gelbfieberimpfung für das Reiseziel vorgesehen. Nordetappen und Weiterreisen separat erfassen."
+    },
+    {
+      "id": "CL-RAPA-NUI",
+      "country": "CL",
+      "status": "route_required",
+      "scope": "Rapa Nui (Osterinsel)",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/chile-node/chilesicherheit-201230",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/chile"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Reise nach Rapa Nui konsequent vor Mückenstichen schützen. Bei gesicherter früherer Dengue-Infektion STIKO-Impfindikation prüfen."
+    },
+    {
+      "id": "CL-ANDES",
+      "country": "CL",
+      "status": "route_required",
+      "scope": "Anden und Altiplano in Nordchile",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/chile-node/chilesicherheit-201230",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/chile"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Fahrten oder Wanderungen in große Höhen Aufstieg und Schlafhöhen vorab prüfen. Schnelle Tagesausflüge aus Tieflagen besonders berücksichtigen."
+    },
+    {
+      "id": "CL-OTHER",
+      "country": "CL",
+      "status": "route_required",
+      "scope": "Santiago und weitere Festlandetappen",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/chile-node/chilesicherheit-201230",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/chile"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Insel- und Hochgebirgsetappen separat erfassen. Bei Reisen in den äußersten Norden aktuelle Mückenlage prüfen."
+    },
+    {
+      "id": "UY-NORTHWEST",
+      "country": "UY",
+      "status": "route_required",
+      "scope": "Nordwesten Uruguays",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/uruguaysicherheit-201138",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/uruguay"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Aktuelle lokale Dengue- und Chikungunya-Meldungen für den Reisezeitraum prüfen. Besonders in der Mückensaison auf Mückenschutz achten."
+    },
+    {
+      "id": "UY-OTHER",
+      "country": "UY",
+      "status": "route_required",
+      "scope": "Montevideo und weitere Etappen in Uruguay",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/uruguaysicherheit-201138",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/uruguay"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Aktuelle Meldungen und Reisezeit berücksichtigen. Ausflüge in den Nordwesten gesondert erfassen."
+    },
+    {
+      "id": "PY-ASUNCION",
+      "country": "PY",
+      "status": "route_required",
+      "scope": "Asunción (ausschließlich Stadtgebiet)",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/paraguaysicherheit-224964",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/paraguay"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für einen reinen Stadtaufenthalt besteht keine generelle Gelbfieber-Impfempfehlung. Eine Nachweispflicht kann sich unabhängig davon aus Vor- oder Weiterreisen ergeben."
+    },
+    {
+      "id": "PY-OTHER",
+      "country": "PY",
+      "status": "route_required",
+      "scope": "Etappen außerhalb von Asunción",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/paraguaysicherheit-224964",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/paraguay"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Gelbfieber-Impfindikation prüfen. Bei grenzüberschreitenden Etappen den möglichen Nachweis nach der offiziellen Gebietsliste abgleichen."
     }
   ]
 }

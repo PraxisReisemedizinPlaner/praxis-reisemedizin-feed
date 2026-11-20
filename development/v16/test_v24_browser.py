@@ -16,8 +16,8 @@ COUNTRIES=json.loads((HERE/"country_profiles_draft_v16.json").read_text(encoding
 PACKAGES=json.loads((HERE/"region_source_packages_v2.json").read_text(encoding="utf-8"))
 regions=build_public_regions(REGION,COUNTRIES,PACKAGES,date(2026,11,20))
 countries=build_countries(COUNTRIES,date(2026,11,20))
-assert regions["sourceBasedCount"] == 51
-assert countries["approvedCount"] == 78
+assert regions["sourceBasedCount"] == 52
+assert countries["approvedCount"] == 82
 
 def intercept(route):
     url=route.request.url
@@ -152,6 +152,18 @@ def smoke(browser,device,stripped=False):
     page.locator("#rm-reset").click()
     assert page.locator("#rm-region-chips .rm-region-chip").count()==0
     assert page.locator("#rm-region").input_value()==""
+    # A medically released Bhutan itinerary must keep the unresolved southern risk yellow.
+    selected_country(page,"Bhutan")
+    region_input.fill("Gelephu")
+    listbox.get_by_role("button", name=re.compile("Tiefer gelegener Süden")).click()
+    page.locator("#rm-when").focus()
+    page.locator("#rm-check").click()
+    south = page.locator(".rm-region-risk-item").filter(has_text="Tiefer gelegener Süden")
+    south.wait_for(state="visible")
+    assert "Quellenabweichung" in south.inner_text()
+    assert south.get_attribute("data-rm-risk") == "uncertain"
+    assert south.evaluate("el => getComputedStyle(el).backgroundColor") == "rgb(255, 248, 219)"
+    assert page.locator(".rm-malaria-uncertain").evaluate("el => getComputedStyle(el).backgroundColor") == "rgb(255, 248, 219)"
     assert not errors, "Runtime JS errors: "+"; ".join(errors)
     ctx.close()
     print(f"Browser V24 OK ({device}) – country, ambiguous island, multi-city, missing-risk, unknown text, reset.")

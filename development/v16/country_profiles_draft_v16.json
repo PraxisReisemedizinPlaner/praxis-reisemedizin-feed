@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 82,
+  "countryCount": 86,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -14567,11 +14567,42 @@
     "KG": {
       "name": "Kirgisistan",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-20",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/kirgisistan-node/kirgisistansicherheit-206738",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://bischkek.diplo.de/kg-de/1222344-1222344",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -14579,7 +14610,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -14598,7 +14629,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -14618,7 +14649,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Bischkek",
@@ -14633,7 +14664,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-20",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-20",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/kirgisistan-node/kirgisistansicherheit-206738",
         "evidenceLinks": [
@@ -14679,7 +14710,7 @@
           "Die FSME-Daten sind begrenzt. CDC beschreibt infizierte Zecken und einen möglichen menschlichen Fall im Naturpark Ala-Archa."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Ala-Archa-Nationalpark und Umgebung: Bei Naturaufenthalten die FSME-Impfindikation prüfen. Lokale Zeckennachweise begründen keine pauschale Impfindikation für die gesamte Region.",
           "Gebirgsetappen in Kirgisistan: Bei Etappen über 2.300 m Aufstieg und Schlafhöhen vor der Reise besprechen. Zugang zu Bergrettung und Notfallversorgung klären.",
@@ -14690,9 +14721,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-20"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-20",
+          "statement": "Freigabe und weiter.",
+          "scope": "Kirgisistan, Tadschikistan, Mongolei und Bhutan einschließlich der regionalen Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-20",
         "regionalSelectionRequired": true,
@@ -14720,11 +14756,42 @@
     "TJ": {
       "name": "Tadschikistan",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-20",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/tadschikistan-node/tadschikistansicherheit-206756",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tajikistan",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://duschanbe.diplo.de/tj-de/ueber-uns/206868-206868?isLocal=false&isPreview=false",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -14732,7 +14799,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -14750,7 +14817,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -14770,7 +14837,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Duschanbe",
@@ -14785,7 +14852,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-20",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-20",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/tadschikistan-node/tadschikistansicherheit-206756",
         "evidenceLinks": [
@@ -14831,7 +14898,7 @@
           "Das Auswärtige Amt nennt zusätzlich MenACWY bei Langzeitaufenthalt oder besonderer Exposition. Die STIKO-Ländertabelle enthält für Tadschikistan keine allgemeine MenACWY-Reiseimpfung."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Pamir und Berg-Badachschan: Aufstiegsprofil und Schlafhöhen vor der Reise besprechen. In entlegenen Etappen die Möglichkeiten der Bergrettung und die medizinische Versorgung vorab klären.",
           "Duschanbe und weitere Etappen in Tadschikistan: Bei geplantem Tierkontakt Tollwut-Impfindikation prüfen. Hochgebirgsetappen und abgelegene Ausflüge gesondert erfassen."
@@ -14841,9 +14908,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-20"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-20",
+          "statement": "Freigabe und weiter.",
+          "scope": "Kirgisistan, Tadschikistan, Mongolei und Bhutan einschließlich der regionalen Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-20",
         "regionalSelectionRequired": true,
@@ -14869,11 +14941,42 @@
     "MN": {
       "name": "Mongolei",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-20",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/mongolei-node/mongoleisicherheit-222842",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://ulan-bator.diplo.de/mn-de/botschaft/1806926-1806926",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -14881,7 +14984,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -14900,7 +15003,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -14920,7 +15023,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Ulan Bator",
@@ -14935,7 +15038,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-20",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-20",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/mongolei-node/mongoleisicherheit-222842",
         "evidenceLinks": [
@@ -14981,7 +15084,7 @@
           "Das Auswärtige Amt empfiehlt Tollwut breiter und nennt MenACWY bei Langzeitaufenthalt oder besonderer Exposition. Die STIKO-Ländertabelle führt Tollwut bei reiseassoziiertem Risiko und keine landesspezifische MenACWY-Reiseimpfung auf."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Selenge und Bulgan (Nordmongolei): FSME-Schwerpunkt laut STIKO-Ländertabelle. Bei Naturaufenthalten mit Zeckenexposition die Impfindikation prüfen.",
           "Töv und Naturausflüge um Ulan Bator: CDC beschreibt infizierte Zecken an einem Ort in Töv. Bei Naturausflügen die konkrete Zeckenexposition und Impfindikation prüfen.",
@@ -14992,9 +15095,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-20"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-20",
+          "statement": "Freigabe und weiter.",
+          "scope": "Kirgisistan, Tadschikistan, Mongolei und Bhutan einschließlich der regionalen Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-20",
         "regionalSelectionRequired": true,
@@ -15022,11 +15130,66 @@
     "BT": {
       "name": "Bhutan",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-20",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/bhutansicherheit-226702",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.cdc.gov/malaria/travelers/country_table/b.html",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://india.diplo.de/in-de/ueber-uns/neudelhi/1803534-1803534",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://india.diplo.de/in-de/ueber-uns/2538128-2538128",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/bhutan",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://moh.gov.bt/wp-content/uploads/2025/01/Revised-National-Guideline-on-Diagnosis-and-Treatment-on-Malaria-.pdf",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.gov.uk/government/publications/malaria-prevention-guidelines-for-travellers-from-the-uk-2026/country-recommendations",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.fhi.no/en/in/travel/traveladvice-vaccines/asia/bhutan/",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -15034,7 +15197,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -15055,7 +15218,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -15093,7 +15256,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft New Delhi",
@@ -15115,7 +15278,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-20",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-20",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/bhutansicherheit-226702",
         "evidenceLinks": [
@@ -15190,7 +15353,7 @@
           "Die STIKO-Ländertabelle führt Dengue bei gesicherter früherer Infektion und Japanische Enzephalitis nach Exposition auf. Die japanische Enzephalitis ist laut Ländertabelle vermutlich vor allem in nicht-bergigen Gebieten relevant."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Paro und Thimphu (Stadtaufenthalte): Paro und Thimphu werden vom Auswärtigen Amt als malariafrei eingeordnet. Abstecher und Übernachtungen in tiefer gelegenen Gebieten separat prüfen.",
           "Tiefer gelegener Süden an der Grenze zu Indien: Geringes Malariarisiko. Die Quellen ziehen unterschiedliche Risikogrenzen und unterscheiden sich bei der medikamentösen Prophylaxe. Mückenschutz beachten und genaue Höhe, Saison und Übernachtungsorte ärztlich prüfen.",
@@ -15202,9 +15365,14 @@
           "authority": "STIKO",
           "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "checkedAt": "2026-11-20"
+        },
+        "approvalRecord": {
+          "recordedAt": "2026-11-20",
+          "statement": "Freigabe und weiter.",
+          "scope": "Kirgisistan, Tadschikistan, Mongolei und Bhutan einschließlich der regionalen Quellenpakete."
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-20",
         "regionalSelectionRequired": true,
@@ -15229,6 +15397,627 @@
           "Tiefer gelegene Etappen im Süden mit genauer Höhe, Saison und Übernachtungsorten erfassen. Empfehlungen zur medikamentösen Malariaprophylaxe unterscheiden sich.",
           "Bei längeren ländlichen Aufenthalten im Tiefland die Impfindikation für Japanische Enzephalitis prüfen. Für Dengue gelten die STIKO-Kriterien.",
           "Bei Etappen über 2.300 m Aufstieg, Schlafhöhen und Rettungsmöglichkeiten vor der Reise besprechen."
+        ]
+      }
+    },
+    "AR": {
+      "name": "Argentinien",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-20",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Gelbfieber",
+          "Hepatitis B",
+          "Typhus",
+          "Dengue",
+          "Chikungunya"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Gelbfieberimpfung für Misiones einschließlich der Iguazú-Wasserfälle und Corrientes prüfen. Für Formosa und Teile von Chaco, Jujuy und Salta die genaue Etappe abgleichen.",
+          "Chikungunya nur bei passender aktueller Ausbruchslage prüfen. Bei Dengue gelten die STIKO-Kriterien."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Die WHO hat Argentinien 2019 als malariafrei zertifiziert. Für dieses Reiseziel ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Länder auf der Route gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "STIKO-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "WHO",
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Buenos Aires",
+            "address": "Villanueva 1055, C1426BMC Buenos Aires",
+            "phone": "+54 11 47 78 25 00",
+            "emergency": "+54 11 4410 7268",
+            "scope": "Argentinien. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://buenos-aires.diplo.de/ar-de/ueber-uns/1801058-1801058"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-20",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/argentinien-node/argentiniensicherheit-201326",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/service/laender/argentinien-node/argentiniensicherheit-201326",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/argentina",
+          "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+          "https://buenos-aires.diplo.de/ar-de/ueber-uns/1801058-1801058",
+          "https://buenos-aires.diplo.de/ar-de/service/01-hilfefuerdeutsche/bereitschaftsdienst-2006082"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/argentinien-node/argentiniensicherheit-201326",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/argentina",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://buenos-aires.diplo.de/ar-de/ueber-uns/1801058-1801058",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://buenos-aires.diplo.de/ar-de/service/01-hilfefuerdeutsche/bereitschaftsdienst-2006082",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO-Ländertabelle führt Gelbfieber für Misiones, Corrientes und ausgewiesene Gebiete weiterer Nordprovinzen auf. CDC hält die Impfung für Formosa und ausgewiesene Teile von Chaco, Jujuy und Salta im Allgemeinen für entbehrlich. Das Auswärtige Amt empfiehlt dort eine Prüfung unter bestimmten Bedingungen.",
+          "Der Gelbfieber-Nachweis ist für die Einreise nach Argentinien laut Auswärtigem Amt nicht vorgeschrieben. Bei Weiterreise in ein anderes Land können andere Regeln gelten."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Misiones einschließlich der Iguazú-Wasserfälle: Gelbfieber-Impfindikation für diese Etappe prüfen. Bei Ausflügen nach Brasilien oder Paraguay gelten deren Einreisevorgaben.",
+          "Provinz Corrientes: Gelbfieber-Impfindikation prüfen.",
+          "Formosa und ausgewiesene Teile von Chaco, Jujuy und Salta: Die Quellen bewerten diese Gebiete unterschiedlich. Exakten Übernachtungs- und Ausflugsort für die Gelbfieberberatung prüfen.",
+          "Buenos Aires und weitere Etappen in Argentinien: Bei Reisen ausschließlich außerhalb der ausgewiesenen Gebiete ist keine Gelbfieberimpfung für das Reiseziel vorgesehen. Nordetappen und Weiterreisen separat erfassen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-20"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-20",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "yellow_fever",
+          "dengue",
+          "chikungunya"
+        ],
+        "regionIds": [
+          "AR-IGUAZU",
+          "AR-CORRIENTES",
+          "AR-NORTH",
+          "AR-OTHER"
+        ],
+        "reason": "Die Gelbfieber-Impfindikation hängt von der Provinz und genauen Etappe ab. Bei Grenzübertritten zusätzlich die Einreisevorschriften des nächsten Landes prüfen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/argentinien-node/argentiniensicherheit-201326",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/argentina"
+        ],
+        "otherRegionalFactors": [
+          "Gelbfieberimpfung für Misiones einschließlich der Iguazú-Wasserfälle und Corrientes prüfen. Für Formosa und Teile von Chaco, Jujuy und Salta die genaue Etappe abgleichen.",
+          "Chikungunya nur bei passender aktueller Ausbruchslage prüfen. Bei Dengue gelten die STIKO-Kriterien."
+        ]
+      }
+    },
+    "CL": {
+      "name": "Chile",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-20",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Hepatitis B",
+          "Dengue",
+          "Chikungunya"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Für Rapa Nui Mückenschutz und bei gesicherter früherer Dengue-Infektion die STIKO-Impfindikation prüfen. Chikungunya nur bei passender aktueller Ausbruchslage prüfen.",
+          "Bei Anden- und Altiplano-Etappen Aufstieg und Schlafhöhen vor der Reise besprechen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Laut STIKO-Ländertabelle ist kein Malariarisiko bekannt. Für dieses Reiseziel ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Länder auf der Route gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "STIKO-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/chile-node/chilesicherheit-201230",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Santiago de Chile",
+            "address": "Las Hualtatas 5677, Vitacura, Santiago de Chile",
+            "phone": "+56 2 2463 2500",
+            "emergency": "+56 9 9885 8600",
+            "scope": "Chile. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://santiago.diplo.de/cl-de/ueber-uns/1213148-1213148"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-20",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/chile-node/chilesicherheit-201230",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/service/laender/chile-node/chilesicherheit-201230",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/chile",
+          "https://santiago.diplo.de/cl-de/ueber-uns/1213148-1213148",
+          "https://santiago.diplo.de/cl-de/service/hilfe-fuer-deutsche-1210350"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/chile-node/chilesicherheit-201230",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/chile",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://santiago.diplo.de/cl-de/ueber-uns/1213148-1213148",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://santiago.diplo.de/cl-de/service/hilfe-fuer-deutsche-1210350",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt nennt die Dengue-Impfung nach individueller Indikation für Rapa Nui. Für das äußerste Nordchile schließt es Dengue nicht vollständig aus."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Rapa Nui (Osterinsel): Bei Reise nach Rapa Nui konsequent vor Mückenstichen schützen. Bei gesicherter früherer Dengue-Infektion STIKO-Impfindikation prüfen.",
+          "Anden und Altiplano in Nordchile: Bei Fahrten oder Wanderungen in große Höhen Aufstieg und Schlafhöhen vorab prüfen. Schnelle Tagesausflüge aus Tieflagen besonders berücksichtigen.",
+          "Santiago und weitere Festlandetappen: Insel- und Hochgebirgsetappen separat erfassen. Bei Reisen in den äußersten Norden aktuelle Mückenlage prüfen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-20"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-20",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "dengue",
+          "chikungunya",
+          "other"
+        ],
+        "regionIds": [
+          "CL-RAPA-NUI",
+          "CL-ANDES",
+          "CL-OTHER"
+        ],
+        "reason": "Auf Rapa Nui ist eine gesonderte Beratung zur Mückenexposition sinnvoll. Andenetappen können eine höhenmedizinische Beratung erfordern.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/chile-node/chilesicherheit-201230",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/chile"
+        ],
+        "otherRegionalFactors": [
+          "Für Rapa Nui Mückenschutz und bei gesicherter früherer Dengue-Infektion die STIKO-Impfindikation prüfen. Chikungunya nur bei passender aktueller Ausbruchslage prüfen.",
+          "Bei Anden- und Altiplano-Etappen Aufstieg und Schlafhöhen vor der Reise besprechen."
+        ]
+      }
+    },
+    "UY": {
+      "name": "Uruguay",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-20",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Hepatitis B",
+          "Dengue",
+          "Chikungunya"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Für den Nordwesten aktuelle Dengue- und Chikungunya-Meldungen prüfen. Mückenschutz beachten. Eine Chikungunya-Impfindikation setzt eine passende aktuelle Ausbruchslage voraus."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Laut STIKO-Ländertabelle ist kein Malariarisiko bekannt. Für dieses Reiseziel ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Länder auf der Route gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "STIKO-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/uruguaysicherheit-201138",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Montevideo",
+            "address": "La Cumparsita 1435, Plaza Alemania, 11200 Montevideo",
+            "phone": "+598 29 02 52 22",
+            "emergency": "+598 99 642 859",
+            "scope": "Uruguay. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://montevideo.diplo.de/uy-de/ueber-uns/201148-201148"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-20",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/uruguaysicherheit-201138",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/uruguaysicherheit-201138",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/uruguay",
+          "https://montevideo.diplo.de/uy-de/ueber-uns/201148-201148"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/uruguaysicherheit-201138",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/uruguay",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://montevideo.diplo.de/uy-de/ueber-uns/201148-201148",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt nennt zusätzlich Tollwut nach individueller Indikation. Die STIKO-Ländertabelle führt keine routinemäßige Tollwut-Reiseimpfung auf."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Nordwesten Uruguays: Aktuelle lokale Dengue- und Chikungunya-Meldungen für den Reisezeitraum prüfen. Besonders in der Mückensaison auf Mückenschutz achten.",
+          "Montevideo und weitere Etappen in Uruguay: Aktuelle Meldungen und Reisezeit berücksichtigen. Ausflüge in den Nordwesten gesondert erfassen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-20"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-20",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "dengue",
+          "chikungunya"
+        ],
+        "regionIds": [
+          "UY-NORTHWEST",
+          "UY-OTHER"
+        ],
+        "reason": "Das Auswärtige Amt nennt den Nordwesten als Schwerpunkt für Dengue und Chikungunya. Aktuelle Meldungen und Reisezeit sind für die Einordnung relevant.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/uruguaysicherheit-201138",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/uruguay"
+        ],
+        "otherRegionalFactors": [
+          "Für den Nordwesten aktuelle Dengue- und Chikungunya-Meldungen prüfen. Mückenschutz beachten. Eine Chikungunya-Impfindikation setzt eine passende aktuelle Ausbruchslage voraus."
+        ]
+      }
+    },
+    "PY": {
+      "name": "Paraguay",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-20",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Gelbfieber",
+          "Hepatitis B",
+          "Typhus",
+          "Dengue",
+          "Chikungunya"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Die paraguayische Gesundheitsbehörde verlangt bei Einreise aus von ihr benannten Risikogebieten einen Gelbfiebernachweis für Reisende von 1 bis 59 Jahren. Für reinen Flughafentransit bis 24 Stunden in einem Risikogebiet nennt sie eine Ausnahme. Vor- und Weiterreise anhand der aktuellen offiziellen Gebietsliste abgleichen."
+        ],
+        "routeDependent": [
+          "Gelbfieberimpfung bei Etappen außerhalb von Asunción prüfen. Für einen Aufenthalt ausschließlich in der Stadt besteht keine generelle Impfempfehlung.",
+          "Bei Dengue gelten die STIKO-Kriterien. Chikungunya nur bei passender aktueller Ausbruchslage prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Die WHO hat Paraguay 2018 als malariafrei zertifiziert. Für dieses Reiseziel ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Länder auf der Route gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "STIKO-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "WHO",
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Asunción",
+            "address": "Santa Teresa 2106, Paseo La Galería, Torre 2, Piso 21 y 22, Asunción",
+            "phone": "+595 21 695 710",
+            "emergency": "+595 981 457216",
+            "scope": "Paraguay. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://asuncion.diplo.de/py-de/ueber-uns"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-20",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/paraguaysicherheit-224964",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/paraguaysicherheit-224964",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/paraguay",
+          "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+          "https://asuncion.diplo.de/py-de/ueber-uns",
+          "https://dgvs.mspbs.gov.py/salud-del-viajero/requisitos-para-ingresar-a-paraguay/"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/paraguaysicherheit-224964",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/paraguay",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://asuncion.diplo.de/py-de/ueber-uns",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://dgvs.mspbs.gov.py/salud-del-viajero/requisitos-para-ingresar-a-paraguay/",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Auswärtiges Amt, CDC und paraguayische Gesundheitsbehörde nennen unterschiedlich gefasste Länder- und Gebietslisten. Für den Nachweis die aktuelle Gebietsliste der paraguayischen Gesundheitsbehörde und bei Bedarf die Auslandsvertretung heranziehen.",
+          "Die STIKO-Ländertabelle führt Typhus bei reiseassoziiertem Risiko auf. Das Auswärtige Amt nennt Tollwut nach individueller Indikation."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Asunción (ausschließlich Stadtgebiet): Für einen reinen Stadtaufenthalt besteht keine generelle Gelbfieber-Impfempfehlung. Eine Nachweispflicht kann sich unabhängig davon aus Vor- oder Weiterreisen ergeben.",
+          "Etappen außerhalb von Asunción: Gelbfieber-Impfindikation prüfen. Bei grenzüberschreitenden Etappen den möglichen Nachweis nach der offiziellen Gebietsliste abgleichen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-20"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-20",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "yellow_fever",
+          "dengue",
+          "chikungunya"
+        ],
+        "regionIds": [
+          "PY-ASUNCION",
+          "PY-OTHER"
+        ],
+        "reason": "Gelbfieber-Impfempfehlung unterscheidet sich bei reinen Aufenthalten in Asunción und bei Weiterreise ins Land. Eine mögliche Nachweispflicht richtet sich nach der grenzüberschreitenden Route.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/paraguaysicherheit-224964",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/paraguay"
+        ],
+        "otherRegionalFactors": [
+          "Gelbfieberimpfung bei Etappen außerhalb von Asunción prüfen. Für einen Aufenthalt ausschließlich in der Stadt besteht keine generelle Impfempfehlung.",
+          "Bei Dengue gelten die STIKO-Kriterien. Chikungunya nur bei passender aktueller Ausbruchslage prüfen."
         ]
       }
     }

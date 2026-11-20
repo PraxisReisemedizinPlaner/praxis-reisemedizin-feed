@@ -7126,6 +7126,319 @@
         "clinicalRecommendation": null
       },
       "publicationAllowed": false
+    },
+    {
+      "country": "AR",
+      "id": "AR-IGUAZU",
+      "name": "Misiones einschließlich der Iguazú-Wasserfälle",
+      "aliases": [
+        "Misiones",
+        "Puerto Iguazú",
+        "Iguazu",
+        "Iguazú",
+        "Posadas"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "AR",
+      "id": "AR-CORRIENTES",
+      "name": "Provinz Corrientes",
+      "aliases": [
+        "Corrientes",
+        "Esteros del Iberá",
+        "Iberá"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "AR",
+      "id": "AR-NORTH",
+      "name": "Formosa und ausgewiesene Teile von Chaco, Jujuy und Salta",
+      "aliases": [
+        "Formosa",
+        "Chaco",
+        "Jujuy",
+        "Salta"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "AR",
+      "id": "AR-OTHER",
+      "name": "Buenos Aires und weitere Etappen in Argentinien",
+      "aliases": [
+        "Buenos Aires",
+        "Córdoba",
+        "Mendoza",
+        "Bariloche",
+        "Patagonien",
+        "Ushuaia"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "CL",
+      "id": "CL-RAPA-NUI",
+      "name": "Rapa Nui (Osterinsel)",
+      "aliases": [
+        "Rapa Nui",
+        "Osterinsel",
+        "Hanga Roa",
+        "Isla de Pascua"
+      ],
+      "kind": "island",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "CL",
+      "id": "CL-ANDES",
+      "name": "Anden und Altiplano in Nordchile",
+      "aliases": [
+        "Altiplano",
+        "Putre",
+        "Lago Chungará",
+        "El Tatio",
+        "Atacama",
+        "San Pedro de Atacama"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "CL",
+      "id": "CL-OTHER",
+      "name": "Santiago und weitere Festlandetappen",
+      "aliases": [
+        "Santiago",
+        "Valparaíso",
+        "Patagonien",
+        "Puerto Montt",
+        "Punta Arenas"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "UY",
+      "id": "UY-NORTHWEST",
+      "name": "Nordwesten Uruguays",
+      "aliases": [
+        "Salto Uruguay",
+        "Artigas",
+        "Paysandú",
+        "Paysandu"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "UY",
+      "id": "UY-OTHER",
+      "name": "Montevideo und weitere Etappen in Uruguay",
+      "aliases": [
+        "Montevideo",
+        "Punta del Este",
+        "Colonia",
+        "Maldonado"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PY",
+      "id": "PY-ASUNCION",
+      "name": "Asunción (ausschließlich Stadtgebiet)",
+      "aliases": [
+        "Asunción",
+        "Asuncion"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PY",
+      "id": "PY-OTHER",
+      "name": "Etappen außerhalb von Asunción",
+      "aliases": [
+        "Ciudad del Este",
+        "Encarnación",
+        "Chaco paraguayo",
+        "Filadelfia",
+        "Itaipú",
+        "Itaipu"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
     }
   ]
 }
