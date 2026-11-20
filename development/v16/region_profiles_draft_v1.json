@@ -5785,6 +5785,230 @@
         "clinicalRecommendation": null
       },
       "publicationAllowed": false
+    },
+    {
+      "country": "GB",
+      "id": "GB-THETFORD",
+      "name": "Thetford Forest",
+      "aliases": [
+        "Thetford",
+        "Thetford Forest",
+        "Breckland"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "GB",
+      "id": "GB-HAMPSHIRE-DORSET",
+      "name": "Hampshire und Dorset – New Forest und Grenzgebiet",
+      "aliases": [
+        "New Forest",
+        "Hampshire",
+        "Dorset"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "GB",
+      "id": "GB-NORTH-YORK",
+      "name": "North York Moors",
+      "aliases": [
+        "North Yorkshire Moors",
+        "North York Moors",
+        "Pickering"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "GB",
+      "id": "GB-LOCH-EARN",
+      "name": "Loch Earn und Umgebung (Schottland)",
+      "aliases": [
+        "Loch Earn",
+        "Lochearnhead",
+        "St Fillans"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "GB",
+      "id": "GB-OTHER",
+      "name": "Weitere Etappen im Vereinigten Königreich",
+      "aliases": [
+        "London",
+        "Cardiff",
+        "Belfast",
+        "Edinburgh",
+        "Glasgow",
+        "Manchester",
+        "Birmingham"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "NL",
+      "id": "NL-UTRECHTSE",
+      "name": "Utrechtse Heuvelrug",
+      "aliases": [
+        "Utrechtse Heuvelrug",
+        "Doorn",
+        "Maarn",
+        "Amerongen"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "NL",
+      "id": "NL-SALLANDSE",
+      "name": "Sallandse Heuvelrug",
+      "aliases": [
+        "Sallandse Heuvelrug",
+        "Holten",
+        "Nijverdal"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "NL",
+      "id": "NL-OTHER",
+      "name": "Weitere Etappen in den europäischen Niederlanden",
+      "aliases": [
+        "Amsterdam",
+        "Rotterdam",
+        "Den Haag",
+        "Utrecht",
+        "Groningen",
+        "Maastricht"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
     }
   ]
 }

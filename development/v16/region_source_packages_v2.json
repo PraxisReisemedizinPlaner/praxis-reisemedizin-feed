@@ -3355,6 +3355,126 @@
       ],
       "reuseRightsChecked": true,
       "summary": "Bei Naturaufenthalten FSME nach Exposition prüfen. Begrenzte Meldedaten erlauben keine verlässliche regionale Entwarnung."
+    },
+    {
+      "id": "GB-THETFORD",
+      "country": "GB",
+      "status": "route_required",
+      "scope": "Thetford Forest",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "FSME-Virus wurde in Zecken nachgewiesen. Bei intensiver Zeckenexposition die Impfindikation individuell prüfen."
+    },
+    {
+      "id": "GB-HAMPSHIRE-DORSET",
+      "country": "GB",
+      "status": "route_required",
+      "scope": "Hampshire und Dorset – New Forest und Grenzgebiet",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Lokale FSME-Nachweise, darunter im Grenzgebiet Hampshire–Dorset. Bei intensiver Zeckenexposition die genaue Route prüfen."
+    },
+    {
+      "id": "GB-NORTH-YORK",
+      "country": "GB",
+      "status": "route_required",
+      "scope": "North York Moors",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Lokale FSME-Nachweise in Teilen der Moor- und Waldregion. Bei intensiver Zeckenexposition individuell prüfen."
+    },
+    {
+      "id": "GB-LOCH-EARN",
+      "country": "GB",
+      "status": "route_required",
+      "scope": "Loch Earn und Umgebung (Schottland)",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "UKHSA dokumentiert einen bestätigten lokalen Fall in der Umgebung von Loch Earn. Bei intensiver Zeckenexposition individuell prüfen."
+    },
+    {
+      "id": "GB-OTHER",
+      "country": "GB",
+      "status": "route_required",
+      "scope": "Weitere Etappen im Vereinigten Königreich",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei intensiver Zeckenexposition die konkrete ländliche Etappe mit aktuellen UKHSA-Hinweisen abgleichen."
+    },
+    {
+      "id": "NL-UTRECHTSE",
+      "country": "NL",
+      "status": "route_required",
+      "scope": "Utrechtse Heuvelrug",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/niederlandesicherheit/211084",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Lokales FSME-Übertragungsgebiet. Bei intensiver Zeckenexposition die Impfindikation prüfen."
+    },
+    {
+      "id": "NL-SALLANDSE",
+      "country": "NL",
+      "status": "route_required",
+      "scope": "Sallandse Heuvelrug",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/niederlandesicherheit/211084",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Lokales FSME-Übertragungsgebiet. Bei intensiver Zeckenexposition die Impfindikation prüfen."
+    },
+    {
+      "id": "NL-OTHER",
+      "country": "NL",
+      "status": "route_required",
+      "scope": "Weitere Etappen in den europäischen Niederlanden",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/niederlandesicherheit/211084",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Einzelne FSME-Fälle wurden auch andernorts beschrieben. Bei intensiver Zeckenexposition die konkrete Etappe prüfen."
     }
   ]
 }
