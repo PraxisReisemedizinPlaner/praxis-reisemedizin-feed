@@ -4228,6 +4228,232 @@
       ],
       "reuseRightsChecked": true,
       "summary": "Gelbfieber-Impfindikation prüfen. Bei grenzüberschreitenden Etappen den möglichen Nachweis nach der offiziellen Gebietsliste abgleichen."
+    },
+    {
+      "id": "CO-BOG",
+      "country": "CO",
+      "status": "supported",
+      "scope": "Bogotá (Stadt)",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/kolumbien-node/kolumbiensicherheit-201516",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/colombia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für Bogotá-Stadt besteht laut Auswärtigem Amt kein Malariarisiko. Bei ausschließlichem Stadtaufenthalt sieht die STIKO keine Gelbfieberimpfung vor. Weitere Etappen gesondert prüfen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "CO-CITY",
+      "country": "CO",
+      "status": "supported",
+      "scope": "Cartagena oder Medellín (Stadtgebiete)",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/kolumbien-node/kolumbiensicherheit-201516",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/colombia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Das Auswärtige Amt stuft die Stadtgebiete als malariafrei ein. Für einen reinen Stadtaufenthalt besteht laut STIKO keine Gelbfieber-Impfempfehlung. Das Umland separat prüfen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "CO-ISLAND",
+      "country": "CO",
+      "status": "route_required",
+      "scope": "San Andrés / Providencia",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/kolumbien-node/kolumbiensicherheit-201516",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/colombia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Die STIKO nimmt beide Inselziele von der Gelbfieber-Impfempfehlung aus. Die Quellen nennen unterschiedliche Ausnahmen für Malaria. Providencia und Weiterreisen gesondert beurteilen."
+    },
+    {
+      "id": "CO-AMZ",
+      "country": "CO",
+      "status": "supported",
+      "scope": "Amazonas-Tiefland um Leticia",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/kolumbien-node/kolumbiensicherheit-201516",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/colombia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für Amazonas-Tieflandetappen in dieser Region Gelbfieberimpfung und medikamentöse Malariaprophylaxe ärztlich prüfen. Mückenschutz einplanen.",
+      "riskLevel": "high",
+      "preventionType": "chemoprophylaxis_consider"
+    },
+    {
+      "id": "CO-PAC",
+      "country": "CO",
+      "status": "supported",
+      "scope": "Pazifische Tieflandetappen in Chocó",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/kolumbien-node/kolumbiensicherheit-201516",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/colombia"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Im pazifischen Tiefland von Chocó auf Gelbfieber und erhöhtes Malariarisiko achten. Vor Abreise Gelbfieberimpfung und Malariaprophylaxe für die genaue Route ärztlich prüfen.",
+      "riskLevel": "high",
+      "preventionType": "chemoprophylaxis_consider"
+    },
+    {
+      "id": "EC-URBAN",
+      "country": "EC",
+      "status": "supported",
+      "scope": "Quito, Guayaquil oder Galápagos",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/ecuadorsicherheit-223232",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Ecuador"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei ausschließlichem Aufenthalt an diesen Zielen besteht laut Auswärtigem Amt kein Malariarisiko und keine Gelbfieber-Impfempfehlung. Festlandetappen außerhalb der genannten Städte separat beurteilen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "EC-YASUNI",
+      "country": "EC",
+      "status": "source_conflict",
+      "scope": "Yasuní und angrenzendes Amazonas-Tiefland",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/ecuadorsicherheit-223232",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Ecuador"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Gelbfieberimpfung für die Tieflandroute prüfen. Auswärtiges Amt und CDC bewerten Malaria und Prophylaxe unterschiedlich. Die konkrete Route, Höhe und Erreichbarkeit von Diagnostik ärztlich abgleichen."
+    },
+    {
+      "id": "EC-ESMER",
+      "country": "EC",
+      "status": "source_conflict",
+      "scope": "Esmeraldas (Provinz, Tiefland)",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/ecuadorsicherheit-223232",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Ecuador"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Die STIKO nennt Esmeraldas bei der Gelbfieber-Impfempfehlung. Auswärtiges Amt und CDC nutzen unterschiedliche regionale Grenzen für Malaria und medikamentöse Prophylaxe. Route ärztlich prüfen."
+    },
+    {
+      "id": "BO-HIGH",
+      "country": "BO",
+      "status": "supported",
+      "scope": "La Paz-Stadt oder Salar de Uyuni",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/boliviensicherheit-213428",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/BOLIVIA"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei ausschließlichen Hochlandaufenthalten an diesen Zielen ist regulär keine Gelbfieberimpfung vorgesehen. Laut Auswärtigem Amt besteht für diese Hochlandroute kein Malariarisiko. Etappen im Tiefland getrennt prüfen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "BO-NORTH",
+      "country": "BO",
+      "status": "supported",
+      "scope": "Pando und nördliches Amazonas-Tiefland",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/boliviensicherheit-213428",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/BOLIVIA"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Im nördlichen Amazonastiefland bestehen Gelbfieber- und erhöhte Malariarisiken. Gelbfiebernachweis und medikamentöse Malariaprophylaxe vor Abreise anhand der Etappen ärztlich prüfen.",
+      "riskLevel": "high",
+      "preventionType": "chemoprophylaxis_consider"
+    },
+    {
+      "id": "BO-SCZ",
+      "country": "BO",
+      "status": "source_conflict",
+      "scope": "Santa Cruz (Tiefland und Weiterreise)",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/boliviensicherheit-213428",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/BOLIVIA"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für Tieflandaufenthalte in Santa Cruz Gelbfieberimpfung und Nachweis prüfen. CDC und Auswärtiges Amt bewerten Malariaprophylaxe unterschiedlich. Stadt, ländliches Umland und weitere Etappen getrennt abgleichen."
+    },
+    {
+      "id": "VE-CITY",
+      "country": "VE",
+      "status": "source_conflict",
+      "scope": "Caracas oder Isla Margarita",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/venezuela-node/venezuelasicherheit-224982",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/venezuela"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei ausschließlichem Aufenthalt an diesen Zielen ist laut STIKO keine Gelbfieberimpfung vorgesehen. Die Quellen unterscheiden sich bei der Malariaprophylaxe. Stadt- oder Inselaufenthalt samt Weiterfahrt ärztlich abklären."
+    },
+    {
+      "id": "VE-ORI",
+      "country": "VE",
+      "status": "supported",
+      "scope": "Südlich des Orinoco oder Orinoco-Delta",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/venezuela-node/venezuelasicherheit-224982",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/venezuela"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Tieflandetappen südlich des Orinoco oder im Delta Gelbfieberimpfung und medikamentöse Malariaprophylaxe entlang der tatsächlichen Route ärztlich prüfen.",
+      "riskLevel": "high",
+      "preventionType": "chemoprophylaxis_consider"
+    },
+    {
+      "id": "VE-WEST",
+      "country": "VE",
+      "status": "source_conflict",
+      "scope": "Falcón, Lara und westliche Etappen",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/venezuela-node/venezuelasicherheit-224982",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/venezuela"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Das Auswärtige Amt berücksichtigt seit 2026 ein höheres Gelbfieberrisiko in zuvor niedriger eingestuften Bundesstaaten. Gelbfieberimpfung und Malariaprophylaxe anhand des exakten Reiseziels prüfen."
     }
   ]
 }

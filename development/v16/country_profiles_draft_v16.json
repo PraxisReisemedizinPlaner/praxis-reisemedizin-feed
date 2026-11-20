@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 86,
+  "countryCount": 90,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -15403,11 +15403,48 @@
     "AR": {
       "name": "Argentinien",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-20",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/argentinien-node/argentiniensicherheit-201326",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/argentina",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://buenos-aires.diplo.de/ar-de/ueber-uns/1801058-1801058",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://buenos-aires.diplo.de/ar-de/service/01-hilfefuerdeutsche/bereitschaftsdienst-2006082",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -15415,7 +15452,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -15435,7 +15472,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -15455,7 +15492,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Buenos Aires",
@@ -15470,7 +15507,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-20",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-20",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/argentinien-node/argentiniensicherheit-201326",
         "evidenceLinks": [
@@ -15524,7 +15561,7 @@
           "Der Gelbfieber-Nachweis ist für die Einreise nach Argentinien laut Auswärtigem Amt nicht vorgeschrieben. Bei Weiterreise in ein anderes Land können andere Regeln gelten."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Misiones einschließlich der Iguazú-Wasserfälle: Gelbfieber-Impfindikation für diese Etappe prüfen. Bei Ausflügen nach Brasilien oder Paraguay gelten deren Einreisevorgaben.",
           "Provinz Corrientes: Gelbfieber-Impfindikation prüfen.",
@@ -15538,7 +15575,7 @@
           "checkedAt": "2026-11-20"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-20",
         "regionalSelectionRequired": true,
@@ -15568,11 +15605,42 @@
     "CL": {
       "name": "Chile",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-20",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/chile-node/chilesicherheit-201230",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/chile",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://santiago.diplo.de/cl-de/ueber-uns/1213148-1213148",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://santiago.diplo.de/cl-de/service/hilfe-fuer-deutsche-1210350",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -15580,7 +15648,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -15598,7 +15666,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -15618,7 +15686,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Santiago de Chile",
@@ -15633,7 +15701,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-20",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-20",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/chile-node/chilesicherheit-201230",
         "evidenceLinks": [
@@ -15679,7 +15747,7 @@
           "Das Auswärtige Amt nennt die Dengue-Impfung nach individueller Indikation für Rapa Nui. Für das äußerste Nordchile schließt es Dengue nicht vollständig aus."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Rapa Nui (Osterinsel): Bei Reise nach Rapa Nui konsequent vor Mückenstichen schützen. Bei gesicherter früherer Dengue-Infektion STIKO-Impfindikation prüfen.",
           "Anden und Altiplano in Nordchile: Bei Fahrten oder Wanderungen in große Höhen Aufstieg und Schlafhöhen vorab prüfen. Schnelle Tagesausflüge aus Tieflagen besonders berücksichtigen.",
@@ -15692,7 +15760,7 @@
           "checkedAt": "2026-11-20"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-20",
         "regionalSelectionRequired": true,
@@ -15721,11 +15789,36 @@
     "UY": {
       "name": "Uruguay",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-20",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/uruguaysicherheit-201138",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/uruguay",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://montevideo.diplo.de/uy-de/ueber-uns/201148-201148",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -15733,7 +15826,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -15750,7 +15843,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -15770,7 +15863,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Montevideo",
@@ -15785,7 +15878,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-20",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-20",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/uruguaysicherheit-201138",
         "evidenceLinks": [
@@ -15824,7 +15917,7 @@
           "Das Auswärtige Amt nennt zusätzlich Tollwut nach individueller Indikation. Die STIKO-Ländertabelle führt keine routinemäßige Tollwut-Reiseimpfung auf."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Nordwesten Uruguays: Aktuelle lokale Dengue- und Chikungunya-Meldungen für den Reisezeitraum prüfen. Besonders in der Mückensaison auf Mückenschutz achten.",
           "Montevideo und weitere Etappen in Uruguay: Aktuelle Meldungen und Reisezeit berücksichtigen. Ausflüge in den Nordwesten gesondert erfassen."
@@ -15836,7 +15929,7 @@
           "checkedAt": "2026-11-20"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-20",
         "regionalSelectionRequired": true,
@@ -15862,11 +15955,48 @@
     "PY": {
       "name": "Paraguay",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-20",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/paraguaysicherheit-224964",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/paraguay",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/teams/global-malaria-programme/elimination/countries-and-territories-certified-malaria-free-by-who",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://asuncion.diplo.de/py-de/ueber-uns",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://dgvs.mspbs.gov.py/salud-del-viajero/requisitos-para-ingresar-a-paraguay/",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -15874,7 +16004,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -15895,7 +16025,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -15915,7 +16045,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Asunción",
@@ -15930,7 +16060,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-20",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-20",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/paraguaysicherheit-224964",
         "evidenceLinks": [
@@ -15984,7 +16114,7 @@
           "Die STIKO-Ländertabelle führt Typhus bei reiseassoziiertem Risiko auf. Das Auswärtige Amt nennt Tollwut nach individueller Indikation."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Asunción (ausschließlich Stadtgebiet): Für einen reinen Stadtaufenthalt besteht keine generelle Gelbfieber-Impfempfehlung. Eine Nachweispflicht kann sich unabhängig davon aus Vor- oder Weiterreisen ergeben.",
           "Etappen außerhalb von Asunción: Gelbfieber-Impfindikation prüfen. Bei grenzüberschreitenden Etappen den möglichen Nachweis nach der offiziellen Gebietsliste abgleichen."
@@ -15996,7 +16126,7 @@
           "checkedAt": "2026-11-20"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-20",
         "regionalSelectionRequired": true,
@@ -16018,6 +16148,642 @@
         "otherRegionalFactors": [
           "Gelbfieberimpfung bei Etappen außerhalb von Asunción prüfen. Für einen Aufenthalt ausschließlich in der Stadt besteht keine generelle Impfempfehlung.",
           "Bei Dengue gelten die STIKO-Kriterien. Chikungunya nur bei passender aktueller Ausbruchslage prüfen."
+        ]
+      }
+    },
+    "CO": {
+      "name": "Kolumbien",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-20",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Gelbfieber",
+          "Hepatitis B",
+          "Typhus",
+          "Dengue",
+          "Chikungunya"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Bei Einreise aus Angola, Brasilien, der DR Kongo oder Uganda kann ab einem Jahr ein Gelbfiebernachweis erforderlich sein. Bei Transit vor Abflug die Frist bestätigen lassen."
+        ],
+        "routeDependent": [
+          "Gelbfieberimpfung anhand der konkreten Etappen, des Alters und möglicher Kontraindikationen prüfen. Den Gelbfiebernachweis für Vorreise, Transit und Weiterreise gesondert berücksichtigen.",
+          "Dengue-Impfung gemäß STIKO bei entsprechender Exposition und labordiagnostisch gesicherter früherer Dengue-Infektion ab vier Jahren prüfen. Chikungunya-Impfung nach aktueller STIKO-Indikation und persönlichem Risiko beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Bogotá (Stadt)",
+          "Cartagena oder Medellín (Stadtgebiete)",
+          "San Andrés / Providencia",
+          "Amazonas-Tiefland um Leticia",
+          "Pazifische Tieflandetappen in Chocó"
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Für die Malariavorsorge die genaue Route, Höhenlage und Erreichbarkeit medizinischer Versorgung beurteilen. In Übertragungsgebieten konsequent vor Mückenstichen schützen und je nach Etappe medikamentöse Prophylaxe ärztlich prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/kolumbien-node/kolumbiensicherheit-201516",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/colombia",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Bogotá",
+            "address": "Calle 110 No. 9-25, piso 11, Torre Empresarial Edificio Pacífic P. H., Bogotá",
+            "phone": "+57 601 4232600",
+            "emergency": "+57 320 8653717",
+            "scope": "Kolumbien. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://bogota.diplo.de/co-de/ueber-uns/1800516-1800516"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-20",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/kolumbien-node/kolumbiensicherheit-201516",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/service/laender/kolumbien-node/kolumbiensicherheit-201516",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/colombia",
+          "https://bogota.diplo.de/co-de/ueber-uns/1800516-1800516"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/kolumbien-node/kolumbiensicherheit-201516",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/colombia",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://bogota.diplo.de/co-de/ueber-uns/1800516-1800516",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Für Kolumbien nennt das Auswärtige Amt an verschiedenen Stellen 12 bzw. 24 Stunden Transit. Die Gesundheitsrubrik und die STIKO-Tabelle nennen mehr als 12 Stunden. Die konkrete Verbindung vorab mit Airline und zuständiger Vertretung klären.",
+          "Die STIKO führt Tollwut nicht als routinemäßige Reiseimpfung. Das Auswärtige Amt nennt sie bei individueller Indikation."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Bogotá (Stadt). Für Bogotá-Stadt besteht laut Auswärtigem Amt kein Malariarisiko. Bei ausschließlichem Stadtaufenthalt sieht die STIKO keine Gelbfieberimpfung vor. Weitere Etappen gesondert prüfen.",
+          "Cartagena oder Medellín (Stadtgebiete). Das Auswärtige Amt stuft die Stadtgebiete als malariafrei ein. Für einen reinen Stadtaufenthalt besteht laut STIKO keine Gelbfieber-Impfempfehlung. Das Umland separat prüfen.",
+          "San Andrés / Providencia. Die STIKO nimmt beide Inselziele von der Gelbfieber-Impfempfehlung aus. Die Quellen nennen unterschiedliche Ausnahmen für Malaria. Providencia und Weiterreisen gesondert beurteilen.",
+          "Amazonas-Tiefland um Leticia. Für Amazonas-Tieflandetappen in dieser Region Gelbfieberimpfung und medikamentöse Malariaprophylaxe ärztlich prüfen. Mückenschutz einplanen.",
+          "Pazifische Tieflandetappen in Chocó. Im pazifischen Tiefland von Chocó auf Gelbfieber und erhöhtes Malariarisiko achten. Vor Abreise Gelbfieberimpfung und Malariaprophylaxe für die genaue Route ärztlich prüfen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-20"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-20",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria",
+          "yellow_fever",
+          "dengue",
+          "chikungunya"
+        ],
+        "regionIds": [
+          "CO-BOG",
+          "CO-CITY",
+          "CO-ISLAND",
+          "CO-AMZ",
+          "CO-PAC"
+        ],
+        "reason": "Die Etappen und Höhenlagen unterscheiden sich bei Gelbfieber und Malaria. Nachweisregeln zusätzlich für Vorreise, Transit und Weiterreise prüfen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/kolumbien-node/kolumbiensicherheit-201516",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/colombia"
+        ],
+        "otherRegionalFactors": [
+          "Gelbfieberimpfung anhand der konkreten Etappen, des Alters und möglicher Kontraindikationen prüfen. Den Gelbfiebernachweis für Vorreise, Transit und Weiterreise gesondert berücksichtigen.",
+          "Dengue-Impfung gemäß STIKO bei entsprechender Exposition und labordiagnostisch gesicherter früherer Dengue-Infektion ab vier Jahren prüfen. Chikungunya-Impfung nach aktueller STIKO-Indikation und persönlichem Risiko beurteilen."
+        ]
+      }
+    },
+    "EC": {
+      "name": "Ecuador",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-20",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Gelbfieber",
+          "Hepatitis B",
+          "Typhus",
+          "Dengue",
+          "Chikungunya",
+          "Tollwut"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind laut Auswärtigem Amt keine Pflichtimpfungen vorgesehen.",
+          "Bei Anreise oder längerem Transit über Brasilien, DR Kongo oder Uganda die aktuelle Gelbfieber-Nachweispflicht prüfen. Auch die Weiterreise kann einen Nachweis erfordern."
+        ],
+        "routeDependent": [
+          "Gelbfieberimpfung anhand der konkreten Etappen, des Alters und möglicher Kontraindikationen prüfen. Den Gelbfiebernachweis für Vorreise, Transit und Weiterreise gesondert berücksichtigen.",
+          "Dengue-Impfung gemäß STIKO bei entsprechender Exposition und labordiagnostisch gesicherter früherer Dengue-Infektion ab vier Jahren prüfen. Chikungunya-Impfung nach aktueller STIKO-Indikation und persönlichem Risiko beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Quito, Guayaquil oder Galápagos",
+          "Yasuní und angrenzendes Amazonas-Tiefland",
+          "Esmeraldas (Provinz, Tiefland)"
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Für die Malariavorsorge die genaue Route, Höhenlage und Erreichbarkeit medizinischer Versorgung beurteilen. In Übertragungsgebieten konsequent vor Mückenstichen schützen und je nach Etappe medikamentöse Prophylaxe ärztlich prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/ecuadorsicherheit-223232",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Ecuador",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Quito",
+            "address": "Avenida Naciones Unidas E10-44 y República de El Salvador, Edificio Citiplaza, Quito",
+            "phone": "+593 2 297 08 20",
+            "emergency": "+593 999 497967",
+            "scope": "Ecuador. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://quito.diplo.de/ec-de/botschaft/1693000-1693000"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-20",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/ecuadorsicherheit-223232",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/ecuadorsicherheit-223232",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Ecuador",
+          "https://quito.diplo.de/ec-de/botschaft/1693000-1693000"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/ecuadorsicherheit-223232",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Ecuador",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://quito.diplo.de/ec-de/botschaft/1693000-1693000",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO/WHO-Tabelle nennt besondere Nachweisregeln für bestimmte Drittstaaten. Die konkrete Vorreise und den Transit vor Abflug mit der zuständigen Stelle abgleichen.",
+          "Für Malaria unterscheiden sich Auswärtiges Amt und CDC bei Höhen- und Prophylaxegrenzen. Für Amazonasrouten genaue Stationen und Zugang zur Diagnostik erfragen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Quito, Guayaquil oder Galápagos. Bei ausschließlichem Aufenthalt an diesen Zielen besteht laut Auswärtigem Amt kein Malariarisiko und keine Gelbfieber-Impfempfehlung. Festlandetappen außerhalb der genannten Städte separat beurteilen.",
+          "Yasuní und angrenzendes Amazonas-Tiefland. Gelbfieberimpfung für die Tieflandroute prüfen. Auswärtiges Amt und CDC bewerten Malaria und Prophylaxe unterschiedlich. Die konkrete Route, Höhe und Erreichbarkeit von Diagnostik ärztlich abgleichen.",
+          "Esmeraldas (Provinz, Tiefland). Die STIKO nennt Esmeraldas bei der Gelbfieber-Impfempfehlung. Auswärtiges Amt und CDC nutzen unterschiedliche regionale Grenzen für Malaria und medikamentöse Prophylaxe. Route ärztlich prüfen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-20"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-20",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria",
+          "yellow_fever",
+          "dengue",
+          "chikungunya"
+        ],
+        "regionIds": [
+          "EC-URBAN",
+          "EC-YASUNI",
+          "EC-ESMER"
+        ],
+        "reason": "Die Etappen und Höhenlagen unterscheiden sich bei Gelbfieber und Malaria. Nachweisregeln zusätzlich für Vorreise, Transit und Weiterreise prüfen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/ecuadorsicherheit-223232",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Ecuador"
+        ],
+        "otherRegionalFactors": [
+          "Gelbfieberimpfung anhand der konkreten Etappen, des Alters und möglicher Kontraindikationen prüfen. Den Gelbfiebernachweis für Vorreise, Transit und Weiterreise gesondert berücksichtigen.",
+          "Dengue-Impfung gemäß STIKO bei entsprechender Exposition und labordiagnostisch gesicherter früherer Dengue-Infektion ab vier Jahren prüfen. Chikungunya-Impfung nach aktueller STIKO-Indikation und persönlichem Risiko beurteilen."
+        ]
+      }
+    },
+    "BO": {
+      "name": "Bolivien",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-20",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Gelbfieber",
+          "Hepatitis B",
+          "Typhus",
+          "Dengue",
+          "Chikungunya",
+          "Tollwut"
+        ],
+        "entryRequirements": [
+          "Das Auswärtige Amt nennt eine Gelbfieber-Nachweispflicht für den Besuch ausgewiesener bolivianischer Gelbfiebergebiete. Der Nachweis gilt ab dem zehnten Tag nach Erstimpfung.",
+          "Bei Anreise aus einem Gelbfieber-Endemiegebiet zusätzlich die Nachweisregel für den Grenzübertritt bestätigen lassen."
+        ],
+        "routeDependent": [
+          "Gelbfieberimpfung anhand der konkreten Etappen, des Alters und möglicher Kontraindikationen prüfen. Den Gelbfiebernachweis für Vorreise, Transit und Weiterreise gesondert berücksichtigen.",
+          "Dengue-Impfung gemäß STIKO bei entsprechender Exposition und labordiagnostisch gesicherter früherer Dengue-Infektion ab vier Jahren prüfen. Chikungunya-Impfung nach aktueller STIKO-Indikation und persönlichem Risiko beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "La Paz-Stadt oder Salar de Uyuni",
+          "Pando und nördliches Amazonas-Tiefland",
+          "Santa Cruz (Tiefland und Weiterreise)"
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Für die Malariavorsorge die genaue Route, Höhenlage und Erreichbarkeit medizinischer Versorgung beurteilen. In Übertragungsgebieten konsequent vor Mückenstichen schützen und je nach Etappe medikamentöse Prophylaxe ärztlich prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/boliviensicherheit-213428",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/BOLIVIA",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft La Paz",
+            "address": "Avenida Arce 2395, Ecke Calle Belisario Salinas, La Paz",
+            "phone": "+591 2 244 00 66",
+            "emergency": "+591 71527279",
+            "scope": "Bolivien. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://la-paz.diplo.de/bo-de/ueber-uns/adresse-1804212"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-20",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/boliviensicherheit-213428",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/boliviensicherheit-213428",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/BOLIVIA",
+          "https://la-paz.diplo.de/bo-de/ueber-uns/adresse-1804212"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/boliviensicherheit-213428",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/BOLIVIA",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://la-paz.diplo.de/bo-de/ueber-uns/adresse-1804212",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt beschreibt eine innerstaatliche Nachweispflicht für Risikogebiete. Die STIKO/WHO-Tabelle hebt außerdem die Einreise aus Endemiegebieten hervor. Beide Aspekte für die konkrete Route prüfen.",
+          "CDC und Auswärtiges Amt bewerten die Notwendigkeit einer Malariaprophylaxe unterhalb von 2.500 m unterschiedlich."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "La Paz-Stadt oder Salar de Uyuni. Bei ausschließlichen Hochlandaufenthalten an diesen Zielen ist regulär keine Gelbfieberimpfung vorgesehen. Laut Auswärtigem Amt besteht für diese Hochlandroute kein Malariarisiko. Etappen im Tiefland getrennt prüfen.",
+          "Pando und nördliches Amazonas-Tiefland. Im nördlichen Amazonastiefland bestehen Gelbfieber- und erhöhte Malariarisiken. Gelbfiebernachweis und medikamentöse Malariaprophylaxe vor Abreise anhand der Etappen ärztlich prüfen.",
+          "Santa Cruz (Tiefland und Weiterreise). Für Tieflandaufenthalte in Santa Cruz Gelbfieberimpfung und Nachweis prüfen. CDC und Auswärtiges Amt bewerten Malariaprophylaxe unterschiedlich. Stadt, ländliches Umland und weitere Etappen getrennt abgleichen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-20"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-20",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria",
+          "yellow_fever",
+          "dengue",
+          "chikungunya"
+        ],
+        "regionIds": [
+          "BO-HIGH",
+          "BO-NORTH",
+          "BO-SCZ"
+        ],
+        "reason": "Die Etappen und Höhenlagen unterscheiden sich bei Gelbfieber und Malaria. Nachweisregeln zusätzlich für Vorreise, Transit und Weiterreise prüfen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/boliviensicherheit-213428",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/BOLIVIA"
+        ],
+        "otherRegionalFactors": [
+          "Gelbfieberimpfung anhand der konkreten Etappen, des Alters und möglicher Kontraindikationen prüfen. Den Gelbfiebernachweis für Vorreise, Transit und Weiterreise gesondert berücksichtigen.",
+          "Dengue-Impfung gemäß STIKO bei entsprechender Exposition und labordiagnostisch gesicherter früherer Dengue-Infektion ab vier Jahren prüfen. Chikungunya-Impfung nach aktueller STIKO-Indikation und persönlichem Risiko beurteilen."
+        ]
+      }
+    },
+    "VE": {
+      "name": "Venezuela",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-20",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Gelbfieber",
+          "Hepatitis B",
+          "Typhus",
+          "Dengue",
+          "Chikungunya",
+          "Tollwut"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Bei Anreise aus Brasilien wird laut Auswärtigem Amt ab einem Jahr ein Gelbfiebernachweis verlangt. Bei Brasilien-Transit ab etwa zwölf Stunden die genaue Frist vorab bestätigen lassen."
+        ],
+        "routeDependent": [
+          "Gelbfieberimpfung anhand der konkreten Etappen, des Alters und möglicher Kontraindikationen prüfen. Den Gelbfiebernachweis für Vorreise, Transit und Weiterreise gesondert berücksichtigen.",
+          "Dengue-Impfung gemäß STIKO bei entsprechender Exposition und labordiagnostisch gesicherter früherer Dengue-Infektion ab vier Jahren prüfen. Chikungunya-Impfung nach aktueller STIKO-Indikation und persönlichem Risiko beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Caracas oder Isla Margarita",
+          "Südlich des Orinoco oder Orinoco-Delta",
+          "Falcón, Lara und westliche Etappen"
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Für die Malariavorsorge die genaue Route, Höhenlage und Erreichbarkeit medizinischer Versorgung beurteilen. In Übertragungsgebieten konsequent vor Mückenstichen schützen und je nach Etappe medikamentöse Prophylaxe ärztlich prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/venezuela-node/venezuelasicherheit-224982",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/venezuela",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Caracas",
+            "address": "Avenida Eugenio Mendoza / Avenida José Ángel Lamas, Edificio La Castellana, 10. Stock, Caracas",
+            "phone": "+58 212 219 25 00",
+            "emergency": "+58 414 3061892",
+            "scope": "Venezuela. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://caracas.diplo.de/ve-de/botschaft/1219510-1219510"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-20",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/venezuela-node/venezuelasicherheit-224982",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/service/laender/venezuela-node/venezuelasicherheit-224982",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/venezuela",
+          "https://caracas.diplo.de/ve-de/botschaft/1219510-1219510",
+          "https://caracas.diplo.de/ve-de/2405752-2405752"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/venezuela-node/venezuelasicherheit-224982",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/venezuela",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://caracas.diplo.de/ve-de/botschaft/1219510-1219510",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://caracas.diplo.de/ve-de/2405752-2405752",
+            "checkedAt": "2026-11-20",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt weist seit 2026 auf eine höhere Gelbfieber-Risikoeinschätzung für mehrere zuvor niedriger bewertete Bundesstaaten hin. Die ältere Gebietseinstufung aus der WHO-Basis nicht pauschal auf die aktuelle Route übertragen.",
+          "Auswärtiges Amt und CDC bewerten die Malaria-Prophylaxe für nördliche Stationen unterschiedlich."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Caracas oder Isla Margarita. Bei ausschließlichem Aufenthalt an diesen Zielen ist laut STIKO keine Gelbfieberimpfung vorgesehen. Die Quellen unterscheiden sich bei der Malariaprophylaxe. Stadt- oder Inselaufenthalt samt Weiterfahrt ärztlich abklären.",
+          "Südlich des Orinoco oder Orinoco-Delta. Bei Tieflandetappen südlich des Orinoco oder im Delta Gelbfieberimpfung und medikamentöse Malariaprophylaxe entlang der tatsächlichen Route ärztlich prüfen.",
+          "Falcón, Lara und westliche Etappen. Das Auswärtige Amt berücksichtigt seit 2026 ein höheres Gelbfieberrisiko in zuvor niedriger eingestuften Bundesstaaten. Gelbfieberimpfung und Malariaprophylaxe anhand des exakten Reiseziels prüfen."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-20"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-20",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria",
+          "yellow_fever",
+          "dengue",
+          "chikungunya"
+        ],
+        "regionIds": [
+          "VE-CITY",
+          "VE-ORI",
+          "VE-WEST"
+        ],
+        "reason": "Die Etappen und Höhenlagen unterscheiden sich bei Gelbfieber und Malaria. Nachweisregeln zusätzlich für Vorreise, Transit und Weiterreise prüfen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/venezuela-node/venezuelasicherheit-224982",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/venezuela"
+        ],
+        "otherRegionalFactors": [
+          "Gelbfieberimpfung anhand der konkreten Etappen, des Alters und möglicher Kontraindikationen prüfen. Den Gelbfiebernachweis für Vorreise, Transit und Weiterreise gesondert berücksichtigen.",
+          "Dengue-Impfung gemäß STIKO bei entsprechender Exposition und labordiagnostisch gesicherter früherer Dengue-Infektion ab vier Jahren prüfen. Chikungunya-Impfung nach aktueller STIKO-Indikation und persönlichem Risiko beurteilen."
         ]
       }
     }
