@@ -5467,6 +5467,324 @@
         "clinicalRecommendation": null
       },
       "publicationAllowed": false
+    },
+    {
+      "country": "LT",
+      "id": "LT-UTENA",
+      "name": "Bezirk Utena",
+      "aliases": [
+        "Utena",
+        "Anykščiai",
+        "Ignalina",
+        "Zarasai"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "LT",
+      "id": "LT-OTHER",
+      "name": "Weitere Etappen in Litauen",
+      "aliases": [
+        "Vilnius",
+        "Kaunas",
+        "Klaipėda",
+        "Kurische Nehrung",
+        "Šiauliai"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "SK",
+      "id": "SK-NORTH",
+      "name": "Regionen Žilina und Trenčín",
+      "aliases": [
+        "Žilina",
+        "Zilina",
+        "Trenčín",
+        "Trencin",
+        "Orava",
+        "Liptov"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "SK",
+      "id": "SK-CENTRAL",
+      "name": "Region Banská Bystrica",
+      "aliases": [
+        "Banská Bystrica",
+        "Banska Bystrica",
+        "Zvolen",
+        "Banská Štiavnica"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "SK",
+      "id": "SK-OTHER",
+      "name": "Weitere Etappen in der Slowakei",
+      "aliases": [
+        "Bratislava",
+        "Pressburg",
+        "Košice",
+        "Prešov",
+        "Poprad"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "HU",
+      "id": "HU-WEST",
+      "name": "Westliches Transdanubien",
+      "aliases": [
+        "Transdanubien",
+        "Zala",
+        "Vas",
+        "Sopron",
+        "Kőszeg"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "HU",
+      "id": "HU-NORTH",
+      "name": "Nordungarn",
+      "aliases": [
+        "Nógrád",
+        "Mátra",
+        "Bükk",
+        "Eger",
+        "Miskolc"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "HU",
+      "id": "HU-OTHER",
+      "name": "Weitere Etappen in Ungarn",
+      "aliases": [
+        "Budapest",
+        "Debrecen",
+        "Szeged",
+        "Pécs"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "RO",
+      "id": "RO-NORTHWEST",
+      "name": "Nordwesten Rumäniens",
+      "aliases": [
+        "Maramureș",
+        "Maramures",
+        "Satu Mare",
+        "Bihor",
+        "Cluj",
+        "Cluj-Napoca"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "RO",
+      "id": "RO-IASI",
+      "name": "Kreis Iași",
+      "aliases": [
+        "Iași",
+        "Iasi",
+        "Jassy",
+        "Pașcani"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "RO",
+      "id": "RO-OTHER",
+      "name": "Weitere Etappen in Rumänien",
+      "aliases": [
+        "Bukarest",
+        "București",
+        "Brașov",
+        "Sibiu",
+        "Donaudelta",
+        "Constanța"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
     }
   ]
 }

@@ -3178,6 +3178,183 @@
       ],
       "reuseRightsChecked": true,
       "summary": "FSME-Übertragungsherde kommen landesweit vor. Bei Zeckenexposition die örtlichen Hinweise prüfen."
+    },
+    {
+      "id": "LT-UTENA",
+      "country": "LT",
+      "status": "route_required",
+      "scope": "Bezirk Utena",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/litauen-node/litauensicherheit-200620",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.ecdc.europa.eu/en/infectious-disease-topics/tick-borne-encephalitis/surveillance-and-updates/locally-acquired-tbe"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "FSME-Schwerpunkt. Bei Naturaufenthalten mit Zeckenexposition die Impfindikation prüfen."
+    },
+    {
+      "id": "LT-OTHER",
+      "country": "LT",
+      "status": "route_required",
+      "scope": "Weitere Etappen in Litauen",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/litauen-node/litauensicherheit-200620",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.ecdc.europa.eu/en/infectious-disease-topics/tick-borne-encephalitis/surveillance-and-updates/locally-acquired-tbe"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "FSME-Herde kommen landesweit vor. Bei Naturausflügen die tatsächliche Zeckenexposition prüfen."
+    },
+    {
+      "id": "SK-NORTH",
+      "country": "SK",
+      "status": "route_required",
+      "scope": "Regionen Žilina und Trenčín",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/slowakeisicherheit-206360",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.ecdc.europa.eu/en/infectious-disease-topics/tick-borne-encephalitis/surveillance-and-updates/locally-acquired-tbe"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "FSME-Schwerpunkt im Norden. Bei Naturaufenthalten mit Zeckenexposition die Impfindikation prüfen."
+    },
+    {
+      "id": "SK-CENTRAL",
+      "country": "SK",
+      "status": "route_required",
+      "scope": "Region Banská Bystrica",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/slowakeisicherheit-206360",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.ecdc.europa.eu/en/infectious-disease-topics/tick-borne-encephalitis/surveillance-and-updates/locally-acquired-tbe"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "FSME-Schwerpunkt in der Landesmitte. Bei Wanderungen und anderen Naturaufenthalten die Impfindikation prüfen."
+    },
+    {
+      "id": "SK-OTHER",
+      "country": "SK",
+      "status": "route_required",
+      "scope": "Weitere Etappen in der Slowakei",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/slowakeisicherheit-206360",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.ecdc.europa.eu/en/infectious-disease-topics/tick-borne-encephalitis/surveillance-and-updates/locally-acquired-tbe"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Auch außerhalb der Schwerpunkte gibt es lokale FSME-Herde. Bei Zeckenexposition die genaue Etappe prüfen."
+    },
+    {
+      "id": "HU-WEST",
+      "country": "HU",
+      "status": "route_required",
+      "scope": "Westliches Transdanubien",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/ungarnsicherheit-210332",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.ecdc.europa.eu/en/infectious-disease-topics/tick-borne-encephalitis/surveillance-and-updates/locally-acquired-tbe"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "FSME-Schwerpunkt im Westen. Bei Wald- und Naturaufenthalten die Impfindikation prüfen."
+    },
+    {
+      "id": "HU-NORTH",
+      "country": "HU",
+      "status": "route_required",
+      "scope": "Nordungarn",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/ungarnsicherheit-210332",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.ecdc.europa.eu/en/infectious-disease-topics/tick-borne-encephalitis/surveillance-and-updates/locally-acquired-tbe"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Wanderungen und anderen Naturaufenthalten die Zeckenexposition und FSME-Impfung prüfen."
+    },
+    {
+      "id": "HU-OTHER",
+      "country": "HU",
+      "status": "route_required",
+      "scope": "Weitere Etappen in Ungarn",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/ungarnsicherheit-210332",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.ecdc.europa.eu/en/infectious-disease-topics/tick-borne-encephalitis/surveillance-and-updates/locally-acquired-tbe"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Naturausflügen und Weiterfahrt in die westlichen oder nördlichen Schwerpunkte die genaue Etappe prüfen."
+    },
+    {
+      "id": "RO-NORTHWEST",
+      "country": "RO",
+      "status": "route_required",
+      "scope": "Nordwesten Rumäniens",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/rumaenien-node/rumaeniensicherheit-210822",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.ecdc.europa.eu/en/infectious-disease-topics/tick-borne-encephalitis/surveillance-and-updates/locally-acquired-tbe"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "CDC berichtet vereinzelt FSME-Fälle im Nordwesten. Bei Zeckenexposition die genaue Etappe und Impfindikation prüfen."
+    },
+    {
+      "id": "RO-IASI",
+      "country": "RO",
+      "status": "route_required",
+      "scope": "Kreis Iași",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/rumaenien-node/rumaeniensicherheit-210822",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.ecdc.europa.eu/en/infectious-disease-topics/tick-borne-encephalitis/surveillance-and-updates/locally-acquired-tbe",
+        "https://www.ecdc.europa.eu/sites/default/files/documents/2025-WCP-0047%20Final.pdf"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "ECDC dokumentierte 2025 einen menschlichen Tollwutfall im Kreis Iași. Bei vorhersehbarem Tierkontakt die Impfindikation prüfen."
+    },
+    {
+      "id": "RO-OTHER",
+      "country": "RO",
+      "status": "route_required",
+      "scope": "Weitere Etappen in Rumänien",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/rumaenien-node/rumaeniensicherheit-210822",
+        "https://www.cdc.gov/tick-borne-encephalitis/data-maps/",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://www.ecdc.europa.eu/en/infectious-disease-topics/tick-borne-encephalitis/surveillance-and-updates/locally-acquired-tbe"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Bei Naturaufenthalten FSME nach Exposition prüfen. Begrenzte Meldedaten erlauben keine verlässliche regionale Entwarnung."
     }
   ]
 }

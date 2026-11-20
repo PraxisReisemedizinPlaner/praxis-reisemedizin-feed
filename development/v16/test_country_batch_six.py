@@ -17,12 +17,12 @@ class SixthCountryBatchTests(unittest.TestCase):
         self.s=read("region_source_packages_v2.json")
     def test_approved_batch_and_next_drafts_are_separate(self):
         out=build_public(self.c,date(2026,11,20))
-        self.assertEqual(out["coverageCount"],54)
-        self.assertEqual(out["approvedCount"],50)
+        self.assertEqual(out["coverageCount"],58)
+        self.assertEqual(out["approvedCount"],54)
         for code in CODES:
             self.assertIn(code,out["countries"])
             self.assertEqual(self.c["countries"][code]["medicalReview"]["reviewedAt"],"2026-11-18")
-        next_codes = ("DK", "PL", "EE", "LV")
+        next_codes = ("LT", "SK", "HU", "RO")
         preview = render(self.c)
         self.assertEqual(preview.count("<article id="), len(next_codes))
         for code in next_codes:
@@ -35,7 +35,7 @@ class SixthCountryBatchTests(unittest.TestCase):
                 self.assertNotIn("malaria",r)
                 self.assertNotIn("sourceNotice",r)
     def test_routes_and_evidence_are_complete(self):
-        self.assertEqual(validate_all(self.c,self.g,self.s),54)
+        self.assertEqual(validate_all(self.c,self.g,self.s),58)
         self.assertEqual(sum(r["country"] in CODES for r in self.g["regions"]),12)
         for code in ("NA","BW"):
             self.assertTrue(self.c["countries"][code]["routeAssessment"]["regionalSelectionRequired"])
@@ -51,7 +51,7 @@ class SixthCountryBatchTests(unittest.TestCase):
         for code in CODES:self.assertIn(self.c["countries"][code]["name"],html)
         self.assertIn("2026-11-18",html)
     def test_release_keeps_seasonal_conflicts_unclassified(self):
-        self.assertEqual(build_public(self.c,date(2026,11,20))["approvedCount"],50)
+        self.assertEqual(build_public(self.c,date(2026,11,20))["approvedCount"],54)
         rows={r["id"]:r for r in build_public_regions(self.g,self.c,self.s,date(2026,11,20))["regions"]}
         for rid in ("NA-ETOSHA","NA-KUNENE","BW-OKAVANGO","BW-GABORONE"):
             self.assertEqual(rows[rid]["clinicalStatus"],"source_conflict")
