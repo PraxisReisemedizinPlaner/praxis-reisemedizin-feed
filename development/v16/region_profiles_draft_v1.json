@@ -7827,6 +7827,322 @@
         "clinicalRecommendation": null
       },
       "publicationAllowed": false
+    },
+    {
+      "country": "PA",
+      "id": "PA-CITY",
+      "name": "Panama-Stadt und Kanaltransit",
+      "aliases": [
+        "Panama-Stadt",
+        "Panamá City",
+        "Panama City",
+        "Casco Viejo",
+        "Panamakanal"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PA",
+      "id": "PA-ANCON",
+      "name": "Ancón, Merca Panamá oder Camino de Cruces",
+      "aliases": [
+        "Ancón",
+        "Ancon",
+        "Merca Panamá",
+        "Merca Panama",
+        "Camino de Cruces"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PA",
+      "id": "PA-EAST",
+      "name": "Darién, Emberá oder Festland östlich des Kanals",
+      "aliases": [
+        "Darién",
+        "Darien",
+        "Emberá",
+        "Embera",
+        "Panamá Este",
+        "Panama Este"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "PA",
+      "id": "PA-SANBLAS",
+      "name": "San-Blas-Inseln (Guna Yala)",
+      "aliases": [
+        "San Blas",
+        "San-Blas",
+        "Guna Yala",
+        "Kuna Yala"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "GT",
+      "id": "GT-CITY",
+      "name": "Guatemala-Stadt, Antigua oder Atitlán-See",
+      "aliases": [
+        "Guatemala-Stadt",
+        "Ciudad de Guatemala",
+        "Antigua",
+        "Atitlán",
+        "Atitlan",
+        "Panajachel"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "GT",
+      "id": "GT-AV",
+      "name": "Alta Verapaz (ländliche Etappen)",
+      "aliases": [
+        "Alta Verapaz",
+        "Cobán",
+        "Coban",
+        "Semuc Champey"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "GT",
+      "id": "GT-LOW",
+      "name": "Petén, Izabal, Baja Verapaz oder Escuintla",
+      "aliases": [
+        "Petén",
+        "Peten",
+        "Tikal",
+        "Flores",
+        "Izabal",
+        "Río Dulce",
+        "Rio Dulce",
+        "Baja Verapaz",
+        "Escuintla"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "HN",
+      "id": "HN-CITY",
+      "name": "Tegucigalpa oder San Pedro Sula (Stadtgebiet)",
+      "aliases": [
+        "Tegucigalpa",
+        "San Pedro Sula"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "HN",
+      "id": "HN-BAY",
+      "name": "Roatán und übrige Bay Islands",
+      "aliases": [
+        "Roatán",
+        "Roatan",
+        "Bay Islands",
+        "Islas de la Bahía",
+        "Utila",
+        "Guanaja"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "HN",
+      "id": "HN-EAST",
+      "name": "Östliches Gracias a Dios (Mosquitia)",
+      "aliases": [
+        "Puerto Lempira",
+        "Mosquitia Ost"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "HN",
+      "id": "HN-BORDER",
+      "name": "Westliches Gracias a Dios oder Grenzgebiet in Olancho",
+      "aliases": [
+        "Gracias a Dios West",
+        "Mosquitia West",
+        "Olancho Nicaragua"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
     }
   ]
 }

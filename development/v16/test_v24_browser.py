@@ -16,8 +16,8 @@ COUNTRIES=json.loads((HERE/"country_profiles_draft_v16.json").read_text(encoding
 PACKAGES=json.loads((HERE/"region_source_packages_v2.json").read_text(encoding="utf-8"))
 regions=build_public_regions(REGION,COUNTRIES,PACKAGES,date(2026,11,20))
 countries=build_countries(COUNTRIES,date(2026,11,20))
-assert regions["sourceBasedCount"] == 52
-assert countries["approvedCount"] == 86
+assert regions["sourceBasedCount"] == 60
+assert countries["approvedCount"] == 90
 
 def intercept(route):
     url=route.request.url
@@ -174,6 +174,17 @@ def smoke(browser,device,stripped=False):
     iguazu.wait_for(state="visible")
     assert "Gelbfieber" in iguazu.inner_text()
     assert "Genaue Reiseroute erforderlich" in iguazu.inner_text()
+    page.locator("#rm-reset").click()
+    selected_country(page,"Ecuador")
+    region_input.fill("Yasun")
+    listbox.locator("button").filter(has_text="Yasuní").click(timeout=10000)
+    page.locator("#rm-when").focus()
+    page.locator("#rm-check").click()
+    yasuni = page.locator(".rm-region-risk-item").filter(has_text="Yasuní")
+    yasuni.wait_for(state="visible")
+    assert "Quellenabweichung" in yasuni.inner_text()
+    assert yasuni.get_attribute("data-rm-risk") == "uncertain"
+    assert page.locator(".rm-malaria-uncertain").evaluate("el => getComputedStyle(el).backgroundColor") == "rgb(255, 248, 219)"
     assert not errors, "Runtime JS errors: "+"; ".join(errors)
     ctx.close()
     print(f"Browser V24 OK ({device}) – country, ambiguous island, multi-city, missing-risk, unknown text, reset.")

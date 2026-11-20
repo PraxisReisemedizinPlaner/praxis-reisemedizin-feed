@@ -4454,6 +4454,181 @@
       ],
       "reuseRightsChecked": true,
       "summary": "Das Auswärtige Amt berücksichtigt seit 2026 ein höheres Gelbfieberrisiko in zuvor niedriger eingestuften Bundesstaaten. Gelbfieberimpfung und Malariaprophylaxe anhand des exakten Reiseziels prüfen."
+    },
+    {
+      "id": "PA-CITY",
+      "country": "PA",
+      "status": "source_conflict",
+      "scope": "Panama-Stadt und Kanaltransit",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/panama-node/panamasicherheit-206378",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/panama",
+        "https://wwwnc.cdc.gov/travel/notices/level2/malaria-panama"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Neuere Meldungen erfassen Malaria in Teilen des Stadtgebiets. Für das übrige Stadtgebiet und den Kanaltransit rät die CDC zu Mückenschutz. Ancón, Merca Panamá und Camino de Cruces bei der Routenbewertung gesondert erfassen."
+    },
+    {
+      "id": "PA-ANCON",
+      "country": "PA",
+      "status": "source_conflict",
+      "scope": "Ancón, Merca Panamá oder Camino de Cruces",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/panama-node/panamasicherheit-206378",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/panama",
+        "https://wwwnc.cdc.gov/travel/notices/level2/malaria-panama"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Das Auswärtige Amt meldet Fälle in Ancón. Die CDC empfiehlt für Merca Panamá und den Nationalpark Camino de Cruces zusätzlich zum Mückenschutz eine medikamentöse Prophylaxe. Die exakte Station vor Abreise ärztlich prüfen."
+    },
+    {
+      "id": "PA-EAST",
+      "country": "PA",
+      "status": "source_conflict",
+      "scope": "Darién, Emberá oder Festland östlich des Kanals",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/panama-node/panamasicherheit-206378",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/panama",
+        "https://wwwnc.cdc.gov/travel/notices/level2/malaria-panama"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Gelbfieberimpfung für die Festlandroute prüfen. Für Malaria unterscheiden sich die Quellen bei Prophylaxe und Notfallselbstbehandlung. Genaue Etappen sowie Erreichbarkeit von Diagnostik und Behandlung ärztlich klären."
+    },
+    {
+      "id": "PA-SANBLAS",
+      "country": "PA",
+      "status": "source_conflict",
+      "scope": "San-Blas-Inseln (Guna Yala)",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/service/laender/panama-node/panamasicherheit-206378",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/panama",
+        "https://wwwnc.cdc.gov/travel/notices/level2/malaria-panama"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für reine Inseletappen besteht laut STIKO keine Gelbfieber-Impfempfehlung. Bei Malaria unterscheiden sich die Quellen zur medikamentösen Vorsorge. Hafen, Bootstransfer und Festlandetappen separat abgleichen."
+    },
+    {
+      "id": "GT-CITY",
+      "country": "GT",
+      "status": "supported",
+      "scope": "Guatemala-Stadt, Antigua oder Atitlán-See",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/guatemalasicherheit-221882",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Guatemala"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Auswärtiges Amt und CDC nennen Guatemala-Stadt, Antigua und den Atitlán-See ohne lokale Malariaübertragung. Abstecher in tiefer gelegene Reisegebiete separat beurteilen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "GT-AV",
+      "country": "GT",
+      "status": "source_conflict",
+      "scope": "Alta Verapaz (ländliche Etappen)",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/guatemalasicherheit-221882",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Guatemala"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "In Teilen von Alta Verapaz nennt das Auswärtige Amt mittleres Malariarisiko. Die CDC empfiehlt medikamentöse Prophylaxe für das Departement. Höhenlage, Übernachtungen und Zugang zur Diagnostik ärztlich abgleichen."
+    },
+    {
+      "id": "GT-LOW",
+      "country": "GT",
+      "status": "source_conflict",
+      "scope": "Petén, Izabal, Baja Verapaz oder Escuintla",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/guatemalasicherheit-221882",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Guatemala"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Die CDC empfiehlt für diese Departements Malariaprophylaxe, das Auswärtige Amt stuft die meisten dieser Regionen niedriger ein. Ortsgenaue Route und Übernachtungen vor Abreise ärztlich prüfen."
+    },
+    {
+      "id": "HN-CITY",
+      "country": "HN",
+      "status": "supported",
+      "scope": "Tegucigalpa oder San Pedro Sula (Stadtgebiet)",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/hondurassicherheit/221078",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/honduras"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Beide Quellen nennen für die Stadtgebiete keine lokale Malariaübertragung. Vor- und Weiterreise außerhalb der Stadtgebiete separat beurteilen.",
+      "riskLevel": "none",
+      "preventionType": "none"
+    },
+    {
+      "id": "HN-BAY",
+      "country": "HN",
+      "status": "source_conflict",
+      "scope": "Roatán und übrige Bay Islands",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/hondurassicherheit/221078",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/honduras"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Das Auswärtige Amt stuft die Inseln als Gebiet mit geringem Malariarisiko ein. Die CDC schließt sie in ihre Empfehlung zur medikamentösen Vorsorge ein. Die konkrete Inselroute ärztlich bewerten."
+    },
+    {
+      "id": "HN-EAST",
+      "country": "HN",
+      "status": "supported",
+      "scope": "Östliches Gracias a Dios (Mosquitia)",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/hondurassicherheit/221078",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/honduras"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Im östlichen Teil von Gracias a Dios nennt das Auswärtige Amt hohes Malariarisiko. Für die genaue Route Mückenschutz und medikamentöse Prophylaxe vor Abreise ärztlich planen.",
+      "riskLevel": "high",
+      "preventionType": "chemoprophylaxis_consider"
+    },
+    {
+      "id": "HN-BORDER",
+      "country": "HN",
+      "status": "source_conflict",
+      "scope": "Westliches Gracias a Dios oder Grenzgebiet in Olancho",
+      "checkedAt": "2026-11-20",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/hondurassicherheit/221078",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/honduras"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "In den genannten Teilgebieten sieht das Auswärtige Amt mittleres Risiko. Auswärtiges Amt und CDC setzen unterschiedliche Schwerpunkte bei der medikamentösen Vorsorge. Erreichbarkeit von Diagnostik und Behandlung ärztlich berücksichtigen."
     }
   ]
 }
