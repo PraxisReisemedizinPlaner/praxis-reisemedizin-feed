@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 98,
+  "countryCount": 102,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -17650,11 +17650,36 @@
     "NI": {
       "name": "Nicaragua",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-21",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/nicaraguasicherheit-223316",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/nicaragua",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/nicaragua-node/nicaragua-223306",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -17662,7 +17687,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -17683,7 +17708,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -17709,7 +17734,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Managua",
@@ -17724,7 +17749,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-21",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-21",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/nicaraguasicherheit-223316",
         "evidenceLinks": [
@@ -17764,7 +17789,7 @@
           "Die STIKO nennt Typhus als individuelle Reiseimpfung. Das Auswärtige Amt nennt bei besonderer Exposition zusätzlich Tollwut, die STIKO führt sie für Nicaragua nicht routinemäßig auf."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Autonome Karibikküste Nord und Miskita Cays. Beide Behörden sehen für die nördliche Karibikregion Anlass zur medikamentösen Prophylaxe. Mückenschutz und individuelle Präparatewahl vor der Reise besprechen.",
           "Autonome Karibikküste Süd (Festland). Die CDC empfiehlt eine Prophylaxe für die autonome Südregion. Das Auswärtige Amt unterscheidet innerhalb der Region zwischen höherem und mittlerem Risiko. Genaue Station und Zugang zu medizinischer Versorgung prüfen.",
@@ -17779,7 +17804,7 @@
           "checkedAt": "2026-11-21"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-21",
         "regionalSelectionRequired": true,
@@ -17812,11 +17837,42 @@
     "BZ": {
       "name": "Belize",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-21",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/belize-node/belizesicherheit-220284",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/belize",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://guatemala.diplo.de/gt-de/botschaft/1686518-1686518",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/news/item/21-06-2023-belize-certified-malaria-free-by-who",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -17824,7 +17880,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -17845,7 +17901,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -17870,7 +17926,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Guatemala-Stadt",
@@ -17885,7 +17941,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-21",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-21",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/belize-node/belizesicherheit-220284",
         "evidenceLinks": [
@@ -17932,7 +17988,7 @@
           "Die STIKO nennt Chikungunya als individuelle Reiseimpfung. Das Auswärtige Amt führt bei besonderer Exposition zusätzlich Tollwut auf."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -17941,7 +17997,7 @@
           "checkedAt": "2026-11-21"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-21",
         "regionalSelectionRequired": false,
@@ -17965,11 +18021,36 @@
     "CU": {
       "name": "Kuba",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-21",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kubasicherheit-212208",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cuba",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/kuba-node/kuba-212212",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -17977,7 +18058,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -17999,7 +18080,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -18019,7 +18100,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Havanna",
@@ -18034,7 +18115,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-21",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-21",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kubasicherheit-212208",
         "evidenceLinks": [
@@ -18073,7 +18154,7 @@
           "Das Auswärtige Amt rät zum Quellenstand vom 21.11.2026 dringend von Reisen nach Kuba ab. Die medizinische Notfallversorgung und mögliche Rücktransporte sind erheblich eingeschränkt. Aktuellen Stand vor Reiseentscheidung prüfen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -18082,7 +18163,7 @@
           "checkedAt": "2026-11-21"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-21",
         "regionalSelectionRequired": false,
@@ -18106,11 +18187,36 @@
     "JM": {
       "name": "Jamaika",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-21",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/jamaikasicherheit-226490",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/jamaica",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/jamaika-node/jamaika-226508",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -18118,7 +18224,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -18139,7 +18245,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -18159,7 +18265,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Kingston",
@@ -18174,7 +18280,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-21",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-21",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/jamaikasicherheit-226490",
         "evidenceLinks": [
@@ -18214,7 +18320,7 @@
           "Die STIKO führt Tollwut nicht routinemäßig auf. Bei konkreter Tierexposition die individuelle Beratung einbeziehen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -18223,7 +18329,7 @@
           "checkedAt": "2026-11-21"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-21",
         "regionalSelectionRequired": false,
@@ -18241,6 +18347,658 @@
           "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
           "Eine Chikungunya-Impfung nach aktueller STIKO-Indikation, persönlicher Exposition und Impfstoff-Fachinformation beurteilen.",
           "Bei kurzen Umstiegen in einem Gelbfiebergebiet die Route vor Abflug mit Fluggesellschaft und jamaikanischer Vertretung klären."
+        ]
+      }
+    },
+    "BS": {
+      "name": "Bahamas",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-21",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Bei Einreise aus einem Gelbfieber-Endemiegebiet oder bei einem dortigen Flughafentransit von mehr als zwölf Stunden ist ab einem Jahr der Gelbfiebernachweis erforderlich."
+        ],
+        "routeDependent": [
+          "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Eine Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Auch tagsüber auf Mückenschutz achten. Bei Kreuzfahrten und Inselkombinationen die Voraufenthalte und Zwischenstopps in der richtigen Reihenfolge prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Bei Kombinationsreisen die weiteren Reiseziele gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/bahamassicherheit/220268",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/The-Bahamas",
+            "use": "external_link_only"
+          },
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Kingston",
+            "address": "10 Waterloo Road, Kingston 10",
+            "phone": "+1 876 926 6728",
+            "emergency": "+1 876 819 4351",
+            "scope": "Zuständige Botschaft für die Bahamas. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/bahamas-node/bahamasdeutschevertretungen-220270"
+          },
+          {
+            "title": "Deutsches Honorarkonsulat Nassau",
+            "address": "Church Lane 209, Nassau",
+            "phone": "+1 242 376 3004",
+            "scope": "Örtliche Anlaufstelle. Vor einem Besuch telefonisch Kontakt aufnehmen.",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/bahamas-node/bahamasdeutschevertretungen-220270",
+            "emergency": "+1 242 457 1965"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-21",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/bahamassicherheit/220268",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/bahamassicherheit/220268",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/The-Bahamas",
+          "https://www.auswaertiges-amt.de/de/service/laender/bahamas-node/bahamasdeutschevertretungen-220270"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/bahamassicherheit/220268",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/The-Bahamas",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/bahamas-node/bahamasdeutschevertretungen-220270",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt beschreibt deutliche Unterschiede in der medizinischen Versorgung zwischen Nassau oder Freeport und abgelegenen Inseln. Bei Inselwechseln Erreichbarkeit und Rücktransport klären."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-21"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-21",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "yellow_fever"
+        ],
+        "regionIds": [],
+        "reason": "Innerhalb des Reiseziels ist keine regionale Auswahl für Malaria oder Gelbfieber erforderlich. Ein Gelbfiebernachweis kann sich aus der Anreise oder aus Zwischenstopps ergeben.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/bahamassicherheit/220268",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/The-Bahamas"
+        ],
+        "otherRegionalFactors": [
+          "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Eine Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Auch tagsüber auf Mückenschutz achten. Bei Kreuzfahrten und Inselkombinationen die Voraufenthalte und Zwischenstopps in der richtigen Reihenfolge prüfen."
+        ]
+      }
+    },
+    "BB": {
+      "name": "Barbados",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-21",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Bei Einreise aus einem Gelbfieber-Endemiegebiet ist ab einem Jahr ein Impfnachweis erforderlich. CDC und die WHO-Tabelle im RKI-Anhang nennen Ausnahmen bei Anreise aus Guyana oder Trinidad und Tobago, sofern dort kein Ausbruch stattfindet. Das Auswärtige Amt führt diese Ausnahmen in seinen Länderhinweisen nicht auf. Vor der Reise die konkrete Route mit der zuständigen Vertretung klären."
+        ],
+        "routeDependent": [
+          "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Eine Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Auch tagsüber auf Mückenschutz achten. Bei Kreuzfahrten und Inselkombinationen die Voraufenthalte und Zwischenstopps in der richtigen Reihenfolge prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Bei Kombinationsreisen die weiteren Reiseziele gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://port-of-spain.diplo.de/tt-de/willkommen-in-der-ostkaribik/laenderinformationen-ostkaribik/brblaenderinformationen/reise-sicherheit",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/barbados",
+            "use": "external_link_only"
+          },
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Port-of-Spain",
+            "address": "19 St. Clair Avenue, St. Clair, Port-of-Spain, Trinidad und Tobago",
+            "phone": "+1 868 628 1630",
+            "emergency": "+1 868 460 9687",
+            "scope": "Zuständige Botschaft für Barbados. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028"
+          },
+          {
+            "title": "Deutsches Honorarkonsulat Barbados",
+            "address": "Pasea Financial Centre, Suite 1, Ecke Harts Gap und Dayrells Road, Christ Church BB14030",
+            "phone": "+1 246 427 1876",
+            "scope": "Örtliche Anlaufstelle. Vor einem Besuch telefonisch Kontakt aufnehmen.",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/barbados-node/barbados/226408"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-21",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://port-of-spain.diplo.de/tt-de/willkommen-in-der-ostkaribik/laenderinformationen-ostkaribik/brblaenderinformationen/reise-sicherheit",
+        "evidenceLinks": [
+          "https://port-of-spain.diplo.de/tt-de/willkommen-in-der-ostkaribik/laenderinformationen-ostkaribik/brblaenderinformationen/reise-sicherheit",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/barbados",
+          "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+          "https://www.auswaertiges-amt.de/de/service/laender/barbados-node/barbados/226408",
+          "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/willkommen-in-der-ostkaribik/laenderinformationen-ostkaribik/brblaenderinformationen/reise-sicherheit",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/barbados",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/barbados-node/barbados/226408",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO-Ländertabelle führt Chikungunya als Reiseimpfung bei entsprechender Exposition. Das Auswärtige Amt nennt diese Impfung in der Liste für Barbados nicht eigens."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-21"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-21",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "yellow_fever"
+        ],
+        "regionIds": [],
+        "reason": "Innerhalb des Reiseziels ist keine regionale Auswahl für Malaria oder Gelbfieber erforderlich. Ein Gelbfiebernachweis kann sich aus der Anreise oder aus Zwischenstopps ergeben.",
+        "sourceUrls": [
+          "https://port-of-spain.diplo.de/tt-de/willkommen-in-der-ostkaribik/laenderinformationen-ostkaribik/brblaenderinformationen/reise-sicherheit",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/barbados"
+        ],
+        "otherRegionalFactors": [
+          "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Eine Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Auch tagsüber auf Mückenschutz achten. Bei Kreuzfahrten und Inselkombinationen die Voraufenthalte und Zwischenstopps in der richtigen Reihenfolge prüfen."
+        ]
+      }
+    },
+    "DM": {
+      "name": "Dominica",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-21",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Bei Einreise aus einem Gelbfieber-Endemiegebiet oder bei einem dortigen Flughafentransit von mehr als zwölf Stunden ist ab einem Jahr der Gelbfiebernachweis erforderlich."
+        ],
+        "routeDependent": [
+          "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Eine Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Auch tagsüber auf Mückenschutz achten. Bei Kreuzfahrten und Inselkombinationen die Voraufenthalte und Zwischenstopps in der richtigen Reihenfolge prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Bei Kombinationsreisen die weiteren Reiseziele gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/dominicasicherheit-220300",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Dominica",
+            "use": "external_link_only"
+          },
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Port-of-Spain",
+            "address": "19 St. Clair Avenue, St. Clair, Port-of-Spain, Trinidad und Tobago",
+            "phone": "+1 868 628 1630",
+            "emergency": "+1 868 460 9687",
+            "scope": "Zuständige Botschaft für Dominica. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028"
+          },
+          {
+            "title": "Deutsches Honorarkonsulat Dominica",
+            "address": "Tamarind Tree Hotel, Salisbury, Dominica",
+            "phone": "+1 767 614 3645",
+            "scope": "Örtliche Anlaufstelle. Vor einem Besuch telefonisch Kontakt aufnehmen.",
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln?openAccordionId=item-220856-2-panel"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-21",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/dominicasicherheit-220300",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/dominicasicherheit-220300",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Dominica",
+          "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+          "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln?openAccordionId=item-220856-2-panel",
+          "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/dominicasicherheit-220300",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Dominica",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln?openAccordionId=item-220856-2-panel",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt nennt Tollwut bei besonderer Exposition. Die STIKO führt für Dominica keine routinemäßige Tollwutimpfung auf. Konkreten Tierkontakt und Versorgung vor Ort individuell berücksichtigen.",
+          "Die Einreiseangaben gelten für Dominica. Für eine weitere Etappe in der Dominikanischen Republik gelten eigene Angaben."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-21"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-21",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "yellow_fever"
+        ],
+        "regionIds": [],
+        "reason": "Innerhalb des Reiseziels ist keine regionale Auswahl für Malaria oder Gelbfieber erforderlich. Ein Gelbfiebernachweis kann sich aus der Anreise oder aus Zwischenstopps ergeben.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/dominicasicherheit-220300",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Dominica"
+        ],
+        "otherRegionalFactors": [
+          "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Eine Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Auch tagsüber auf Mückenschutz achten. Bei Kreuzfahrten und Inselkombinationen die Voraufenthalte und Zwischenstopps in der richtigen Reihenfolge prüfen."
+        ]
+      }
+    },
+    "GD": {
+      "name": "Grenada",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-21",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Bei Einreise aus einem Gelbfieber-Endemiegebiet oder bei einem dortigen Flughafentransit von mehr als zwölf Stunden ist ab einem Jahr der Gelbfiebernachweis erforderlich."
+        ],
+        "routeDependent": [
+          "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Eine Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Auch tagsüber auf Mückenschutz achten. Bei Kreuzfahrten und Inselkombinationen die Voraufenthalte und Zwischenstopps in der richtigen Reihenfolge prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Bei Kombinationsreisen die weiteren Reiseziele gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grenadasicherheit-220316",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Grenada",
+            "use": "external_link_only"
+          },
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Port-of-Spain",
+            "address": "19 St. Clair Avenue, St. Clair, Port-of-Spain, Trinidad und Tobago",
+            "phone": "+1 868 628 1630",
+            "emergency": "+1 868 460 9687",
+            "scope": "Zuständige Botschaft für Grenada. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028"
+          },
+          {
+            "title": "Deutsches Honorarkonsulat Grenada",
+            "address": "Sugar Apple Hill, Calliste, St. George’s, Grenada",
+            "phone": "+1 473 405 4180",
+            "scope": "Örtliche Anlaufstelle. Vor einem Besuch telefonisch Kontakt aufnehmen.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grenada-220318"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-21",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grenadasicherheit-220316",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grenadasicherheit-220316",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Grenada",
+          "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grenada-220318",
+          "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grenadasicherheit-220316",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Grenada",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grenada-220318",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt nennt Tollwut bei besonderer Exposition. Die STIKO führt für Grenada keine routinemäßige Tollwutimpfung auf. Konkreten Tierkontakt und Versorgung vor Ort individuell berücksichtigen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-21"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-21",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "yellow_fever"
+        ],
+        "regionIds": [],
+        "reason": "Innerhalb des Reiseziels ist keine regionale Auswahl für Malaria oder Gelbfieber erforderlich. Ein Gelbfiebernachweis kann sich aus der Anreise oder aus Zwischenstopps ergeben.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grenadasicherheit-220316",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Grenada"
+        ],
+        "otherRegionalFactors": [
+          "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Eine Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Auch tagsüber auf Mückenschutz achten. Bei Kreuzfahrten und Inselkombinationen die Voraufenthalte und Zwischenstopps in der richtigen Reihenfolge prüfen."
         ]
       }
     }
