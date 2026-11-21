@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 102,
+  "countryCount": 106,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -18994,6 +18994,675 @@
           "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grenadasicherheit-220316",
           "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Grenada"
+        ],
+        "otherRegionalFactors": [
+          "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Eine Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Auch tagsüber auf Mückenschutz achten. Bei Kreuzfahrten und Inselkombinationen die Voraufenthalte und Zwischenstopps in der richtigen Reihenfolge prüfen."
+        ]
+      }
+    },
+    "AG": {
+      "name": "Antigua und Barbuda",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-21",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Bei Einreise aus einem Gelbfieber-Endemiegebiet ist ab einem Jahr ein Gelbfiebernachweis erforderlich.",
+          "Der Nachweis gilt laut RKI-Anhang und CDC auch bei einem Flughafentransit von mehr als zwölf Stunden in einem Gelbfiebergebiet."
+        ],
+        "routeDependent": [
+          "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Eine Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Auch tagsüber auf Mückenschutz achten. Bei Kreuzfahrten und Inselkombinationen die Voraufenthalte und Zwischenstopps in der richtigen Reihenfolge prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Bei Kombinationsreisen die weiteren Reiseziele gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/antiguaundbarbudasicherheit-227042",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Antigua-and-barbuda",
+            "use": "external_link_only"
+          },
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Port-of-Spain",
+            "address": "19 St. Clair Avenue, St. Clair, Port-of-Spain, Trinidad und Tobago",
+            "phone": "+1 868 628 1630",
+            "emergency": "+1 868 460 9687",
+            "scope": "Zuständig für Antigua und Barbuda. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028"
+          },
+          {
+            "title": "Deutsches Honorarkonsulat Antigua und Barbuda",
+            "address": "Admiralslane 22, Antigua",
+            "phone": "+1 268 720 5452",
+            "scope": "Örtliche Anlaufstelle. Vor einem Besuch telefonisch Kontakt aufnehmen.",
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-21",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/antiguaundbarbudasicherheit-227042",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/antiguaundbarbudasicherheit-227042",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Antigua-and-barbuda",
+          "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+          "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln",
+          "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/antiguaundbarbudasicherheit-227042",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Antigua-and-barbuda",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Bei Inselwechseln und Kreuzfahrten prüfen, aus welchen Ländern die Reiseetappen tatsächlich ankommen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-21"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-21",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "yellow_fever"
+        ],
+        "regionIds": [],
+        "reason": "Innerhalb des Reiseziels ist keine regionale Auswahl für Malaria oder Gelbfieber erforderlich. Ein Gelbfiebernachweis kann sich aus der Anreise oder aus Zwischenstopps ergeben.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/antiguaundbarbudasicherheit-227042",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Antigua-and-barbuda"
+        ],
+        "otherRegionalFactors": [
+          "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Eine Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Auch tagsüber auf Mückenschutz achten. Bei Kreuzfahrten und Inselkombinationen die Voraufenthalte und Zwischenstopps in der richtigen Reihenfolge prüfen."
+        ]
+      }
+    },
+    "LC": {
+      "name": "St. Lucia",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-21",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Bei Einreise aus einem Gelbfieber-Endemiegebiet ist laut RKI-Anhang und CDC schon ab neun Monaten ein Impfnachweis erforderlich."
+        ],
+        "routeDependent": [
+          "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Eine Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Auch tagsüber auf Mückenschutz achten. Bei Kreuzfahrten und Inselkombinationen die Voraufenthalte und Zwischenstopps in der richtigen Reihenfolge prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Bei Kombinationsreisen die weiteren Reiseziele gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/stlucia-node/stluciasicherheit-226750",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-lucia",
+            "use": "external_link_only"
+          },
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Port-of-Spain",
+            "address": "19 St. Clair Avenue, St. Clair, Port-of-Spain, Trinidad und Tobago",
+            "phone": "+1 868 628 1630",
+            "emergency": "+1 868 460 9687",
+            "scope": "Zuständig für St. Lucia. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028"
+          },
+          {
+            "title": "Deutsches Honorarkonsulat St. Lucia",
+            "address": "Saphire Estate, Diamond, Soufrière, St. Lucia",
+            "phone": "+1 758 459 7977",
+            "scope": "Örtliche Anlaufstelle. Vor einem Besuch telefonisch Kontakt aufnehmen.",
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-21",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/stlucia-node/stluciasicherheit-226750",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/service/laender/stlucia-node/stluciasicherheit-226750",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-lucia",
+          "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+          "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln",
+          "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/stlucia-node/stluciasicherheit-226750",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-lucia",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt nennt Tollwut bei besonderer Exposition. Die STIKO führt dafür keine routinemäßige Länderempfehlung auf. Tierkontakt und Zugang zur Versorgung individuell berücksichtigen.",
+          "Der RKI-Anhang und die CDC nennen beim Gelbfiebernachweis neun Monate als Mindestalter. Die Angaben des Auswärtigen Amts nennen kein Mindestalter."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-21"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-21",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "yellow_fever"
+        ],
+        "regionIds": [],
+        "reason": "Innerhalb des Reiseziels ist keine regionale Auswahl für Malaria oder Gelbfieber erforderlich. Ein Gelbfiebernachweis kann sich aus der Anreise oder aus Zwischenstopps ergeben.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/stlucia-node/stluciasicherheit-226750",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-lucia"
+        ],
+        "otherRegionalFactors": [
+          "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Eine Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Auch tagsüber auf Mückenschutz achten. Bei Kreuzfahrten und Inselkombinationen die Voraufenthalte und Zwischenstopps in der richtigen Reihenfolge prüfen."
+        ]
+      }
+    },
+    "KN": {
+      "name": "St. Kitts und Nevis",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-21",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Bei Einreise aus einem Gelbfieber-Endemiegebiet ist ab einem Jahr ein Gelbfiebernachweis erforderlich.",
+          "Der RKI-Anhang führt bei Einreise aus einem Polio-Endemieland zusätzlich einen Polio-Impfnachweis auf. Bei entsprechender Reiseroute vorab bei der zuständigen Vertretung klären, welcher Nachweis aktuell akzeptiert wird."
+        ],
+        "routeDependent": [
+          "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Eine Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Auch tagsüber auf Mückenschutz achten. Bei Kreuzfahrten und Inselkombinationen die Voraufenthalte und Zwischenstopps in der richtigen Reihenfolge prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Bei Kombinationsreisen die weiteren Reiseziele gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/stkittsundnevis-node/stkittsundnevissicherheit-226596",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/st-kitts-and-nevis",
+            "use": "external_link_only"
+          },
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Port-of-Spain",
+            "address": "19 St. Clair Avenue, St. Clair, Port-of-Spain, Trinidad und Tobago",
+            "phone": "+1 868 628 1630",
+            "emergency": "+1 868 460 9687",
+            "scope": "Zuständig für St. Kitts und Nevis. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028"
+          },
+          {
+            "title": "Deutsches Honorarkonsulat St. Kitts und Nevis",
+            "address": "St. Kitts Biomedical Research Foundation, Basseterre, St. Kitts",
+            "phone": "+1 869 668 5859",
+            "scope": "Örtliche Anlaufstelle. Vor einem Besuch telefonisch Kontakt aufnehmen.",
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-21",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/stkittsundnevis-node/stkittsundnevissicherheit-226596",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/service/laender/stkittsundnevis-node/stkittsundnevissicherheit-226596",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/st-kitts-and-nevis",
+          "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+          "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln",
+          "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/stkittsundnevis-node/stkittsundnevissicherheit-226596",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/st-kitts-and-nevis",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt nennt Tollwut bei besonderer Exposition. Die STIKO führt dafür keine routinemäßige Länderempfehlung auf. Tierkontakt und Zugang zur Versorgung individuell berücksichtigen.",
+          "Polio-Standardimpfschutz und möglichen Einreisenachweis nach Voraufenthalt getrennt prüfen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-21"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-21",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "yellow_fever",
+          "other"
+        ],
+        "regionIds": [],
+        "reason": "Innerhalb des Reiseziels ist keine regionale Auswahl für Malaria oder Gelbfieber erforderlich. Ein Gelbfiebernachweis kann sich aus der Anreise oder aus Zwischenstopps ergeben.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/stkittsundnevis-node/stkittsundnevissicherheit-226596",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/st-kitts-and-nevis"
+        ],
+        "otherRegionalFactors": [
+          "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Eine Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Auch tagsüber auf Mückenschutz achten. Bei Kreuzfahrten und Inselkombinationen die Voraufenthalte und Zwischenstopps in der richtigen Reihenfolge prüfen."
+        ]
+      }
+    },
+    "VC": {
+      "name": "St. Vincent und die Grenadinen",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-21",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Bei Einreise aus einem Gelbfieber-Endemiegebiet ist ab einem Jahr ein Gelbfiebernachweis erforderlich."
+        ],
+        "routeDependent": [
+          "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Eine Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Auch tagsüber auf Mückenschutz achten. Bei Kreuzfahrten und Inselkombinationen die Voraufenthalte und Zwischenstopps in der richtigen Reihenfolge prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Bei Kombinationsreisen die weiteren Reiseziele gesondert prüfen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/stvincentunddiegrenadinen-node/stvincentunddiegrenadinensicherheit-226268",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-vincent-and-the-grenadines/",
+            "use": "external_link_only"
+          },
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Port-of-Spain",
+            "address": "19 St. Clair Avenue, St. Clair, Port-of-Spain, Trinidad und Tobago",
+            "phone": "+1 868 628 1630",
+            "emergency": "+1 868 460 9687",
+            "scope": "Zuständig für St. Vincent und die Grenadinen. Bereitschaftszeiten siehe Botschaft.",
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028"
+          },
+          {
+            "title": "Deutsches Honorarkonsulat St. Vincent und die Grenadinen",
+            "address": "Beachcombers Hotel, Villa Beach, St. Vincent",
+            "phone": "+1 784 458 4283 (Hotelrezeption)",
+            "scope": "Örtliche Anlaufstelle. Vor einem Besuch telefonisch Kontakt aufnehmen.",
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-21",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/stvincentunddiegrenadinen-node/stvincentunddiegrenadinensicherheit-226268",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/service/laender/stvincentunddiegrenadinen-node/stvincentunddiegrenadinensicherheit-226268",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-vincent-and-the-grenadines/",
+          "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+          "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln",
+          "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/stvincentunddiegrenadinen-node/stvincentunddiegrenadinensicherheit-226268",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-vincent-and-the-grenadines/",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO-Ländertabelle führt Chikungunya als Reiseimpfung bei entsprechender Exposition. Das Auswärtige Amt nennt sie in der Liste für dieses Reiseziel nicht gesondert."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-21"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-21",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "yellow_fever"
+        ],
+        "regionIds": [],
+        "reason": "Innerhalb des Reiseziels ist keine regionale Auswahl für Malaria oder Gelbfieber erforderlich. Ein Gelbfiebernachweis kann sich aus der Anreise oder aus Zwischenstopps ergeben.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/stvincentunddiegrenadinen-node/stvincentunddiegrenadinensicherheit-226268",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-vincent-and-the-grenadines/"
         ],
         "otherRegionalFactors": [
           "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",

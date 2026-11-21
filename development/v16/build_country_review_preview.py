@@ -5,7 +5,8 @@ import html
 import json
 from pathlib import Path
 HERE=Path(__file__).resolve().parent
-CODES=("BS","BB","DM","GD")
+CODES=("AG","LC","KN","VC")
+OTHER_REVIEW_PACKAGES=(("BS","BB","DM","GD"),)
 def esc(s): return html.escape(str(s),quote=True)
 def bullets(items): return "<ul>"+"".join("<li>"+esc(v)+"</li>" for v in items)+"</ul>"
 def render(data,codes=CODES):
@@ -33,7 +34,8 @@ def main():
     html=render(data)
     args.output.write_text(html,encoding="utf-8")
     if args.batch_copy:
-        suffix="-".join(CODES).lower()
-        batch_path=args.output.with_name(f"{args.output.stem}-{suffix}{args.output.suffix}")
-        batch_path.write_text(html,encoding="utf-8")
+        for codes in (CODES, *OTHER_REVIEW_PACKAGES):
+            suffix="-".join(codes).lower()
+            batch_path=args.output.with_name(f"{args.output.stem}-{suffix}{args.output.suffix}")
+            batch_path.write_text(render(data,codes),encoding="utf-8")
 if __name__=="__main__": main()
