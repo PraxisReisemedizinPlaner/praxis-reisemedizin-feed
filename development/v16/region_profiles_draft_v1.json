@@ -8143,6 +8143,156 @@
         "clinicalRecommendation": null
       },
       "publicationAllowed": false
+    },
+    {
+      "country": "NI",
+      "id": "NI-NORTH",
+      "name": "Autonome Karibikküste Nord und Miskita Cays",
+      "aliases": [
+        "Puerto Cabezas",
+        "Bilwi",
+        "RACCN",
+        "RAAN",
+        "Miskita Cays",
+        "Miskita Cay",
+        "Waspam"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "NI",
+      "id": "NI-SOUTH",
+      "name": "Autonome Karibikküste Süd (Festland)",
+      "aliases": [
+        "Bluefields",
+        "RACCS",
+        "RAAS",
+        "Laguna de Perlas",
+        "Pearl Lagoon"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "NI",
+      "id": "NI-SANJUAN",
+      "name": "Río San Juan und nordöstliches Jinotega",
+      "aliases": [
+        "Río San Juan",
+        "Rio San Juan",
+        "San Carlos",
+        "El Castillo",
+        "Jinotega",
+        "Bosawás"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "NI",
+      "id": "NI-MANAGUA",
+      "name": "Managua und Ziele im Westen",
+      "aliases": [
+        "Managua",
+        "Granada",
+        "León",
+        "Leon",
+        "Masaya",
+        "San Juan del Sur",
+        "Ometepe"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "NI",
+      "id": "NI-CORN",
+      "name": "Corn Islands",
+      "aliases": [
+        "Corn Island",
+        "Big Corn Island",
+        "Little Corn Island",
+        "Islas del Maíz",
+        "Islas del Maiz"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
     }
   ]
 }

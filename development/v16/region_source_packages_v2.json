@@ -4629,6 +4629,83 @@
       ],
       "reuseRightsChecked": true,
       "summary": "In den genannten Teilgebieten sieht das Auswärtige Amt mittleres Risiko. Auswärtiges Amt und CDC setzen unterschiedliche Schwerpunkte bei der medikamentösen Vorsorge. Erreichbarkeit von Diagnostik und Behandlung ärztlich berücksichtigen."
+    },
+    {
+      "id": "NI-NORTH",
+      "country": "NI",
+      "status": "supported",
+      "scope": "Autonome Karibikküste Nord und Miskita Cays",
+      "checkedAt": "2026-11-21",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/nicaraguasicherheit-223316",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/nicaragua"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Beide Behörden sehen für die nördliche Karibikregion Anlass zur medikamentösen Prophylaxe. Mückenschutz und individuelle Präparatewahl vor der Reise besprechen.",
+      "riskLevel": "high",
+      "preventionType": "chemoprophylaxis_consider"
+    },
+    {
+      "id": "NI-SOUTH",
+      "country": "NI",
+      "status": "source_conflict",
+      "scope": "Autonome Karibikküste Süd (Festland)",
+      "checkedAt": "2026-11-21",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/nicaraguasicherheit-223316",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/nicaragua"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Die CDC empfiehlt eine Prophylaxe für die autonome Südregion. Das Auswärtige Amt unterscheidet innerhalb der Region zwischen höherem und mittlerem Risiko. Genaue Station und Zugang zu medizinischer Versorgung prüfen."
+    },
+    {
+      "id": "NI-SANJUAN",
+      "country": "NI",
+      "status": "source_conflict",
+      "scope": "Río San Juan und nordöstliches Jinotega",
+      "checkedAt": "2026-11-21",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/nicaraguasicherheit-223316",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/nicaragua"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Das Auswärtige Amt unterscheidet in Río San Juan zwischen Gebieten mit hohem und mittlerem Risiko und nennt auch den Nordosten Jinotegas. Die CDC empfiehlt außerhalb der beiden autonomen Karibikregionen in Gebieten mit Übertragung Mückenschutz. Genaue Route ärztlich beurteilen."
+    },
+    {
+      "id": "NI-MANAGUA",
+      "country": "NI",
+      "status": "source_conflict",
+      "scope": "Managua und Ziele im Westen",
+      "checkedAt": "2026-11-21",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/nicaraguasicherheit-223316",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/nicaragua"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Die CDC meldet keine Übertragung in Managua, das Auswärtige Amt stuft das Risiko dort als gering ein. Die übrigen Stopps und möglichen Abstecher an die Karibikküste eigens beurteilen."
+    },
+    {
+      "id": "NI-CORN",
+      "country": "NI",
+      "status": "source_conflict",
+      "scope": "Corn Islands",
+      "checkedAt": "2026-11-21",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/nicaraguasicherheit-223316",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/nicaragua"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Das Auswärtige Amt stuft die Corn Islands als Gebiet mit geringem Risiko ein. Bei der CDC fallen die Inseln unter die weiter gefasste autonome Karibikküste Süd. Inselaufenthalt und Anreise vorab gesondert abklären."
     }
   ]
 }

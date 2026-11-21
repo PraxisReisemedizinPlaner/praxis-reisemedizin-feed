@@ -18,7 +18,7 @@ class RoutePlanningTests(unittest.TestCase):
     def regions(self,c=None):
         return build_public_regions(self.g,c or self.c,self.s,date(2026,11,20))
     def test_all_countries_have_explicit_route_decision(self):
-        self.assertEqual(validate_all(self.c,self.g,self.s),94)
+        self.assertEqual(validate_all(self.c,self.g,self.s),98)
         for code in ("TH","ID","IN","TZ","KE","VN","GR","PT","IT"):
             self.assertTrue(self.c["countries"][code]["routeAssessment"]["regionalSelectionRequired"])
     def test_india_has_thirteen_actual_route_options(self):
@@ -37,7 +37,7 @@ class RoutePlanningTests(unittest.TestCase):
         self.assertEqual(rows["VN-HANOI"]["malaria"]["riskLevel"],"none")
     def test_future_country_without_regional_decision_is_blocked(self):
         del self.c["countries"]["IN"]["routeAssessment"]
-        with self.assertRaises(ValueError): build_public(self.c,date(2026,11,20))
+        with self.assertRaises(ValueError): build_public(self.c,date(2026,11,21))
     def test_required_country_without_regions_is_blocked(self):
         self.c["countries"]["IN"]["routeAssessment"]["regionIds"]=[]
         with self.assertRaises(ValueError): validate_all(self.c,self.g,self.s)
@@ -51,8 +51,8 @@ class RoutePlanningTests(unittest.TestCase):
         for code in ("ES","IT","GR","PT"):
             self.c["countries"][code]["publicationAllowed"]=False
             self.c["countries"][code]["medicalReview"]["status"]="pending"
-        out=build_public(self.c,date(2026,11,20))
-        self.assertEqual(out["approvedCount"],86)
+        out=build_public(self.c,date(2026,11,21))
+        self.assertEqual(out["approvedCount"],90)
         for code in ("ES","IT","GR","PT"):
             self.assertNotIn(code,out["countries"])
         for row in self.regions()["regions"]:
@@ -60,8 +60,8 @@ class RoutePlanningTests(unittest.TestCase):
                 self.assertNotIn("malaria",row)
                 self.assertNotIn("sourceNotice",row)
     def test_four_european_packages_are_medically_approved(self):
-        out=build_public(self.c,date(2026,11,20))
-        self.assertEqual(out["approvedCount"],90)
+        out=build_public(self.c,date(2026,11,21))
+        self.assertEqual(out["approvedCount"],94)
         for code in ("ES","IT","GR","PT"):
             self.assertIn(code,out["countries"])
             self.assertEqual(self.c["countries"][code]["medicalReview"]["reviewer"],"Dr. med. Sebastian Münster")
@@ -106,7 +106,7 @@ class RoutePlanningTests(unittest.TestCase):
             p["publicationAllowed"]=True
             for field in ("vaccineAssessment","malariaAssessment","missions"):
                 p[field]["status"]="approved"
-        self.assertEqual(build_public(c,date(2026,11,20))["approvedCount"],90)
+        self.assertEqual(build_public(c,date(2026,11,21))["approvedCount"],94)
         rows={r["id"]:r for r in self.regions(c)["regions"]}
         self.assertIn("Dengue",rows["PT-MADEIRA"]["malaria"]["clinicalRecommendation"])
         self.assertIn("Dengue",c["countries"]["PT"]["vaccineAssessment"]["routeDependent"][0])

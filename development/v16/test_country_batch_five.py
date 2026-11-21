@@ -15,9 +15,9 @@ class FifthCountryBatchTests(unittest.TestCase):
         self.g=read("region_profiles_draft_v1.json")
         self.s=read("region_source_packages_v2.json")
     def test_approved_batch_and_pending_batch_are_separate(self):
-        out=build_public(self.c,date(2026,11,20))
-        self.assertEqual(out["coverageCount"],94)
-        self.assertEqual(out["approvedCount"],90)
+        out=build_public(self.c,date(2026,11,21))
+        self.assertEqual(out["coverageCount"],98)
+        self.assertEqual(out["approvedCount"],94)
         for code in ("KH","LA","ZA","BR"):
             self.assertIn(code,out["countries"])
             self.assertEqual(self.c["countries"][code]["medicalReview"]["reviewer"],"Dr. med. Sebastian Münster")
@@ -26,7 +26,7 @@ class FifthCountryBatchTests(unittest.TestCase):
             if r["country"] in CODES:
                 self.assertIn("approvalScope",r)
     def test_routes_and_country_preview_complete(self):
-        self.assertEqual(validate_all(self.c,self.g,self.s),94)
+        self.assertEqual(validate_all(self.c,self.g,self.s),98)
         for code in CODES:
             p=self.c["countries"][code]
             self.assertTrue(p["publicationAllowed"])
@@ -43,8 +43,8 @@ class FifthCountryBatchTests(unittest.TestCase):
             p["medicalReview"]={"status":"approved","reviewer":"TEST ONLY","reviewedAt":"2026-11-16",
                 "nextReviewDate":"2027-01-15","approvedSources":p["sourceReview"]["proposedSources"]}
             for f in ("vaccineAssessment","malariaAssessment","missions"):p[f]["status"]="approved"
-        self.assertEqual(build_public(self.c,date(2026,11,20))["approvedCount"],90)
-        rows={r["id"]:r for r in build_public_regions(self.g,self.c,self.s,date(2026,11,20))["regions"]}
+        self.assertEqual(build_public(self.c,date(2026,11,21))["approvedCount"],94)
+        rows={r["id"]:r for r in build_public_regions(self.g,self.c,self.s,date(2026,11,21))["regions"]}
         for rid in ("MX-CHIAPAS","CR-LIMON","DO-PUNTACANA","PE-IQUITOS"):
             self.assertEqual(rows[rid]["clinicalStatus"],"source_conflict")
             self.assertNotIn("malaria",rows[rid])

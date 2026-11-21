@@ -11,7 +11,7 @@ class CountryPackageTests(unittest.TestCase):
         self.g=read("region_profiles_draft_v1.json")
         self.c=read("country_profiles_draft_v16.json")
         self.p=read("region_source_packages_v2.json")
-    def out(self,today=date(2026,11,20)):
+    def out(self,today=date(2026,11,21)):
         return build_public_regions(self.g,self.c,self.p,today)
     def row(self,rid):
         return next(r for r in self.out()["regions"] if r["id"]==rid)
@@ -21,7 +21,7 @@ class CountryPackageTests(unittest.TestCase):
         for r in self.g["regions"]:
             r["publicationAllowed"]=False
             r["clinicalReview"]["status"]="pending"
-        self.assertEqual(self.out()["sourceBasedCount"],60)
+        self.assertEqual(self.out()["sourceBasedCount"],63)
         self.assertEqual(self.row("TH-USM")["approvalScope"],"country_package")
     def test_conflict_never_becomes_low_risk(self):
         r=self.row("TH-BKK")
@@ -32,7 +32,7 @@ class CountryPackageTests(unittest.TestCase):
         r=self.row("ID-FLORES")
         self.assertEqual(r["clinicalStatus"],"route_required")
         self.assertNotIn("malaria",r)
-        self.assertEqual(self.out()["exceptionCount"],231)
+        self.assertEqual(self.out()["exceptionCount"],233)
     def test_withdrawn_or_expired_country_suppresses_only_that_country(self):
         for status in ("withdrawn","expired"):
             if status=="withdrawn": self.c["countries"]["TH"]["publicationAllowed"]=False
@@ -43,13 +43,13 @@ class CountryPackageTests(unittest.TestCase):
             self.assertTrue(all("malaria" not in r and "sourceNotice" not in r for r in rows if r["country"]=="TH"))
             self.assertIn("malaria",next(r for r in rows if r["id"]=="ID-SUMBA"))
     def test_future_country_not_currently_approved(self):
-        self.c["countries"]["TH"]["medicalReview"]["reviewedAt"]="2026-11-21"
+        self.c["countries"]["TH"]["medicalReview"]["reviewedAt"]="2026-11-22"
         self.assertNotIn("malaria",self.row("TH-USM"))
     def test_expired_or_future_sources_hide_assessment(self):
         r=self.source("TH-USM")
         r["nextSourceCheckDate"]="2026-11-14"
         self.assertNotIn("malaria",self.row("TH-USM"))
-        r["nextSourceCheckDate"]="2027-01-15";r["checkedAt"]="2026-11-21"
+        r["nextSourceCheckDate"]="2027-01-15";r["checkedAt"]="2026-11-22"
         self.assertNotIn("malaria",self.row("TH-USM"))
     def test_missing_sources_do_not_inherit_country_risk(self):
         self.p["regions"]=[r for r in self.p["regions"] if r["id"]!="TH-USM"]

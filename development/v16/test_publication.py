@@ -9,9 +9,9 @@ import unittest
 from export_public_v16 import build_public
 
 HERE = Path(__file__).resolve().parent
-TODAY = date(2026, 11, 20)
-APPROVED = {"MA", "AT", "TH", "ID", "EG", "TR", "TZ", "KE", "VN", "IN", "ES", "IT", "GR", "PT", "LK", "NP", "MY", "PH", "KH", "LA", "ZA", "BR", "MX", "CR", "DO", "PE", "NA", "BW", "MU", "SC", "JP", "KR", "TW", "SG", "TN", "JO", "OM", "AE", "AU", "NZ", "CA", "US", "HR", "SI", "CH", "CZ", "FR", "SE", "NO", "FI", "DK", "PL", "EE", "LV", "LT", "SK", "HU", "RO", "GB", "IE", "NL", "BE", "AL", "ME", "RS", "BA", "BG", "MK", "MD", "CY", "MT", "IS", "LU", "GE", "AM", "AZ", "UZ", "KZ", "KG", "TJ", "MN", "BT", "AR", "CL", "UY", "PY", "CO", "EC", "BO", "VE"}
-PENDING = {"PA","GT","HN","SV"}
+TODAY = date(2026, 11, 21)
+APPROVED = {"MA", "AT", "TH", "ID", "EG", "TR", "TZ", "KE", "VN", "IN", "ES", "IT", "GR", "PT", "LK", "NP", "MY", "PH", "KH", "LA", "ZA", "BR", "MX", "CR", "DO", "PE", "NA", "BW", "MU", "SC", "JP", "KR", "TW", "SG", "TN", "JO", "OM", "AE", "AU", "NZ", "CA", "US", "HR", "SI", "CH", "CZ", "FR", "SE", "NO", "FI", "DK", "PL", "EE", "LV", "LT", "SK", "HU", "RO", "GB", "IE", "NL", "BE", "AL", "ME", "RS", "BA", "BG", "MK", "MD", "CY", "MT", "IS", "LU", "GE", "AM", "AZ", "UZ", "KZ", "KG", "TJ", "MN", "BT", "AR", "CL", "UY", "PY", "CO", "EC", "BO", "VE", "PA", "GT", "HN", "SV"}
+PENDING = {"NI", "BZ", "CU", "JM"}
 
 
 class PublishingSafetyTests(unittest.TestCase):
@@ -22,8 +22,8 @@ class PublishingSafetyTests(unittest.TestCase):
 
     def test_only_reviewed_countries_are_exported(self):
         out = build_public(copy.deepcopy(self.draft), TODAY)
-        self.assertEqual(out["coverageCount"], 94)
-        self.assertEqual(out["approvedCount"], 90)
+        self.assertEqual(out["coverageCount"], 98)
+        self.assertEqual(out["approvedCount"], 94)
         self.assertEqual(set(out["countries"]), APPROVED)
         self.assertEqual(set(out["coverage"]), APPROVED | PENDING)
         self.assertTrue(all(out["coverage"][code]["status"] == "medical_review_required"
