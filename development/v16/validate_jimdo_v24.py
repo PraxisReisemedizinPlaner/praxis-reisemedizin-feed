@@ -36,12 +36,14 @@ for name in ("getSelectedMulti", "getSelectedActivities", "getSelectedStyles", "
     assert f"function {name}(" in script, f"JS function {name} missing"
 assert "Höhenaufenthalt über 2.500 m" in script
 assert 'rm-altitude-note' in script and 'rm-dive-note' in script
-# The medical sources are available in the final collapsed source index only.
+# Medical sources are in the collapsed index; legal links stay visible.
 assert "https://www.usz.ch/krankheit/hoehenkrankheit/" in html
 assert "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html" in html
 assert "https://www.usz.ch/krankheit/hoehenkrankheit/" not in script
-assert "Originalquellen zur Höhenmedizin" in html
-assert html.index("Originalquellen zur Höhenmedizin") < html.index("<script>")
+assert "Alle Originalquellen" in html and "Weitere Fachquellen" in html
+assert html.index("Weitere Fachquellen") < html.index("Universitätsspital Zürich · Höhenkrankheit") < html.index("<script>")
+assert html.index('class="rm-source-legal"') > html.index("Medizinische Hinweise")
+assert "rm-countries-data-note" not in html
 assert "waves:" in script and "mountain:" in script
 assert "icon('waves')+'Tauchen / Schnorcheln" in script
 assert "divingMask:" not in script and "icon('divingMask')" not in script

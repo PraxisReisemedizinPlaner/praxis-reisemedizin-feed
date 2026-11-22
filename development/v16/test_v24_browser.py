@@ -2,7 +2,7 @@
 """Browser smoke tests for V24 geo-autocomplete and regional clinical gating."""
 import json
 import re
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
 # Playwright is imported only for the separately installed browser smoke step.
 
@@ -29,7 +29,9 @@ def intercept(route):
             headers={"access-control-allow-origin":"*"},body=json.dumps(countries,ensure_ascii=False))
     elif "/public_international_alerts.json" in url:
         route.fulfill(status=200,content_type="application/json",
-            headers={"access-control-allow-origin":"*"},body='{"items":[]}')
+            headers={"access-control-allow-origin":"*"},body=json.dumps({
+                "schemaVersion": 1, "fetchedAt": datetime.now(timezone.utc).date().isoformat(), "alerts": []
+            }))
     else:
         route.continue_()
 
@@ -53,6 +55,24 @@ def smoke(browser,device,stripped=False):
     page.goto(source_path.as_uri(),wait_until="domcontentloaded")
     page.wait_for_function("() => document.querySelector('#rm-region-feedback')?.textContent?.includes('Mehrfachauswahl')",timeout=15000)
     selected_country(page,"Thailand")
+    footer = page.locator("#rm-all-sources")
+    assert footer.get_attribute("open") is None
+    assert page.locator(".rm-source-legal").get_by_role("link",name="Impressum").is_visible()
+    assert page.locator(".rm-source-legal").get_by_role("link",name="Datenschutz").is_visible()
+    footer.locator(":scope > summary").click()
+    page.wait_for_function("() => document.querySelector('#rm-intl-source-status').textContent.includes('· CDC-Feed:')")
+    country_sources = page.locator("#rm-destination-source-links .rm-source-country")
+    country_sources.get_by_role("link",name="Auswärtiges Amt").first.wait_for()
+    assert country_sources.get_by_role("link",name=re.compile("RKI")).count() >= 1
+    assert page.locator("#rm-countries-data-note").count() == 0
+    assert not page.locator("#rm-liveinfo").is_visible()
+    originals = footer.locator(".rm-source-group").first
+    assert not originals.get_by_role("link",name="KV Nordrhein",exact=False).is_visible()
+    originals.locator("summary").click()
+    assert originals.get_by_role("link",name="KV Nordrhein",exact=False).is_visible()
+    assert originals.get_by_role("link",name="DTG · Malariaempfehlungen und Karten").is_visible()
+    assert originals.get_by_role("link",name="PAHO",exact=True).is_visible()
+    footer.locator(":scope > summary").click()
     # Ambiguous Koh Chang must show two clickable locations, without checkboxes.
     region_input=page.locator("#rm-region")
     region_input.fill("Koh Chang")
