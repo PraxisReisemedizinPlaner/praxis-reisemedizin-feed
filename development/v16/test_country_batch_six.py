@@ -17,13 +17,13 @@ class SixthCountryBatchTests(unittest.TestCase):
         self.s=read("region_source_packages_v2.json")
     def test_approved_batch_and_review_preview(self):
         out=build_public(self.c,date(2026,11,22))
-        self.assertEqual(out["coverageCount"],110)
+        self.assertEqual(out["coverageCount"],114)
         self.assertEqual(out["approvedCount"],110)
         for code in CODES:
             self.assertIn(code,out["countries"])
             self.assertEqual(self.c["countries"][code]["medicalReview"]["reviewedAt"],"2026-11-18")
         review_codes = ("AD", "MC", "SM", "LI")
-        preview = render(self.c)
+        preview = render(self.c, codes=review_codes)
         self.assertEqual(preview.count("<article id="), len(review_codes))
         for code in review_codes:
             self.assertFalse(self.c["countries"][code]["routeAssessment"]["regionalSelectionRequired"])
@@ -34,6 +34,11 @@ class SixthCountryBatchTests(unittest.TestCase):
         self.assertIn("FSME bei Zeckenexposition", self.c["countries"]["LI"]["vaccineAssessment"]["riskBased"])
         self.assertIn("2.000 m", preview)
         self.assertEqual(preview.count("class='badge'>Freigegeben"), len(review_codes))
+        next_preview = render(self.c)
+        for code in ("FJ", "WS", "TO", "TV"):
+            self.assertIn("<article id='" + code + "'>", next_preview)
+            self.assertNotIn(code, out["countries"])
+        self.assertIn("Bei Anreise aus einem Gelbfiebergebiet weichen die Quellen ab", next_preview)
         bhutan_south = next(row for row in self.s["regions"] if row["id"] == "BT-SOUTH")
         self.assertEqual(bhutan_south["status"], "source_conflict")
         self.assertNotIn("preventionType", bhutan_south)
@@ -57,7 +62,7 @@ class SixthCountryBatchTests(unittest.TestCase):
                 self.assertNotIn("malaria",r)
                 self.assertNotIn("sourceNotice",r)
     def test_routes_and_evidence_are_complete(self):
-        self.assertEqual(validate_all(self.c,self.g,self.s),110)
+        self.assertEqual(validate_all(self.c,self.g,self.s),114)
         self.assertEqual(sum(r["country"] in CODES for r in self.g["regions"]),12)
         for code in ("NA","BW"):
             self.assertTrue(self.c["countries"][code]["routeAssessment"]["regionalSelectionRequired"])

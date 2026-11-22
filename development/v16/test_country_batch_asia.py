@@ -20,7 +20,7 @@ class AsiaBatchTests(unittest.TestCase):
             self.c["countries"][code]["publicationAllowed"]=False
             self.c["countries"][code]["medicalReview"]["status"]="pending"
         out=build_public(self.c,date(2026,11,22))
-        self.assertEqual(out["coverageCount"],110)
+        self.assertEqual(out["coverageCount"],114)
         self.assertEqual(out["approvedCount"],106)
         for code in CODES:
             self.assertNotIn(code,out["countries"])
@@ -30,7 +30,7 @@ class AsiaBatchTests(unittest.TestCase):
                 self.assertNotIn("sourceNotice",r)
                 self.assertNotIn("malaria",r)
     def test_complete_packages_with_route_options_and_explicit_stiko_basis(self):
-        self.assertEqual(validate_all(self.c,self.g,self.s),110)
+        self.assertEqual(validate_all(self.c,self.g,self.s),114)
         for code in CODES:
             p=self.c["countries"][code]
             self.assertTrue(p["publicationAllowed"])

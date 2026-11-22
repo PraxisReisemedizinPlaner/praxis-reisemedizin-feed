@@ -18,7 +18,7 @@ class RoutePlanningTests(unittest.TestCase):
     def regions(self,c=None):
         return build_public_regions(self.g,c or self.c,self.s,date(2026,11,20))
     def test_all_countries_have_explicit_route_decision(self):
-        self.assertEqual(validate_all(self.c,self.g,self.s),110)
+        self.assertEqual(validate_all(self.c,self.g,self.s),114)
         for code in ("TH","ID","IN","TZ","KE","VN","GR","PT","IT"):
             self.assertTrue(self.c["countries"][code]["routeAssessment"]["regionalSelectionRequired"])
     def test_india_has_thirteen_actual_route_options(self):

@@ -16,7 +16,7 @@ class FifthCountryBatchTests(unittest.TestCase):
         self.s=read("region_source_packages_v2.json")
     def test_approved_batch_and_pending_batch_are_separate(self):
         out=build_public(self.c,date(2026,11,22))
-        self.assertEqual(out["coverageCount"],110)
+        self.assertEqual(out["coverageCount"],114)
         self.assertEqual(out["approvedCount"],110)
         for code in ("KH","LA","ZA","BR"):
             self.assertIn(code,out["countries"])
@@ -26,7 +26,7 @@ class FifthCountryBatchTests(unittest.TestCase):
             if r["country"] in CODES:
                 self.assertIn("approvalScope",r)
     def test_routes_and_country_preview_complete(self):
-        self.assertEqual(validate_all(self.c,self.g,self.s),110)
+        self.assertEqual(validate_all(self.c,self.g,self.s),114)
         for code in CODES:
             p=self.c["countries"][code]
             self.assertTrue(p["publicationAllowed"])

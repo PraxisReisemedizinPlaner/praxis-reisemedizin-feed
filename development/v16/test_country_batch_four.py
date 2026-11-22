@@ -20,7 +20,7 @@ class FourthCountryBatchTests(unittest.TestCase):
             self.c["countries"][code]["publicationAllowed"]=False
             self.c["countries"][code]["medicalReview"]["status"]="pending"
         out=build_public(self.c,date(2026,11,22))
-        self.assertEqual(out["coverageCount"],110)
+        self.assertEqual(out["coverageCount"],114)
         self.assertEqual(out["approvedCount"],106)
         for code in ("LK","NP","MY","PH"):
             self.assertIn(code,out["countries"])
@@ -31,7 +31,7 @@ class FourthCountryBatchTests(unittest.TestCase):
                 self.assertNotIn("malaria",r)
                 self.assertNotIn("sourceNotice",r)
     def test_country_routes_sources_and_contacts_ready(self):
-        self.assertEqual(validate_all(self.c,self.g,self.s),110)
+        self.assertEqual(validate_all(self.c,self.g,self.s),114)
         for code in CODES:
             p=self.c["countries"][code]
             self.assertTrue(p["publicationAllowed"])
