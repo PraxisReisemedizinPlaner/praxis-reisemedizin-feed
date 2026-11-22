@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 114,
+  "countryCount": 118,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -20568,11 +20568,36 @@
     "FJ": {
       "name": "Fidschi",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-22",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/fidschi-node/fidschisicherheit/226626",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Fiji",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/fidschi-226618",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -20580,7 +20605,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -20601,7 +20626,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -20626,7 +20651,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Suva",
@@ -20640,7 +20665,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-22",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-22",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/fidschi-node/fidschisicherheit/226626",
         "evidenceLinks": [
@@ -20679,7 +20704,7 @@
           "Bei Inselreisen den Zugang zu medizinischer Versorgung und den Versicherungsschutz für Rücktransporte prüfen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -20688,7 +20713,7 @@
           "checkedAt": "2026-11-22"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-22",
         "regionalSelectionRequired": false,
@@ -20714,11 +20739,36 @@
     "WS": {
       "name": "Samoa",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-22",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/samoasicherheit-213758?isLocal=false&isPreview=false",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Samoa",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/samoa-node/samoa-213762",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -20726,7 +20776,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -20747,7 +20797,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -20772,7 +20822,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Wellington",
@@ -20794,7 +20844,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-22",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-22",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/samoasicherheit-213758?isLocal=false&isPreview=false",
         "evidenceLinks": [
@@ -20833,7 +20883,7 @@
           "Die STIKO-Ländertabelle weist auf ein erhöhtes Typhusrisiko hin. Impf-Indikation nach Aufenthaltsart und Hygienebedingungen prüfen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -20842,7 +20892,7 @@
           "checkedAt": "2026-11-22"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-22",
         "regionalSelectionRequired": false,
@@ -20868,11 +20918,36 @@
     "TO": {
       "name": "Tonga",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-22",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tongasicherheit-213790?isLocal=false&isPreview=false",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Tonga",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/tonga-node/tonga-213778",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -20880,7 +20955,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -20900,7 +20975,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -20925,7 +21000,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Wellington",
@@ -20947,7 +21022,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-22",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-22",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tongasicherheit-213790?isLocal=false&isPreview=false",
         "evidenceLinks": [
@@ -20986,7 +21061,7 @@
           "Das Auswärtige Amt nennt Typhus bei Langzeitaufenthalt oder besonderer Exposition. Die STIKO-Ländertabelle führt Typhus für Tonga nicht als landesspezifische Reiseimpfung auf."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -20995,7 +21070,7 @@
           "checkedAt": "2026-11-22"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-22",
         "regionalSelectionRequired": false,
@@ -21020,6 +21095,474 @@
     },
     "TV": {
       "name": "Tuvalu",
+      "medicalReview": {
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-22",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tuvalusicherheit-220666?isLocal=false&isPreview=false",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tuvalu",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/tuvalu-node/tuvalu-220668",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-22",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "approved",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "approved",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tuvalusicherheit-220666?isLocal=false&isPreview=false",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tuvalu",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "approved",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Wellington",
+            "address": "90–92 Hobson Street, Thorndon, 6011 Wellington, Neuseeland",
+            "phone": "+64 4 473 6063",
+            "emergency": "+64 21 651 987",
+            "scope": "Konsularisch zuständig für Tuvalu. Bereitschaftszeiten siehe Originalquelle.",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/tuvalu-node/tuvalu-220668"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-22",
+        "reviewedAt": "2026-11-22",
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tuvalusicherheit-220666?isLocal=false&isPreview=false",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tuvalusicherheit-220666?isLocal=false&isPreview=false",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tuvalu",
+          "https://www.auswaertiges-amt.de/de/service/laender/tuvalu-node/tuvalu-220668"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tuvalusicherheit-220666?isLocal=false&isPreview=false",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tuvalu",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/tuvalu-node/tuvalu-220668",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt nennt bei Langzeitaufenthalt oder besonderer Exposition zusätzlich Typhus, Tollwut und Meningokokken ACWY. Die STIKO-Ländertabelle führt sie für Tuvalu nicht landesspezifisch auf. Exposition und weitere Etappen individuell bewerten."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Länderpaket ärztlich freigegeben.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-22"
+        }
+      },
+      "publicationAllowed": true,
+      "routeAssessment": {
+        "assessedAt": "2026-11-22",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "dengue",
+          "chikungunya"
+        ],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tuvalusicherheit-220666?isLocal=false&isPreview=false",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tuvalu"
+        ],
+        "otherRegionalFactors": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen."
+        ]
+      }
+    },
+    "CK": {
+      "name": "Cookinseln",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-22",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Bei Einreise aus einem Gelbfiebergebiet nennt das Auswärtige Amt einen Impfnachweis. CDC und die WHO-Tabelle im RKI-Anhang führen für die Cookinseln keine Nachweispflicht auf. Bei entsprechender Reiseroute aktuelle Einreisevorgaben vor Abflug bei der zuständigen Landesbehörde klären."
+        ],
+        "routeDependent": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/cookinselnsicherheit-226552",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/vfr/cook-islands",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Wellington",
+            "address": "90–92 Hobson Street, Thorndon, 6011 Wellington, Neuseeland",
+            "phone": "+64 4 473 6063",
+            "emergency": "+64 21 651 987",
+            "scope": "Konsularisch zuständig für die Cookinseln. Bereitschaftszeiten siehe Originalquelle.",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/cookinseln-node/cookinseln-226554"
+          },
+          {
+            "title": "Deutsches Honorarkonsulat Avarua",
+            "address": "Taputapuatea, Avarua, Postfach 167, Rarotonga (Postanschrift)",
+            "phone": "+682 21619",
+            "scope": "Örtliche Anlaufstelle. Besuchsadresse und Erreichbarkeit vorab erfragen.",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/cookinseln-node/cookinseln-226554"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-22",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/cookinselnsicherheit-226552",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/cookinselnsicherheit-226552",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/vfr/cook-islands",
+          "https://www.auswaertiges-amt.de/de/service/laender/cookinseln-node/cookinseln-226554"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/cookinselnsicherheit-226552",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/vfr/cook-islands",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/cookinseln-node/cookinseln-226554",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Vor einem Aufenthalt auf abgelegenen Inseln die Erreichbarkeit medizinischer Versorgung und den Versicherungsschutz für einen Rücktransport prüfen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-22"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-22",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "yellow_fever",
+          "dengue",
+          "chikungunya"
+        ],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/cookinselnsicherheit-226552",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/vfr/cook-islands"
+        ],
+        "otherRegionalFactors": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen."
+        ]
+      }
+    },
+    "NU": {
+      "name": "Niue",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-22",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Bei Einreise aus einem Gelbfiebergebiet müssen Reisende ab neun Monaten einen Gelbfieberimpfnachweis vorlegen."
+        ],
+        "routeDependent": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/niuesicherheit-2753126",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/niue",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Wellington",
+            "address": "90–92 Hobson Street, Thorndon, 6011 Wellington, Neuseeland",
+            "phone": "+64 4 473 6063",
+            "emergency": "+64 21 651 987",
+            "scope": "Konsularisch zuständig für Niue. Bereitschaftszeiten siehe Originalquelle.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/niue-2752450"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-22",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/niuesicherheit-2753126",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/niuesicherheit-2753126",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/niue",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/niue-2752450"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/niuesicherheit-2753126",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/niue",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/niue-2752450",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt nennt Typhus bei individueller Indikation. Die STIKO-Ländertabelle führt Typhus für Niue nicht als landesspezifische Reiseimpfung auf. Die medizinische Versorgung vor Ort ist eingeschränkt."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-22"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-22",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "yellow_fever",
+          "dengue",
+          "chikungunya"
+        ],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/niuesicherheit-2753126",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/niue"
+        ],
+        "otherRegionalFactors": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen."
+        ]
+      }
+    },
+    "NR": {
+      "name": "Nauru",
       "medicalReview": {
         "status": "pending",
         "reviewer": null,
@@ -21066,12 +21609,12 @@
           },
           {
             "label": "Auswärtiges Amt",
-            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tuvalusicherheit-220666?isLocal=false&isPreview=false",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/naoerosicherheit-220416?isLocal=false&isPreview=false",
             "use": "external_link_only"
           },
           {
             "label": "CDC",
-            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tuvalu",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/nauru",
             "use": "external_link_only"
           }
         ]
@@ -21080,12 +21623,19 @@
         "status": "prepared_for_review",
         "verifiedEntries": [
           {
-            "title": "Deutsche Botschaft Wellington",
-            "address": "90–92 Hobson Street, Thorndon, 6011 Wellington, Neuseeland",
-            "phone": "+64 4 473 6063",
-            "emergency": "+64 21 651 987",
-            "scope": "Konsularisch zuständig für Tuvalu. Bereitschaftszeiten siehe Originalquelle.",
-            "url": "https://www.auswaertiges-amt.de/de/service/laender/tuvalu-node/tuvalu-220668"
+            "title": "Deutsche Botschaft Canberra",
+            "address": "119 Empire Circuit, Yarralumla, ACT 2600, Australien",
+            "phone": "+61 2 6270 1911",
+            "emergency": "+61 412 359 826",
+            "scope": "Zuständig für Nauru. Erreichbarkeit des Bereitschaftsdienstes siehe Originalquelle.",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/naoero-node/nauru-220420?isLocal=false&isPreview=false"
+          },
+          {
+            "title": "Deutsches Honorarkonsulat Nauru",
+            "address": "Ijaeow Lodge, Distrikt Meneng, Nauru",
+            "phone": "+674 557 7464",
+            "scope": "Örtliche Anlaufstelle nach Vereinbarung.",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/naoero-node/nauru-220420?isLocal=false&isPreview=false"
           }
         ]
       },
@@ -21094,16 +21644,16 @@
         "researchCheckedAt": "2026-11-22",
         "reviewedAt": null,
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
-        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tuvalusicherheit-220666?isLocal=false&isPreview=false",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/naoerosicherheit-220416?isLocal=false&isPreview=false",
         "evidenceLinks": [
-          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tuvalusicherheit-220666?isLocal=false&isPreview=false",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/naoerosicherheit-220416?isLocal=false&isPreview=false",
           "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
-          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tuvalu",
-          "https://www.auswaertiges-amt.de/de/service/laender/tuvalu-node/tuvalu-220668"
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/nauru",
+          "https://www.auswaertiges-amt.de/de/service/laender/naoero-node/nauru-220420?isLocal=false&isPreview=false"
         ],
         "proposedSources": [
           {
-            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tuvalusicherheit-220666?isLocal=false&isPreview=false",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/naoerosicherheit-220416?isLocal=false&isPreview=false",
             "checkedAt": "2026-11-22",
             "reuseRightsChecked": true,
             "use": "external_link_only"
@@ -21115,20 +21665,20 @@
             "use": "external_link_only"
           },
           {
-            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tuvalu",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/nauru",
             "checkedAt": "2026-11-22",
             "reuseRightsChecked": true,
             "use": "external_link_only"
           },
           {
-            "url": "https://www.auswaertiges-amt.de/de/service/laender/tuvalu-node/tuvalu-220668",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/naoero-node/nauru-220420?isLocal=false&isPreview=false",
             "checkedAt": "2026-11-22",
             "reuseRightsChecked": true,
             "use": "external_link_only"
           }
         ],
         "researchNotes": [
-          "Das Auswärtige Amt nennt bei Langzeitaufenthalt oder besonderer Exposition zusätzlich Typhus, Tollwut und Meningokokken ACWY. Die STIKO-Ländertabelle führt sie für Tuvalu nicht landesspezifisch auf. Exposition und weitere Etappen individuell bewerten."
+          "Das Auswärtige Amt nennt Typhus bei individueller Indikation. Die STIKO-Ländertabelle führt Typhus für Nauru nicht als landesspezifische Reiseimpfung auf. Die Exposition insbesondere bei eingeschränkter Trinkwasser- und Lebensmittelhygiene individuell beurteilen."
         ],
         "proposedNextReviewDate": "2027-01-15",
         "warning": "Ärztliche Länderfreigabe steht aus.",
@@ -21151,9 +21701,153 @@
         "regionIds": [],
         "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
         "sourceUrls": [
-          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/tuvalusicherheit-220666?isLocal=false&isPreview=false",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/naoerosicherheit-220416?isLocal=false&isPreview=false",
           "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
-          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tuvalu"
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/nauru"
+        ],
+        "otherRegionalFactors": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen."
+        ]
+      }
+    },
+    "KI": {
+      "name": "Kiribati",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-22",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/kiribati-node/kiribatisicherheit-220364",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kiribati/",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Wellington",
+            "address": "90–92 Hobson Street, Thorndon, 6011 Wellington, Neuseeland",
+            "phone": "+64 4 473 6063",
+            "emergency": "+64 21 651 987",
+            "scope": "Konsularisch zuständig für Kiribati. Bereitschaftszeiten siehe Originalquelle.",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/kiribati-node/kiribati-220368"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-22",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/kiribati-node/kiribatisicherheit-220364",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/service/laender/kiribati-node/kiribatisicherheit-220364",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kiribati/",
+          "https://www.auswaertiges-amt.de/de/service/laender/kiribati-node/kiribati-220368"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/kiribati-node/kiribatisicherheit-220364",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kiribati/",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/kiribati-node/kiribati-220368",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt nennt Typhus bei individueller Indikation. Die STIKO-Ländertabelle führt Typhus für Kiribati nicht als landesspezifische Reiseimpfung auf. Bei Aufenthalten auf abgelegenen Inseln den Zugang zu Versorgung und den Rücktransport vorab prüfen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-22"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-22",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "dengue",
+          "chikungunya"
+        ],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/service/laender/kiribati-node/kiribatisicherheit-220364",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kiribati/"
         ],
         "otherRegionalFactors": [
           "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
