@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 106,
+  "countryCount": 110,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -18353,11 +18353,36 @@
     "BS": {
       "name": "Bahamas",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-22",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/bahamassicherheit/220268",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/The-Bahamas",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/bahamas-node/bahamasdeutschevertretungen-220270",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -18365,7 +18390,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -18386,7 +18411,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -18411,7 +18436,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Kingston",
@@ -18434,7 +18459,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-21",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-22",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/bahamassicherheit/220268",
         "evidenceLinks": [
@@ -18473,7 +18498,7 @@
           "Das Auswärtige Amt beschreibt deutliche Unterschiede in der medizinischen Versorgung zwischen Nassau oder Freeport und abgelegenen Inseln. Bei Inselwechseln Erreichbarkeit und Rücktransport klären."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -18482,7 +18507,7 @@
           "checkedAt": "2026-11-21"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-21",
         "regionalSelectionRequired": false,
@@ -18506,11 +18531,48 @@
     "BB": {
       "name": "Barbados",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-22",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/willkommen-in-der-ostkaribik/laenderinformationen-ostkaribik/brblaenderinformationen/reise-sicherheit",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/barbados",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/barbados-node/barbados/226408",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -18518,7 +18580,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -18539,7 +18601,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -18564,7 +18626,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Port-of-Spain",
@@ -18586,7 +18648,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-21",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-22",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://port-of-spain.diplo.de/tt-de/willkommen-in-der-ostkaribik/laenderinformationen-ostkaribik/brblaenderinformationen/reise-sicherheit",
         "evidenceLinks": [
@@ -18639,7 +18701,7 @@
           "Die STIKO-Ländertabelle führt Chikungunya als Reiseimpfung bei entsprechender Exposition. Das Auswärtige Amt nennt diese Impfung in der Liste für Barbados nicht eigens."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -18648,7 +18710,7 @@
           "checkedAt": "2026-11-21"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-21",
         "regionalSelectionRequired": false,
@@ -18672,11 +18734,48 @@
     "DM": {
       "name": "Dominica",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-22",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/dominicasicherheit-220300",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Dominica",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln?openAccordionId=item-220856-2-panel",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -18684,7 +18783,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -18705,7 +18804,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -18730,7 +18829,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Port-of-Spain",
@@ -18752,7 +18851,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-21",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-22",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/dominicasicherheit-220300",
         "evidenceLinks": [
@@ -18806,7 +18905,7 @@
           "Die Einreiseangaben gelten für Dominica. Für eine weitere Etappe in der Dominikanischen Republik gelten eigene Angaben."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -18815,7 +18914,7 @@
           "checkedAt": "2026-11-21"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-21",
         "regionalSelectionRequired": false,
@@ -18839,11 +18938,48 @@
     "GD": {
       "name": "Grenada",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-22",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grenadasicherheit-220316",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Grenada",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grenada-220318",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -18851,7 +18987,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -18872,7 +19008,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -18897,7 +19033,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Port-of-Spain",
@@ -18919,7 +19055,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-21",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-22",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grenadasicherheit-220316",
         "evidenceLinks": [
@@ -18972,7 +19108,7 @@
           "Das Auswärtige Amt nennt Tollwut bei besonderer Exposition. Die STIKO führt für Grenada keine routinemäßige Tollwutimpfung auf. Konkreten Tierkontakt und Versorgung vor Ort individuell berücksichtigen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -18981,7 +19117,7 @@
           "checkedAt": "2026-11-21"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-21",
         "regionalSelectionRequired": false,
@@ -19005,11 +19141,48 @@
     "AG": {
       "name": "Antigua und Barbuda",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-22",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/antiguaundbarbudasicherheit-227042",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Antigua-and-barbuda",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -19017,7 +19190,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -19039,7 +19212,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -19064,7 +19237,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Port-of-Spain",
@@ -19086,7 +19259,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-21",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-22",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/antiguaundbarbudasicherheit-227042",
         "evidenceLinks": [
@@ -19139,7 +19312,7 @@
           "Bei Inselwechseln und Kreuzfahrten prüfen, aus welchen Ländern die Reiseetappen tatsächlich ankommen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -19148,7 +19321,7 @@
           "checkedAt": "2026-11-21"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-21",
         "regionalSelectionRequired": false,
@@ -19172,11 +19345,48 @@
     "LC": {
       "name": "St. Lucia",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-22",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/stlucia-node/stluciasicherheit-226750",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-lucia",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -19184,7 +19394,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -19205,7 +19415,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -19230,7 +19440,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Port-of-Spain",
@@ -19252,7 +19462,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-21",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-22",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/stlucia-node/stluciasicherheit-226750",
         "evidenceLinks": [
@@ -19306,7 +19516,7 @@
           "Der RKI-Anhang und die CDC nennen beim Gelbfiebernachweis neun Monate als Mindestalter. Die Angaben des Auswärtigen Amts nennen kein Mindestalter."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -19315,7 +19525,7 @@
           "checkedAt": "2026-11-21"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-21",
         "regionalSelectionRequired": false,
@@ -19339,11 +19549,48 @@
     "KN": {
       "name": "St. Kitts und Nevis",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-22",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/stkittsundnevis-node/stkittsundnevissicherheit-226596",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/st-kitts-and-nevis",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -19351,7 +19598,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -19373,7 +19620,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -19398,7 +19645,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Port-of-Spain",
@@ -19420,7 +19667,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-21",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-22",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/stkittsundnevis-node/stkittsundnevissicherheit-226596",
         "evidenceLinks": [
@@ -19474,7 +19721,7 @@
           "Polio-Standardimpfschutz und möglichen Einreisenachweis nach Voraufenthalt getrennt prüfen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -19483,7 +19730,7 @@
           "checkedAt": "2026-11-21"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-21",
         "regionalSelectionRequired": false,
@@ -19508,11 +19755,48 @@
     "VC": {
       "name": "St. Vincent und die Grenadinen",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-22",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/stvincentunddiegrenadinen-node/stvincentunddiegrenadinensicherheit-226268",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-vincent-and-the-grenadines/",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/2307028-2307028",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/ueber-uns/honorarkonsuln",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://port-of-spain.diplo.de/tt-de/service/hilfe-fuer-deutsche-1019254",
+            "checkedAt": "2026-11-21",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -19520,7 +19804,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -19541,7 +19825,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -19566,7 +19850,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Port-of-Spain",
@@ -19588,7 +19872,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-21",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-22",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/stvincentunddiegrenadinen-node/stvincentunddiegrenadinensicherheit-226268",
         "evidenceLinks": [
@@ -19641,7 +19925,7 @@
           "Die STIKO-Ländertabelle führt Chikungunya als Reiseimpfung bei entsprechender Exposition. Das Auswärtige Amt nennt sie in der Liste für dieses Reiseziel nicht gesondert."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -19650,7 +19934,7 @@
           "checkedAt": "2026-11-21"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-21",
         "regionalSelectionRequired": false,
@@ -19668,6 +19952,528 @@
           "Eine Dengue-Impfung nach STIKO bei entsprechender Exposition ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
           "Eine Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
           "Auch tagsüber auf Mückenschutz achten. Bei Kreuzfahrten und Inselkombinationen die Voraufenthalte und Zwischenstopps in der richtigen Reihenfolge prüfen."
+        ]
+      }
+    },
+    "AD": {
+      "name": "Andorra",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-22",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [],
+        "riskBased": [
+          "Hepatitis B bei individueller Indikation"
+        ],
+        "entryRequirements": [
+          "Für die direkte Einreise aus Deutschland sind keine Pflichtimpfungen angegeben."
+        ],
+        "routeDependent": [
+          "Bei Anreise über Frankreich oder Spanien die dortigen Reiseabschnitte separat beurteilen.",
+          "Bei Touren mit Übernachtung über 2.500 m auf langsamen Aufstieg und Akklimatisation achten."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist kein lokales Malariarisiko bekannt. Eine medikamentöse Malariaprophylaxe ist für den Aufenthalt dort nicht vorgesehen.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/andorrasicherheit-224898",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsches Generalkonsulat Barcelona",
+            "address": "Torre Mapfre, Carrer de la Marina 16–18, 30. Etage, 08005 Barcelona, Spanien",
+            "phone": "+34 932 921 000",
+            "scope": "Konsularisch zuständig für Andorra. Bereitschaftszeiten siehe Originalquelle.",
+            "url": "https://spanien.diplo.de/es-de/ueber-uns/generalkonsulat1/1694584-1694584",
+            "emergency": "+34 661 611 104"
+          },
+          {
+            "title": "Deutsches Honorarkonsulat Andorra la Vella",
+            "address": "Avinguda Meritxell 75, Edifici Quars, 4. Etage, AD500 Andorra la Vella",
+            "phone": "+376 87 49 00",
+            "scope": "Örtliche Anlaufstelle. Termine und Leistungen vorab erfragen.",
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/deutsche-auslandsvertretungen/andorradeutschevertretungen/224900"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-22",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/andorrasicherheit-224898",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/andorrasicherheit-224898",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://spanien.diplo.de/es-de/ueber-uns/generalkonsulat1/1694584-1694584",
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/deutsche-auslandsvertretungen/andorradeutschevertretungen/224900"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/andorrasicherheit-224898",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://spanien.diplo.de/es-de/ueber-uns/generalkonsulat1/1694584-1694584",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/deutsche-auslandsvertretungen/andorradeutschevertretungen/224900",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO-Ländertabelle nennt Hepatitis B als zusätzliche Impfung bei reiseassoziiertem Risiko. Die allgemeinen Standard- und Indikationsimpfungen werden separat geprüft."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-22"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-22",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "other"
+        ],
+        "regionIds": [],
+        "reason": "Die Standard- und Indikationsimpfungen werden für das Land geprüft. Etappen in Nachbarländern gesondert beurteilen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/andorrasicherheit-224898",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": [
+          "Bei Anreise über Frankreich oder Spanien die dortigen Reiseabschnitte separat beurteilen.",
+          "Bei Touren mit Übernachtung über 2.500 m auf langsamen Aufstieg und Akklimatisation achten."
+        ]
+      }
+    },
+    "MC": {
+      "name": "Monaco",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-22",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [],
+        "riskBased": [
+          "Hepatitis B bei individueller Indikation"
+        ],
+        "entryRequirements": [
+          "Für die direkte Einreise aus Deutschland sind keine Pflichtimpfungen angegeben."
+        ],
+        "routeDependent": [
+          "Etappen in Frankreich oder Italien getrennt beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist kein lokales Malariarisiko bekannt. Eine medikamentöse Malariaprophylaxe ist für den Aufenthalt dort nicht vorgesehen.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/monacosicherheit-226868",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Paris",
+            "address": "13/15 Avenue Franklin D. Roosevelt, 75008 Paris, Frankreich",
+            "phone": "+33 1 53 83 45 00",
+            "scope": "Für Monaco zuständige Auslandsvertretung. Bereitschaftszeiten siehe Originalquelle.",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/monaco-node/monaco-226856",
+            "emergency": "+33 6 11 76 22 55"
+          },
+          {
+            "title": "Deutsches Honorarkonsulat Monaco",
+            "address": "Le Bristol, 25 bis Boulevard Albert Ier, 98000 Monaco",
+            "phone": "+377 97 97 49 65",
+            "scope": "Örtliche Anlaufstelle nach telefonischer Terminvereinbarung.",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/monaco-node/monaco-226856"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-22",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/monacosicherheit-226868",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/monacosicherheit-226868",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/service/laender/monaco-node/monaco-226856"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/monacosicherheit-226868",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/monaco-node/monaco-226856",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO-Ländertabelle nennt Hepatitis B als zusätzliche Impfung bei reiseassoziiertem Risiko. Die allgemeinen Standard- und Indikationsimpfungen werden separat geprüft."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-22"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-22",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "other"
+        ],
+        "regionIds": [],
+        "reason": "Die Standard- und Indikationsimpfungen werden für das Land geprüft. Etappen in Nachbarländern gesondert beurteilen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/monacosicherheit-226868",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": [
+          "Etappen in Frankreich oder Italien getrennt beurteilen."
+        ]
+      }
+    },
+    "SM": {
+      "name": "San Marino",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-22",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [],
+        "riskBased": [
+          "Hepatitis B bei individueller Indikation"
+        ],
+        "entryRequirements": [
+          "Für die direkte Einreise aus Deutschland sind keine Pflichtimpfungen angegeben."
+        ],
+        "routeDependent": [
+          "Anreise und Aufenthalte in Italien separat beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist kein lokales Malariarisiko bekannt. Eine medikamentöse Malariaprophylaxe ist für den Aufenthalt dort nicht vorgesehen.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/sanmarinosicherheit-227014",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsches Generalkonsulat Mailand",
+            "address": "Via Solferino 40, 20121 Mailand, Italien",
+            "phone": "+39 02 62311010",
+            "scope": "Konsularisch zuständig für San Marino. Bereitschaftszeiten siehe Originalquelle.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/sanmarino-227018",
+            "emergency": "+39 06 492131"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-22",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/sanmarinosicherheit-227014",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/sanmarinosicherheit-227014",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/sanmarino-227018"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/sanmarinosicherheit-227014",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/sanmarino-227018",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO-Ländertabelle nennt Hepatitis B als zusätzliche Impfung bei reiseassoziiertem Risiko. Die allgemeinen Standard- und Indikationsimpfungen werden separat geprüft."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-22"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-22",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "other"
+        ],
+        "regionIds": [],
+        "reason": "Die Standard- und Indikationsimpfungen werden für das Land geprüft. Etappen in Nachbarländern gesondert beurteilen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/sanmarinosicherheit-227014",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+        ],
+        "otherRegionalFactors": [
+          "Anreise und Aufenthalte in Italien separat beurteilen."
+        ]
+      }
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-22",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [],
+        "riskBased": [
+          "FSME bei Zeckenexposition",
+          "Hepatitis B bei individueller Indikation"
+        ],
+        "entryRequirements": [
+          "Für die direkte Einreise aus Deutschland sind keine Pflichtimpfungen angegeben."
+        ],
+        "routeDependent": [
+          "Reiseabschnitte in der Schweiz oder in Österreich separat beurteilen.",
+          "Bei möglicher Zeckenexposition eine FSME-Impfung individuell prüfen. Laut liechtensteinischem Amt für Gesundheit gilt das gesamte Gebiet unterhalb von 2.000 m als Risikogebiet. Zeckenschutz einplanen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist kein lokales Malariarisiko bekannt. Eine medikamentöse Malariaprophylaxe ist für den Aufenthalt dort nicht vorgesehen.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/liechtensteinsicherheit-222960",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Bern – Rechts- und Konsularabteilung",
+            "address": "Willadingweg 78, 3006 Bern, Schweiz",
+            "phone": "+41 31 359 4111",
+            "scope": "Konsularisch zuständig für Liechtenstein. Bereitschaftszeiten siehe Originalquelle.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/liechtenstein-222950",
+            "emergency": "+41 79 357 9373"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-22",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/liechtensteinsicherheit-222960",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/liechtensteinsicherheit-222960",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.llv.li/de/privatpersonen/gesundheit-vorsorge-und-pflege/gesundheitfoerderung-und-praevention/impfung/fsme",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/liechtenstein-222950"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/liechtensteinsicherheit-222960",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.llv.li/de/privatpersonen/gesundheit-vorsorge-und-pflege/gesundheitfoerderung-und-praevention/impfung/fsme",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/liechtenstein-222950",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO nennt FSME bei reiseassoziiertem Risiko. Für die Einordnung der Exposition ergänzt der Hinweis des liechtensteinischen Amts für Gesundheit die Ländertabelle."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-22"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-22",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "tick_borne"
+        ],
+        "regionIds": [],
+        "reason": "Bei Aufenthalten unterhalb von 2.000 m ist für die FSME-Einordnung die Zeckenexposition entscheidend. Die Landesbehörde stuft diesen Höhenbereich landesweit als Risikogebiet ein.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/liechtensteinsicherheit-222960",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.llv.li/de/privatpersonen/gesundheit-vorsorge-und-pflege/gesundheitfoerderung-und-praevention/impfung/fsme"
+        ],
+        "otherRegionalFactors": [
+          "Reiseabschnitte in der Schweiz oder in Österreich separat beurteilen.",
+          "Bei möglicher Zeckenexposition eine FSME-Impfung individuell prüfen. Laut liechtensteinischem Amt für Gesundheit gilt das gesamte Gebiet unterhalb von 2.000 m als Risikogebiet. Zeckenschutz einplanen."
         ]
       }
     }

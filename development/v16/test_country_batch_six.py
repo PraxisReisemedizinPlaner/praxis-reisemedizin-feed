@@ -16,13 +16,13 @@ class SixthCountryBatchTests(unittest.TestCase):
         self.g=read("region_profiles_draft_v1.json")
         self.s=read("region_source_packages_v2.json")
     def test_approved_batch_and_next_drafts_are_separate(self):
-        out=build_public(self.c,date(2026,11,21))
-        self.assertEqual(out["coverageCount"],106)
-        self.assertEqual(out["approvedCount"],98)
+        out=build_public(self.c,date(2026,11,22))
+        self.assertEqual(out["coverageCount"],110)
+        self.assertEqual(out["approvedCount"],106)
         for code in CODES:
             self.assertIn(code,out["countries"])
             self.assertEqual(self.c["countries"][code]["medicalReview"]["reviewedAt"],"2026-11-18")
-        next_codes = ("AG", "LC", "KN", "VC")
+        next_codes = ("AD", "MC", "SM", "LI")
         preview = render(self.c)
         self.assertEqual(preview.count("<article id="), len(next_codes))
         for code in next_codes:
@@ -30,11 +30,13 @@ class SixthCountryBatchTests(unittest.TestCase):
             self.assertIn("<article id='" + code + "'>", preview)
             self.assertNotIn(code,out["countries"])
             self.assertFalse(self.c["countries"][code]["publicationAllowed"])
+        self.assertIn("FSME bei Zeckenexposition", self.c["countries"]["LI"]["vaccineAssessment"]["riskBased"])
+        self.assertIn("2.000 m", preview)
         bhutan_south = next(row for row in self.s["regions"] if row["id"] == "BT-SOUTH")
         self.assertEqual(bhutan_south["status"], "source_conflict")
         self.assertNotIn("preventionType", bhutan_south)
         rows=build_public_regions(self.g,self.c,self.s,date(2026,11,21))["regions"]
-        approved_batch = {"CO", "EC", "BO", "VE", "PA", "GT", "HN", "SV", "NI", "BZ", "CU", "JM"}
+        approved_batch = {"CO", "EC", "BO", "VE", "PA", "GT", "HN", "SV", "NI", "BZ", "CU", "JM", "BS", "BB", "DM", "GD", "AG", "LC", "KN", "VC"}
         self.assertTrue(approved_batch.issubset(out["countries"]))
         by_id = {row["id"]: row for row in rows}
         self.assertEqual(by_id["CO-AMZ"]["malaria"]["riskLevel"], "high")
@@ -53,7 +55,7 @@ class SixthCountryBatchTests(unittest.TestCase):
                 self.assertNotIn("malaria",r)
                 self.assertNotIn("sourceNotice",r)
     def test_routes_and_evidence_are_complete(self):
-        self.assertEqual(validate_all(self.c,self.g,self.s),106)
+        self.assertEqual(validate_all(self.c,self.g,self.s),110)
         self.assertEqual(sum(r["country"] in CODES for r in self.g["regions"]),12)
         for code in ("NA","BW"):
             self.assertTrue(self.c["countries"][code]["routeAssessment"]["regionalSelectionRequired"])
@@ -69,7 +71,7 @@ class SixthCountryBatchTests(unittest.TestCase):
         for code in CODES:self.assertIn(self.c["countries"][code]["name"],html)
         self.assertIn("2026-11-18",html)
     def test_release_keeps_seasonal_conflicts_unclassified(self):
-        self.assertEqual(build_public(self.c,date(2026,11,21))["approvedCount"],98)
+        self.assertEqual(build_public(self.c,date(2026,11,22))["approvedCount"],106)
         rows={r["id"]:r for r in build_public_regions(self.g,self.c,self.s,date(2026,11,21))["regions"]}
         for rid in ("NA-ETOSHA","NA-KUNENE","BW-OKAVANGO","BW-GABORONE"):
             self.assertEqual(rows[rid]["clinicalStatus"],"source_conflict")
