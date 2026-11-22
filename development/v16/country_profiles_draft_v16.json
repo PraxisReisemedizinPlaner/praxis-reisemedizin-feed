@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 122,
+  "countryCount": 126,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -21959,11 +21959,36 @@
     "MH": {
       "name": "Marshallinseln",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-22",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/marshallinselnsicherheit-220400",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/marshall-islands",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/marshallinseln-node/marshallinseln-220402",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -21971,7 +21996,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -21990,7 +22015,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -22015,7 +22040,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Manila",
@@ -22037,7 +22062,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-22",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-22",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/marshallinselnsicherheit-220400",
         "evidenceLinks": [
@@ -22076,7 +22101,7 @@
           "Das Auswärtige Amt nennt Typhus bei Langzeitaufenthalt oder besonderer Exposition. Die STIKO-Ländertabelle führt Typhus nicht als landesspezifische Reiseimpfung auf."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -22085,7 +22110,7 @@
           "checkedAt": "2026-11-22"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-22",
         "regionalSelectionRequired": false,
@@ -22110,11 +22135,36 @@
     "FM": {
       "name": "Mikronesien (Föderierte Staaten)",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-22",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/mikronesien-node/mikronesiensicherheit-220678",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/micronesia",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/mikronesien-node/mikronesien-220680",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -22122,7 +22172,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -22141,7 +22191,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -22166,7 +22216,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Manila",
@@ -22181,7 +22231,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-22",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-22",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/mikronesien-node/mikronesiensicherheit-220678",
         "evidenceLinks": [
@@ -22220,7 +22270,7 @@
           "Das Auswärtige Amt nennt Typhus bei Langzeitaufenthalt oder individueller Indikation. Die STIKO-Ländertabelle führt Typhus nicht als landesspezifische Reiseimpfung auf. Bei Reisen auf entlegene Inseln medizinische Versorgung und Rücktransport vorab klären."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -22229,7 +22279,7 @@
           "checkedAt": "2026-11-22"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-22",
         "regionalSelectionRequired": false,
@@ -22254,11 +22304,36 @@
     "PW": {
       "name": "Palau",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-22",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/palausicherheit-220958",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Palau",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/palau-node/palau-220960",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -22266,7 +22341,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -22288,7 +22363,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -22313,7 +22388,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Manila",
@@ -22335,7 +22410,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-22",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-22",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/palausicherheit-220958",
         "evidenceLinks": [
@@ -22374,7 +22449,7 @@
           "Die STIKO-Ländertabelle führt Typhus bei reiseassoziiertem Risiko und Tollwut bei entsprechender Exposition auf. Nach einem Tierbiss sofort medizinisch abklären lassen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -22383,7 +22458,7 @@
           "checkedAt": "2026-11-22"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-22",
         "regionalSelectionRequired": false,
@@ -22409,11 +22484,42 @@
     "GU": {
       "name": "Guam",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-22",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/usavereinigtestaatensicherheit-201382",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/guam/",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.help.cbp.gov/s/article/Article-1441?language=en_US",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/palau-220960",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -22421,7 +22527,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -22437,7 +22543,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -22462,7 +22568,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Manila",
@@ -22477,7 +22583,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-22",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-22",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/usavereinigtestaatensicherheit-201382",
         "evidenceLinks": [
@@ -22523,7 +22629,7 @@
           "Die STIKO-Ländertabelle führt für Guam zusätzlich Hepatitis B bei reiseassoziiertem Risiko auf. Das Auswärtige Amt weist auf Dengue-Übertragung auf Guam hin. Mückenschutz auch tagsüber einplanen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -22532,7 +22638,7 @@
           "checkedAt": "2026-11-22"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-22",
         "regionalSelectionRequired": false,
@@ -22550,6 +22656,632 @@
         ],
         "otherRegionalFactors": [
           "Mückenschutz auch tagsüber einplanen. Für Zwischenstopps und weitere Inselziele gelten eigene Bestimmungen."
+        ]
+      }
+    },
+    "MP": {
+      "name": "Nördliche Marianen",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-22",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/usavereinigtestaatensicherheit-201382",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/northern-mariana-islands",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Manila",
+            "address": "25. Etage, Tower II, RCBC Plaza, 6819 Ayala Avenue, 1200 Makati City, Metro Manila, Philippinen",
+            "phone": "+63 2 8702 3000",
+            "emergency": "+63 917 867 3000",
+            "scope": "Konsularisch zuständig für die Nördlichen Marianen. Bereitschaftszeiten siehe Originalquelle.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/palau-220960"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-22",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/usavereinigtestaatensicherheit-201382",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/usavereinigtestaatensicherheit-201382",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/northern-mariana-islands",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/palau-220960",
+          "https://www.help.cbp.gov/s/article/Article-1441?language=en_US"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/usavereinigtestaatensicherheit-201382",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/northern-mariana-islands",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/palau-220960",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.help.cbp.gov/s/article/Article-1441?language=en_US",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die US-Grenzbehörde erläutert die Einreiseprogramme für Guam und die Nördlichen Marianen. Einreiseregeln und Transit für die konkrete Route prüfen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-22"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-22",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "dengue",
+          "chikungunya"
+        ],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/usavereinigtestaatensicherheit-201382",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/northern-mariana-islands"
+        ],
+        "otherRegionalFactors": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen."
+        ]
+      }
+    },
+    "AS": {
+      "name": "Amerikanisch-Samoa",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-22",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/usavereinigtestaatensicherheit-201382",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/american-samoa",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsches Generalkonsulat San Francisco",
+            "address": "1960 Jackson Street, San Francisco, CA 94109, USA",
+            "phone": "+1 415 775 1061",
+            "emergency": null,
+            "scope": "Die Leitung dieser Vertretung ist auch in Amerikanisch-Samoa als Generalkonsul angemeldet.",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/usa-node/usa-203572"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-22",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/usavereinigtestaatensicherheit-201382",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/usavereinigtestaatensicherheit-201382",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/american-samoa",
+          "https://www.auswaertiges-amt.de/de/service/laender/usa-node/usa-203572",
+          "https://www.americansamoa.gov/"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/usavereinigtestaatensicherheit-201382",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/american-samoa",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/usa-node/usa-203572",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.americansamoa.gov/",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Für Amerikanisch-Samoa gelten eigene Einreiseregeln. Die örtliche Regierung verlinkt ihr Verfahren für Besuchergenehmigungen. Bei der Anreise über den unabhängigen Staat Samoa dessen Regeln gesondert prüfen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-22"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-22",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "dengue",
+          "chikungunya"
+        ],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/usavereinigtestaatensicherheit-201382",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/american-samoa"
+        ],
+        "otherRegionalFactors": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen."
+        ]
+      }
+    },
+    "PF": {
+      "name": "Französisch-Polynesien",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-22",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Ab 1 Jahr ist bei Einreise aus einem Gelbfieber-Risikogebiet oder nach mehr als 12 Stunden Flughafentransit in einem solchen Gebiet ein Gelbfieber-Impfnachweis erforderlich."
+        ],
+        "routeDependent": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen.",
+          "Den Gelbfieber-Impfnachweis anhand aller Voraufenthalte und Zwischenstopps prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/french-polynesia",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Paris",
+            "address": "13/15 Avenue Franklin Delano Roosevelt, 75008 Paris, Frankreich",
+            "phone": "+33 1 53 83 45 00",
+            "emergency": null,
+            "scope": "Konsularisch zuständige Botschaft. Bereitschaftsdienst siehe Originalquelle.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528"
+          },
+          {
+            "title": "Deutsches Honorarkonsulat Papeete",
+            "address": "Rue des Poilus Tahitiens, 98713 Papeete, Tahiti",
+            "phone": "+689 40 420 030",
+            "emergency": null,
+            "scope": "Örtliche konsularische Anlaufstelle in Französisch-Polynesien.",
+            "url": "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-22",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/french-polynesia",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528",
+          "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/french-polynesia",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Gelbfieber-Impfnachweis bei Anreise aus einem Risikogebiet oder längerem Flughafentransit prüfen. Auf entlegenen Inseln vorab die Erreichbarkeit medizinischer Versorgung klären."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-22"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-22",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "dengue",
+          "chikungunya"
+        ],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/french-polynesia"
+        ],
+        "otherRegionalFactors": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen.",
+          "Den Gelbfieber-Impfnachweis anhand aller Voraufenthalte und Zwischenstopps prüfen."
+        ]
+      }
+    },
+    "NC": {
+      "name": "Neukaledonien",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-22",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Ab 1 Jahr ist bei Einreise aus einem Gelbfieber-Risikogebiet oder nach mehr als 12 Stunden Flughafentransit in einem solchen Gebiet ein Gelbfieber-Impfnachweis erforderlich."
+        ],
+        "routeDependent": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen.",
+          "Den Gelbfieber-Impfnachweis anhand aller Voraufenthalte und Zwischenstopps prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/new-caledonia",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Paris",
+            "address": "13/15 Avenue Franklin Delano Roosevelt, 75008 Paris, Frankreich",
+            "phone": "+33 1 53 83 45 00",
+            "emergency": null,
+            "scope": "Konsularisch zuständige Botschaft. Bereitschaftsdienst siehe Originalquelle.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528"
+          },
+          {
+            "title": "Deutsches Honorarkonsulat Nouméa",
+            "address": "BP 2626, 98846 Nouméa Cedex, Neukaledonien",
+            "phone": "+687 78 83 83",
+            "emergency": null,
+            "scope": "Örtliche konsularische Anlaufstelle in Neukaledonien.",
+            "url": "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-22",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/new-caledonia",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528",
+          "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/new-caledonia",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln",
+            "checkedAt": "2026-11-22",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt und die CDC nennen auch einen Flughafentransit von mehr als 12 Stunden in einem Gelbfieber-Risikogebiet. Diesen Transit bei der Routenprüfung berücksichtigen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-22"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-22",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "dengue",
+          "chikungunya"
+        ],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/new-caledonia"
+        ],
+        "otherRegionalFactors": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen.",
+          "Den Gelbfieber-Impfnachweis anhand aller Voraufenthalte und Zwischenstopps prüfen."
         ]
       }
     }
