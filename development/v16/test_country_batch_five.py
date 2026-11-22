@@ -17,7 +17,7 @@ class FifthCountryBatchTests(unittest.TestCase):
     def test_approved_batch_and_pending_batch_are_separate(self):
         out=build_public(self.c,date(2026,11,22))
         self.assertEqual(out["coverageCount"],110)
-        self.assertEqual(out["approvedCount"],106)
+        self.assertEqual(out["approvedCount"],110)
         for code in ("KH","LA","ZA","BR"):
             self.assertIn(code,out["countries"])
             self.assertEqual(self.c["countries"][code]["medicalReview"]["reviewer"],"Dr. med. Sebastian Münster")
@@ -43,7 +43,7 @@ class FifthCountryBatchTests(unittest.TestCase):
             p["medicalReview"]={"status":"approved","reviewer":"TEST ONLY","reviewedAt":"2026-11-16",
                 "nextReviewDate":"2027-01-15","approvedSources":p["sourceReview"]["proposedSources"]}
             for f in ("vaccineAssessment","malariaAssessment","missions"):p[f]["status"]="approved"
-        self.assertEqual(build_public(self.c,date(2026,11,22))["approvedCount"],106)
+        self.assertEqual(build_public(self.c,date(2026,11,22))["approvedCount"],110)
         rows={r["id"]:r for r in build_public_regions(self.g,self.c,self.s,date(2026,11,21))["regions"]}
         for rid in ("MX-CHIAPAS","CR-LIMON","DO-PUNTACANA","PE-IQUITOS"):
             self.assertEqual(rows[rid]["clinicalStatus"],"source_conflict")

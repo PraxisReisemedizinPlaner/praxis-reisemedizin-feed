@@ -17,7 +17,7 @@ PACKAGES=json.loads((HERE/"region_source_packages_v2.json").read_text(encoding="
 regions=build_public_regions(REGION,COUNTRIES,PACKAGES,date(2026,11,21))
 countries=build_countries(COUNTRIES,date(2026,11,22))
 assert regions["sourceBasedCount"] == 64
-assert countries["approvedCount"] == 106
+assert countries["approvedCount"] == 110
 
 def intercept(route):
     url=route.request.url
@@ -166,6 +166,14 @@ def smoke(browser,device,stripped=False):
     page.locator("#rm-activity-5").click()
     page.locator("#rm-when").click()
     assert page.locator("#rm-special-notes details").count()==2
+    dive = page.locator('details[data-rm-note="dive"]')
+    dive.locator("summary").click()
+    emergency = dive.locator(".rm-dive-emergency")
+    assert emergency.get_by_role("link", name="112", exact=True).get_attribute("href") == "tel:112"
+    hotline = emergency.get_by_role("link", name="+49 421 240 110-10", exact=True)
+    assert hotline.is_visible() and hotline.get_attribute("href") == "tel:+4942124011010"
+    assert emergency.get_by_role("link", name=re.compile("Originalquelle")).get_attribute("href") == "https://www.aqua-med.eu/notruf/"
+    assert emergency.inner_text().index("örtlichen Rettungsdienst") < emergency.inner_text().index("aqua med")
     assert page.locator("#rm-special-notes").evaluate("el => !!(document.querySelector('#rm-print').compareDocumentPosition(el)&Node.DOCUMENT_POSITION_FOLLOWING)")
     assert page.locator("#rm-special-notes").evaluate("el => !!(el.compareDocumentPosition(document.querySelector('.rm-general'))&Node.DOCUMENT_POSITION_FOLLOWING)")
     # Clear all states, especially region chip selections.

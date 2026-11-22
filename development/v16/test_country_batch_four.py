@@ -21,7 +21,7 @@ class FourthCountryBatchTests(unittest.TestCase):
             self.c["countries"][code]["medicalReview"]["status"]="pending"
         out=build_public(self.c,date(2026,11,22))
         self.assertEqual(out["coverageCount"],110)
-        self.assertEqual(out["approvedCount"],102)
+        self.assertEqual(out["approvedCount"],106)
         for code in ("LK","NP","MY","PH"):
             self.assertIn(code,out["countries"])
             self.assertEqual(self.c["countries"][code]["medicalReview"]["reviewer"],"Dr. med. Sebastian Münster")
@@ -48,7 +48,7 @@ class FourthCountryBatchTests(unittest.TestCase):
             p["medicalReview"]={"status":"approved","reviewer":"TEST ONLY","reviewedAt":"2026-11-15",
                 "nextReviewDate":"2027-01-15","approvedSources":p["sourceReview"]["proposedSources"]}
             for f in ("vaccineAssessment","malariaAssessment","missions"):p[f]["status"]="approved"
-        self.assertEqual(build_public(self.c,date(2026,11,22))["approvedCount"],106)
+        self.assertEqual(build_public(self.c,date(2026,11,22))["approvedCount"],110)
         rows={r["id"]:r for r in build_public_regions(self.g,self.c,self.s,date(2026,11,21))["regions"]}
         for rid in ("KH-ANGKOR","ZA-KRUGER","BR-IGUACU"):
             self.assertEqual(rows[rid]["clinicalStatus"],"source_conflict")

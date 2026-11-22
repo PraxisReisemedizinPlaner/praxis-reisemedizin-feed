@@ -52,7 +52,7 @@ class RoutePlanningTests(unittest.TestCase):
             self.c["countries"][code]["publicationAllowed"]=False
             self.c["countries"][code]["medicalReview"]["status"]="pending"
         out=build_public(self.c,date(2026,11,22))
-        self.assertEqual(out["approvedCount"],102)
+        self.assertEqual(out["approvedCount"],106)
         for code in ("ES","IT","GR","PT"):
             self.assertNotIn(code,out["countries"])
         for row in self.regions()["regions"]:
@@ -61,7 +61,7 @@ class RoutePlanningTests(unittest.TestCase):
                 self.assertNotIn("sourceNotice",row)
     def test_four_european_packages_are_medically_approved(self):
         out=build_public(self.c,date(2026,11,22))
-        self.assertEqual(out["approvedCount"],106)
+        self.assertEqual(out["approvedCount"],110)
         for code in ("ES","IT","GR","PT"):
             self.assertIn(code,out["countries"])
             self.assertEqual(self.c["countries"][code]["medicalReview"]["reviewer"],"Dr. med. Sebastian Münster")
@@ -106,7 +106,7 @@ class RoutePlanningTests(unittest.TestCase):
             p["publicationAllowed"]=True
             for field in ("vaccineAssessment","malariaAssessment","missions"):
                 p[field]["status"]="approved"
-        self.assertEqual(build_public(c,date(2026,11,22))["approvedCount"],106)
+        self.assertEqual(build_public(c,date(2026,11,22))["approvedCount"],110)
         rows={r["id"]:r for r in self.regions(c)["regions"]}
         self.assertIn("Dengue",rows["PT-MADEIRA"]["malaria"]["clinicalRecommendation"])
         self.assertIn("Dengue",c["countries"]["PT"]["vaccineAssessment"]["routeDependent"][0])
