@@ -17,7 +17,7 @@ PACKAGES=json.loads((HERE/"region_source_packages_v2.json").read_text(encoding="
 regions=build_public_regions(REGION,COUNTRIES,PACKAGES,date(2026,11,21))
 countries=build_countries(COUNTRIES,date(2026,11,25))
 assert regions["sourceBasedCount"] == 64
-assert countries["approvedCount"] == 142
+assert countries["approvedCount"] == 146
 
 def intercept(route):
     url=route.request.url
@@ -62,6 +62,10 @@ def smoke(browser,device,stripped=False):
     assert "Selbstzahlerleistung" in consultation.inner_text()
     assert "Online-Rezeption unten rechts" in consultation.inner_text()
     assert consultation.get_by_role("link").count() == 0
+    box = page.locator("#rm-country")
+    for island in ("Bonaire", "Sint Eustatius", "Saba"):
+        box.fill(island)
+        assert page.locator("#rm-suggest .rm-choice").filter(has_text="Karibische Niederlande").is_visible()
     selected_country(page,"Thailand")
     footer = page.locator("#rm-all-sources")
     assert footer.get_attribute("open") is None
