@@ -21,7 +21,12 @@ class CountryPackageTests(unittest.TestCase):
         for r in self.g["regions"]:
             r["publicationAllowed"]=False
             r["clinicalReview"]["status"]="pending"
-        self.assertEqual(self.out()["sourceBasedCount"],64)
+        out = self.out()
+        self.assertEqual(out["sourceBasedCount"],64)
+        sa = {r["id"]: r for r in self.out(date(2026,11,25))["regions"] if r["country"] == "SA"}
+        self.assertEqual(sa["SA-MAIN-CITIES"]["clinicalStatus"], "source_based")
+        self.assertEqual(sa["SA-SOUTHWEST"]["clinicalStatus"], "source_conflict")
+        self.assertNotIn("malaria", sa["SA-SOUTHWEST"])
         self.assertEqual(self.row("TH-USM")["approvalScope"],"country_package")
     def test_conflict_never_becomes_low_risk(self):
         r=self.row("TH-BKK")

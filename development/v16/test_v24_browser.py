@@ -14,10 +14,10 @@ ROOT=HERE.parents[1]
 REGION=json.loads((HERE/"region_profiles_draft_v1.json").read_text(encoding="utf-8"))
 COUNTRIES=json.loads((HERE/"country_profiles_draft_v16.json").read_text(encoding="utf-8"))
 PACKAGES=json.loads((HERE/"region_source_packages_v2.json").read_text(encoding="utf-8"))
-regions=build_public_regions(REGION,COUNTRIES,PACKAGES,date(2026,11,21))
+regions=build_public_regions(REGION,COUNTRIES,PACKAGES,date(2026,11,25))
 countries=build_countries(COUNTRIES,date(2026,11,25))
-assert regions["sourceBasedCount"] == 64
-assert countries["approvedCount"] == 162
+assert regions["sourceBasedCount"] == 65
+assert countries["approvedCount"] == 166
 
 def intercept(route):
     url=route.request.url
