@@ -17,7 +17,7 @@ PACKAGES=json.loads((HERE/"region_source_packages_v2.json").read_text(encoding="
 regions=build_public_regions(REGION,COUNTRIES,PACKAGES,date(2026,11,21))
 countries=build_countries(COUNTRIES,date(2026,11,25))
 assert regions["sourceBasedCount"] == 64
-assert countries["approvedCount"] == 138
+assert countries["approvedCount"] == 142
 
 def intercept(route):
     url=route.request.url
@@ -45,6 +45,7 @@ def selected_country(page,name):
 def smoke(browser,device,stripped=False):
     ctx=browser.new_context(viewport={"width":375 if device=="mobile" else 1140,"height":840})
     ctx.route("**/*", intercept)
+    ctx.add_init_script("window.print = () => {};")
     page=ctx.new_page()
     errors=[]
     page.on("pageerror",lambda error: errors.append(str(error)))
@@ -54,6 +55,12 @@ def smoke(browser,device,stripped=False):
         page.route("**/ReiseCheck_Jimdo_V24.html",lambda route: route.fulfill(status=200,content_type="text/html",body=stripped_html))
     page.goto(source_path.as_uri(),wait_until="domcontentloaded")
     page.wait_for_function("() => document.querySelector('#rm-region-feedback')?.textContent?.includes('Mehrfachauswahl')",timeout=15000)
+    booking_url = "https://www.praxis-dr-muenster.de/kontakt/"
+    consultation = page.locator(".rm-top #rm-consultation")
+    assert consultation.is_visible()
+    assert "staatlich zugelassene Gelbfieberimpfstelle" in consultation.inner_text()
+    assert "Selbstzahlerleistung" in consultation.inner_text()
+    assert consultation.get_by_role("link", name="Beratungstermin anfragen").get_attribute("href") == booking_url
     selected_country(page,"Thailand")
     footer = page.locator("#rm-all-sources")
     assert footer.get_attribute("open") is None
@@ -176,6 +183,19 @@ def smoke(browser,device,stripped=False):
     assert emergency.inner_text().index("örtlichen Rettungsdienst") < emergency.inner_text().index("aqua med")
     assert page.locator("#rm-special-notes").evaluate("el => !!(document.querySelector('#rm-print').compareDocumentPosition(el)&Node.DOCUMENT_POSITION_FOLLOWING)")
     assert page.locator("#rm-special-notes").evaluate("el => !!(el.compareDocumentPosition(document.querySelector('.rm-general'))&Node.DOCUMENT_POSITION_FOLLOWING)")
+    if device == "desktop" and not stripped:
+        with page.expect_popup() as print_window:
+            page.locator("#rm-print").click()
+        popup = print_window.value
+        popup.emulate_media(media="print")
+        print_consultation = popup.locator("main > header + aside.consultation")
+        print_consultation.wait_for()
+        assert print_consultation.locator("p").inner_text() == consultation.locator("p").inner_text()
+        print_link = print_consultation.get_by_role("link", name=re.compile("Beratungstermin anfragen"))
+        assert print_link.get_attribute("href") == booking_url
+        assert "praxis-dr-muenster.de/kontakt/" in print_link.inner_text()
+        assert popup.pdf(print_background=True, prefer_css_page_size=True).startswith(b"%PDF")
+        popup.close()
     # Clear all states, especially region chip selections.
     page.locator("#rm-reset").click()
     assert page.locator("#rm-region-chips .rm-region-chip").count()==0
