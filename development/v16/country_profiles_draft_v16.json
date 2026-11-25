@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 174,
+  "countryCount": 178,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -30967,11 +30967,30 @@
     "LS": {
       "name": "Lesotho",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/lesothosicherheit-226974",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/lesotho-226962",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -30979,7 +30998,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -30998,7 +31017,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -31018,7 +31037,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Honorarkonsulin Maseru",
@@ -31041,7 +31060,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-25",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-25",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/lesothosicherheit-226974",
         "evidenceLinks": [
@@ -31073,7 +31092,7 @@
           "Gelbfieber-Nachweis bei entsprechender Vorgeschichte vorab bei der zuständigen Behörde klären."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -31082,7 +31101,7 @@
           "checkedAt": "2026-11-25"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-25",
         "regionalSelectionRequired": false,
@@ -31105,11 +31124,42 @@
     "SZ": {
       "name": "Eswatini",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/eswatinisicherheit-226240",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/swasiland-226242",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/eswatini",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -31117,7 +31167,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -31136,7 +31186,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -31164,7 +31214,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsches Verbindungsbüro Mbabane",
@@ -31187,7 +31237,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-25",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-25",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/eswatinisicherheit-226240",
         "evidenceLinks": [
@@ -31233,7 +31283,7 @@
           "Die STIKO-DTG nennt einen Nachweis ab neun Monaten auch beim Flughafentransit ohne Zeitgrenze. Das Auswärtige Amt nennt ein Alter über einem Jahr und für Addis Abeba oder Nairobi mehr als zwölf Stunden Transit. Die CDC nennen neun Monate und mehr als zwölf Stunden. Die konkrete Route amtlich klären."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Osten und grenznahes Tiefland (u. a. Lubombo): Auswärtiges Amt und DTG stufen den Osten von September bis Mai höher ein als von Juni bis August. Die CDC empfehlen für ihre östlichen Risikogebiete eine medikamentöse Prophylaxe ohne diese saisonale Abstufung. Reisezeit und genaue Orte individuell bewerten.",
           "Westen und Mbabane: Auswärtiges Amt und DTG nennen im Westen ein geringes ganzjähriges Risiko. Die CDC führen ihre Übertragungsgebiete im Osten auf. Mückenschutz beachten und Ausflüge in den Osten separat bewerten."
@@ -31245,7 +31295,7 @@
           "checkedAt": "2026-11-25"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-25",
         "regionalSelectionRequired": true,
@@ -31273,11 +31323,42 @@
     "ZW": {
       "name": "Simbabwe",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/simbabwesicherheit-208948",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://harare.diplo.de/zw-de/ueber-uns/1616960-1616960",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/zimbabwe",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -31285,7 +31366,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -31306,7 +31387,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "regional",
         "preventionType": "regional_assessment_required",
         "regions": [
@@ -31335,7 +31416,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Harare",
@@ -31350,7 +31431,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-25",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-25",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/simbabwesicherheit-208948",
         "evidenceLinks": [
@@ -31396,7 +31477,7 @@
           "Für Harare, Bulawayo und saisonal betroffene Regionen unterscheiden sich die deutschen und US-amerikanischen Prophylaxe-Empfehlungen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [
           "Nord-, Ost- und Nordwestetappen mit ganzjährig hohem Risiko: Für die hier genannten ganzjährig hoch eingestuften Ziele stimmen die Quellen bei Mückenschutz und medikamentöser Prophylaxe überein. Benachbarte saisonale Gebiete separat prüfen.",
           "Hwange, Matobo und weitere saisonale Gebiete: Auswärtiges Amt und DTG stufen das Risiko hier von September bis Mai höher ein als von Juni bis August. Die CDC empfehlen medikamentöse Prophylaxe landesweit. Reisezeit, Übernachtungsort und Zugang zu Diagnostik besprechen.",
@@ -31409,7 +31490,7 @@
           "checkedAt": "2026-11-25"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-25",
         "regionalSelectionRequired": true,
@@ -31438,11 +31519,48 @@
     "ZM": {
       "name": "Sambia",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/sambia-node/sambiasicherheit/208606",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://lusaka.diplo.de/zm-de",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/chronic/zambia",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/news/item/13-11-2026-statement-of-the-forty-sixth-meeting-of-the-polio-ihr-emergency-committee",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -31450,7 +31568,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A",
           "Polio"
@@ -31472,7 +31590,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "present",
         "preventionType": "chemoprophylaxis_consider",
         "regions": [
@@ -31499,7 +31617,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Lusaka",
@@ -31514,7 +31632,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-25",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-25",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/sambia-node/sambiasicherheit/208606",
         "evidenceLinks": [
@@ -31569,7 +31687,7 @@
           "Die WHO meldet im November-Statement einen cVDPV2-Nachweis. Die tagesaktuellen WHO- und nationalen Regelungen für die Reiseroute beachten."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -31578,7 +31696,7 @@
           "checkedAt": "2026-11-25"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-25",
         "regionalSelectionRequired": false,
@@ -31598,6 +31716,622 @@
         "otherRegionalFactors": [
           "Bei Weiterreise zu den Victoriafällen auf simbabwischer Seite deren Einreisevorgaben separat prüfen.",
           "Polio-Impfstatus vervollständigen und bei langen Aufenthalten aktuelle länderspezifische Vorgaben klären."
+        ]
+      }
+    },
+    "GH": {
+      "name": "Ghana",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A",
+          "Gelbfieber"
+        ],
+        "riskBased": [
+          "Hepatitis B",
+          "Tollwut",
+          "Typhus",
+          "Dengue",
+          "Chikungunya",
+          "Meningokokken ACWY"
+        ],
+        "entryRequirements": [
+          "Der Gelbfieber-Impfnachweis ist ab neun Monaten bei Einreise aus jedem Land erforderlich, auch bei direkter Anreise aus Deutschland."
+        ],
+        "routeDependent": [
+          "Vollständigen Polio-Impfschutz prüfen. Das Auswärtige Amt nennt für Reisende eine Auffrischung, wenn die letzte Dosis mehr als zehn Jahre zurückliegt.",
+          "Bei Reisen in den Meningitisgürtel Reisesaison, Aufenthaltsdauer und engen Kontakt zur Bevölkerung bei der ACWY-Indikation berücksichtigen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "present",
+        "preventionType": "chemoprophylaxis_consider",
+        "regions": [
+          "Ganzjährig im ganzen Land, einschließlich Accra."
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Das Malariarisiko ist landesweit ganzjährig hoch, auch in Städten. Konsequenter Mückenschutz und ärztlich ausgewählte medikamentöse Prophylaxe sind angezeigt.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/ghanasicherheit-203372",
+            "use": "external_link_only"
+          },
+          {
+            "label": "DTG-Länderinformationen",
+            "url": "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Accra",
+            "address": "6 Kenneth Kaunda Road, North Ridge, Accra. Konsularreferat: 4 Sam Nujoma Close, North Ridge.",
+            "phone": "+233 30 221 1000",
+            "emergency": null,
+            "scope": "Konsularisch zuständig für Ghana.",
+            "url": "https://accra.diplo.de/gh-de"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/ghanasicherheit-203372",
+        "evidenceLinks": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/ghanasicherheit-203372",
+          "https://accra.diplo.de/gh-de",
+          "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/ghanasicherheit-203372",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://accra.diplo.de/gh-de",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die Gelbfieberimpfung zum Eigenschutz und der Impfnachweis für die konkrete Einreiseroute sind getrennt zu beurteilen.",
+          "Die STIKO-DTG führt Chikungunya als mögliche Impfung bei individueller Indikation auf."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "yellow_fever",
+          "malaria"
+        ],
+        "regionIds": [],
+        "reason": "Das ganzjährig hohe Malariarisiko gilt landesweit. Die Anreiseroute ist für die Einreiseauflagen separat zu prüfen.",
+        "sourceUrls": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/ghanasicherheit-203372",
+          "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html"
+        ],
+        "otherRegionalFactors": [
+          "Vollständigen Polio-Impfschutz prüfen. Das Auswärtige Amt nennt für Reisende eine Auffrischung, wenn die letzte Dosis mehr als zehn Jahre zurückliegt.",
+          "Bei Reisen in den Meningitisgürtel Reisesaison, Aufenthaltsdauer und engen Kontakt zur Bevölkerung bei der ACWY-Indikation berücksichtigen."
+        ]
+      }
+    },
+    "GM": {
+      "name": "Gambia",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A",
+          "Gelbfieber"
+        ],
+        "riskBased": [
+          "Hepatitis B",
+          "Tollwut",
+          "Typhus",
+          "Dengue",
+          "Chikungunya",
+          "Meningokokken ACWY"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Bei Einreise aus einem Gelbfiebergebiet ist der Nachweis ab neun Monaten erforderlich. Die STIKO-DTG nennt ihn auch nach mehr als zwölf Stunden Flughafentransit in einem Gelbfiebergebiet."
+        ],
+        "routeDependent": [
+          "Bei Einreise über Senegal auch die Landetappe und die Voraufenthalte erfassen.",
+          "Vollständigen Polio-Impfschutz sicherstellen. Reisesaison und Exposition bei der ACWY-Indikation berücksichtigen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "present",
+        "preventionType": "chemoprophylaxis_consider",
+        "regions": [
+          "Ganzjährig im ganzen Land, einschließlich Banjul."
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Das Malariarisiko ist landesweit ganzjährig hoch, auch in Städten. Konsequenter Mückenschutz und ärztlich ausgewählte medikamentöse Prophylaxe sind angezeigt.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/gambia-node/gambiasicherheit-213624",
+            "use": "external_link_only"
+          },
+          {
+            "label": "DTG-Länderinformationen",
+            "url": "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Banjul",
+            "address": "1 Paradise Beach Place / Bertil Harding Highway, Kololi",
+            "phone": "+220 446 30 34",
+            "emergency": "+221 77 638 64 41",
+            "scope": "Nothilfe für Deutsche vor Ort. Für sonstige konsularische Angelegenheiten ist die Deutsche Botschaft Dakar zuständig.",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/gambia-node/gambia-213612"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/gambia-node/gambiasicherheit-213624",
+        "evidenceLinks": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/service/laender/gambia-node/gambiasicherheit-213624",
+          "https://www.auswaertiges-amt.de/de/service/laender/gambia-node/gambia-213612",
+          "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/gambia-node/gambiasicherheit-213624",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/gambia-node/gambia-213612",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die Gelbfieberimpfung zum Eigenschutz und der Impfnachweis für die konkrete Einreiseroute sind getrennt zu beurteilen.",
+          "Die STIKO-DTG empfiehlt Gelbfieber wegen des landesweiten Infektionsrisikos auch bei direkter Anreise."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "yellow_fever",
+          "malaria"
+        ],
+        "regionIds": [],
+        "reason": "Das ganzjährig hohe Malariarisiko gilt landesweit. Die Anreiseroute ist für die Einreiseauflagen separat zu prüfen.",
+        "sourceUrls": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/service/laender/gambia-node/gambiasicherheit-213624",
+          "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html"
+        ],
+        "otherRegionalFactors": [
+          "Bei Einreise über Senegal auch die Landetappe und die Voraufenthalte erfassen.",
+          "Vollständigen Polio-Impfschutz sicherstellen. Reisesaison und Exposition bei der ACWY-Indikation berücksichtigen."
+        ]
+      }
+    },
+    "GN": {
+      "name": "Guinea",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A",
+          "Gelbfieber"
+        ],
+        "riskBased": [
+          "Hepatitis B",
+          "Tollwut",
+          "Typhus",
+          "Dengue",
+          "Chikungunya",
+          "Meningokokken ACWY"
+        ],
+        "entryRequirements": [
+          "Bei Einreise aus einem Gelbfiebergebiet wird ab neun Monaten ein Nachweis verlangt.",
+          "Für Ankünfte am internationalen Flughafen Conakry nennen die CDC den Nachweis ab neun Monaten für alle Herkunftsländer. Das Auswärtige Amt berichtet, dass der Nachweis in der Praxis häufig von allen Einreisenden verlangt wird."
+        ],
+        "routeDependent": [
+          "Für Flüge nach Conakry den Nachweis auch bei direkter Reise aus Deutschland einplanen und bei Ausnahmen oder Kontraindikationen vorab die zuständige Behörde kontaktieren.",
+          "Polio-Impfstatus prüfen und fehlende Impfungen ergänzen. Reisesaison und Exposition bei der ACWY-Indikation berücksichtigen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "present",
+        "preventionType": "chemoprophylaxis_consider",
+        "regions": [
+          "Ganzjährig im ganzen Land, einschließlich Conakry."
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Das Malariarisiko ist landesweit ganzjährig hoch, auch in Städten. Konsequenter Mückenschutz und ärztlich ausgewählte medikamentöse Prophylaxe sind angezeigt.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/guinea-node/guineasicherheit-206098",
+            "use": "external_link_only"
+          },
+          {
+            "label": "DTG-Länderinformationen",
+            "url": "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Conakry",
+            "address": "2e Boulevard, Rue KA 005, No. 803, Almamya, Conakry",
+            "phone": "+224 621 22 17 06",
+            "emergency": "+224 628 06 89 40",
+            "scope": "Konsularisch zuständig für Guinea.",
+            "url": "https://conakry.diplo.de/gn-de"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/guinea-node/guineasicherheit-206098",
+        "evidenceLinks": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/service/laender/guinea-node/guineasicherheit-206098",
+          "https://conakry.diplo.de/gn-de",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Guinea",
+          "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html",
+          "https://www.who.int/news/item/13-11-2026-statement-of-the-forty-sixth-meeting-of-the-polio-ihr-emergency-committee"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/guinea-node/guineasicherheit-206098",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://conakry.diplo.de/gn-de",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Guinea",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/news/item/13-11-2026-statement-of-the-forty-sixth-meeting-of-the-polio-ihr-emergency-committee",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO-DTG-Tabelle führt für die direkte Anreise aus Deutschland keinen allgemeinen Gelbfieber-Nachweis auf. Die CDC-Angabe ist ausdrücklich auf den Flughafen Conakry bezogen.",
+          "Die WHO führt Guinea im November 2026 bei den Ländern mit früherem Poliovirus-Nachweis ohne aktuelle Einstufung als infiziert."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "yellow_fever",
+          "malaria"
+        ],
+        "regionIds": [],
+        "reason": "Das ganzjährig hohe Malariarisiko gilt landesweit. Die Anreiseroute ist für die Einreiseauflagen separat zu prüfen.",
+        "sourceUrls": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/service/laender/guinea-node/guineasicherheit-206098",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Guinea",
+          "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html",
+          "https://www.who.int/news/item/13-11-2026-statement-of-the-forty-sixth-meeting-of-the-polio-ihr-emergency-committee"
+        ],
+        "otherRegionalFactors": [
+          "Für Flüge nach Conakry den Nachweis auch bei direkter Reise aus Deutschland einplanen und bei Ausnahmen oder Kontraindikationen vorab die zuständige Behörde kontaktieren.",
+          "Polio-Impfstatus prüfen und fehlende Impfungen ergänzen. Reisesaison und Exposition bei der ACWY-Indikation berücksichtigen."
+        ]
+      }
+    },
+    "SL": {
+      "name": "Sierra Leone",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A",
+          "Gelbfieber"
+        ],
+        "riskBased": [
+          "Hepatitis B",
+          "Tollwut",
+          "Typhus",
+          "Dengue",
+          "Chikungunya"
+        ],
+        "entryRequirements": [
+          "Ein Gelbfieber-Impfnachweis wird bei Einreise aus jedem Land einschließlich Deutschland verlangt. Die veröffentlichten Einreisehinweise nennen keine Altersgrenze."
+        ],
+        "routeDependent": [
+          "Bei Säuglingen und bei Impfkontraindikationen frühzeitig ärztlich beraten und die Einreisebedingungen mit der zuständigen Behörde klären.",
+          "Polio-Impfstatus prüfen und fehlende Impfungen ergänzen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "present",
+        "preventionType": "chemoprophylaxis_consider",
+        "regions": [
+          "Ganzjährig im ganzen Land, einschließlich Freetown."
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Das Malariarisiko ist landesweit ganzjährig hoch, auch in Städten. Konsequenter Mückenschutz und ärztlich ausgewählte medikamentöse Prophylaxe sind angezeigt.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/sierraleone-node/sierraleonesicherheit-203500",
+            "use": "external_link_only"
+          },
+          {
+            "label": "DTG-Länderinformationen",
+            "url": "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Freetown",
+            "address": "3 Middle Hill Station, Freetown",
+            "phone": "+232 73 33 33 88",
+            "emergency": "+233 24 432 4889",
+            "scope": "Nothilfe in Sierra Leone. Außerhalb der Dienstzeiten Bereitschaftsdienst Accra bis Mitternacht.",
+            "url": "https://freetown.diplo.de/sl-de/1507616-1507616"
+          },
+          {
+            "title": "Deutsche Botschaft Accra",
+            "address": "4 Sam Nujoma Close, North Ridge, Accra, Ghana",
+            "phone": "+233 30 221 1000",
+            "emergency": null,
+            "scope": "Für reguläre Rechts- und Konsularangelegenheiten für Sierra Leone zuständig.",
+            "url": "https://accra.diplo.de/gh-de"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/sierraleone-node/sierraleonesicherheit-203500",
+        "evidenceLinks": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/service/laender/sierraleone-node/sierraleonesicherheit-203500",
+          "https://freetown.diplo.de/sl-de/1507616-1507616",
+          "https://accra.diplo.de/gh-de",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/extended_student/sierra-leone",
+          "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/sierraleone-node/sierraleonesicherheit-203500",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://freetown.diplo.de/sl-de/1507616-1507616",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://accra.diplo.de/gh-de",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/extended_student/sierra-leone",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die Altersangaben zur medizinischen Impfempfehlung und zur Einreise sind unterschiedlich. Die CDC empfehlen die Impfung medizinisch ab neun Monaten und nennen für den Nachweis keine Altersgrenze.",
+          "Das Auswärtige Amt nennt Meningokokken ACWY bei individueller Indikation. Die STIKO-DTG-Ländertabelle führt ACWY für Sierra Leone nicht als reguläre Reiseindikation auf."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "yellow_fever",
+          "malaria"
+        ],
+        "regionIds": [],
+        "reason": "Das ganzjährig hohe Malariarisiko gilt landesweit. Die Anreiseroute ist für die Einreiseauflagen separat zu prüfen.",
+        "sourceUrls": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/service/laender/sierraleone-node/sierraleonesicherheit-203500",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/extended_student/sierra-leone",
+          "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html"
+        ],
+        "otherRegionalFactors": [
+          "Bei Säuglingen und bei Impfkontraindikationen frühzeitig ärztlich beraten und die Einreisebedingungen mit der zuständigen Behörde klären.",
+          "Polio-Impfstatus prüfen und fehlende Impfungen ergänzen."
         ]
       }
     }
