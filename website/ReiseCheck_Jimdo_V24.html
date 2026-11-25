@@ -1188,7 +1188,10 @@ function renderInternational(e){
       create('p',consultation,'',onlineConsultation.querySelector('p').textContent);
       const booking=onlineConsultation.querySelector('a');
       const bookingUrl=new URL(booking.href);
-      link(consultation,bookingUrl.href,booking.textContent+' · '+bookingUrl.hostname.replace(/^www\./,'')+bookingUrl.pathname);
+      const printBooking=d.importNode(booking,true);
+      printBooking.removeAttribute('style');
+      printBooking.textContent=booking.textContent+' · '+bookingUrl.hostname.replace(/^www\./,'')+bookingUrl.pathname;
+      consultation.appendChild(printBooking);
       const metaBox=create('div',shell,'meta');
       para(metaBox,'Reiseziele:',selected.map(x=>x.n).join(' · '));
       const abreise=parseTripDate($('rm-when').value);
