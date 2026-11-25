@@ -11,8 +11,8 @@ class NextCountryPackageTests(unittest.TestCase):
     def setUp(self):
         self.data=json.loads((HERE/"country_profiles_draft_v16.json").read_text(encoding="utf-8"))
     def test_four_physician_approved_countries_are_published(self):
-        public=build_public(self.data,date(2026,11,22))
-        self.assertEqual(public["approvedCount"],122)
+        public=build_public(self.data,date(2026,11,25))
+        self.assertEqual(public["approvedCount"],126)
         for code in CODES:
             p=self.data["countries"][code]
             self.assertTrue(p["publicationAllowed"])
@@ -26,7 +26,7 @@ class NextCountryPackageTests(unittest.TestCase):
             data=copy.deepcopy(self.data)
             data["countries"][code]["publicationAllowed"]=False
             data["countries"][code]["medicalReview"]["status"]="pending"
-            public=build_public(data,date(2026,11,22))
+            public=build_public(data,date(2026,11,25))
             self.assertNotIn(code,public["countries"])
             self.assertEqual(public["coverage"][code]["status"],"medical_review_required")
     def test_draft_completeness_and_simulated_release(self):
@@ -45,8 +45,8 @@ class NextCountryPackageTests(unittest.TestCase):
                 "reviewedAt":"2026-11-15","nextReviewDate":"2027-01-15","approvedSources":sources}
             for key in ("vaccineAssessment","malariaAssessment","missions"):p[key]["status"]="approved"
             p["publicationAllowed"]=True
-        public=build_public(simulated,date(2026,11,22))
-        self.assertEqual(public["approvedCount"],122)
+        public=build_public(simulated,date(2026,11,25))
+        self.assertEqual(public["approvedCount"],126)
         self.assertTrue(CODES.issubset(public["countries"]))
         self.assertNotIn("TEST ONLY",json.dumps(public))
     def test_source_disagreements_and_route_constraints_preserved(self):

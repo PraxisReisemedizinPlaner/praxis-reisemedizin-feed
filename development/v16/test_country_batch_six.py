@@ -16,9 +16,9 @@ class SixthCountryBatchTests(unittest.TestCase):
         self.g=read("region_profiles_draft_v1.json")
         self.s=read("region_source_packages_v2.json")
     def test_approved_batch_and_review_preview(self):
-        out=build_public(self.c,date(2026,11,22))
-        self.assertEqual(out["coverageCount"],126)
-        self.assertEqual(out["approvedCount"],122)
+        out=build_public(self.c,date(2026,11,25))
+        self.assertEqual(out["coverageCount"],130)
+        self.assertEqual(out["approvedCount"],126)
         for code in CODES:
             self.assertIn(code,out["countries"])
             self.assertEqual(self.c["countries"][code]["medicalReview"]["reviewedAt"],"2026-11-18")
@@ -35,12 +35,12 @@ class SixthCountryBatchTests(unittest.TestCase):
         self.assertIn("2.000 m", preview)
         self.assertEqual(preview.count("class='badge'>Freigegeben"), len(review_codes))
         next_preview = render(self.c)
-        for code in ("MP", "AS", "PF", "NC"):
+        for code in ("WF", "GP", "MQ", "RE"):
             self.assertIn("<article id='" + code + "'>", next_preview)
             self.assertNotIn(code, out["countries"])
         self.assertIn("mehr als 12 Stunden Flughafentransit", next_preview)
-        self.assertIn("US-Grenzbehörde", next_preview)
-        self.assertTrue({"MH", "FM", "PW", "GU"}.issubset(out["countries"]))
+        self.assertIn("Typhus bei reiseassoziiertem Risiko", next_preview)
+        self.assertTrue({"MP", "AS", "PF", "NC"}.issubset(out["countries"]))
         bhutan_south = next(row for row in self.s["regions"] if row["id"] == "BT-SOUTH")
         self.assertEqual(bhutan_south["status"], "source_conflict")
         self.assertNotIn("preventionType", bhutan_south)
@@ -64,7 +64,7 @@ class SixthCountryBatchTests(unittest.TestCase):
                 self.assertNotIn("malaria",r)
                 self.assertNotIn("sourceNotice",r)
     def test_routes_and_evidence_are_complete(self):
-        self.assertEqual(validate_all(self.c,self.g,self.s),126)
+        self.assertEqual(validate_all(self.c,self.g,self.s),130)
         self.assertEqual(sum(r["country"] in CODES for r in self.g["regions"]),12)
         for code in ("NA","BW"):
             self.assertTrue(self.c["countries"][code]["routeAssessment"]["regionalSelectionRequired"])
@@ -80,7 +80,7 @@ class SixthCountryBatchTests(unittest.TestCase):
         for code in CODES:self.assertIn(self.c["countries"][code]["name"],html)
         self.assertIn("2026-11-18",html)
     def test_release_keeps_seasonal_conflicts_unclassified(self):
-        self.assertEqual(build_public(self.c,date(2026,11,22))["approvedCount"],122)
+        self.assertEqual(build_public(self.c,date(2026,11,25))["approvedCount"],126)
         rows={r["id"]:r for r in build_public_regions(self.g,self.c,self.s,date(2026,11,21))["regions"]}
         for rid in ("NA-ETOSHA","NA-KUNENE","BW-OKAVANGO","BW-GABORONE"):
             self.assertEqual(rows[rid]["clinicalStatus"],"source_conflict")

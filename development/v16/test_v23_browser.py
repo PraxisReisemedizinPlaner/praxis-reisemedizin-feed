@@ -13,9 +13,9 @@ ROOT=HERE.parents[1]
 REGION=json.loads((HERE/"region_profiles_draft_v1.json").read_text(encoding="utf-8"))
 COUNTRIES=json.loads((HERE/"country_profiles_draft_v16.json").read_text(encoding="utf-8"))
 regions=build_public_regions(REGION,COUNTRIES,date(2026,11,21))
-countries=build_countries(COUNTRIES,date(2026,11,22))
+countries=build_countries(COUNTRIES,date(2026,11,25))
 assert regions["regionalApprovedCount"] == 25
-assert countries["approvedCount"] == 122
+assert countries["approvedCount"] == 126
 
 def intercept(route):
     url=route.request.url

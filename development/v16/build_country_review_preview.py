@@ -5,8 +5,8 @@ import html
 import json
 from pathlib import Path
 HERE=Path(__file__).resolve().parent
-CODES=("MP","AS","PF","NC")
-OTHER_REVIEW_PACKAGES=(("BS","BB","DM","GD"),("AG","LC","KN","VC"),("AD","MC","SM","LI"),("FJ","WS","TO","TV"),("CK","NU","NR","KI"),("MH","FM","PW","GU"))
+CODES=("WF","GP","MQ","RE")
+OTHER_REVIEW_PACKAGES=(("BS","BB","DM","GD"),("AG","LC","KN","VC"),("AD","MC","SM","LI"),("FJ","WS","TO","TV"),("CK","NU","NR","KI"),("MH","FM","PW","GU"),("MP","AS","PF","NC"))
 def esc(s): return html.escape(str(s),quote=True)
 def bullets(items): return "<ul>"+"".join("<li>"+esc(v)+"</li>" for v in items)+"</ul>"
 def render(data,codes=CODES):
