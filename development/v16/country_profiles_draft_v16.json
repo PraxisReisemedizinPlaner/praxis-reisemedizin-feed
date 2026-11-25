@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 130,
+  "countryCount": 134,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -23412,11 +23412,42 @@
     "WF": {
       "name": "Wallis und Futuna",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.wallis-et-futuna.gouv.fr/Demarches/Entree-et-sejour-des-etrangers",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -23424,7 +23455,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -23441,7 +23472,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -23466,7 +23497,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Paris",
@@ -23481,7 +23512,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-25",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-25",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
         "evidenceLinks": [
@@ -23527,7 +23558,7 @@
           "Die RKI- und WHO-Ländertabellen nennen den Gelbfiebernachweis bei Anreise aus einem Risikogebiet sowie bei entsprechendem Flughafentransit. Die örtliche Verwaltung veröffentlicht die allgemeinen Einreisebestimmungen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -23536,7 +23567,7 @@
           "checkedAt": "2026-11-25"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-25",
         "regionalSelectionRequired": false,
@@ -23557,11 +23588,42 @@
     "GP": {
       "name": "Guadeloupe",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/guadeloupe/",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -23569,7 +23631,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -23591,7 +23653,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -23616,7 +23678,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Paris",
@@ -23639,7 +23701,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-25",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-25",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
         "evidenceLinks": [
@@ -23685,7 +23747,7 @@
           "Die STIKO-Ländertabelle nennt Typhus bei reiseassoziiertem Risiko zusätzlich zu den vom Auswärtigen Amt aufgeführten Reiseimpfungen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -23694,7 +23756,7 @@
           "checkedAt": "2026-11-25"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-25",
         "regionalSelectionRequired": false,
@@ -23719,6 +23781,563 @@
     },
     "MQ": {
       "name": "Martinique",
+      "medicalReview": {
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Martinique",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "approved",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Ab 1 Jahr ist bei Einreise aus einem Gelbfieber-Risikogebiet oder nach mehr als 12 Stunden Flughafentransit in einem solchen Gebiet ein Gelbfieber-Impfnachweis erforderlich."
+        ],
+        "routeDependent": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen.",
+          "Den Gelbfieber-Impfnachweis anhand aller Voraufenthalte und Zwischenstopps prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "approved",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Martinique",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "approved",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Paris",
+            "address": "13/15 Avenue Franklin Delano Roosevelt, 75008 Paris, Frankreich",
+            "phone": "+33 1 53 83 45 00",
+            "emergency": null,
+            "scope": "Konsularisch zuständige Botschaft. Bereitschaftsdienst siehe Originalquelle.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528"
+          },
+          {
+            "title": "Deutsches Honorarkonsulat Fort-de-France",
+            "address": "Rue des Myrtacées, Fond Bernier, 97233 Schœlcher, Martinique",
+            "phone": "+596 696 43 16 79",
+            "emergency": null,
+            "scope": "Örtliche konsularische Anlaufstelle auf Martinique.",
+            "url": "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": "2026-11-25",
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Martinique",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528",
+          "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Martinique",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO-Ländertabelle nennt Typhus bei reiseassoziiertem Risiko zusätzlich zu den vom Auswärtigen Amt aufgeführten Reiseimpfungen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Länderpaket ärztlich freigegeben.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": true,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "dengue",
+          "chikungunya"
+        ],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Martinique"
+        ],
+        "otherRegionalFactors": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen.",
+          "Den Gelbfieber-Impfnachweis anhand aller Voraufenthalte und Zwischenstopps prüfen."
+        ]
+      }
+    },
+    "RE": {
+      "name": "La Réunion",
+      "medicalReview": {
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/reunion",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "approved",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Für La Réunion sind keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "approved",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/reunion",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "approved",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Paris",
+            "address": "13/15 Avenue Franklin Delano Roosevelt, 75008 Paris, Frankreich",
+            "phone": "+33 1 53 83 45 00",
+            "emergency": null,
+            "scope": "Konsularisch zuständige Botschaft. Bereitschaftsdienst siehe Originalquelle.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528"
+          },
+          {
+            "title": "Deutsches Honorarkonsulat Saint-Denis",
+            "address": "64 Avenue Eudoxie Nonge, 97490 Sainte-Clotilde, La Réunion",
+            "phone": "+262 692 73 68 98",
+            "emergency": null,
+            "scope": "Örtliche konsularische Anlaufstelle auf La Réunion.",
+            "url": "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": "2026-11-25",
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/reunion",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528",
+          "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/reunion",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "RKI, Auswärtiges Amt und CDC führen für La Réunion keinen Gelbfieber-Impfnachweis auf. Bei einer Weiterreise gelten die Regeln des jeweiligen Ziels. Typhus bei reiseassoziiertem Risiko gemäß STIKO prüfen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Länderpaket ärztlich freigegeben.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": true,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "dengue",
+          "chikungunya"
+        ],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/reunion"
+        ],
+        "otherRegionalFactors": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen."
+        ]
+      }
+    },
+    "MF": {
+      "name": "Saint-Martin (französischer Teil)",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Chikungunya",
+          "Dengue",
+          "Hepatitis B",
+          "Typhus"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Ab 1 Jahr ist bei Einreise aus einem Gelbfieber-Risikogebiet oder nach mehr als 12 Stunden Flughafentransit in einem solchen Gebiet ein Gelbfieber-Impfnachweis erforderlich."
+        ],
+        "routeDependent": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen.",
+          "Den Gelbfieber-Impfnachweis anhand aller Voraufenthalte und Zwischenstopps prüfen.",
+          "Bei Anreise über den Flughafen Princess Juliana (SXM) die Regeln für Sint Maarten separat prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-martin",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Paris",
+            "address": "13/15 Avenue Franklin Delano Roosevelt, 75008 Paris, Frankreich",
+            "phone": "+33 1 53 83 45 00",
+            "emergency": null,
+            "scope": "Konsularisch zuständige Botschaft. Bereitschaftsdienst siehe Originalquelle.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528"
+          },
+          {
+            "title": "Deutsches Honorarkonsulat Fort-de-France",
+            "address": "Rue des Myrtacées, Fond Bernier, 97233 Schœlcher, Martinique",
+            "phone": "+596 696 43 16 79",
+            "emergency": null,
+            "scope": "Zuständiges deutsches Honorarkonsulat auf Martinique. Vor einem Besuch Kontakt aufnehmen.",
+            "url": "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-martin",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528",
+          "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln",
+          "https://www.who.int/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-martin",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Bei Anreise über den Flughafen Princess Juliana (SXM) gelten die Einreise- und Transitregeln des niederländischen Inselteils Sint Maarten. Die STIKO-Ländertabelle nennt Typhus bei reiseassoziiertem Risiko."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "dengue",
+          "chikungunya"
+        ],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-martin"
+        ],
+        "otherRegionalFactors": [
+          "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
+          "Chikungunya-Impfung anhand der aktuellen STIKO-Indikation, der persönlichen Exposition und der Impfstoff-Fachinformation beurteilen.",
+          "Mückenschutz auch tagsüber einplanen. Zwischenstopps und weitere Inselziele einzeln beurteilen.",
+          "Den Gelbfieber-Impfnachweis anhand aller Voraufenthalte und Zwischenstopps prüfen.",
+          "Bei Anreise über den Flughafen Princess Juliana (SXM) die Regeln für Sint Maarten separat prüfen."
+        ]
+      }
+    },
+    "BL": {
+      "name": "Saint-Barthélemy",
       "medicalReview": {
         "status": "pending",
         "reviewer": null,
@@ -23773,7 +24392,7 @@
           },
           {
             "label": "CDC",
-            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Martinique",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-barthelemy",
             "use": "external_link_only"
           }
         ]
@@ -23794,7 +24413,7 @@
             "address": "Rue des Myrtacées, Fond Bernier, 97233 Schœlcher, Martinique",
             "phone": "+596 696 43 16 79",
             "emergency": null,
-            "scope": "Örtliche konsularische Anlaufstelle auf Martinique.",
+            "scope": "Zuständiges deutsches Honorarkonsulat auf Martinique. Vor einem Besuch Kontakt aufnehmen.",
             "url": "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln"
           }
         ]
@@ -23808,9 +24427,10 @@
         "evidenceLinks": [
           "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
           "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
-          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Martinique",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-barthelemy",
           "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528",
-          "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln"
+          "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln",
+          "https://www.who.int/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf"
         ],
         "proposedSources": [
           {
@@ -23826,7 +24446,7 @@
             "use": "external_link_only"
           },
           {
-            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Martinique",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-barthelemy",
             "checkedAt": "2026-11-25",
             "reuseRightsChecked": true,
             "use": "external_link_only"
@@ -23842,10 +24462,16 @@
             "checkedAt": "2026-11-25",
             "reuseRightsChecked": true,
             "use": "external_link_only"
+          },
+          {
+            "url": "https://www.who.int/docs/default-source/travel-and-health/countries-with-risk-of-yellow-fever-transmission.pdf",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
           }
         ],
         "researchNotes": [
-          "Die STIKO-Ländertabelle nennt Typhus bei reiseassoziiertem Risiko zusätzlich zu den vom Auswärtigen Amt aufgeführten Reiseimpfungen."
+          "Die STIKO-Ländertabelle nennt Typhus bei reiseassoziiertem Risiko. Einreise- und Impfnachweise für Umsteigeorte oder weitere Inselstopps separat prüfen."
         ],
         "proposedNextReviewDate": "2027-01-15",
         "warning": "Ärztliche Länderfreigabe steht aus.",
@@ -23870,7 +24496,7 @@
         "sourceUrls": [
           "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
           "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
-          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Martinique"
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-barthelemy"
         ],
         "otherRegionalFactors": [
           "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
@@ -23880,8 +24506,141 @@
         ]
       }
     },
-    "RE": {
-      "name": "La Réunion",
+    "PM": {
+      "name": "Saint-Pierre und Miquelon",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [],
+        "riskBased": [
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Für dieses Reiseziel sind laut RKI-Ländertabelle keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Standardimpfschutz prüfen. Zwischenstopps und weitere Reiseziele gesondert beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-pierre-and-miquelon",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Paris",
+            "address": "13/15 Avenue Franklin Delano Roosevelt, 75008 Paris, Frankreich",
+            "phone": "+33 1 53 83 45 00",
+            "emergency": null,
+            "scope": "Konsularisch zuständige Botschaft. Bereitschaftsdienst siehe Originalquelle.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+        "evidenceLinks": [
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-pierre-and-miquelon",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-pierre-and-miquelon",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO-Ländertabelle nennt neben den Standard- und Indikationsimpfungen Hepatitis B bei reiseassoziiertem Risiko. Bei Anreise über Kanada die Anforderungen für den Umstieg gesondert prüfen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-pierre-and-miquelon"
+        ],
+        "otherRegionalFactors": [
+          "Standardimpfschutz prüfen. Zwischenstopps und weitere Reiseziele gesondert beurteilen."
+        ]
+      }
+    },
+    "BM": {
+      "name": "Bermuda",
       "medicalReview": {
         "status": "pending",
         "reviewer": null,
@@ -23906,7 +24665,7 @@
           "Typhus"
         ],
         "entryRequirements": [
-          "Für La Réunion sind keine Pflichtimpfungen vorgesehen."
+          "Für dieses Reiseziel sind laut RKI-Ländertabelle keine Pflichtimpfungen vorgesehen."
         ],
         "routeDependent": [
           "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
@@ -23929,12 +24688,12 @@
           },
           {
             "label": "Auswärtiges Amt",
-            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
             "use": "external_link_only"
           },
           {
             "label": "CDC",
-            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/reunion",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/bermuda",
             "use": "external_link_only"
           }
         ]
@@ -23943,20 +24702,12 @@
         "status": "prepared_for_review",
         "verifiedEntries": [
           {
-            "title": "Deutsche Botschaft Paris",
-            "address": "13/15 Avenue Franklin Delano Roosevelt, 75008 Paris, Frankreich",
-            "phone": "+33 1 53 83 45 00",
+            "title": "Deutsches Generalkonsulat New York",
+            "address": "871 United Nations Plaza, New York, NY 10017, USA",
+            "phone": "+1 212 610 9700",
             "emergency": null,
-            "scope": "Konsularisch zuständige Botschaft. Bereitschaftsdienst siehe Originalquelle.",
-            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528"
-          },
-          {
-            "title": "Deutsches Honorarkonsulat Saint-Denis",
-            "address": "64 Avenue Eudoxie Nonge, 97490 Sainte-Clotilde, La Réunion",
-            "phone": "+262 692 73 68 98",
-            "emergency": null,
-            "scope": "Örtliche konsularische Anlaufstelle auf La Réunion.",
-            "url": "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln"
+            "scope": "Konsularisch zuständig für Bermuda. Aktuelle Erreichbarkeit und Bereitschaftsdienst siehe Originalquelle.",
+            "url": "https://www.germany.info/us-de/botschaft-konsulate/new-york"
           }
         ]
       },
@@ -23965,17 +24716,17 @@
         "researchCheckedAt": "2026-11-25",
         "reviewedAt": null,
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
-        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
         "evidenceLinks": [
-          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
           "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
-          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/reunion",
-          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528",
-          "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln"
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/bermuda",
+          "https://www.germany.info/us-de/botschaft-konsulate/new-york",
+          "https://www.germany.info/us-de/service/hk-abc-newy/1216342?openAccordionId=item-206438-1-panel"
         ],
         "proposedSources": [
           {
-            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
             "checkedAt": "2026-11-25",
             "reuseRightsChecked": true,
             "use": "external_link_only"
@@ -23987,26 +24738,26 @@
             "use": "external_link_only"
           },
           {
-            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/reunion",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/bermuda",
             "checkedAt": "2026-11-25",
             "reuseRightsChecked": true,
             "use": "external_link_only"
           },
           {
-            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/frankreich-209528",
+            "url": "https://www.germany.info/us-de/botschaft-konsulate/new-york",
             "checkedAt": "2026-11-25",
             "reuseRightsChecked": true,
             "use": "external_link_only"
           },
           {
-            "url": "https://allemagneenfrance.diplo.de/fr-fr/missions-allemandes/honorarkonsuln",
+            "url": "https://www.germany.info/us-de/service/hk-abc-newy/1216342?openAccordionId=item-206438-1-panel",
             "checkedAt": "2026-11-25",
             "reuseRightsChecked": true,
             "use": "external_link_only"
           }
         ],
         "researchNotes": [
-          "RKI, Auswärtiges Amt und CDC führen für La Réunion keinen Gelbfieber-Impfnachweis auf. Bei einer Weiterreise gelten die Regeln des jeweiligen Ziels. Typhus bei reiseassoziiertem Risiko gemäß STIKO prüfen."
+          "Für Bermuda führt die STIKO-Ländertabelle Hepatitis A als Basis-Reiseimpfung. Die konsularische Zuständigkeit liegt trotz britischer Gebietszugehörigkeit beim deutschen Generalkonsulat New York."
         ],
         "proposedNextReviewDate": "2027-01-15",
         "warning": "Ärztliche Länderfreigabe steht aus.",
@@ -24029,9 +24780,9 @@
         "regionIds": [],
         "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
         "sourceUrls": [
-          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/frankreichsicherheit/209524",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
           "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
-          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/reunion"
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/bermuda"
         ],
         "otherRegionalFactors": [
           "Bei entsprechender Exposition eine Dengue-Impfung ab vier Jahren prüfen, wenn eine frühere Dengue-Infektion labordiagnostisch gesichert ist.",
