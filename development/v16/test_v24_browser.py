@@ -60,7 +60,8 @@ def smoke(browser,device,stripped=False):
     assert consultation.is_visible()
     assert "staatlich zugelassene Gelbfieberimpfstelle" in consultation.inner_text()
     assert "Selbstzahlerleistung" in consultation.inner_text()
-    assert consultation.get_by_role("link", name="Beratungstermin anfragen").get_attribute("href") == booking_url
+    assert "Online-Rezeption unten rechts" in consultation.inner_text()
+    assert consultation.get_by_role("link").count() == 0
     selected_country(page,"Thailand")
     footer = page.locator("#rm-all-sources")
     assert footer.get_attribute("open") is None
@@ -190,7 +191,7 @@ def smoke(browser,device,stripped=False):
         popup.emulate_media(media="print")
         print_consultation = popup.locator("main > header + aside.consultation")
         print_consultation.wait_for()
-        assert print_consultation.locator("p").inner_text() == consultation.locator("p").inner_text()
+        assert print_consultation.locator("p").inner_text() == consultation.locator("p").first.inner_text()
         print_link = print_consultation.get_by_role("link", name=re.compile("Beratungstermin anfragen"))
         assert print_link.get_attribute("href") == booking_url
         assert "praxis-dr-muenster.de/kontakt/" in print_link.inner_text()

@@ -220,7 +220,7 @@
 <aside id="rm-consultation" aria-labelledby="rm-consultation-title" style="margin-top:12px;padding:10px 12px;background:#fff;border:1px solid #c9dce5;border-left:4px solid #527f92;border-radius:9px;color:#234556;font-size:14px;line-height:1.5">
   <strong id="rm-consultation-title" style="display:block;font-size:15px">Reisemedizinische Beratung vor deiner Reise</strong>
   <p style="margin:3px 0 5px">Plane frühzeitig eine individuelle Beratung in der Praxis Dr. Münster in Troisdorf ein. Wir sind eine staatlich zugelassene Gelbfieberimpfstelle. Die Beratung ist eine Selbstzahlerleistung.</p>
-  <a class="rm-link" style="color:#245c74;font-weight:700;text-decoration:underline;text-underline-offset:2px" href="https://www.praxis-dr-muenster.de/kontakt/" target="_blank" rel="noopener noreferrer">Beratungstermin anfragen</a>
+  <p style="margin:0">Den Termin kannst du über die Online-Rezeption unten rechts vereinbaren.</p>
 </aside>
 </div>
 <div aria-label="Reiseziele wählen" class="rm-card rm-section" style="border:1px solid #d8e4e9;border-radius:16px;background:#fff;box-shadow:0 4px 16px rgba(28,69,87,.05);margin:12px 0;overflow:hidden;padding:18px">
@@ -1186,12 +1186,10 @@ function renderInternational(e){
       consultationTitle.id='consultation-title';
       consultation.setAttribute('aria-labelledby',consultationTitle.id);
       create('p',consultation,'',onlineConsultation.querySelector('p').textContent);
-      const booking=onlineConsultation.querySelector('a');
-      const bookingUrl=new URL(booking.href);
-      const printBooking=d.importNode(booking,true);
-      printBooking.removeAttribute('style');
-      printBooking.textContent=booking.textContent+' · '+bookingUrl.hostname.replace(/^www\./,'')+bookingUrl.pathname;
-      consultation.appendChild(printBooking);
+      const printBooking=create('a',consultation,'','Beratungstermin anfragen · praxis-dr-muenster.de/kontakt/');
+      printBooking.href='https://www.praxis-dr-muenster.de/kontakt/';
+      printBooking.target='_blank';
+      printBooking.rel='noopener noreferrer';
       const metaBox=create('div',shell,'meta');
       para(metaBox,'Reiseziele:',selected.map(x=>x.n).join(' · '));
       const abreise=parseTripDate($('rm-when').value);
