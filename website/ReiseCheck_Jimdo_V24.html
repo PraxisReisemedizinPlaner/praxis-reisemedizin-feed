@@ -231,7 +231,7 @@
 <div class="rm-suggest" id="rm-suggest" role="listbox"></div>
 </div>
 <div class="rm-hint" style="font-size:12px;line-height:1.45;color:#566c75;margin:6px 0">Mehrere Reiseziele möglich. Städte und Inseln helfen bei der Suche nach einem Land. Regionen und Zwischenstopps trägst du bei Bedarf selbst ein.</div>
-<p class="rm-hint" style="margin:6px 0">Bei Kreuzfahrten: Gib den Starthafen und alle Anlaufhäfen in zeitlicher Reihenfolge ein. Wähle jeweils das Land oder die Insel des Hafens. Mit ↑ und ↓ kannst du die Reihenfolge korrigieren.</p>
+<p class="rm-hint" style="margin:6px 0">Bei Reisen in mehrere Länder: Gib deine Ziele in der Reihenfolge ein, in der du sie besuchst. Bei Kreuzfahrten wähle das Land oder die Insel des Start- und jedes Anlaufhafens. Mit ↑ und ↓ kannst du die Reihenfolge korrigieren.</p>
 <div aria-live="polite" class="rm-chips" id="rm-chips" style="display:flex;gap:7px;flex-wrap:wrap;margin-top:10px"></div>
 </div>
 <div class="rm-card rm-section rm-hidden" data-rm-fallback-hidden="yes" hidden="" id="rm-step2" style="border:1px solid #d8e4e9;border-radius:16px;background:#fff;box-shadow:0 4px 16px rgba(28,69,87,.05);margin:12px 0;overflow:hidden;padding:18px">
@@ -1047,7 +1047,7 @@ function renderInternational(e){
        if(p&&p.reviewStatus==='editorial_draft')b.push('<p class="rm-hint"><strong>Wichtig:</strong> Quellenabgleich, keine ärztlich freigegebene persönliche Empfehlung. Impfpass, Einreisestrecke und individuelle Risiken ärztlich prüfen.</p>');
        if(!usable)b.push('<div class="rm-note rm-warning">'+(stale?'Die ärztliche Länderfreigabe ist abgelaufen. Bitte aktuelle offizielle Reisehinweise und eine reisemedizinische Beratung nutzen.':'Für dieses Ziel liegt noch kein freigegebener Länderbericht vor. Die allgemeine Impfschema-Datenbank findest du weiter unten; aus ihr darf keine länderspezifische Indikation abgeleitet werden.')+'</div>');
       const yellowFeverPossible=gelbfieberHinweis(e,p);
-      if(yellowFeverPossible)b.push('<div class="rm-yellowfever-flag">'+icon('vaccine','rm-yellowfever-icon')+'<span><strong>Gelbfieberimpfung prüfen:</strong> Je nach Reiseroute oder bereister Region kann eine Impfung sinnvoll oder ein Impfnachweis erforderlich sein. Bitte kläre die Indikation und mögliche Kontraindikationen ärztlich.</span></div>');
+      if(yellowFeverPossible)b.push('<div class="rm-yellowfever-flag">'+icon('vaccine','rm-yellowfever-icon')+'<span><strong>Gelbfieber-Impfschutz vor Ort prüfen:</strong> Abhängig von der bereisten Region kann eine Impfung zum persönlichen Schutz sinnvoll sein. Kläre die Empfehlung und mögliche Gegenanzeigen ärztlich.</span></div>');
       b.push('<div class="rm-grid"><div class="rm-box rm-entry-note"><h4>'+icon('book')+'Einreise & Impfnachweise</h4>');
       if(vaxUsable){
         b.push('<p>'+escape((p.entryNotes||[p.duty||'Einreisevorschriften vor Abreise prüfen.']).join(' '))+'</p>');
@@ -1127,18 +1127,29 @@ function renderInternational(e){
     }
     // CDC Yellow Book: countries with transmission risk, including countries with regional risk.
     const yellowFeverOrigins=new Set('AO BJ BF BI CM CF TD CG CI CD GQ ET GA GM GH GN GW KE LR ML MR NE NG SN SL SS SD TG UG AR BO BR CO EC GF GY PA PY PE SR TT VE'.split(' '));
-    const yellowFeverDestinations=new Set('AG AW BB BL BQ BS CU CW DM GD GP JM KN LC MF MQ MS PA SH SX TT VC'.split(' '));
+    const yellowFeverDestinations=new Set('AG AL AW BB BL BO BQ BS BW BZ CO CU CW DM EC EG FJ GD GP GT HN JM KE KN KZ LC MF MQ MS MT NA NC NI NU PA PF PY SC SH SV SX TO TT TZ VC VE WF WS ZA CK'.split(' '));
+    const yellowFeverRestrictedOrigins={
+      CO:new Set(['AO','BR','CD','UG']),
+      EC:new Set(['BR','CD','UG']),
+      VE:new Set(['BR'])
+    };
+    const yellowFeverRouteNoteCountries=new Set(['BW','EG','KE','NA','SC','TZ','ZA']);
     const yellowFeverRiskSource='https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html';
-    const yellowFeverRouteAdvice='Kläre den erforderlichen Nachweis für die genaue Route vor Reisebeginn mit der Reederei und der zuständigen Einreisebehörde. Ob eine Impfung medizinisch sinnvoll ist, wird individuell beurteilt.';
+    const yellowFeverRouteAdvice='Die Nachweispflicht hängt von der genauen Route, der Art und Dauer des Transits und teils vom Alter ab. Kläre sie vor der Reise mit der zuständigen Einreisebehörde, bei Kreuzfahrten auch mit der Reederei. Ob du die Impfung zum Schutz vor Ort brauchst, hängt von den bereisten Regionen und deiner Gesundheit ab.';
     function yellowFeverRouteWarnings(){
       const earlierStops=[];
       const warnings=[];
       for(const stop of selected){
         const profile=profiles[stop.c];
-        const origins=earlierStops.filter(previous=>yellowFeverOrigins.has(previous.c));
+        const applicableOrigins=Object.hasOwn(yellowFeverRestrictedOrigins,stop.c)
+          ? yellowFeverRestrictedOrigins[stop.c] : yellowFeverOrigins;
+        const origins=earlierStops.filter(previous=>applicableOrigins.has(previous.c));
         const saba=stop.c==='BQ'&&clean(stop.alias)==='saba';
         if(origins.length&&yellowFeverDestinations.has(stop.c)&&!saba&&profileFresh(profile)){
-          let requirements=profile.entryNotes.slice(1);
+          const notes=yellowFeverRouteNoteCountries.has(stop.c) ? profile.routeNotes : profile.entryNotes.slice(1);
+          let requirements=yellowFeverRouteNoteCountries.has(stop.c)
+            ? notes.filter(note=>/gelbfieber/i.test(note)&&/nachweis/i.test(note))
+            : notes.filter(note=>!/Polio/.test(note));
           if(stop.c==='BQ'&&stop.alias){
             requirements=requirements.filter(note=>clean(note).startsWith(clean(stop.alias)+':'));
           }
@@ -1159,7 +1170,7 @@ function renderInternational(e){
     function updateResult(shouldScroll=true){if(!selected.length)return;renderYellowFeverRoute();const region=$('rm-region').value.trim();$('rm-region-risk').innerHTML=renderRegionalRisk();const notesHost=$('rm-special-notes');const openNotes=[...notesHost.querySelectorAll('details[data-rm-note][open]')].map(x=>x.dataset.rmNote);notesHost.innerHTML=renderSpecialNotes();for(const key of openNotes){const note=notesHost.querySelector('details[data-rm-note="'+key+'"]');if(note)note.open=true;}$('rm-shared-vaccinations').innerHTML=renderSharedVaccinations();$('rm-resultlist').innerHTML=selected.map(e=>renderOne(e,region)).join('');updateSourceFooter();
       const when=$('rm-when').value;const dt=parseTripDate(when);const valid=!!dt;const diff=valid?Math.round((dt-Date.now())/86400000):null;
       const flag=[];if(when&&!valid)flag.push('Bitte gib dein Abreisedatum als TTMMJJ (z. B. 101126), TTMMJJJJ oder mit Punkten ein.');if(diff!==null&&diff>=0&&diff<=28)flag.push('Deine Abreise ist bald: Vereinbare möglichst zeitnah eine reisemedizinische Beratung, auch wenn noch nicht alle Impfungen vollständig möglich sind.');
-      if(selected.length>1)flag.push('Der ReiseCheck vergleicht ausgewählte Ziele in der angegebenen Reihenfolge. Prüfe zusätzlich nicht erfasste Zwischenstopps und die aktuellen Einreisebestimmungen.');if(getSelectedActivities().includes('Tauchen / Schnorcheln'))flag.push('Für Tauchreisen den zeitlichen Abstand zwischen letztem Tauchgang und Rückflug beachten; Details stehen unten in der Übersicht.');
+      if(selected.length>1)flag.push('Die Routenprüfung nutzt die hinterlegten Regeln der freigegebenen Ziele. Prüfe auch Flugtransits, weitere Aufenthalte und die aktuellen Einreisebestimmungen für deine genaue Route.');if(getSelectedActivities().includes('Tauchen / Schnorcheln'))flag.push('Für Tauchreisen den zeitlichen Abstand zwischen letztem Tauchgang und Rückflug beachten; Details stehen unten in der Übersicht.');
       $('rm-urgent').textContent=flag.join(' ');$('rm-urgent').classList.toggle('rm-hidden',!flag.length);
       $('rm-results').classList.remove('rm-hidden');if(shouldScroll!==false)$('rm-results').scrollIntoView({behavior:'smooth',block:'start'});
     }
@@ -1299,7 +1310,7 @@ function renderInternational(e){
         const card=create('section',shell,'country');
         const row=create('div',card,'rowhead');create('h2',row,'',e.n);
         create('span',row,'stand',p?'Länderprofil: '+format(p.checked):'Kein geprüftes Länderprofil');
-        if(gelbfieberHinweis(e,p))create('p',card,'yf','Gelbfieber: Impfindikation und ggf. Einreisevorschriften vor Reisebeginn ärztlich prüfen.');
+        if(gelbfieberHinweis(e,p))create('p',card,'yf','Gelbfieber: Impfempfehlung zum Schutz in den bereisten Regionen und mögliche Gegenanzeigen ärztlich prüfen.');
         const two=create('div',card,'grid');
         const vacc=create('div',two,'box');create('h3',vacc,'','Einreise & Impfnachweis');
         if(vaxUsable)para(vacc,'Nachweis / besondere Einreisevorschriften:',p.duty||'Bitte amtliche Vorschriften prüfen.');
