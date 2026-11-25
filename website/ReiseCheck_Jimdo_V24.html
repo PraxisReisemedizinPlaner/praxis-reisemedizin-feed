@@ -231,6 +231,7 @@
 <div class="rm-suggest" id="rm-suggest" role="listbox"></div>
 </div>
 <div class="rm-hint" style="font-size:12px;line-height:1.45;color:#566c75;margin:6px 0">Mehrere Reiseziele möglich. Städte und Inseln helfen bei der Suche nach einem Land. Regionen und Zwischenstopps trägst du bei Bedarf selbst ein.</div>
+<p class="rm-hint" style="margin:6px 0">Bei Kreuzfahrten: Gib den Starthafen und alle Anlaufhäfen in zeitlicher Reihenfolge ein. Wähle jeweils das Land oder die Insel des Hafens. Mit ↑ und ↓ kannst du die Reihenfolge korrigieren.</p>
 <div aria-live="polite" class="rm-chips" id="rm-chips" style="display:flex;gap:7px;flex-wrap:wrap;margin-top:10px"></div>
 </div>
 <div class="rm-card rm-section rm-hidden" data-rm-fallback-hidden="yes" hidden="" id="rm-step2" style="border:1px solid #d8e4e9;border-radius:16px;background:#fff;box-shadow:0 4px 16px rgba(28,69,87,.05);margin:12px 0;overflow:hidden;padding:18px">
@@ -252,7 +253,7 @@
 <button type="button" class="rm-activity-choice" id="rm-style-option-4" value="Rucksackreise / einfache Unterkünfte" aria-pressed="false"><span>Rucksackreise / einfache Unterkünfte</span></button>
 <button type="button" class="rm-activity-choice" id="rm-style-option-5" value="Arbeit / längerer Aufenthalt" aria-pressed="false"><span>Arbeit / längerer Aufenthalt</span></button>
 </fieldset>
-<div class="rm-activity-buttons"><button type="button" class="rm-smallbtn" id="rm-style-clear">Auswahl löschen</button></div>
+<button type="button" class="rm-activity-choice" id="rm-style-option-cruise" value="Kreuzfahrt" aria-pressed="false"><span>Kreuzfahrt</span></button><div class="rm-activity-buttons"><button type="button" class="rm-smallbtn" id="rm-style-clear">Auswahl löschen</button></div>
 </div>
 </details>
 
@@ -300,6 +301,7 @@
 <p class="rm-note" style="border:1px solid #bdd3de;border-left:4px solid #6592A7;background:#eff5f7;border-radius:8px;padding:8px 11px;margin:9px 0;color:#345565;font-size:13px"><strong>Hinweis:</strong> Die Übersicht ersetzt keine individuelle ärztliche Reiseberatung.</p>
 <div class="rm-hidden rm-note rm-danger" data-rm-fallback-hidden="yes" hidden="" id="rm-urgent" style="border:1px solid #bdd3de;border-left:4px solid #6592A7;background:#eff5f7;border-radius:9px;padding:11px 14px;margin:13px 0;color:#345565"></div>
 
+<div id="rm-yellow-fever-route"></div>
 <div id="rm-shared-vaccinations"></div>
 <div id="rm-region-risk" aria-live="polite"></div>
 <div class="rm-stack" id="rm-resultlist"></div>
@@ -690,12 +692,42 @@
     }
 
     const makeTag=(txt,risk)=>'<span class="rm-tag '+(risk?'rm-traffic-yellow':'rm-traffic-green')+'">'+escape(txt)+'</span>';
-    function add(e){if(!selected.some(c=>c.c===e.c))selected.push(e);$('rm-country').value='';hideSuggestions();renderChips();}
+    function add(e,alias){if(!selected.some(c=>c.c===e.c))selected.push({...e,alias});$('rm-country').value='';hideSuggestions();renderChips();}
     function remove(c){const idx=selected.findIndex(e=>e.c===c);if(idx>=0)selected.splice(idx,1);renderChips();}
     function renderChips(){
       renderRegionChips();
-      $('rm-chips').innerHTML='';selected.forEach(e=>{const s=document.createElement('span');s.className='rm-chip';s.append(document.createTextNode(e.n));const b=document.createElement('button');b.type='button';b.textContent='×';b.setAttribute('aria-label',e.n+' entfernen');b.addEventListener('click',()=>remove(e.c));s.append(b);$('rm-chips').append(s)});
+      const chips=$('rm-chips');
+      chips.replaceChildren();
+      selected.forEach((e,index)=>{
+        const chip=document.createElement('span');
+        chip.className='rm-chip';
+        const name=routeStopName(e);
+        chip.textContent=(selected.length>1?(index+1)+'. ':'')+name;
+        const button=(text,label,action)=>{
+          const control=document.createElement('button');
+          control.type='button';
+          control.textContent=text;
+          control.setAttribute('aria-label',name+' '+label);
+          control.addEventListener('click',action);
+          chip.append(control);
+          return control;
+        };
+        if(index>0)button('↑','nach vorn verschieben',()=>moveStop(index,-1)).dataset.move='earlier';
+        if(index<selected.length-1)button('↓','nach hinten verschieben',()=>moveStop(index,1)).dataset.move='later';
+        button('×','entfernen',()=>remove(e.c));
+        chips.append(chip);
+      });
       $('rm-step2').classList.toggle('rm-hidden',selected.length===0);$('rm-results').classList.add('rm-hidden');updateSourceFooter();
+    }
+    function routeStopName(stop){return stop.alias||stop.n;}
+    function moveStop(index,offset){
+      const target=index+offset;
+      const resultsVisible=!$('rm-results').classList.contains('rm-hidden');
+      [selected[index],selected[target]]=[selected[target],selected[index]];
+      renderChips();
+      if(resultsVisible)updateResult(false);
+      const chip=$('rm-chips').children[target];
+      (chip.querySelector('[data-move="'+(offset<0?'earlier':'later')+'"]')||chip.querySelector('button')).focus();
     }
     let activeSuggestion=-1;
     function hideSuggestions(){activeSuggestion=-1;const box=$('rm-suggest');box.classList.remove('rm-show');box.innerHTML='';$('rm-country').setAttribute('aria-expanded','false');$('rm-country').removeAttribute('aria-activedescendant');}
@@ -710,7 +742,7 @@
     function suggest(){const q=clean($('rm-country').value);const box=$('rm-suggest');box.innerHTML='';activeSuggestion=-1;$('rm-country').removeAttribute('aria-activedescendant');
       if(!q){hideSuggestions();return;}
       const matches=COUNTRIES.filter(e=>!selected.some(s=>s.c===e.c)&&([e.n,...(e.a||[])].some(x=>clean(x).includes(q))||clean(e.c)===q)).sort((a,b)=>Number(clean(b.n).startsWith(q))-Number(clean(a.n).startsWith(q))).slice(0,12);
-      matches.forEach((e,i)=>{const b=document.createElement('button');b.type='button';b.id='rm-choice-'+i;b.className='rm-choice';b.setAttribute('role','option');b.setAttribute('aria-selected','false');b.textContent=e.n;const match=clean(e.n).includes(q)?null:(e.a||[]).find(x=>clean(x).includes(q));if(match&&clean(e.n)!==clean(match)){const sml=document.createElement('small');sml.textContent=match;b.append(sml)}b.addEventListener('mousedown',ev=>ev.preventDefault());b.addEventListener('click',()=>{add(e);$('rm-country').focus()});box.append(b)});
+      matches.forEach((e,i)=>{const b=document.createElement('button');b.type='button';b.id='rm-choice-'+i;b.className='rm-choice';b.setAttribute('role','option');b.setAttribute('aria-selected','false');b.textContent=e.n;const match=clean(e.n).includes(q)?null:(e.a||[]).find(x=>clean(x).includes(q));if(match&&clean(e.n)!==clean(match)){const sml=document.createElement('small');sml.textContent=match;b.append(sml)}b.addEventListener('mousedown',ev=>ev.preventDefault());b.addEventListener('click',()=>{add(e,match);$('rm-country').focus()});box.append(b)});
       box.classList.toggle('rm-show',matches.length>0);$('rm-country').setAttribute('aria-expanded',matches.length?'true':'false');
     }
     $('rm-country').addEventListener('input',suggest);
@@ -1093,10 +1125,41 @@ function renderInternational(e){
         return out+'</div>';
       }).join('');
     }
-    function updateResult(shouldScroll=true){if(!selected.length)return;const region=$('rm-region').value.trim();$('rm-region-risk').innerHTML=renderRegionalRisk();const notesHost=$('rm-special-notes');const openNotes=[...notesHost.querySelectorAll('details[data-rm-note][open]')].map(x=>x.dataset.rmNote);notesHost.innerHTML=renderSpecialNotes();for(const key of openNotes){const note=notesHost.querySelector('details[data-rm-note="'+key+'"]');if(note)note.open=true;}$('rm-shared-vaccinations').innerHTML=renderSharedVaccinations();$('rm-resultlist').innerHTML=selected.map(e=>renderOne(e,region)).join('');updateSourceFooter();
+    // CDC Yellow Book: countries with transmission risk, including countries with regional risk.
+    const yellowFeverOrigins=new Set('AO BJ BF BI CM CF TD CG CI CD GQ ET GA GM GH GN GW KE LR ML MR NE NG SN SL SS SD TG UG AR BO BR CO EC GF GY PA PY PE SR TT VE'.split(' '));
+    const yellowFeverDestinations=new Set('AG AW BB BL BQ BS CU CW DM GD GP JM KN LC MF MQ MS PA SH SX TT VC'.split(' '));
+    const yellowFeverRiskSource='https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/yellow-fever.html';
+    const yellowFeverRouteAdvice='Kläre den erforderlichen Nachweis für die genaue Route vor Reisebeginn mit der Reederei und der zuständigen Einreisebehörde. Ob eine Impfung medizinisch sinnvoll ist, wird individuell beurteilt.';
+    function yellowFeverRouteWarnings(){
+      const earlierStops=[];
+      const warnings=[];
+      for(const stop of selected){
+        const profile=profiles[stop.c];
+        const origins=earlierStops.filter(previous=>yellowFeverOrigins.has(previous.c));
+        const saba=stop.c==='BQ'&&clean(stop.alias)==='saba';
+        if(origins.length&&yellowFeverDestinations.has(stop.c)&&!saba&&profileFresh(profile)){
+          let requirements=profile.entryNotes.slice(1);
+          if(stop.c==='BQ'&&stop.alias){
+            requirements=requirements.filter(note=>clean(note).startsWith(clean(stop.alias)+':'));
+          }
+          if(requirements.length)warnings.push({
+            stop:routeStopName(stop),
+            origins:origins.map(previous=>routeStopName(previous)),
+            requirements
+          });
+        }
+        earlierStops.push(stop);
+      }
+      return warnings;
+    }
+    function renderYellowFeverRoute(){
+      const warnings=yellowFeverRouteWarnings();
+      $('rm-yellow-fever-route').innerHTML=warnings.length?'<section class="rm-note rm-warning" style="background:#fff3df;border:1px solid #d9a54c;border-left:4px solid #b27d2c;border-radius:9px;margin:12px 0;padding:10px 13px"><h4>Gelbfieber-Nachweis für deine Route prüfen</h4><ul style="margin:6px 0;padding-left:20px">'+warnings.map(item=>'<li><strong>'+escape(item.stop)+'</strong> nach vorherigem Stopp in '+escape(item.origins.join(', '))+': Ein Gelbfieber-Impfnachweis kann erforderlich sein. '+escape(item.requirements.join(' '))+'</li>').join('')+'</ul><p>'+escape(yellowFeverRouteAdvice)+'</p><a class="rm-link" target="_blank" rel="noopener noreferrer" href="'+yellowFeverRiskSource+'">Quelle zu Gelbfieber-Risikogebieten (CDC)</a></section>':'';
+    }
+    function updateResult(shouldScroll=true){if(!selected.length)return;renderYellowFeverRoute();const region=$('rm-region').value.trim();$('rm-region-risk').innerHTML=renderRegionalRisk();const notesHost=$('rm-special-notes');const openNotes=[...notesHost.querySelectorAll('details[data-rm-note][open]')].map(x=>x.dataset.rmNote);notesHost.innerHTML=renderSpecialNotes();for(const key of openNotes){const note=notesHost.querySelector('details[data-rm-note="'+key+'"]');if(note)note.open=true;}$('rm-shared-vaccinations').innerHTML=renderSharedVaccinations();$('rm-resultlist').innerHTML=selected.map(e=>renderOne(e,region)).join('');updateSourceFooter();
       const when=$('rm-when').value;const dt=parseTripDate(when);const valid=!!dt;const diff=valid?Math.round((dt-Date.now())/86400000):null;
       const flag=[];if(when&&!valid)flag.push('Bitte gib dein Abreisedatum als TTMMJJ (z. B. 101126), TTMMJJJJ oder mit Punkten ein.');if(diff!==null&&diff>=0&&diff<=28)flag.push('Deine Abreise ist bald: Vereinbare möglichst zeitnah eine reisemedizinische Beratung, auch wenn noch nicht alle Impfungen vollständig möglich sind.');
-      if(selected.length>1)flag.push('Bei mehreren Ländern und Transitstopps können zusätzliche Impfnachweise erforderlich sein, insbesondere für Gelbfieber. Bitte prüfe die tatsächliche Einreiseroute.');if(getSelectedActivities().includes('Tauchen / Schnorcheln'))flag.push('Für Tauchreisen den zeitlichen Abstand zwischen letztem Tauchgang und Rückflug beachten; Details stehen unten in der Übersicht.');
+      if(selected.length>1)flag.push('Der ReiseCheck vergleicht ausgewählte Ziele in der angegebenen Reihenfolge. Prüfe zusätzlich nicht erfasste Zwischenstopps und die aktuellen Einreisebestimmungen.');if(getSelectedActivities().includes('Tauchen / Schnorcheln'))flag.push('Für Tauchreisen den zeitlichen Abstand zwischen letztem Tauchgang und Rückflug beachten; Details stehen unten in der Übersicht.');
       $('rm-urgent').textContent=flag.join(' ');$('rm-urgent').classList.toggle('rm-hidden',!flag.length);
       $('rm-results').classList.remove('rm-hidden');if(shouldScroll!==false)$('rm-results').scrollIntoView({behavior:'smooth',block:'start'});
     }
@@ -1191,7 +1254,7 @@ function renderInternational(e){
       printBooking.target='_blank';
       printBooking.rel='noopener noreferrer';
       const metaBox=create('div',shell,'meta');
-      para(metaBox,'Reiseziele:',selected.map(x=>x.n).join(' · '));
+      para(metaBox,'Reiseziele in Reihenfolge:',selected.map(routeStopName).join(' → '));
       const abreise=parseTripDate($('rm-when').value);
       const metaParts=[];
       if(abreise)metaParts.push('Abreise: '+new Intl.DateTimeFormat('de-DE').format(abreise));
@@ -1202,6 +1265,16 @@ function renderInternational(e){
       const region=[...regionPicks.map(x=>x.name),$('rm-region').value.trim()].filter(Boolean).join(' · ');if(region)para(metaBox,'Regionen/Zwischenstopps:',region);
       if(!$('rm-urgent').classList.contains('rm-hidden')&&$('rm-urgent').textContent.trim()){
         create('p',shell,'warning',$('rm-urgent').textContent.trim());
+      }
+      const routeWarnings=yellowFeverRouteWarnings();
+      if(routeWarnings.length){
+        const section=create('section',shell,'warning');
+        create('h3',section,'','Gelbfieber-Nachweis für deine Route prüfen');
+        for(const item of routeWarnings){
+          para(section,item.stop+':','Nach vorherigem Stopp in '+item.origins.join(', ')+' kann ein Gelbfieber-Impfnachweis erforderlich sein. '+item.requirements.join(' '));
+        }
+        create('p',section,'small',yellowFeverRouteAdvice);
+        link(section,yellowFeverRiskSource,'Quelle zu Gelbfieber-Risikogebieten (CDC)');
       }
       const unified=unifiedVaccines();
       const vaxPrint=create('section',shell,'vaccination-print');
@@ -1316,6 +1389,7 @@ function renderInternational(e){
          feedMode=true;feedUpdated=String(data.generatedAt||'').slice(0,10);
          announce('');
          if(!$('rm-results').classList.contains('rm-hidden')){
+           renderYellowFeverRoute();
            $('rm-shared-vaccinations').innerHTML=renderSharedVaccinations();
            $('rm-resultlist').innerHTML=selected.map(e=>renderOne(e,$('rm-region').value.trim())).join('');
            updateSourceFooter();
@@ -1324,6 +1398,7 @@ function renderInternational(e){
          profiles=Object.create(null);feedMode=false;
          announce('Länderprofile derzeit nicht verfügbar. Bitte prüfe die Originalquellen.');
          if(!$('rm-results').classList.contains('rm-hidden')){
+           renderYellowFeverRoute();
            $('rm-shared-vaccinations').innerHTML=renderSharedVaccinations();
            $('rm-resultlist').innerHTML=selected.map(e=>renderOne(e,$('rm-region').value.trim())).join('');
            updateSourceFooter();

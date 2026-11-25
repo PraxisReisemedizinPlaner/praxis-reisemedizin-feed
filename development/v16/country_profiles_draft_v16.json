@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 150,
+  "countryCount": 154,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -27078,11 +27078,48 @@
     "BQ": {
       "name": "Karibische Niederlande (Bonaire, Sint Eustatius und Saba)",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/niederlandesicherheit/211084",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/bonaire",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/sint-eustatius",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saba",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/niederlande-211088",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -27090,7 +27127,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -27114,7 +27151,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -27149,7 +27186,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsches Honorarkonsulat Willemstad",
@@ -27172,7 +27209,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-25",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-25",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/niederlandesicherheit/211084",
         "evidenceLinks": [
@@ -27225,7 +27262,7 @@
           "Die RKI-Ländertabelle fasst die drei Inseln zusammen. Bei der Gelbfieber-Nachweispflicht sind die inselspezifischen Angaben des Auswärtigen Amts und der CDC zu berücksichtigen. Bei Säuglingen zwischen sechs und acht Monaten ist eine individuelle reisemedizinische Abklärung erforderlich."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -27234,7 +27271,7 @@
           "checkedAt": "2026-11-25"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-25",
         "regionalSelectionRequired": false,
@@ -27262,11 +27299,42 @@
     "SH": {
       "name": "St. Helena",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/st-helena-ascension-and-tristan-da-cunha/entry-requirements",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://travelhealthpro.org.uk/country/206/st-helena-ascension-tristan-da-cunha",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/suedafrika-208384",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -27274,7 +27342,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -27291,7 +27359,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -27321,7 +27389,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsches Generalkonsulat Kapstadt",
@@ -27336,7 +27404,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-25",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-25",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
         "evidenceLinks": [
@@ -27382,7 +27450,7 @@
           "Die britischen Einreisehinweise verweisen für medizinische Einreisebestimmungen auf NaTHNaC. Bei einer Weiterreise nach Ascension oder Tristan da Cunha die Regeln des jeweiligen Ziels und der Zwischenstopps separat prüfen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -27391,7 +27459,7 @@
           "checkedAt": "2026-11-25"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-25",
         "regionalSelectionRequired": false,
@@ -27412,11 +27480,36 @@
     "GG": {
       "name": "Guernsey",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grossbritannien-206412",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -27424,7 +27517,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [],
         "riskBased": [
           "Hepatitis B"
@@ -27437,7 +27530,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -27462,7 +27555,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsches Honorarkonsulat St. Peter Port",
@@ -27477,7 +27570,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-25",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-25",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
         "evidenceLinks": [
@@ -27516,7 +27609,7 @@
           "Die STIKO-Ländertabelle führt Hepatitis B bei reiseassoziiertem Risiko auf. Reisepass und gegebenenfalls elektronische Reisegenehmigung (ETA) für die konkrete Route prüfen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -27525,7 +27618,7 @@
           "checkedAt": "2026-11-25"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-25",
         "regionalSelectionRequired": false,
@@ -27544,6 +27637,164 @@
     },
     "JE": {
       "name": "Jersey",
+      "medicalReview": {
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grossbritannien-206412",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "approved",
+        "forAll": [],
+        "riskBased": [
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Für dieses Reiseziel sind laut RKI-Ländertabelle keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Standardimpfschutz prüfen. Zwischenstopps und weitere Reiseziele einzeln beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "approved",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Britische Einreiseinformationen (ETA)",
+            "url": "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "approved",
+        "verifiedEntries": [
+          {
+            "title": "Deutsches Honorarkonsulat St. Helier",
+            "address": "Postanschrift: Haut Bois, La Grande Route de St. Laurent, St. Lawrence, Jersey JE3 1NN",
+            "phone": "+44 1534 280 858",
+            "emergency": null,
+            "scope": "Örtliche konsularische Anlaufstelle. Termine nach Vereinbarung. Übergeordnete Vertretung ist die Botschaft London.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grossbritannien-206412"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": "2026-11-25",
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+        "evidenceLinks": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+          "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grossbritannien-206412"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grossbritannien-206412",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO-Ländertabelle führt Hepatitis B bei reiseassoziiertem Risiko auf. Reisepass und gegebenenfalls elektronische Reisegenehmigung (ETA) für die konkrete Route prüfen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Länderpaket ärztlich freigegeben.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": true,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+          "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta"
+        ],
+        "otherRegionalFactors": [
+          "Standardimpfschutz prüfen. Zwischenstopps und weitere Reiseziele einzeln beurteilen."
+        ]
+      }
+    },
+    "IM": {
+      "name": "Isle of Man",
       "medicalReview": {
         "status": "pending",
         "reviewer": null,
@@ -27586,11 +27837,6 @@
             "label": "Auswärtiges Amt",
             "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
             "use": "external_link_only"
-          },
-          {
-            "label": "Britische Einreiseinformationen (ETA)",
-            "url": "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
-            "use": "external_link_only"
           }
         ]
       },
@@ -27598,11 +27844,11 @@
         "status": "prepared_for_review",
         "verifiedEntries": [
           {
-            "title": "Deutsches Honorarkonsulat St. Helier",
-            "address": "Postanschrift: Haut Bois, La Grande Route de St. Laurent, St. Lawrence, Jersey JE3 1NN",
-            "phone": "+44 1534 280 858",
+            "title": "Deutsche Botschaft London",
+            "address": "23 Belgrave Square, London SW1X 8PZ, Vereinigtes Königreich",
+            "phone": "+44 20 7824 1300",
             "emergency": null,
-            "scope": "Örtliche konsularische Anlaufstelle. Termine nach Vereinbarung. Übergeordnete Vertretung ist die Botschaft London.",
+            "scope": "Konsularisch zuständig für die Isle of Man.",
             "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grossbritannien-206412"
           }
         ]
@@ -27616,8 +27862,8 @@
         "evidenceLinks": [
           "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
-          "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
-          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grossbritannien-206412"
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grossbritannien-206412",
+          "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta"
         ],
         "proposedSources": [
           {
@@ -27633,20 +27879,20 @@
             "use": "external_link_only"
           },
           {
-            "url": "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grossbritannien-206412",
             "checkedAt": "2026-11-25",
             "reuseRightsChecked": true,
             "use": "external_link_only"
           },
           {
-            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grossbritannien-206412",
+            "url": "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
             "checkedAt": "2026-11-25",
             "reuseRightsChecked": true,
             "use": "external_link_only"
           }
         ],
         "researchNotes": [
-          "Die STIKO-Ländertabelle führt Hepatitis B bei reiseassoziiertem Risiko auf. Reisepass und gegebenenfalls elektronische Reisegenehmigung (ETA) für die konkrete Route prüfen."
+          "Reisepass und gegebenenfalls die elektronische Reisegenehmigung (ETA) für die konkrete Route prüfen."
         ],
         "proposedNextReviewDate": "2027-01-15",
         "warning": "Ärztliche Länderfreigabe steht aus.",
@@ -27669,6 +27915,366 @@
           "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
           "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
           "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta"
+        ],
+        "otherRegionalFactors": [
+          "Standardimpfschutz prüfen. Zwischenstopps und weitere Reiseziele einzeln beurteilen."
+        ]
+      }
+    },
+    "GI": {
+      "name": "Gibraltar",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [],
+        "riskBased": [
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Für dieses Reiseziel sind laut RKI-Ländertabelle keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Standardimpfschutz prüfen. Zwischenstopps und weitere Reiseziele einzeln beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft London",
+            "address": "23 Belgrave Square, London SW1X 8PZ, Vereinigtes Königreich",
+            "phone": "+44 20 7824 1300",
+            "emergency": null,
+            "scope": "Konsularisch zuständig für Gibraltar.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grossbritannien-206412"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+        "evidenceLinks": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grossbritannien-206412"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grossbritannien-206412",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Bei Anreise über Spanien auch dessen Einreisebedingungen prüfen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408"
+        ],
+        "otherRegionalFactors": [
+          "Standardimpfschutz prüfen. Zwischenstopps und weitere Reiseziele einzeln beurteilen."
+        ]
+      }
+    },
+    "GL": {
+      "name": "Grönland",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [],
+        "riskBased": [
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Für dieses Reiseziel sind laut RKI-Ländertabelle keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Standardimpfschutz prüfen. Zwischenstopps und weitere Reiseziele einzeln beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/daenemarksicherheit/211724",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsches Honorarkonsulat Nuuk",
+            "address": "Uiffak 4a, 3905 Nuussuaq, Grönland",
+            "phone": "+299 55 88 80",
+            "emergency": null,
+            "scope": "Örtliche konsularische Anlaufstelle. Übergeordnete Vertretung ist die Botschaft Kopenhagen.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/daenemark-211716"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/daenemarksicherheit/211724",
+        "evidenceLinks": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/daenemarksicherheit/211724",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/daenemark-211716"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/daenemarksicherheit/211724",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/daenemark-211716",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Für abgelegene Routen das arktische Klima und die Möglichkeiten zur medizinischen Versorgung und Evakuierung berücksichtigen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/daenemarksicherheit/211724"
+        ],
+        "otherRegionalFactors": [
+          "Standardimpfschutz prüfen. Zwischenstopps und weitere Reiseziele einzeln beurteilen."
+        ]
+      }
+    },
+    "FO": {
+      "name": "Färöer",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [],
+        "riskBased": [
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Für dieses Reiseziel sind laut RKI-Ländertabelle keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Standardimpfschutz prüfen. Zwischenstopps und weitere Reiseziele einzeln beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/daenemarksicherheit/211724",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsches Honorarkonsulat Tórshavn",
+            "address": "Bryggjubakki 22, 110 Tórshavn, Färöer",
+            "phone": "+298 35 95 95",
+            "emergency": null,
+            "scope": "Örtliche konsularische Anlaufstelle. Übergeordnete Vertretung ist die Botschaft Kopenhagen.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/daenemark-211716"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/daenemarksicherheit/211724",
+        "evidenceLinks": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/daenemarksicherheit/211724",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/daenemark-211716"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/daenemarksicherheit/211724",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/daenemark-211716",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Reisedokumente für die Färöer und für Zwischenstopps anhand der konkreten Route prüfen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/daenemarksicherheit/211724"
         ],
         "otherRegionalFactors": [
           "Standardimpfschutz prüfen. Zwischenstopps und weitere Reiseziele einzeln beurteilen."

@@ -17,7 +17,7 @@ PACKAGES=json.loads((HERE/"region_source_packages_v2.json").read_text(encoding="
 regions=build_public_regions(REGION,COUNTRIES,PACKAGES,date(2026,11,21))
 countries=build_countries(COUNTRIES,date(2026,11,25))
 assert regions["sourceBasedCount"] == 64
-assert countries["approvedCount"] == 146
+assert countries["approvedCount"] == 150
 
 def intercept(route):
     url=route.request.url
@@ -238,6 +238,24 @@ def smoke(browser,device,stripped=False):
     assert "Quellenabweichung" in yasuni.inner_text()
     assert yasuni.get_attribute("data-rm-risk") == "uncertain"
     assert page.locator(".rm-malaria-uncertain").evaluate("el => getComputedStyle(el).backgroundColor") == "rgb(255, 248, 219)"
+    page.locator("#rm-reset").click()
+    selected_country(page,"Kolumbien")
+    selected_country(page,"Martinique")
+    page.locator("#rm-check").click()
+    route_warning = page.locator("#rm-yellow-fever-route")
+    assert "Martinique nach vorherigem Stopp in Kolumbien" in route_warning.inner_text()
+    if device == "desktop" and not stripped:
+        with page.expect_popup() as route_print:
+            page.locator("#rm-print").click()
+        popup = route_print.value
+        popup.get_by_role("heading", name="Gelbfieber-Nachweis für deine Route prüfen").wait_for()
+        assert "Kolumbien → Martinique" in popup.locator(".meta").inner_text()
+        popup.close()
+    page.get_by_role("button", name="Martinique nach vorn verschieben").click()
+    assert route_warning.inner_text() == ""
+    selected_country(page,"Saba")
+    page.locator("#rm-check").click()
+    assert route_warning.inner_text() == ""
     assert not errors, "Runtime JS errors: "+"; ".join(errors)
     ctx.close()
     print(f"Browser V24 OK ({device}) – country, ambiguous island, multi-city, missing-risk, unknown text, reset.")
