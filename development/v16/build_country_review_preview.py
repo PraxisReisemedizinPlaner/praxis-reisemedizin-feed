@@ -5,8 +5,8 @@ import html
 import json
 from pathlib import Path
 HERE=Path(__file__).resolve().parent
-CODES=("DZ","LY","LB","IL")
-OTHER_REVIEW_PACKAGES=(("BS","BB","DM","GD"),("AG","LC","KN","VC"),("AD","MC","SM","LI"),("FJ","WS","TO","TV"),("CK","NU","NR","KI"),("MH","FM","PW","GU"),("MP","AS","PF","NC"),("WF","GP","MQ","RE"),("MF","BL","PM","BM"),("AI","VG","KY","TC"),("MS","SX","AW","CW"),("PR","VI","TT","FK"),("BQ","SH","GG","JE"),("IM","GI","GL","FO"),("AX","HK","MO","CX"),("CC","NF","TK","PN"),("BH","QA","KW","SA"))
+CODES=("LS","SZ","ZW","ZM")
+OTHER_REVIEW_PACKAGES=(("BS","BB","DM","GD"),("AG","LC","KN","VC"),("AD","MC","SM","LI"),("FJ","WS","TO","TV"),("CK","NU","NR","KI"),("MH","FM","PW","GU"),("MP","AS","PF","NC"),("WF","GP","MQ","RE"),("MF","BL","PM","BM"),("AI","VG","KY","TC"),("MS","SX","AW","CW"),("PR","VI","TT","FK"),("BQ","SH","GG","JE"),("IM","GI","GL","FO"),("AX","HK","MO","CX"),("CC","NF","TK","PN"),("BH","QA","KW","SA"),("DZ","LY","LB","IL"))
 def esc(s): return html.escape(str(s),quote=True)
 def bullets(items): return "<ul>"+"".join("<li>"+esc(v)+"</li>" for v in items)+"</ul>"
 def render(data,codes=CODES):

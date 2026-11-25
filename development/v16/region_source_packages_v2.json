@@ -4738,6 +4738,83 @@
       "summary": "Für diese Städte nennen die CDC keine Malariaübertragung. Etappen außerhalb der Städte separat beurteilen. Mückenschutz bleibt wegen anderer mückenübertragener Infektionen sinnvoll.",
       "riskLevel": "none",
       "preventionType": "none"
+    },
+    {
+      "id": "SZ-EAST",
+      "country": "SZ",
+      "status": "source_conflict",
+      "scope": "Osten und grenznahes Tiefland (u. a. Lubombo)",
+      "checkedAt": "2026-11-25",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/eswatinisicherheit-226240",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/eswatini",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Auswärtiges Amt und DTG stufen den Osten von September bis Mai höher ein als von Juni bis August. Die CDC empfehlen für ihre östlichen Risikogebiete eine medikamentöse Prophylaxe ohne diese saisonale Abstufung. Reisezeit und genaue Orte individuell bewerten."
+    },
+    {
+      "id": "SZ-WEST",
+      "country": "SZ",
+      "status": "source_conflict",
+      "scope": "Westen und Mbabane",
+      "checkedAt": "2026-11-25",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/eswatinisicherheit-226240",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/eswatini",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Auswärtiges Amt und DTG nennen im Westen ein geringes ganzjähriges Risiko. Die CDC führen ihre Übertragungsgebiete im Osten auf. Mückenschutz beachten und Ausflüge in den Osten separat bewerten."
+    },
+    {
+      "id": "ZW-HIGH",
+      "country": "ZW",
+      "status": "supported",
+      "scope": "Nord-, Ost- und Nordwestetappen mit ganzjährig hohem Risiko",
+      "checkedAt": "2026-11-25",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/simbabwesicherheit-208948",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/zimbabwe",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für die hier genannten ganzjährig hoch eingestuften Ziele stimmen die Quellen bei Mückenschutz und medikamentöser Prophylaxe überein. Benachbarte saisonale Gebiete separat prüfen.",
+      "riskLevel": "high",
+      "preventionType": "chemoprophylaxis_consider"
+    },
+    {
+      "id": "ZW-SEASONAL",
+      "country": "ZW",
+      "status": "source_conflict",
+      "scope": "Hwange, Matobo und weitere saisonale Gebiete",
+      "checkedAt": "2026-11-25",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/simbabwesicherheit-208948",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/zimbabwe",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Auswärtiges Amt und DTG stufen das Risiko hier von September bis Mai höher ein als von Juni bis August. Die CDC empfehlen medikamentöse Prophylaxe landesweit. Reisezeit, Übernachtungsort und Zugang zu Diagnostik besprechen."
+    },
+    {
+      "id": "ZW-CITIES",
+      "country": "ZW",
+      "status": "source_conflict",
+      "scope": "Harare und Bulawayo",
+      "checkedAt": "2026-11-25",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/simbabwesicherheit-208948",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/none/zimbabwe",
+        "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Auswärtiges Amt und DTG stufen beide Städte ganzjährig als mittleres Risiko ein. Die CDC empfehlen medikamentöse Prophylaxe landesweit. Mückenschutz und individuelle reisemedizinische Beratung bleiben wichtig."
     }
   ]
 }
