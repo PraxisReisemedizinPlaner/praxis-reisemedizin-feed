@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 162,
+  "countryCount": 166,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -28953,11 +28953,30 @@
     "CC": {
       "name": "Kokosinseln (Australien)",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/australien-node/australiensicherheit-213920",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cocos-islands",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://australien.diplo.de/au-de/ueber-uns/botschaft",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -28965,7 +28984,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -28981,7 +29000,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -29001,7 +29020,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Canberra",
@@ -29016,7 +29035,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-25",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-25",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/australien-node/australiensicherheit-213920",
         "evidenceLinks": [
@@ -29048,7 +29067,7 @@
           "Die inselspezifischen Gesundheitsinformationen der CDC ergänzen die Reisehinweise des Auswärtigen Amts für Australien. Hepatitis B entsprechend dem individuellen Reiserisiko besprechen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -29057,7 +29076,7 @@
           "checkedAt": "2026-11-25"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-25",
         "regionalSelectionRequired": false,
@@ -29076,11 +29095,36 @@
     "NF": {
       "name": "Norfolkinsel",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/australien-node/australiensicherheit-213920",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Norfolk-Island",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://australien.diplo.de/au-de/ueber-uns/botschaft",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -29088,7 +29132,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -29104,7 +29148,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -29129,7 +29173,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Canberra",
@@ -29144,7 +29188,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-25",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-25",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/australien-node/australiensicherheit-213920",
         "evidenceLinks": [
@@ -29183,7 +29227,7 @@
           "Die CDC nennen eine Ausnahme für Reisende von den Galápagos-Inseln. Die Reiseimpfungen sind nach der STIKO-Ländertabelle eingeordnet."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -29192,7 +29236,7 @@
           "checkedAt": "2026-11-25"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-25",
         "regionalSelectionRequired": false,
@@ -29212,11 +29256,42 @@
     "TK": {
       "name": "Tokelau",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/neuseeland-node/neuseelandsicherheit-220146",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.tokelau.org.nz/Tokelau%2BGovernment/Visiting%2BTokelau/Tourist%2BInformation.html",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://travel.gc.ca/destinations/tokelau",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/tonga-node/tonga/213778",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -29224,7 +29299,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [
           "Hepatitis A"
         ],
@@ -29243,7 +29318,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -29273,7 +29348,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Wellington",
@@ -29288,7 +29363,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-25",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-25",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/neuseeland-node/neuseelandsicherheit-220146",
         "evidenceLinks": [
@@ -29334,7 +29409,7 @@
           "Die Regierung von Tokelau nennt die Anreise per Schiff ab Apia auf Samoa. Aktuelle Einreisevorgaben und Verfügbarkeit der Verbindung vorab prüfen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -29343,7 +29418,7 @@
           "checkedAt": "2026-11-25"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-25",
         "regionalSelectionRequired": false,
@@ -29369,11 +29444,30 @@
     "PN": {
       "name": "Pitcairninseln",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://travelhealthpro.org.uk/countries/pitcairn-islands",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.gov.uk/foreign-travel-advice/pitcairn-island/entry-requirements",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/tonga-node/tonga/213778",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -29381,7 +29475,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [],
         "riskBased": [
           "Hepatitis A",
@@ -29395,7 +29489,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -29415,7 +29509,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft Wellington",
@@ -29430,7 +29524,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-25",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-25",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.gov.uk/foreign-travel-advice/pitcairn-island/entry-requirements",
         "evidenceLinks": [
@@ -29462,7 +29556,7 @@
           "Die länderspezifischen Hinweise zu Reiseimpfungen und Gelbfieber-Nachweis stammen vom britischen Reisegesundheitsdienst NaTHNaC. Standardimpfschutz nach STIKO prüfen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -29471,7 +29565,7 @@
           "checkedAt": "2026-11-25"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-25",
         "regionalSelectionRequired": false,
@@ -29484,6 +29578,588 @@
         ],
         "otherRegionalFactors": [
           "Bei Anreise über Französisch-Polynesien dessen Einreise- und Transitregeln separat prüfen. Medizinische Versorgung und Rücktransport vorab klären."
+        ]
+      }
+    },
+    "BH": {
+      "name": "Bahrain",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Gelbfieber-Impfnachweis ab 9 Monaten bei Einreise aus einem Gelbfiebergebiet oder einem Flughafentransit von mehr als 12 Stunden in einem solchen Gebiet."
+        ],
+        "routeDependent": [
+          "Bei Anreise über ein Gelbfiebergebiet Transitdauer und Voraufenthalte klären."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Laut STIKO-DTG-Ländertabelle ist kein lokales Malariarisiko bekannt. Für dieses Reiseziel ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Etappen separat beurteilen.",
+        "sourceLinks": [
+          {
+            "label": "STIKO-DTG-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/bahrainsicherheit-204112",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Manama",
+            "address": "Gebäude 39, Road 322, Block 327, Salmaniya Avenue, Manama",
+            "phone": "+973 17 74 52 77",
+            "emergency": "+973 39458537",
+            "scope": "Konsularisch zuständig für Bahrain.",
+            "url": "https://manama.diplo.de/bh-de/01-ueber-uns/botschaft"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/bahrainsicherheit-204112",
+        "evidenceLinks": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/bahrainsicherheit-204112",
+          "https://manama.diplo.de/bh-de/01-ueber-uns/botschaft"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/bahrainsicherheit-204112",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://manama.diplo.de/bh-de/01-ueber-uns/botschaft",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "STIKO-DTG und Auswärtiges Amt stimmen beim Gelbfiebernachweis für diese Routen überein."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "yellow_fever"
+        ],
+        "regionIds": [],
+        "reason": "Die Impfempfehlung erfordert keine Ortsauswahl im Land. Voraufenthalte und mögliche Nachweispflichten separat bewerten.",
+        "sourceUrls": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/bahrainsicherheit-204112"
+        ],
+        "otherRegionalFactors": [
+          "Bei Anreise über ein Gelbfiebergebiet Transitdauer und Voraufenthalte klären."
+        ]
+      }
+    },
+    "QA": {
+      "name": "Katar",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Aus Gelbfiebergebieten ist ab 9 Monaten ein Gelbfieber-Impfnachweis erforderlich.",
+          "Bei Einreise aus Polio-Infektionsgebieten ist ein Impfnachweis erforderlich. Die aktuelle Länderliste für die konkrete Route prüfen."
+        ],
+        "routeDependent": [
+          "Bei Voraufenthalten in Gelbfieber- oder Polio-Gebieten die Einreisevorgaben prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Laut STIKO-DTG-Ländertabelle ist kein lokales Malariarisiko bekannt. Für dieses Reiseziel ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Etappen separat beurteilen.",
+        "sourceLinks": [
+          {
+            "label": "STIKO-DTG-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/katarsicherheit/202280",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Doha",
+            "address": "Tornado Tower, Gebäude 17, Zone 60, Straße 810, Doha",
+            "phone": "+974 44 08 23 00",
+            "emergency": "+974 5552 6672",
+            "scope": "Konsularischer Bereitschaftsdienst zu den Zeiten auf der Botschaftsseite.",
+            "url": "https://doha.diplo.de/qa-de/ueber-uns/1616148-1616148"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/katarsicherheit/202280",
+        "evidenceLinks": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/katarsicherheit/202280",
+          "https://doha.diplo.de/qa-de/ueber-uns/1616148-1616148"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/katarsicherheit/202280",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://doha.diplo.de/qa-de/ueber-uns/1616148-1616148",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Tollwut: Die STIKO-DTG nennt keine routinemäßige Reiseindikation. Das Auswärtige Amt nennt eine mögliche Einzelfallindikation bei sehr einfachem Reisestil außerhalb der Städte."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "yellow_fever"
+        ],
+        "regionIds": [],
+        "reason": "Die Impfempfehlung erfordert keine Ortsauswahl im Land. Voraufenthalte und mögliche Nachweispflichten separat bewerten.",
+        "sourceUrls": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/katarsicherheit/202280"
+        ],
+        "otherRegionalFactors": [
+          "Bei Voraufenthalten in Gelbfieber- oder Polio-Gebieten die Einreisevorgaben prüfen."
+        ]
+      }
+    },
+    "KW": {
+      "name": "Kuwait",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Die STIKO-DTG-Tabelle führt für Kuwait keine Impfnachweispflicht aus Drittstaaten auf."
+        ],
+        "routeDependent": [
+          "Bei Langzeitaufenthalt oder besonderer Exposition den Impfbedarf individuell prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Laut STIKO-DTG-Ländertabelle ist kein lokales Malariarisiko bekannt. Für dieses Reiseziel ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Etappen separat beurteilen.",
+        "sourceLinks": [
+          {
+            "label": "STIKO-DTG-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kuwaitsicherheit-204130",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Kuwait",
+            "address": "Al Hamra Tower, 40. Etage, Al Shuhada Street, Sharq, 13009 Kuwait",
+            "phone": "+965 22 05 89 55",
+            "emergency": "+965 99048660",
+            "scope": "Das Konsularreferat sitzt in Salmiya. Bereitschaftszeiten stehen auf der Botschaftsseite.",
+            "url": "https://kuwait.diplo.de/kw-de/01-botschaft/1901942-1901942"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kuwaitsicherheit-204130",
+        "evidenceLinks": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kuwaitsicherheit-204130",
+          "https://kuwait.diplo.de/kw-de/01-botschaft/1901942-1901942"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kuwaitsicherheit-204130",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://kuwait.diplo.de/kw-de/01-botschaft/1901942-1901942",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Das Auswärtige Amt nennt bei besonderer Exposition oder langem Aufenthalt zusätzlich Meningokokken ACWY und Tollwut. Die STIKO-DTG-Ländertabelle empfiehlt diese für Kuwait nicht routinemäßig."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Die Impfempfehlung erfordert keine Ortsauswahl im Land. Voraufenthalte und mögliche Nachweispflichten separat bewerten.",
+        "sourceUrls": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/kuwaitsicherheit-204130"
+        ],
+        "otherRegionalFactors": [
+          "Bei Langzeitaufenthalt oder besonderer Exposition den Impfbedarf individuell prüfen."
+        ]
+      }
+    },
+    "SA": {
+      "name": "Saudi-Arabien",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Hepatitis B",
+          "Typhus",
+          "Dengue",
+          "Chikungunya"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind für gewöhnliche Reisen in der Regel keine Pflichtimpfungen vorgesehen.",
+          "Für Hadsch und Umrah den Meningokokken-ACWY-Impfnachweis und die weiteren Vorgaben der konkreten Reisesaison beim saudischen Gesundheitsministerium prüfen. Für den Hadsch 2026 war ein Mindestabstand von 10 Tagen vor Ankunft vorgesehen.",
+          "Bei Einreise aus Gelbfieber- oder Polio-Risikogebieten und bei relevantem Transit die Anforderungen für die konkrete Route prüfen. Beim Gelbfiebernachweis unterscheiden sich die Altersgrenzen je nach Quelle."
+        ],
+        "routeDependent": [
+          "Hadsch und Umrah bei der Beratung ausdrücklich abfragen. Die STIKO-DTG nennt Meningokokken ACWY für Pilgerreisen.",
+          "Für Aseer oder Dschazan sind genauer Übernachtungsort und Route für die Malariaberatung entscheidend.",
+          "Dengue- und Chikungunya-Impfung nur bei erfüllter individueller Indikation erwägen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "regional",
+        "preventionType": "regional_assessment_required",
+        "regions": [
+          "Südwesten: Aseer (Asir) und Dschazan (Jazan): DTG und Auswärtiges Amt nennen ein geringes Risiko in Aseer und empfehlen Mückenschutz. Die CDC berücksichtigen auch grenznahe Teile Dschazans und empfehlen für die von ihnen definierten Gebiete eine medikamentöse Prophylaxe. Genaue Etappe und Prophylaxe ärztlich klären.",
+          "Djidda, Mekka, Medina, Riad und Taif (Stadtaufenthalte): Für diese Städte nennen die CDC keine Malariaübertragung. Etappen außerhalb der Städte separat beurteilen. Mückenschutz bleibt wegen anderer mückenübertragener Infektionen sinnvoll."
+        ],
+        "medicationName": null,
+        "clinicalRecommendation": "Für den Südwesten unterscheiden sich Abgrenzung und Prophylaxe-Empfehlungen der Quellen. Mückenschutz beachten und bei Südwest- oder unklaren Etappen die genaue Route reisemedizinisch bewerten lassen.",
+        "sourceLinks": [
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/saudiarabiensicherheit-202298",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/extended_student/saudi-arabia",
+            "use": "external_link_only"
+          },
+          {
+            "label": "DTG-Länderinformationen",
+            "url": "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Riad",
+            "address": "8051 Abdullah Ibn Huthafa Al Sahmi Street, 3094 Assafarat District, 12513 Riad",
+            "phone": "+966 11 277 69 00",
+            "emergency": null,
+            "scope": "Konsularisch unter anderem für Riad, die Ost- und die Nordprovinzen zuständig.",
+            "url": "https://saudiarabien.diplo.de/ksa-de/ueber-uns/botschaft/2616222-2616222"
+          },
+          {
+            "title": "Deutsches Generalkonsulat Djidda",
+            "address": "Gebäude 60, Marwan bin Abdulrahman Street (152), Al Muhammadeyyah 5, Djidda",
+            "phone": "+966 12 699 64 36",
+            "emergency": null,
+            "scope": "Unter anderem für Mekka, Medina, Asir und Dschazan zuständig. Das Dienstleistungsangebot vorab prüfen.",
+            "url": "https://saudiarabien.diplo.de/"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/saudiarabiensicherheit-202298",
+        "evidenceLinks": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/saudiarabiensicherheit-202298",
+          "https://saudiarabien.diplo.de/ksa-de/ueber-uns/botschaft/2616222-2616222",
+          "https://saudiarabien.diplo.de/",
+          "https://www.moh.gov.sa/en/healthawareness/pilgrims-health/pages/default.aspx",
+          "https://www.moh.gov.sa/HealthAwareness/Pilgrims-Health/Documents/Hajj-Health-Requirements-English-language.pdf",
+          "https://www.moh.gov.sa/en/HealthAwareness/Pilgrims-Health/Documents/Health-Regulations-Umrah-EN.pdf",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/extended_student/saudi-arabia",
+          "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/saudiarabiensicherheit-202298",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://saudiarabien.diplo.de/ksa-de/ueber-uns/botschaft/2616222-2616222",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://saudiarabien.diplo.de/",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.moh.gov.sa/en/healthawareness/pilgrims-health/pages/default.aspx",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.moh.gov.sa/HealthAwareness/Pilgrims-Health/Documents/Hajj-Health-Requirements-English-language.pdf",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.moh.gov.sa/en/HealthAwareness/Pilgrims-Health/Documents/Health-Regulations-Umrah-EN.pdf",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/extended_student/saudi-arabia",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Gelbfieber: Die STIKO-DTG nennt ab 9 Monaten, das Auswärtige Amt ab 12 Monaten. Bei kleinen Kindern und längerem Transit die gültige Regel vorab bei den zuständigen Behörden klären.",
+          "Hadsch 1447/2026: Das saudische Gesundheitsministerium nennt zusätzlich COVID-19-Nachweise für bestimmte Gruppen und herkunftsbezogene Polio-Auflagen. Für künftige Reisen die Vorgaben der jeweiligen Saison heranziehen.",
+          "Tollwut: Die STIKO-DTG nennt keine routinemäßige Indikation, das Auswärtige Amt empfiehlt eine individuelle Prüfung bei besonderer Exposition oder Langzeitaufenthalt."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [
+          "Südwesten: Aseer (Asir) und Dschazan (Jazan): DTG und Auswärtiges Amt nennen ein geringes Risiko in Aseer und empfehlen Mückenschutz. Die CDC berücksichtigen auch grenznahe Teile Dschazans und empfehlen für die von ihnen definierten Gebiete eine medikamentöse Prophylaxe. Genaue Etappe und Prophylaxe ärztlich klären.",
+          "Djidda, Mekka, Medina, Riad und Taif (Stadtaufenthalte): Für diese Städte nennen die CDC keine Malariaübertragung. Etappen außerhalb der Städte separat beurteilen. Mückenschutz bleibt wegen anderer mückenübertragener Infektionen sinnvoll."
+        ],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": true,
+        "topics": [
+          "malaria",
+          "dengue",
+          "chikungunya",
+          "yellow_fever",
+          "other"
+        ],
+        "regionIds": [
+          "SA-SOUTHWEST",
+          "SA-MAIN-CITIES"
+        ],
+        "reason": "Die Malariabewertung hängt von der konkreten Etappe im Südwesten ab. Pilgerauflagen richten sich nach Reisezweck und Reisesaison.",
+        "sourceUrls": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/saudiarabiensicherheit-202298",
+          "https://www.moh.gov.sa/en/healthawareness/pilgrims-health/pages/default.aspx",
+          "https://www.moh.gov.sa/HealthAwareness/Pilgrims-Health/Documents/Hajj-Health-Requirements-English-language.pdf",
+          "https://www.moh.gov.sa/en/HealthAwareness/Pilgrims-Health/Documents/Health-Regulations-Umrah-EN.pdf",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/extended_student/saudi-arabia",
+          "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html"
+        ],
+        "otherRegionalFactors": [
+          "Hadsch und Umrah bei der Beratung ausdrücklich abfragen. Die STIKO-DTG nennt Meningokokken ACWY für Pilgerreisen.",
+          "Für Aseer oder Dschazan sind genauer Übernachtungsort und Route für die Malariaberatung entscheidend.",
+          "Dengue- und Chikungunya-Impfung nur bei erfüllter individueller Indikation erwägen."
         ]
       }
     }

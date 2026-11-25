@@ -4706,6 +4706,38 @@
       ],
       "reuseRightsChecked": true,
       "summary": "Das Auswärtige Amt stuft die Corn Islands als Gebiet mit geringem Risiko ein. Bei der CDC fallen die Inseln unter die weiter gefasste autonome Karibikküste Süd. Inselaufenthalt und Anreise vorab gesondert abklären."
+    },
+    {
+      "id": "SA-SOUTHWEST",
+      "country": "SA",
+      "status": "source_conflict",
+      "scope": "Südwesten: Aseer (Asir) und Dschazan (Jazan)",
+      "checkedAt": "2026-11-25",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/saudiarabiensicherheit-202298",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/extended_student/saudi-arabia",
+        "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "DTG und Auswärtiges Amt nennen ein geringes Risiko in Aseer und empfehlen Mückenschutz. Die CDC berücksichtigen auch grenznahe Teile Dschazans und empfehlen für die von ihnen definierten Gebiete eine medikamentöse Prophylaxe. Genaue Etappe und Prophylaxe ärztlich klären."
+    },
+    {
+      "id": "SA-MAIN-CITIES",
+      "country": "SA",
+      "status": "supported",
+      "scope": "Djidda, Mekka, Medina, Riad und Taif (Stadtaufenthalte)",
+      "checkedAt": "2026-11-25",
+      "nextSourceCheckDate": "2027-01-15",
+      "sourceUrls": [
+        "https://www.auswaertiges-amt.de/de/reiseundsicherheit/saudiarabiensicherheit-202298",
+        "https://wwwnc.cdc.gov/travel/destinations/traveler/extended_student/saudi-arabia",
+        "https://dtg.org/empfehlungen-und-leitlinien/empfehlungen/malaria/laenderinformationen.html"
+      ],
+      "reuseRightsChecked": true,
+      "summary": "Für diese Städte nennen die CDC keine Malariaübertragung. Etappen außerhalb der Städte separat beurteilen. Mückenschutz bleibt wegen anderer mückenübertragener Infektionen sinnvoll.",
+      "riskLevel": "none",
+      "preventionType": "none"
     }
   ]
 }

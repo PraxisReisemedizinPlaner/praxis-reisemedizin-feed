@@ -8293,6 +8293,72 @@
         "clinicalRecommendation": null
       },
       "publicationAllowed": false
+    },
+    {
+      "country": "SA",
+      "id": "SA-SOUTHWEST",
+      "name": "Südwesten: Aseer (Asir) und Dschazan (Jazan)",
+      "aliases": [
+        "Asir",
+        "Aseer",
+        "Jazan",
+        "Jizan",
+        "Dschazan",
+        "Grenze zum Jemen"
+      ],
+      "kind": "region",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
+    },
+    {
+      "country": "SA",
+      "id": "SA-MAIN-CITIES",
+      "name": "Djidda, Mekka, Medina, Riad und Taif (Stadtaufenthalte)",
+      "aliases": [
+        "Djidda",
+        "Jeddah",
+        "Dschidda",
+        "Mekka",
+        "Makkah",
+        "Mecca",
+        "Medina",
+        "Madinah",
+        "Riad",
+        "Riyadh",
+        "Taif",
+        "Ta’if"
+      ],
+      "kind": "city",
+      "geographicalEntry": "candidate",
+      "clinicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "sourceUrls": [],
+        "reuseRightsChecked": false
+      },
+      "malariaAssessment": {
+        "riskLevel": null,
+        "preventionType": null,
+        "medicationName": null,
+        "clinicalRecommendation": null
+      },
+      "publicationAllowed": false
     }
   ]
 }
