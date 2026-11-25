@@ -3,7 +3,7 @@
   "dataset": "praxis-dr-muenster-reisecheck-country-profiles",
   "edition": "v16-development-2026-11-11",
   "mode": "DRAFT_ONLY_NOT_CONNECTED_TO_LIVE_WEBSITE",
-  "countryCount": 154,
+  "countryCount": 158,
   "policy": {
     "approvedProfilesOnly": true,
     "legacySuggestionsMustNeverBePublished": true,
@@ -27796,11 +27796,36 @@
     "IM": {
       "name": "Isle of Man",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grossbritannien-206412",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -27808,7 +27833,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [],
         "riskBased": [
           "Hepatitis B"
@@ -27821,7 +27846,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -27841,7 +27866,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft London",
@@ -27856,7 +27881,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-25",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-25",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
         "evidenceLinks": [
@@ -27895,7 +27920,7 @@
           "Reisepass und gegebenenfalls die elektronische Reisegenehmigung (ETA) für die konkrete Route prüfen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -27904,7 +27929,7 @@
           "checkedAt": "2026-11-25"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-25",
         "regionalSelectionRequired": false,
@@ -27924,11 +27949,30 @@
     "GI": {
       "name": "Gibraltar",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/grossbritannien-206412",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -27936,7 +27980,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [],
         "riskBased": [
           "Hepatitis B"
@@ -27949,7 +27993,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -27969,7 +28013,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsche Botschaft London",
@@ -27984,7 +28028,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-25",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-25",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/grossbritanniensicherheit-206408",
         "evidenceLinks": [
@@ -28016,7 +28060,7 @@
           "Bei Anreise über Spanien auch dessen Einreisebedingungen prüfen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -28025,7 +28069,7 @@
           "checkedAt": "2026-11-25"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-25",
         "regionalSelectionRequired": false,
@@ -28044,11 +28088,30 @@
     "GL": {
       "name": "Grönland",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/daenemarksicherheit/211724",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/daenemark-211716",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -28056,7 +28119,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [],
         "riskBased": [
           "Hepatitis B"
@@ -28069,7 +28132,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -28089,7 +28152,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsches Honorarkonsulat Nuuk",
@@ -28104,7 +28167,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-25",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-25",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/daenemarksicherheit/211724",
         "evidenceLinks": [
@@ -28136,7 +28199,7 @@
           "Für abgelegene Routen das arktische Klima und die Möglichkeiten zur medizinischen Versorgung und Evakuierung berücksichtigen."
         ],
         "proposedNextReviewDate": "2027-01-15",
-        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "warning": "Länderpaket ärztlich freigegeben.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
         "vaccinationBasis": {
@@ -28145,7 +28208,7 @@
           "checkedAt": "2026-11-25"
         }
       },
-      "publicationAllowed": false,
+      "publicationAllowed": true,
       "routeAssessment": {
         "assessedAt": "2026-11-25",
         "regionalSelectionRequired": false,
@@ -28164,11 +28227,30 @@
     "FO": {
       "name": "Färöer",
       "medicalReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "nextReviewDate": null,
-        "approvedSources": []
+        "status": "approved",
+        "reviewer": "Dr. med. Sebastian Münster",
+        "reviewedAt": "2026-11-25",
+        "nextReviewDate": "2027-01-15",
+        "approvedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/daenemarksicherheit/211724",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/daenemark-211716",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ]
       },
       "legacySnapshot": {
         "capturedFrom": "Independent official-source research",
@@ -28176,7 +28258,7 @@
         "important": "Provenance only."
       },
       "vaccineAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "forAll": [],
         "riskBased": [
           "Hepatitis B"
@@ -28189,7 +28271,7 @@
         ]
       },
       "malariaAssessment": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "riskLevel": "none",
         "preventionType": "none",
         "regions": [],
@@ -28209,7 +28291,7 @@
         ]
       },
       "missions": {
-        "status": "prepared_for_review",
+        "status": "approved",
         "verifiedEntries": [
           {
             "title": "Deutsches Honorarkonsulat Tórshavn",
@@ -28224,7 +28306,7 @@
       "sourceReview": {
         "researchReady": true,
         "researchCheckedAt": "2026-11-25",
-        "reviewedAt": null,
+        "reviewedAt": "2026-11-25",
         "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
         "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/daenemarksicherheit/211724",
         "evidenceLinks": [
@@ -28256,6 +28338,251 @@
           "Reisedokumente für die Färöer und für Zwischenstopps anhand der konkreten Route prüfen."
         ],
         "proposedNextReviewDate": "2027-01-15",
+        "warning": "Länderpaket ärztlich freigegeben.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": true,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/daenemarksicherheit/211724"
+        ],
+        "otherRegionalFactors": [
+          "Standardimpfschutz prüfen. Zwischenstopps und weitere Reiseziele einzeln beurteilen."
+        ]
+      }
+    },
+    "AX": {
+      "name": "Ålandinseln",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [],
+        "riskBased": [
+          "FSME bei Zeckenexposition",
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Für dieses Reiseziel sind laut RKI-Ländertabelle keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "FSME-Impfung bei möglicher Zeckenexposition besprechen. Bei Aktivitäten im Freien auf Zeckenschutz achten."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/finnlandsicherheit-211624",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsches Honorarkonsulat Mariehamn",
+            "address": "Axtours.ax Ab, Storagatan 14, 22100 Mariehamn, Finnland",
+            "phone": "+358 457 313 4944",
+            "emergency": null,
+            "scope": "Örtliche konsularische Anlaufstelle für die Ålandinseln. Sprechzeiten laut Originalquelle.",
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/finnland-211628"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/finnlandsicherheit-211624",
+        "evidenceLinks": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/finnlandsicherheit-211624",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/finnland-211628"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/finnlandsicherheit-211624",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/reiseundsicherheit/deutsche-auslandsvertretungen/finnland-211628",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO-Ländertabelle stuft die Ålandinseln als FSME-Hochendemiegebiet ein. Aktivitäten mit möglicher Zeckenexposition für die Beratung erfassen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [
+          "tick_borne"
+        ],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/reiseundsicherheit/finnlandsicherheit-211624"
+        ],
+        "otherRegionalFactors": [
+          "FSME-Impfung bei möglicher Zeckenexposition besprechen. Bei Aktivitäten im Freien auf Zeckenschutz achten."
+        ]
+      }
+    },
+    "HK": {
+      "name": "Hongkong",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Für dieses Reiseziel sind laut RKI-Ländertabelle keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Standardimpfschutz prüfen. Zwischenstopps und weitere Reiseziele einzeln beurteilen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/hongkongsicherheit/200854",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsches Generalkonsulat Hongkong",
+            "address": "21/F United Centre, 95 Queensway, Admiralty, Hongkong",
+            "phone": "+852 2105 8777",
+            "emergency": "+86 10 8532 9202",
+            "scope": "Konsularisch zuständig für Hongkong und Macau. Bereitschaftsdienst siehe Originalquelle.",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/hongkong-node/hongkong-200858"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/hongkongsicherheit/200854",
+        "evidenceLinks": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/hongkongsicherheit/200854",
+          "https://www.auswaertiges-amt.de/de/service/laender/hongkong-node/hongkong-200858"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/hongkongsicherheit/200854",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/hongkong-node/hongkong-200858",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Bei Weiterreise in das chinesische Festland oder nach Macau die jeweiligen Einreise- und Gesundheitsinformationen separat prüfen."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
         "warning": "Ärztliche Länderfreigabe steht aus.",
         "regionalReview": [],
         "regionalReviewUntil": "2027-01-15",
@@ -28274,10 +28601,270 @@
         "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
         "sourceUrls": [
           "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
-          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/daenemarksicherheit/211724"
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/hongkongsicherheit/200854"
         ],
         "otherRegionalFactors": [
           "Standardimpfschutz prüfen. Zwischenstopps und weitere Reiseziele einzeln beurteilen."
+        ]
+      }
+    },
+    "MO": {
+      "name": "Macau",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Hepatitis B",
+          "Tollwut"
+        ],
+        "entryRequirements": [
+          "Für dieses Reiseziel sind laut RKI-Ländertabelle keine Pflichtimpfungen vorgesehen."
+        ],
+        "routeDependent": [
+          "Tollwutimpfung bei entsprechendem Tierkontakt oder erschwertem Zugang zu medizinischer Versorgung individuell prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/macausicherheit/200872",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsches Generalkonsulat Hongkong",
+            "address": "21/F United Centre, 95 Queensway, Admiralty, Hongkong",
+            "phone": "+852 2105 8777",
+            "emergency": "+86 10 8532 9202",
+            "scope": "Konsularisch zuständig für Hongkong und Macau. Bereitschaftsdienst siehe Originalquelle.",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/hongkong-node/hongkong-200858"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/macausicherheit/200872",
+        "evidenceLinks": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/macausicherheit/200872",
+          "https://www.auswaertiges-amt.de/de/service/laender/hongkong-node/hongkong-200858"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/macausicherheit/200872",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/hongkong-node/hongkong-200858",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Die STIKO-Ländertabelle nennt ein moderates Tollwutrisiko bei Hunden. Bei Weiterreise in das chinesische Festland gelten dessen eigene Regeln."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/macausicherheit/200872"
+        ],
+        "otherRegionalFactors": [
+          "Tollwutimpfung bei entsprechendem Tierkontakt oder erschwertem Zugang zu medizinischer Versorgung individuell prüfen."
+        ]
+      }
+    },
+    "CX": {
+      "name": "Weihnachtsinsel (Australien)",
+      "medicalReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "nextReviewDate": null,
+        "approvedSources": []
+      },
+      "legacySnapshot": {
+        "capturedFrom": "Independent official-source research",
+        "originalCheckedDate": "2026-11-25",
+        "important": "Provenance only."
+      },
+      "vaccineAssessment": {
+        "status": "prepared_for_review",
+        "forAll": [
+          "Hepatitis A"
+        ],
+        "riskBased": [
+          "Hepatitis B"
+        ],
+        "entryRequirements": [
+          "Bei direkter Einreise aus Deutschland sind keine Pflichtimpfungen vorgesehen.",
+          "Ab 1 Jahr ist bei Einreise aus einem Gelbfieber-Risikogebiet oder nach mehr als 12 Stunden Flughafentransit in einem solchen Gebiet ein Gelbfieber-Impfnachweis erforderlich.",
+          "Für Anreise von den Galápagos-Inseln nennen RKI und CDC eine Ausnahme. Andere Zwischenstopps gesondert prüfen."
+        ],
+        "routeDependent": [
+          "Voraufenthalte und Flughafentransits für den Gelbfiebernachweis prüfen."
+        ]
+      },
+      "malariaAssessment": {
+        "status": "prepared_for_review",
+        "riskLevel": "none",
+        "preventionType": "none",
+        "regions": [],
+        "medicationName": null,
+        "clinicalRecommendation": "Für dieses Reiseziel ist laut RKI-Ländertabelle kein lokales Malariarisiko bekannt. Für den Aufenthalt dort ist keine medikamentöse Malariaprophylaxe vorgesehen. Weitere Reiseetappen separat bewerten.",
+        "sourceLinks": [
+          {
+            "label": "RKI-Ländertabelle",
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "use": "external_link_only"
+          },
+          {
+            "label": "Auswärtiges Amt",
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/australien-node/australiensicherheit-213920",
+            "use": "external_link_only"
+          },
+          {
+            "label": "CDC",
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Christmas-Island",
+            "use": "external_link_only"
+          }
+        ]
+      },
+      "missions": {
+        "status": "prepared_for_review",
+        "verifiedEntries": [
+          {
+            "title": "Deutsche Botschaft Canberra",
+            "address": "119 Empire Circuit, Yarralumla ACT 2600, Australien",
+            "phone": "+61 2 6270 1911",
+            "emergency": "+61 412 359 826",
+            "scope": "Australienweite konsularische Anlaufstelle. Vor einem Besuch die zuständige Vertretung beim Auswärtigen Amt erfragen.",
+            "url": "https://australien.diplo.de/au-de/ueber-uns/botschaft"
+          }
+        ]
+      },
+      "sourceReview": {
+        "researchReady": true,
+        "researchCheckedAt": "2026-11-25",
+        "reviewedAt": null,
+        "rkiTravelVaccination": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+        "externalCountryInformation": "https://www.auswaertiges-amt.de/de/service/laender/australien-node/australiensicherheit-213920",
+        "evidenceLinks": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/service/laender/australien-node/australiensicherheit-213920",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Christmas-Island",
+          "https://australien.diplo.de/au-de/ueber-uns/botschaft"
+        ],
+        "proposedSources": [
+          {
+            "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://www.auswaertiges-amt.de/de/service/laender/australien-node/australiensicherheit-213920",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Christmas-Island",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          },
+          {
+            "url": "https://australien.diplo.de/au-de/ueber-uns/botschaft",
+            "checkedAt": "2026-11-25",
+            "reuseRightsChecked": true,
+            "use": "external_link_only"
+          }
+        ],
+        "researchNotes": [
+          "Für die Weihnachtsinsel gelten bei Gelbfieber besondere Einreiseregeln. Die CDC führen die Ausnahme für die Galápagos-Inseln auf."
+        ],
+        "proposedNextReviewDate": "2027-01-15",
+        "warning": "Ärztliche Länderfreigabe steht aus.",
+        "regionalReview": [],
+        "regionalReviewUntil": "2027-01-15",
+        "vaccinationBasis": {
+          "authority": "STIKO",
+          "url": "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "checkedAt": "2026-11-25"
+        }
+      },
+      "publicationAllowed": false,
+      "routeAssessment": {
+        "assessedAt": "2026-11-25",
+        "regionalSelectionRequired": false,
+        "topics": [],
+        "regionIds": [],
+        "reason": "Für die Einordnung innerhalb des Reiseziels ist keine Ortsauswahl erforderlich. Voraufenthalte, Transit und weitere Inselziele separat prüfen.",
+        "sourceUrls": [
+          "https://www.rki.de/DE/Aktuelles/Publikationen/Epidemiologisches-Bulletin/2026/27_26_Anhang.pdf?__blob=publicationFile&v=4",
+          "https://www.auswaertiges-amt.de/de/service/laender/australien-node/australiensicherheit-213920",
+          "https://wwwnc.cdc.gov/travel/destinations/traveler/none/Christmas-Island"
+        ],
+        "otherRegionalFactors": [
+          "Voraufenthalte und Flughafentransits für den Gelbfiebernachweis prüfen."
         ]
       }
     }
